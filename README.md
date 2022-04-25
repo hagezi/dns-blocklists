@@ -7,4 +7,4 @@
 **Domain-Format:** [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt)         
 **Host-Format:** [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/multi.txt)         
 
-***Updated daily!***
+***For a better internet - updated daily!***
