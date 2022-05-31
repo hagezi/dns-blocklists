@@ -129,6 +129,6 @@
 
 ---
 
-***Keep the internet clean!***
+***Keep the internet clean! - Join r/DNSBlocklists on [Reddit](https://www.reddit.com/r/DNSBlocklists/)***
 
 ---
