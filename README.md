@@ -129,6 +129,11 @@
 
 ---
 
+### ***Stargazers***
+[![Stargazers repo roster for @hagezi/dns-blocklists](https://reporoster.com/stars/dark/hagezi/dns-blocklists)](https://github.com/hagezi/dns-blocklists/stargazers)
+
+---
+
 ***Keep the internet clean! - Join r/DNSBlocklists on [Reddit](https://www.reddit.com/r/DNSBlocklists/)***
 
 ---
