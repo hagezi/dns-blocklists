@@ -4,33 +4,52 @@
 ## DNS Blocklists - *For a better internet!*
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
-*An all in one DNS blocklist based on:*
-- [OISD basic/full](https://oisd.nl/)
+*An all in one DNS blocklist in **three variations (light, normal and pro)** based on:*
+- [OISD basic/full](https://oisd.nl/downloads)
+- [OISD extra](https://oisd.nl/downloadsXtra) 
 - [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
+- [NoTracking](https://github.com/notracking/hosts-blocklists)
 - [Steven Black Hosts](https://github.com/StevenBlack/hosts) *(includes: AdAway, MVPS hosts, shady-hosts, someonewhocares, yoyo.org and more)*
 - [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
 - [EasyList](https://easylist.to/) *(simplified for DNS level blocking)*
 - [uBlock uAssets](https://github.com/uBlockOrigin/uAssets) *(simplified for DNS level blocking)*
 - [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
+- [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
+- [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
+- [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
 - [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
 
 *It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap".*
 
-**Multi full** (>1.000.000 unique domains / >300.000 compressed domains):
+#### ***Multi NORMAL*** (recommended)
+**All-round protection without restrictions** (>1.200.000 unique domains / >400.000 compressed domains):
 
 *Domain-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt)         
 *Host-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/multi.txt)         
 *AdBlock-/AdGuard-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt)         
 *Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/multi.blacklist.conf)
 
-*There is also a **light version** of the **multi list**, which contains only the most important hosts. It can be used for adblockers that have problems with processing large lists.*
+#### ***Multi LIGHT***
+**Light protection, only the most important hosts** (>200.000 unique domains / >100.000 compressed domains):
 
-**Multi light** (>200.000 unique domains / >100.000 compressed domains):
+*There is also a **light version** of the **multi list**, which contains only the most important hosts. It can be used for adblockers that have problems with processing large lists.*
 
 *Domain-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt)         
 *Host-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt)         
 *AdBlock-/AdGuard-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt)         
 *Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf)
+
+#### ***Multi PRO***
+**Maximum protection, restrictions possible, only for experienced users.** (>1.400.000 unique domains / >500.000 compressed domains):
+
+*For the experienced user there is also a **pro version** of the **multi list**. The list may contain false positive domains that limit functionality. When using, an admin should be present who can whitelist domains!*
+
+***If you find a domain that restricts functionality, please report this false positive domain as an [issue](https://github.com/hagezi/dns-blocklists/issues).***
+
+*Domain-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt)         
+*Host-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt)         
+*AdBlock-/AdGuard-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)         
+*Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/pro.blacklist.conf)
 
 **Expires:** *24 hours (update frequency)*
 
@@ -53,7 +72,7 @@
 ### ***Threat Intelligence Feeds - Increases security significantly!***
 *An blocklist for blocking malware, crypto, coin, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers. Based on various valid malware sources.*    
 
-*Only partially included in the multi blocklist, can be used as an extension.*
+*Included in multi pro. Only partially included in multi normal, not included in multi light. Can be used as an extension.*
 
 *Domain-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt)         
 *Host-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/tif.txt)         
