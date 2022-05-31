@@ -134,6 +134,6 @@
 
 ---
 
-***Keep the internet clean! - Join r/DNSBlocklists on [Reddit](https://www.reddit.com/r/DNSBlocklists/)***
+### ***Keep the internet clean! - Join r/DNSBlocklists on [Reddit](https://www.reddit.com/r/DNSBlocklists/)***
 
 ---
