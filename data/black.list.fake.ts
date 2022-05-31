@@ -4,11 +4,18 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-05-24
+# Last modified: 2021-05-31
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+vivianelektro.de
+wang-caravan.com
+gc-reality.com
+darindo.de
+kaufdisney.de
+josh-shop.de
+fahrradblitz.de
 klax24.de
 antobi-shop.de
 autocentret-biludlejning.de
