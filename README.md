@@ -79,7 +79,7 @@
 *AdBlock-/AdGuard-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt)         
 *Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)
 
-**Expires:** *8 hours (update frequency)*
+**Expires:** *24 hours (update frequency)*
 
 ---
 
