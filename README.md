@@ -5,8 +5,7 @@
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
 *An all in one DNS blocklist in **three versions (light, normal and pro)**, based on:*
-- [OISD basic/full](https://oisd.nl/downloads)
-- [OISD extra](https://oisd.nl/downloadsXtra) 
+- [OISD](https://oisd.nl/downloads)
 - [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
 - [NoTracking](https://github.com/notracking/hosts-blocklists)
 - [Steven Black Hosts](https://github.com/StevenBlack/hosts) *(includes: AdAway, MVPS hosts, shady-hosts, someonewhocares, yoyo.org and more)*
@@ -37,7 +36,7 @@
 ---
          
 #### ***Multi NORMAL*** (recommended)
-**All-round protection without restrictions** (>1.200.000 unique domains / >400.000 compressed domains):
+**All-round protection without restrictions**:
 
 *Domain-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt)         
 *Host-Format:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/multi.txt)         
@@ -45,7 +44,7 @@
 *Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/multi.blacklist.conf)
 
 #### ***Multi LIGHT***
-**Light protection, only the most important hosts** (>200.000 unique domains / >100.000 compressed domains):
+**Light protection, only the most important hosts**:
 
 *There is also a **light version** of the **multi list**, which contains only the most important hosts. It can be used for adblockers that have problems with processing large lists.*
 
@@ -55,7 +54,7 @@
 *Unbound-Format (compressed):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf)
 
 #### ***Multi PRO***
-**Maximum protection, restrictions possible, only for experienced users.** (>1.400.000 unique domains / >500.000 compressed domains):
+**Maximum protection, restrictions possible, only for experienced users**:
 
 *For the experienced user there is also a **pro version** of the **multi list**. The list may contain false positive domains that limit functionality. When using, an admin should be present who can whitelist domains!*
 
