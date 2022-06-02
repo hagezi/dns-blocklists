@@ -15,7 +15,7 @@
 - [uBlock uAssets](https://github.com/uBlockOrigin/uAssets) *(simplified for DNS level blocking)*
 - [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
 - [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
-- [Quids NoTrack](https://gitlab.com/quidsup) *(Tracker, Annoyance and Malware blocklist)
+- [Quids NoTrack](https://gitlab.com/quidsup) *(Tracker, Annoyance and Malware blocklist)*
 - [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
 - [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
 - [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
