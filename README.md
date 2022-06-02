@@ -4,7 +4,7 @@
 ## DNS Blocklists - *For a better internet!*
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
-*An all in one DNS blocklist in **three versions (light, normal and pro)** based on:*
+*An all in one DNS blocklist in **three versions (light, normal and pro)**, based on:*
 - [OISD basic/full](https://oisd.nl/downloads)
 - [OISD extra](https://oisd.nl/downloadsXtra) 
 - [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
@@ -14,9 +14,11 @@
 - [EasyList](https://easylist.to/) *(simplified for DNS level blocking)*
 - [uBlock uAssets](https://github.com/uBlockOrigin/uAssets) *(simplified for DNS level blocking)*
 - [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
+- [BlahDNS Blacklist](https://github.com/ookangzheng/blahdns)
 - [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
 - [Quids NoTrack](https://gitlab.com/quidsup) *(Tracker, Annoyance and Malware blocklist)*
 - [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
+- [Costin Raiu Mobiletrackers](https://github.com/craiu/mobiletrackers)
 - [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
 - [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
 
