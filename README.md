@@ -4,7 +4,7 @@
 ## DNS Blocklists - *For a better internet!*
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
-*An all in one DNS blocklist in **three variations (light, normal and pro)** based on:*
+*An all in one DNS blocklist in **three versions (light, normal and pro)** based on:*
 - [OISD basic/full](https://oisd.nl/downloads)
 - [OISD extra](https://oisd.nl/downloadsXtra) 
 - [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
@@ -19,8 +19,20 @@
 - [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
 - [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
 
-*It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap".*
+*It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap" and is available in 3 versions.*
 
+#### ***Multi blocklist version overview:***
+| Version | Pro | Normal | Light | [Fake](https://github.com/hagezi/dns-blocklists#fake---protects-against-internet-scams-traps--fakes) | [TIF](https://github.com/hagezi/dns-blocklists#threat-intelligence-feeds---increases-security-significantly) | [Bypass](https://github.com/hagezi/dns-blocklists#dohvpntorproxy-bypass---prevent-methods-to-bypass-your-dns) | [Safesearch](https://github.com/hagezi/dns-blocklists#safesearch-not-supported---prevent-the-use-of-search-engines-that-do-not-support-safesearch) | Personal | Based blocklists | Additional hosts | 
+|:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|:----------------:|:----------------:|
+| [Normal](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X | P |   |
+| [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X | P |   |
+| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X | X | X |
+
+*X = contains the named lists in the column header*       
+*P = partially contains the named list in the column header*       
+
+---
+         
 #### ***Multi NORMAL*** (recommended)
 **All-round protection without restrictions** (>1.200.000 unique domains / >400.000 compressed domains):
 
