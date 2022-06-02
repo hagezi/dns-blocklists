@@ -16,7 +16,7 @@
 - [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
 - [BlahDNS Blacklist](https://github.com/ookangzheng/blahdns)
 - [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
-- [Quids NoTrack](https://gitlab.com/quidsup) *(Tracker, Annoyance and Malware blocklist)*
+- [Quids NoTrack](https://gitlab.com/quidsup) *(Annoyance and Malware blocklist)*
 - [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
 - [Costin Raiu Mobiletrackers](https://github.com/craiu/mobiletrackers)
 - [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
