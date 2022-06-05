@@ -4,10 +4,10 @@
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: Updated regularly
-! Version: 2022.0605.014236
-! Last modified: So 5. Jun 01:42:36 UTC 2022
+! Version: 2022.0605.043120
+! Last modified: So 5. Jun 04:31:20 UTC 2022
 ! Syntax: AdBlock
-! Domains: 6749
+! Domains: 6730
 !
 ||00917082-71e9-498e-8343-00c3df06b798.edge.permutive.app^
 ||01c54544-2.we-stats.com^
@@ -504,6 +504,7 @@
 ||adsrvr.org^
 ||ads.rwadx.com^
 ||ads.samba.tv^
+||ads.scorecardresearch.com^
 ||ads.servebom.com^
 ||ads.servenobid.com^
 ||ads.spitogatos.gr^
@@ -516,7 +517,6 @@
 ||ads.themoneytizer.com^
 ||ads.thesun.co.uk^
 ||ads.thetimes.co.uk^
-||ads.tiktok.com^
 ||ads-tmg.adhese.com^
 ||ads.trafficjunky.net^
 ||ads.travelaudience.com^
@@ -784,7 +784,6 @@
 ||analytics.schoolwires.com^
 ||analytics-sdk.yle.fi^
 ||analytics.services.distractify.com^
-||analytics-sg.tiktok.com^
 ||analytics.shareaholic.com^
 ||analytics.shorte.st^
 ||analytics.similarweb.com^
@@ -811,7 +810,6 @@
 ||analytics.thetab.com^
 ||analytics.thevideo.me^
 ||analytics.ticketmaster.de^
-||analytics.tiktok.com^
 ||analytics.trovit.com^
 ||analytics.tver.jp^
 ||analytics-udg.netdna-ssl.com^
@@ -2710,6 +2708,7 @@
 ||encodehelped.com^
 ||encyclopediabritannica.blueconic.net^
 ||endpoint1.collection.us2.sumologic.com^
+||end.scorecardresearch.com^
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
 ||engage.uq.edu.au^
@@ -2925,7 +2924,6 @@
 ||fresnel-events.vimeocdn.com^
 ||freychang.fun^
 ||fridgequote.com^
-||frontier-va.tiktokv.com^
 ||frtag-relay.iocnt.net^
 ||frtn.socdm.com^
 ||fsm.lapresse.ca^
@@ -2996,8 +2994,6 @@
 ||gdpr.api.dmp.nsaudience.pl^
 ||gdpr.studybreakmedia.com^
 ||gearwom.de^
-||gecko16-normal-c-useast1a.tiktokv.com^
-||gecko-va.tiktokv.com^
 ||g.eclick.vn^
 ||gem.gbc.criteo.com^
 ||gemhu.adocean.pl^
@@ -3108,8 +3104,6 @@
 ||googlecommerce.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
-||googletagmanager.com^
-||googletagservices.com^
 ||go.rcvlink.com^
 ||go.rcvlinks.com^
 ||go.sohu.com^
@@ -3403,7 +3397,6 @@
 ||inv-nets.admixer.net^
 ||inv-nets-eu.admixer.net^
 ||inx.inbox.lv^
-||ioam.de^
 ||io.clickguard.com^
 ||io.innertrends.com^
 ||ioms.bfmio.com^
@@ -3416,9 +3409,9 @@
 ||i.realytics.io^
 ||ir-ing-district.clicktale.net^
 ||irishtimes.grapeshot.co.uk^
+||irqs.ioam.de^
 ||i.sdacdn.com^
 ||i.seznam.cz^
-||i.snssdk.com^
 ||i.socdm.com^
 ||i.srvtrck.com^
 ||isthereanythingleft.com^
@@ -3843,9 +3836,6 @@
 ||mcdp-nydc1.outbrain.com^
 ||mcdp-sadc1.outbrain.com^
 ||mckinseyglobalnewsitecoreprod.112.2o7.net^
-||mcs.snssdk.com^
-||mcs-va.tiktok.com^
-||mcs-va.tiktokv.com^
 ||mc.webvisor.org^
 ||mc.yandex.com^
 ||mc.yandex.ru^
@@ -4027,12 +4017,9 @@
 ||monhan-mhw.com^
 ||monitor.channel4.com^
 ||monitor.ebay.com^
-||mon.snssdk.com^
 ||monstat.com^
 ||montelena-rcv.gmarket.co.kr^
-||mon.tiktokv.com^
 ||monu.delivery^
-||mon-va.byteoversea.com^
 ||moreusers.info^
 ||morevisits.info^
 ||morgpost-relay.iocnt.net^
@@ -4623,7 +4610,6 @@
 ||rb.adnxs.com^
 ||r.bbci.co.uk^
 ||rc5.i2i.jp^
-||rcm-eu.assoc-amazon.com^
 ||rcom.dynamicyield.com^
 ||rcom-eu.dynamicyield.com^
 ||rcontent.services.tvn.pl^
@@ -4818,7 +4804,6 @@
 ||s372.mxcdn.net^
 ||s385.mxcdn.net^
 ||s3.buysellads.com^
-||s3.bytecdn.cn^
 ||s3.lightboxcdn.com^
 ||s3t3d2y8.ackcdn.net^
 ||s400.mxcdn.net^
@@ -4892,7 +4877,6 @@
 ||scnd.landsend.de^
 ||s.console.adtarget.com.tr^
 ||scontent.services.tvn.pl^
-||scorecardresearch.com^
 ||scoring.deep.bi^
 ||scounter.rambler.ru^
 ||scout24sw-d.openx.net^
@@ -4901,6 +4885,7 @@
 ||script-at.iocnt.net^
 ||script.crazyegg.com^
 ||script.dotmetrics.net^
+||script.ioam.de^
 ||script.ownpage.fr^
 ||scripts1.keytiles.com^
 ||scripts.agilone.com^
@@ -6369,6 +6354,7 @@
 ||udc.yahoo.com^
 ||udgrbq.malwarebytes.com^
 ||udiab1.jianshu.com^
+||udm.scorecardresearch.com^
 ||udmserve.net^
 ||udn-usd-d.openx.net^
 ||uedas.qidian.com^
@@ -6464,7 +6450,6 @@
 ||velocitycdn.com^
 ||venatusmedia.com^
 ||venetrigni.com^
-||verify.snssdk.com^
 ||vg01.met.vgwort.de^
 ||vg02.met.vgwort.de^
 ||vg03.met.vgwort.de^
@@ -6485,11 +6470,9 @@
 ||vidcdn.name^
 ||video.adaptv.advertising.com^
 ||video-adserver.ibillboard.com^
-||videoarch-lb-maliva.byteoversea.net^
 ||videoclientsservicescalls.outbrain.com^
 ||videoroll.net^
 ||video.unrulymedia.com^
-||video-va.tiktokv.com^
 ||video.xlviirdr.com^
 ||video.your-notice.com^
 ||vid.pubmatic.com^
@@ -6645,7 +6628,6 @@
 ||wlfdj.adsrv.eacdn.com^
 ||wl.hpyrdr.com^
 ||wltg1.aniview.com^
-||wms.assoc-amazon.com^
 ||wompanalytics.azurewebsites.net^
 ||wp.hit.gemius.pl^
 ||wpp.krxd.net^
@@ -6679,7 +6661,6 @@
 ||www3.doubleclick.net^
 ||www91.intel.com^
 ||www-google-analytics.l.google.com^
-||www-googletagmanager.l.google.com^
 ||wwwsparweltde.cleverpush.com^
 ||wyiff8iqoe.kameleoon.eu^
 ||wyndham.btttag.com^
