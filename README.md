@@ -41,7 +41,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/multi.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/multi.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/multi.blacklist.conf)      
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/multi.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/multi.txt)         
 
@@ -53,7 +53,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf)       
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/light.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light.txt)         
 
@@ -67,7 +67,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/pro.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/pro.blacklist.conf)      
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/pro.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.txt)         
 
@@ -83,7 +83,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/fake.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/fake.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/fake.blacklist.conf)        
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/fake.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt)         
 
@@ -99,7 +99,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/tif.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)        
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/tif.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt)         
 
@@ -115,7 +115,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/doh-vpn-proxy-bypass.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/doh-vpn-proxy-bypass.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/doh-vpn-proxy-bypass.blacklist.conf)        
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/doh-vpn-proxy-bypass.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt)         
 
@@ -131,7 +131,7 @@
 *Domain-Format (PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt)         
 *Host-Format (PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/nosafesearch.txt)         
 *AdBlock-Format compressed (AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nosafesearch.txt)         
-*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/nosafesearch.blacklist.conf)
+*Unbound-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/nosafesearch.blacklist.conf)        
 *DNSMasq-Format compressed:* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/nosafesearch.txt)         
 *Wildcard-Format compressed (DNSCrypt/YogaDNS):* [RAW-Link](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt)         
 
