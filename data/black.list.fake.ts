@@ -4,11 +4,12 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-06-03
+# Last modified: 2021-06-06
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+reifen-petlas.de
 casapadrinos.net
 carvana-ag.de
 kikana-handel.com
