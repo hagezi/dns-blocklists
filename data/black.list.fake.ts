@@ -4,11 +4,16 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-06-06
+# Last modified: 2021-06-08
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+drieschner-shop.de
+fahrrad-freunde.com
+automaxx-logistics.com
+lokal-angebot.com
+carvana-nse.com
 reifen-petlas.de
 casapadrinos.net
 carvana-ag.de
