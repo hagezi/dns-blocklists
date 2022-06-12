@@ -5,11 +5,11 @@
 # Expires: Updated regularly
 #
 #   Nr |   Count | Format  | Source | Status  | File      | URL/File
-#    1 |   22366 | adblock | http   | online  | changed   | https://easylist.to/easylist/easylist.txt
-#    2 |   17320 | adblock | http   | online  | changed   | https://easylist.to/easylist/easyprivacy.txt
+#    1 |   22366 | adblock | http   | online  | unchanged | https://easylist.to/easylist/easylist.txt
+#    2 |   17320 | adblock | http   | online  | unchanged | https://easylist.to/easylist/easyprivacy.txt
 #    3 |     125 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/Liste_AR.txt
-#    4 |    9958 | adblock | http   | online  | changed   | https://easylist-downloads.adblockplus.org/advblock.txt
-#    5 |    8829 | adblock | http   | online  | changed   | https://easylist-downloads.adblockplus.org/easylistchina.txt
+#    4 |    9958 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/advblock.txt
+#    5 |    8856 | adblock | http   | online  | changed   | https://easylist-downloads.adblockplus.org/easylistchina.txt
 #    6 |      37 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistdutch.txt
 #    7 |     377 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistgermany.txt
 #    8 |     219 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistitaly.txt
@@ -19,7 +19,7 @@
 #   12 |      20 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/indianlist.txt
 #   13 |      25 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/koreanlist.txt
 #   14 |    9191 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/liste_fr.txt
-#   15 |      55 | adblock | http   | online  | changed   | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
+#   15 |      55 | adblock | http   | online  | unchanged | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
 #   16 |      88 | adblock | http   | online  | unchanged | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt
 #   17 |     577 | adblock | http   | online  | unchanged | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
 #   18 |      38 | adblock | http   | online  | unchanged | https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
@@ -31,10 +31,10 @@
 #   24 |      16 | adblock | http   | online  | unchanged | https://www.void.gr/kargig/void-gr-filters.txt
 #   25 |     119 | adblock | http   | online  | unchanged | https://www.zoso.ro/pages/rolist.txt
 #
-# Version: 2022.0611.210021
-# Last modified: Sa 11. Jun 21:00:21 UTC 2022
+# Version: 2022.0612.030950
+# Last modified: So 12. Jun 03:09:50 UTC 2022
 # Syntax: DNSMasq
-# Domains: 65602
+# Domains: 65628
 #
 address=/000123456789.online/#
 address=/000123456789.site/#
@@ -371,6 +371,7 @@ address=/16nr5jods.ru/#
 address=/16yp1ji92a.com/#
 address=/170yy.com/#
 address=/171a60540b.com/#
+address=/17265111.com/#
 address=/17271819.com/#
 address=/1740f665a91b68.com/#
 address=/175bar.com/#
@@ -662,6 +663,7 @@ address=/21y5e4vynb.tech/#
 address=/21zdckmz.site/#
 address=/21.zhaozongjie.com/#
 address=/221122.fun/#
+address=/22195976.com/#
 address=/2222.ro/#
 address=/2227q.com/#
 address=/222im.com/#
@@ -676,6 +678,7 @@ address=/22pornz.site/#
 address=/22-trk-srv.com/#
 address=/2312s.cn/#
 address=/23205523023daea6.com/#
+address=/2329.ink/#
 address=/233fa9221f.com/#
 address=/23456dj.com/#
 address=/235123.net/#
@@ -950,6 +953,7 @@ address=/3221dkf7m2.com/#
 address=/32414.com/#
 address=/325d3d949f.com/#
 address=/325szdv.cn/#
+address=/32851897.com/#
 address=/32a79e2833309ebe.com/#
 address=/32c5637f3c.com/#
 address=/32c7e8d9a1.com/#
@@ -1319,6 +1323,7 @@ address=/4wens.org/#
 address=/4wnet.com/#
 address=/4wnetwork.com/#
 address=/4y0ypujq2hr6.com/#
+address=/500img.com/#
 address=/507a5a9594.com/#
 address=/508ec56533e3937e.com/#
 address=/50bang.org/#
@@ -1614,6 +1619,8 @@ address=/665d869f093dc.com/#
 address=/666574.xyz/#
 address=/666576.xyz/#
 address=/666577.xyz/#
+address=/666579.xyz/#
+address=/666582.xyz/#
 address=/666666666666.site/#
 address=/6667778882021.site/#
 address=/6669667.com/#
@@ -2019,6 +2026,7 @@ address=/8961.jianbihua.com/#
 address=/899792.com/#
 address=/89eb01f7f8503aef.com/#
 address=/89h8.com/#
+address=/89qp98.com/#
 address=/89rscocasf.ru/#
 address=/8a080862f3.com/#
 address=/8a78031439.com/#
@@ -2047,6 +2055,7 @@ address=/8ehhtsv9bo7i.monkeylearn.com/#
 address=/8en.net/#
 address=/8ezc.sfr.fr/#
 address=/8fc0c5dbf0cbae3b1fdb.date/#
+address=/8feichai.com/#
 address=/8ff01bde37db289d5.com/#
 address=/8fzyhamgc9.com/#
 address=/8gustis.xyz/#
@@ -2989,6 +2998,7 @@ address=/aa.0755rc.com/#
 address=/aa53df329975c325.com/#
 address=/aa6b3c29df6b221.com/#
 address=/aa9aa8ae44.com/#
+address=/aa9z.cn/#
 address=/aaaa8.top/#
 address=/aaaaaco.com/#
 address=/aaaa.gakkikaitori.co.jp/#
@@ -10505,6 +10515,8 @@ address=/boat2.info/#
 address=/boatheeh.com/#
 address=/boatlyseljuk.com/#
 address=/boayipids.com/#
+address=/bob4915.com/#
+address=/bob4994.com/#
 address=/bobbytubate.com/#
 address=/bobeshehi.com/#
 address=/bob.gitclear.com/#
@@ -17104,6 +17116,7 @@ address=/dfthplx.net/#
 address=/dftvhvapqxs.xyz/#
 address=/dfvdkx.gismeteo.ua/#
 address=/dfw.bakerbroto.emergeinteractive.com/#
+address=/dfwskw7.com/#
 address=/dfxofvzd.com/#
 address=/dfydnyk.cn/#
 address=/dgafgadsgkjg.top/#
@@ -31413,6 +31426,7 @@ address=/komuxoe.ru/#
 address=/komygvfalbwkpav.com/#
 address=/koncbabae.com/#
 address=/konduit.me/#
+address=/kongbao.ren/#
 address=/kongssew.com/#
 address=/kon.mediaplatform.group/#
 address=/konopelski.biz/#
@@ -36317,6 +36331,7 @@ address=/minessetion.info/#
 address=/mine.torrent.pw/#
 address=/minewhat.com/#
 address=/minexmr.com/#
+address=/mingchacn.top/#
 address=/mingcidianzi162.cn/#
 address=/mingledunorder.com/#
 address=/mingledventin.com/#
@@ -36464,6 +36479,7 @@ address=/mjnakecyospspgf.com/#
 address=/mjnpya.marktplaats.nl/#
 address=/mjpiqb.cn/#
 address=/mjrrojcneft.com/#
+address=/mjrvkv5.com/#
 address=/mjsnvi.extraspace.com/#
 address=/mjsyqwpqnjbgua.com/#
 address=/mjvmypr.cn/#
@@ -36645,6 +36661,7 @@ address=/mntewzlornifzt.com/#
 address=/mntzm.com/#
 address=/mntzr11.net/#
 address=/mntzrlt.net/#
+address=/mnvde.com/#
 address=/mnwor.xuanlishi.com/#
 address=/mnxlyo.kinoteatr.ru/#
 address=/mnxtu.com/#
@@ -41551,6 +41568,7 @@ address=/pbbl.co/#
 address=/pbcde.com/#
 address=/pbecrm.aquanet.ru/#
 address=/pbedle.com/#
+address=/pbgcsk3.com/#
 address=/pb-gfj-3de-ey.ru/#
 address=/pbgrd.com/#
 address=/pbhrxxcuobz.com/#
@@ -44683,6 +44701,7 @@ address=/qbuoybgm.xyz/#
 address=/qbwkux.home24.at/#
 address=/qbwntqwsvdixb.com/#
 address=/qbxaebqkg.com/#
+address=/qbyyvg3.com/#
 address=/qc.coccoc.com/#
 address=/qccoccocmedia.vn/#
 address=/qcdnxq.com/#
@@ -46706,6 +46725,7 @@ address=/ringsnutdaze.com/#
 address=/ringsrecord.com/#
 address=/ringtonepartner.com/#
 address=/rinlohedtron.ru/#
+address=/rinn.love/#
 address=/rinryesop.one/#
 address=/rinsesofadual.com/#
 address=/rinsouxy.com/#
@@ -52392,6 +52412,7 @@ address=/static2.ero2you.com/#
 address=/static2.rutracker.org/#
 address=/static.adconnect.vn/#
 address=/static.aio.media/#
+address=/static.asia/#
 address=/static-cnt.bid/#
 address=/static-dscn.net/#
 address=/static.gaomaer.cn/#
@@ -54169,6 +54190,7 @@ address=/taishu.shop/#
 address=/taisowhu.com/#
 address=/taitroupe.com/#
 address=/taiwhups.net/#
+address=/taiwtp1.com/#
 address=/taixuan.net.cn/#
 address=/taizigly.net/#
 address=/taiztf.cn/#
@@ -60798,6 +60820,7 @@ address=/wangdaizao.com/#
 address=/wangderder.xyz/#
 address=/wangdq.com/#
 address=/wangfenxi.com/#
+address=/wanghu2020.ltd/#
 address=/wangkeduo.cn/#
 address=/wangketuan.com/#
 address=/wangkuang.net.cn/#
@@ -63342,6 +63365,7 @@ address=/xtkjywceo.xyz/#
 address=/xtkl7.ru/#
 address=/xtmuasvldoiz.com/#
 address=/xtow.xyz/#
+address=/xtp01.com/#
 address=/xt.persosa.com/#
 address=/xtpfhu.com/#
 address=/x-traceur.com/#
@@ -64104,6 +64128,7 @@ address=/ylik.top/#
 address=/ylinzx.cn/#
 address=/ylivubgitj.com/#
 address=/yljejyqsmsik.xyz/#
+address=/ylkjit.com/#
 address=/ylkkp.com/#
 address=/yllanorin.com/#
 address=/yllix.com/#
@@ -64728,6 +64753,7 @@ address=/z3dmbpl6309s.com/#
 address=/z444o.com/#
 address=/z48gntbbu9pl.com/#
 address=/z492.ctinsider.com/#
+address=/z4a.net/#
 address=/z5002.top/#
 address=/z5x.net/#
 address=/z680.beaumontenterprise.com/#
