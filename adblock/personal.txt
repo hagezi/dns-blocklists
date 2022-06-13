@@ -4,10 +4,10 @@
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: Updated regularly
-! Version: 2022.0612.014326
-! Last modified: So 12. Jun 01:43:26 UTC 2022
+! Version: 2022.0613.014358
+! Last modified: Mo 13. Jun 01:43:58 UTC 2022
 ! Syntax: AdBlock
-! Domains: 6733
+! Domains: 6755
 !
 ||00917082-71e9-498e-8343-00c3df06b798.edge.permutive.app^
 ||01c54544-2.we-stats.com^
@@ -556,11 +556,14 @@
 ||adventurefeeds.xml.ak-is2.net^
 ||advertising.amazon.ae^
 ||advertising.amazon.co.jp^
+||advertising.amazon.co.uk^
+||advertising.amazon.de^
 ||advertising.amazon.es^
 ||advertising.amazon.fr^
 ||advertising.amazon.in^
 ||advertising.amazon.it^
 ||advertising-cdn.dpgmedia.cloud^
+||advertising-eu.amazon.com^
 ||advice.hit.gemius.pl^
 ||advmanager.techfun.pl^
 ||adv.mediamond.it^
@@ -1243,6 +1246,7 @@
 ||ber2g8e3keley.com^
 ||berchsoda.com^
 ||bergfex-relay.iocnt.net^
+||berliner-zeitung.met.vgwort.de^
 ||berlipurplin.com^
 ||besmeargleor.com^
 ||betcity.engine.adglare.net^
@@ -1357,6 +1361,7 @@
 ||c2.popads.net^
 ||c2.rfihub.net^
 ||c2.taboola.com^
+||c3.taboola.com^
 ||c5.adalyser.com^
 ||c5f07b3cb6d848289214601fef5f5733.js.ubembed.com^
 ||c.6sc.co^
@@ -1966,6 +1971,7 @@
 ||collector-pxxgwm9nuh.px-cloud.net^
 ||collector-pxyo6yjwlb.px-cloud.net^
 ||collector-pxyvdw1w56.px-cloud.net^
+||collector.rn.de^
 ||collector.schibsted.io^
 ||collector.shopstream.co^
 ||collector.shorte.st^
@@ -2299,6 +2305,7 @@
 ||data-4aed862c71.apps.iocnt.de^
 ||data-4ca65a8bdb.express.de^
 ||data-4ccf76e1ad.tagesspiegel.de^
+||data-4cf02e3b23.schlager.de^
 ||data-4ede7e9c86.faz.net^
 ||data-501446ac98.t-online.de^
 ||data-51c17cab74.aerztezeitung.de^
@@ -3103,6 +3110,8 @@
 ||googlecommerce.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
 ||go.rcvlink.com^
 ||go.rcvlinks.com^
 ||go.sohu.com^
@@ -3782,6 +3791,7 @@
 ||m.addthis.com^
 ||m.addthisedge.com^
 ||madmen2.alastonsuomi.com^
+||mads-eu.amazon.com^
 ||mafo.adalliance.io^
 ||mafra-ads.aimatch.com^
 ||magnite.com^
@@ -4374,6 +4384,7 @@
 ||pixel.sojern.com^
 ||pixels.reignn.com^
 ||pixel.staging.tree.com^
+||pixel-static.spotify.com^
 ||pixel.streetmetrics.io^
 ||pixel-sync.sitescout.com^
 ||pixel.tapad.com^
@@ -4599,6 +4610,7 @@
 ||r.3gl.net^
 ||r3-t.trackedlink.net^
 ||rabbitrifle.com^
+||racim.production.ippen.space^
 ||radar.cedexis.com^
 ||r.adserver01.de^
 ||radsport-relay.iocnt.net^
@@ -4613,6 +4625,7 @@
 ||rb.adnxs.com^
 ||r.bbci.co.uk^
 ||rc5.i2i.jp^
+||rcm-eu.assoc-amazon.com^
 ||rcom.dynamicyield.com^
 ||rcom-eu.dynamicyield.com^
 ||rcontent.services.tvn.pl^
@@ -4872,6 +4885,7 @@
 ||s.c-ctrip.com^
 ||scdn.cxense.com^
 ||scdn.eclick.vn^
+||schlager-relay.iocnt.net^
 ||scintillatingsilver.com^
 ||s.clcktrax.com^
 ||sc.lfeeder.com^
@@ -5453,6 +5467,7 @@
 ||ssl.o.medscape.com^
 ||ssl-rp-online.met.vgwort.de^
 ||ssl-tagesspiegel.met.vgwort.de^
+||ssl-t-online.met.vgwort.de^
 ||ssl-vg03.met.vgwort.de^
 ||ssl.webtracker.jp^
 ||ssl-welt.met.vgwort.de^
@@ -5934,6 +5949,8 @@
 ||telegraphmedia.bootstrap.fyre.co^
 ||telemetrics.klaviyo.com^
 ||telemetry.api.swiftkey.com^
+||telemetry.cell-0.eu-central-1.prod.tangerinebox.console.aws.a2z.com^
+||telemetry.cell-0.us-east-1.prod.tangerinebox.console.aws.a2z.com^
 ||telemetry.docusign.net^
 ||telemetry-in.battle.net^
 ||telemetry.jivosite.com^
@@ -6476,6 +6493,7 @@
 ||video.adaptv.advertising.com^
 ||video-adserver.ibillboard.com^
 ||videoclientsservicescalls.outbrain.com^
+||videointelligence-d.openx.net^
 ||videoroll.net^
 ||video.unrulymedia.com^
 ||video.xlviirdr.com^
@@ -6630,6 +6648,7 @@
 ||wlfdj.adsrv.eacdn.com^
 ||wl.hpyrdr.com^
 ||wltg1.aniview.com^
+||wms.assoc-amazon.com^
 ||wompanalytics.azurewebsites.net^
 ||wp.hit.gemius.pl^
 ||wpp.krxd.net^
@@ -6637,8 +6656,10 @@
 ||wpunativesh.com^
 ||wrapper.lemde.fr^
 ||ws.audioeye.com^
+||ws-eu.assoc-amazon.com^
 ||ws.facil-iti.com^
 ||w.sharethis.com^
+||ws-na.assoc-amazon.com^
 ||ws.sharethis.com^
 ||wtbevents.pricespider.com^
 ||wt.oscaro.com^
@@ -6662,6 +6683,7 @@
 ||www3.doubleclick.net^
 ||www91.intel.com^
 ||www-google-analytics.l.google.com^
+||www-googletagmanager.l.google.com^
 ||wwwsparweltde.cleverpush.com^
 ||wyiff8iqoe.kameleoon.eu^
 ||wyndham.btttag.com^
