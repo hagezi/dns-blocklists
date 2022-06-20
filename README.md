@@ -28,7 +28,7 @@
 |:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|:----------------:|
 | [Normal](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X | P |
 | [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X | P |
-| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X | X |
+| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | P |   |   | X | X |
 
 *X = contains the named lists in the column header*       
 *P = partially contains the named list in the column header*       
