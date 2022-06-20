@@ -102,7 +102,7 @@
 ### ***Threat Intelligence Feeds - Increases security significantly!***
 *An blocklist for blocking malware, crypto, coin, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers. Based on various valid malware sources.*    
 
-*Included in multi pro. Only partially included in multi normal, not included in multi light. Can be used as an extension.*
+*Only partially included in multi normal and pro, not included in multi light. Can be used as an extension.*
 
 | Format | Link | Can be used for |
 |:-------|:-----|:----------------|
