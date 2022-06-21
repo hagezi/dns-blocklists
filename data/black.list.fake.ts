@@ -4,11 +4,12 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-06-18
+# Last modified: 2021-06-21
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+echopark-europe.com
 energfahrrad.com
 bardacstore.com
 berindo.de
