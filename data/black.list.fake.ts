@@ -4,11 +4,93 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-06-21
+# Last modified: 2021-06-25
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+farado.de
+bubblee.de
+carvana-nyse.com
+fahrrad-herrmans.de
+www.bagomi-versand.net
+spree-elektro.de
+zoomil.de
+tauchsport-bayer.de
+shutterstock.com
+technik-chef.de
+teetassepudelfamilie.com
+tonigk.com
+trovando.de
+unjkvn.com
+vejaaosterreich.com
+vocompany.de
+webseite-gratis.com
+weconti.com
+xkhidir.com
+yonexosterreich.com
+ytahoorart.com
+zasamo.com
+spilavizer.com
+shatech.de
+sepkicks.com
+schiltach-brennholz.com
+schapiman.com
+sandra-und-tobias.de
+sale.birkenstockeu.com
+rusticjusticerecords.com
+rubyfo.com
+rezeptfrei-bestellung.de
+reifen-petlas.de
+progressivewelpenzuhause.com
+pcpelektronik.com
+orajalifei.com
+monzariz.com
+minhtrungd.com
+minhapecay.com
+media-palmer.com
+mcoaltmeds.com
+lonestarchaos.com
+ljiankun.com
+livsy.de
+libraglobal.de
+kumbini.de
+koscielnya.com
+kmacobdt.com
+kleinheidt.de
+klax24.de
+kidebro.com
+juust24.com
+icontreag.com
+hqleadse.com
+holydogwater.de
+heybuye.com
+grubano.de
+gartenbau-eichhorst.de
+gamestp.de
+funkelnmarkt.de
+flymapairb.com
+ferramentao.com
+emma-matraze.com
+emmamartraze.com
+eekaav.com
+e-lectro.ab-monde.com
+drieschner-shop.de
+dortmund-wappen.de
+dmsmax.com
+darrenyo.com
+csguis.com
+canndidrip.com
+bulldogge-franzosische-welpen.com
+brennholz-energie.com
+brookslaufschuhesale.de
+boned-handels.de
+bikerspoint-riedstadt.de
+aurgkb.com
+arcteryxoutlet.at
+aggruppenx.com
+sportyline.de
+neapelstore.de
 echopark-europe.com
 energfahrrad.com
 bardacstore.com
