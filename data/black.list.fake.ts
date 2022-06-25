@@ -17,7 +17,7 @@ www.bagomi-versand.net
 spree-elektro.de
 zoomil.de
 tauchsport-bayer.de
-shutterstock.com
+#W shutterstock.com
 technik-chef.de
 teetassepudelfamilie.com
 tonigk.com
@@ -28,7 +28,7 @@ vocompany.de
 webseite-gratis.com
 weconti.com
 xkhidir.com
-yonexosterreich.com
+#D yonexosterreich.com
 ytahoorart.com
 zasamo.com
 spilavizer.com
@@ -43,9 +43,9 @@ rubyfo.com
 rezeptfrei-bestellung.de
 reifen-petlas.de
 progressivewelpenzuhause.com
-pcpelektronik.com
+#D pcpelektronik.com
 orajalifei.com
-monzariz.com
+#D monzariz.com
 minhtrungd.com
 minhapecay.com
 media-palmer.com
@@ -74,7 +74,7 @@ ferramentao.com
 emma-matraze.com
 emmamartraze.com
 eekaav.com
-e-lectro.ab-monde.com
+#D e-lectro.ab-monde.com
 drieschner-shop.de
 dortmund-wappen.de
 dmsmax.com
