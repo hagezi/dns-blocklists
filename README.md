@@ -18,6 +18,7 @@
 - [Quids NoTrack](https://gitlab.com/quidsup) *(Annoyance and Malware blocklist)*
 - [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
 - [Costin Raiu Mobiletrackers](https://github.com/craiu/mobiletrackers)
+- [infinitytec's blocklists](https://github.com/infinitytec/blocklists)
 - [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
 - [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
 
