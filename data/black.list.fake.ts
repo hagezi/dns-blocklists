@@ -4,11 +4,19 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-06-29
+# Last modified: 2021-07-05
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+kochgrill24.com
+outdoor-bronco.com
+gluckbox.com
+technik-chef.de
+forevermarkt.de
+hotels-in-tyrol.com
+fahrrad-herrmans.de
+funkelnelektronik.de
 xn--goldbank-mnchen-8vb.de
 goldbank-münchen.de
 farado.de
