@@ -5,10 +5,10 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: Updated regularly
-# Version: 2022.0706.065637
-# Last modified: Mi 6. Jul 06:56:37 UTC 2022
+# Version: 2022.0706.104832
+# Last modified: Mi 6. Jul 10:48:32 UTC 2022
 # Syntax: Hosts
-# Domains: 1185
+# Domains: 1205
 #
 0.0.0.0 012proxy.ga
 0.0.0.0 123-24.eport.gr
@@ -70,12 +70,14 @@
 0.0.0.0 awebproxy.com
 0.0.0.0 azirevpn.com
 0.0.0.0 basic.bravedns.com
+0.0.0.0 basic.rethinkdns.com
 0.0.0.0 beevpn.com
 0.0.0.0 bestvpnrating.com
 0.0.0.0 betternet.co
 0.0.0.0 b.family.ns.dnslify.com
 0.0.0.0 blackvpn.com
 0.0.0.0 blewpass.com
+0.0.0.0 blitz.ahadns.com
 0.0.0.0 blocka.net
 0.0.0.0 blockless.com
 0.0.0.0 b.ns.dnslify.com
@@ -101,11 +103,14 @@
 0.0.0.0 chrome.cloudflare-dns.com
 0.0.0.0 chromium.dns.nextdns.io
 0.0.0.0 citizenvpn.com
+0.0.0.0 cleanbrowsing.org
 0.0.0.0 clearvpn.com
 0.0.0.0 cloakvpn.com
 0.0.0.0 cloudflare-dns.com
 0.0.0.0 cloudflare-gateway.com
 0.0.0.0 commons.host
+0.0.0.0 comss.one
+0.0.0.0 comss.ru
 0.0.0.0 crazyproxy.org
 0.0.0.0 croxyproxy.com
 0.0.0.0 croxyproxy.rocks
@@ -191,6 +196,7 @@
 0.0.0.0 dns-tls.bitwiseshift.net
 0.0.0.0 dns.twnic.tw
 0.0.0.0 dns-unfiltered.adguard.com
+0.0.0.0 dns.watch
 0.0.0.0 doh-01.spectrum.com
 0.0.0.0 doh-02.spectrum.com
 0.0.0.0 doh1.b-cdn.net
@@ -281,6 +287,7 @@
 0.0.0.0 dot.it.ahadns.net
 0.0.0.0 dot-jp.blahdns.com
 0.0.0.0 dot.la.ahadns.net
+0.0.0.0 dot.libredns.gr
 0.0.0.0 dot.libredns.gr.com
 0.0.0.0 dot.nl.ahadns.net
 0.0.0.0 dot.no.ahadns.net
@@ -333,6 +340,7 @@
 0.0.0.0 fishproxy.com
 0.0.0.0 fixproxy.com
 0.0.0.0 flowvpn.com
+0.0.0.0 fly.io
 0.0.0.0 flyvpn.com
 0.0.0.0 free.bravedns.com
 0.0.0.0 freedns.controld.com
@@ -400,6 +408,7 @@
 0.0.0.0 ibuki.cgnat.net
 0.0.0.0 idcloak.com
 0.0.0.0 idolproxy.com
+0.0.0.0 iij.jp
 0.0.0.0 ininja.org
 0.0.0.0 instantunblock.com
 0.0.0.0 interncloud.info
@@ -421,6 +430,7 @@
 0.0.0.0 kproxysite.com
 0.0.0.0 kracon.anycast.censurfridns.dk
 0.0.0.0 kracon.anycast.uncensoreddns.org
+0.0.0.0 lelux.fi
 0.0.0.0 leo.paulmihaipavel.com
 0.0.0.0 le-vpn.com
 0.0.0.0 limevpn.com
@@ -431,6 +441,7 @@
 0.0.0.0 maddw.com
 0.0.0.0 mask-h2.icloud.com
 0.0.0.0 mask.icloud.com
+0.0.0.0 max.rethinkdns.com
 0.0.0.0 megaproxy.com
 0.0.0.0 mehide.asia
 0.0.0.0 metproxy.com
@@ -638,6 +649,7 @@
 0.0.0.0 surfproxyserver.com
 0.0.0.0 surfshark.com
 0.0.0.0 surfshell.io
+0.0.0.0 switch.ch
 0.0.0.0 swoshsvpn.com
 0.0.0.0 tails.boum.org
 0.0.0.0 tenta.com
@@ -798,10 +810,13 @@
 0.0.0.0 www.chillglobal.com
 0.0.0.0 www.christophbrem.com
 0.0.0.0 www.citizenvpn.com
+0.0.0.0 www.cleanbrowsing.org
 0.0.0.0 www.cloakvpn.com
 0.0.0.0 www.cloudflare-dns.com
 0.0.0.0 www.cloudflare-gateway.com
 0.0.0.0 www.commons.host
+0.0.0.0 www.comss.one
+0.0.0.0 www.comss.ru
 0.0.0.0 www.crazyproxy.org
 0.0.0.0 www.croxyproxy.com
 0.0.0.0 www.croxyproxy.rocks
@@ -816,6 +831,7 @@
 0.0.0.0 www.dnsforge.de
 0.0.0.0 www.dns.pub
 0.0.0.0 www.dns.sb
+0.0.0.0 www.dns.watch
 0.0.0.0 www.doh.pub
 0.0.0.0 www.dolopo.net
 0.0.0.0 www.dontfilter.us
@@ -845,6 +861,7 @@
 0.0.0.0 www.fishproxy.com
 0.0.0.0 www.fixproxy.com
 0.0.0.0 www.flowvpn.com
+0.0.0.0 www.fly.io
 0.0.0.0 www.flyvpn.com
 0.0.0.0 www.freedom.cx
 0.0.0.0 www.freeeuroproxy.com
@@ -903,6 +920,7 @@
 0.0.0.0 www.hyperbyte.net
 0.0.0.0 www.idcloak.com
 0.0.0.0 www.idolproxy.com
+0.0.0.0 www.iij.jp
 0.0.0.0 www.ininja.org
 0.0.0.0 www.instantunblock.com
 0.0.0.0 www.interncloud.info
@@ -913,6 +931,7 @@
 0.0.0.0 www.ivpn.net
 0.0.0.0 www.kproxy.com
 0.0.0.0 www.kproxysite.com
+0.0.0.0 www.lelux.fi
 0.0.0.0 www.le-vpn.com
 0.0.0.0 www.limevpn.com
 0.0.0.0 www.linkmetube.com
@@ -1069,6 +1088,7 @@
 0.0.0.0 www.surfproxyserver.com
 0.0.0.0 www.surfshark.com
 0.0.0.0 www.surfshell.io
+0.0.0.0 www.switch.ch
 0.0.0.0 www.swoshsvpn.com
 0.0.0.0 www.tenta.com
 0.0.0.0 www.thebestvpn.com
