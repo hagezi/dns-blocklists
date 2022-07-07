@@ -4,10 +4,10 @@
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: Updated regularly
-! Version: 2022.0706.071602
-! Last modified: Mi 6. Jul 07:16:02 UTC 2022
+! Version: 2022.0707.162719
+! Last modified: Do 7. Jul 16:27:19 UTC 2022
 ! Syntax: AdBlock
-! Domains: 6773
+! Domains: 6780
 !
 ||00917082-71e9-498e-8343-00c3df06b798.edge.permutive.app^
 ||01c54544-2.we-stats.com^
@@ -176,6 +176,7 @@
 ||1325633-33.chat.api.drift.com^
 ||1331904-4.chat.api.drift.com^
 ||1359940.fls.doubleclick.net^
+||1376624012.rsc.cdn77.org^
 ||1387553-3.chat.api.drift.com^
 ||1392772-22.chat.api.drift.com^
 ||1398660-10.chat.api.drift.com^
@@ -226,7 +227,6 @@
 ||259710f66da04a8e8d9ce8db5c2253d5.js.ubembed.com^
 ||267-pvb-941.mktoresp.com^
 ||2686334.fls.doubleclick.net^
-||268a2000018370f5f35b29272d1942aa2ff7b6a9.cws.conviva.com^
 ||2784c571b3974d829076dd0239ef9294-3e8f6ac6dc32.cdn.forter.com^
 ||2834354.fls.doubleclick.net^
 ||2906542.fls.doubleclick.net^
@@ -314,7 +314,6 @@
 ||4aff061ba4f7997f4cf3554dfb8c8e80.clo.footprintdns.com^
 ||4dc2aa82bc5e.cdn4.forter.com^
 ||4dec3d829289d597633af58a11cdd648.nrb.footprintdns.com^
-||4eab9a5b0a43480d5596a173e7a24851b7969a08.cws.conviva.com^
 ||4playde-relay.iocnt.net^
 ||5001294-44.chat.api.drift.com^
 ||5021505-5.chat.api.drift.com^
@@ -391,7 +390,6 @@
 ||6232239.fls.doubleclick.net^
 ||6249496.collect.igodigital.com^
 ||628e3201198e457ca6eca15ccfc567ca-72b2169bdf11.cdn.forter.com^
-||62ea30a39dede4f6d44ac289591051076c294526.cws.conviva.com^
 ||6321597.fls.doubleclick.net^
 ||6337982.fls.doubleclick.net^
 ||6355556.fls.doubleclick.net^
@@ -666,6 +664,8 @@
 ||9v58v.com^
 ||a0edee84e93e49e7a5fabbd4f0cc8ab4.js.ubembed.com^
 ||a10.nationalreview.com^
+||a1.adform.net^
+||a1.adformnet.akadns.net^
 ||a1.b0e8.com^
 ||a.1gr.cz^
 ||a.20minutes.fr^
@@ -1001,6 +1001,7 @@
 ||ad.wsod.com^
 ||adwstats.com^
 ||adx.4strokemedia.com^
+||adx.adform.net^
 ||adx.adplace.cz^
 ||adxbid.info^
 ||adx.cda.pl^
@@ -1723,6 +1724,7 @@
 ||bypassprofessordemonstrate.com^
 ||c0.adalyser.com^
 ||c0.pubmine.com^
+||c1.adform.net^
 ||c1.hinta.fi^
 ||c1.popads.net^
 ||c1.rfihub.net^
@@ -2207,6 +2209,7 @@
 ||cl.qualaroo.com^
 ||cluster.awmdelivery.com^
 ||c.lytics.io^
+||cm.adform.net^
 ||cm.adgrx.com^
 ||cm.adsafety.net^
 ||cmadserver.de^
@@ -2503,9 +2506,6 @@
 ||cwchmb.com^
 ||c.webtrends-optimize.com^
 ||c.wort-suche.com^
-||cws-iad1.conviva.com^
-||cws-iad4.conviva.com^
-||cws-sjc2.conviva.com^
 ||cx.api.itmedia.co.jp^
 ||cx.atdmt.com^
 ||cyad1.nate.com^
@@ -2929,6 +2929,7 @@
 ||dmc.devatics.io^
 ||dmg.digitaltarget.ru^
 ||dmjwkxbk8s.kameleoon.eu^
+||dmp.adform.net^
 ||dmp.adwise.bg^
 ||dmp.citiservi.es^
 ||dmp.datawrkz.com^
@@ -3050,7 +3051,6 @@
 ||ee.hit.gemius.pl^
 ||eehuzaih.com^
 ||eezegrip.net^
-||efcad85fded269f462c434c4c5f84654a17d4a77.cws.conviva.com^
 ||effectivedisplaycontent.com^
 ||effectivedisplayformats.com^
 ||effinity.go-sport.com^
@@ -3262,6 +3262,7 @@
 ||first.iovation.com^
 ||fistart-relay.iocnt.net^
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
+||flashtalking.com^
 ||fling.cid.samba.tv^
 ||f-log-test.grammarly.io^
 ||flowerstreatment.com^
@@ -5067,12 +5068,15 @@
 ||s121.cnzz.com^
 ||s128.cnzz.com^
 ||s13.cnzz.com^
+||s1.adform.net^
+||s1-eu-cname.adformnet.akadns.net^
 ||s1.fwmrm.net^
 ||s1.mediaad.org^
 ||s1.rotaban.ru^
 ||s1.static.cfgr1.com^
 ||s22.cnzz.com^
 ||s233.meetrics.net^
+||s2.adform.net^
 ||s2.go-mpulse.net^
 ||s2s.adjust.com^
 ||s2s.yieldlove-ad-serving.net^
@@ -5273,6 +5277,7 @@
 ||served-by.pixfuture.com^
 ||servedby.revive-adserver.net^
 ||server1.affiz.net^
+||server.adform.net^
 ||server.cpmstar.com^
 ||server.quanta.la^
 ||server.seadform.net^
@@ -5371,6 +5376,7 @@
 ||s.logsss.com^
 ||sm4xqadz4o.kameleoon.eu^
 ||smartadserver.com^
+||smartclip.net^
 ||smart-widget-assets.ekomiapps.de^
 ||smashsurprise.com^
 ||smct.co^
@@ -6173,6 +6179,7 @@
 ||track35190150.effiliation.com^
 ||track3.searchiq.co^
 ||trackad.cz^
+||track.adformnet.akadns.net^
 ||track.adspire.io^
 ||track.aerzteblatt.de^
 ||trackalyzer.com^
