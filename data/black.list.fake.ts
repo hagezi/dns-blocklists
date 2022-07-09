@@ -4,11 +4,23 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-07-05
+# Last modified: 2021-07-09
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+wald-brennholz.de
+vbarefootkaufen.de
+solanex.de
+levelbikes.de
+guteholzheizung.de
+grob-reifen.de
+garten-steckby.de
+aphidophaga.de
+shutterstock.com
+alles-einfacher.de
+dein-gartenmarkt.de
+autobytel-euro.com
 kochgrill24.com
 outdoor-bronco.com
 gluckbox.com
