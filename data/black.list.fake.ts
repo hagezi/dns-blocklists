@@ -30,7 +30,7 @@ hotels-in-tyrol.com
 fahrrad-herrmans.de
 funkelnelektronik.de
 xn--goldbank-mnchen-8vb.de
-goldbank-münchen.de
+#D goldbank-münchen.de
 farado.de
 bubblee.de
 carvana-nyse.com
@@ -39,7 +39,7 @@ www.bagomi-versand.net
 spree-elektro.de
 zoomil.de
 tauchsport-bayer.de
-#W shutterstock.com
+shutterstock.com
 technik-chef.de
 teetassepudelfamilie.com
 tonigk.com
@@ -57,9 +57,9 @@ spilavizer.com
 shatech.de
 sepkicks.com
 schiltach-brennholz.com
-schapiman.com
+#D schapiman.com
 sandra-und-tobias.de
-sale.birkenstockeu.com
+#D sale.birkenstockeu.com
 rusticjusticerecords.com
 rubyfo.com
 rezeptfrei-bestellung.de
@@ -84,17 +84,17 @@ klax24.de
 kidebro.com
 juust24.com
 icontreag.com
-hqleadse.com
+#D hqleadse.com
 holydogwater.de
 heybuye.com
 grubano.de
-gartenbau-eichhorst.de
+#D gartenbau-eichhorst.de
 gamestp.de
 funkelnmarkt.de
 flymapairb.com
-ferramentao.com
+#D ferramentao.com
 emma-matraze.com
-emmamartraze.com
+#D emmamartraze.com
 eekaav.com
 #D e-lectro.ab-monde.com
 drieschner-shop.de
@@ -104,7 +104,7 @@ darrenyo.com
 csguis.com
 canndidrip.com
 bulldogge-franzosische-welpen.com
-brennholz-energie.com
+#D brennholz-energie.com
 brookslaufschuhesale.de
 boned-handels.de
 bikerspoint-riedstadt.de
@@ -144,7 +144,7 @@ vibramosterreich.at
 sendros.de
 riquedevil.de
 rheinsteigfuehrer.de
-obrath-gmbh.de
+#D obrath-gmbh.de
 momme-boe.de
 merrellosterreich.at
 magtechnik.de
@@ -161,7 +161,7 @@ dieselofficialsale.de
 dach-regin.de
 bz-fuerth.de
 bairisch-irish.de
-apuletta.de
+#D apuletta.de
 andre-uterhardt.de
 #D 15minutes.at
 18023.ebizv4l.ebusiness-challenge.at
@@ -240,7 +240,7 @@ anduni.de
 angela-cosmetics.de
 #D angelikabendig.de
 angoraberlin.de
-annettestaack.de
+#D annettestaack.de
 antik-ev.de
 antik-kunst-genuss.de
 #D antiquariat-galerie-rostock.de
@@ -306,7 +306,7 @@ badeanzugtreff.de
 #D bader-baudienst.de
 baetz-malerei.de
 baganaes.de
-bandidos-ulm.de
+#D bandidos-ulm.de
 #D barbarahiller.de
 baronweb.de
 #D bartab.at
@@ -343,7 +343,7 @@ besten-deals.de
 bestermarkt.at
 #D besteuhren.io
 bestwoof.de
-better-bikes24.de
+#D better-bikes24.de
 #D bewerte-deinen-goldshop-278.de
 #D bewerte-den-shop.de
 #D bewerte-einen-onlineshop.de
@@ -445,7 +445,7 @@ carvana-gmbh.com
 #D casamaestri.de
 catalia.de
 caterpillarschuhe.at
-cb-funkmagazin.de
+#D cb-funkmagazin.de
 #D cbremer.de
 cci-immobilien.de
 #D ccsalzburg.at
@@ -553,7 +553,7 @@ deuducht.de
 #D dewe-versando.de
 #D diamant-eventcenter.de
 didro.de
-#D die-hebamme-koeln.de
+die-hebamme-koeln.de
 #D die-ruhrstadt.de
 #D dielichtuung.de
 diesprachpraxis.de
@@ -572,7 +572,7 @@ doc-hygiene.de
 doggenkirchner.de
 #D doggybagg.at
 doktorpotenzmittel.ch
-domorgel-billerbeck.de
+#D domorgel-billerbeck.de
 donoyo.net
 doris-bauer.at
 dosenberry.de
@@ -603,7 +603,7 @@ eccoschuhefabrikverkauf.at
 eccoschuhfabrikverkauf.at
 eclipsa.de
 ede-handball.de
-edelmar.de
+#D edelmar.de
 edithannabeck.de
 eew-karriere.de
 ege-exquisit.de
@@ -633,7 +633,7 @@ elec-bytes.de
 #D elektro-gerber.de
 #D elektro-guetlein.de
 elektro-kingz.de
-elektro-mandt.de
+#D elektro-mandt.de
 #D elektro-meister.shop
 elektro-wunderland.de
 #D elektro-zubehoer46.de
@@ -647,7 +647,7 @@ elektropfeifer.de
 #D elektrospezialist.at
 #D elektrova-shop.de
 #D eliphaslevi.de
-#D elkepaschek.de
+elkepaschek.de
 #D ellmauplus.at
 elo-cc.de
 #D eloquentik.de
@@ -700,7 +700,7 @@ fahrrad-handels.de
 #D fahrrad-sers.de
 fahrradbekleidung-onlines.de
 fahrradbekleidungs.de
-#D fahrradhaus-zeyen.de
+fahrradhaus-zeyen.de
 #D fahrradprofis.net
 #D fahrradya.com
 fair-praesente.de
@@ -752,7 +752,7 @@ fit4fun-arena.de
 #D fitandfashion.de
 #D fitness-gorilla.com
 #D fitness-im-buero.de
-fitness-zuhause24.de
+#D fitness-zuhause24.de
 fitnessbox-arena.com
 #D fitnessboxx-arena.com
 fitnessmarkt-winkler.de
@@ -790,7 +790,7 @@ gamarkt.de
 #D gamecount.de
 #D gamer-center.de
 #D gamer-dome.de
-#D gamer-nieder-olm.de
+gamer-nieder-olm.de
 #D games-front.de
 #D gamesplazza.at
 #D gaming-bro24.de
@@ -836,9 +836,9 @@ giesswein-outdoor.de
 glas-gs.de
 gleuelspd.de
 #D globalex24.de
-#D gluckstucke.de
+gluckstucke.de
 glueckstore.de
-gmbh2go.de
+#D gmbh2go.de
 godcontroller.de
 #D gold-auf-lager.de
 #D gold-barren-muenzen.de
@@ -863,19 +863,19 @@ goldenretrieverzuchter.de
 goldhandel-gmbh.de
 #D goldhandel-gold-silber.de
 #D goldhandel-heute.at
-goldhandel-heute.de
+#D goldhandel-heute.de
 #D goldhandel-imperium.de
 #D goldhandel-kauf-hier.de
 goldhandel-kauf.de
 #D goldhandel-kontor.de
 #D goldhandel-kundenfreundlich.de
 goldhandel-kurs.de
-goldhandel-land.de
+#D goldhandel-land.de
 #D goldhandel-markt.de
 #D goldhandel-mit-herz.de
 goldhandel-o-kaufen.de
 goldhandel-on-kaufen.de
-goldhandel-pacht.de
+#D goldhandel-pacht.de
 #D goldhandel-preisliste.de
 goldhandel-preissieger.de
 goldhandel-punkt.de
@@ -910,7 +910,7 @@ goldscheideanstalt-seit1970.de
 #D goldscheideanstalt-solidus-onlineshop.de
 #D goldscheideanstalt-solidus.de
 #D goldscheideanstalt-solidus24.de
-#D goldscheideanstalt-testsieger.de
+goldscheideanstalt-testsieger.de
 goldscheideanstalt-wert.de
 #D gordon-setter-fieldtalks-guinness.de
 gostoreelec.com
@@ -924,8 +924,8 @@ gplate.de
 #D grill-saison24.com
 grill-shop.eu
 #D grillario.de
-grillen-mit-willen.de
-grobi-handel.de
+#D grillen-mit-willen.de
+#D grobi-handel.de
 gruene-niederbarnim.de
 gruene-spende.de
 gstastoreshop.de
@@ -936,13 +936,13 @@ gstastoreshop.de
 gummistiefelhunter.de
 gusti-ledertaschen.de
 #D gute-goldscheideanstalten.biz
-guterspreis.com
+#D guterspreis.com
 gws-powercell.de
 gymiva.com
 hagedornmode.de
 #D hagolos.de
 hairmpress.com
-haitec-computer.de
+#D haitec-computer.de
 hallobh.de
 hamega.net
 #D handelshaus-weber.de
@@ -982,7 +982,7 @@ hawalili.de
 heidekrause.de
 #D heikes-fusspflege.de
 #D heikojentsch.de
-heilmann-bonn.de
+#D heilmann-bonn.de
 #D heim-roboter24.de
 #D heimtrainer4you.de
 #D heiner-ebike.de
@@ -1048,7 +1048,7 @@ ilamparas.de
 #D impact-evolution.at
 #D improbuehne.de
 impruneta.de
-indianer-ausstellung.de
+#D indianer-ausstellung.de
 #D individuell-geschneidert.de
 #D indoorklettern.at
 #D ines-westphal.de
@@ -1056,7 +1056,7 @@ inetchip.de
 #D infox24.de
 #D ing-ruecker.de
 ingbert-unruh.de
-ingenieur-skoupi.de
+#D ingenieur-skoupi.de
 #D ingridbrunner.at
 inkteq.de
 inov-8schuhe.de
@@ -1155,7 +1155,7 @@ kita-much.de
 kizaro.de
 kjsr-radeberg.de
 kkzon.de
-klabauterkidz.de
+#D klabauterkidz.de
 klang-coburg.de
 #D klangwege.at
 #D kleidchenfee.at
@@ -1249,7 +1249,7 @@ lunion.ch
 #D luppo.at
 luxishop.de
 luxury-shop.at
-luxuryforcheapgermany.de
+#D luxuryforcheapgermany.de
 luxuryustoreofficial.de
 #D luxzia.de
 #D m-wanted.at
@@ -1288,7 +1288,7 @@ medimaxde.de
 medimaxdeutschland.store
 medimaxstore.de
 #D medionus.de
-meer-trends.de
+#D meer-trends.de
 megahood.de
 mehrwerken.de
 #D meikevollmers.de
@@ -1302,7 +1302,7 @@ meindiscount.store
 meinkleinerbaum.de
 #D meinwunschkind.at
 meladen.de
-melanca.de
+#D melanca.de
 mercator.direct
 #D merrellaustria.at
 #D messdiener-hoentrop.de
@@ -1316,7 +1316,7 @@ micron-srl.de
 #D mindmage.de
 #D minzos.de
 misgift.de
-missbrauchhilfe.de
+#D missbrauchhilfe.de
 #D mister24bike.de
 misterhaushalt.de
 mitbella.de
@@ -1373,13 +1373,13 @@ mynecklace.de
 #D nbdeutsch.de
 ndm-faustball.de
 #D neo-scooter.de
-nerz-gueckel-hno.de
+#D nerz-gueckel-hno.de
 net-inkasso.de
 nettjade.de
 #D netz-imperium.de
 neu-akku.at
 #D neuhaus-media.de
-newmanslayer.de
+#D newmanslayer.de
 nexsource.de
 nger.de
 nicdiamond.de
@@ -1408,7 +1408,7 @@ ohpera.at
 oliver-schwarzer-shop.de
 #D omegaa.eu
 omoowo.com
-#D on-switch.com
+on-switch.com
 #D on-switch.net
 #D oniani-wohnen.de
 online-gold-shop.de
@@ -1566,7 +1566,7 @@ schmukkedeern.de
 schnappi-deal.de
 #D schnellerfuhrerscheinkaufen.de
 #D schnellschlau.at
-schodrok-bochum.de
+#D schodrok-bochum.de
 schoneswetter.de
 #D schroeder-kaffee.de
 #D schubertiade-salzburg.at
@@ -1618,7 +1618,7 @@ sls-baumarkt.de
 smilewithstyle.at
 #D smokerkings.de
 #D sneakers4you.eu
-sohab-coswig.de
+#D sohab-coswig.de
 solar-liquid.de
 solarcheck.at
 #D solidus-goldscheideanstalt.de
@@ -1651,7 +1651,7 @@ sportgewandt.de
 sportgorilla.de
 #D sporthandel-weiler.de
 #D sporthandel-weiller.com
-sporthandel-weiller.de
+#D sporthandel-weiller.de
 #D sportreservierung.at
 sportsvital.de
 spydersale.de
@@ -1687,7 +1687,7 @@ stoeberlaedele.de
 stop-oder-go.de
 #D storesti.de
 strahlentier.de
-#D strassenware.de
+strassenware.de
 #D stravisio-pflege.de
 #D stresstherapy.de
 #D stubenhocker24.de
@@ -1794,7 +1794,7 @@ trikotsale.de
 trimzy.de
 #D tripvariator.at
 #D tronictempel.de
-#D trust-edshop.com
+trust-edshop.com
 #D trusted-gold-shop-nr827133.de
 #D trusted-gold-shops-nr83582.de
 #D trusted-gold-shops.de
@@ -1810,14 +1810,14 @@ trusted-goldshops-liste.de
 trusted-goldshops-nr9983.de
 #D trusted-goldshops.de
 trusted-onlineshop-n7737.de
-#D trusted-onlineshop-nr18253.de
+trusted-onlineshop-nr18253.de
 trusted-onlineshop-nr24283.de
 #D trusted-onlineshop-nr2802.de
 #D trusted-onlineshop-nr29381.de
-trusted-onlineshop-nr38742.de
+#D trusted-onlineshop-nr38742.de
 trusted-onlineshop-nr7372.de
 #D trusted-onlineshop-nr7382.de
-trusted-onlineshop-nr82122.de
+#D trusted-onlineshop-nr82122.de
 #D trusted-onlineshop-nr8312.de
 trusted-onlineshop-nr8372.de
 trusted-onlineshop-nr8714.de
@@ -1857,7 +1857,7 @@ universetools.de
 #D uzango-design.at
 #D valanie.de
 valepina.de
-van-consulting.de
+#D van-consulting.de
 varoneo.de
 vasons.de
 #D vateli.de
@@ -1900,7 +1900,7 @@ vorola.de
 vukv-mitterfels.de
 #D vunol.de
 #D waehlt-andreas-henke.de
-wahldate.de
+#D wahldate.de
 #D walter-riegler.at
 #D walther-electron.de
 #D warenhaus-kruse.de
@@ -1931,7 +1931,7 @@ weltweit-akkus.de
 werbungansbach.de
 #D werkzeug-maier.de
 werkzeug-zuhr.de
-westfalenmeeris.de
+#D westfalenmeeris.de
 wf-schenning.de
 wgtodenbuettel.de
 #D wiebke-rohloff.de
@@ -1949,19 +1949,19 @@ wir-sind-goldhandel.de
 #D wohnwert-leonhard.at
 wolf-juergen.de
 wolffashion.de
-wolle-flottemesch.de
+#D wolle-flottemesch.de
 wostimex-24.de
 wotzka-dahlen.de
 #D wowerbungwirkt.at
 #D wpc-handel24.de
 #D www.trusted-goldshop-nr83812.de
-x-treme-multimedia.de
+#D x-treme-multimedia.de
 xiaomiofficial.ee
 xo-trier.de
 #D yonuda.de
 #D yourburst.de
 #D zagnia.de
-#D zartefrau.de
+zartefrau.de
 zatruesonline.de
 #D zegie.de
 #D zeitlosliebe.de
