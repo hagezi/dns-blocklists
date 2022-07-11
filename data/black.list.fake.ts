@@ -527,14 +527,14 @@ dc-belsen.de
 debica-reifen.de
 #D decleaners.de
 #D dein-berghuettenurlaub.de
-dein-elektromarkt.de
+#W dein-elektromarkt.de
 dein-elektroshop.de
 #D deinfashionparadies.de
 #D deinkuechenbedarf.de
 #D deinrad24.de
 dejonk.de
 delikatessen-band.de
-deluxemarkt.de
+#W deluxemarkt.de
 demo-marketing.de
 demoniaschuhe.de
 #D denika.at
@@ -595,7 +595,7 @@ e-pmb.de
 e-shop-markt.de
 #D easycarpay-deutschland.de
 eatathome.de
-eberhard-versand.de
+#D eberhard-versand.de
 ec-menta.de
 #D eccobiom.de
 eccooutletdeutschland.de
@@ -647,7 +647,7 @@ elektropfeifer.de
 #D elektrospezialist.at
 #D elektrova-shop.de
 #D eliphaslevi.de
-elkepaschek.de
+#W elkepaschek.de
 #D ellmauplus.at
 elo-cc.de
 #D eloquentik.de
@@ -693,7 +693,7 @@ eyachfischer.de
 #D fahrrad-elite.com
 #D fahrrad-elite.de
 #D fahrrad-expert.de
-fahrrad-handels.de
+#W fahrrad-handels.de
 #D fahrrad-handels.net
 #D fahrrad-harald.com
 #D fahrrad-pros.de
@@ -759,7 +759,7 @@ fitnessmarkt-winkler.de
 #D flair-penthouse.at
 #D flairbytes.de
 fleezie.de
-fleisch-paradies.de
+#W fleisch-paradies.de
 #D fliesen-cieslack.de
 #D flirtbig.at
 #D floato-loon.de
@@ -784,7 +784,7 @@ furnidays.de
 gaestehausconrad.de
 #D galerie-barta.at
 galerieoswald.de
-gamarkt.de
+#W gamarkt.de
 #D game-adventures.com
 #D game-pop.de
 #D gamecount.de
@@ -836,7 +836,7 @@ giesswein-outdoor.de
 glas-gs.de
 gleuelspd.de
 #D globalex24.de
-gluckstucke.de
+#W gluckstucke.de
 glueckstore.de
 #D gmbh2go.de
 godcontroller.de
@@ -879,10 +879,10 @@ goldhandel-on-kaufen.de
 #D goldhandel-preisliste.de
 goldhandel-preissieger.de
 goldhandel-punkt.de
-goldhandel-s-1972.de
+#W goldhandel-s-1972.de
 #D goldhandel-seit-1981.de
 #D goldhandel-seit1986.de
-goldhandel-service.de
+#W goldhandel-service.de
 goldhandel-tageskurse.de
 goldhandel-team.de
 #D goldhandel-testsieger-2021.de
@@ -1036,7 +1036,7 @@ htgazete.de
 #D huelledesign.com
 #D ibs-plan-gmbh.de
 #D icinden.at
-iconicnetwork.de
+#W iconicnetwork.de
 #D ideal-elektro.de
 #D igd-maschinenbau.de
 #D ikaffee.shop
@@ -1070,7 +1070,7 @@ irisferber.de
 #D irishpubschleswig.de
 #D irrasch.at
 #D isa-onlinemarkt.com
-isosmart.de
+#W isosmart.de
 isuzu-muenchen.de
 itcon-engineering.de
 #D itkonsulenten.at
@@ -1268,7 +1268,7 @@ magros-welt.de
 maropado24.de
 masterclass-toblach.de
 mauritius-koeln.de
-maxcrox.de
+#W maxcrox.de
 maybracht.net
 mbike-jena.de
 #D mbtaustria.at
@@ -1289,7 +1289,7 @@ medimaxdeutschland.store
 medimaxstore.de
 #D medionus.de
 #D meer-trends.de
-megahood.de
+#W megahood.de
 mehrwerken.de
 #D meikevollmers.de
 mein-buch24.de
@@ -1622,7 +1622,7 @@ smilewithstyle.at
 solar-liquid.de
 solarcheck.at
 #D solidus-goldscheideanstalt.de
-sommeraufdemland.de
+#W sommeraufdemland.de
 #D sonia-media.com
 #D sonnenflohmarkt.at
 sonnesucht.de
@@ -1721,7 +1721,7 @@ techdachs.de
 #D technik-schleich.de
 technik-schnaeppchen-shop.de
 technikahrens.de
-technikbehrens.de
+#W technikbehrens.de
 technikexpress24.de
 #D technikfabrik.store
 #D technikfusion.de
@@ -1815,7 +1815,7 @@ trusted-onlineshop-nr24283.de
 #D trusted-onlineshop-nr2802.de
 #D trusted-onlineshop-nr29381.de
 #D trusted-onlineshop-nr38742.de
-trusted-onlineshop-nr7372.de
+#W trusted-onlineshop-nr7372.de
 #D trusted-onlineshop-nr7382.de
 #D trusted-onlineshop-nr82122.de
 #D trusted-onlineshop-nr8312.de
@@ -1851,7 +1851,7 @@ uhrexpress24.com
 #D unentwearinz.de
 #D uninight.at
 #D unisonmen.de
-universetools.de
+#W universetools.de
 #D unter-den-buchen.de
 #D uta-baresel.de
 #D uzango-design.at
@@ -1875,7 +1875,7 @@ versandhaus-neumann.de
 #D versandhouse.de
 versandrezeptfrei.de
 vespin.de
-vespin24.de
+#W vespin24.de
 vevor.de
 #D videofilm-reinhardt.de
 videokaarten.eu
@@ -1961,7 +1961,7 @@ xo-trier.de
 #D yonuda.de
 #D yourburst.de
 #D zagnia.de
-zartefrau.de
+#W zartefrau.de
 zatruesonline.de
 #D zegie.de
 #D zeitlosliebe.de
