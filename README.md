@@ -5,7 +5,7 @@
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
 *An all in one DNS blocklist in **three versions (light, normal and pro)**, based on:*
-- [OISD](https://oisd.nl/downloads)
+- [OISD basic](https://oisd.nl/downloads)
 - [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
 - [NoTracking](https://github.com/notracking/hosts-blocklists)
 - [Steven Black Hosts](https://github.com/StevenBlack/hosts) *(includes: AdAway, MVPS hosts, shady-hosts, someonewhocares, yoyo.org and more)*
@@ -13,7 +13,6 @@
 - [EasyList](https://easylist.to/) *(simplified for DNS level blocking)*
 - [uBlock uAssets](https://github.com/uBlockOrigin/uAssets) *(simplified for DNS level blocking)*
 - [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
-- [BlahDNS Blacklist](https://github.com/ookangzheng/blahdns)
 - [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
 - [Quids NoTrack](https://gitlab.com/quidsup)
 - [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
@@ -29,7 +28,7 @@
 |:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|:----------------:|
 | [Normal](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X | P |
 | [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X | P |
-| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | P |   |   | X | X |
+| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X | X |
 
 *X = contains the named lists in the column header*       
 *P = partially contains the named list in the column header*       
