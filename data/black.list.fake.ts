@@ -4,11 +4,18 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-07-09
+# Last modified: 2021-07-15
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+retro-stage.de
+zoomil.de
+elektro-rock.com
+smtkauf.de
+gamestopshop.net
+alakar.de
+solarnetz.at
 wald-brennholz.de
 vbarefootkaufen.de
 solanex.de
