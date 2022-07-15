@@ -5,11 +5,11 @@
 # Expires: Updated regularly
 #
 #   Nr |   Count | Format  | Source | Status  | File      | URL/File
-#    1 |   19486 | adblock | http   | online  | unchanged | https://easylist.to/easylist/easylist.txt
-#    2 |   13112 | adblock | http   | online  | unchanged | https://easylist.to/easylist/easyprivacy.txt
+#    1 |   19504 | adblock | http   | online  | changed   | https://easylist.to/easylist/easylist.txt
+#    2 |   13113 | adblock | http   | online  | changed   | https://easylist.to/easylist/easyprivacy.txt
 #    3 |      36 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/Liste_AR.txt
 #    4 |    3213 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/advblock.txt
-#    5 |    7922 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistchina.txt
+#    5 |    7937 | adblock | http   | online  | changed   | https://easylist-downloads.adblockplus.org/easylistchina.txt
 #    6 |      15 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistdutch.txt
 #    7 |      42 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistgermany.txt
 #    8 |      58 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/easylistitaly.txt
@@ -20,7 +20,7 @@
 #   13 |       3 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/koreanlist.txt
 #   14 |    7753 | adblock | http   | online  | unchanged | https://easylist-downloads.adblockplus.org/liste_fr.txt
 #   15 |      19 | adblock | http   | online  | unchanged | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
-#   16 |      21 | adblock | http   | online  | unchanged | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt
+#   16 |      23 | adblock | http   | online  | changed   | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt
 #   17 |     136 | adblock | http   | online  | unchanged | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
 #   18 |      16 | adblock | http   | online  | unchanged | https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
 #   19 |      90 | adblock | http   | online  | unchanged | https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
@@ -31,10 +31,10 @@
 #   24 |      13 | adblock | http   | online  | unchanged | https://www.void.gr/kargig/void-gr-filters.txt
 #   25 |     118 | adblock | http   | online  | unchanged | https://www.zoso.ro/pages/rolist.txt
 #
-# Version: 2022.0715.065503
-# Last modified: Fr 15. Jul 06:55:03 UTC 2022
+# Version: 2022.0715.165446
+# Last modified: Fr 15. Jul 16:54:46 UTC 2022
 # Syntax: DNSMasq
-# Domains: 49621
+# Domains: 49653
 #
 address=/000123456789.online/#
 address=/000123456789.site/#
@@ -131,6 +131,7 @@ address=/0azx1.com/#
 address=/0b2qv7.cn/#
 address=/0b9d84d93f1b.com/#
 address=/0byv9mgbn0.com/#
+address=/0c4bc6060b.com/#
 address=/0c6fb44787.com/#
 address=/0cfe97d936.com/#
 address=/0dc77eb60d.com/#
@@ -652,6 +653,7 @@ address=/3201556.site/#
 address=/321930e1f3.com/#
 address=/321.jintang114.org/#
 address=/3221dkf7m2.com/#
+address=/32258228.com/#
 address=/325d3d949f.com/#
 address=/325szdv.cn/#
 address=/32851897.com/#
@@ -1173,6 +1175,7 @@ address=/666679.xyz/#
 address=/666683.xyz/#
 address=/666684.xyz/#
 address=/666722.xyz/#
+address=/666723.xyz/#
 address=/6667778882021.site/#
 address=/6669667.com/#
 address=/666video.asia/#
@@ -1284,6 +1287,7 @@ address=/77176d9509.com/#
 address=/77417.cn/#
 address=/774e14a837.com/#
 address=/7773180.com/#
+address=/777753.net/#
 address=/777-888.ru/#
 address=/7-7-7-partner.com/#
 address=/777seo.com/#
@@ -1430,6 +1434,7 @@ address=/87joojin3fb.ru/#
 address=/87uq.com/#
 address=/884069349.ltd/#
 address=/884329.com/#
+address=/884352.com/#
 address=/8848skins.com/#
 address=/885842.com/#
 address=/88818122.cn/#
@@ -1573,6 +1578,7 @@ address=/99044b0caf.com/#
 address=/991019.top/#
 address=/995db2642d3d852b.com/#
 address=/996f0a8.com/#
+address=/998k.at/#
 address=/99b3da8d81.com/#
 address=/99ba476edf.com/#
 address=/99dc6ef64c.com/#
@@ -2774,6 +2780,7 @@ address=/acronixshop.ru/#
 address=/acronycgrimes.com/#
 address=/acrossgained.com/#
 address=/acroterrecurse.com/#
+address=/acrvclk.com/#
 address=/acsbapp.com/#
 address=/acscdn.com/#
 address=/a.csfd.cz/#
@@ -3981,6 +3988,7 @@ address=/ahfdsply.com/#
 address=/ahfikbtuayuol.com/#
 address=/ahfnlwaxewum.com/#
 address=/ahgdsply.com/#
+address=/ahh6.cn/#
 address=/ahhdsply.com/#
 address=/ahhrtt.pixnet.net/#
 address=/ahhwy.com/#
@@ -7587,7 +7595,9 @@ address=/bob4885.com/#
 address=/bob4915.com/#
 address=/bob4942.com/#
 address=/bob4994.com/#
+address=/bob5379.com/#
 address=/bobbytubate.com/#
+address=/bobdz.com/#
 address=/bobeshehi.com/#
 address=/bob.gitclear.com/#
 address=/bobik.playflock.com/#
@@ -8318,6 +8328,7 @@ address=/byvuwhubi.com/#
 address=/bywhoshixo.com/#
 address=/byyanmaor.com/#
 address=/byyxpavmb.xyz/#
+address=/byznb.xyz/#
 address=/bzclk.baidu.com/#
 address=/bzidp.com/#
 address=/bzlpa.cn/#
@@ -8391,6 +8402,7 @@ address=/ca4ec6874a33a13.com/#
 address=/ca58d94915.com/#
 address=/ca638b6c5a45059.com/#
 address=/ca65b1531c.com/#
+address=/ca6ac9b0e5.com/#
 address=/ca72472d7aee.com/#
 address=/cabbingpolynya.cam/#
 address=/cabineteen.club/#
@@ -9087,6 +9099,7 @@ address=/chandlersubsequently.com/#
 address=/chanelets-aurning.com/#
 address=/chanelventure.club/#
 address=/chang555.cn/#
+address=/changchunyitian.online/#
 address=/changeablesizepractically.com/#
 address=/changedcombustible.com/#
 address=/changefranticallywhom.com/#
@@ -9844,6 +9857,7 @@ address=/cmdsdkekfhavlv.xyz/#
 address=/cm-exchange.toast.com/#
 address=/cmfads.com/#
 address=/c.mgid.com/#
+address=/cmgjqqu.cn/#
 address=/cmhbjmiqhljcbda.com/#
 address=/cmhfasxpdau.xyz/#
 address=/cmilymvpm.com/#
@@ -10122,6 +10136,7 @@ address=/colletsopelu.cam/#
 address=/collidetunnel.com/#
 address=/colliersads.com/#
 address=/colltz.com/#
+address=/colmcweb.com/#
 address=/colonialismresolute.com/#
 address=/colonistnobilityheroic.com/#
 address=/colonytask.com/#
@@ -12285,6 +12300,7 @@ address=/dbclix.com/#
 address=/dbdda435.com/#
 address=/dbecreativea.biz/#
 address=/dbex-tracker-v2.driveback.ru/#
+address=/dbf1405f9c.com/#
 address=/dbkdwe1.com/#
 address=/dbkhhkzhdjkhqh.com/#
 address=/dblcs.cn/#
@@ -15178,6 +15194,7 @@ address=/englingedrxa.club/#
 address=/englishheadlight.com/#
 address=/englutzydecos.com/#
 address=/engpeng.cn/#
+address=/enheir.com/#
 address=/enhichej.xyz/#
 address=/enhrinexwptm.xyz/#
 address=/enicyvys.xyz/#
@@ -20559,6 +20576,7 @@ address=/hxadt.com/#
 address=/hxbt.alading123.com/#
 address=/hxbylm.vip/#
 address=/hxclove.club/#
+address=/hxcrlt.cn/#
 address=/hxf1688.xyz/#
 address=/hxfree.vip/#
 address=/hxgsecrt.com/#
@@ -21917,6 +21935,7 @@ address=/isagoncamwood.cam/#
 address=/isanalyze.com/#
 address=/isawaalphol.casa/#
 address=/isbamic.actonservice.com/#
+address=/isbnrs.com/#
 address=/iscosta.ru/#
 address=/isc-tracking.eventim.com/#
 address=/isdbjvok.xyz/#
@@ -23206,6 +23225,7 @@ address=/k2215.cn/#
 address=/k22x6.cn/#
 address=/k31bpzf.xyz/#
 address=/k39a56csgj.com/#
+address=/k3uihu.xyz/#
 address=/k4fu.verif.com/#
 address=/k54nw.pw/#
 address=/k5a.io/#
@@ -26057,6 +26077,7 @@ address=/majiamei.fun/#
 address=/majoagna.com/#
 address=/majomalonic.com/#
 address=/majorgeorgiana.com/#
+address=/majorinryesop.lol/#
 address=/makatearepasts.com/#
 address=/make6pain.com/#
 address=/makedosupport.club/#
@@ -26735,6 +26756,7 @@ address=/mdgbpqjh.xyz/#
 address=/mdgxjpsqarq.com/#
 address=/mdhv.io/#
 address=/mdiyay.vseinstrumenti.ru/#
+address=/mdjf9vh9.shop/#
 address=/mdjf9vh9.xyz/#
 address=/mdjxa.com/#
 address=/mdjxm.com/#
@@ -27630,6 +27652,7 @@ address=/mightyspiders.com/#
 address=/mignished-sility.com/#
 address=/mignoops.net/#
 address=/migransdghaisa.com/#
+address=/migrantspiteconnecting.com/#
 address=/miihwnroe.com/#
 address=/milabra.com/#
 address=/milan100.cn/#
@@ -30442,6 +30465,7 @@ address=/onkibirw.com/#
 address=/online2017.ru/#
 address=/online-adnetwork.com/#
 address=/onlinecashmethod.com/#
+address=/onlinefinanceworld.com/#
 address=/online-path.com/#
 address=/onlinepromousa.com/#
 address=/online-protection-now.com/#
@@ -33536,6 +33560,7 @@ address=/px.derstandard.at/#
 address=/px.effirst.com/#
 address=/px.excitedigitalmedia.com/#
 address=/pxfeiws.cn/#
+address=/pxfindtwo.com/#
 address=/pxfvedgufm.xyz/#
 address=/pxl2015x1.com/#
 address=/pxlgnpgecom-a.akamaihd.net/#
@@ -34776,6 +34801,7 @@ address=/reporting.singlefeed.com/#
 address=/report.meituan.com/#
 address=/report.novinky.cz/#
 address=/reports-api.sqreen.io/#
+address=/report.seznamzpravy.cz/#
 address=/reportsk.web.sdo.com/#
 address=/reportsnakefill.com/#
 address=/reports.pagesuite-professional.co.uk/#
@@ -36255,6 +36281,7 @@ address=/scriptcc.cc/#
 address=/scripts.bestprice.gr/#
 address=/script-sh.d2cdm.jp/#
 address=/scripts.psyma.com/#
+address=/scriptvealpatronage.com/#
 address=/scrollhandful.com/#
 address=/scrollservice.com/#
 address=/scrubheiress.com/#
@@ -39785,6 +39812,7 @@ address=/stats.hugoreeves.com/#
 address=/stats.huysmanbouw.be/#
 address=/stats.iamzero.dev/#
 address=/stats.ibtimes.co.in/#
+address=/stats.ibtimes.sg/#
 address=/stats.igevia.com/#
 address=/stats.immunefi.com/#
 address=/stats.inergizedigitalmedia.com/#
@@ -42451,6 +42479,7 @@ address=/tracker.bestshopping.com/#
 address=/tracker.bt.uol.com.br/#
 address=/tracker.cauly.co.kr/#
 address=/tracker.cdnbye.com/#
+address=/tracker.cncenter.cz/#
 address=/tracker.comagic.ru/#
 address=/tracker.data-vp.com/#
 address=/tracker.digitalcamp.co.kr/#
@@ -43768,6 +43797,7 @@ address=/ttxbyrxgkd.com/#
 address=/ttxs8.xyz/#
 address=/ttylmex.cn/#
 address=/ttyvdilxsuorg.com/#
+address=/ttyyeastfeukuf.xyz/#
 address=/ttzhongbao.com/#
 address=/ttzmedia.com/#
 address=/tuadong.com/#
@@ -44025,6 +44055,7 @@ address=/u0065.com/#
 address=/u0067.com/#
 address=/u0071.com/#
 address=/u0072.com/#
+address=/u0083.com/#
 address=/u0r9.cn/#
 address=/u1.2048sj.com/#
 address=/u1.20q.cn/#
@@ -45391,6 +45422,7 @@ address=/visit.tafensw.edu.au/#
 address=/visit.theglobeandmail.com/#
 address=/visitweb.com/#
 address=/visit.webhosting.yahoo.com/#
+address=/visors-airminal.com/#
 address=/vistoolr.net/#
 address=/visualsteel.net/#
 address=/viswcnb.cn/#
@@ -47783,6 +47815,7 @@ address=/xovrclhppbrplgp.com/#
 address=/xowedsxmdd.com/#
 address=/xowelamcwijxp.com/#
 address=/xox8829.com/#
+address=/xox8863.com/#
 address=/xox8956.com/#
 address=/xox9298.com/#
 address=/xox9325.com/#
@@ -48983,7 +49016,6 @@ address=/z211.yourconroenews.com/#
 address=/z3dmbpl6309s.com/#
 address=/z48gntbbu9pl.com/#
 address=/z492.ctinsider.com/#
-address=/z4a.net/#
 address=/z5x.net/#
 address=/z680.beaumontenterprise.com/#
 address=/z6naousb.com/#
