@@ -4,37 +4,34 @@
 ## DNS Blocklists - *For a better internet!*
 
 ### ***Multi - Cleans the Internet and protects your privacy!***
-*An all in one DNS blocklist in **three versions (light, normal and pro)**, based on:*
-- [OISD basic](https://oisd.nl/downloads)
-- [badmojr 1Hosts lite](https://github.com/badmojr/1Hosts)
-- [NoTracking](https://github.com/notracking/hosts-blocklists)
-- [Steven Black Hosts](https://github.com/StevenBlack/hosts) *(includes: AdAway, MVPS hosts, shady-hosts, someonewhocares, yoyo.org and more)*
-- [AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)
-- [EasyList](https://easylist.to/) *(simplified for DNS level blocking)*
-- [uBlock uAssets](https://github.com/uBlockOrigin/uAssets) *(simplified for DNS level blocking)*
-- [NextDNS Metadata](https://github.com/nextdns/metadata) *(CNAME cloaking and parked domains)*
-- [Frogeye's first-party trackers](https://hostfiles.frogeye.fr/) 
-- [Quids NoTrack](https://gitlab.com/quidsup)
-- [antipopads:reborn](https://github.com/AdroitAdorKhan/antipopads-re)
-- [Costin Raiu Mobiletrackers](https://github.com/craiu/mobiletrackers)
-- [infinitytec's blocklists](https://github.com/infinitytec/blocklists)
-- [D3Ward Hosts](https://d3ward.github.io/toolz/adblock)
-- [My personal blacklist](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/personal.txt)
-
-*It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap" and is available in 3 versions.*
+*An all in one DNS blocklist in **three versions (light, normal and pro)**. It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap". Based on various blocklist sources and my manually maintained personal blacklist.*
 
 #### ***Multi blocklist version overview:***
-| Version | Pro | Normal | Light | [Fake](https://github.com/hagezi/dns-blocklists#fake---protects-against-internet-scams-traps--fakes) | [TIF](https://github.com/hagezi/dns-blocklists#threat-intelligence-feeds---increases-security-significantly) | [Bypass](https://github.com/hagezi/dns-blocklists#dohvpntorproxy-bypass---prevent-methods-to-bypass-your-dns) | [Safesearch](https://github.com/hagezi/dns-blocklists#safesearch-not-supported---prevent-the-use-of-search-engines-that-do-not-support-safesearch) | Personal | Based blocklists | 
-|:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|:----------------:|
-| [Normal](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X | P |
-| [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X | P |
-| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X | X |
+| Version | Pro | Normal | Light | [Fake](https://github.com/hagezi/dns-blocklists#fake---protects-against-internet-scams-traps--fakes) | [TIF](https://github.com/hagezi/dns-blocklists#threat-intelligence-feeds---increases-security-significantly) | [Bypass](https://github.com/hagezi/dns-blocklists#dohvpntorproxy-bypass---prevent-methods-to-bypass-your-dns) | [Safesearch](https://github.com/hagezi/dns-blocklists#safesearch-not-supported---prevent-the-use-of-search-engines-that-do-not-support-safesearch) | Personal | 
+|:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|
+| [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X |
+| [Normal (recommended)](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X |
+| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X |
 
 *X = contains the named lists in the column header*       
 *P = partially contains the named list in the column header*       
 
 ---
          
+### ***Multi LIGHT***
+**Light protection without restrictions**:
+
+*Contains only the most important hosts. It can be used for adblockers that have problems with processing large lists.*
+
+| Format | Link | Can be used for |
+|:-------|:-----|:----------------|
+| Domains  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt) | PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist | 
+| Hosts    | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt) | PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor              |
+| Adblock  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi |
+| Unbound  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf) | Unbound                                                              |
+| DNSMasq  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/light.txt) | DNSMasq                                                              | 
+| Wildcard | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light.txt) | DNSCrypt, DNSCloak, YogaDNS, ...                                               |
+
 ### ***Multi NORMAL*** (recommended)
 **All-round protection without restrictions**:
 
@@ -47,26 +44,10 @@
 | DNSMasq  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/multi.txt) | DNSMasq                                                              | 
 | Wildcard | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/multi.txt) | DNSCrypt, DNSCloak, YogaDNS, ...                                               |
 
-### ***Multi LIGHT***
-**Light protection, only the most important hosts**:
-
-*There is also a **light version** of the **multi list**, which contains only the most important hosts. It can be used for adblockers that have problems with processing large lists.*
-
-| Format | Link | Can be used for |
-|:-------|:-----|:----------------|
-| Domains  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt) | PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist | 
-| Hosts    | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt) | PiHole, AdAway, uMatrix, DNS66, GasMask, HostFileEditor              |
-| Adblock  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | AdGuard, AdGuard Home, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi |
-| Unbound  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/light.blacklist.conf) | Unbound                                                              |
-| DNSMasq  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/light.txt) | DNSMasq                                                              | 
-| Wildcard | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light.txt) | DNSCrypt, DNSCloak, YogaDNS, ...                                               |
-
 ### ***Multi PRO***
-**Maximum protection, restrictions possible, only for experienced users**:
+**Maximum protection, restrictions possible, aggressive list, only for experienced users**:
 
-*For the experienced user there is also a **pro version** of the **multi list**. The list may contain false positive domains that limit functionality. When using, an admin should be present who can whitelist domains!*
-
-***If you find a domain that restricts functionality, please report this false positive domain as an [issue](https://github.com/hagezi/dns-blocklists/issues).***
+*The list may contain false positive domains that limit functionality. When using, an admin should be present who can whitelist domains!*
 
 | Format | Link | Can be used for |
 |:-------|:-----|:----------------|
@@ -84,8 +65,6 @@
 ### ***Fake - Protects against internet scams, traps & fakes!***
 *An blocklist for blocking fake stores, -news, -science, -streaming, rip-offs, cost traps and co. Based on my [manually maintained fake blacklists](https://github.com/hagezi/dns-blocklists/tree/main/data).*    
 
-*Included in the multi and partially in the [OISD](https://oisd.nl/) blocklist.*
-
 | Format | Link | Can be used for |
 |:-------|:-----|:----------------|
 | Domains  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt) | PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist | 
@@ -101,8 +80,6 @@
 
 ### ***Threat Intelligence Feeds - Increases security significantly!***
 *An blocklist for blocking malware, crypto, coin, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers. Based on various valid malware sources.*    
-
-*Only partially included in multi normal and pro, not included in multi light. Can be used as an extension.*
 
 | Format | Link | Can be used for |
 |:-------|:-----|:----------------|
@@ -138,8 +115,6 @@
 ### ***Safesearch not supported - Prevent the use of search engines that do not support safesearch!***
 *An blocklist for blocking search engines that do not support safesearch.*     
 
-*Not included in the multi blocklist.*
-
 | Format | Link | Can be used for |
 |:-------|:-----|:----------------|
 | Domains  | [RAW](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt) | PiHole, Diversion, PersonalDNSfilter, pfBlockerNG, PersonalBlocklist | 
@@ -174,6 +149,6 @@
 
 ---
 
-### ***Keep the internet clean! - Join r/DNSBlocklists on [Reddit](https://www.reddit.com/r/DNSBlocklists/)***
+### ***Keep the internet clean!***
 
 ---
