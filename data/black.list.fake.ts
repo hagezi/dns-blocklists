@@ -4,11 +4,60 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-07-15
+# Last modified: 2021-07-21
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+medimaxline.de
+sirius-versand.com
+besteronlineshop.com
+planet-videospiel.com
+baubali.com
+berando.de
+fastyslim.de
+durindo.de
+shutterstock.com
+salomonschuheoutlet.de
+sternenkinder-kronach.de
+wmk-versand.de
+slimyliquid.de
+slimyvita.de
+sendros.de
+ordernow24.de
+ketoxmed-kaufen.de
+ketoxmed.de
+emilia-muller.de
+werino.de
+schmerbeck-versand.de
+solarnetz.at
+smtkauf.de
+repuhren.de
+pumadeutschland.de
+olivegardenhouses.de
+luvemo.de
+laubfall.de
+hugoverkauf.de
+eccodeutschlandshop.de
+discovery-versand.de
+diaetoxil.de
+deutscheritter.de
+der-euro-preisfuchs.de
+adidasyeezyboost.de
+aphidophaga.de
+alles-einfacher.de
+garten-steckby.de
+kaisermarkt.com
+echopark-gmbh.com
+thermomix.world
+levelbikes.de
+interseroh-brandneu.de
+bikeymikey.de
+docsmartensdeutschland.de
+dein-gartenheld.de
+kaminsky-shop.de
+rabattdisney.com
+thenorthfacedeutschland.de
 retro-stage.de
 zoomil.de
 elektro-rock.com
