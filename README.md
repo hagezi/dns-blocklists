@@ -7,11 +7,11 @@
 *An all in one DNS blocklist in **three versions (light, normal and pro)**. It can be used as a stand alone blocklist. For every region. Blocks ads, tracking, metrics, telemetry, fake, phishing, malware, scam, coins and other "crap". Based on various blocklist sources and my manually maintained personal blacklist.*
 
 #### ***Multi blocklist version overview:***
-| Version | Pro | Normal | Light | [Fake](https://github.com/hagezi/dns-blocklists#fake---protects-against-internet-scams-traps--fakes) | [TIF](https://github.com/hagezi/dns-blocklists#threat-intelligence-feeds---increases-security-significantly) | [Bypass](https://github.com/hagezi/dns-blocklists#dohvpntorproxy-bypass---prevent-methods-to-bypass-your-dns) | [Safesearch](https://github.com/hagezi/dns-blocklists#safesearch-not-supported---prevent-the-use-of-search-engines-that-do-not-support-safesearch) | Personal | 
-|:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|
-| [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X |
-| [Normal (recommended)](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | P |   |   | X |
-| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X |
+| Version | Pro | Normal | Light | [Fake](https://github.com/hagezi/dns-blocklists#fake---protects-against-internet-scams-traps--fakes) | [TIF](https://github.com/hagezi/dns-blocklists#threat-intelligence-feeds---increases-security-significantly) | [Bypass](https://github.com/hagezi/dns-blocklists#dohvpntorproxy-bypass---prevent-methods-to-bypass-your-dns) | [Safesearch](https://github.com/hagezi/dns-blocklists#safesearch-not-supported---prevent-the-use-of-search-engines-that-do-not-support-safesearch) | [Personal](https://github.com/hagezi/dns-blocklists/blob/main/domains/personal.txt) | Aggressive? |  
+|:--------|:---:|:------:|:-----:|:----:|:---:|:------:|:----------:|:--------:|:--------:|
+| [Light](https://github.com/hagezi/dns-blocklists#multi-light)                                                                                         |   |   | = | X |   |   |   | X |  |
+| [Normal (recommended)](https://github.com/hagezi/dns-blocklists#multi-normal-recommended)                                                                           |   | = | X | X | X |   |   | X |  |
+| [Pro](https://github.com/hagezi/dns-blocklists#multi-pro)                                                                                             | = | X | X | X | X |   |   | X | X |
 
 *X = contains the named lists in the column header*       
 *P = partially contains the named list in the column header*       
