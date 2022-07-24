@@ -4,11 +4,12 @@
 # Homepage: https://github.com/hagezi/dns-blocklists
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Update URL: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/data/black.list.fake.ts
-# Last modified: 2021-07-21
+# Last modified: 2021-07-22
 
 #D <domain> = dead
 #W <domain> = whitelisted
 
+freierkauf.com
 medimaxline.de
 sirius-versand.com
 besteronlineshop.com
