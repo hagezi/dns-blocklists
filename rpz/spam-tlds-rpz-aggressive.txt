@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720348380 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720383960 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -12,18 +12,15 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 07 Jul 2024 10:33 UTC
-; Version: 2024.0707.1033.02
+; Last modified: 07 Jul 2024 20:26 UTC
+; Version: 2024.0707.2026.17
 ; Syntax: RPZ
-; Number of latin TLDs: 238
+; Number of latin TLDs: 191
 ;
-*.af CNAME .
 *.africa CNAME .
 *.agency CNAME .
-*.airbus CNAME .
 *.asia CNAME .
 *.autos CNAME .
-*.aw CNAME .
 *.baby CNAME .
 *.bank CNAME .
 *.bar CNAME .
@@ -35,40 +32,33 @@ $TTL 300
 *.bingo CNAME .
 *.bio CNAME .
 *.biz CNAME .
-*.bj CNAME .
 *.boats CNAME .
 *.bond CNAME .
 *.boo CNAME .
 *.boston CNAME .
 *.boutique CNAME .
 *.brussels CNAME .
-*.bs CNAME .
 *.buzz CNAME .
-*.bw CNAME .
+*.by CNAME .
 *.cam CNAME .
 *.capital CNAME .
 *.careers CNAME .
 *.casa CNAME .
 *.cash CNAME .
 *.center CNAME .
-*.cf CNAME .
 *.cfd CNAME .
 *.charity CNAME .
 *.christmas CNAME .
 *.church CNAME .
-*.ci CNAME .
 *.city CNAME .
 *.claims CNAME .
 *.click CNAME .
 *.clothing CNAME .
 *.club CNAME .
-*.cm CNAME .
 *.computer CNAME .
 *.cool CNAME .
 *.coupons CNAME .
 *.crs CNAME .
-*.cu CNAME .
-*.cv CNAME .
 *.cymru CNAME .
 *.cyou CNAME .
 *.dad CNAME .
@@ -85,35 +75,26 @@ $TTL 300
 *.earth CNAME .
 *.eco CNAME .
 *.esq CNAME .
-*.et CNAME .
 *.fan CNAME .
 *.fashion CNAME .
 *.finance CNAME .
 *.financial CNAME .
 *.fishing CNAME .
 *.fit CNAME .
-*.fo CNAME .
 *.foo CNAME .
-*.forum CNAME .
 *.fund CNAME .
 *.fyi CNAME .
-*.ga CNAME .
 *.gdn CNAME .
 *.gent CNAME .
-*.gi CNAME .
 *.gives CNAME .
 *.giving CNAME .
 *.glass CNAME .
-*.gm CNAME .
 *.gold CNAME .
-*.gp CNAME .
-*.gq CNAME .
 *.gratis CNAME .
 *.green CNAME .
-*.gs CNAME .
+*.group CNAME .
 *.guide CNAME .
 *.guru CNAME .
-*.gw CNAME .
 *.hair CNAME .
 *.haus CNAME .
 *.health CNAME .
@@ -123,7 +104,6 @@ $TTL 300
 *.icu CNAME .
 *.ink CNAME .
 *.international CNAME .
-*.kg CNAME .
 *.kim CNAME .
 *.lat CNAME .
 *.life CNAME .
@@ -137,7 +117,6 @@ $TTL 300
 *.management CNAME .
 *.market CNAME .
 *.markets CNAME .
-*.mc CNAME .
 *.men CNAME .
 *.ml CNAME .
 *.mom CNAME .
@@ -145,17 +124,10 @@ $TTL 300
 *.monster CNAME .
 *.motorcycles CNAME .
 *.mov CNAME .
-*.mp CNAME .
-*.mr CNAME .
-*.mw CNAME .
-*.mz CNAME .
 *.name CNAME .
 *.navy CNAME .
-*.nc CNAME .
-*.ne CNAME .
 *.new CNAME .
-*.nf CNAME .
-*.ni CNAME .
+*.non CNAME .
 *.okinawa CNAME .
 *.onl CNAME .
 *.ooo CNAME .
@@ -163,7 +135,6 @@ $TTL 300
 *.parts CNAME .
 *.party CNAME .
 *.pet CNAME .
-*.pg CNAME .
 *.pharmacy CNAME .
 *.phd CNAME .
 *.photos CNAME .
@@ -171,12 +142,10 @@ $TTL 300
 *.pink CNAME .
 *.pizza CNAME .
 *.place CNAME .
-*.pn CNAME .
 *.poker CNAME .
 *.post CNAME .
 *.prof CNAME .
 *.promo CNAME .
-*.pw CNAME .
 *.quest CNAME .
 *.realtor CNAME .
 *.recipes CNAME .
@@ -198,39 +167,25 @@ $TTL 300
 *.shopping CNAME .
 *.site CNAME .
 *.skin CNAME .
-*.sl CNAME .
-*.sm CNAME .
 *.software CNAME .
 *.solar CNAME .
 *.space CNAME .
 *.sport CNAME .
-*.sr CNAME .
-*.st CNAME .
 *.store CNAME .
 *.style CNAME .
+*.su CNAME .
 *.support CNAME .
 *.surf CNAME .
-*.sx CNAME .
-*.sz CNAME .
 *.tattoo CNAME .
 *.tax CNAME .
 *.taxi CNAME .
-*.tg CNAME .
-*.tickets CNAME .
-*.tips CNAME .
-*.tj CNAME .
 *.tk CNAME .
 *.today CNAME .
 *.tokyo CNAME .
 *.top CNAME .
-*.tours CNAME .
 *.trade CNAME .
 *.trading CNAME .
-*.travel CNAME .
-*.tz CNAME .
-*.ug CNAME .
 *.uno CNAME .
-*.va CNAME .
 *.vegas CNAME .
 *.ventures CNAME .
 *.vin CNAME .
@@ -239,12 +194,10 @@ $TTL 300
 *.vlaanderen CNAME .
 *.vote CNAME .
 *.voto CNAME .
-*.vu CNAME .
 *.wang CNAME .
 *.webcam CNAME .
 *.website CNAME .
 *.wedding CNAME .
-*.wf CNAME .
 *.wiki CNAME .
 *.win CNAME .
 *.wine CNAME .

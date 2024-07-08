@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720348380 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720383960 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,15 +12,13 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 07 Jul 2024 10:33 UTC
-; Version: 2024.0707.1033.02
+; Last modified: 07 Jul 2024 20:26 UTC
+; Version: 2024.0707.2026.17
 ; Syntax: RPZ
-; Number of latin TLDs: 145/238
+; Number of latin TLDs: 131/191
 ;
 *.africa CNAME .
-*.airbus CNAME .
 *.autos CNAME .
-*.aw CNAME .
 *.baby CNAME .
 *.bank CNAME .
 *.bet CNAME .
@@ -64,19 +62,16 @@ $TTL 300
 *.finance CNAME .
 *.financial CNAME .
 *.fishing CNAME .
-*.fo CNAME .
-*.forum CNAME .
 *.fund CNAME .
 *.gent CNAME .
 *.gives CNAME .
 *.giving CNAME .
 *.glass CNAME .
 *.gold CNAME .
-*.gp CNAME .
 *.gratis CNAME .
 *.green CNAME .
+*.group CNAME .
 *.guide CNAME .
-*.gw CNAME .
 *.hair CNAME .
 *.haus CNAME .
 *.health CNAME .
@@ -92,17 +87,14 @@ $TTL 300
 *.ltd CNAME .
 *.management CNAME .
 *.markets CNAME .
-*.mc CNAME .
 *.men CNAME .
 *.mom CNAME .
 *.money CNAME .
 *.motorcycles CNAME .
-*.mp CNAME .
-*.mr CNAME .
 *.name CNAME .
 *.navy CNAME .
-*.nc CNAME .
 *.new CNAME .
+*.non CNAME .
 *.okinawa CNAME .
 *.onl CNAME .
 *.partners CNAME .
@@ -134,19 +126,14 @@ $TTL 300
 *.solar CNAME .
 *.sport CNAME .
 *.style CNAME .
+*.su CNAME .
 *.support CNAME .
-*.sz CNAME .
 *.tattoo CNAME .
 *.tax CNAME .
 *.taxi CNAME .
-*.tickets CNAME .
-*.tips CNAME .
 *.tokyo CNAME .
-*.tours CNAME .
 *.trading CNAME .
-*.travel CNAME .
 *.uno CNAME .
-*.va CNAME .
 *.vegas CNAME .
 *.ventures CNAME .
 *.vin CNAME .
@@ -157,7 +144,6 @@ $TTL 300
 *.wang CNAME .
 *.webcam CNAME .
 *.wedding CNAME .
-*.wf CNAME .
 *.win CNAME .
 *.wine CNAME .
 *.xin CNAME .
