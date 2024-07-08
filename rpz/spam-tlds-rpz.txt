@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720425480 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720448400 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,10 +12,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Jul 2024 07:58 UTC
-; Version: 2024.0708.0758.41
+; Last modified: 08 Jul 2024 14:20 UTC
+; Version: 2024.0708.1420.49
 ; Syntax: RPZ
-; Number of latin TLDs: 132/190
+; Number of latin TLDs: 131/190
 ;
 *.africa CNAME .
 *.autos CNAME .
@@ -43,7 +43,6 @@ $TTL 300
 *.church CNAME .
 *.city CNAME .
 *.claims CNAME .
-*.click CNAME .
 *.clothing CNAME .
 *.computer CNAME .
 *.cool CNAME .
