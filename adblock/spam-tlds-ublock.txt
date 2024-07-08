@@ -10,10 +10,10 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 07 Jul 2024 20:26 UTC
-! Version: 2024.0707.2026.17
+! Last modified: 08 Jul 2024 07:58 UTC
+! Version: 2024.0708.0758.41
 ! Syntax: uBlock
-! Number of latin TLDs: 191 - non-latin TLDs: 151
+! Number of latin TLDs: 190 - non-latin TLDs: 151
 !
 ||africa^$doc
 ||agency^$doc,domain=~baam.agency|~battlefield.agency|~robotzebra.agency|~uphotel.agency|~ws.agency
@@ -29,7 +29,7 @@
 ||bike^$doc
 ||bingo^$doc
 ||bio^$doc
-||biz^$doc,domain=~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dzeta.biz|~epson.biz|~iimwf.biz|~luckysbarbershop.biz|~movabletype.biz|~panasonic.biz|~slussen.biz|~wyborcza.biz|~yoox.biz
+||biz^$doc,domain=~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dzeta.biz|~epson.biz|~iimwf.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~panasonic.biz|~slussen.biz|~wyborcza.biz|~yoox.biz
 ||boats^$doc
 ||bond^$doc
 ||boo^$doc
@@ -37,7 +37,6 @@
 ||boutique^$doc
 ||brussels^$doc
 ||buzz^$doc,domain=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz
-||by^$doc,domain=~google.by
 ||cam^$doc
 ||capital^$doc
 ||careers^$doc
@@ -56,7 +55,6 @@
 ||computer^$doc
 ||cool^$doc
 ||coupons^$doc
-||crs^$doc
 ||cymru^$doc
 ||cyou^$doc,domain=~hammertime.cyou
 ||dad^$doc,domain=~classic.dad|~daily.dad|~dear.dad|~rad.dad
@@ -73,6 +71,7 @@
 ||earth^$doc
 ||eco^$doc
 ||esq^$doc,domain=~erika.esq
+||events^$doc
 ||fan^$doc
 ||fashion^$doc
 ||finance^$doc
@@ -84,6 +83,7 @@
 ||fyi^$doc,domain=~apollo.fyi|~better.fyi|~canonn.fyi|~iusearchlinux.fyi|~lunar.fyi|~vercel.fyi
 ||gdn^$doc,domain=~cst.gdn|~pss.gdn
 ||gent^$doc
+||gift^$doc
 ||gives^$doc
 ||giving^$doc
 ||glass^$doc
@@ -98,7 +98,6 @@
 ||health^$doc
 ||healthcare^$doc
 ||homes^$doc
-||house^$doc,domain=~nature.house
 ||icu^$doc,domain=~lunar.icu
 ||ink^$doc,domain=~ishortn.ink|~next.ink|~short.ink
 ||international^$doc
@@ -161,6 +160,7 @@
 ||sbs^$doc,domain=~ecopulse.sbs|~moae.sbs
 ||science^$doc
 ||sew^$doc
+||sexy^$doc
 ||shop^$doc,domain=~11ts.shop|~eventix.shop|~munu.shop|~terminal.shop|~urlbluemedia.shop
 ||shopping^$doc
 ||site^$doc,domain=~dodi-repacks.site|~fitgirl-repacks.site|~gov-img.site|~notion.site|~reddit-doesnt-like-this.site
@@ -171,7 +171,6 @@
 ||sport^$doc
 ||store^$doc,domain=~androeed.store|~shoplazza.store
 ||style^$doc
-||su^$doc
 ||support^$doc
 ||surf^$doc,domain=~bloom.surf|~glowing.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||tattoo^$doc

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720383960 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720425480 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,10 +12,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 07 Jul 2024 20:26 UTC
-; Version: 2024.0707.2026.17
+; Last modified: 08 Jul 2024 07:58 UTC
+; Version: 2024.0708.0758.41
 ; Syntax: RPZ
-; Number of latin TLDs: 131/191
+; Number of latin TLDs: 132/190
 ;
 *.africa CNAME .
 *.autos CNAME .
@@ -48,7 +48,6 @@ $TTL 300
 *.computer CNAME .
 *.cool CNAME .
 *.coupons CNAME .
-*.crs CNAME .
 *.cymru CNAME .
 *.dance CNAME .
 *.dating CNAME .
@@ -57,6 +56,7 @@ $TTL 300
 *.download CNAME .
 *.earth CNAME .
 *.eco CNAME .
+*.events CNAME .
 *.fan CNAME .
 *.fashion CNAME .
 *.finance CNAME .
@@ -64,6 +64,7 @@ $TTL 300
 *.fishing CNAME .
 *.fund CNAME .
 *.gent CNAME .
+*.gift CNAME .
 *.gives CNAME .
 *.giving CNAME .
 *.glass CNAME .
@@ -120,13 +121,13 @@ $TTL 300
 *.sale CNAME .
 *.science CNAME .
 *.sew CNAME .
+*.sexy CNAME .
 *.shopping CNAME .
 *.skin CNAME .
 *.software CNAME .
 *.solar CNAME .
 *.sport CNAME .
 *.style CNAME .
-*.su CNAME .
 *.support CNAME .
 *.tattoo CNAME .
 *.tax CNAME .

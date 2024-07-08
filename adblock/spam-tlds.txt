@@ -9,10 +9,10 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 07 Jul 2024 20:26 UTC
-! Version: 2024.0707.2026.17
+! Last modified: 08 Jul 2024 07:58 UTC
+! Version: 2024.0708.0758.41
 ! Syntax: AdGuard
-! Number of latin TLDs: 191 - punycode TLDs: 151
+! Number of latin TLDs: 190 - punycode TLDs: 151
 !
 ||*.africa^
 ||*.agency^$denyallow=baam.agency|battlefield.agency|robotzebra.agency|uphotel.agency|ws.agency
@@ -28,7 +28,7 @@
 ||*.bike^
 ||*.bingo^
 ||*.bio^
-||*.biz^$denyallow=beiniz.biz|bonial.biz|cloudns.biz|cyberciti.biz|dzeta.biz|epson.biz|iimwf.biz|luckysbarbershop.biz|movabletype.biz|panasonic.biz|slussen.biz|wyborcza.biz|yoox.biz
+||*.biz^$denyallow=beiniz.biz|bonial.biz|cloudns.biz|cyberciti.biz|dzeta.biz|epson.biz|iimwf.biz|localise.biz|luckysbarbershop.biz|movabletype.biz|panasonic.biz|slussen.biz|wyborcza.biz|yoox.biz
 ||*.boats^
 ||*.bond^
 ||*.boo^
@@ -36,7 +36,6 @@
 ||*.boutique^
 ||*.brussels^
 ||*.buzz^$denyallow=allthe.buzz|awful.buzz|cliq.buzz|montpellier.buzz|sideb.buzz|williamsonday.buzz
-||*.by^$denyallow=google.by
 ||*.cam^
 ||*.capital^
 ||*.careers^
@@ -55,7 +54,6 @@
 ||*.computer^
 ||*.cool^
 ||*.coupons^
-||*.crs^
 ||*.cymru^
 ||*.cyou^$denyallow=hammertime.cyou
 ||*.dad^$denyallow=classic.dad|daily.dad|dear.dad|rad.dad
@@ -72,6 +70,7 @@
 ||*.earth^
 ||*.eco^
 ||*.esq^$denyallow=erika.esq
+||*.events^
 ||*.fan^
 ||*.fashion^
 ||*.finance^
@@ -83,6 +82,7 @@
 ||*.fyi^$denyallow=apollo.fyi|better.fyi|canonn.fyi|iusearchlinux.fyi|lunar.fyi|vercel.fyi
 ||*.gdn^$denyallow=cst.gdn|pss.gdn
 ||*.gent^
+||*.gift^
 ||*.gives^
 ||*.giving^
 ||*.glass^
@@ -97,7 +97,6 @@
 ||*.health^
 ||*.healthcare^
 ||*.homes^
-||*.house^$denyallow=nature.house
 ||*.icu^$denyallow=lunar.icu
 ||*.ink^$denyallow=ishortn.ink|next.ink|short.ink
 ||*.international^
@@ -160,6 +159,7 @@
 ||*.sbs^$denyallow=ecopulse.sbs|moae.sbs
 ||*.science^
 ||*.sew^
+||*.sexy^
 ||*.shop^$denyallow=11ts.shop|eventix.shop|munu.shop|terminal.shop|urlbluemedia.shop
 ||*.shopping^
 ||*.site^$denyallow=dodi-repacks.site|fitgirl-repacks.site|gov-img.site|notion.site|reddit-doesnt-like-this.site
@@ -170,7 +170,6 @@
 ||*.sport^
 ||*.store^$denyallow=androeed.store|shoplazza.store
 ||*.style^
-||*.su^
 ||*.support^
 ||*.surf^$denyallow=bloom.surf|glowing.surf|kayaking.surf|quran.surf|s-wings.surf
 ||*.tattoo^
