@@ -383,7 +383,6 @@ https://raw.githubusercontent.com/velesila/yhosts/master/hosts
 https://raw.githubusercontent.com/WindowsAurora/FMHYFilterlist/main/filterlist-abp.txt
 https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/active.txt
-https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/ips.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt
 https://raw.githubusercontent.com/YanFung/Ads/master/Mobile
 https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
