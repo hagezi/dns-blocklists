@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720392060 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720477440 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 07 Jul 2024 22:41 UTC
-; Version: 2024.0707.2241.09
+; Last modified: 08 Jul 2024 22:24 UTC
+; Version: 2024.0708.2224.37
 ; Syntax: RPZ
-; Number of entries: 2122
+; Number of entries: 2118
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -374,8 +374,6 @@ gclouddns.com CNAME .
 *.gclouddns.com CNAME .
 sdns22.gkonuralp.com CNAME .
 *.sdns22.gkonuralp.com CNAME .
-dns.glorydns.com CNAME .
-*.dns.glorydns.com CNAME .
 doh-primary-pool.goodbyegambling.com CNAME .
 *.doh-primary-pool.goodbyegambling.com CNAME .
 dns.google.com CNAME .
@@ -1594,8 +1592,6 @@ home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
-krtekvpn.duckdns.org CNAME .
-*.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
 *.osefcorp.duckdns.org CNAME .
 punono.duckdns.org CNAME .
