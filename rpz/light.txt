@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720571880 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720617000 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Jul 2024 00:38 UTC
-; Version: 2024.0710.0038.36
+; Last modified: 10 Jul 2024 13:10 UTC
+; Version: 2024.0710.1310.42
 ; Syntax: RPZ
-; Number of entries: 134654
+; Number of entries: 134672
 ;
 smetrics.abbott CNAME .
 *.smetrics.abbott CNAME .
@@ -955,6 +955,8 @@ analytics.ticketmaster.com.au CNAME .
 *.analytics.ticketmaster.com.au CNAME .
 users.tpg.com.au CNAME .
 *.users.tpg.com.au CNAME .
+link.up.com.au CNAME .
+*.link.up.com.au CNAME .
 metrics.vogue.com.au CNAME .
 *.metrics.vogue.com.au CNAME .
 members.westnet.com.au CNAME .
@@ -2375,6 +2377,8 @@ cryptosplash.care CNAME .
 *.cryptosplash.care CNAME .
 cryptotrials.care CNAME .
 *.cryptotrials.care CNAME .
+cryptotyc.care CNAME .
+*.cryptotyc.care CNAME .
 clk.extrahelpmedi.care CNAME .
 *.clk.extrahelpmedi.care CNAME .
 matomo.helena.care CNAME .
@@ -15391,6 +15395,8 @@ anxkuzvfim.com CNAME .
 *.anxkuzvfim.com CNAME .
 anxlzaxtifhe.com CNAME .
 *.anxlzaxtifhe.com CNAME .
+any-digital.com CNAME .
+*.any-digital.com CNAME .
 any2st777fhy.com CNAME .
 *.any2st777fhy.com CNAME .
 anybodyproper.com CNAME .
@@ -38587,6 +38593,8 @@ freshmarketer.com CNAME .
 *.freshmarketer.com CNAME .
 freshrelevance.com CNAME .
 *.freshrelevance.com CNAME .
+freshsubz.com CNAME .
+*.freshsubz.com CNAME .
 events-eu.freshsuccess.com CNAME .
 *.events-eu.freshsuccess.com CNAME .
 events-us.freshsuccess.com CNAME .
@@ -62161,6 +62169,8 @@ paibauwho.com CNAME .
 *.paibauwho.com CNAME .
 paichaus.com CNAME .
 *.paichaus.com CNAME .
+paidlemirkily.com CNAME .
+*.paidlemirkily.com CNAME .
 a8cv.paidy.com CNAME .
 *.a8cv.paidy.com CNAME .
 ping.paidy.com CNAME .
@@ -72781,6 +72791,8 @@ selphiu.com CNAME .
 *.selphiu.com CNAME .
 analytics.sem-track.com CNAME .
 *.analytics.sem-track.com CNAME .
+t.semafor.com CNAME .
+*.t.semafor.com CNAME .
 analytics.semanticdiff.com CNAME .
 *.analytics.semanticdiff.com CNAME .
 semantiqo.com CNAME .
@@ -84993,6 +85005,8 @@ usurv.com CNAME .
 *.usurv.com CNAME .
 uswardwot.com CNAME .
 *.uswardwot.com CNAME .
+sa.uswitch.com CNAME .
+*.sa.uswitch.com CNAME .
 t.utahstateaggies.com CNAME .
 *.t.utahstateaggies.com CNAME .
 i.utdstc.com CNAME .
@@ -102793,6 +102807,8 @@ amourplace.jp CNAME .
 *.amourplace.jp CNAME .
 andhub.jp CNAME .
 *.andhub.jp CNAME .
+anytag.jp CNAME .
+*.anytag.jp CNAME .
 app-adforce.jp CNAME .
 *.app-adforce.jp CNAME .
 appollo.jp CNAME .
@@ -105567,10 +105583,6 @@ poweredbyliquidfire.mobi CNAME .
 *.poweredbyliquidfire.mobi CNAME .
 sgiz.mobi CNAME .
 *.sgiz.mobi CNAME .
-log.apk.v-mate.mobi CNAME .
-*.log.apk.v-mate.mobi CNAME .
-yapi.apk.v-mate.mobi CNAME .
-*.yapi.apk.v-mate.mobi CNAME .
 vserv.mobi CNAME .
 *.vserv.mobi CNAME .
 vyg.mobi CNAME .
@@ -114335,6 +114347,8 @@ fstrk.net CNAME .
 *.fstrk.net CNAME .
 ftads.net CNAME .
 *.ftads.net CNAME .
+t.fullres.net CNAME .
+*.t.fullres.net CNAME .
 analytics.fullstep.net CNAME .
 *.analytics.fullstep.net CNAME .
 fulltraffic.net CNAME .
@@ -125343,6 +125357,8 @@ twitterfollowers.site CNAME .
 *.twitterfollowers.site CNAME .
 tzvpn.site CNAME .
 *.tzvpn.site CNAME .
+updservice.site CNAME .
+*.updservice.site CNAME .
 usearch.site CNAME .
 *.usearch.site CNAME .
 vaicore.site CNAME .
@@ -128817,6 +128833,8 @@ smetrics.buyagift.co.uk CNAME .
 *.smetrics.buyagift.co.uk CNAME .
 analytics.candle-shack.co.uk CNAME .
 *.analytics.candle-shack.co.uk CNAME .
+applinks.capitalone.co.uk CNAME .
+*.applinks.capitalone.co.uk CNAME .
 captify.co.uk CNAME .
 *.captify.co.uk CNAME .
 cb-mms.carbuyer.co.uk CNAME .
