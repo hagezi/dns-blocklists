@@ -10,8 +10,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 10 Jul 2024 15:12 UTC
-! Version: 2024.0710.1512.41
+! Last modified: 11 Jul 2024 02:59 UTC
+! Version: 2024.0711.0259.05
 ! Syntax: uBlock
 ! Number of latin TLDs: 189 - non-latin TLDs: 151
 !
@@ -122,7 +122,7 @@
 ||mov^$doc,domain=~david.mov|~spankbang.mov
 ||name^$doc
 ||navy^$doc
-||new^$doc
+||new^$doc,domain=~git.new
 ||non^$doc
 ||okinawa^$doc
 ||onl^$doc

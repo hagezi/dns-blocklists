@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 08 Jul 2024 22:44 UTC
-# Version: 2024.0708.2244.50
+# Last modified: 10 Jul 2024 22:49 UTC
+# Version: 2024.0710.2249.45
 # Syntax: DNSMasq v2.85 or older (IDN2 compatible)
-# Number of entries: 333
+# Number of entries: 335
 #
 server=/in.appcenter.ms/
 server=/applicationinsights.azure.com/
@@ -315,6 +315,8 @@ server=/analytics-dev-lleap-events.servicebus.windows.net/
 server=/analytics-dev-simpad-events.servicebus.windows.net/
 server=/analyticsehnwe.servicebus.windows.net/
 server=/analyticsiot-prod-simpad-ehn.servicebus.windows.net/
+server=/btv-du-dev-eventhub-streamanalytics.servicebus.windows.net/
+server=/btv-du-prod-eventhub-streamanalytics.servicebus.windows.net/
 server=/citrixanalyticseh.servicebus.windows.net/
 server=/citrixanalyticseh-alias.servicebus.windows.net/
 server=/citrixanalyticseh2.servicebus.windows.net/
