@@ -4,14 +4,33 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 08 Jul 2024 15:23 UTC
-# Version: 2024.0708.1523.23
+# Last modified: 11 Jul 2024 11:47 UTC
+# Version: 2024.0711.1147.45
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 353
+# Number of entries: 383
 #
-local=/api.cupid.ptqy.gitv.tv/
-local=/config.kuyun.com/
-local=/logonext.tv.kuyun.com/
+local=/traffic-media.co.uk/
+local=/ad.intl.xiaomi.com.edgesuite.net/
+local=/auth.api.gitv.tv/
+local=/pb.bi.gitv.tv/
+local=/appstore.ptmi.gitv.tv/
+local=/cupid.ptqy.gitv.tv/
+local=/ip.ptqy.gitv.tv/
+local=/msg.ptqy.gitv.tv/
+local=/msga.ptqy.gitv.tv/
+local=/ota.ptqy.gitv.tv/
+local=/puma-api.ptqy.gitv.tv/
+local=/nl.rcd.ptqy.gitv.tv/
+local=/sdk.ptqy.gitv.tv/
+local=/si.ptqy.gitv.tv/
+local=/static.ptqy.gitv.tv/
+local=/msg.video.ptqy.gitv.tv/
+local=/msg2.video.ptqy.gitv.tv/
+local=/sdk-cache.video.ptqy.gitv.tv/
+local=/time.video.ptqy.gitv.tv/
+local=/openapi.vip.ptqy.gitv.tv/
+local=/ad.intl.xiaomi.com.ksyna.net/
+local=/kuyun.com/
 local=/ad.mi.com/
 local=/ads.mi.com/
 local=/staging.admin.e.mi.com/
@@ -41,6 +60,8 @@ local=/api.comm.miui.com/
 local=/tracking.eu.miui.com/
 local=/events.miui.com/
 local=/feedback.miui.com/
+local=/static.geek.miui.com/
+local=/cdn1.static.home.miui.com/
 local=/hybrid.miui.com/
 local=/india.miui.com/
 local=/inf.miui.com/
@@ -57,6 +78,7 @@ local=/r.browser.intl.miui.com/
 local=/api.brs.intl.miui.com/
 local=/abroad.api.comm.intl.miui.com/
 local=/api.competition.intl.miui.com/
+local=/api.content.intl.miui.com/
 local=/api.collect.data.intl.miui.com/
 local=/feedback.intl.miui.com/
 local=/api.game.intl.miui.com/
@@ -138,12 +160,14 @@ local=/testit.miui.com/
 local=/tracking.miui.com/
 local=/api.vip.miui.com/
 local=/intl.up.w.xk.miui.com/
-local=/imgg.traffic-media.co/
+local=/rus-mi.com/
+local=/traffic-media.co/
 local=/ad.xiaomi.com/
 local=/api.ads.xiaomi.com/
 local=/tracker.ai.xiaomi.com/
 local=/tracker-preview.ai.xiaomi.com/
 local=/bigdata-lbs-pri-c3.alb.xiaomi.com/
+local=/global-ad-extranet-pri-azams.alb.xiaomi.com/
 local=/global-ad-extranet-pri-azpn.alb.xiaomi.com/
 local=/global-ad-intl-pri-alisgp.alb.xiaomi.com/
 local=/awssgp0-files.fds.api.xiaomi.com/
@@ -231,7 +255,14 @@ local=/a.market.xiaomi.com/
 local=/drm.market.xiaomi.com/
 local=/xadx.file.market.xiaomi.com/
 local=/t1.market.xiaomi.com/
+local=/t14.market.xiaomi.com/
+local=/t15.market.xiaomi.com/
+local=/t17.market.xiaomi.com/
 local=/t2.market.xiaomi.com/
+local=/t3.market.xiaomi.com/
+local=/t4.market.xiaomi.com/
+local=/t5.market.xiaomi.com/
+local=/t7.market.xiaomi.com/
 local=/thm.market.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/wtradv.market.xiaomi.com/
@@ -286,7 +317,6 @@ local=/gallery.pandora.xiaomi.com/
 local=/hook.gitv.pandora.xiaomi.com/
 local=/ptmi.gitv.pandora.xiaomi.com/
 local=/gstat.pandora.xiaomi.com/
-local=/jellyfish.pandora.xiaomi.com/
 local=/lg-bgp-misc.pandora.xiaomi.com/
 local=/mantual.pandora.xiaomi.com/
 local=/mi4crawler.pandora.xiaomi.com/

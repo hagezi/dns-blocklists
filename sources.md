@@ -383,6 +383,8 @@ https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt
 https://raw.githubusercontent.com/velesila/yhosts/master/hosts
 https://raw.githubusercontent.com/WindowsAurora/FMHYFilterlist/main/filterlist-abp.txt
 https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/active.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/ips.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt

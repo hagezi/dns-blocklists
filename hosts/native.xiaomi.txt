@@ -4,14 +4,39 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 08 Jul 2024 15:23 UTC
-# Version: 2024.0708.1523.23
+# Last modified: 11 Jul 2024 11:47 UTC
+# Version: 2024.0711.1147.45
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 459
+# Number of entries: 499
 #
+0.0.0.0 traffic-media.co.uk
+0.0.0.0 ad.intl.xiaomi.com.edgesuite.net
+0.0.0.0 auth.api.gitv.tv
+0.0.0.0 pb.bi.gitv.tv
+0.0.0.0 appstore.ptmi.gitv.tv
+0.0.0.0 cupid.ptqy.gitv.tv
 0.0.0.0 api.cupid.ptqy.gitv.tv
+0.0.0.0 mixer.cupid.ptqy.gitv.tv
+0.0.0.0 t7z.cupid.ptqy.gitv.tv
+0.0.0.0 ip.ptqy.gitv.tv
+0.0.0.0 msg.ptqy.gitv.tv
+0.0.0.0 msga.ptqy.gitv.tv
+0.0.0.0 ota.ptqy.gitv.tv
+0.0.0.0 puma-api.ptqy.gitv.tv
+0.0.0.0 nl.rcd.ptqy.gitv.tv
+0.0.0.0 sdk.ptqy.gitv.tv
+0.0.0.0 si.ptqy.gitv.tv
+0.0.0.0 static.ptqy.gitv.tv
+0.0.0.0 msg.video.ptqy.gitv.tv
+0.0.0.0 msg2.video.ptqy.gitv.tv
+0.0.0.0 sdk-cache.video.ptqy.gitv.tv
+0.0.0.0 time.video.ptqy.gitv.tv
+0.0.0.0 openapi.vip.ptqy.gitv.tv
+0.0.0.0 ad.intl.xiaomi.com.ksyna.net
+0.0.0.0 kuyun.com
 0.0.0.0 config.kuyun.com
 0.0.0.0 logonext.tv.kuyun.com
+0.0.0.0 www.kuyun.com
 0.0.0.0 ad.mi.com
 0.0.0.0 ads.mi.com
 0.0.0.0 staging.admin.e.mi.com
@@ -53,6 +78,8 @@
 0.0.0.0 events.miui.com
 0.0.0.0 feedback.miui.com
 0.0.0.0 native.feedback.miui.com
+0.0.0.0 static.geek.miui.com
+0.0.0.0 cdn1.static.home.miui.com
 0.0.0.0 hybrid.miui.com
 0.0.0.0 india.miui.com
 0.0.0.0 tracking.india.miui.com
@@ -75,6 +102,7 @@
 0.0.0.0 api.brs.intl.miui.com
 0.0.0.0 abroad.api.comm.intl.miui.com
 0.0.0.0 api.competition.intl.miui.com
+0.0.0.0 api.content.intl.miui.com
 0.0.0.0 api.collect.data.intl.miui.com
 0.0.0.0 feedback.intl.miui.com
 0.0.0.0 api.game.intl.miui.com
@@ -168,7 +196,11 @@
 0.0.0.0 api.vip.miui.com
 0.0.0.0 www.miui.net
 0.0.0.0 intl.up.w.xk.miui.com
+0.0.0.0 rus-mi.com
+0.0.0.0 www.rus-mi.com
+0.0.0.0 traffic-media.co
 0.0.0.0 imgg.traffic-media.co
+0.0.0.0 www.traffic-media.co
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 cdn.ad.xiaomi.com
@@ -195,6 +227,7 @@
 0.0.0.0 tracker.ai.xiaomi.com
 0.0.0.0 tracker-preview.ai.xiaomi.com
 0.0.0.0 bigdata-lbs-pri-c3.alb.xiaomi.com
+0.0.0.0 global-ad-extranet-pri-azams.alb.xiaomi.com
 0.0.0.0 global-ad-extranet-pri-azpn.alb.xiaomi.com
 0.0.0.0 global-ad-intl-pri-alisgp.alb.xiaomi.com
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
@@ -315,10 +348,18 @@
 0.0.0.0 t4.a.market.xiaomi.com
 0.0.0.0 t5.a.market.xiaomi.com
 0.0.0.0 t6.a.market.xiaomi.com
+0.0.0.0 t7.a.market.xiaomi.com
 0.0.0.0 drm.market.xiaomi.com
 0.0.0.0 xadx.file.market.xiaomi.com
 0.0.0.0 t1.market.xiaomi.com
+0.0.0.0 t14.market.xiaomi.com
+0.0.0.0 t15.market.xiaomi.com
+0.0.0.0 t17.market.xiaomi.com
 0.0.0.0 t2.market.xiaomi.com
+0.0.0.0 t3.market.xiaomi.com
+0.0.0.0 t4.market.xiaomi.com
+0.0.0.0 t5.market.xiaomi.com
+0.0.0.0 t7.market.xiaomi.com
 0.0.0.0 thm.market.xiaomi.com
 0.0.0.0 video.market.xiaomi.com
 0.0.0.0 wtradv.market.xiaomi.com
@@ -386,7 +427,6 @@
 0.0.0.0 ptmi.gitv.pandora.xiaomi.com
 0.0.0.0 sjs.ptmi.gitv.pandora.xiaomi.com
 0.0.0.0 gstat.pandora.xiaomi.com
-0.0.0.0 jellyfish.pandora.xiaomi.com
 0.0.0.0 lg-bgp-misc.pandora.xiaomi.com
 0.0.0.0 mantual.pandora.xiaomi.com
 0.0.0.0 mi4crawler.pandora.xiaomi.com

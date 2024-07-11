@@ -4,14 +4,33 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 08 Jul 2024 15:23 UTC
-# Version: 2024.0708.1523.23
+# Last modified: 11 Jul 2024 11:47 UTC
+# Version: 2024.0711.1147.45
 # Syntax: DNSMasq v2.85 or older (IDN2 compatible)
-# Number of entries: 353
+# Number of entries: 383
 #
-server=/api.cupid.ptqy.gitv.tv/
-server=/config.kuyun.com/
-server=/logonext.tv.kuyun.com/
+server=/traffic-media.co.uk/
+server=/ad.intl.xiaomi.com.edgesuite.net/
+server=/auth.api.gitv.tv/
+server=/pb.bi.gitv.tv/
+server=/appstore.ptmi.gitv.tv/
+server=/cupid.ptqy.gitv.tv/
+server=/ip.ptqy.gitv.tv/
+server=/msg.ptqy.gitv.tv/
+server=/msga.ptqy.gitv.tv/
+server=/ota.ptqy.gitv.tv/
+server=/puma-api.ptqy.gitv.tv/
+server=/nl.rcd.ptqy.gitv.tv/
+server=/sdk.ptqy.gitv.tv/
+server=/si.ptqy.gitv.tv/
+server=/static.ptqy.gitv.tv/
+server=/msg.video.ptqy.gitv.tv/
+server=/msg2.video.ptqy.gitv.tv/
+server=/sdk-cache.video.ptqy.gitv.tv/
+server=/time.video.ptqy.gitv.tv/
+server=/openapi.vip.ptqy.gitv.tv/
+server=/ad.intl.xiaomi.com.ksyna.net/
+server=/kuyun.com/
 server=/ad.mi.com/
 server=/ads.mi.com/
 server=/staging.admin.e.mi.com/
@@ -41,6 +60,8 @@ server=/api.comm.miui.com/
 server=/tracking.eu.miui.com/
 server=/events.miui.com/
 server=/feedback.miui.com/
+server=/static.geek.miui.com/
+server=/cdn1.static.home.miui.com/
 server=/hybrid.miui.com/
 server=/india.miui.com/
 server=/inf.miui.com/
@@ -57,6 +78,7 @@ server=/r.browser.intl.miui.com/
 server=/api.brs.intl.miui.com/
 server=/abroad.api.comm.intl.miui.com/
 server=/api.competition.intl.miui.com/
+server=/api.content.intl.miui.com/
 server=/api.collect.data.intl.miui.com/
 server=/feedback.intl.miui.com/
 server=/api.game.intl.miui.com/
@@ -138,12 +160,14 @@ server=/testit.miui.com/
 server=/tracking.miui.com/
 server=/api.vip.miui.com/
 server=/intl.up.w.xk.miui.com/
-server=/imgg.traffic-media.co/
+server=/rus-mi.com/
+server=/traffic-media.co/
 server=/ad.xiaomi.com/
 server=/api.ads.xiaomi.com/
 server=/tracker.ai.xiaomi.com/
 server=/tracker-preview.ai.xiaomi.com/
 server=/bigdata-lbs-pri-c3.alb.xiaomi.com/
+server=/global-ad-extranet-pri-azams.alb.xiaomi.com/
 server=/global-ad-extranet-pri-azpn.alb.xiaomi.com/
 server=/global-ad-intl-pri-alisgp.alb.xiaomi.com/
 server=/awssgp0-files.fds.api.xiaomi.com/
@@ -231,7 +255,14 @@ server=/a.market.xiaomi.com/
 server=/drm.market.xiaomi.com/
 server=/xadx.file.market.xiaomi.com/
 server=/t1.market.xiaomi.com/
+server=/t14.market.xiaomi.com/
+server=/t15.market.xiaomi.com/
+server=/t17.market.xiaomi.com/
 server=/t2.market.xiaomi.com/
+server=/t3.market.xiaomi.com/
+server=/t4.market.xiaomi.com/
+server=/t5.market.xiaomi.com/
+server=/t7.market.xiaomi.com/
 server=/thm.market.xiaomi.com/
 server=/video.market.xiaomi.com/
 server=/wtradv.market.xiaomi.com/
@@ -286,7 +317,6 @@ server=/gallery.pandora.xiaomi.com/
 server=/hook.gitv.pandora.xiaomi.com/
 server=/ptmi.gitv.pandora.xiaomi.com/
 server=/gstat.pandora.xiaomi.com/
-server=/jellyfish.pandora.xiaomi.com/
 server=/lg-bgp-misc.pandora.xiaomi.com/
 server=/mantual.pandora.xiaomi.com/
 server=/mi4crawler.pandora.xiaomi.com/

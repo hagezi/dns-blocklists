@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720452180 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720698420 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -8,17 +8,15 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 08 Jul 2024 15:23 UTC
-; Version: 2024.0708.1523.23
+; Last modified: 11 Jul 2024 11:47 UTC
+; Version: 2024.0711.1147.45
 ; Syntax: RPZ
-; Number of entries: 706
+; Number of entries: 766
 ;
-imgg.traffic-media.co CNAME .
-*.imgg.traffic-media.co CNAME .
-config.kuyun.com CNAME .
-*.config.kuyun.com CNAME .
-logonext.tv.kuyun.com CNAME .
-*.logonext.tv.kuyun.com CNAME .
+traffic-media.co CNAME .
+*.traffic-media.co CNAME .
+kuyun.com CNAME .
+*.kuyun.com CNAME .
 ad.mi.com CNAME .
 *.ad.mi.com CNAME .
 ads.mi.com CNAME .
@@ -75,6 +73,10 @@ events.miui.com CNAME .
 *.events.miui.com CNAME .
 feedback.miui.com CNAME .
 *.feedback.miui.com CNAME .
+static.geek.miui.com CNAME .
+*.static.geek.miui.com CNAME .
+cdn1.static.home.miui.com CNAME .
+*.cdn1.static.home.miui.com CNAME .
 hybrid.miui.com CNAME .
 *.hybrid.miui.com CNAME .
 india.miui.com CNAME .
@@ -107,6 +109,8 @@ abroad.api.comm.intl.miui.com CNAME .
 *.abroad.api.comm.intl.miui.com CNAME .
 api.competition.intl.miui.com CNAME .
 *.api.competition.intl.miui.com CNAME .
+api.content.intl.miui.com CNAME .
+*.api.content.intl.miui.com CNAME .
 api.collect.data.intl.miui.com CNAME .
 *.api.collect.data.intl.miui.com CNAME .
 feedback.intl.miui.com CNAME .
@@ -269,6 +273,8 @@ api.vip.miui.com CNAME .
 *.api.vip.miui.com CNAME .
 intl.up.w.xk.miui.com CNAME .
 *.intl.up.w.xk.miui.com CNAME .
+rus-mi.com CNAME .
+*.rus-mi.com CNAME .
 ad.xiaomi.com CNAME .
 *.ad.xiaomi.com CNAME .
 api.ads.xiaomi.com CNAME .
@@ -279,6 +285,8 @@ tracker-preview.ai.xiaomi.com CNAME .
 *.tracker-preview.ai.xiaomi.com CNAME .
 bigdata-lbs-pri-c3.alb.xiaomi.com CNAME .
 *.bigdata-lbs-pri-c3.alb.xiaomi.com CNAME .
+global-ad-extranet-pri-azams.alb.xiaomi.com CNAME .
+*.global-ad-extranet-pri-azams.alb.xiaomi.com CNAME .
 global-ad-extranet-pri-azpn.alb.xiaomi.com CNAME .
 *.global-ad-extranet-pri-azpn.alb.xiaomi.com CNAME .
 global-ad-intl-pri-alisgp.alb.xiaomi.com CNAME .
@@ -443,8 +451,22 @@ xadx.file.market.xiaomi.com CNAME .
 *.xadx.file.market.xiaomi.com CNAME .
 t1.market.xiaomi.com CNAME .
 *.t1.market.xiaomi.com CNAME .
+t14.market.xiaomi.com CNAME .
+*.t14.market.xiaomi.com CNAME .
+t15.market.xiaomi.com CNAME .
+*.t15.market.xiaomi.com CNAME .
+t17.market.xiaomi.com CNAME .
+*.t17.market.xiaomi.com CNAME .
 t2.market.xiaomi.com CNAME .
 *.t2.market.xiaomi.com CNAME .
+t3.market.xiaomi.com CNAME .
+*.t3.market.xiaomi.com CNAME .
+t4.market.xiaomi.com CNAME .
+*.t4.market.xiaomi.com CNAME .
+t5.market.xiaomi.com CNAME .
+*.t5.market.xiaomi.com CNAME .
+t7.market.xiaomi.com CNAME .
+*.t7.market.xiaomi.com CNAME .
 thm.market.xiaomi.com CNAME .
 *.thm.market.xiaomi.com CNAME .
 video.market.xiaomi.com CNAME .
@@ -537,8 +559,6 @@ ptmi.gitv.pandora.xiaomi.com CNAME .
 *.ptmi.gitv.pandora.xiaomi.com CNAME .
 gstat.pandora.xiaomi.com CNAME .
 *.gstat.pandora.xiaomi.com CNAME .
-jellyfish.pandora.xiaomi.com CNAME .
-*.jellyfish.pandora.xiaomi.com CNAME .
 lg-bgp-misc.pandora.xiaomi.com CNAME .
 *.lg-bgp-misc.pandora.xiaomi.com CNAME .
 mantual.pandora.xiaomi.com CNAME .
@@ -683,6 +703,10 @@ api.zhuti.xiaomi.com CNAME .
 *.api.zhuti.xiaomi.com CNAME .
 m.zhuti.xiaomi.com CNAME .
 *.m.zhuti.xiaomi.com CNAME .
+ad.intl.xiaomi.com.edgesuite.net CNAME .
+*.ad.intl.xiaomi.com.edgesuite.net CNAME .
+ad.intl.xiaomi.com.ksyna.net CNAME .
+*.ad.intl.xiaomi.com.ksyna.net CNAME .
 miui.net CNAME .
 *.miui.net CNAME .
 bugreport.xiaomi.net CNAME .
@@ -717,5 +741,41 @@ mlog.search.xiaomi.net CNAME .
 *.mlog.search.xiaomi.net CNAME .
 sec-cdn.static.xiaomi.net CNAME .
 *.sec-cdn.static.xiaomi.net CNAME .
-api.cupid.ptqy.gitv.tv CNAME .
-*.api.cupid.ptqy.gitv.tv CNAME .
+auth.api.gitv.tv CNAME .
+*.auth.api.gitv.tv CNAME .
+pb.bi.gitv.tv CNAME .
+*.pb.bi.gitv.tv CNAME .
+appstore.ptmi.gitv.tv CNAME .
+*.appstore.ptmi.gitv.tv CNAME .
+cupid.ptqy.gitv.tv CNAME .
+*.cupid.ptqy.gitv.tv CNAME .
+ip.ptqy.gitv.tv CNAME .
+*.ip.ptqy.gitv.tv CNAME .
+msg.ptqy.gitv.tv CNAME .
+*.msg.ptqy.gitv.tv CNAME .
+msga.ptqy.gitv.tv CNAME .
+*.msga.ptqy.gitv.tv CNAME .
+ota.ptqy.gitv.tv CNAME .
+*.ota.ptqy.gitv.tv CNAME .
+puma-api.ptqy.gitv.tv CNAME .
+*.puma-api.ptqy.gitv.tv CNAME .
+nl.rcd.ptqy.gitv.tv CNAME .
+*.nl.rcd.ptqy.gitv.tv CNAME .
+sdk.ptqy.gitv.tv CNAME .
+*.sdk.ptqy.gitv.tv CNAME .
+si.ptqy.gitv.tv CNAME .
+*.si.ptqy.gitv.tv CNAME .
+static.ptqy.gitv.tv CNAME .
+*.static.ptqy.gitv.tv CNAME .
+msg.video.ptqy.gitv.tv CNAME .
+*.msg.video.ptqy.gitv.tv CNAME .
+msg2.video.ptqy.gitv.tv CNAME .
+*.msg2.video.ptqy.gitv.tv CNAME .
+sdk-cache.video.ptqy.gitv.tv CNAME .
+*.sdk-cache.video.ptqy.gitv.tv CNAME .
+time.video.ptqy.gitv.tv CNAME .
+*.time.video.ptqy.gitv.tv CNAME .
+openapi.vip.ptqy.gitv.tv CNAME .
+*.openapi.vip.ptqy.gitv.tv CNAME .
+traffic-media.co.uk CNAME .
+*.traffic-media.co.uk CNAME .
