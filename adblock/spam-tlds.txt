@@ -9,8 +9,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 11 Jul 2024 02:59 UTC
-! Version: 2024.0711.0259.05
+! Last modified: 11 Jul 2024 18:51 UTC
+! Version: 2024.0711.1851.12
 ! Syntax: AdGuard
 ! Number of latin TLDs: 189 - punycode TLDs: 151
 !
@@ -128,7 +128,7 @@
 ||*.ooo^$denyallow=toast.ooo
 ||*.partners^
 ||*.parts^
-||*.party^
+||*.party^$denyallow=mstdn.party
 ||*.pet^$denyallow=kickthespy.pet|kuma.pet
 ||*.pharmacy^
 ||*.phd^$denyallow=rafael.phd
@@ -136,7 +136,7 @@
 ||*.pics^
 ||*.pink^
 ||*.pizza^
-||*.place^
+||*.place^$denyallow=gamedev.place
 ||*.poker^
 ||*.post^
 ||*.prof^$denyallow=casey.prof
@@ -165,7 +165,7 @@
 ||*.skin^
 ||*.software^
 ||*.solar^$denyallow=forecast.solar
-||*.space^$denyallow=carstens.space|drgns.space|hf.space|httpjames.space|hullseals.space|ippen.space|link.space|monitorburz.space|searx.space
+||*.space^$denyallow=carstens.space|dragonscave.space|drgns.space|hf.space|httpjames.space|hullseals.space|ippen.space|link.space|monitorburz.space|oldbytes.space|searx.space
 ||*.sport^
 ||*.store^$denyallow=androeed.store|shoplazza.store
 ||*.style^
@@ -175,7 +175,7 @@
 ||*.tax^
 ||*.taxi^
 ||*.tk^$denyallow=adistance.tk|bonzibuddy.tk|bryla.tk|bstweaker.tk|budterence.tk|censurion.tk|c-r-t.tk|google.tk|goshujin.tk|gotofap.tk|graph.tk|kabi.tk|pube.tk|sironi.tk|tokelau-info.tk|xn--qubec-csa.tk|zete.tk
-||*.today^$denyallow=archive.today
+||*.today^$denyallow=archive.today|oldweb.today
 ||*.tokyo^
 ||*.top^$denyallow=1stream.top|ambr.top|audioforyou.top|awavenue.top|caitlin.top|callmebymygender.top|castlevania.top|chillx.top|corriente.top|gdtot.top|magocoro.top|mastodon.top|nicenature.top|pdcdn1.top|pegelinux.top|pressplay.top|reminder.top|reyhub.top|shucks.top|strims.top|suiten.top|thedesk.top|vsdb.top
 ||*.trade^$denyallow=composer.trade|kite.trade
@@ -197,7 +197,7 @@
 ||*.win^
 ||*.wine^
 ||*.work^$denyallow=elphago.work|frame.work|koding.work|searx.work
-||*.world^$denyallow=calckey.world|camhub.world|lemmy.world|mastodon.world|wetdry.world
+||*.world^$denyallow=calckey.world|camhub.world|lemmy.world|mastodon.world|shitposter.world|wetdry.world
 ||*.wtf^$denyallow=akko.wtf|myip.wtf|plooshiesaresocute.wtf|tigress.wtf
 ||*.xin^
 ||*.yachts^$denyallow=sinking.yachts

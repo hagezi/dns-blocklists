@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720650420 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720737660 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 10 Jul 2024 22:27 UTC
-; Version: 2024.0710.2227.38
+; Last modified: 11 Jul 2024 22:41 UTC
+; Version: 2024.0711.2241.26
 ; Syntax: RPZ
-; Number of entries: 6204
+; Number of entries: 6182
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -344,8 +344,6 @@ justhost.bedro.cloud CNAME .
 *.justhost.bedro.cloud CNAME .
 dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
-dns-secondary.cloudnx.cloud CNAME .
-*.dns-secondary.cloudnx.cloud CNAME .
 doh.cnetwork.cloud CNAME .
 *.doh.cnetwork.cloud CNAME .
 gateway.fomichev.cloud CNAME .
@@ -1516,8 +1514,6 @@ morevpn.com CNAME .
 *.morevpn.com CNAME .
 movieproxy.com CNAME .
 *.movieproxy.com CNAME .
-msr177.com CNAME .
-*.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
 muchproxy.com CNAME .
@@ -3410,8 +3406,6 @@ httpdserver.info CNAME .
 *.httpdserver.info CNAME .
 interncloud.info CNAME .
 *.interncloud.info CNAME .
-ipvpn.info CNAME .
-*.ipvpn.info CNAME .
 doh.kekew.info CNAME .
 *.doh.kekew.info CNAME .
 kilabit.info CNAME .
@@ -3450,8 +3444,6 @@ onweb.info CNAME .
 *.onweb.info CNAME .
 papervpn.info CNAME .
 *.papervpn.info CNAME .
-pinweb.info CNAME .
-*.pinweb.info CNAME .
 pkproxy.info CNAME .
 *.pkproxy.info CNAME .
 predecessor.info CNAME .
@@ -3460,10 +3452,6 @@ primeproxy23.info CNAME .
 *.primeproxy23.info CNAME .
 agh.printk.info CNAME .
 *.agh.printk.info CNAME .
-private-internet.info CNAME .
-*.private-internet.info CNAME .
-privatefb.info CNAME .
-*.privatefb.info CNAME .
 prohome.info CNAME .
 *.prohome.info CNAME .
 prointern.info CNAME .
@@ -3498,8 +3486,6 @@ revko.info CNAME .
 *.revko.info CNAME .
 saoudiproxy.info CNAME .
 *.saoudiproxy.info CNAME .
-secure-vpn.info CNAME .
-*.secure-vpn.info CNAME .
 shrunkunseeingbacklight.info CNAME .
 *.shrunkunseeingbacklight.info CNAME .
 shyf.info CNAME .
@@ -3536,8 +3522,6 @@ unblockedsite.info CNAME .
 *.unblockedsite.info CNAME .
 usafastproxy.info CNAME .
 *.usafastproxy.info CNAME .
-uskt.info CNAME .
-*.uskt.info CNAME .
 usproxies.info CNAME .
 *.usproxies.info CNAME .
 vblocker.info CNAME .
@@ -4870,8 +4854,6 @@ vpnhellings.nl CNAME .
 *.vpnhellings.nl CNAME .
 adguard.wirimij.nl CNAME .
 *.adguard.wirimij.nl CNAME .
-b.j0.icom.org.np CNAME .
-*.b.j0.icom.org.np CNAME .
 r.j0.icom.org.np CNAME .
 *.r.j0.icom.org.np CNAME .
 s.j0.icom.org.np CNAME .
@@ -5610,8 +5592,6 @@ proxybox.ru CNAME .
 *.proxybox.ru CNAME .
 pukanuragan.ru CNAME .
 *.pukanuragan.ru CNAME .
-dns.ronc.ru CNAME .
-*.dns.ronc.ru CNAME .
 vpn.sakhwow.ru CNAME .
 *.vpn.sakhwow.ru CNAME .
 dns.serdcebolit.ru CNAME .
@@ -6122,8 +6102,6 @@ fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
 dns.f97.xyz CNAME .
 *.dns.f97.xyz CNAME .
-free-proxy.xyz CNAME .
-*.free-proxy.xyz CNAME .
 free-vpn.xyz CNAME .
 *.free-vpn.xyz CNAME .
 geckovpn.xyz CNAME .

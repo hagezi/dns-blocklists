@@ -385,7 +385,6 @@ https://raw.githubusercontent.com/WindowsAurora/FMHYFilterlist/main/filterlist-a
 https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt
-https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/active.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/ips.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt
 https://raw.githubusercontent.com/YanFung/Ads/master/Mobile

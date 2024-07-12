@@ -10,8 +10,8 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Expires: 1 day
-! Last modified: 11 Jul 2024 02:59 UTC
-! Version: 2024.0711.0259.05
+! Last modified: 11 Jul 2024 18:51 UTC
+! Version: 2024.0711.1851.12
 ! Syntax: uBlock
 ! Number of latin TLDs: 189 - non-latin TLDs: 151
 !
@@ -129,7 +129,7 @@
 ||ooo^$doc,domain=~toast.ooo
 ||partners^$doc
 ||parts^$doc
-||party^$doc
+||party^$doc,domain=~mstdn.party
 ||pet^$doc,domain=~kickthespy.pet|~kuma.pet
 ||pharmacy^$doc
 ||phd^$doc,domain=~rafael.phd
@@ -137,7 +137,7 @@
 ||pics^$doc
 ||pink^$doc
 ||pizza^$doc
-||place^$doc
+||place^$doc,domain=~gamedev.place
 ||poker^$doc
 ||post^$doc
 ||prof^$doc,domain=~casey.prof
@@ -166,7 +166,7 @@
 ||skin^$doc
 ||software^$doc
 ||solar^$doc,domain=~forecast.solar
-||space^$doc,domain=~carstens.space|~drgns.space|~hf.space|~httpjames.space|~hullseals.space|~ippen.space|~link.space|~monitorburz.space|~searx.space
+||space^$doc,domain=~carstens.space|~dragonscave.space|~drgns.space|~hf.space|~httpjames.space|~hullseals.space|~ippen.space|~link.space|~monitorburz.space|~oldbytes.space|~searx.space
 ||sport^$doc
 ||store^$doc,domain=~androeed.store|~shoplazza.store
 ||style^$doc
@@ -176,7 +176,7 @@
 ||tax^$doc
 ||taxi^$doc
 ||tk^$doc,domain=~adistance.tk|~bonzibuddy.tk|~bryla.tk|~bstweaker.tk|~budterence.tk|~censurion.tk|~c-r-t.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~kabi.tk|~pube.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
-||today^$doc,domain=~archive.today
+||today^$doc,domain=~archive.today|~oldweb.today
 ||tokyo^$doc
 ||top^$doc,domain=~1stream.top|~ambr.top|~audioforyou.top|~awavenue.top|~caitlin.top|~callmebymygender.top|~castlevania.top|~chillx.top|~corriente.top|~gdtot.top|~magocoro.top|~mastodon.top|~nicenature.top|~pdcdn1.top|~pegelinux.top|~pressplay.top|~reminder.top|~reyhub.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
 ||trade^$doc,domain=~composer.trade|~kite.trade
@@ -198,7 +198,7 @@
 ||win^$doc
 ||wine^$doc
 ||work^$doc,domain=~elphago.work|~frame.work|~koding.work|~searx.work
-||world^$doc,domain=~calckey.world|~camhub.world|~lemmy.world|~mastodon.world|~wetdry.world
+||world^$doc,domain=~calckey.world|~camhub.world|~lemmy.world|~mastodon.world|~shitposter.world|~wetdry.world
 ||wtf^$doc,domain=~akko.wtf|~myip.wtf|~plooshiesaresocute.wtf|~tigress.wtf
 ||xin^$doc
 ||yachts^$doc,domain=~sinking.yachts
