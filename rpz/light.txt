@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720745100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720788660 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jul 2024 00:45 UTC
-; Version: 2024.0712.0045.51
+; Last modified: 12 Jul 2024 12:51 UTC
+; Version: 2024.0712.1251.02
 ; Syntax: RPZ
-; Number of entries: 134998
+; Number of entries: 134986
 ;
 smetrics.abbott CNAME .
 *.smetrics.abbott CNAME .
@@ -15247,8 +15247,6 @@ anltics.com CNAME .
 *.anltics.com CNAME .
 anmgaxrujfru.com CNAME .
 *.anmgaxrujfru.com CNAME .
-anmjqqtevhsqwb.com CNAME .
-*.anmjqqtevhsqwb.com CNAME .
 annaepicforgiveness.com CNAME .
 *.annaepicforgiveness.com CNAME .
 annesuspense.com CNAME .
@@ -24735,14 +24733,6 @@ cheatinghans.com CNAME .
 *.cheatinghans.com CNAME .
 cheatingstiffen.com CNAME .
 *.cheatingstiffen.com CNAME .
-qltuh.check-tl-ver-106-2.com CNAME .
-*.qltuh.check-tl-ver-106-2.com CNAME .
-qltuh.check-tl-ver-116-1.com CNAME .
-*.qltuh.check-tl-ver-116-1.com CNAME .
-qltuh.check-tl-ver-116-2.com CNAME .
-*.qltuh.check-tl-ver-116-2.com CNAME .
-qltuh.check-tl-ver-116-3.com CNAME .
-*.qltuh.check-tl-ver-116-3.com CNAME .
 check-tl-ver-12-3.com CNAME .
 *.check-tl-ver-12-3.com CNAME .
 check-tl-ver-154-1.com CNAME .
@@ -24753,8 +24743,6 @@ check-tl-ver-17-4.com CNAME .
 *.check-tl-ver-17-4.com CNAME .
 check-tl-ver-17-8.com CNAME .
 *.check-tl-ver-17-8.com CNAME .
-qltuh.check-tl-ver-176-1.com CNAME .
-*.qltuh.check-tl-ver-176-1.com CNAME .
 check-tl-ver-235-1.com CNAME .
 *.check-tl-ver-235-1.com CNAME .
 check-tl-ver-24-2.com CNAME .
@@ -92757,8 +92745,6 @@ da.hornbach.cz CNAME .
 *.da.hornbach.cz CNAME .
 plausible.hptronic.cz CNAME .
 *.plausible.hptronic.cz CNAME .
-servix.idnes.cz CNAME .
-*.servix.idnes.cz CNAME .
 idvert.cz CNAME .
 *.idvert.cz CNAME .
 1.im.cz CNAME .
@@ -101761,8 +101747,10 @@ t.poki.io CNAME .
 *.t.poki.io CNAME .
 telemetry.polkadot.io CNAME .
 *.telemetry.polkadot.io CNAME .
-polyfill.io CNAME .
-*.polyfill.io CNAME .
+cdn.polyfill.io CNAME .
+*.cdn.polyfill.io CNAME .
+dev.polyfill.io CNAME .
+*.dev.polyfill.io CNAME .
 share.polymail.io CNAME .
 *.share.polymail.io CNAME .
 portmap.io CNAME .
@@ -129295,8 +129283,8 @@ ads.guardian.co.uk CNAME .
 *.ads.guardian.co.uk CNAME .
 hits.guardian.co.uk CNAME .
 *.hits.guardian.co.uk CNAME .
-guardianapps.co.uk CNAME .
-*.guardianapps.co.uk CNAME .
+api.nextgen.guardianapps.co.uk CNAME .
+*.api.nextgen.guardianapps.co.uk CNAME .
 metrics.halloweencostumes.co.uk CNAME .
 *.metrics.halloweencostumes.co.uk CNAME .
 smetrics.handelsbanken.co.uk CNAME .

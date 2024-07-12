@@ -4,10 +4,10 @@
 // License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 // Issues: https://github.com/hagezi/dns-blocklists/issues
 // Expires: 1 day
-// Last modified: 12 Jul 2024 00:45 UTC
-// Version: 2024.0712.0045.51
+// Last modified: 12 Jul 2024 12:51 UTC
+// Version: 2024.0712.1251.02
 // Syntax: PAC
-// Number of entries: 134998
+// Number of entries: 134986
 //
 function FindProxyForURL(url, host) {
    if (
@@ -20591,8 +20591,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "anmet.originenergy.com.au") ||
           shExpMatch(host, "*.anmgaxrujfru.com") ||
           shExpMatch(host, "anmgaxrujfru.com") ||
-          shExpMatch(host, "*.anmjqqtevhsqwb.com") ||
-          shExpMatch(host, "anmjqqtevhsqwb.com") ||
           shExpMatch(host, "*.an.mlb.com") ||
           shExpMatch(host, "an.mlb.com") ||
           shExpMatch(host, "*.annaepicforgiveness.com") ||
@@ -21325,6 +21323,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "apinas.nct.vn") ||
           shExpMatch(host, "*.api.newsfeed.intl.miui.com") ||
           shExpMatch(host, "api.newsfeed.intl.miui.com") ||
+          shExpMatch(host, "*.api.nextgen.guardianapps.co.uk") ||
+          shExpMatch(host, "api.nextgen.guardianapps.co.uk") ||
           shExpMatch(host, "*.api.nrelate.com") ||
           shExpMatch(host, "api.nrelate.com") ||
           shExpMatch(host, "*.api.omappapi.com") ||
@@ -32309,6 +32309,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "cdnpixel-onead.cdn.hinet.net") ||
           shExpMatch(host, "*.cdn.playwire.com") ||
           shExpMatch(host, "cdn.playwire.com") ||
+          shExpMatch(host, "*.cdn.polyfill.io") ||
+          shExpMatch(host, "cdn.polyfill.io") ||
           shExpMatch(host, "*.cdn.popupsmart.com") ||
           shExpMatch(host, "cdn.popupsmart.com") ||
           shExpMatch(host, "*.cdn.pranmcpkx.com") ||
@@ -43725,6 +43727,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "devoutprinter.com") ||
           shExpMatch(host, "*.dev-plan.intel.com") ||
           shExpMatch(host, "dev-plan.intel.com") ||
+          shExpMatch(host, "*.dev.polyfill.io") ||
+          shExpMatch(host, "dev.polyfill.io") ||
           shExpMatch(host, "*.dev-tracker.adreadyclick.com") ||
           shExpMatch(host, "dev-tracker.adreadyclick.com") ||
           shExpMatch(host, "*.dev.visualwebsiteoptimizer.com") ||
@@ -58519,8 +58523,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "guardedschool.com") ||
           shExpMatch(host, "*.guardedtabletsgates.com") ||
           shExpMatch(host, "guardedtabletsgates.com") ||
-          shExpMatch(host, "*.guardianapps.co.uk") ||
-          shExpMatch(host, "guardianapps.co.uk") ||
           shExpMatch(host, "*.guardlnkcaptcha.com") ||
           shExpMatch(host, "guardlnkcaptcha.com") ||
           shExpMatch(host, "*.guardsslate.com") ||
@@ -93135,8 +93137,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "poltio.com") ||
           shExpMatch(host, "*.polyad.net") ||
           shExpMatch(host, "polyad.net") ||
-          shExpMatch(host, "*.polyfill.io") ||
-          shExpMatch(host, "polyfill.io") ||
           shExpMatch(host, "*.polyfill.top") ||
           shExpMatch(host, "polyfill.top") ||
           shExpMatch(host, "*.polygraphpretenceraw.com") ||
@@ -96905,16 +96905,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "qlspx.com") ||
           shExpMatch(host, "*.qlsszi.lululemon.co.nz") ||
           shExpMatch(host, "qlsszi.lululemon.co.nz") ||
-          shExpMatch(host, "*.qltuh.check-tl-ver-106-2.com") ||
-          shExpMatch(host, "qltuh.check-tl-ver-106-2.com") ||
-          shExpMatch(host, "*.qltuh.check-tl-ver-116-1.com") ||
-          shExpMatch(host, "qltuh.check-tl-ver-116-1.com") ||
-          shExpMatch(host, "*.qltuh.check-tl-ver-116-2.com") ||
-          shExpMatch(host, "qltuh.check-tl-ver-116-2.com") ||
-          shExpMatch(host, "*.qltuh.check-tl-ver-116-3.com") ||
-          shExpMatch(host, "qltuh.check-tl-ver-116-3.com") ||
-          shExpMatch(host, "*.qltuh.check-tl-ver-176-1.com") ||
-          shExpMatch(host, "qltuh.check-tl-ver-176-1.com") ||
           shExpMatch(host, "*.qltuh.earthheartsmith.com") ||
           shExpMatch(host, "qltuh.earthheartsmith.com") ||
           shExpMatch(host, "*.qltuh.gemheartartisan.top") ||
@@ -105135,8 +105125,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "servingsurroundworldwide.com") ||
           shExpMatch(host, "*.serving-sys.com") ||
           shExpMatch(host, "serving-sys.com") ||
-          shExpMatch(host, "*.servix.idnes.cz") ||
-          shExpMatch(host, "servix.idnes.cz") ||
           shExpMatch(host, "*.serv.letudiant.fr") ||
           shExpMatch(host, "serv.letudiant.fr") ||
           shExpMatch(host, "*.servo-report.vanceai.com") ||

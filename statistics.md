@@ -117,7 +117,7 @@
  Nr | Included | Dead | Removed | URL/File
   1 |      71% |  27% |      2% | Denylist Community Threat Intelligence Feeds
   2 |     100% |   0% |      0% | Fake
-  3 |      96% |   0% |      4% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
+  3 |      95% |   0% |      5% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
   4 |      52% |  47% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
   5 |      32% |  68% |      0% | https://phishing.army/download/phishing_army_blocklist_extended.txt
   6 |      99% |   1% |      0% | https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt
@@ -144,7 +144,7 @@
  27 |      59% |  39% |      2% | https://raw.githubusercontent.com/braveinnovators/ukrainian-security-filter/main/lists/domains.txt
  28 |      69% |  30% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
  29 |      18% |  81% |      1% | https://raw.githubusercontent.com/elliotwutingfeng/Ukrainian-EMA-blocklist/main/urls-pihole.txt
- 30 |      74% |  24% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 30 |      37% |  61% |      2% | https://rescure.me/rescure_domain_blacklist.txt
  31 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
  32 |      27% |  73% |      0% | https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/active.txt
  33 |      90% |   9% |      1% | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
@@ -166,12 +166,12 @@
   3 |     100% |   0% |      0% | Fake
   4 |     100% |   0% |      0% | Fake++ (Problematic Online Shops)
   5 |     100% |   0% |      0% | Pop-Up Ads (Malicious)
-  6 |      96% |   0% |      4% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
+  6 |      95% |   0% |      5% | https://phishing-filter.pages.dev/phishing-filter-hosts.txt
   7 |      17% |  83% |      0% | https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
   8 |      52% |  47% |      1% | https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/hotlist.json
   9 |      32% |  68% |      0% | https://phishing.army/download/phishing_army_blocklist_extended.txt
  10 |      37% |  63% |      0% | https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains
- 11 |      59% |  41% |      0% | https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
+ 11 |      66% |  34% |      0% | https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
  12 |      18% |  82% |      0% | https://phish.sinking.yachts/v2/text
  13 |      99% |   1% |      0% | https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt
  14 |     100% |   0% |      0% | https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
@@ -212,7 +212,7 @@
  49 |      41% |  58% |      1% | https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
  50 |      31% |  69% |      0% | https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
  51 |      55% |  41% |      4% | https://raw.githubusercontent.com/ttc-cert/TTC-CERT_blocklist_recommended/master/domain_blocklist_recommended.txt
- 52 |      74% |  24% |      2% | https://rescure.me/rescure_domain_blacklist.txt
+ 52 |      37% |  61% |      2% | https://rescure.me/rescure_domain_blacklist.txt
  53 |      46% |  53% |      1% | https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
  54 |      28% |  72% |      0% | https://www.usom.gov.tr/url-list.txt
  55 |      31% |  69% |      0% | https://zonefiles.io/f/compromised/domains/live/
