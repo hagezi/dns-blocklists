@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 7 days
-# Last modified: 11 Jul 2024 23:06 UTC
-# Version: 2024.0711.2306.07
+# Last modified: 12 Jul 2024 23:07 UTC
+# Version: 2024.0712.2307.42
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 336
+# Number of entries: 337
 #
 local=/in.appcenter.ms/
 local=/applicationinsights.azure.com/
@@ -286,6 +286,7 @@ local=/telemetry-lcp.trafficmanager.net/
 local=/tenmax-ads.trafficmanager.net/
 local=/tm-analytics-pr.trafficmanager.net/
 local=/tm-enrollment-telemetry-datacore.trafficmanager.net/
+local=/us-mesh-events-data-leafs.trafficmanager.net/
 local=/euc-excel-telemetry.wac.trafficmanager.net/
 local=/euc-powerpoint-telemetry.wac.trafficmanager.net/
 local=/euc-word-telemetry.wac.trafficmanager.net/

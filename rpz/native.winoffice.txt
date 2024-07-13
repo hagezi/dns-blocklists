@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720739160 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720825620 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 11 Jul 2024 23:06 UTC
-; Version: 2024.0711.2306.07
+; Last modified: 12 Jul 2024 23:07 UTC
+; Version: 2024.0712.2307.42
 ; Syntax: RPZ
-; Number of entries: 672
+; Number of entries: 674
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -575,6 +575,8 @@ tm-analytics-pr.trafficmanager.net CNAME .
 *.tm-analytics-pr.trafficmanager.net CNAME .
 tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
 *.tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
+us-mesh-events-data-leafs.trafficmanager.net CNAME .
+*.us-mesh-events-data-leafs.trafficmanager.net CNAME .
 euc-excel-telemetry.wac.trafficmanager.net CNAME .
 *.euc-excel-telemetry.wac.trafficmanager.net CNAME .
 euc-powerpoint-telemetry.wac.trafficmanager.net CNAME .
