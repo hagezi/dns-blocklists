@@ -86,12 +86,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/light.txt) [Mirror](lnkgl_d/light.txt) [Mirror](lnkjd_d/light.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/light.txt) [Mirror](lnkgl_h/light.txt) [Mirror](lnkjd_h/light.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile, Windows |
 | Adblock | [Link](lnkgh_a/light.txt) [Mirror](lnkgl_a/light.txt) [Mirror](lnkjd_a/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/light.blacklist.conf) [Mirror](lnkgl_u/light.blacklist.conf) [Mirror](lnkjd_u/light.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/light-old.txt) [Mirror](lnkgl_m/light-old.txt) [Mirror](lnkjd_m/light-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/light.txt) [Mirror](lnkgl_m/light.txt) [Mirror](lnkjd_m/light.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/light.txt) [Mirror](lnkgl_w/light.txt) [Mirror](lnkjd_w/light.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/light-onlydomains.txt) [Mirror](lnkgl_w/light-onlydomains.txt) [Mirror](lnkjd_w/light-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/light.txt) [Mirror](lnkgl_r/light.txt) [Mirror](lnkjd_r/light.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/light.txt) [Mirror](lnkgl_r/light.txt) [Mirror](lnkjd_r/light.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 | PAC | [Link](lnkgh_p/light.pac) [Mirror](lnkgl_p/light.pac) [Mirror](lnkjd_p/light.pac) | Proxy Auto Configuration |
 
 ### :blue_book: ***Multi NORMAL*** - **All-round protection** <a name="normal"></a>
@@ -108,12 +107,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/multi.txt) [Mirror](lnkgl_d/multi.txt) [Mirror](lnkjd_d/multi.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/multi.txt) [Mirror](lnkgl_h/multi.txt) [Mirror](lnkjd_h/multi.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/multi.txt) [Mirror](lnkgl_a/multi.txt) [Mirror](lnkjd_a/multi.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/multi.blacklist.conf) [Mirror](lnkgl_u/multi.blacklist.conf) [Mirror](lnkjd_u/multi.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/multi-old.txt) [Mirror](lnkgl_m/multi-old.txt) [Mirror](lnkjd_m/multi-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/multi.txt) [Mirror](lnkgl_m/multi.txt) [Mirror](lnkjd_m/multi.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/multi.txt) [Mirror](lnkgl_w/multi.txt) [Mirror](lnkjd_w/multi.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/multi-onlydomains.txt) [Mirror](lnkgl_w/multi-onlydomains.txt) [Mirror](lnkjd_w/multi-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/multi.txt) [Mirror](lnkgl_r/multi.txt) [Mirror](lnkjd_r/multi.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/multi.txt) [Mirror](lnkgl_r/multi.txt) [Mirror](lnkjd_r/multi.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :ledger: ***Multi PRO*** - **Extended protection (Recommended)** <a name="pro"></a>
 
@@ -126,12 +124,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/pro.txt) [Mirror](lnkgl_d/pro.txt) [Mirror](lnkjd_d/pro.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/pro.txt) [Mirror](lnkgl_h/pro.txt) [Mirror](lnkjd_h/pro.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/pro.txt) [Mirror](lnkgl_a/pro.txt) [Mirror](lnkjd_a/pro.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/pro.blacklist.conf) [Mirror](lnkgl_u/pro.blacklist.conf) [Mirror](lnkjd_u/pro.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro-old.txt) [Mirror](lnkgl_m/pro-old.txt) [Mirror](lnkjd_m/pro-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.txt) [Mirror](lnkgl_m/pro.txt) [Mirror](lnkjd_m/pro.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/pro.txt) [Mirror](lnkgl_w/pro.txt) [Mirror](lnkjd_w/pro.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/pro-onlydomains.txt) [Mirror](lnkgl_w/pro-onlydomains.txt) [Mirror](lnkjd_w/pro-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/pro.txt) [Mirror](lnkgl_r/pro.txt) [Mirror](lnkjd_r/pro.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/pro.txt) [Mirror](lnkgl_r/pro.txt) [Mirror](lnkjd_r/pro.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :ledger: ***Multi PRO mini*** <a name="promini"></a>
 
@@ -142,12 +139,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/pro.mini.txt) [Mirror](lnkgl_a/pro.mini.txt) [Mirror](lnkjd_a/pro.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/pro.mini.blacklist.conf) [Mirror](lnkgl_u/pro.mini.blacklist.conf) [Mirror](lnkjd_u/pro.mini.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.mini-old.txt) [Mirror](lnkgl_m/pro.mini-old.txt) [Mirror](lnkjd_m/pro.mini-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.mini.txt) [Mirror](lnkgl_m/pro.mini.txt) [Mirror](lnkjd_m/pro.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/pro.mini.txt) [Mirror](lnkgl_w/pro.mini.txt) [Mirror](lnkjd_w/pro.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/pro.mini-onlydomains.txt) [Mirror](lnkgl_w/pro.mini-onlydomains.txt) [Mirror](lnkjd_w/pro.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/pro.mini.txt) [Mirror](lnkgl_r/pro.mini.txt) [Mirror](lnkjd_r/pro.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/pro.mini.txt) [Mirror](lnkgl_r/pro.mini.txt) [Mirror](lnkjd_r/pro.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :orange_book: ***Multi PRO++*** - **Maximum protection** <a name="proplus"></a>
 
@@ -163,12 +159,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/pro.plus.txt) [Mirror](lnkgl_d/pro.plus.txt) [Mirror](lnkjd_d/pro.plus.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/pro.plus.txt) [Mirror](lnkgl_h/pro.plus.txt) [Mirror](lnkjd_h/pro.plus.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/pro.plus.txt) [Mirror](lnkgl_a/pro.plus.txt) [Mirror](lnkjd_a/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/pro.plus.blacklist.conf) [Mirror](lnkgl_u/pro.plus.blacklist.conf) [Mirror](lnkjd_u/pro.plus.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.plus-old.txt) [Mirror](lnkgl_m/pro.plus-old.txt) [Mirror](lnkjd_m/pro.plus-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.plus.txt) [Mirror](lnkgl_m/pro.plus.txt) [Mirror](lnkjd_m/pro.plus.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/pro.plus.txt) [Mirror](lnkgl_w/pro.plus.txt) [Mirror](lnkjd_w/pro.plus.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/pro.plus-onlydomains.txt) [Mirror](lnkgl_w/pro.plus-onlydomains.txt) [Mirror](lnkjd_w/pro.plus-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/pro.plus.txt) [Mirror](lnkgl_r/pro.plus.txt) [Mirror](lnkjd_r/pro.plus.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/pro.plus.txt) [Mirror](lnkgl_r/pro.plus.txt) [Mirror](lnkjd_r/pro.plus.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :orange_book: ***Multi PRO++ mini*** <a name="proplusmini"></a>
 
@@ -179,12 +174,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/pro.plus.mini.txt) [Mirror](lnkgl_a/pro.plus.mini.txt) [Mirror](lnkjd_a/pro.plus.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/pro.plus.mini.blacklist.conf) [Mirror](lnkgl_u/pro.plus.mini.blacklist.conf) [Mirror](lnkjd_u/pro.plus.mini.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/pro.plus.mini-old.txt) [Mirror](lnkgl_m/pro.plus.mini-old.txt) [Mirror](lnkjd_m/pro.plus.mini-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/pro.plus.mini.txt) [Mirror](lnkgl_m/pro.plus.mini.txt) [Mirror](lnkjd_m/pro.plus.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/pro.plus.mini.txt) [Mirror](lnkgl_w/pro.plus.mini.txt) [Mirror](lnkjd_w/pro.plus.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/pro.plus.mini-onlydomains.txt) [Mirror](lnkgl_w/pro.plus.mini-onlydomains.txt) [Mirror](lnkjd_w/pro.plus.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/pro.plus.mini.txt) [Mirror](lnkgl_r/pro.plus.mini.txt) [Mirror](lnkjd_r/pro.plus.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/pro.plus.mini.txt) [Mirror](lnkgl_r/pro.plus.mini.txt) [Mirror](lnkjd_r/pro.plus.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 ### :closed_book: ***Multi ULTIMATE*** - **Aggressive protection** <a name="ultimate"></a>
 
@@ -203,12 +197,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/ultimate.txt) [Mirror](lnkgl_d/ultimate.txt) [Mirror](lnkjd_d/ultimate.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/ultimate.txt) [Mirror](lnkgl_h/ultimate.txt) [Mirror](lnkjd_h/ultimate.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/ultimate.txt) [Mirror](lnkgl_a/ultimate.txt) [Mirror](lnkjd_a/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/ultimate.blacklist.conf) [Mirror](lnkgl_u/ultimate.blacklist.conf) [Mirror](lnkjd_u/ultimate.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/ultimate-old.txt) [Mirror](lnkgl_m/ultimate-old.txt) [Mirror](lnkjd_m/ultimate-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/ultimate.txt) [Mirror](lnkgl_m/ultimate.txt) [Mirror](lnkjd_m/ultimate.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/ultimate.txt) [Mirror](lnkgl_w/ultimate.txt) [Mirror](lnkjd_w/ultimate.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/ultimate-onlydomains.txt) [Mirror](lnkgl_w/ultimate-onlydomains.txt) [Mirror](lnkjd_w/ultimate-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/ultimate.txt) [Mirror](lnkgl_r/ultimate.txt) [Mirror](lnkjd_r/ultimate.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/ultimate.txt) [Mirror](lnkgl_r/ultimate.txt) [Mirror](lnkjd_r/ultimate.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_book: ***Multi ULTIMATE mini*** <a name="ultimatemini"></a>
 
@@ -219,12 +212,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/ultimate.mini.txt) [Mirror](lnkgl_a/ultimate.mini.txt) [Mirror](lnkjd_a/ultimate.mini.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/ultimate.mini.blacklist.conf) [Mirror](lnkgl_u/ultimate.mini.blacklist.conf) [Mirror](lnkjd_u/ultimate.mini.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/ultimate.mini-old.txt) [Mirror](lnkgl_m/ultimate.mini-old.txt) [Mirror](lnkjd_m/ultimate.mini-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/ultimate.mini.txt) [Mirror](lnkgl_m/ultimate.mini.txt) [Mirror](lnkjd_m/ultimate.mini.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/ultimate.mini.txt) [Mirror](lnkgl_w/ultimate.mini.txt) [Mirror](lnkjd_w/ultimate.mini.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/ultimate.mini-onlydomains.txt) [Mirror](lnkgl_w/ultimate.mini-onlydomains.txt) [Mirror](lnkjd_w/ultimate.mini-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/ultimate.mini.txt) [Mirror](lnkgl_r/ultimate.mini.txt) [Mirror](lnkjd_r/ultimate.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/ultimate.mini.txt) [Mirror](lnkgl_r/ultimate.mini.txt) [Mirror](lnkjd_r/ultimate.mini.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *24 hours (update frequency)*
 
@@ -245,12 +237,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/fake.txt) [Mirror](lnkgl_a/fake.txt) [Mirror](lnkjd_a/fake.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/fake.blacklist.conf) [Mirror](lnkgl_u/fake.blacklist.conf) [Mirror](lnkjd_u/fake.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/fake-old.txt) [Mirror](lnkgl_m/fake-old.txt) [Mirror](lnkjd_m/fake-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/fake.txt) [Mirror](lnkgl_m/fake.txt) [Mirror](lnkjd_m/fake.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/fake.txt) [Mirror](lnkgl_w/fake.txt) [Mirror](lnkjd_w/fake.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/fake-onlydomains.txt) [Mirror](lnkgl_w/fake-onlydomains.txt) [Mirror](lnkjd_w/fake-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/fake.txt) [Mirror](lnkgl_r/fake.txt) [Mirror](lnkjd_r/fake.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/fake.txt) [Mirror](lnkgl_r/fake.txt) [Mirror](lnkjd_r/fake.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -274,12 +265,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/popupads.txt) [Mirror](lnkgl_a/popupads.txt) [Mirror](lnkjd_a/popupads.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/popupads.blacklist.conf) [Mirror](lnkgl_u/popupads.blacklist.conf) [Mirror](lnkjd_u/popupads.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/popupads-old.txt) [Mirror](lnkgl_m/popupads-old.txt) [Mirror](lnkjd_m/popupads-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/popupads.txt) [Mirror](lnkgl_m/popupads.txt) [Mirror](lnkjd_m/popupads.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/popupads.txt) [Mirror](lnkgl_w/popupads.txt) [Mirror](lnkjd_w/popupads.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/popupads-onlydomains.txt) [Mirror](lnkgl_w/popupads-onlydomains.txt) [Mirror](lnkjd_w/popupads-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/popupads.txt) [Mirror](lnkgl_r/popupads.txt) [Mirror](lnkjd_r/popupads.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/popupads.txt) [Mirror](lnkgl_r/popupads.txt) [Mirror](lnkjd_r/popupads.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *24 hours (update frequency)*
 
@@ -302,12 +292,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/tif.txt) [Mirror](lnkgl_d/tif.txt) [Mirror](lnkjd_d/tif.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/tif.txt) [Mirror](lnkgl_h/tif.txt) [Mirror](lnkjd_h/tif.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/tif.txt) [Mirror](lnkgl_a/tif.txt) [Mirror](lnkjd_a/tif.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
-| Unbound | [Link](lnkgh_u/tif.blacklist.conf) [Mirror](lnkgl_u/tif.blacklist.conf) [Mirror](lnkjd_u/tif.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/tif-old.txt) [Mirror](lnkgl_m/tif-old.txt) [Mirror](lnkjd_m/tif-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/tif.txt) [Mirror](lnkgl_m/tif.txt) [Mirror](lnkjd_m/tif.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/tif.txt) [Mirror](lnkgl_w/tif.txt) [Mirror](lnkjd_w/tif.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/tif-onlydomains.txt) [Mirror](lnkgl_w/tif-onlydomains.txt) [Mirror](lnkjd_w/tif-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/tif.txt) [Mirror](lnkgl_r/tif.txt) [Mirror](lnkjd_r/tif.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/tif.txt) [Mirror](lnkgl_r/tif.txt) [Mirror](lnkjd_r/tif.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_lock_with_key: ***Threat Intelligence Feeds - Medium version*** <a name="tifmedium"></a>
 
@@ -324,12 +313,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/tif.medium.txt) [Mirror](lnkgl_a/tif.medium.txt) [Mirror](lnkjd_a/tif.medium.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/tif.medium.blacklist.conf) [Mirror](lnkgl_u/tif.medium.blacklist.conf) [Mirror](lnkjd_u/tif.medium.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/tif.medium-old.txt) [Mirror](lnkgl_m/tif.medium-old.txt) [Mirror](lnkjd_m/tif.medium-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/tif.medium.txt) [Mirror](lnkgl_m/tif.medium.txt) [Mirror](lnkjd_m/tif.medium.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/tif.medium.txt) [Mirror](lnkgl_w/tif.medium.txt) [Mirror](lnkjd_w/tif.medium.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/tif.medium-onlydomains.txt) [Mirror](lnkgl_w/tif.medium-onlydomains.txt) [Mirror](lnkjd_w/tif.medium-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/tif.medium.txt) [Mirror](lnkgl_r/tif.medium.txt) [Mirror](lnkjd_r/tif.medium.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/tif.medium.txt) [Mirror](lnkgl_r/tif.medium.txt) [Mirror](lnkjd_r/tif.medium.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 #### :closed_lock_with_key: ***Threat Intelligence Feeds - IPs*** <a name="tifips"></a>
 
@@ -407,12 +395,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/doh-vpn-proxy-bypass.txt) [Mirror](lnkgl_a/doh-vpn-proxy-bypass.txt) [Mirror](lnkjd_a/doh-vpn-proxy-bypass.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/doh-vpn-proxy-bypass.blacklist.conf) [Mirror](lnkgl_u/doh-vpn-proxy-bypass.blacklist.conf) [Mirror](lnkjd_u/doh-vpn-proxy-bypass.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/doh-vpn-proxy-bypass-old.txt) [Mirror](lnkgl_m/doh-vpn-proxy-bypass-old.txt) [Mirror](lnkjd_m/doh-vpn-proxy-bypass-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/doh-vpn-proxy-bypass.txt) [Mirror](lnkgl_m/doh-vpn-proxy-bypass.txt) [Mirror](lnkjd_m/doh-vpn-proxy-bypass.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/doh-vpn-proxy-bypass.txt) [Mirror](lnkgl_w/doh-vpn-proxy-bypass.txt) [Mirror](lnkjd_w/doh-vpn-proxy-bypass.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/doh-vpn-proxy-bypass-onlydomains.txt) [Mirror](lnkgl_w/doh-vpn-proxy-bypass-onlydomains.txt) [Mirror](lnkjd_w/doh-vpn-proxy-bypass-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/doh-vpn-proxy-bypass.txt) [Mirror](lnkgl_r/doh-vpn-proxy-bypass.txt) [Mirror](lnkjd_r/doh-vpn-proxy-bypass.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/doh-vpn-proxy-bypass.txt) [Mirror](lnkgl_r/doh-vpn-proxy-bypass.txt) [Mirror](lnkjd_r/doh-vpn-proxy-bypass.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -431,12 +418,11 @@
 | Domains<br>Subdomains | [Link](lnkgh_d/doh.txt) [Mirror](lnkgl_d/doh.txt) [Mirror](lnkjd_d/doh.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
 | Hosts | [Link](lnkgh_h/doh.txt) [Mirror](lnkgl_h/doh.txt) [Mirror](lnkjd_h/doh.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile |
 | Adblock | [Link](lnkgh_a/doh.txt) [Mirror](lnkgl_a/doh.txt) [Mirror](lnkjd_a/doh.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/doh.blacklist.conf) [Mirror](lnkgl_u/doh.blacklist.conf) [Mirror](lnkjd_u/doh.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/doh-old.txt) [Mirror](lnkgl_m/doh-old.txt) [Mirror](lnkjd_m/doh-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/doh.txt) [Mirror](lnkgl_m/doh.txt) [Mirror](lnkjd_m/doh.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/doh.txt) [Mirror](lnkgl_w/doh.txt) [Mirror](lnkjd_w/doh.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/doh-onlydomains.txt) [Mirror](lnkgl_w/doh-onlydomains.txt) [Mirror](lnkjd_w/doh-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/doh.txt) [Mirror](lnkgl_r/doh.txt) [Mirror](lnkjd_r/doh.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/doh.txt) [Mirror](lnkgl_r/doh.txt) [Mirror](lnkjd_r/doh.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -467,12 +453,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/nosafesearch.txt) [Mirror](lnkgl_a/nosafesearch.txt) [Mirror](lnkjd_a/nosafesearch.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/nosafesearch.blacklist.conf) [Mirror](lnkgl_u/nosafesearch.blacklist.conf) [Mirror](lnkjd_u/nosafesearch.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/nosafesearch-old.txt) [Mirror](lnkgl_m/nosafesearch-old.txt) [Mirror](lnkjd_m/nosafesearch-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/nosafesearch.txt) [Mirror](lnkgl_m/nosafesearch.txt) [Mirror](lnkjd_m/nosafesearch.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/nosafesearch.txt) [Mirror](lnkgl_w/nosafesearch.txt) [Mirror](lnkjd_w/nosafesearch.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/nosafesearch-onlydomains.txt) [Mirror](lnkgl_w/nosafesearch-onlydomains.txt) [Mirror](lnkjd_w/nosafesearch-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/nosafesearch.txt) [Mirror](lnkgl_r/nosafesearch.txt) [Mirror](lnkjd_r/nosafesearch.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/nosafesearch.txt) [Mirror](lnkgl_r/nosafesearch.txt) [Mirror](lnkjd_r/nosafesearch.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -493,12 +478,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/dyndns.txt) [Mirror](lnkgl_a/dyndns.txt) [Mirror](lnkjd_a/dyndns.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/dyndns.blacklist.conf) [Mirror](lnkgl_u/dyndns.blacklist.conf) [Mirror](lnkjd_u/dyndns.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/dyndns-old.txt) [Mirror](lnkgl_m/dyndns-old.txt) [Mirror](lnkjd_m/dyndns-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/dyndns.txt) [Mirror](lnkgl_m/dyndns.txt) [Mirror](lnkjd_m/dyndns.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/dyndns.txt) [Mirror](lnkgl_w/dyndns.txt) [Mirror](lnkjd_w/dyndns.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/dyndns-onlydomains.txt) [Mirror](lnkgl_w/dyndns-onlydomains.txt) [Mirror](lnkjd_w/dyndns-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/dyndns.txt) [Mirror](lnkgl_r/dyndns.txt) [Mirror](lnkjd_r/dyndns.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/dyndns.txt) [Mirror](lnkgl_r/dyndns.txt) [Mirror](lnkjd_r/dyndns.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -519,12 +503,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/hoster.txt) [Mirror](lnkgl_a/hoster.txt) [Mirror](lnkjd_a/hoster.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/hoster.blacklist.conf) [Mirror](lnkgl_u/hoster.blacklist.conf) [Mirror](lnkjd_u/hoster.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/hoster-old.txt) [Mirror](lnkgl_m/hoster-old.txt) [Mirror](lnkjd_m/hoster-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/hoster.txt) [Mirror](lnkgl_m/hoster.txt) [Mirror](lnkjd_m/hoster.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/hoster.txt) [Mirror](lnkgl_w/hoster.txt) [Mirror](lnkjd_w/hoster.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/hoster-onlydomains.txt) [Mirror](lnkgl_w/hoster-onlydomains.txt) [Mirror](lnkjd_w/hoster-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/hoster.txt) [Mirror](lnkgl_r/hoster.txt) [Mirror](lnkjd_r/hoster.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/hoster.txt) [Mirror](lnkgl_r/hoster.txt) [Mirror](lnkjd_r/hoster.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -568,12 +551,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/anti.piracy.txt) [Mirror](lnkgl_a/anti.piracy.txt) [Mirror](lnkjd_a/anti.piracy.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
-| Unbound | [Link](lnkgh_u/anti.piracy.blacklist.conf) [Mirror](lnkgl_u/anti.piracy.blacklist.conf) [Mirror](lnkjd_u/anti.piracy.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/anti.piracy-old.txt) [Mirror](lnkgl_m/anti.piracy-old.txt) [Mirror](lnkjd_m/anti.piracy-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/anti.piracy.txt) [Mirror](lnkgl_m/anti.piracy.txt) [Mirror](lnkjd_m/anti.piracy.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/anti.piracy.txt) [Mirror](lnkgl_w/anti.piracy.txt) [Mirror](lnkjd_w/anti.piracy.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/anti.piracy-onlydomains.txt) [Mirror](lnkgl_w/anti.piracy-onlydomains.txt) [Mirror](lnkjd_w/anti.piracy-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/anti.piracy.txt) [Mirror](lnkgl_r/anti.piracy.txt) [Mirror](lnkjd_r/anti.piracy.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/anti.piracy.txt) [Mirror](lnkgl_r/anti.piracy.txt) [Mirror](lnkjd_r/anti.piracy.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -594,12 +576,11 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Adblock | [Link](lnkgh_a/gambling.txt) [Mirror](lnkgl_a/gambling.txt) [Mirror](lnkjd_a/gambling.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam |
-| Unbound | [Link](lnkgh_u/gambling.blacklist.conf) [Mirror](lnkgl_u/gambling.blacklist.conf) [Mirror](lnkjd_u/gambling.blacklist.conf) | Unbound |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/gambling-old.txt) [Mirror](lnkgl_m/gambling-old.txt) [Mirror](lnkjd_m/gambling-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/gambling.txt) [Mirror](lnkgl_m/gambling.txt) [Mirror](lnkjd_m/gambling.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
 | Wildcard<br>Asterisk | [Link](lnkgh_w/gambling.txt) [Mirror](lnkgl_w/gambling.txt) [Mirror](lnkjd_w/gambling.txt) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard<br>Domains | [Link](lnkgh_w/gambling-onlydomains.txt) [Mirror](lnkgl_w/gambling-onlydomains.txt) [Mirror](lnkjd_w/gambling-onlydomains.txt) | DNSCloak, DNSCrypt, TechnitiumDNS, PersonalDNSfilter, InviZible Pro |
-| RPZ | [Link](lnkgh_r/gambling.txt) [Mirror](lnkgl_r/gambling.txt) [Mirror](lnkjd_r/gambling.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound RPZ |
+| RPZ | [Link](lnkgh_r/gambling.txt) [Mirror](lnkgl_r/gambling.txt) [Mirror](lnkjd_r/gambling.txt) | Response Policy Zone, Bind, Knot, PowerDNS, Unbound |
 
 **Expires:** *Updated regularly*
 
@@ -615,18 +596,18 @@
 
 :green_circle: yes :yellow_square: partially :x: no
 
-| Device/Service | Domains | Hosts | Adblock | Unbound | DNSMasq<br>v2.86+ | DNSMasq<br>v2.85- | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
-|:-------|:--------:|:------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|
-| Amazon (Devices, Shopping, Video) | [Link](lnkgh_d/native.amazon.txt) [Mirror](lnkgl_d/native.amazon.txt) [Mirror](lnkjd_d/native.amazon.txt) | [Link](lnkgh_h/native.amazon.txt) [Mirror](lnkgl_h/native.amazon.txt) [Mirror](lnkjd_h/native.amazon.txt) | [Link](lnkgh_a/native.amazon.txt) [Mirror](lnkgl_a/native.amazon.txt) [Mirror](lnkjd_a/native.amazon.txt) | [Link](lnkgh_u/native.amazon.blacklist.conf) [Mirror](lnkgl_u/native.amazon.blacklist.conf) [Mirror](lnkjd_u/native.amazon.blacklist.conf) | [Link](lnkgh_m/native.amazon.txt) [Mirror](lnkgl_m/native.amazon.txt) [Mirror](lnkjd_m/native.amazon.txt) | [Link](lnkgh_m/native.amazon-old.txt) [Mirror](lnkgl_m/native.amazon-old.txt) [Mirror](lnkjd_m/native.amazon-old.txt) | [Link](lnkgh_w/native.amazon.txt) [Mirror](lnkgl_w/native.amazon.txt) [Mirror](lnkjd_w/native.amazon.txt) | [Link](lnkgh_w/native.amazon-onlydomains.txt) [Mirror](lnkgl_w/native.amazon-onlydomains.txt) [Mirror](lnkjd_w/native.amazon-onlydomains.txt) | [Link](lnkgh_r/native.amazon.txt) [Mirror](lnkgl_r/native.amazon.txt) [Mirror](lnkjd_r/native.amazon.txt) |
-| Apple (iOS, macOS, tvOS) | [Link](lnkgh_d/native.apple.txt) [Mirror](lnkgl_d/native.apple.txt) [Mirror](lnkjd_d/native.apple.txt) | [Link](lnkgh_h/native.apple.txt) [Mirror](lnkgl_h/native.apple.txt) [Mirror](lnkjd_h/native.apple.txt) | [Link](lnkgh_a/native.apple.txt) [Mirror](lnkgl_a/native.apple.txt) [Mirror](lnkjd_a/native.apple.txt) | [Link](lnkgh_u/native.apple.blacklist.conf) [Mirror](lnkgl_u/native.apple.blacklist.conf) [Mirror](lnkjd_u/native.apple.blacklist.conf) | [Link](lnkgh_m/native.apple.txt) [Mirror](lnkgl_m/native.apple.txt) [Mirror](lnkjd_m/native.apple.txt) | [Link](lnkgh_m/native.apple-old.txt) [Mirror](lnkgl_m/native.apple-old.txt) [Mirror](lnkjd_m/native.apple-old.txt) | [Link](lnkgh_w/native.apple.txt) [Mirror](lnkgl_w/native.apple.txt) [Mirror](lnkjd_w/native.apple.txt) | [Link](lnkgh_w/native.apple-onlydomains.txt) [Mirror](lnkgl_w/native.apple-onlydomains.txt) [Mirror](lnkjd_w/native.apple-onlydomains.txt) | [Link](lnkgh_r/native.apple.txt) [Mirror](lnkgl_r/native.apple.txt) [Mirror](lnkjd_r/native.apple.txt) |
-| Huawei (Devices) | [Link](lnkgh_d/native.huawei.txt) [Mirror](lnkgl_d/native.huawei.txt) [Mirror](lnkjd_d/native.huawei.txt) | [Link](lnkgh_h/native.huawei.txt) [Mirror](lnkgl_h/native.huawei.txt) [Mirror](lnkjd_h/native.huawei.txt) | [Link](lnkgh_a/native.huawei.txt) [Mirror](lnkgl_a/native.huawei.txt) [Mirror](lnkjd_a/native.huawei.txt) | [Link](lnkgh_u/native.huawei.blacklist.conf) [Mirror](lnkgl_u/native.huawei.blacklist.conf) [Mirror](lnkjd_u/native.huawei.blacklist.conf) | [Link](lnkgh_m/native.huawei.txt) [Mirror](lnkgl_m/native.huawei.txt) [Mirror](lnkjd_m/native.huawei.txt) | [Link](lnkgh_m/native.huawei-old.txt) [Mirror](lnkgl_m/native.huawei-old.txt) [Mirror](lnkjd_m/native.huawei-old.txt) | [Link](lnkgh_w/native.huawei.txt) [Mirror](lnkgl_w/native.huawei.txt) [Mirror](lnkjd_w/native.huawei.txt) | [Link](lnkgh_w/native.huawei-onlydomains.txt) [Mirror](lnkgl_w/native.huawei-onlydomains.txt) [Mirror](lnkjd_w/native.huawei-onlydomains.txt) | [Link](lnkgh_r/native.huawei.txt) [Mirror](lnkgl_r/native.huawei.txt) [Mirror](lnkjd_r/native.huawei.txt) |
-| Microsoft (Windows, Office, MSN) | [Link](lnkgh_d/native.winoffice.txt) [Mirror](lnkgl_d/native.winoffice.txt) [Mirror](lnkjd_d/native.winoffice.txt) | [Link](lnkgh_h/native.winoffice.txt) [Mirror](lnkgl_h/native.winoffice.txt) [Mirror](lnkjd_h/native.winoffice.txt) | [Link](lnkgh_a/native.winoffice.txt) [Mirror](lnkgl_a/native.winoffice.txt) [Mirror](lnkjd_a/native.winoffice.txt) | [Link](lnkgh_u/native.winoffice.blacklist.conf) [Mirror](lnkgl_u/native.winoffice.blacklist.conf) [Mirror](lnkjd_u/native.winoffice.blacklist.conf) | [Link](lnkgh_m/native.winoffice.txt) [Mirror](lnkgl_m/native.winoffice.txt) [Mirror](lnkjd_m/native.winoffice.txt) | [Link](lnkgh_m/native.winoffice-old.txt) [Mirror](lnkgl_m/native.winoffice-old.txt) [Mirror](lnkjd_m/native.winoffice-old.txt) | [Link](lnkgh_w/native.winoffice.txt) [Mirror](lnkgl_w/native.winoffice.txt) [Mirror](lnkjd_w/native.winoffice.txt) | [Link](lnkgh_w/native.winoffice-onlydomains.txt) [Mirror](lnkgl_w/native.winoffice-onlydomains.txt) [Mirror](lnkjd_w/native.winoffice-onlydomains.txt) | [Link](lnkgh_r/native.winoffice.txt) [Mirror](lnkgl_r/native.winoffice.txt) [Mirror](lnkjd_r/native.winoffice.txt) |
-| TikTok (Fingerprinting) | [Link](lnkgh_d/native.tiktok.txt) [Mirror](lnkgl_d/native.tiktok.txt) [Mirror](lnkjd_d/native.tiktok.txt) | [Link](lnkgh_h/native.tiktok.txt) [Mirror](lnkgl_h/native.tiktok.txt) [Mirror](lnkjd_h/native.tiktok.txt) | [Link](lnkgh_a/native.tiktok.txt) [Mirror](lnkgl_a/native.tiktok.txt) [Mirror](lnkjd_a/native.tiktok.txt) | [Link](lnkgh_u/native.tiktok.blacklist.conf) [Mirror](lnkgl_u/native.tiktok.blacklist.conf) [Mirror](lnkjd_u/native.tiktok.blacklist.conf) | [Link](lnkgh_m/native.tiktok.txt) [Mirror](lnkgl_m/native.tiktok.txt) [Mirror](lnkjd_m/native.tiktok.txt) | [Link](lnkgh_m/native.tiktok-old.txt) [Mirror](lnkgl_m/native.tiktok-old.txt) [Mirror](lnkjd_m/native.tiktok-old.txt) | [Link](lnkgh_w/native.tiktok.txt) [Mirror](lnkgl_w/native.tiktok.txt) [Mirror](lnkjd_w/native.tiktok.txt) | [Link](lnkgh_w/native.tiktok-onlydomains.txt) [Mirror](lnkgl_w/native.tiktok-onlydomains.txt) [Mirror](lnkjd_w/native.tiktok-onlydomains.txt) | [Link](lnkgh_r/native.tiktok.txt) [Mirror](lnkgl_r/native.tiktok.txt) [Mirror](lnkjd_r/native.tiktok.txt) |
-| TikTok (Fingerprinting) Aggressive | [Link](lnkgh_d/native.tiktok.extended.txt) [Mirror](lnkgl_d/native.tiktok.extended.txt) [Mirror](lnkjd_d/native.tiktok.extended.txt) | [Link](lnkgh_h/native.tiktok.extended.txt) [Mirror](lnkgl_h/native.tiktok.extended.txt) [Mirror](lnkjd_h/native.tiktok.extended.txt) | [Link](lnkgh_a/native.tiktok.extended.txt) [Mirror](lnkgl_a/native.tiktok.extended.txt) [Mirror](lnkjd_a/native.tiktok.extended.txt) | [Link](lnkgh_u/native.tiktok.extended.blacklist.conf) [Mirror](lnkgl_u/native.tiktok.extended.blacklist.conf) [Mirror](lnkjd_u/native.tiktok.extended.blacklist.conf) | [Link](lnkgh_m/native.tiktok.extended.txt) [Mirror](lnkgl_m/native.tiktok.extended.txt) [Mirror](lnkjd_m/native.tiktok.extended.txt) | [Link](lnkgh_m/native.tiktok.extended-old.txt) [Mirror](lnkgl_m/native.tiktok.extended-old.txt) [Mirror](lnkjd_m/native.tiktok.extended-old.txt) | [Link](lnkgh_w/native.tiktok.extended.txt) [Mirror](lnkgl_w/native.tiktok.extended.txt) [Mirror](lnkjd_w/native.tiktok.extended.txt) | [Link](lnkgh_w/native.tiktok.extended-onlydomains.txt) [Mirror](lnkgl_w/native.tiktok.extended-onlydomains.txt) [Mirror](lnkjd_w/native.tiktok.extended-onlydomains.txt) | [Link](lnkgh_r/native.tiktok.extended.txt) [Mirror](lnkgl_r/native.tiktok.extended.txt) [Mirror](lnkjd_r/native.tiktok.extended.txt) |
-| LG webOS | [Link](lnkgh_d/native.lgwebos.txt) [Mirror](lnkgl_d/native.lgwebos.txt) [Mirror](lnkjd_d/native.lgwebos.txt) | [Link](lnkgh_h/native.lgwebos.txt) [Mirror](lnkgl_h/native.lgwebos.txt) [Mirror](lnkjd_h/native.lgwebos.txt) | [Link](lnkgh_a/native.lgwebos.txt) [Mirror](lnkgl_a/native.lgwebos.txt) [Mirror](lnkjd_a/native.lgwebos.txt) | [Link](lnkgh_u/native.lgwebos.blacklist.conf) [Mirror](lnkgl_u/native.lgwebos.blacklist.conf) [Mirror](lnkjd_u/native.lgwebos.blacklist.conf) | [Link](lnkgh_m/native.lgwebos.txt) [Mirror](lnkgl_m/native.lgwebos.txt) [Mirror](lnkjd_m/native.lgwebos.txt) | [Link](lnkgh_m/native.lgwebos-old.txt) [Mirror](lnkgl_m/native.lgwebos-old.txt) [Mirror](lnkjd_m/native.lgwebos-old.txt) | [Link](lnkgh_w/native.lgwebos.txt) [Mirror](lnkgl_w/native.lgwebos.txt) [Mirror](lnkjd_w/native.lgwebos.txt) | [Link](lnkgh_w/native.lgwebos-onlydomains.txt) [Mirror](lnkgl_w/native.lgwebos-onlydomains.txt) [Mirror](lnkjd_w/native.lgwebos-onlydomains.txt) | [Link](lnkgh_r/native.lgwebos.txt) [Mirror](lnkgl_r/native.lgwebos.txt) [Mirror](lnkjd_r/native.lgwebos.txt) |
-| Vivo | [Link](lnkgh_d/native.vivo.txt) [Mirror](lnkgl_d/native.vivo.txt) [Mirror](lnkjd_d/native.vivo.txt) | [Link](lnkgh_h/native.vivo.txt) [Mirror](lnkgl_h/native.vivo.txt) [Mirror](lnkjd_h/native.vivo.txt) | [Link](lnkgh_a/native.vivo.txt) [Mirror](lnkgl_a/native.vivo.txt) [Mirror](lnkjd_a/native.vivo.txt) | [Link](lnkgh_u/native.vivo.blacklist.conf) [Mirror](lnkgl_u/native.vivo.blacklist.conf) [Mirror](lnkjd_u/native.vivo.blacklist.conf) | [Link](lnkgh_m/native.vivo.txt) [Mirror](lnkgl_m/native.vivo.txt) [Mirror](lnkjd_m/native.vivo.txt) | [Link](lnkgh_m/native.vivo-old.txt) [Mirror](lnkgl_m/native.vivo-old.txt) [Mirror](lnkjd_m/native.vivo-old.txt) | [Link](lnkgh_w/native.vivo.txt) [Mirror](lnkgl_w/native.vivo.txt) [Mirror](lnkjd_w/native.vivo.txt) | [Link](lnkgh_w/native.vivo-onlydomains.txt) [Mirror](lnkgl_w/native.vivo-onlydomains.txt) [Mirror](lnkjd_w/native.vivo-onlydomains.txt) | [Link](lnkgh_r/native.vivo.txt) [Mirror](lnkgl_r/native.vivo.txt) [Mirror](lnkjd_r/native.vivo.txt) |
-| OPPO/Realme | [Link](lnkgh_d/native.oppo-realme.txt) [Mirror](lnkgl_d/native.oppo-realme.txt) [Mirror](lnkjd_d/native.oppo-realme.txt) | [Link](lnkgh_h/native.oppo-realme.txt) [Mirror](lnkgl_h/native.oppo-realme.txt) [Mirror](lnkjd_h/native.oppo-realme.txt) | [Link](lnkgh_a/native.oppo-realme.txt) [Mirror](lnkgl_a/native.oppo-realme.txt) [Mirror](lnkjd_a/native.oppo-realme.txt) | [Link](lnkgh_u/native.oppo-realme.blacklist.conf) [Mirror](lnkgl_u/native.oppo-realme.blacklist.conf) [Mirror](lnkjd_u/native.oppo-realme.blacklist.conf) | [Link](lnkgh_m/native.oppo-realme.txt) [Mirror](lnkgl_m/native.oppo-realme.txt) [Mirror](lnkjd_m/native.oppo-realme.txt) | [Link](lnkgh_m/native.oppo-realme-old.txt) [Mirror](lnkgl_m/native.oppo-realme-old.txt) [Mirror](lnkjd_m/native.oppo-realme-old.txt) | [Link](lnkgh_w/native.oppo-realme.txt) [Mirror](lnkgl_w/native.oppo-realme.txt) [Mirror](lnkjd_w/native.oppo-realme.txt) | [Link](lnkgh_w/native.oppo-realme-onlydomains.txt) [Mirror](lnkgl_w/native.oppo-realme-onlydomains.txt) [Mirror](lnkjd_w/native.oppo-realme-onlydomains.txt) | [Link](lnkgh_r/native.oppo-realme.txt) [Mirror](lnkgl_r/native.oppo-realme.txt) [Mirror](lnkjd_r/native.oppo-realme.txt) |
-| Xiaomi | [Link](lnkgh_d/native.xiaomi.txt) [Mirror](lnkgl_d/native.xiaomi.txt) [Mirror](lnkjd_d/native.xiaomi.txt) | [Link](lnkgh_h/native.xiaomi.txt) [Mirror](lnkgl_h/native.xiaomi.txt) [Mirror](lnkjd_h/native.xiaomi.txt) | [Link](lnkgh_a/native.xiaomi.txt) [Mirror](lnkgl_a/native.xiaomi.txt) [Mirror](lnkjd_a/native.xiaomi.txt) | [Link](lnkgh_u/native.xiaomi.blacklist.conf) [Mirror](lnkgl_u/native.xiaomi.blacklist.conf) [Mirror](lnkjd_u/native.xiaomi.blacklist.conf) | [Link](lnkgh_m/native.xiaomi.txt) [Mirror](lnkgl_m/native.xiaomi.txt) [Mirror](lnkjd_m/native.xiaomi.txt) | [Link](lnkgh_m/native.xiaomi-old.txt) [Mirror](lnkgl_m/native.xiaomi-old.txt) [Mirror](lnkjd_m/native.xiaomi-old.txt) | [Link](lnkgh_w/native.xiaomi.txt) [Mirror](lnkgl_w/native.xiaomi.txt) [Mirror](lnkjd_w/native.xiaomi.txt) | [Link](lnkgh_w/native.xiaomi-onlydomains.txt) [Mirror](lnkgl_w/native.xiaomi-onlydomains.txt) [Mirror](lnkjd_w/native.xiaomi-onlydomains.txt) | [Link](lnkgh_r/native.xiaomi.txt) [Mirror](lnkgl_r/native.xiaomi.txt) [Mirror](lnkjd_r/native.xiaomi.txt) |
+| Device/Service | Domains | Hosts | Adblock | DNSMasq<br>v2.86+ | DNSMasq<br>v2.85- | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
+|:-------|:--------:|:------:|:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|
+| Amazon (Devices, Shopping, Video) | [Link](lnkgh_d/native.amazon.txt) [Mirror](lnkgl_d/native.amazon.txt) [Mirror](lnkjd_d/native.amazon.txt) | [Link](lnkgh_h/native.amazon.txt) [Mirror](lnkgl_h/native.amazon.txt) [Mirror](lnkjd_h/native.amazon.txt) | [Link](lnkgh_a/native.amazon.txt) [Mirror](lnkgl_a/native.amazon.txt) [Mirror](lnkjd_a/native.amazon.txt) | [Link](lnkgh_m/native.amazon.txt) [Mirror](lnkgl_m/native.amazon.txt) [Mirror](lnkjd_m/native.amazon.txt) | [Link](lnkgh_m/native.amazon-old.txt) [Mirror](lnkgl_m/native.amazon-old.txt) [Mirror](lnkjd_m/native.amazon-old.txt) | [Link](lnkgh_w/native.amazon.txt) [Mirror](lnkgl_w/native.amazon.txt) [Mirror](lnkjd_w/native.amazon.txt) | [Link](lnkgh_w/native.amazon-onlydomains.txt) [Mirror](lnkgl_w/native.amazon-onlydomains.txt) [Mirror](lnkjd_w/native.amazon-onlydomains.txt) | [Link](lnkgh_r/native.amazon.txt) [Mirror](lnkgl_r/native.amazon.txt) [Mirror](lnkjd_r/native.amazon.txt) |
+| Apple (iOS, macOS, tvOS) | [Link](lnkgh_d/native.apple.txt) [Mirror](lnkgl_d/native.apple.txt) [Mirror](lnkjd_d/native.apple.txt) | [Link](lnkgh_h/native.apple.txt) [Mirror](lnkgl_h/native.apple.txt) [Mirror](lnkjd_h/native.apple.txt) | [Link](lnkgh_a/native.apple.txt) [Mirror](lnkgl_a/native.apple.txt) [Mirror](lnkjd_a/native.apple.txt) | [Link](lnkgh_m/native.apple.txt) [Mirror](lnkgl_m/native.apple.txt) [Mirror](lnkjd_m/native.apple.txt) | [Link](lnkgh_m/native.apple-old.txt) [Mirror](lnkgl_m/native.apple-old.txt) [Mirror](lnkjd_m/native.apple-old.txt) | [Link](lnkgh_w/native.apple.txt) [Mirror](lnkgl_w/native.apple.txt) [Mirror](lnkjd_w/native.apple.txt) | [Link](lnkgh_w/native.apple-onlydomains.txt) [Mirror](lnkgl_w/native.apple-onlydomains.txt) [Mirror](lnkjd_w/native.apple-onlydomains.txt) | [Link](lnkgh_r/native.apple.txt) [Mirror](lnkgl_r/native.apple.txt) [Mirror](lnkjd_r/native.apple.txt) |
+| Huawei (Devices) | [Link](lnkgh_d/native.huawei.txt) [Mirror](lnkgl_d/native.huawei.txt) [Mirror](lnkjd_d/native.huawei.txt) | [Link](lnkgh_h/native.huawei.txt) [Mirror](lnkgl_h/native.huawei.txt) [Mirror](lnkjd_h/native.huawei.txt) | [Link](lnkgh_a/native.huawei.txt) [Mirror](lnkgl_a/native.huawei.txt) [Mirror](lnkjd_a/native.huawei.txt) | [Link](lnkgh_m/native.huawei.txt) [Mirror](lnkgl_m/native.huawei.txt) [Mirror](lnkjd_m/native.huawei.txt) | [Link](lnkgh_m/native.huawei-old.txt) [Mirror](lnkgl_m/native.huawei-old.txt) [Mirror](lnkjd_m/native.huawei-old.txt) | [Link](lnkgh_w/native.huawei.txt) [Mirror](lnkgl_w/native.huawei.txt) [Mirror](lnkjd_w/native.huawei.txt) | [Link](lnkgh_w/native.huawei-onlydomains.txt) [Mirror](lnkgl_w/native.huawei-onlydomains.txt) [Mirror](lnkjd_w/native.huawei-onlydomains.txt) | [Link](lnkgh_r/native.huawei.txt) [Mirror](lnkgl_r/native.huawei.txt) [Mirror](lnkjd_r/native.huawei.txt) |
+| Microsoft (Windows, Office, MSN) | [Link](lnkgh_d/native.winoffice.txt) [Mirror](lnkgl_d/native.winoffice.txt) [Mirror](lnkjd_d/native.winoffice.txt) | [Link](lnkgh_h/native.winoffice.txt) [Mirror](lnkgl_h/native.winoffice.txt) [Mirror](lnkjd_h/native.winoffice.txt) | [Link](lnkgh_a/native.winoffice.txt) [Mirror](lnkgl_a/native.winoffice.txt) [Mirror](lnkjd_a/native.winoffice.txt) | [Link](lnkgh_m/native.winoffice.txt) [Mirror](lnkgl_m/native.winoffice.txt) [Mirror](lnkjd_m/native.winoffice.txt) | [Link](lnkgh_m/native.winoffice-old.txt) [Mirror](lnkgl_m/native.winoffice-old.txt) [Mirror](lnkjd_m/native.winoffice-old.txt) | [Link](lnkgh_w/native.winoffice.txt) [Mirror](lnkgl_w/native.winoffice.txt) [Mirror](lnkjd_w/native.winoffice.txt) | [Link](lnkgh_w/native.winoffice-onlydomains.txt) [Mirror](lnkgl_w/native.winoffice-onlydomains.txt) [Mirror](lnkjd_w/native.winoffice-onlydomains.txt) | [Link](lnkgh_r/native.winoffice.txt) [Mirror](lnkgl_r/native.winoffice.txt) [Mirror](lnkjd_r/native.winoffice.txt) |
+| TikTok (Fingerprinting) | [Link](lnkgh_d/native.tiktok.txt) [Mirror](lnkgl_d/native.tiktok.txt) [Mirror](lnkjd_d/native.tiktok.txt) | [Link](lnkgh_h/native.tiktok.txt) [Mirror](lnkgl_h/native.tiktok.txt) [Mirror](lnkjd_h/native.tiktok.txt) | [Link](lnkgh_a/native.tiktok.txt) [Mirror](lnkgl_a/native.tiktok.txt) [Mirror](lnkjd_a/native.tiktok.txt) | [Link](lnkgh_m/native.tiktok.txt) [Mirror](lnkgl_m/native.tiktok.txt) [Mirror](lnkjd_m/native.tiktok.txt) | [Link](lnkgh_m/native.tiktok-old.txt) [Mirror](lnkgl_m/native.tiktok-old.txt) [Mirror](lnkjd_m/native.tiktok-old.txt) | [Link](lnkgh_w/native.tiktok.txt) [Mirror](lnkgl_w/native.tiktok.txt) [Mirror](lnkjd_w/native.tiktok.txt) | [Link](lnkgh_w/native.tiktok-onlydomains.txt) [Mirror](lnkgl_w/native.tiktok-onlydomains.txt) [Mirror](lnkjd_w/native.tiktok-onlydomains.txt) | [Link](lnkgh_r/native.tiktok.txt) [Mirror](lnkgl_r/native.tiktok.txt) [Mirror](lnkjd_r/native.tiktok.txt) |
+| TikTok (Fingerprinting) Aggressive | [Link](lnkgh_d/native.tiktok.extended.txt) [Mirror](lnkgl_d/native.tiktok.extended.txt) [Mirror](lnkjd_d/native.tiktok.extended.txt) | [Link](lnkgh_h/native.tiktok.extended.txt) [Mirror](lnkgl_h/native.tiktok.extended.txt) [Mirror](lnkjd_h/native.tiktok.extended.txt) | [Link](lnkgh_a/native.tiktok.extended.txt) [Mirror](lnkgl_a/native.tiktok.extended.txt) [Mirror](lnkjd_a/native.tiktok.extended.txt) | [Link](lnkgh_m/native.tiktok.extended.txt) [Mirror](lnkgl_m/native.tiktok.extended.txt) [Mirror](lnkjd_m/native.tiktok.extended.txt) | [Link](lnkgh_m/native.tiktok.extended-old.txt) [Mirror](lnkgl_m/native.tiktok.extended-old.txt) [Mirror](lnkjd_m/native.tiktok.extended-old.txt) | [Link](lnkgh_w/native.tiktok.extended.txt) [Mirror](lnkgl_w/native.tiktok.extended.txt) [Mirror](lnkjd_w/native.tiktok.extended.txt) | [Link](lnkgh_w/native.tiktok.extended-onlydomains.txt) [Mirror](lnkgl_w/native.tiktok.extended-onlydomains.txt) [Mirror](lnkjd_w/native.tiktok.extended-onlydomains.txt) | [Link](lnkgh_r/native.tiktok.extended.txt) [Mirror](lnkgl_r/native.tiktok.extended.txt) [Mirror](lnkjd_r/native.tiktok.extended.txt) |
+| LG webOS | [Link](lnkgh_d/native.lgwebos.txt) [Mirror](lnkgl_d/native.lgwebos.txt) [Mirror](lnkjd_d/native.lgwebos.txt) | [Link](lnkgh_h/native.lgwebos.txt) [Mirror](lnkgl_h/native.lgwebos.txt) [Mirror](lnkjd_h/native.lgwebos.txt) | [Link](lnkgh_a/native.lgwebos.txt) [Mirror](lnkgl_a/native.lgwebos.txt) [Mirror](lnkjd_a/native.lgwebos.txt) | [Link](lnkgh_m/native.lgwebos.txt) [Mirror](lnkgl_m/native.lgwebos.txt) [Mirror](lnkjd_m/native.lgwebos.txt) | [Link](lnkgh_m/native.lgwebos-old.txt) [Mirror](lnkgl_m/native.lgwebos-old.txt) [Mirror](lnkjd_m/native.lgwebos-old.txt) | [Link](lnkgh_w/native.lgwebos.txt) [Mirror](lnkgl_w/native.lgwebos.txt) [Mirror](lnkjd_w/native.lgwebos.txt) | [Link](lnkgh_w/native.lgwebos-onlydomains.txt) [Mirror](lnkgl_w/native.lgwebos-onlydomains.txt) [Mirror](lnkjd_w/native.lgwebos-onlydomains.txt) | [Link](lnkgh_r/native.lgwebos.txt) [Mirror](lnkgl_r/native.lgwebos.txt) [Mirror](lnkjd_r/native.lgwebos.txt) |
+| Vivo | [Link](lnkgh_d/native.vivo.txt) [Mirror](lnkgl_d/native.vivo.txt) [Mirror](lnkjd_d/native.vivo.txt) | [Link](lnkgh_h/native.vivo.txt) [Mirror](lnkgl_h/native.vivo.txt) [Mirror](lnkjd_h/native.vivo.txt) | [Link](lnkgh_a/native.vivo.txt) [Mirror](lnkgl_a/native.vivo.txt) [Mirror](lnkjd_a/native.vivo.txt) | [Link](lnkgh_m/native.vivo.txt) [Mirror](lnkgl_m/native.vivo.txt) [Mirror](lnkjd_m/native.vivo.txt) | [Link](lnkgh_m/native.vivo-old.txt) [Mirror](lnkgl_m/native.vivo-old.txt) [Mirror](lnkjd_m/native.vivo-old.txt) | [Link](lnkgh_w/native.vivo.txt) [Mirror](lnkgl_w/native.vivo.txt) [Mirror](lnkjd_w/native.vivo.txt) | [Link](lnkgh_w/native.vivo-onlydomains.txt) [Mirror](lnkgl_w/native.vivo-onlydomains.txt) [Mirror](lnkjd_w/native.vivo-onlydomains.txt) | [Link](lnkgh_r/native.vivo.txt) [Mirror](lnkgl_r/native.vivo.txt) [Mirror](lnkjd_r/native.vivo.txt) |
+| OPPO/Realme | [Link](lnkgh_d/native.oppo-realme.txt) [Mirror](lnkgl_d/native.oppo-realme.txt) [Mirror](lnkjd_d/native.oppo-realme.txt) | [Link](lnkgh_h/native.oppo-realme.txt) [Mirror](lnkgl_h/native.oppo-realme.txt) [Mirror](lnkjd_h/native.oppo-realme.txt) | [Link](lnkgh_a/native.oppo-realme.txt) [Mirror](lnkgl_a/native.oppo-realme.txt) [Mirror](lnkjd_a/native.oppo-realme.txt) | [Link](lnkgh_m/native.oppo-realme.txt) [Mirror](lnkgl_m/native.oppo-realme.txt) [Mirror](lnkjd_m/native.oppo-realme.txt) | [Link](lnkgh_m/native.oppo-realme-old.txt) [Mirror](lnkgl_m/native.oppo-realme-old.txt) [Mirror](lnkjd_m/native.oppo-realme-old.txt) | [Link](lnkgh_w/native.oppo-realme.txt) [Mirror](lnkgl_w/native.oppo-realme.txt) [Mirror](lnkjd_w/native.oppo-realme.txt) | [Link](lnkgh_w/native.oppo-realme-onlydomains.txt) [Mirror](lnkgl_w/native.oppo-realme-onlydomains.txt) [Mirror](lnkjd_w/native.oppo-realme-onlydomains.txt) | [Link](lnkgh_r/native.oppo-realme.txt) [Mirror](lnkgl_r/native.oppo-realme.txt) [Mirror](lnkjd_r/native.oppo-realme.txt) |
+| Xiaomi | [Link](lnkgh_d/native.xiaomi.txt) [Mirror](lnkgl_d/native.xiaomi.txt) [Mirror](lnkjd_d/native.xiaomi.txt) | [Link](lnkgh_h/native.xiaomi.txt) [Mirror](lnkgl_h/native.xiaomi.txt) [Mirror](lnkjd_h/native.xiaomi.txt) | [Link](lnkgh_a/native.xiaomi.txt) [Mirror](lnkgl_a/native.xiaomi.txt) [Mirror](lnkjd_a/native.xiaomi.txt) | [Link](lnkgh_m/native.xiaomi.txt) [Mirror](lnkgl_m/native.xiaomi.txt) [Mirror](lnkjd_m/native.xiaomi.txt) | [Link](lnkgh_m/native.xiaomi-old.txt) [Mirror](lnkgl_m/native.xiaomi-old.txt) [Mirror](lnkjd_m/native.xiaomi-old.txt) | [Link](lnkgh_w/native.xiaomi.txt) [Mirror](lnkgl_w/native.xiaomi.txt) [Mirror](lnkjd_w/native.xiaomi.txt) | [Link](lnkgh_w/native.xiaomi-onlydomains.txt) [Mirror](lnkgl_w/native.xiaomi-onlydomains.txt) [Mirror](lnkjd_w/native.xiaomi-onlydomains.txt) | [Link](lnkgh_r/native.xiaomi.txt) [Mirror](lnkgl_r/native.xiaomi.txt) [Mirror](lnkjd_r/native.xiaomi.txt) |
 
 **Expires:** *Updated regularly*
 
