@@ -416,7 +416,7 @@
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
 | Domains<br>Subdomains | [Link](lnkgh_d/doh.txt) [Mirror](lnkgl_d/doh.txt) [Mirror](lnkjd_d/doh.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/doh.txt) [Mirror](lnkgl_h/doh.txt) [Mirror](lnkjd_h/doh.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile, ~~Windows~~ (too big!) |
+| Hosts | [Link](lnkgh_h/doh.txt) [Mirror](lnkgl_h/doh.txt) [Mirror](lnkjd_h/doh.txt) | AdAway, uMatrix, DNS66, GasMask, NetGuard, Hostfile, Windows |
 | Adblock | [Link](lnkgh_a/doh.txt) [Mirror](lnkgl_a/doh.txt) [Mirror](lnkjd_a/doh.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock, AdBlock, AdBlock Plus, Opera, Vivaldi, Brave, AdNauseam, Little Snitch Mini |
 | DNSMasq<br>v2.85- | [Link](lnkgh_m/doh-old.txt) [Mirror](lnkgl_m/doh-old.txt) [Mirror](lnkjd_m/doh-old.txt) | DNSMasq (v2.85 or older) |
 | DNSMasq<br>v2.86+ | [Link](lnkgh_m/doh.txt) [Mirror](lnkgl_m/doh.txt) [Mirror](lnkjd_m/doh.txt) | DNSMasq (v2.86 or newer), adblock-lean, Diversion (v5 or newer) |
