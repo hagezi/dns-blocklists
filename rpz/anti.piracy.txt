@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720996860 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721056260 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 14 Jul 2024 22:41 UTC
-; Version: 2024.0714.2241.40
+; Last modified: 15 Jul 2024 15:11 UTC
+; Version: 2024.0715.1511.26
 ; Syntax: RPZ
-; Number of entries: 19882
+; Number of entries: 19892
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -2253,6 +2253,8 @@ w4.123moviefree4u.com CNAME .
 *.123movies.com CNAME .
 123movies-apk.com CNAME .
 *.123movies-apk.com CNAME .
+123moviesbq.com CNAME .
+*.123moviesbq.com CNAME .
 123moviesfreez.com CNAME .
 *.123moviesfreez.com CNAME .
 123moviesget.com CNAME .
@@ -2283,6 +2285,8 @@ w4.123moviefree4u.com CNAME .
 *.1kif.com CNAME .
 1movieshd.com CNAME .
 *.1movieshd.com CNAME .
+1movietv.com CNAME .
+*.1movietv.com CNAME .
 1xstream.com CNAME .
 *.1xstream.com CNAME .
 20links.com CNAME .
@@ -7417,6 +7421,8 @@ xplorenetbd.com CNAME .
 *.xplorenetbd.com CNAME .
 xpreed.com CNAME .
 *.xpreed.com CNAME .
+xr8edstresser.com CNAME .
+*.xr8edstresser.com CNAME .
 xrshellbooter.com CNAME .
 *.xrshellbooter.com CNAME .
 xtorrentp2p.com CNAME .
@@ -8579,6 +8585,8 @@ zone-streaming.fr CNAME .
 *.123movies4u.fun CNAME .
 123unblock.fun CNAME .
 *.123unblock.fun CNAME .
+1337x.fun CNAME .
+*.1337x.fun CNAME .
 anime-tv.fun CNAME .
 *.anime-tv.fun CNAME .
 bonsaihd.fun CNAME .
@@ -13433,6 +13441,8 @@ watchmovies.nz CNAME .
 *.watchmovies.nz CNAME .
 cb01.observer CNAME .
 *.cb01.observer CNAME .
+0123movies.one CNAME .
+*.0123movies.one CNAME .
 ahoy.one CNAME .
 *.ahoy.one CNAME .
 altadefinizione.one CNAME .
@@ -18015,6 +18025,8 @@ streamingcommunity.tube CNAME .
 *.10kol.tv CNAME .
 123moviesgo.tv CNAME .
 *.123moviesgo.tv CNAME .
+123moviesx.tv CNAME .
+*.123moviesx.tv CNAME .
 4k-hd-movies.tv CNAME .
 *.4k-hd-movies.tv CNAME .
 4kvod.tv CNAME .
@@ -18789,8 +18801,6 @@ cb01.us CNAME .
 *.cb01.us CNAME .
 cmovies.us CNAME .
 *.cmovies.us CNAME .
-ddosit.us CNAME .
-*.ddosit.us CNAME .
 deadfrog.us CNAME .
 *.deadfrog.us CNAME .
 empornium.us CNAME .
