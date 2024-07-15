@@ -96,3 +96,12 @@ body:
         Provide as many details as possible to avoid unnecessary enquiries. If necessary, please describe the steps to reproduce. You can also add screenshots.
     validations:
       required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Privacy
+      description: By submitting this issue, you agree that the report will not contain any private information.
+      options:
+        - label: I agree to follow this condition
+          required: true
