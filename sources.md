@@ -322,6 +322,7 @@ https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-mvt.
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-positivetech.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-proofpoint.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-qianxin.txt
+https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-quointelligence.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-recordedfuture.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-sekoia.txt
 https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-sentinelone.txt
@@ -386,7 +387,6 @@ https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt
 https://raw.githubusercontent.com/xRuffKez/TIF/main/malware/ips.txt
-https://raw.githubusercontent.com/xRuffKez/TIF/main/phish/active.txt
 https://raw.githubusercontent.com/YanFung/Ads/master/Mobile
 https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt

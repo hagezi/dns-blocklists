@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720737780 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720996740 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 11 Jul 2024 22:43 UTC
-; Version: 2024.0711.2243.44
+; Last modified: 14 Jul 2024 22:39 UTC
+; Version: 2024.0714.2239.19
 ; Syntax: RPZ
-; Number of entries: 2890
+; Number of entries: 2954
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -151,6 +151,8 @@ nodns.ca CNAME .
 *.nodns.ca CNAME .
 planetdns.ca CNAME .
 *.planetdns.ca CNAME .
+roth.ca CNAME .
+*.roth.ca CNAME .
 shogun.ca CNAME .
 *.shogun.ca CNAME .
 surfnet.ca CNAME .
@@ -177,10 +179,14 @@ scrapping.cc CNAME .
 *.scrapping.cc CNAME .
 smelly.cc CNAME .
 *.smelly.cc CNAME .
+usa.cc CNAME .
+*.usa.cc CNAME .
 ddnss.ch CNAME .
 *.ddnss.ch CNAME .
 demoteam.ch CNAME .
 *.demoteam.ch CNAME .
+dnsking.ch CNAME .
+*.dnsking.ch CNAME .
 dyn.ch CNAME .
 *.dyn.ch CNAME .
 gotdns.ch CNAME .
@@ -207,6 +213,8 @@ yao.cl CNAME .
 *.yao.cl CNAME .
 4cloud.click CNAME .
 *.4cloud.click CNAME .
+urown.cloud CNAME .
+*.urown.cloud CNAME .
 dnspod.cn CNAME .
 *.dnspod.cn CNAME .
 tpddns.cn CNAME .
@@ -223,6 +231,8 @@ ipq.co CNAME .
 *.ipq.co CNAME .
 mypi.co CNAME .
 *.mypi.co CNAME .
+n4t.co CNAME .
+*.n4t.co CNAME .
 0000000000000000000000.com CNAME .
 *.0000000000000000000000.com CNAME .
 100mountain.com CNAME .
@@ -231,6 +241,8 @@ mypi.co CNAME .
 *.10dv.com CNAME .
 1cooldns.com CNAME .
 *.1cooldns.com CNAME .
+1dumb.com CNAME .
+*.1dumb.com CNAME .
 25u.com CNAME .
 *.25u.com CNAME .
 2waky.com CNAME .
@@ -567,6 +579,8 @@ endlessmovie.com CNAME .
 *.endlessmovie.com CNAME .
 enterprisemx.com CNAME .
 *.enterprisemx.com CNAME .
+epicmilk.com CNAME .
+*.epicmilk.com CNAME .
 eptechguys.com CNAME .
 *.eptechguys.com CNAME .
 essentialventure.com CNAME .
@@ -937,6 +951,8 @@ isasecret.com CNAME .
 *.isasecret.com CNAME .
 issmarterthanyou.com CNAME .
 *.issmarterthanyou.com CNAME .
+itekgroup.com CNAME .
+*.itekgroup.com CNAME .
 itemdb.com CNAME .
 *.itemdb.com CNAME .
 itsaol.com CNAME .
@@ -1145,6 +1161,8 @@ organiccrap.com CNAME .
 *.organiccrap.com CNAME .
 otzo.com CNAME .
 *.otzo.com CNAME .
+oumage.com CNAME .
+*.oumage.com CNAME .
 ourhobby.com CNAME .
 *.ourhobby.com CNAME .
 partycenteronline.com CNAME .
@@ -1163,6 +1181,8 @@ photo-frame.com CNAME .
 *.photo-frame.com CNAME .
 piroge.com CNAME .
 *.piroge.com CNAME .
+pixelfucker.com CNAME .
+*.pixelfucker.com CNAME .
 plwgroup.com CNAME .
 *.plwgroup.com CNAME .
 point2this.com CNAME .
@@ -1393,6 +1413,8 @@ unusualperson.com CNAME .
 *.unusualperson.com CNAME .
 v13clan.com CNAME .
 *.v13clan.com CNAME .
+vctel.com CNAME .
+*.vctel.com CNAME .
 viamisoftware.com CNAME .
 *.viamisoftware.com CNAME .
 vincomlimited.com CNAME .
@@ -1587,8 +1609,12 @@ duia.eu CNAME .
 *.duia.eu CNAME .
 humorvisite.eu CNAME .
 *.humorvisite.eu CNAME .
+packeting.eu CNAME .
+*.packeting.eu CNAME .
 ydns.eu CNAME .
 *.ydns.eu CNAME .
+z0d.eu CNAME .
+*.z0d.eu CNAME .
 mao.fi CNAME .
 *.mao.fi CNAME .
 stes.fi CNAME .
@@ -1741,6 +1767,10 @@ star.is CNAME .
 *.16-b.it CNAME .
 32-b.it CNAME .
 *.32-b.it CNAME .
+64-b.it CNAME .
+*.64-b.it CNAME .
+benjamin.it CNAME .
+*.benjamin.it CNAME .
 dyndns.it CNAME .
 *.dyndns.it CNAME .
 homepc.it CNAME .
@@ -1759,6 +1789,8 @@ privateimport.jp CNAME .
 *.privateimport.jp CNAME .
 sadayuki.jp CNAME .
 *.sadayuki.jp CNAME .
+sne.jp CNAME .
+*.sne.jp CNAME .
 zsh.jp CNAME .
 *.zsh.jp CNAME .
 home.kg CNAME .
@@ -1897,6 +1929,8 @@ changeip.net CNAME .
 *.changeip.net CNAME .
 clienturl.net CNAME .
 *.clienturl.net CNAME .
+cloudwatch.net CNAME .
+*.cloudwatch.net CNAME .
 cloudxns.net CNAME .
 *.cloudxns.net CNAME .
 computersforpeace.net CNAME .
@@ -1961,6 +1995,8 @@ dynup.net CNAME .
 *.dynup.net CNAME .
 dynv4.net CNAME .
 *.dynv4.net CNAME .
+dynv6.net CNAME .
+*.dynv6.net CNAME .
 dyyndns.net CNAME .
 *.dyyndns.net CNAME .
 easydns.net CNAME .
@@ -2163,6 +2199,8 @@ softether.net CNAME .
 *.softether.net CNAME .
 spacetechnology.net CNAME .
 *.spacetechnology.net CNAME .
+stfu-kthx.net CNAME .
+*.stfu-kthx.net CNAME .
 strangled.net CNAME .
 *.strangled.net CNAME .
 systes.net CNAME .
@@ -2229,6 +2267,8 @@ merseine.nu CNAME .
 *.merseine.nu CNAME .
 mine.nu CNAME .
 *.mine.nu CNAME .
+remotecam.nu CNAME .
+*.remotecam.nu CNAME .
 rr.nu CNAME .
 *.rr.nu CNAME .
 shacknet.nu CNAME .
@@ -2381,6 +2421,8 @@ essexregional.org CNAME .
 *.essexregional.org CNAME .
 etowns.org CNAME .
 *.etowns.org CNAME .
+ezxdev.org CNAME .
+*.ezxdev.org CNAME .
 f3322.org CNAME .
 *.f3322.org CNAME .
 fairuse.org CNAME .
@@ -2411,6 +2453,8 @@ gw1.org CNAME .
 *.gw1.org CNAME .
 hatenboer.org CNAME .
 *.hatenboer.org CNAME .
+hiddencorner.org CNAME .
+*.hiddencorner.org CNAME .
 hobby-site.org CNAME .
 *.hobby-site.org CNAME .
 homedns.org CNAME .
@@ -2563,6 +2607,8 @@ solfa.org CNAME .
 *.solfa.org CNAME .
 spdns.org CNAME .
 *.spdns.org CNAME .
+ssl443.org CNAME .
+*.ssl443.org CNAME .
 stroyexpert.org CNAME .
 *.stroyexpert.org CNAME .
 stuff-4-sale.org CNAME .
@@ -2669,6 +2715,8 @@ dagz.ru CNAME .
 *.dagz.ru CNAME .
 didns.ru CNAME .
 *.didns.ru CNAME .
+dmtr.ru CNAME .
+*.dmtr.ru CNAME .
 dynnamn.ru CNAME .
 *.dynnamn.ru CNAME .
 gerastar.ru CNAME .
@@ -2687,6 +2735,8 @@ kir22.ru CNAME .
 *.kir22.ru CNAME .
 ksk-saratov.ru CNAME .
 *.ksk-saratov.ru CNAME .
+linux70.ru CNAME .
+*.linux70.ru CNAME .
 livewave.ru CNAME .
 *.livewave.ru CNAME .
 mett.ru CNAME .
@@ -2739,6 +2789,10 @@ biz.st CNAME .
 *.biz.st CNAME .
 k22.su CNAME .
 *.k22.su CNAME .
+rpz.su CNAME .
+*.rpz.su CNAME .
+skc.su CNAME .
+*.skc.su CNAME .
 root.sx CNAME .
 *.root.sx CNAME .
 dynu.systems CNAME .
@@ -2793,6 +2847,8 @@ hin.tw CNAME .
 *.hin.tw CNAME .
 hpc.tw CNAME .
 *.hpc.tw CNAME .
+ics.tw CNAME .
+*.ics.tw CNAME .
 4040.idv.tw CNAME .
 *.4040.idv.tw CNAME .
 linkin.tw CNAME .
@@ -2845,8 +2901,12 @@ dns1.us CNAME .
 *.dns1.us CNAME .
 dns2.us CNAME .
 *.dns2.us CNAME .
+dubya.us CNAME .
+*.dubya.us CNAME .
 duia.us CNAME .
 *.duia.us CNAME .
+dynamic-dns.us CNAME .
+*.dynamic-dns.us CNAME .
 freeddns.us CNAME .
 *.freeddns.us CNAME .
 global-instr.us CNAME .
@@ -2855,6 +2915,8 @@ golffan.us CNAME .
 *.golffan.us CNAME .
 hmail.us CNAME .
 *.hmail.us CNAME .
+inflict.us CNAME .
+*.inflict.us CNAME .
 is-by.us CNAME .
 *.is-by.us CNAME .
 land-4-sale.us CNAME .
@@ -2871,6 +2933,8 @@ ns01.us CNAME .
 *.ns01.us CNAME .
 ns02.us CNAME .
 *.ns02.us CNAME .
+onmypc.us CNAME .
+*.onmypc.us CNAME .
 pointto.us CNAME .
 *.pointto.us CNAME .
 possessed.us CNAME .
