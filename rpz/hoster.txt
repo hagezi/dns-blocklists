@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720996800 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721083080 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 14 Jul 2024 22:40 UTC
-; Version: 2024.0714.2240.37
+; Last modified: 15 Jul 2024 22:38 UTC
+; Version: 2024.0715.2238.19
 ; Syntax: RPZ
-; Number of entries: 3654
+; Number of entries: 3658
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -429,6 +429,8 @@ ampedpages.com CNAME .
 *.ampedpages.com CNAME .
 anchor-blog.com CNAME .
 *.anchor-blog.com CNAME .
+andharban.com CNAME .
+*.andharban.com CNAME .
 angelfire.com CNAME .
 *.angelfire.com CNAME .
 angelinsblog.com CNAME .
@@ -2163,6 +2165,8 @@ webnode.fi CNAME .
 *.webnode.fi CNAME .
 shop.fm CNAME .
 *.shop.fm CNAME .
+aceblog.fr CNAME .
+*.aceblog.fr CNAME .
 blog.fr CNAME .
 *.blog.fr CNAME .
 blogit.fr CNAME .
