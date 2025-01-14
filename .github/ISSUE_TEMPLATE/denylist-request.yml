@@ -1,5 +1,5 @@
 name: Denylist Request
-description: Report missing blockable domain(s).
+description: Report domain(s) that should be added to the denylist.
 labels: ["deny"]
 assignees: 
   - hagezi
@@ -7,36 +7,39 @@ body:
   - type: textarea
     id: domains
     attributes:
-      label: Which domain(s) should be blocked?
+      label: Domain(s) to be blocked
       description: |
-        Only pure domains, no adblock rules, no URLs, ...
+        Provide the domains that should be blocked. Ensure you include only pure domains (e.g., example.com). Do not include adblock rules, URLs, or other formats.
     validations:
       required: true
 
   - type: textarea
     id: reason
     attributes:
-      label: Why should these domain(s) be blocked?
+      label: Justification for blocking the domain(s)
       description: |
-        Provide precise details for each domain as to why they should be blocked, what is tracked and where they are accessed.
+        Clearly explain why each domain should be blocked. Include details such as tracking behavior, malicious activity, or where and how the domain is accessed.
     validations:
       required: true
   
   - type: checkboxes
     id: blocked
     attributes:
-      label: I confirm ...
+      label: Confirmation
+      description: |
+        Confirm the following points to ensure your request is valid and avoids duplication.
       options:
-        - label: that I have checked if there is no other issue for the domain(s) whereby they were unblocked or the blocking was declined.
+        - label: I have verified that no existing issue explains why the domain(s) were previously unblocked or the blocking was declined.
           required: true
-        - label: that I have checked that the domain(s) are not already blocked.
+        - label: I have checked that the domain(s) are not already blocked by Hagezi's blocklists.
           required: true
-  
+
   - type: checkboxes
     id: terms
     attributes:
-      label: Privacy
-      description: By submitting this issue, you agree that the report will not contain any private information.
+      label: Privacy Confirmation
+      description: |
+        By submitting this request, you confirm that the report does not contain any private or sensitive information.
       options:
-        - label: I confirm that the report does not contain any private information.
+        - label: I confirm that the report does not contain any private or sensitive information.
           required: true
