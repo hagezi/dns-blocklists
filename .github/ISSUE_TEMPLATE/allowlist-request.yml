@@ -9,7 +9,7 @@ body:
     attributes:
       label: Which AdBlocker/DNS cloud service do you use?
       description: |
-        If the AdBlocker/DNS cloud service is not listed, please select "Other" and enter its name in the comment field below.
+        Select the AdBlocker/DNS cloud service you are using. If it's not listed, select "Other" and provide its name in the comments below.
       multiple: true
       options:
         - AdGuard
@@ -25,38 +25,41 @@ body:
         - Other
     validations:
       required: true
+  
   - type: input
     id: other
     attributes:
-      label: Other
+      label: If "Other" selected, provide the name here.
     validations:
       required: false
+
   - type: checkboxes
     attributes:
       label: ControlD users
       description: |
-        If you are using ControlD, make sure that the Block Response in the profile settings is not set to Custom or Branded to ensure that the problem is not caused by this feature! 
+        For ControlD users: Ensure the "Block Response" in the profile settings is not set to "Custom" or "Branded." This helps avoid false positives.
       options:
-        - label: IMPORTANT - I assure that I have not set the Block Response in ControlD to Custom or Branded and can confirm that the problem still occurs.
+        - label: I confirm the "Block Response" is not set to "Custom" or "Branded," and the issue persists.
           required: false
+
   - type: checkboxes
     attributes:
       label: NextDNS users
       description: |
-        If you use NextDNS, make sure that the block page is disabled in the settings to ensure that the problem is not caused by this feature!
+        For NextDNS users: Ensure the block page is disabled in the settings to avoid conflicts.
       options:
-        - label: IMPORTANT - I can assure that I disabled the block page in NextDNS and can confirm that the problem still occurs.
+        - label: I confirm the block page is disabled, and the issue persists.
           required: false
-  
+
   - type: dropdown
     id: blocklists
     attributes:
-      label: With which block list(s) does the problem occur?
+      label: Which Hagezi blocklist(s) caused the issue?
       multiple: true
       options:
         - Multi LIGHT
-        - Multi NORMAL 
-        - Multi PRO 
+        - Multi NORMAL
+        - Multi PRO
         - Multi PRO mini
         - Multi PRO++
         - Multi PRO++ mini
@@ -81,27 +84,40 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    id: other-blocklists
+    attributes:
+      label: Are you using any blocklists not from Hagezi?
+      description: |
+        To ensure accurate troubleshooting, confirm that you are not using blocklists from other sources.
+      options:
+        - label: I confirm I am not using blocklists from sources other than Hagezi.
+          required: true
+
   - type: textarea
     id: domains
     attributes:
-      label: Which domain(s) should be unblocked?
+      label: Domain(s) to be unblocked
+      description: |
+        List the domains you believe are incorrectly blocked. Separate multiple domains with new line (like a list).
     validations:
       required: true
   
   - type: textarea
     id: reason
     attributes:
-      label: Why should the domain(s) be unblocked?
+      label: Why should these domain(s) be unblocked?
       description: |
-        Provide as many details as possible to avoid unnecessary enquiries. If necessary, please describe the steps to reproduce. You can also add screenshots.
+        Provide detailed reasoning for the allowlist request. Include steps to reproduce the issue and attach screenshots if applicable.
     validations:
       required: true
 
   - type: checkboxes
     id: terms
     attributes:
-      label: Privacy
-      description: By submitting this issue, you agree that the report will not contain any private information.
+      label: Privacy Confirmation
+      description: |
+        By submitting this issue, you confirm that no private information is included in your report.
       options:
         - label: I confirm that the report does not contain any private information.
           required: true
