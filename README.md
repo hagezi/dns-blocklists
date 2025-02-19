@@ -736,7 +736,7 @@ In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, No
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC | Legacy DNS |
 |:-----------|:---------------|:------------------|:-----------|
-| Pro plus + TIF + NRD | `https://schonet-dns.de/dns-query` | `schonet-dns.de` | 77.90.46.99<br>2a09:6301:0:49d:74f5:a78c:c412:1397 |
+| Pro plus + TIF + NRD | `https://schonet-dns.de/dns-query` | `schonet-dns.de` | 89.163.255.195<br>2001:4ba0:babe:3734:: |
 
 #### :department_store: **OpenBLD.net - free** <a name="openbld"></a>
 
