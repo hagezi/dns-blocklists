@@ -733,11 +733,11 @@ In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, No
 
 #### :department_store: **SCHONET DNS (Germany) - free** <a name="schonetdns"></a>
 
-[SCHONET DNS (Germany)](https://schonet-dns.de/) uses my Multi Pro++ in combination with the TIF blocklist and [@xRuffKez](https://github.com/xRuffKez/NRD) NRD 30.
+[DNSBunker (Germany)](https://dnsbunker.org/) uses my Multi Pro++ in combination with the TIF blocklist and [@xRuffKez](https://github.com/xRuffKez/NRD) NRD 30.
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC | Legacy DNS |
 |:-----------|:---------------|:------------------|:-----------|
-| Pro plus + TIF + NRD | `https://schonet-dns.de/dns-query` | `schonet-dns.de` | 89.163.255.195<br>2001:4ba0:babe:3734:: |
+| Pro plus + TIF + NRD | `https://dnsbunker.org/dns-query` | `dnsbunker.org` | 89.163.255.195<br>2001:4ba0:babe:3734:: |
 
 #### :department_store: **OpenBLD.net - free** <a name="openbld"></a>
 
