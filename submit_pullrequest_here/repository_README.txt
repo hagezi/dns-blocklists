@@ -796,7 +796,7 @@ In [DNSwarden](https://dnswarden.com/customfilter.html) you can use my Light, No
 
 | Blocklists | DNS-over-HTTPS | DNS-over-TLS/QUIC | 
 |:-----------|:---------------|:------------------|
-| Pro plus + Native Tracker + TIF | `https://dnsbunker.org/dns-query` | `dnsbunker.org` | 
+| Pro + Popup Ads + TIF | `https://dnsbunker.org/dns-query` | `dnsbunker.org` | 
 
 #### :department_store: **OpenBLD.net - free** <a name="openbld"></a>
 
