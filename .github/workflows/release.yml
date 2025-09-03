@@ -28,7 +28,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
       - name: Create release
-        uses: ncipollo/release-action@v1.19.1
+        uses: ncipollo/release-action@v1.19.2
         with:
           tag: ${{ env.release_tag }}
           name: ${{ env.release_tag }}
