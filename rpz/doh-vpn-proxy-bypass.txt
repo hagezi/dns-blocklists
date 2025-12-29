@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767004620 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767028680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Dec 2025 10:37 UTC
-; Version: 2025.1229.1037.46
+; Last modified: 29 Dec 2025 17:18 UTC
+; Version: 2025.1229.1718.21
 ; Syntax: RPZ
-; Number of entries: 12524
+; Number of entries: 12528
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -4191,6 +4191,8 @@ top10vpn.com CNAME .
 *.top10vpn.com CNAME .
 topvpnguides.com CNAME .
 *.topvpnguides.com CNAME .
+torproject.com CNAME .
+*.torproject.com CNAME .
 torsona.com CNAME .
 *.torsona.com CNAME .
 torvpn.com CNAME .
@@ -8817,6 +8819,8 @@ torguard.net CNAME .
 *.torguard.net CNAME .
 nsc.torgues.net CNAME .
 *.nsc.torgues.net CNAME .
+torproject.net CNAME .
+*.torproject.net CNAME .
 torrentproxy.net CNAME .
 *.torrentproxy.net CNAME .
 torservers.net CNAME .
