@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768382820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768426080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jan 2026 09:27 UTC
-; Version: 2026.0114.0927.22
+; Last modified: 14 Jan 2026 21:28 UTC
+; Version: 2026.0114.2128.24
 ; Syntax: RPZ
-; Number of entries: 28660
+; Number of entries: 28666
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -800,6 +800,8 @@ rolladenmeister.at CNAME .
 *.rolladenmeister.at CNAME .
 rolladenreparatur.at CNAME .
 *.rolladenreparatur.at CNAME .
+root-shop.at CNAME .
+*.root-shop.at CNAME .
 rootsandwings.at CNAME .
 *.rootsandwings.at CNAME .
 s-f-invest.at CNAME .
@@ -8006,8 +8008,6 @@ grimhat.com CNAME .
 *.grimhat.com CNAME .
 grjobremote.com CNAME .
 *.grjobremote.com CNAME .
-grobbak.com CNAME .
-*.grobbak.com CNAME .
 groceryandhome.com CNAME .
 *.groceryandhome.com CNAME .
 groheverkauf.com CNAME .
@@ -12800,6 +12800,8 @@ owcup.com CNAME .
 *.owcup.com CNAME .
 owkrhql.com CNAME .
 *.owkrhql.com CNAME .
+ownmoodspace.com CNAME .
+*.ownmoodspace.com CNAME .
 ownsen.com CNAME .
 *.ownsen.com CNAME .
 owrock.com CNAME .
@@ -16528,6 +16530,8 @@ trustedxshop.com CNAME .
 *.trustedxshop.com CNAME .
 trustexpressfreight.com CNAME .
 *.trustexpressfreight.com CNAME .
+trustinvestment-gmbh.com CNAME .
+*.trustinvestment-gmbh.com CNAME .
 trustmedz.com CNAME .
 *.trustmedz.com CNAME .
 trustmycart.com CNAME .
@@ -17286,6 +17290,8 @@ walsenburgstudio.com CNAME .
 *.walsenburgstudio.com CNAME .
 walthermode.com CNAME .
 *.walthermode.com CNAME .
+waltonmarketltd.com CNAME .
+*.waltonmarketltd.com CNAME .
 wanderboyy.com CNAME .
 *.wanderboyy.com CNAME .
 wandererscamp.com CNAME .
@@ -18082,8 +18088,6 @@ adidasyeezyboost.de CNAME .
 *.adidasyeezyboost.de CNAME .
 adler-energie.de CNAME .
 *.adler-energie.de CNAME .
-adovin.de CNAME .
-*.adovin.de CNAME .
 adreim.de CNAME .
 *.adreim.de CNAME .
 advancesecurity.de CNAME .
@@ -26596,8 +26600,6 @@ sovkonc.ept.se CNAME .
 *.99rabats.shop CNAME .
 aacloth.shop CNAME .
 *.aacloth.shop CNAME .
-abigailholman.shop CNAME .
-*.abigailholman.shop CNAME .
 aedes.shop CNAME .
 *.aedes.shop CNAME .
 affenzahne.shop CNAME .
@@ -27662,6 +27664,8 @@ tanyacampos.shop CNAME .
 *.tanyacampos.shop CNAME .
 techvanashop.shop CNAME .
 *.techvanashop.shop CNAME .
+urlfox.testtalk.shop CNAME .
+*.urlfox.testtalk.shop CNAME .
 ccrape.texasput.shop CNAME .
 *.ccrape.texasput.shop CNAME .
 thebigmart.shop CNAME .
@@ -28040,6 +28044,8 @@ kaffeewelt.store CNAME .
 *.kaffeewelt.store CNAME .
 labububox.store CNAME .
 *.labububox.store CNAME .
+lillyluxury.store CNAME .
+*.lillyluxury.store CNAME .
 lospimas.store CNAME .
 *.lospimas.store CNAME .
 luxwatch.store CNAME .

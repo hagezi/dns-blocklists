@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768382940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768426200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jan 2026 09:29 UTC
-; Version: 2026.0114.0929.02
+; Last modified: 14 Jan 2026 21:30 UTC
+; Version: 2026.0114.2130.13
 ; Syntax: RPZ
-; Number of entries: 20272
+; Number of entries: 20264
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -127,8 +127,6 @@ tns.agency CNAME .
 *.4ja.ai CNAME .
 abr.ai CNAME .
 *.abr.ai CNAME .
-abre.ai CNAME .
-*.abre.ai CNAME .
 bcns.ai CNAME .
 *.bcns.ai CNAME .
 beacons.ai CNAME .
@@ -3973,6 +3971,8 @@ creately.com CNAME .
 *.creately.com CNAME .
 creativesalahu.com CNAME .
 *.creativesalahu.com CNAME .
+creepylink.com CNAME .
+*.creepylink.com CNAME .
 crourl.com CNAME .
 *.crourl.com CNAME .
 crypsante.com CNAME .
@@ -11433,18 +11433,10 @@ zuitte.io CNAME .
 *.2w3.ir CNAME .
 2wo.ir CNAME .
 *.2wo.ir CNAME .
-301l.ir CNAME .
-*.301l.ir CNAME .
 3d-ul.ir CNAME .
 *.3d-ul.ir CNAME .
-48l.ir CNAME .
-*.48l.ir CNAME .
 4eq.ir CNAME .
 *.4eq.ir CNAME .
-4md.ir CNAME .
-*.4md.ir CNAME .
-5ia.ir CNAME .
-*.5ia.ir CNAME .
 7g7.ir CNAME .
 *.7g7.ir CNAME .
 900r.ir CNAME .

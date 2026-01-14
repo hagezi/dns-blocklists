@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768386960 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768430400 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jan 2026 10:36 UTC
-; Version: 2026.0114.1036.01
+; Last modified: 14 Jan 2026 22:40 UTC
+; Version: 2026.0114.2240.23
 ; Syntax: RPZ
-; Number of entries: 13876
+; Number of entries: 13914
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -1385,8 +1385,6 @@ ec2-3-139-127-253.us-east-2.compute.amazonaws.com CNAME .
 *.ec2-3-139-127-253.us-east-2.compute.amazonaws.com CNAME .
 ec2-34-194-122-51.compute-1.amazonaws.com CNAME .
 *.ec2-34-194-122-51.compute-1.amazonaws.com CNAME .
-ldskyvpn-webserver-995438515.us-west-1.elb.amazonaws.com CNAME .
-*.ldskyvpn-webserver-995438515.us-west-1.elb.amazonaws.com CNAME .
 e105l6mnx3.execute-api.eu-west-3.amazonaws.com CNAME .
 *.e105l6mnx3.execute-api.eu-west-3.amazonaws.com CNAME .
 sd3n0344di.execute-api.eu-west-3.amazonaws.com CNAME .
@@ -1463,6 +1461,8 @@ know.core.antidemon.com CNAME .
 *.know.core.antidemon.com CNAME .
 antpeak.com CNAME .
 *.antpeak.com CNAME .
+dp.anywaysoft.com CNAME .
+*.dp.anywaysoft.com CNAME .
 aox666.com CNAME .
 *.aox666.com CNAME .
 aoxblog.com CNAME .
@@ -1569,10 +1569,6 @@ award-vpn.com CNAME .
 *.award-vpn.com CNAME .
 awebproxy.com CNAME .
 *.awebproxy.com CNAME .
-dadb5ifyx9.eu-central-1.awsapprunner.com CNAME .
-*.dadb5ifyx9.eu-central-1.awsapprunner.com CNAME .
-eujppwqptc.eu-central-1.awsapprunner.com CNAME .
-*.eujppwqptc.eu-central-1.awsapprunner.com CNAME .
 axistechsupport.com CNAME .
 *.axistechsupport.com CNAME .
 vdsn-nl-2.azatmutq.com CNAME .
@@ -1895,6 +1891,8 @@ chinagrows.com CNAME .
 *.chinagrows.com CNAME .
 chenrouter.chironys.com CNAME .
 *.chenrouter.chironys.com CNAME .
+free-vpn-connection.chris-pc.com CNAME .
+*.free-vpn-connection.chris-pc.com CNAME .
 christophbrem.com CNAME .
 *.christophbrem.com CNAME .
 dns.chriswservers.com CNAME .
@@ -1975,6 +1973,8 @@ coloney3.com CNAME .
 *.coloney3.com CNAME .
 easy-vpn.comodo.com CNAME .
 *.easy-vpn.comodo.com CNAME .
+configuredevice.com CNAME .
+*.configuredevice.com CNAME .
 confirmedvpn.com CNAME .
 *.confirmedvpn.com CNAME .
 connectionvpn.com CNAME .
@@ -2327,6 +2327,8 @@ adguard.elrobit.com CNAME .
 *.adguard.elrobit.com CNAME .
 emban-networks.com CNAME .
 *.emban-networks.com CNAME .
+embedlydesk.com CNAME .
+*.embedlydesk.com CNAME .
 en-proxy.com CNAME .
 *.en-proxy.com CNAME .
 endente.com CNAME .
@@ -2631,6 +2633,8 @@ sdns22.gkonuralp.com CNAME .
 *.sdns22.gkonuralp.com CNAME .
 global-proxy.com CNAME .
 *.global-proxy.com CNAME .
+globalchat1.com CNAME .
+*.globalchat1.com CNAME .
 globalchatinc.com CNAME .
 *.globalchatinc.com CNAME .
 globaltrx.com CNAME .
@@ -4453,6 +4457,8 @@ sshocean.com CNAME .
 *.sshocean.com CNAME .
 sshssl.com CNAME .
 *.sshssl.com CNAME .
+ssl3cdn.com CNAME .
+*.ssl3cdn.com CNAME .
 sslprivateproxy.com CNAME .
 *.sslprivateproxy.com CNAME .
 sslsecureproxy.com CNAME .
@@ -4931,6 +4937,8 @@ ussecondline.com CNAME .
 *.ussecondline.com CNAME .
 uswebproxy.com CNAME .
 *.uswebproxy.com CNAME .
+utell-link.com CNAME .
+*.utell-link.com CNAME .
 utopianpal.com CNAME .
 *.utopianpal.com CNAME .
 uymgg1.com CNAME .
@@ -5203,8 +5211,6 @@ writingessaypros.com CNAME .
 *.writingessaypros.com CNAME .
 dns.wryhf.com CNAME .
 *.dns.wryhf.com CNAME .
-wshifen.com CNAME .
-*.wshifen.com CNAME .
 ns2.wuyouss.com CNAME .
 *.ns2.wuyouss.com CNAME .
 ns3.wuyouss.com CNAME .
@@ -5339,6 +5345,8 @@ zorvian.com CNAME .
 *.zorvian.com CNAME .
 calculus.zothow.com CNAME .
 *.calculus.zothow.com CNAME .
+zqe2jx2q9a.com CNAME .
+*.zqe2jx2q9a.com CNAME .
 zspeed-cdn.com CNAME .
 *.zspeed-cdn.com CNAME .
 zwyr157wwiu6eior.com CNAME .
@@ -6529,6 +6537,8 @@ v971850.macloud.host CNAME .
 *.v971850.macloud.host CNAME .
 sitescrack.host CNAME .
 *.sitescrack.host CNAME .
+anonymous.how CNAME .
+*.anonymous.how CNAME .
 theproxy.how CNAME .
 *.theproxy.how CNAME .
 unb.how CNAME .
@@ -8125,8 +8135,6 @@ boltisback.panel-laboralcj.gob.mx CNAME .
 *.boltisback.panel-laboralcj.gob.mx CNAME .
 www-p.reaper.mx CNAME .
 *.www-p.reaper.mx CNAME .
-aden.my CNAME .
-*.aden.my CNAME .
 dns.azfar.my CNAME .
 *.dns.azfar.my CNAME .
 isekai.anime.com.my CNAME .
@@ -8451,6 +8459,8 @@ d127oyoibbqwge.cloudfront.net CNAME .
 *.d127oyoibbqwge.cloudfront.net CNAME .
 d135re68iqn9un.cloudfront.net CNAME .
 *.d135re68iqn9un.cloudfront.net CNAME .
+d14lmt9ltccptm.cloudfront.net CNAME .
+*.d14lmt9ltccptm.cloudfront.net CNAME .
 d15bbbc3wnvnmn.cloudfront.net CNAME .
 *.d15bbbc3wnvnmn.cloudfront.net CNAME .
 d18yn3h2k3dyqc.cloudfront.net CNAME .
@@ -9951,8 +9961,6 @@ dns.linkr.ninja CNAME .
 *.dns.linkr.ninja CNAME .
 next.miao.ninja CNAME .
 *.next.miao.ninja CNAME .
-adbl-tslagter.nl CNAME .
-*.adbl-tslagter.nl CNAME .
 ns3.bit-trail.nl CNAME .
 *.ns3.bit-trail.nl CNAME .
 ns1.bit-trails.nl CNAME .
@@ -10359,6 +10367,30 @@ tysonsbackagain.capnorthshore.org CNAME .
 *.tysonsbackagain.capnorthshore.org CNAME .
 catdns.org CNAME .
 *.catdns.org CNAME .
+1003957851.rsc.cdn77.org CNAME .
+*.1003957851.rsc.cdn77.org CNAME .
+1086746306.rsc.cdn77.org CNAME .
+*.1086746306.rsc.cdn77.org CNAME .
+1102964304.rsc.cdn77.org CNAME .
+*.1102964304.rsc.cdn77.org CNAME .
+1130117753.rsc.cdn77.org CNAME .
+*.1130117753.rsc.cdn77.org CNAME .
+1437165997.rsc.cdn77.org CNAME .
+*.1437165997.rsc.cdn77.org CNAME .
+1624147767.rsc.cdn77.org CNAME .
+*.1624147767.rsc.cdn77.org CNAME .
+1703947877.rsc.cdn77.org CNAME .
+*.1703947877.rsc.cdn77.org CNAME .
+1725292880.rsc.cdn77.org CNAME .
+*.1725292880.rsc.cdn77.org CNAME .
+1806168900.rsc.cdn77.org CNAME .
+*.1806168900.rsc.cdn77.org CNAME .
+1840064907.rsc.cdn77.org CNAME .
+*.1840064907.rsc.cdn77.org CNAME .
+1849029393.rsc.cdn77.org CNAME .
+*.1849029393.rsc.cdn77.org CNAME .
+1905607937.rsc.cdn77.org CNAME .
+*.1905607937.rsc.cdn77.org CNAME .
 cdnbridge.org CNAME .
 *.cdnbridge.org CNAME .
 cdnflare.org CNAME .
@@ -11283,6 +11315,8 @@ dns.ghost.pm CNAME .
 *.dns.ghost.pm CNAME .
 ion.pm CNAME .
 *.ion.pm CNAME .
+fv.pn CNAME .
+*.fv.pn CNAME .
 abrakadabra.pro CNAME .
 *.abrakadabra.pro CNAME .
 adampowell.pro CNAME .
@@ -13123,6 +13157,10 @@ shelljacket.us CNAME .
 *.shelljacket.us CNAME .
 shopping-website.us CNAME .
 *.shopping-website.us CNAME .
+shoppingfestival.us CNAME .
+*.shoppingfestival.us CNAME .
+social-welfare.us CNAME .
+*.social-welfare.us CNAME .
 socialnetworkinfo.us CNAME .
 *.socialnetworkinfo.us CNAME .
 sockslist.us CNAME .

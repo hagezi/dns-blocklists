@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768386900 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768430340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jan 2026 10:35 UTC
-; Version: 2026.0114.1035.26
+; Last modified: 14 Jan 2026 22:39 UTC
+; Version: 2026.0114.2239.49
 ; Syntax: RPZ
-; Number of entries: 6972
+; Number of entries: 6968
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3685,8 +3685,6 @@ adg.spacework.com.mx CNAME .
 *.adg.spacework.com.mx CNAME .
 adblocker.institutobancario.edu.mx CNAME .
 *.adblocker.institutobancario.edu.mx CNAME .
-aden.my CNAME .
-*.aden.my CNAME .
 dns.azfar.my CNAME .
 *.dns.azfar.my CNAME .
 isekai.anime.com.my CNAME .
@@ -4501,8 +4499,6 @@ dns.linkr.ninja CNAME .
 *.dns.linkr.ninja CNAME .
 next.miao.ninja CNAME .
 *.next.miao.ninja CNAME .
-adbl-tslagter.nl CNAME .
-*.adbl-tslagter.nl CNAME .
 ns3.bit-trail.nl CNAME .
 *.ns3.bit-trail.nl CNAME .
 ns1.bit-trails.nl CNAME .
