@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768342860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768371540 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Pro++ mini DNS/Browser Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jan 2026 22:21 UTC
-; Version: 2026.0113.2221.22
+; Last modified: 14 Jan 2026 06:19 UTC
+; Version: 2026.0114.0619.54
 ; Syntax: RPZ
-; Number of entries: 132160
+; Number of entries: 132408
 ;
 smetrics.abbott CNAME .
 *.smetrics.abbott CNAME .
@@ -664,6 +664,8 @@ beidou-track.anystories.app CNAME .
 *.beidou-track.anystories.app CNAME .
 appm.app CNAME .
 *.appm.app CNAME .
+apps-apple-location.app CNAME .
+*.apps-apple-location.app CNAME .
 arabian-servers.app CNAME .
 *.arabian-servers.app CNAME .
 aspr.app CNAME .
@@ -792,6 +794,8 @@ stats-api.flockler.app CNAME .
 *.stats-api.flockler.app CNAME .
 workflow-analytics.system.floqast.app CNAME .
 *.workflow-analytics.system.floqast.app CNAME .
+foroffice.app CNAME .
+*.foroffice.app CNAME .
 tracking.foxecom.app CNAME .
 *.tracking.foxecom.app CNAME .
 advertising.freefy.app CNAME .
@@ -3620,6 +3624,8 @@ bondstrategyline.bond CNAME .
 *.bondstrategyline.bond CNAME .
 clearcapitalflow.bond CNAME .
 *.clearcapitalflow.bond CNAME .
+cocech.bond CNAME .
+*.cocech.bond CNAME .
 coreinvestmenthub.bond CNAME .
 *.coreinvestmenthub.bond CNAME .
 corrveos.bond CNAME .
@@ -4732,8 +4738,6 @@ sentry.seedr.cc CNAME .
 *.sentry.seedr.cc CNAME .
 stat.seedr.cc CNAME .
 *.stat.seedr.cc CNAME .
-shemrec.cc CNAME .
-*.shemrec.cc CNAME .
 shortwa.cc CNAME .
 *.shortwa.cc CNAME .
 tel.shottr.cc CNAME .
@@ -4824,10 +4828,10 @@ youareanidiot.cc CNAME .
 *.youareanidiot.cc CNAME .
 yougamee.cc CNAME .
 *.yougamee.cc CNAME .
+yuhuan.cc CNAME .
+*.yuhuan.cc CNAME .
 z-library.cc CNAME .
 *.z-library.cc CNAME .
-zecpu.cc CNAME .
-*.zecpu.cc CNAME .
 zyb-stats.zuoyebang.cc CNAME .
 *.zyb-stats.zuoyebang.cc CNAME .
 melbet.cd CNAME .
@@ -4922,6 +4926,8 @@ stake.ceo CNAME .
 *.4932923r239.cfd CNAME .
 4io5xpkjcz9hf7co.cfd CNAME .
 *.4io5xpkjcz9hf7co.cfd CNAME .
+4y3wjnfiullobtel.cfd CNAME .
+*.4y3wjnfiullobtel.cfd CNAME .
 545xnv7vpyxmg5lqvzx4unqut938.cfd CNAME .
 *.545xnv7vpyxmg5lqvzx4unqut938.cfd CNAME .
 597201.cfd CNAME .
@@ -5344,6 +5350,8 @@ stake.ceo CNAME .
 *.828sb8178391gs88163.cfd CNAME .
 845165184.cfd CNAME .
 *.845165184.cfd CNAME .
+84eeog5cl7cqf8fjo8cgcpyu67g.cfd CNAME .
+*.84eeog5cl7cqf8fjo8cgcpyu67g.cfd CNAME .
 856726239.cfd CNAME .
 *.856726239.cfd CNAME .
 87118.cfd CNAME .
@@ -6162,8 +6170,6 @@ molderyobtrect.cfd CNAME .
 *.molderyobtrect.cfd CNAME .
 moneyguard-rechnung0174.cfd CNAME .
 *.moneyguard-rechnung0174.cfd CNAME .
-moonflare.cfd CNAME .
-*.moonflare.cfd CNAME .
 morlexa.cfd CNAME .
 *.morlexa.cfd CNAME .
 morxida.cfd CNAME .
@@ -7304,6 +7310,8 @@ adswrapme.click CNAME .
 *.adswrapme.click CNAME .
 afiliapub.click CNAME .
 *.afiliapub.click CNAME .
+amazon-bu0no.click CNAME .
+*.amazon-bu0no.click CNAME .
 ancorglosser.click CNAME .
 *.ancorglosser.click CNAME .
 argiopethyrsuschicago.click CNAME .
@@ -10390,8 +10398,6 @@ resetdigital.co CNAME .
 *.resetdigital.co CNAME .
 retargeted.co CNAME .
 *.retargeted.co CNAME .
-rewards-wefi.co CNAME .
-*.rewards-wefi.co CNAME .
 richinfo.co CNAME .
 *.richinfo.co CNAME .
 analytics.routinehub.co CNAME .
@@ -10668,6 +10674,8 @@ ca7ef4f8d6.0213499675.com CNAME .
 *.025-377-6150.com CNAME .
 029google.com CNAME .
 *.029google.com CNAME .
+02exl1ql2l.com CNAME .
+*.02exl1ql2l.com CNAME .
 0365alert.com CNAME .
 *.0365alert.com CNAME .
 044b362927216ebf40100356f48b310f.com CNAME .
@@ -10932,6 +10940,8 @@ mat.143flix.com CNAME .
 *.15gifts.com CNAME .
 15google.com CNAME .
 *.15google.com CNAME .
+15mxfnk6sw.com CNAME .
+*.15mxfnk6sw.com CNAME .
 161-google.com CNAME .
 *.161-google.com CNAME .
 analytics.163.com CNAME .
@@ -11016,6 +11026,8 @@ tj.16gift.com CNAME .
 *.16mu3tfz.com CNAME .
 17173.com CNAME .
 *.17173.com CNAME .
+17247-microsoft.com CNAME .
+*.17247-microsoft.com CNAME .
 trk.177milkstreet.com CNAME .
 *.trk.177milkstreet.com CNAME .
 17mmc5g1n.com CNAME .
@@ -11052,6 +11064,8 @@ analytics.1800lighting.com CNAME .
 *.18avc.com CNAME .
 18d48435e312.com CNAME .
 *.18d48435e312.com CNAME .
+18mo21a2ji.com CNAME .
+*.18mo21a2ji.com CNAME .
 18ramp.com CNAME .
 *.18ramp.com CNAME .
 19b34fc9d0a5122cdff96a8889dc2d02.com CNAME .
@@ -11118,6 +11132,8 @@ data.pendo.ui.1life.com CNAME .
 *.1mpi.com CNAME .
 api-ads.1muslimapp.com CNAME .
 *.api-ads.1muslimapp.com CNAME .
+1o0g85u7k1.com CNAME .
+*.1o0g85u7k1.com CNAME .
 1ontop-live.com CNAME .
 *.1ontop-live.com CNAME .
 1osb.com CNAME .
@@ -12572,6 +12588,8 @@ collector-api.99designs.com CNAME .
 *.9b3aee478bc1d8e630f40851d504d686.com CNAME .
 9b5efc2b0e.com CNAME .
 *.9b5efc2b0e.com CNAME .
+9ball-live.com CNAME .
+*.9ball-live.com CNAME .
 9c5a3f5f084989a86dc3d3d1b793a653.com CNAME .
 *.9c5a3f5f084989a86dc3d3d1b793a653.com CNAME .
 9df8ddcf311fbb5d9ff7e91dc223724d.com CNAME .
@@ -13566,6 +13584,8 @@ adbpage.com CNAME .
 *.adbpage.com CNAME .
 adbrite.com CNAME .
 *.adbrite.com CNAME .
+adbupdate.com CNAME .
+*.adbupdate.com CNAME .
 adbutler.com CNAME .
 *.adbutler.com CNAME .
 adbutler-cloud.com CNAME .
@@ -15986,6 +16006,8 @@ load.tm.all3dp.com CNAME .
 *.load.tm.all3dp.com CNAME .
 alladvantage.com CNAME .
 *.alladvantage.com CNAME .
+allaround-delivery.com CNAME .
+*.allaround-delivery.com CNAME .
 calculator-api-fr.allawnos.com CNAME .
 *.calculator-api-fr.allawnos.com CNAME .
 calculator-api-in.allawnos.com CNAME .
@@ -17490,6 +17512,8 @@ sgtm.amfam.com CNAME .
 *.sgtm.amfam.com CNAME .
 smetrics.amfam.com CNAME .
 *.smetrics.amfam.com CNAME .
+amftsawknf.com CNAME .
+*.amftsawknf.com CNAME .
 amgdgt.com CNAME .
 *.amgdgt.com CNAME .
 amgs5.com CNAME .
@@ -18350,6 +18374,8 @@ mobile-ws.apprissmobile.com CNAME .
 *.mobile-ws.apprissmobile.com CNAME .
 s.apprl.com CNAME .
 *.s.apprl.com CNAME .
+approval-ebay.com CNAME .
+*.approval-ebay.com CNAME .
 apps-live.com CNAME .
 *.apps-live.com CNAME .
 analytics.appsalt.com CNAME .
@@ -18630,6 +18656,8 @@ aqueousdt.com CNAME .
 *.aqueousdt.com CNAME .
 aquicore.com CNAME .
 *.aquicore.com CNAME .
+aquinoravel.com CNAME .
+*.aquinoravel.com CNAME .
 aqyad.com CNAME .
 *.aqyad.com CNAME .
 ara-kroll.com CNAME .
@@ -20022,14 +20050,20 @@ azure-app.com CNAME .
 *.azure-app.com CNAME .
 azure-bills.com CNAME .
 *.azure-bills.com CNAME .
+azure-chip.com CNAME .
+*.azure-chip.com CNAME .
 azure-dns-test.com CNAME .
 *.azure-dns-test.com CNAME .
 azure-kazakhstan.com CNAME .
 *.azure-kazakhstan.com CNAME .
+azure-loom.com CNAME .
+*.azure-loom.com CNAME .
 azure-rock.com CNAME .
 *.azure-rock.com CNAME .
 azure-sd.com CNAME .
 *.azure-sd.com CNAME .
+azure-spoke.com CNAME .
+*.azure-spoke.com CNAME .
 azure-telem10.com CNAME .
 *.azure-telem10.com CNAME .
 azure-zucchini.com CNAME .
@@ -21008,6 +21042,8 @@ beancontrol.com CNAME .
 *.beancontrol.com CNAME .
 track.beanfun.com CNAME .
 *.track.beanfun.com CNAME .
+beaninu.com CNAME .
+*.beaninu.com CNAME .
 beanstalkdata.com CNAME .
 *.beanstalkdata.com CNAME .
 beardfleet.com CNAME .
@@ -23556,6 +23592,10 @@ bugs01130ko.com CNAME .
 *.bugs01130ko.com CNAME .
 bugs01131ko.com CNAME .
 *.bugs01131ko.com CNAME .
+bugs01140ko.com CNAME .
+*.bugs01140ko.com CNAME .
+bugs01141ko.com CNAME .
+*.bugs01141ko.com CNAME .
 api.bugsee.com CNAME .
 *.api.bugsee.com CNAME .
 bugsnag.com CNAME .
@@ -24128,6 +24168,8 @@ cakeagenda.com CNAME .
 *.cakeagenda.com CNAME .
 cakecdn.com CNAME .
 *.cakecdn.com CNAME .
+cakhia-tv-live.com CNAME .
+*.cakhia-tv-live.com CNAME .
 analytics.calabriocloud.com CNAME .
 *.analytics.calabriocloud.com CNAME .
 calamitymyselfprong.com CNAME .
@@ -25772,6 +25814,8 @@ analytics.cibc.com CNAME .
 *.analytics.cibc.com CNAME .
 w-profiling.cibc.com CNAME .
 *.w-profiling.cibc.com CNAME .
+cigarettes-alcohol-delivery.com CNAME .
+*.cigarettes-alcohol-delivery.com CNAME .
 smetrics.cigarsinternational.com CNAME .
 *.smetrics.cigarsinternational.com CNAME .
 smetrics.cigna.com CNAME .
@@ -27132,6 +27176,8 @@ commonwealthproficient.com CNAME .
 *.commonwealthproficient.com CNAME .
 communicatedsuitcompartment.com CNAME .
 *.communicatedsuitcompartment.com CNAME .
+communications-paypal.com CNAME .
+*.communications-paypal.com CNAME .
 sentry.communicationservicesplatform.com CNAME .
 *.sentry.communicationservicesplatform.com CNAME .
 communicatoremail.com CNAME .
@@ -28450,6 +28496,8 @@ cstpersl.com CNAME .
 *.cstpersl.com CNAME .
 cstwpush.com CNAME .
 *.cstwpush.com CNAME .
+csulti.com CNAME .
+*.csulti.com CNAME .
 cszlks.com CNAME .
 *.cszlks.com CNAME .
 ctcdwm.com CNAME .
@@ -29092,6 +29140,8 @@ datafy-software.com CNAME .
 *.datafy-software.com CNAME .
 datafyhq.com CNAME .
 *.datafyhq.com CNAME .
+datagivers.com CNAME .
+*.datagivers.com CNAME .
 media.datahc.com CNAME .
 *.media.datahc.com CNAME .
 usage.dataiku.com CNAME .
@@ -30392,6 +30442,8 @@ discord-archive.com CNAME .
 *.discord-archive.com CNAME .
 discord-font.com CNAME .
 *.discord-font.com CNAME .
+discord-friend.com CNAME .
+*.discord-friend.com CNAME .
 smetrics.discounttire.com CNAME .
 *.smetrics.discounttire.com CNAME .
 discourageearlapfully.com CNAME .
@@ -30472,8 +30524,6 @@ dispatchgoldcarefully.com CNAME .
 *.dispatchgoldcarefully.com CNAME .
 dispenseglitterlucid.com CNAME .
 *.dispenseglitterlucid.com CNAME .
-dispersedstars.com CNAME .
-*.dispersedstars.com CNAME .
 athena.displate.com CNAME .
 *.athena.displate.com CNAME .
 measure.displate.com CNAME .
@@ -30740,6 +30790,8 @@ doclisty.com CNAME .
 *.doclisty.com CNAME .
 docomo-analytics.com CNAME .
 *.docomo-analytics.com CNAME .
+docomo-up.com CNAME .
+*.docomo-up.com CNAME .
 docsica.com CNAME .
 *.docsica.com CNAME .
 events-logs.doctolib.com CNAME .
@@ -32094,6 +32146,8 @@ pulsar.ebay.com CNAME .
 *.pulsar.ebay.com CNAME .
 sherlock-events-sampler.ebay.com CNAME .
 *.sherlock-events-sampler.ebay.com CNAME .
+ebay-authentication.com CNAME .
+*.ebay-authentication.com CNAME .
 ebay-authorization.com CNAME .
 *.ebay-authorization.com CNAME .
 src.ebay-us.com CNAME .
@@ -32106,6 +32160,8 @@ ebayrtm.com CNAME .
 *.ebayrtm.com CNAME .
 ebiquity.com CNAME .
 *.ebiquity.com CNAME .
+eblindap.com CNAME .
+*.eblindap.com CNAME .
 ebmitab.com CNAME .
 *.ebmitab.com CNAME .
 ebo-shi.com CNAME .
@@ -34832,6 +34888,8 @@ fileclearupload40.com CNAME .
 *.fileclearupload40.com CNAME .
 fileclearzone02.com CNAME .
 *.fileclearzone02.com CNAME .
+filecrystaltransfer01.com CNAME .
+*.filecrystaltransfer01.com CNAME .
 filedeliveryhub27.com CNAME .
 *.filedeliveryhub27.com CNAME .
 filedepothub80.com CNAME .
@@ -34908,10 +34966,14 @@ fileshadowtransfer87.com CNAME .
 *.fileshadowtransfer87.com CNAME .
 filesharedock56.com CNAME .
 *.filesharedock56.com CNAME .
+filesharedock96.com CNAME .
+*.filesharedock96.com CNAME .
 filesharestation58.com CNAME .
 *.filesharestation58.com CNAME .
 fileshider.com CNAME .
 *.fileshider.com CNAME .
+filesiritransfer47.com CNAME .
+*.filesiritransfer47.com CNAME .
 filesmac.com CNAME .
 *.filesmac.com CNAME .
 w.filesor.com CNAME .
@@ -34932,6 +34994,8 @@ filetarget.com CNAME .
 *.filetarget.com CNAME .
 filetransferhub99.com CNAME .
 *.filetransferhub99.com CNAME .
+filetransferport11.com CNAME .
+*.filetransferport11.com CNAME .
 filetransfervault2.com CNAME .
 *.filetransfervault2.com CNAME .
 fileturbosync81.com CNAME .
@@ -34970,6 +35034,8 @@ finalstyle.com CNAME .
 *.finalstyle.com CNAME .
 finalyticsdata.com CNAME .
 *.finalyticsdata.com CNAME .
+finance-ai-google.com CNAME .
+*.finance-ai-google.com CNAME .
 fun.financeadvisors.com CNAME .
 *.fun.financeadvisors.com CNAME .
 trk.financeadvisors.com CNAME .
@@ -39352,8 +39418,6 @@ hairvivi.com CNAME .
 *.hairvivi.com CNAME .
 hairy-homework.com CNAME .
 *.hairy-homework.com CNAME .
-haivax.com CNAME .
-*.haivax.com CNAME .
 hajper.com CNAME .
 *.hajper.com CNAME .
 halfabubbleout.com CNAME .
@@ -41392,8 +41456,6 @@ hs-sites-eu1.com CNAME .
 *.hs-sites-eu1.com CNAME .
 analytics-api.hsastore.com CNAME .
 *.analytics-api.hsastore.com CNAME .
-hsbcbusinesshelp.com CNAME .
-*.hsbcbusinesshelp.com CNAME .
 hsbcnetclient.com CNAME .
 *.hsbcnetclient.com CNAME .
 hsbrowserreports.com CNAME .
@@ -44678,6 +44740,8 @@ jornaya.com CNAME .
 *.jornaya.com CNAME .
 ad.jorte.com CNAME .
 *.ad.jorte.com CNAME .
+jorunpavielora.com CNAME .
+*.jorunpavielora.com CNAME .
 analytics.josbank.com CNAME .
 *.analytics.josbank.com CNAME .
 joshtest.com CNAME .
@@ -44808,6 +44872,8 @@ jspimmksj.com CNAME .
 *.jspimmksj.com CNAME .
 jsutandy.com CNAME .
 *.jsutandy.com CNAME .
+jsyunjihui.com CNAME .
+*.jsyunjihui.com CNAME .
 jtbtigers.com CNAME .
 *.jtbtigers.com CNAME .
 jtcnn.com CNAME .
@@ -47048,8 +47114,6 @@ data.data.leveldata.com CNAME .
 *.data.data.leveldata.com CNAME .
 levenlabs.com CNAME .
 *.levenlabs.com CNAME .
-leverfi-migration.com CNAME .
-*.leverfi-migration.com CNAME .
 levexis.com CNAME .
 *.levexis.com CNAME .
 levitra-gg.com CNAME .
@@ -47246,8 +47310,6 @@ ligheechoagool.com CNAME .
 *.ligheechoagool.com CNAME .
 lightad.com CNAME .
 *.lightad.com CNAME .
-lighter-claim.com CNAME .
-*.lighter-claim.com CNAME .
 lfapp-clarity.lightfunnelsapps.com CNAME .
 *.lfapp-clarity.lightfunnelsapps.com CNAME .
 lighthouseapp.com CNAME .
@@ -49164,6 +49226,8 @@ eventsv2balanced.malpagames.com CNAME .
 *.eventsv2balanced.malpagames.com CNAME .
 maltablockchainsummit.com CNAME .
 *.maltablockchainsummit.com CNAME .
+maltobrolly.com CNAME .
+*.maltobrolly.com CNAME .
 maltzsales.com CNAME .
 *.maltzsales.com CNAME .
 genesis.malwarebytes.com CNAME .
@@ -49492,8 +49556,6 @@ mascaraowners.com CNAME .
 *.mascaraowners.com CNAME .
 mascarapersonality.com CNAME .
 *.mascarapersonality.com CNAME .
-mascor-swap.com CNAME .
-*.mascor-swap.com CNAME .
 ads.masdarcityfreezone.com CNAME .
 *.ads.masdarcityfreezone.com CNAME .
 g.mashable.com CNAME .
@@ -51568,8 +51630,6 @@ mojocells.com CNAME .
 *.mojocells.com CNAME .
 mojomobi.com CNAME .
 *.mojomobi.com CNAME .
-mokkyo-saita.com CNAME .
-*.mokkyo-saita.com CNAME .
 moksoxos.com CNAME .
 *.moksoxos.com CNAME .
 sgads.molilexue.com CNAME .
@@ -52678,6 +52738,8 @@ mynativeplatform.com CNAME .
 *.mynativeplatform.com CNAME .
 s438.mynbc5.com CNAME .
 *.s438.mynbc5.com CNAME .
+mynetlix-support.com CNAME .
+*.mynetlix-support.com CNAME .
 mynetreklam.com CNAME .
 *.mynetreklam.com CNAME .
 mynewcounter.com CNAME .
@@ -54314,6 +54376,8 @@ normanstuby.com CNAME .
 *.normanstuby.com CNAME .
 services.normshield.com CNAME .
 *.services.normshield.com CNAME .
+norqariosent.com CNAME .
+*.norqariosent.com CNAME .
 track.norstatpanel.com CNAME .
 *.track.norstatpanel.com CNAME .
 sch-map.norstatsurveys.com CNAME .
@@ -55220,6 +55284,8 @@ olayomad.com CNAME .
 *.olayomad.com CNAME .
 oldfashionedoffer.com CNAME .
 *.oldfashionedoffer.com CNAME .
+oldgladly.com CNAME .
+*.oldgladly.com CNAME .
 oldwillysforum.com CNAME .
 *.oldwillysforum.com CNAME .
 api-a.oleads.com CNAME .
@@ -55856,6 +55922,8 @@ i6.weather.oppomobile.com CNAME .
 *.i6.weather.oppomobile.com CNAME .
 oppuz.com CNAME .
 *.oppuz.com CNAME .
+opraxisosiva.com CNAME .
+*.opraxisosiva.com CNAME .
 opstes04.com CNAME .
 *.opstes04.com CNAME .
 opt-intelligence.com CNAME .
@@ -57710,8 +57778,6 @@ partners-show.com CNAME .
 *.partners-show.com CNAME .
 partners-tds.com CNAME .
 *.partners-tds.com CNAME .
-partnership-ledgerlive.com CNAME .
-*.partnership-ledgerlive.com CNAME .
 partnerstack.com CNAME .
 *.partnerstack.com CNAME .
 metrics.partslink24.com CNAME .
@@ -57830,6 +57896,8 @@ pawgleamed.com CNAME .
 *.pawgleamed.com CNAME .
 pawsleapedfishy.com CNAME .
 *.pawsleapedfishy.com CNAME .
+paxeliorae.com CNAME .
+*.paxeliorae.com CNAME .
 analytics.paxful.com CNAME .
 *.analytics.paxful.com CNAME .
 sentry.paxful.com CNAME .
@@ -58926,8 +58994,8 @@ playvideodirect.com CNAME .
 *.playvideodirect.com CNAME .
 analytics.playvox.com CNAME .
 *.analytics.playvox.com CNAME .
-cdn.playwire.com CNAME .
-*.cdn.playwire.com CNAME .
+playwire.com CNAME .
+*.playwire.com CNAME .
 plclick.com CNAME .
 *.plclick.com CNAME .
 pleasant-gear.com CNAME .
@@ -61660,6 +61728,8 @@ quickcontentnetwork.com CNAME .
 *.quickcontentnetwork.com CNAME .
 quickdriverupdater.com CNAME .
 *.quickdriverupdater.com CNAME .
+quickdrop30.com CNAME .
+*.quickdrop30.com CNAME .
 quickerapparently.com CNAME .
 *.quickerapparently.com CNAME .
 quickfiletransfer03.com CNAME .
@@ -62552,8 +62622,6 @@ tgcflc-track.redfinger.com CNAME .
 *.tgcflc-track.redfinger.com CNAME .
 zhtwlc-track.redfinger.com CNAME .
 *.zhtwlc-track.redfinger.com CNAME .
-redfinsso.com CNAME .
-*.redfinsso.com CNAME .
 analytics.console.redhat.com CNAME .
 *.analytics.console.redhat.com CNAME .
 smetrics.redhat.com CNAME .
@@ -63674,10 +63742,8 @@ gtm.roli.com CNAME .
 *.gtm.roli.com CNAME .
 roll-me-away.com CNAME .
 *.roll-me-away.com CNAME .
-api.rollbar.com CNAME .
-*.api.rollbar.com CNAME .
-ping.rollbar.com CNAME .
-*.ping.rollbar.com CNAME .
+rollbar.com CNAME .
+*.rollbar.com CNAME .
 rollconnection.com CNAME .
 *.rollconnection.com CNAME .
 rollerads.com CNAME .
@@ -64200,6 +64266,8 @@ ryndhyaenas.com CNAME .
 *.ryndhyaenas.com CNAME .
 rypsysepu.com CNAME .
 *.rypsysepu.com CNAME .
+ryzelapraxeonir.com CNAME .
+*.ryzelapraxeonir.com CNAME .
 ryzeo.com CNAME .
 *.ryzeo.com CNAME .
 kbzcg.ryzesuperfoods.com CNAME .
@@ -68470,6 +68538,8 @@ track.sponsorunited.com CNAME .
 *.track.sponsorunited.com CNAME .
 tracking-api.sponsorunited.com CNAME .
 *.tracking-api.sponsorunited.com CNAME .
+spooksmalldowny.com CNAME .
+*.spooksmalldowny.com CNAME .
 spookylinks.com CNAME .
 *.spookylinks.com CNAME .
 metrics.spoonflower.com CNAME .
@@ -71844,8 +71914,6 @@ audio.thisisdax.com CNAME .
 *.audio.thisisdax.com CNAME .
 hls.thisisdax.com CNAME .
 *.hls.thisisdax.com CNAME .
-thisisloom.com CNAME .
-*.thisisloom.com CNAME .
 thisiswaldo.com CNAME .
 *.thisiswaldo.com CNAME .
 thismoment.com CNAME .
@@ -71932,6 +72000,8 @@ thumbs-share.com CNAME .
 *.thumbs-share.com CNAME .
 thump-night-stand.com CNAME .
 *.thump-night-stand.com CNAME .
+thunderapostrophefunds.com CNAME .
+*.thunderapostrophefunds.com CNAME .
 hornet.thunderbite.com CNAME .
 *.hornet.thunderbite.com CNAME .
 thundertech.com CNAME .
@@ -75036,6 +75106,8 @@ collector.unsplash.com CNAME .
 *.collector.unsplash.com CNAME .
 views.unsplash.com CNAME .
 *.views.unsplash.com CNAME .
+unstablesurroundingpowerfully.com CNAME .
+*.unstablesurroundingpowerfully.com CNAME .
 unsungpolicy.com CNAME .
 *.unsungpolicy.com CNAME .
 untd.com CNAME .
@@ -78848,6 +78920,8 @@ smetrics.wilson.com CNAME .
 *.smetrics.wilson.com CNAME .
 winbaicai.com CNAME .
 *.winbaicai.com CNAME .
+winbiss.com CNAME .
+*.winbiss.com CNAME .
 sentry.prod.wind-digital.com CNAME .
 *.sentry.prod.wind-digital.com CNAME .
 windaloop.com CNAME .
@@ -80830,6 +80904,8 @@ yfdnzfa.com CNAME .
 *.yfdnzfa.com CNAME .
 yffsoksss888.com CNAME .
 *.yffsoksss888.com CNAME .
+yfmwnkd1ti.com CNAME .
+*.yfmwnkd1ti.com CNAME .
 yggtorrent.com CNAME .
 *.yggtorrent.com CNAME .
 tracking.ygmobi.com CNAME .
@@ -82256,6 +82332,8 @@ zzazz.com CNAME .
 *.zzazz.com CNAME .
 zzfoms.com CNAME .
 *.zzfoms.com CNAME .
+zzfxfz.com CNAME .
+*.zzfxfz.com CNAME .
 zzidc.com CNAME .
 *.zzidc.com CNAME .
 err.gflb.zztfly.com CNAME .
@@ -82456,6 +82534,8 @@ bipontmisname.cyou CNAME .
 *.bipontmisname.cyou CNAME .
 bistatecavortsjomila.cyou CNAME .
 *.bistatecavortsjomila.cyou CNAME .
+blackmstill.cyou CNAME .
+*.blackmstill.cyou CNAME .
 boeingascape.cyou CNAME .
 *.boeingascape.cyou CNAME .
 bogtrotlibbardhypate.cyou CNAME .
@@ -85322,6 +85402,8 @@ sgtm.lindt.de CNAME .
 *.sgtm.lindt.de CNAME .
 cp.linux-community.de CNAME .
 *.cp.linux-community.de CNAME .
+scdn.literatur-couch.de CNAME .
+*.scdn.literatur-couch.de CNAME .
 dt.livefresh.de CNAME .
 *.dt.livefresh.de CNAME .
 lkg6g644.de CNAME .
@@ -85372,6 +85454,8 @@ sp-manager-magazin-de.manager-magazin.de CNAME .
 *.sp-manager-magazin-de.manager-magazin.de CNAME .
 utiq.manager-magazin.de CNAME .
 *.utiq.manager-magazin.de CNAME .
+data.manga-passion.de CNAME .
+*.data.manga-passion.de CNAME .
 load.g.maniko-nails.de CNAME .
 *.load.g.maniko-nails.de CNAME .
 trk.maniko-nails.de CNAME .
@@ -87208,8 +87292,6 @@ analytik.uncenter.dev CNAME .
 *.analytik.uncenter.dev CNAME .
 usdttbs.dev CNAME .
 *.usdttbs.dev CNAME .
-signet-explorer.wakiyamap.dev CNAME .
-*.signet-explorer.wakiyamap.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
 sentry.wmt.dev CNAME .
@@ -87298,6 +87380,8 @@ tagging.conde.digital CNAME .
 *.tagging.conde.digital CNAME .
 credisponivel.digital CNAME .
 *.credisponivel.digital CNAME .
+credspnivell.digital CNAME .
+*.credspnivell.digital CNAME .
 credsponivel.digital CNAME .
 *.credsponivel.digital CNAME .
 credsponivelll.digital CNAME .
@@ -87312,6 +87396,8 @@ assets.etus.digital CNAME .
 *.assets.etus.digital CNAME .
 evolutiongroup.digital CNAME .
 *.evolutiongroup.digital CNAME .
+evuiotsone.digital CNAME .
+*.evuiotsone.digital CNAME .
 fahousoyip.digital CNAME .
 *.fahousoyip.digital CNAME .
 fastwwor.digital CNAME .
@@ -87394,6 +87480,8 @@ siteog.digital CNAME .
 *.siteog.digital CNAME .
 metrics.starlight.digital CNAME .
 *.metrics.starlight.digital CNAME .
+studyphone.digital CNAME .
+*.studyphone.digital CNAME .
 swiftshop.digital CNAME .
 *.swiftshop.digital CNAME .
 tail.digital CNAME .
@@ -90802,6 +90890,8 @@ vllbla.help CNAME .
 *.vllbla.help CNAME .
 wecat.help CNAME .
 *.wecat.help CNAME .
+whereanalyzer.help CNAME .
+*.whereanalyzer.help CNAME .
 wquli.help CNAME .
 *.wquli.help CNAME .
 wrathypenitis.help CNAME .
@@ -90820,6 +90910,8 @@ zokrhb.help CNAME .
 *.zokrhb.help CNAME .
 zrkyz.help CNAME .
 *.zrkyz.help CNAME .
+discord.hiphop CNAME .
+*.discord.hiphop CNAME .
 mtm.am730.hk CNAME .
 *.mtm.am730.hk CNAME .
 smetrics.citibank.com.hk CNAME .
@@ -92762,6 +92854,8 @@ ethereum-finance.info CNAME .
 *.ethereum-finance.info CNAME .
 piwik.eusana.info CNAME .
 *.piwik.eusana.info CNAME .
+eventoffice-mail.info CNAME .
+*.eventoffice-mail.info CNAME .
 everyview.info CNAME .
 *.everyview.info CNAME .
 exinariuminix.info CNAME .
@@ -93336,6 +93430,8 @@ sniperl.ink CNAME .
 *.sniperl.ink CNAME .
 stat.ink CNAME .
 *.stat.ink CNAME .
+suthed.ink CNAME .
+*.suthed.ink CNAME .
 t3kpsm.ink CNAME .
 *.t3kpsm.ink CNAME .
 tango.ink CNAME .
@@ -98126,6 +98222,8 @@ existingcustomer.live CNAME .
 *.existingcustomer.live CNAME .
 log.explainfast.live CNAME .
 *.log.explainfast.live CNAME .
+express-deliveryservice.live CNAME .
+*.express-deliveryservice.live CNAME .
 fakebookalerts.live CNAME .
 *.fakebookalerts.live CNAME .
 log2.fastdatarecoveries.live CNAME .
@@ -101198,6 +101296,8 @@ ausoafab.net CNAME .
 *.ausoafab.net CNAME .
 autchoog.net CNAME .
 *.autchoog.net CNAME .
+authmeta.net CNAME .
+*.authmeta.net CNAME .
 verify.authorize.net CNAME .
 *.verify.authorize.net CNAME .
 authorizeddns.net CNAME .
@@ -103516,6 +103616,8 @@ fampeshail.net CNAME .
 *.fampeshail.net CNAME .
 telemetry.farfetch.net CNAME .
 *.telemetry.farfetch.net CNAME .
+fast4k-live.net CNAME .
+*.fast4k-live.net CNAME .
 fastapi.net CNAME .
 *.fastapi.net CNAME .
 fastclick.net CNAME .
@@ -103632,6 +103734,8 @@ fine-cloud.net CNAME .
 *.fine-cloud.net CNAME .
 finelexia.net CNAME .
 *.finelexia.net CNAME .
+fingerhi.net CNAME .
+*.fingerhi.net CNAME .
 ads3.fingersoft.net CNAME .
 *.ads3.fingersoft.net CNAME .
 finlyrex.net CNAME .
@@ -112156,6 +112260,8 @@ statistics.afas.online CNAME .
 *.statistics.afas.online CNAME .
 agl002.online CNAME .
 *.agl002.online CNAME .
+ai-telegram.online CNAME .
+*.ai-telegram.online CNAME .
 aisfokgqw.online CNAME .
 *.aisfokgqw.online CNAME .
 aj1010.online CNAME .
@@ -112262,6 +112368,38 @@ cleanerbest.online CNAME .
 *.cleanerbest.online CNAME .
 cmdtubyfwosoa.online CNAME .
 *.cmdtubyfwosoa.online CNAME .
+cnic-probe-aws-asia-tokyo-live-1768175102.online CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768175102.online CNAME .
+cnic-probe-aws-asia-tokyo-live-1768176002.online CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768176002.online CNAME .
+cnic-probe-aws-asia-tokyo-live-1768176601.online CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768176601.online CNAME .
+cnic-probe-aws-asia-tokyo-live-1768177202.online CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768177202.online CNAME .
+cnic-probe-aws-asia-tokyo-live-1768178101.online CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768178101.online CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768174801.online CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768174801.online CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768175702.online CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768175702.online CNAME .
+cnic-probe-aws-north-america-oregon-live-1768175402.online CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768175402.online CNAME .
+cnic-probe-aws-north-america-oregon-live-1768176301.online CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768176301.online CNAME .
+cnic-probe-aws-north-america-oregon-live-1768178401.online CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768178401.online CNAME .
+cnic-probe-aws-north-america-oregon-live-1768178701.online CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768178701.online CNAME .
+cnic-probe-aws-north-america-oregon-live-1768179301.online CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768179301.online CNAME .
+cnic-probe-aws-north-america-vir-live-1768176902.online CNAME .
+*.cnic-probe-aws-north-america-vir-live-1768176902.online CNAME .
+cnic-probe-aws-north-america-vir-live-1768179001.online CNAME .
+*.cnic-probe-aws-north-america-vir-live-1768179001.online CNAME .
+cnic-probe-aws-oceania-sydney-live-1768177501.online CNAME .
+*.cnic-probe-aws-oceania-sydney-live-1768177501.online CNAME .
+cnic-probe-aws-oceania-sydney-live-1768177801.online CNAME .
+*.cnic-probe-aws-oceania-sydney-live-1768177801.online CNAME .
 cnn-noticias2026.online CNAME .
 *.cnn-noticias2026.online CNAME .
 cnn-noticiasbrasil.online CNAME .
@@ -112316,12 +112454,16 @@ adm.engadin.online CNAME .
 *.adm.engadin.online CNAME .
 eqgztqakyjron.online CNAME .
 *.eqgztqakyjron.online CNAME .
+eventoffice-mail.online CNAME .
+*.eventoffice-mail.online CNAME .
 fabtxinbedhbg.online CNAME .
 *.fabtxinbedhbg.online CNAME .
 4k.fanza18r.online CNAME .
 *.4k.fanza18r.online CNAME .
 fbiwarning.online CNAME .
 *.fbiwarning.online CNAME .
+feliz-office.online CNAME .
+*.feliz-office.online CNAME .
 feqriiemuqxis.online CNAME .
 *.feqriiemuqxis.online CNAME .
 fgmcqxaymymtk.online CNAME .
@@ -112888,6 +113030,8 @@ adtarget.org CNAME .
 *.adtarget.org CNAME .
 adtrace.org CNAME .
 *.adtrace.org CNAME .
+adult-live.org CNAME .
+*.adult-live.org CNAME .
 adulttv.org CNAME .
 *.adulttv.org CNAME .
 advancepctools.org CNAME .
@@ -113236,6 +113380,8 @@ mobile-metrica.cabconnect.org CNAME .
 *.mobile-metrica.cabconnect.org CNAME .
 sentry.cafebazaar.org CNAME .
 *.sentry.cafebazaar.org CNAME .
+calyxarivex.org CNAME .
+*.calyxarivex.org CNAME .
 coreads.cambridge.org CNAME .
 *.coreads.cambridge.org CNAME .
 campusexpo.org CNAME .
@@ -113796,6 +113942,8 @@ iupac2014.org CNAME .
 *.iupac2014.org CNAME .
 iwama-office.org CNAME .
 *.iwama-office.org CNAME .
+jarimexora.org CNAME .
+*.jarimexora.org CNAME .
 jayengflix.org CNAME .
 *.jayengflix.org CNAME .
 jigool.org CNAME .
@@ -114732,6 +114880,8 @@ wtggkyjh.org CNAME .
 *.wtggkyjh.org CNAME .
 wtocn.org CNAME .
 *.wtocn.org CNAME .
+wylarexara.org CNAME .
+*.wylarexara.org CNAME .
 x-busty.org CNAME .
 *.x-busty.org CNAME .
 ads.x-cdn.org CNAME .
@@ -115738,6 +115888,8 @@ anticperfa.pro CNAME .
 *.anticperfa.pro CNAME .
 antitgiust.pro CNAME .
 *.antitgiust.pro CNAME .
+app-live.pro CNAME .
+*.app-live.pro CNAME .
 arenibolin.pro CNAME .
 *.arenibolin.pro CNAME .
 argentremo.pro CNAME .
@@ -115814,14 +115966,14 @@ ads-proxy-aka.prod.bo.canal.canalplustech.pro CNAME .
 *.ads-proxy-aka.prod.bo.canal.canalplustech.pro CNAME .
 canthditri.pro CNAME .
 *.canthditri.pro CNAME .
+cardapiodelivery.pro CNAME .
+*.cardapiodelivery.pro CNAME .
 careoffice.pro CNAME .
 *.careoffice.pro CNAME .
 cautious-pattern.pro CNAME .
 *.cautious-pattern.pro CNAME .
 ceiw-adguard.pro CNAME .
 *.ceiw-adguard.pro CNAME .
-challengehubs.pro CNAME .
-*.challengehubs.pro CNAME .
 challengezones.pro CNAME .
 *.challengezones.pro CNAME .
 charminggain.pro CNAME .
@@ -116966,8 +117118,6 @@ finessehub.qpon CNAME .
 *.finessehub.qpon CNAME .
 flotarecoke.qpon CNAME .
 *.flotarecoke.qpon CNAME .
-frdfh.qpon CNAME .
-*.frdfh.qpon CNAME .
 fresserhops.qpon CNAME .
 *.fresserhops.qpon CNAME .
 fudgedumbilic.qpon CNAME .
@@ -118030,6 +118180,8 @@ whisketwraps.rest CNAME .
 *.whisketwraps.rest CNAME .
 wudraf.rest CNAME .
 *.wudraf.rest CNAME .
+blogspot.reviews CNAME .
+*.blogspot.reviews CNAME .
 e-navi.rip CNAME .
 *.e-navi.rip CNAME .
 stats.rip CNAME .
@@ -118660,6 +118812,8 @@ csdnevnik.ru CNAME .
 *.csdnevnik.ru CNAME .
 culturaltracking.ru CNAME .
 *.culturaltracking.ru CNAME .
+curgodelivery.ru CNAME .
+*.curgodelivery.ru CNAME .
 cuys.ru CNAME .
 *.cuys.ru CNAME .
 cyberstyle.ru CNAME .
@@ -119426,8 +119580,6 @@ onetarget.ru CNAME .
 *.onetarget.ru CNAME .
 cp.onicon.ru CNAME .
 *.cp.onicon.ru CNAME .
-online-television-live-tv.ru CNAME .
-*.online-television-live-tv.ru CNAME .
 online2pharmacy.ru CNAME .
 *.online2pharmacy.ru CNAME .
 online812.ru CNAME .
@@ -120534,6 +120686,8 @@ c6g1ko.sbs CNAME .
 *.c6g1ko.sbs CNAME .
 campaigranksi.sbs CNAME .
 *.campaigranksi.sbs CNAME .
+cavorneifexa.sbs CNAME .
+*.cavorneifexa.sbs CNAME .
 cf11.sbs CNAME .
 *.cf11.sbs CNAME .
 cht-live-eo.sbs CNAME .
@@ -120566,6 +120720,8 @@ developmentbusinessoffice.sbs CNAME .
 *.developmentbusinessoffice.sbs CNAME .
 developmentdeskoffice.sbs CNAME .
 *.developmentdeskoffice.sbs CNAME .
+developmentoffice.sbs CNAME .
+*.developmentoffice.sbs CNAME .
 dhlghfdfd.sbs CNAME .
 *.dhlghfdfd.sbs CNAME .
 divinodelivery.sbs CNAME .
@@ -120588,6 +120744,8 @@ ecipo-huuuuuuuuu.sbs CNAME .
 *.ecipo-huuuuuuuuu.sbs CNAME .
 ekrandan-durumunu-takipet-ogren.sbs CNAME .
 *.ekrandan-durumunu-takipet-ogren.sbs CNAME .
+eluxaentos.sbs CNAME .
+*.eluxaentos.sbs CNAME .
 enjoinesshop.sbs CNAME .
 *.enjoinesshop.sbs CNAME .
 ernvelnetol.sbs CNAME .
@@ -120616,6 +120774,8 @@ flashjs.sbs CNAME .
 *.flashjs.sbs CNAME .
 fly-piapple.sbs CNAME .
 *.fly-piapple.sbs CNAME .
+foriqtayrena.sbs CNAME .
+*.foriqtayrena.sbs CNAME .
 form8754.sbs CNAME .
 *.form8754.sbs CNAME .
 full-expeditionbr.sbs CNAME .
@@ -120624,6 +120784,8 @@ g2h6po.sbs CNAME .
 *.g2h6po.sbs CNAME .
 g9x3we.sbs CNAME .
 *.g9x3we.sbs CNAME .
+galexrivaosuni.sbs CNAME .
+*.galexrivaosuni.sbs CNAME .
 gdigitalwork.sbs CNAME .
 *.gdigitalwork.sbs CNAME .
 gdigitalworks.sbs CNAME .
@@ -120644,8 +120806,12 @@ hiveglobalsqtw.sbs CNAME .
 *.hiveglobalsqtw.sbs CNAME .
 hunot.sbs CNAME .
 *.hunot.sbs CNAME .
+hyselontrio.sbs CNAME .
+*.hyselontrio.sbs CNAME .
 interational.sbs CNAME .
 *.interational.sbs CNAME .
+ixtorneaviro.sbs CNAME .
+*.ixtorneaviro.sbs CNAME .
 joventlith.sbs CNAME .
 *.joventlith.sbs CNAME .
 kooora-live.sbs CNAME .
@@ -120654,6 +120820,8 @@ kovusube.sbs CNAME .
 *.kovusube.sbs CNAME .
 kranastrvel.sbs CNAME .
 *.kranastrvel.sbs CNAME .
+krysanasyra.sbs CNAME .
+*.krysanasyra.sbs CNAME .
 l1v9pn.sbs CNAME .
 *.l1v9pn.sbs CNAME .
 lawofficeofalexandertsimanis.sbs CNAME .
@@ -120670,6 +120838,8 @@ lixteelkron.sbs CNAME .
 *.lixteelkron.sbs CNAME .
 locate-lcloud-ld.sbs CNAME .
 *.locate-lcloud-ld.sbs CNAME .
+lomeraiqonu.sbs CNAME .
+*.lomeraiqonu.sbs CNAME .
 lonsreensdov.sbs CNAME .
 *.lonsreensdov.sbs CNAME .
 m8h0qc.sbs CNAME .
@@ -120698,6 +120868,8 @@ monpetitcafe.sbs CNAME .
 *.monpetitcafe.sbs CNAME .
 moonhoney.sbs CNAME .
 *.moonhoney.sbs CNAME .
+moriavelux.sbs CNAME .
+*.moriavelux.sbs CNAME .
 msmgt.sbs CNAME .
 *.msmgt.sbs CNAME .
 n5u7pe.sbs CNAME .
@@ -120720,6 +120892,8 @@ ohapigeq.sbs CNAME .
 *.ohapigeq.sbs CNAME .
 trk.originalproxy.sbs CNAME .
 *.trk.originalproxy.sbs CNAME .
+oryxaphelon.sbs CNAME .
+*.oryxaphelon.sbs CNAME .
 otrugjq.sbs CNAME .
 *.otrugjq.sbs CNAME .
 p6m1uy.sbs CNAME .
@@ -120830,6 +121004,8 @@ poltnuciz.sbs CNAME .
 *.poltnuciz.sbs CNAME .
 prendelora.sbs CNAME .
 *.prendelora.sbs CNAME .
+quelourora.sbs CNAME .
+*.quelourora.sbs CNAME .
 r2t5ka.sbs CNAME .
 *.r2t5ka.sbs CNAME .
 revastelior.sbs CNAME .
@@ -121332,6 +121508,8 @@ srem10.sbs CNAME .
 *.srem10.sbs CNAME .
 steamcomnunity.sbs CNAME .
 *.steamcomnunity.sbs CNAME .
+steamcoumunity.sbs CNAME .
+*.steamcoumunity.sbs CNAME .
 sugarrushdemo.sbs CNAME .
 *.sugarrushdemo.sbs CNAME .
 t9p3hv.sbs CNAME .
@@ -121380,6 +121558,8 @@ zdelivery-24horas.sbs CNAME .
 *.zdelivery-24horas.sbs CNAME .
 zeexdeliveryonline2026.sbs CNAME .
 *.zeexdeliveryonline2026.sbs CNAME .
+zynelexara.sbs CNAME .
+*.zynelexara.sbs CNAME .
 majesticbank.sc CNAME .
 *.majesticbank.sc CNAME .
 tracking.guardia.school CNAME .
@@ -121806,6 +121986,8 @@ azure-app.shop CNAME .
 *.azure-app.shop CNAME .
 babyingvingt.shop CNAME .
 *.babyingvingt.shop CNAME .
+backofficeclub.shop CNAME .
+*.backofficeclub.shop CNAME .
 baldedoursels.shop CNAME .
 *.baldedoursels.shop CNAME .
 bargainfield.shop CNAME .
@@ -121996,6 +122178,8 @@ dimplehoddin.shop CNAME .
 *.dimplehoddin.shop CNAME .
 dioxidedigamy.shop CNAME .
 *.dioxidedigamy.shop CNAME .
+discount-store.shop CNAME .
+*.discount-store.shop CNAME .
 dishleyinsite.shop CNAME .
 *.dishleyinsite.shop CNAME .
 divatcipoks.shop CNAME .
@@ -122486,8 +122670,6 @@ pelavinor.shop CNAME .
 *.pelavinor.shop CNAME .
 penitisturkle.shop CNAME .
 *.penitisturkle.shop CNAME .
-pepenode.shop CNAME .
-*.pepenode.shop CNAME .
 perfumehubc.shop CNAME .
 *.perfumehubc.shop CNAME .
 pettledmollugo.shop CNAME .
@@ -123038,6 +123220,8 @@ api.affiliations.site CNAME .
 *.api.affiliations.site CNAME .
 agl007.site CNAME .
 *.agl007.site CNAME .
+ai-youtube.site CNAME .
+*.ai-youtube.site CNAME .
 akisinn.site CNAME .
 *.akisinn.site CNAME .
 alexabyte.site CNAME .
@@ -123350,8 +123534,6 @@ lwahyysblqbez.site CNAME .
 *.lwahyysblqbez.site CNAME .
 lxhwfufvlksxl.site CNAME .
 *.lxhwfufvlksxl.site CNAME .
-madns-apple.site CNAME .
-*.madns-apple.site CNAME .
 mat-chy.site CNAME .
 *.mat-chy.site CNAME .
 matchtap.site CNAME .
@@ -124314,6 +124496,8 @@ sentry.brokenarrowgame.store CNAME .
 *.sentry.brokenarrowgame.store CNAME .
 tracker.cloudbase.store CNAME .
 *.tracker.cloudbase.store CNAME .
+delivery-online.store CNAME .
+*.delivery-online.store CNAME .
 discountshoppy.store CNAME .
 *.discountshoppy.store CNAME .
 duhkxehelalch.store CNAME .
@@ -125444,10 +125628,14 @@ baa702db1a.top CNAME .
 *.baa702db1a.top CNAME .
 baglan.top CNAME .
 *.baglan.top CNAME .
+bagscloset.top CNAME .
+*.bagscloset.top CNAME .
 carrell.bajrisialid.top CNAME .
 *.carrell.bajrisialid.top CNAME .
 gs.bambosunsash.top CNAME .
 *.gs.bambosunsash.top CNAME .
+bancoadechileqaq.top CNAME .
+*.bancoadechileqaq.top CNAME .
 bassaqueued.top CNAME .
 *.bassaqueued.top CNAME .
 battleaxled.top CNAME .
@@ -125586,8 +125774,6 @@ clicksocialimage.top CNAME .
 *.clicksocialimage.top CNAME .
 cloudfastin.top CNAME .
 *.cloudfastin.top CNAME .
-cnwucnf.top CNAME .
-*.cnwucnf.top CNAME .
 com-htx.top CNAME .
 *.com-htx.top CNAME .
 comptieharries.top CNAME .
@@ -125656,6 +125842,8 @@ deignsaspalax.top CNAME .
 *.deignsaspalax.top CNAME .
 delictoboughs.top CNAME .
 *.delictoboughs.top CNAME .
+delivery886.top CNAME .
+*.delivery886.top CNAME .
 df74e8f6f4.top CNAME .
 *.df74e8f6f4.top CNAME .
 dfd91296e9619edfcb7d64b09c65e1bf.top CNAME .
@@ -126092,6 +126280,8 @@ qdasflqe.top CNAME .
 *.qdasflqe.top CNAME .
 qerkbeaarqlwb.top CNAME .
 *.qerkbeaarqlwb.top CNAME .
+qewylqmymbmzv.top CNAME .
+*.qewylqmymbmzv.top CNAME .
 qgj4rg9.top CNAME .
 *.qgj4rg9.top CNAME .
 qirex.top CNAME .
@@ -126156,6 +126346,8 @@ s3z6f.top CNAME .
 *.s3z6f.top CNAME .
 plyer.saicedevours.top CNAME .
 *.plyer.saicedevours.top CNAME .
+salemarkets.top CNAME .
+*.salemarkets.top CNAME .
 satinayapii.top CNAME .
 *.satinayapii.top CNAME .
 sayeronetuyada.top CNAME .
@@ -126376,6 +126568,8 @@ zrqsmcx.top CNAME .
 *.zrqsmcx.top CNAME .
 zzkzklrbaoaoz.top CNAME .
 *.zzkzklrbaoaoz.top CNAME .
+zzzjvqzzlavew.top CNAME .
+*.zzzjvqzzlavew.top CNAME .
 shbet.tours CNAME .
 *.shbet.tours CNAME .
 ad-plus.com.tr CNAME .
@@ -126812,6 +127006,8 @@ service-ad-impression-proxy-use1-1.prd.pluto.tv CNAME .
 *.service-ad-impression-proxy-use1-1.prd.pluto.tv CNAME .
 saa.pluto.tv CNAME .
 *.saa.pluto.tv CNAME .
+sp.pluto.tv CNAME .
+*.sp.pluto.tv CNAME .
 prebrid.tv CNAME .
 *.prebrid.tv CNAME .
 ravm.tv CNAME .
@@ -129084,6 +129280,8 @@ igobmxltyvjfv.website CNAME .
 *.igobmxltyvjfv.website CNAME .
 ihqnuqncwajqi.website CNAME .
 *.ihqnuqncwajqi.website CNAME .
+internalssa-efile.website CNAME .
+*.internalssa-efile.website CNAME .
 ioassrlwlhqzk.website CNAME .
 *.ioassrlwlhqzk.website CNAME .
 irtfmfzzbkjrx.website CNAME .
@@ -129698,6 +129896,8 @@ tigerking.world CNAME .
 *.tigerking.world CNAME .
 torarymor.world CNAME .
 *.torarymor.world CNAME .
+ulvenaratiqola.world CNAME .
+*.ulvenaratiqola.world CNAME .
 uproll.world CNAME .
 *.uproll.world CNAME .
 vabadoznuz.world CNAME .
@@ -130118,8 +130318,6 @@ umami.6513006.xyz CNAME .
 *.84616.xyz CNAME .
 84618.xyz CNAME .
 *.84618.xyz CNAME .
-84620.xyz CNAME .
-*.84620.xyz CNAME .
 84622.xyz CNAME .
 *.84622.xyz CNAME .
 84624.xyz CNAME .
@@ -130128,6 +130326,8 @@ umami.6513006.xyz CNAME .
 *.84625.xyz CNAME .
 84626.xyz CNAME .
 *.84626.xyz CNAME .
+84627.xyz CNAME .
+*.84627.xyz CNAME .
 84629.xyz CNAME .
 *.84629.xyz CNAME .
 84630.xyz CNAME .
@@ -130196,6 +130396,8 @@ umami.6513006.xyz CNAME .
 *.84709.xyz CNAME .
 84710.xyz CNAME .
 *.84710.xyz CNAME .
+84711.xyz CNAME .
+*.84711.xyz CNAME .
 84714.xyz CNAME .
 *.84714.xyz CNAME .
 84715.xyz CNAME .
@@ -130450,6 +130652,10 @@ umami.6513006.xyz CNAME .
 *.86142.xyz CNAME .
 86164.xyz CNAME .
 *.86164.xyz CNAME .
+86191.xyz CNAME .
+*.86191.xyz CNAME .
+86269.xyz CNAME .
+*.86269.xyz CNAME .
 86385.xyz CNAME .
 *.86385.xyz CNAME .
 86386.xyz CNAME .
@@ -130532,6 +130738,8 @@ umami.6513006.xyz CNAME .
 *.87261.xyz CNAME .
 87269.xyz CNAME .
 *.87269.xyz CNAME .
+87304.xyz CNAME .
+*.87304.xyz CNAME .
 87317.xyz CNAME .
 *.87317.xyz CNAME .
 87338.xyz CNAME .
@@ -130556,6 +130764,8 @@ umami.6513006.xyz CNAME .
 *.87468.xyz CNAME .
 87481.xyz CNAME .
 *.87481.xyz CNAME .
+87483.xyz CNAME .
+*.87483.xyz CNAME .
 87485.xyz CNAME .
 *.87485.xyz CNAME .
 87487.xyz CNAME .
@@ -130650,6 +130860,10 @@ a69d.xyz CNAME .
 *.a69d.xyz CNAME .
 a69g.xyz CNAME .
 *.a69g.xyz CNAME .
+a69r.xyz CNAME .
+*.a69r.xyz CNAME .
+a6cfvavw1.xyz CNAME .
+*.a6cfvavw1.xyz CNAME .
 aaastyloff.xyz CNAME .
 *.aaastyloff.xyz CNAME .
 abrahackbugs.xyz CNAME .
@@ -130754,6 +130968,8 @@ b237fg.xyz CNAME .
 *.b237fg.xyz CNAME .
 b237fh.xyz CNAME .
 *.b237fh.xyz CNAME .
+b237fr.xyz CNAME .
+*.b237fr.xyz CNAME .
 b237fs.xyz CNAME .
 *.b237fs.xyz CNAME .
 b237fx.xyz CNAME .
@@ -130868,8 +131084,6 @@ cdnhst.xyz CNAME .
 *.cdnhst.xyz CNAME .
 cdnimages.xyz CNAME .
 *.cdnimages.xyz CNAME .
-chainswapper.xyz CNAME .
-*.chainswapper.xyz CNAME .
 changeable1x.xyz CNAME .
 *.changeable1x.xyz CNAME .
 chatt-ws.xyz CNAME .
@@ -130882,6 +131096,38 @@ cloud-suites.xyz CNAME .
 *.cloud-suites.xyz CNAME .
 clubnews3.xyz CNAME .
 *.clubnews3.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768172101.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768172101.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768172401.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768172401.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768172701.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768172701.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768173001.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768173001.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768174201.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768174201.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768175101.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768175101.xyz CNAME .
+cnic-probe-aws-asia-tokyo-live-1768176001.xyz CNAME .
+*.cnic-probe-aws-asia-tokyo-live-1768176001.xyz CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768173601.xyz CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768173601.xyz CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768174501.xyz CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768174501.xyz CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768174801.xyz CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768174801.xyz CNAME .
+cnic-probe-aws-eu-frankfurt-live-1768175701.xyz CNAME .
+*.cnic-probe-aws-eu-frankfurt-live-1768175701.xyz CNAME .
+cnic-probe-aws-north-america-oregon-live-1768175401.xyz CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768175401.xyz CNAME .
+cnic-probe-aws-north-america-oregon-live-1768176301.xyz CNAME .
+*.cnic-probe-aws-north-america-oregon-live-1768176301.xyz CNAME .
+cnic-probe-aws-north-america-vir-live-1768173901.xyz CNAME .
+*.cnic-probe-aws-north-america-vir-live-1768173901.xyz CNAME .
+cnic-probe-aws-oceania-sydney-live-1768171801.xyz CNAME .
+*.cnic-probe-aws-oceania-sydney-live-1768171801.xyz CNAME .
+cnic-probe-aws-oceania-sydney-live-1768173301.xyz CNAME .
+*.cnic-probe-aws-oceania-sydney-live-1768173301.xyz CNAME .
 coastalbloom.xyz CNAME .
 *.coastalbloom.xyz CNAME .
 coincosm.xyz CNAME .
@@ -130926,8 +131172,6 @@ d0ntb3c0nfu53d.xyz CNAME .
 *.d0ntb3c0nfu53d.xyz CNAME .
 d3c3e73721cb25a.xyz CNAME .
 *.d3c3e73721cb25a.xyz CNAME .
-dango-token.xyz CNAME .
-*.dango-token.xyz CNAME .
 data-cdn.xyz CNAME .
 *.data-cdn.xyz CNAME .
 dbd9f4f5a0761648f5496e7ccf2e02270ba664d6480e56d01cdb523e.xyz CNAME .
@@ -131236,6 +131480,8 @@ h87h.xyz CNAME .
 *.h87h.xyz CNAME .
 h87l.xyz CNAME .
 *.h87l.xyz CNAME .
+h88a.xyz CNAME .
+*.h88a.xyz CNAME .
 haudaifinance.xyz CNAME .
 *.haudaifinance.xyz CNAME .
 hdmoviebox.xyz CNAME .
@@ -131306,6 +131552,8 @@ j260s.xyz CNAME .
 *.j260s.xyz CNAME .
 j260t.xyz CNAME .
 *.j260t.xyz CNAME .
+j260y.xyz CNAME .
+*.j260y.xyz CNAME .
 j261h.xyz CNAME .
 *.j261h.xyz CNAME .
 j261p.xyz CNAME .
@@ -131740,8 +131988,6 @@ routenex.xyz CNAME .
 *.routenex.xyz CNAME .
 rovno.xyz CNAME .
 *.rovno.xyz CNAME .
-s4-ethenafinance.xyz CNAME .
-*.s4-ethenafinance.xyz CNAME .
 s4yn0t0sn00z3.xyz CNAME .
 *.s4yn0t0sn00z3.xyz CNAME .
 salanoajalio.xyz CNAME .
@@ -132036,6 +132282,8 @@ x93d.xyz CNAME .
 *.x93d.xyz CNAME .
 x93e.xyz CNAME .
 *.x93e.xyz CNAME .
+x93f.xyz CNAME .
+*.x93f.xyz CNAME .
 x93r.xyz CNAME .
 *.x93r.xyz CNAME .
 xaea12play.xyz CNAME .

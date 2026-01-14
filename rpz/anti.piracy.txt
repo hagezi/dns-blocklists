@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768300200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768372320 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jan 2026 10:30 UTC
-; Version: 2026.0113.1030.52
+; Last modified: 14 Jan 2026 06:32 UTC
+; Version: 2026.0114.0632.07
 ; Syntax: RPZ
 ; Number of entries: 23326
 ;
@@ -1672,8 +1672,6 @@ tlgetin.cc CNAME .
 *.tlgetin.cc CNAME .
 torrentdownloads.cc CNAME .
 *.torrentdownloads.cc CNAME .
-node02.torrentonline.cc CNAME .
-*.node02.torrentonline.cc CNAME .
 torrentproject.cc CNAME .
 *.torrentproject.cc CNAME .
 torrents9.cc CNAME .
@@ -5318,6 +5316,8 @@ justinwb.com CNAME .
 *.justinwb.com CNAME .
 jutone.com CNAME .
 *.jutone.com CNAME .
+jvavav.com CNAME .
+*.jvavav.com CNAME .
 k2nblog.com CNAME .
 *.k2nblog.com CNAME .
 kaitovault.com CNAME .
