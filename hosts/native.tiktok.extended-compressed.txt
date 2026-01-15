@@ -5,30 +5,32 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 26 Dec 2025 18:07 UTC
-# Version: 2025.1226.1807.13
+# Last modified: 15 Jan 2026 13:32 UTC
+# Version: 2026.0115.1332.13
 # Syntax: Hosts compressed (9 per line, including possible subdomains)
-# Number of entries: 53
+# Number of entries: 55
 #
-0.0.0.0 frontier.byteoversea.com gplog-sg.byteoversea.com gplog-va.byteoversea.com gplog-va-useast2a.byteoversea.com gpm-mon-sg.byteoversea.com gpm-mon-va.byteoversea.com gpm-mon-va-useast1a.byteoversea.com gpm-mon-va-useast2a.byteoversea.com log.byteoversea.com
-0.0.0.0 log-tiktok.byteoversea.net log15.byteoversea.com log16.byteoversea.com maliva-mcs.byteoversea.com maliva-mcs-useast2a.byteoversea.com mcs-tiktok.byteoversea.net mon.byteoversea.com mon-csj-maliva-ios.byteoversea.com mon-va.byteoversea.com
-0.0.0.0 mon-va-useast2a.byteoversea.com mssdk-sg.byteoversea.com mssdk-sg-bu.byteoversea.com mssdk-va.byteoversea.com mssdk-va-useast2a.byteoversea.com p16-ad.byteoversea.com pc-mon-va.byteoversea.com rtlog.byteoversea.com sgali-mcs.byteoversea.com
-0.0.0.0 sgaws-mcs.byteoversea.com sgee-log.byteoversea.com sgee-mcs.byteoversea.com ug-sg.byteoversea.com v16-ad.byteoversea.com vaali-mcs.byteoversea.com vaali-mcs-useast1a.byteoversea.com vaali-mcs-useast2a.byteoversea.com web-mon-useast2a.byteoversea.com
-0.0.0.0 xlog.byteoversea.com xlog-o.byteoversea.com xlog-va.byteoversea.com xlog-va-useast2a.byteoversea.com log-boot.capcutapi.com log-sg.capcutapi.com log-v2-boot.capcutapi.com log16-normal.capcutapi.com log16-normal-sg.capcutapi.com
-0.0.0.0 log16-normal-us-ttp.capcutapi.us log32-normal.capcutapi.com log32-normal-sg.capcutapi.com mcs.capcutapi.us mcs-normal-sg.capcutapi.com mcs-v2-boot.capcutapi.com mcs16-normal-us-ttp.capcutapi.us mon.capcutapi.us mon-boot.capcutapi.com
-0.0.0.0 mon-sg.capcutapi.com mon-v2-boot.capcutapi.com mon16-normal-sg.capcutapi.com mon16-normal-us-ttp.capcutapi.us mon32-normal-sg.capcutapi.com mssdk.capcutapi.us mssdk-boot.capcutapi.com mssdk-sg.capcutapi.com mssdk-v2-boot.capcutapi.com
-0.0.0.0 mssdk16-normal.capcutapi.com mssdk16-normal-sg.capcutapi.com mssdk16-normal-us-ttp.capcutapi.us mssdk32-normal.capcutapi.com mssdk32-normal-sg.capcutapi.com pc-mon-boot.capcutapi.com pc-mon-normal-sg.capcutapi.com pc-mon-v2-boot.capcutapi.com pc-mon16-normal-us-ttp.capcutapi.us
-0.0.0.0 tnc-boot.capcutapi.com tnc-sg.capcutapi.com tnc-v2-boot.capcutapi.com tnc-va.capcutapi.com tnc-va-us-looki.capcutapi.com tnc16-normal-us-ttp.capcutapi.us frontier.capcutw.us mon-boot.tiktokv.com.edgekey.net sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net
-0.0.0.0 frontier.capcutw.us.edgesuite.net abtest-ch.snssdk.com analytics.snssdk.com applog.snssdk.com bds.snssdk.com extlog.snssdk.com haohuo.snssdk.com i.snssdk.com log.snssdk.com
-0.0.0.0 log-hl.snssdk.com log-lf.snssdk.com log-lq.snssdk.com logtrace.snssdk.com mcs.snssdk.com mercury-sdk.snssdk.com mon.snssdk.com mon-hl.snssdk.com mssdk.snssdk.com
-0.0.0.0 mssdk-bu.snssdk.com open.snssdk.com os-mon.snssdk.com pangolin.snssdk.com pc-mon.snssdk.com sdfp.snssdk.com tbm.snssdk.com temai.snssdk.com tnc3-aliec2.snssdk.com
-0.0.0.0 tnc3-alisc1.snssdk.com tnc3-bjlgy.snssdk.com tobapplog.snssdk.com toblog.snssdk.com tsearch.snssdk.com ug.snssdk.com vas-hl-x.snssdk.com xlog.snssdk.com ad.tiktok.tv
-0.0.0.0 ads.tiktok.com ads.tiktok.in ads.tiktok.tv 12691274.ads.tiktok.com url2696.ads.tiktok.com ads-api.tiktok.com ads-frontier.tiktok.com ads-service.tiktok.com ads-sg.tiktok.com
-0.0.0.0 ads-useast2a.tiktok.com analytics.tiktok.com analytics-attribution.tiktok.com analytics-attribution-va.tiktok.com analytics-exp-i18n.tiktok.com analytics-exp-ru.tiktok.com analytics-exp-sg.tiktok.com analytics-i18n.tiktok.com analytics-ru.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com analytics-test.tiktok.com analytics-useast2a.tiktok.com analytics-v6.tiktok.com analytics16-normal.tiktok.com analytics16-normal-alisg.tiktok.com business-api.tiktok.com location.tiktok.com mcs-i18n.tiktok.com
-0.0.0.0 mcs-sg.tiktok.com mcs-va.tiktok.com mcs16-normal-ycru.tiktok.com mssdk-i18n.tiktok.com mssdk-quic-sg.tiktok.com mssdk-sg.tiktok.com mssdk-va.tiktok.com ads.us.tiktok.com ads-ttp2.us.tiktok.com
-0.0.0.0 analytics.us.tiktok.com analytics-exp.us.tiktok.com analytics-ttp2.us.tiktok.com mcs.us.tiktok.com mcs-ttp2.us.tiktok.com mssdk.us.tiktok.com sf16-telemetry-proxy-oci.tiktokcdn-us.com ad.tiktokv.com ad.tiktokv.us
-0.0.0.0 ad-instantpage.tiktokv.us ad-instantpage-ru.tiktokv.com ad-instantpage-sg.tiktokv.com ad-instantpage-ttp2.tiktokv.eu ad-instantpage-ttp2.tiktokv.us ad-instantpage-va.tiktokv.com adinstantpage16-normal-useastred.tiktokv.eu frontier.tiktokv.com frontier.tiktokv.us
+0.0.0.0 frontier23-normal-alisg.tiktokv.com.bpgslb.com frontier.byteoversea.com gplog-sg.byteoversea.com gplog-va.byteoversea.com gplog-va-useast2a.byteoversea.com gpm-mon-sg.byteoversea.com gpm-mon-va.byteoversea.com gpm-mon-va-useast1a.byteoversea.com gpm-mon-va-useast2a.byteoversea.com
+0.0.0.0 log.byteoversea.com log-tiktok.byteoversea.net log15.byteoversea.com log16.byteoversea.com maliva-mcs.byteoversea.com maliva-mcs-useast2a.byteoversea.com mcs-tiktok.byteoversea.net mon.byteoversea.com mon-csj-maliva-ios.byteoversea.com
+0.0.0.0 mon-va.byteoversea.com mon-va-useast2a.byteoversea.com mssdk-sg.byteoversea.com mssdk-sg-bu.byteoversea.com mssdk-va.byteoversea.com mssdk-va-useast2a.byteoversea.com p16-ad.byteoversea.com pc-mon-va.byteoversea.com rtlog.byteoversea.com
+0.0.0.0 sgali-mcs.byteoversea.com sgaws-mcs.byteoversea.com sgee-log.byteoversea.com sgee-mcs.byteoversea.com ug-sg.byteoversea.com v16-ad.byteoversea.com vaali-mcs.byteoversea.com vaali-mcs-useast1a.byteoversea.com vaali-mcs-useast2a.byteoversea.com
+0.0.0.0 web-mon-useast2a.byteoversea.com xlog.byteoversea.com xlog-o.byteoversea.com xlog-va.byteoversea.com xlog-va-useast2a.byteoversea.com log-boot.capcutapi.com log-sg.capcutapi.com log-v2-boot.capcutapi.com log16-normal.capcutapi.com
+0.0.0.0 log16-normal-sg.capcutapi.com log16-normal-us-ttp.capcutapi.us log32-normal.capcutapi.com log32-normal-sg.capcutapi.com mcs.capcutapi.us mcs-normal-sg.capcutapi.com mcs-v2-boot.capcutapi.com mcs16-normal-us-ttp.capcutapi.us mon.capcutapi.us
+0.0.0.0 mon-boot.capcutapi.com mon-sg.capcutapi.com mon-v2-boot.capcutapi.com mon16-normal-sg.capcutapi.com mon16-normal-us-ttp.capcutapi.us mon32-normal-sg.capcutapi.com mssdk.capcutapi.us mssdk-boot.capcutapi.com mssdk-sg.capcutapi.com
+0.0.0.0 mssdk-v2-boot.capcutapi.com mssdk16-normal.capcutapi.com mssdk16-normal-sg.capcutapi.com mssdk16-normal-us-ttp.capcutapi.us mssdk32-normal.capcutapi.com mssdk32-normal-sg.capcutapi.com pc-mon-boot.capcutapi.com pc-mon-normal-sg.capcutapi.com pc-mon-v2-boot.capcutapi.com
+0.0.0.0 pc-mon16-normal-us-ttp.capcutapi.us tnc-boot.capcutapi.com tnc-sg.capcutapi.com tnc-v2-boot.capcutapi.com tnc-va.capcutapi.com tnc-va-us-looki.capcutapi.com tnc16-normal-us-ttp.capcutapi.us frontier.capcutw.us frontier-ru.tiktokv.com.edgekey.net
+0.0.0.0 mon-boot.tiktokv.com.edgekey.net sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net frontier.tiktokv-eu.com.edgesuite.net frontier16-normal-no1a.tiktokv.eu.edgesuite.net frontier16-normal-useastred.tiktokv.eu.edgesuite.net frontier.capcutw.us.edgesuite.net frontier.tiktokv.us.edgesuite.net frontier-ttp2.tiktokv.us.edgesuite.net abtest-ch.snssdk.com
+0.0.0.0 analytics.snssdk.com applog.snssdk.com bds.snssdk.com extlog.snssdk.com haohuo.snssdk.com i.snssdk.com log.snssdk.com log-hl.snssdk.com log-lf.snssdk.com
+0.0.0.0 log-lq.snssdk.com logtrace.snssdk.com mcs.snssdk.com mercury-sdk.snssdk.com mon.snssdk.com mon-hl.snssdk.com mssdk.snssdk.com mssdk-bu.snssdk.com open.snssdk.com
+0.0.0.0 os-mon.snssdk.com pangolin.snssdk.com pc-mon.snssdk.com sdfp.snssdk.com tbm.snssdk.com temai.snssdk.com tnc3-aliec2.snssdk.com tnc3-alisc1.snssdk.com tnc3-bjlgy.snssdk.com
+0.0.0.0 tobapplog.snssdk.com toblog.snssdk.com tsearch.snssdk.com ug.snssdk.com vas-hl-x.snssdk.com xlog.snssdk.com ad.tiktok.tv ads.tiktok.com ads.tiktok.in
+0.0.0.0 ads.tiktok.tv 12691274.ads.tiktok.com url2696.ads.tiktok.com ads-api.tiktok.com ads-frontier.tiktok.com ads-service.tiktok.com ads-sg.tiktok.com ads-useast2a.tiktok.com analytics.tiktok.com
+0.0.0.0 analytics-attribution.tiktok.com analytics-attribution-va.tiktok.com analytics-exp-i18n.tiktok.com analytics-exp-ru.tiktok.com analytics-exp-sg.tiktok.com analytics-i18n.tiktok.com analytics-ru.tiktok.com analytics-sg.tiktok.com analytics-test.tiktok.com
+0.0.0.0 analytics-useast2a.tiktok.com analytics-v6.tiktok.com analytics16-normal.tiktok.com analytics16-normal-alisg.tiktok.com business-api.tiktok.com location.tiktok.com mcs-i18n.tiktok.com mcs-sg.tiktok.com mcs-va.tiktok.com
+0.0.0.0 mcs16-normal-ycru.tiktok.com mssdk-i18n.tiktok.com mssdk-quic-sg.tiktok.com mssdk-sg.tiktok.com mssdk-va.tiktok.com ads.us.tiktok.com ads-ttp2.us.tiktok.com analytics.us.tiktok.com analytics-exp.us.tiktok.com
+0.0.0.0 analytics-ttp2.us.tiktok.com mcs.us.tiktok.com mcs-ttp2.us.tiktok.com mssdk.us.tiktok.com sf16-telemetry-proxy-oci.tiktokcdn-us.com ad.tiktokv.com ad.tiktokv.us ad-instantpage.tiktokv.us ad-instantpage-ru.tiktokv.com
+0.0.0.0 ad-instantpage-sg.tiktokv.com ad-instantpage-ttp2.tiktokv.eu ad-instantpage-ttp2.tiktokv.us ad-instantpage-va.tiktokv.com adinstantpage16-normal-useastred.tiktokv.eu frontier.tiktokv.com frontier.tiktokv.us frontier-i18n.tiktokv.com frontier-my2.tiktokv.com
+0.0.0.0 frontier-ru.tiktokv.com frontier-ttp2.tiktokv.us frontier-va.tiktokv.com frontier100-normal-alisg.tiktokv.com frontier100-normal-useast1a.tiktokv.com frontier16-normal-no1a.tiktokv.eu frontier16-normal-useastred.tiktokv.eu frontier23-normal-alisg.tiktokv.com frontier23-normal-useast1a.tiktokv.com
 0.0.0.0 live-video-log16-normal-alisg.tiktokv.com location.tiktokv.com location-i18n.tiktokv.com location-sg.tiktokv.com location-v6.tiktokv.com location-v6.tiktokv.us location-v6-i18n.tiktokv.com location-v6-ru.tiktokv.com location-v6-sg.tiktokv.com
 0.0.0.0 location-v6-ttp2.tiktokv.eu location-v6-ttp2.tiktokv.us location-v6-va.tiktokv.com location-va.tiktokv.com locationv16-normal-useastred.tiktokv.eu log.tiktokv.com log.tiktokv.us log-i18n.tiktokv.com log-phx.tiktokv.com
 0.0.0.0 log-ru.tiktokv.com log-va.tiktokv.com log-va-useast2a.tiktokv.com log15-normal.tiktokv.com log15-normal-alisg.tiktokv.com log15-normal-useast1a.tiktokv.com log15-normal-useast2a.tiktokv.com log16-normal.tiktokv.com log16-normal-alisg.tiktokv.com
@@ -60,6 +62,6 @@
 0.0.0.0 mcs.us.tiktokv.com mon.us.tiktokv.com mon16-normal-useast8.us.tiktokv.com mon16-platform-useast5.us.tiktokv.com mssdk.us.tiktokv.com mssdk16-platform-useast5.us.tiktokv.com rtc-logger.us.tiktokv.com rtc-logger-ttp2.us.tiktokv.com rtlog.us.tiktokv.com
 0.0.0.0 rtlog16-applog-useast5.us.tiktokv.com rtlog16-normal-useast8.us.tiktokv.com rtlog16-platform-useast5.us.tiktokv.com rtlog19-applog-useast5.us.tiktokv.com rtlog19-platform-useast5.us.tiktokv.com tnc16-normal-useast8.us.tiktokv.com tnc16-platform-useast5.us.tiktokv.com xlog16-normal-useast8.us.tiktokv.com xlog16-platform-useast5.us.tiktokv.com
 0.0.0.0 xlog.tiktokv.com xlog-ru.tiktokv.com xlog-va.tiktokv.com xlog-va-useast2a.tiktokv.com xlog16-normal-c-useast1a.tiktokv.com xlog16-normal-c-useast2a.tiktokv.com xlog16-normal-no1a.tiktokv.eu xlog16-platform-ycru.tiktokv.com xlog16-tmp-normal-useast1a.tiktokv.com
-0.0.0.0 log-snssdk.tiktokv-us.com ads-ie.tiktokw.eu ads-ttp2.tiktokw.eu analytics-ie.tiktokw.eu analytics-ipv6.tiktokw.us analytics-ttp2.tiktokw.eu analytics16-normal-no1a.tiktokw.eu analytics16-normal-useast5.tiktokw.us analytics16-normal-useast8.tiktokw.us
-0.0.0.0 analytics16-normal-useastred.tiktokw.eu location.tiktokw.us mcs.tiktokw.us mcs-ie.tiktokw.eu mcs-ie2.tiktokw.eu mcs16-normal-no1a.tiktokw.eu mcs16-normal-useastred.tiktokw.eu mssdk.tiktokw.eu mssdk.tiktokw.us
-0.0.0.0 mssdk16-normal-useastred.tiktokw.eu h4g3z1-native.tiktok.extended.web.app 
+0.0.0.0 frontier.tiktokv-eu.com log-snssdk.tiktokv-us.com ads-ie.tiktokw.eu ads-ttp2.tiktokw.eu analytics-ie.tiktokw.eu analytics-ipv6.tiktokw.us analytics-ttp2.tiktokw.eu analytics16-normal-no1a.tiktokw.eu analytics16-normal-useast5.tiktokw.us
+0.0.0.0 analytics16-normal-useast8.tiktokw.us analytics16-normal-useastred.tiktokw.eu location.tiktokw.us mcs.tiktokw.us mcs-ie.tiktokw.eu mcs-ie2.tiktokw.eu mcs16-normal-no1a.tiktokw.eu mcs16-normal-useastred.tiktokw.eu mssdk.tiktokw.eu
+0.0.0.0 mssdk.tiktokw.us mssdk16-normal-useastred.tiktokw.eu frontier.tiktokv-eu.com.ttdns3.com h4g3z1-native.tiktok.extended.web.app 

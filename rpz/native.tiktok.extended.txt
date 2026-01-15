@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766772420 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768483920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -9,13 +9,15 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Dec 2025 18:07 UTC
-; Version: 2025.1226.1807.13
+; Last modified: 15 Jan 2026 13:32 UTC
+; Version: 2026.0115.1332.13
 ; Syntax: RPZ
-; Number of entries: 936
+; Number of entries: 976
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
+frontier23-normal-alisg.tiktokv.com.bpgslb.com CNAME .
+*.frontier23-normal-alisg.tiktokv.com.bpgslb.com CNAME .
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
 gplog-sg.byteoversea.com CNAME .
@@ -306,6 +308,22 @@ ad-instantpage-va.tiktokv.com CNAME .
 *.ad-instantpage-va.tiktokv.com CNAME .
 frontier.tiktokv.com CNAME .
 *.frontier.tiktokv.com CNAME .
+frontier-i18n.tiktokv.com CNAME .
+*.frontier-i18n.tiktokv.com CNAME .
+frontier-my2.tiktokv.com CNAME .
+*.frontier-my2.tiktokv.com CNAME .
+frontier-ru.tiktokv.com CNAME .
+*.frontier-ru.tiktokv.com CNAME .
+frontier-va.tiktokv.com CNAME .
+*.frontier-va.tiktokv.com CNAME .
+frontier100-normal-alisg.tiktokv.com CNAME .
+*.frontier100-normal-alisg.tiktokv.com CNAME .
+frontier100-normal-useast1a.tiktokv.com CNAME .
+*.frontier100-normal-useast1a.tiktokv.com CNAME .
+frontier23-normal-alisg.tiktokv.com CNAME .
+*.frontier23-normal-alisg.tiktokv.com CNAME .
+frontier23-normal-useast1a.tiktokv.com CNAME .
+*.frontier23-normal-useast1a.tiktokv.com CNAME .
 live-video-log16-normal-alisg.tiktokv.com CNAME .
 *.live-video-log16-normal-alisg.tiktokv.com CNAME .
 location.tiktokv.com CNAME .
@@ -794,12 +812,20 @@ xlog16-platform-ycru.tiktokv.com CNAME .
 *.xlog16-platform-ycru.tiktokv.com CNAME .
 xlog16-tmp-normal-useast1a.tiktokv.com CNAME .
 *.xlog16-tmp-normal-useast1a.tiktokv.com CNAME .
+frontier.tiktokv-eu.com CNAME .
+*.frontier.tiktokv-eu.com CNAME .
 log-snssdk.tiktokv-us.com CNAME .
 *.log-snssdk.tiktokv-us.com CNAME .
+frontier.tiktokv-eu.com.ttdns3.com CNAME .
+*.frontier.tiktokv-eu.com.ttdns3.com CNAME .
 ad-instantpage-ttp2.tiktokv.eu CNAME .
 *.ad-instantpage-ttp2.tiktokv.eu CNAME .
 adinstantpage16-normal-useastred.tiktokv.eu CNAME .
 *.adinstantpage16-normal-useastred.tiktokv.eu CNAME .
+frontier16-normal-no1a.tiktokv.eu CNAME .
+*.frontier16-normal-no1a.tiktokv.eu CNAME .
+frontier16-normal-useastred.tiktokv.eu CNAME .
+*.frontier16-normal-useastred.tiktokv.eu CNAME .
 location-v6-ttp2.tiktokv.eu CNAME .
 *.location-v6-ttp2.tiktokv.eu CNAME .
 locationv16-normal-useastred.tiktokv.eu CNAME .
@@ -868,12 +894,24 @@ log-tiktok.byteoversea.net CNAME .
 *.log-tiktok.byteoversea.net CNAME .
 mcs-tiktok.byteoversea.net CNAME .
 *.mcs-tiktok.byteoversea.net CNAME .
+frontier-ru.tiktokv.com.edgekey.net CNAME .
+*.frontier-ru.tiktokv.com.edgekey.net CNAME .
 mon-boot.tiktokv.com.edgekey.net CNAME .
 *.mon-boot.tiktokv.com.edgekey.net CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
+frontier.tiktokv-eu.com.edgesuite.net CNAME .
+*.frontier.tiktokv-eu.com.edgesuite.net CNAME .
+frontier16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+*.frontier16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+frontier16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
+*.frontier16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
 frontier.capcutw.us.edgesuite.net CNAME .
 *.frontier.capcutw.us.edgesuite.net CNAME .
+frontier.tiktokv.us.edgesuite.net CNAME .
+*.frontier.tiktokv.us.edgesuite.net CNAME .
+frontier-ttp2.tiktokv.us.edgesuite.net CNAME .
+*.frontier-ttp2.tiktokv.us.edgesuite.net CNAME .
 ad.tiktok.tv CNAME .
 *.ad.tiktok.tv CNAME .
 ads.tiktok.tv CNAME .
@@ -906,6 +944,8 @@ ad-instantpage-ttp2.tiktokv.us CNAME .
 *.ad-instantpage-ttp2.tiktokv.us CNAME .
 frontier.tiktokv.us CNAME .
 *.frontier.tiktokv.us CNAME .
+frontier-ttp2.tiktokv.us CNAME .
+*.frontier-ttp2.tiktokv.us CNAME .
 location-v6.tiktokv.us CNAME .
 *.location-v6.tiktokv.us CNAME .
 location-v6-ttp2.tiktokv.us CNAME .

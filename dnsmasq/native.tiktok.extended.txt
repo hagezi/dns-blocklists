@@ -5,11 +5,12 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 26 Dec 2025 18:07 UTC
-# Version: 2025.1226.1807.13
+# Last modified: 15 Jan 2026 13:32 UTC
+# Version: 2026.0115.1332.13
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 468
+# Number of entries: 488
 #
+local=/frontier23-normal-alisg.tiktokv.com.bpgslb.com/
 local=/frontier.byteoversea.com/
 local=/gplog-sg.byteoversea.com/
 local=/gplog-va.byteoversea.com/
@@ -89,9 +90,15 @@ local=/tnc-va.capcutapi.com/
 local=/tnc-va-us-looki.capcutapi.com/
 local=/tnc16-normal-us-ttp.capcutapi.us/
 local=/frontier.capcutw.us/
+local=/frontier-ru.tiktokv.com.edgekey.net/
 local=/mon-boot.tiktokv.com.edgekey.net/
 local=/sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net/
+local=/frontier.tiktokv-eu.com.edgesuite.net/
+local=/frontier16-normal-no1a.tiktokv.eu.edgesuite.net/
+local=/frontier16-normal-useastred.tiktokv.eu.edgesuite.net/
 local=/frontier.capcutw.us.edgesuite.net/
+local=/frontier.tiktokv.us.edgesuite.net/
+local=/frontier-ttp2.tiktokv.us.edgesuite.net/
 local=/abtest-ch.snssdk.com/
 local=/analytics.snssdk.com/
 local=/applog.snssdk.com/
@@ -179,6 +186,17 @@ local=/ad-instantpage-va.tiktokv.com/
 local=/adinstantpage16-normal-useastred.tiktokv.eu/
 local=/frontier.tiktokv.com/
 local=/frontier.tiktokv.us/
+local=/frontier-i18n.tiktokv.com/
+local=/frontier-my2.tiktokv.com/
+local=/frontier-ru.tiktokv.com/
+local=/frontier-ttp2.tiktokv.us/
+local=/frontier-va.tiktokv.com/
+local=/frontier100-normal-alisg.tiktokv.com/
+local=/frontier100-normal-useast1a.tiktokv.com/
+local=/frontier16-normal-no1a.tiktokv.eu/
+local=/frontier16-normal-useastred.tiktokv.eu/
+local=/frontier23-normal-alisg.tiktokv.com/
+local=/frontier23-normal-useast1a.tiktokv.com/
 local=/live-video-log16-normal-alisg.tiktokv.com/
 local=/location.tiktokv.com/
 local=/location-i18n.tiktokv.com/
@@ -458,6 +476,7 @@ local=/xlog16-normal-c-useast2a.tiktokv.com/
 local=/xlog16-normal-no1a.tiktokv.eu/
 local=/xlog16-platform-ycru.tiktokv.com/
 local=/xlog16-tmp-normal-useast1a.tiktokv.com/
+local=/frontier.tiktokv-eu.com/
 local=/log-snssdk.tiktokv-us.com/
 local=/ads-ie.tiktokw.eu/
 local=/ads-ttp2.tiktokw.eu/
@@ -477,4 +496,5 @@ local=/mcs16-normal-useastred.tiktokw.eu/
 local=/mssdk.tiktokw.eu/
 local=/mssdk.tiktokw.us/
 local=/mssdk16-normal-useastred.tiktokw.eu/
+local=/frontier.tiktokv-eu.com.ttdns3.com/
 local=/h4g3z1-native.tiktok.extended.web.app/
