@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768488120 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768516860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jan 2026 14:42 UTC
-; Version: 2026.0115.1442.24
+; Last modified: 15 Jan 2026 22:41 UTC
+; Version: 2026.0115.2241.51
 ; Syntax: RPZ
-; Number of entries: 6964
+; Number of entries: 6958
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -4841,8 +4841,6 @@ testapp-0-1-1.duckdns.org CNAME .
 *.testapp-0-1-1.duckdns.org CNAME .
 thaibksri.duckdns.org CNAME .
 *.thaibksri.duckdns.org CNAME .
-theadblocksg.duckdns.org CNAME .
-*.theadblocksg.duckdns.org CNAME .
 ts653d.duckdns.org CNAME .
 *.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
@@ -6021,8 +6019,6 @@ dns88.site CNAME .
 *.dns88.site CNAME .
 fimoshinckaya-federation.site CNAME .
 *.fimoshinckaya-federation.site CNAME .
-fptdns.site CNAME .
-*.fptdns.site CNAME .
 ms.gswsfh2021.site CNAME .
 *.ms.gswsfh2021.site CNAME .
 dns.sgp.hicn.site CNAME .
@@ -6825,8 +6821,6 @@ adguard.eximpius.xyz CNAME .
 *.adguard.eximpius.xyz CNAME .
 fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
-dns.f97.xyz CNAME .
-*.dns.f97.xyz CNAME .
 ad.faraan.xyz CNAME .
 *.ad.faraan.xyz CNAME .
 agent.frankutils.xyz CNAME .

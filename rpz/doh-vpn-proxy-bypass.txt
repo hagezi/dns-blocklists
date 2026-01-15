@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768488180 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768516920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jan 2026 14:43 UTC
-; Version: 2026.0115.1443.09
+; Last modified: 15 Jan 2026 22:42 UTC
+; Version: 2026.0115.2242.34
 ; Syntax: RPZ
-; Number of entries: 14132
+; Number of entries: 14118
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -497,6 +497,8 @@ yui.cat CNAME .
 *.yui.cat CNAME .
 6912044.cc CNAME .
 *.6912044.cc CNAME .
+adguard-vpn.cc CNAME .
+*.adguard-vpn.cc CNAME .
 ag.alexf.cc CNAME .
 *.ag.alexf.cc CNAME .
 kintoun.alves.cc CNAME .
@@ -2297,8 +2299,6 @@ family.dns.doubleangels.com CNAME .
 *.family.dns.doubleangels.com CNAME .
 douglaster.com CNAME .
 *.douglaster.com CNAME .
-idkfun.dougtreadwell.com CNAME .
-*.idkfun.dougtreadwell.com CNAME .
 k12kxploit.dougtreadwell.com CNAME .
 *.k12kxploit.dougtreadwell.com CNAME .
 downloadvpnfree.com CNAME .
@@ -2505,8 +2505,6 @@ biying.flymlc.com CNAME .
 *.biying.flymlc.com CNAME .
 flyproxy.com CNAME .
 *.flyproxy.com CNAME .
-flyssh.com CNAME .
-*.flyssh.com CNAME .
 flyvpn.com CNAME .
 *.flyvpn.com CNAME .
 rf4.forestberrypi.com CNAME .
@@ -2567,8 +2565,6 @@ freedomproxy.com CNAME .
 *.freedomproxy.com CNAME .
 freeeuroproxy.com CNAME .
 *.freeeuroproxy.com CNAME .
-freemicvpn.com CNAME .
-*.freemicvpn.com CNAME .
 dns.freemyemail.com CNAME .
 *.dns.freemyemail.com CNAME .
 walhalla.freemyip.com CNAME .
@@ -8549,6 +8545,8 @@ y9iiz61k4yu67jfgcx.boxathome.net CNAME .
 *.y9iiz61k4yu67jfgcx.boxathome.net CNAME .
 breakwall.net CNAME .
 *.breakwall.net CNAME .
+bringover.net CNAME .
+*.bringover.net CNAME .
 dns.brionesserver.net CNAME .
 *.dns.brionesserver.net CNAME .
 bro-ru.net CNAME .
@@ -9183,14 +9181,8 @@ us-ny.foxyfy.net CNAME .
 *.us-ny.foxyfy.net CNAME .
 us-sj.foxyfy.net CNAME .
 *.us-sj.foxyfy.net CNAME .
-securly.com.fpr.net CNAME .
-*.securly.com.fpr.net CNAME .
-hotmoms.fpr.net CNAME .
-*.hotmoms.fpr.net CNAME .
 scienceschoolmath.fpr.net CNAME .
 *.scienceschoolmath.fpr.net CNAME .
-turtlelover.fpr.net CNAME .
-*.turtlelover.fpr.net CNAME .
 zi000.fpr.net CNAME .
 *.zi000.fpr.net CNAME .
 free-proxy-list.net CNAME .
@@ -9727,8 +9719,8 @@ remotevpn.net CNAME .
 *.remotevpn.net CNAME .
 richardo.net CNAME .
 *.richardo.net CNAME .
-riseup.net CNAME .
-*.riseup.net CNAME .
+api.black.riseup.net CNAME .
+*.api.black.riseup.net CNAME .
 adguard.rjscho.net CNAME .
 *.adguard.rjscho.net CNAME .
 alishnekdi.rotorootie.net CNAME .
@@ -10321,6 +10313,8 @@ unblockit.onl CNAME .
 *.4tmiqmwguzcwcn.online CNAME .
 dns.abdullahabas.online CNAME .
 *.dns.abdullahabas.online CNAME .
+adguard-vpn.online CNAME .
+*.adguard-vpn.online CNAME .
 alleesph.online CNAME .
 *.alleesph.online CNAME .
 dns.apigw.online CNAME .
@@ -10709,8 +10703,6 @@ testapp-0-1-1.duckdns.org CNAME .
 *.testapp-0-1-1.duckdns.org CNAME .
 thaibksri.duckdns.org CNAME .
 *.thaibksri.duckdns.org CNAME .
-theadblocksg.duckdns.org CNAME .
-*.theadblocksg.duckdns.org CNAME .
 ts653d.duckdns.org CNAME .
 *.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
@@ -12027,8 +12019,6 @@ vcjcjmgjfjfkghjfhnuixfyagofygrna.dinprima.ro CNAME .
 *.vcjcjmgjfjfkghjfhnuixfyagofygrna.dinprima.ro CNAME .
 whyarewearewhatarewearewhatarewe.dinprima.ro CNAME .
 *.whyarewearewhatarewearewhatarewe.dinprima.ro CNAME .
-pleasehelpsecineedschoolnottobeborngplsplspls.eminescusm.ro CNAME .
-*.pleasehelpsecineedschoolnottobeborngplsplspls.eminescusm.ro CNAME .
 sd.galaxysoft.ro CNAME .
 *.sd.galaxysoft.ro CNAME .
 roadesdyn.go.ro CNAME .
@@ -12495,8 +12485,6 @@ fimoshinckaya-federation.site CNAME .
 *.fimoshinckaya-federation.site CNAME .
 firstcontact.site CNAME .
 *.firstcontact.site CNAME .
-fptdns.site CNAME .
-*.fptdns.site CNAME .
 www-croxy.ghgi.site CNAME .
 *.www-croxy.ghgi.site CNAME .
 ms.gswsfh2021.site CNAME .
@@ -13845,8 +13833,6 @@ fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
 ezhyperlix.xyz CNAME .
 *.ezhyperlix.xyz CNAME .
-dns.f97.xyz CNAME .
-*.dns.f97.xyz CNAME .
 ad.faraan.xyz CNAME .
 *.ad.faraan.xyz CNAME .
 fastcontent.xyz CNAME .
