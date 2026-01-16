@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768560000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768586160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jan 2026 10:40 UTC
-; Version: 2026.0116.1040.44
+; Last modified: 16 Jan 2026 17:56 UTC
+; Version: 2026.0116.1756.28
 ; Syntax: RPZ
-; Number of entries: 6954
+; Number of entries: 6950
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1621,8 +1621,6 @@ dns.us-ashburn-1.oraclecloud.com CNAME .
 *.dns.us-ashburn-1.oraclecloud.com CNAME .
 dns.us-phoenix-1.oraclecloud.com CNAME .
 *.dns.us-phoenix-1.oraclecloud.com CNAME .
-ortudns.com CNAME .
-*.ortudns.com CNAME .
 dns.oryxlabs.com CNAME .
 *.dns.oryxlabs.com CNAME .
 dns.osmenoga.com CNAME .
@@ -4253,8 +4251,6 @@ us-saj-w-f-1.nashkan.net CNAME .
 *.us-saj-w-f-1.nashkan.net CNAME .
 us-saj-w-p-1.nashkan.net CNAME .
 *.us-saj-w-p-1.nashkan.net CNAME .
-adguard.neotix.net CNAME .
-*.adguard.neotix.net CNAME .
 dns.netrve.net CNAME .
 *.dns.netrve.net CNAME .
 resolv2.nettplus.net CNAME .

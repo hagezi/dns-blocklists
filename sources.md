@@ -3,6 +3,7 @@
 ```
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/adguard_popup_filter.txt
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+https://big.oisd.nl
 https://botvrij.eu/data/ioclist.domain
 https://botvrij.eu/data/ioclist.hostname
 https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/chinese-filter.txt
@@ -52,6 +53,7 @@ https://hole.cert.pl/domains/domains.txt
 https://hole.cert.pl/domains/v2/domains.txt
 https://hosts.tweedge.net/malicious.txt
 https://lists.cyberhost.uk/malware.txt
+https://nsfw.oisd.nl
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
 https://phish.co.za/latest/phishing-domains-ACTIVE.txt
 https://phishing.army/download/phishing_army_blocklist_extended.txt

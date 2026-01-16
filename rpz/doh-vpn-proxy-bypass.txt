@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768560060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768586220 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jan 2026 10:41 UTC
-; Version: 2026.0116.1041.24
+; Last modified: 16 Jan 2026 17:57 UTC
+; Version: 2026.0116.1757.04
 ; Syntax: RPZ
-; Number of entries: 14302
+; Number of entries: 14300
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -3899,8 +3899,6 @@ oraclevpn.com CNAME .
 *.oraclevpn.com CNAME .
 learning.orestpena.com CNAME .
 *.learning.orestpena.com CNAME .
-ortudns.com CNAME .
-*.ortudns.com CNAME .
 dns.oryxlabs.com CNAME .
 *.dns.oryxlabs.com CNAME .
 os4work.com CNAME .
@@ -4083,6 +4081,8 @@ dns.proprietarypenguin.com CNAME .
 *.dns.proprietarypenguin.com CNAME .
 edu.prostitutki-na-vyezd.com CNAME .
 *.edu.prostitutki-na-vyezd.com CNAME .
+vpn.protondownload.com CNAME .
+*.vpn.protondownload.com CNAME .
 protonstatus.com CNAME .
 *.protonstatus.com CNAME .
 protonvpn.com CNAME .
@@ -9653,8 +9653,6 @@ us-saj-w-f-1.nashkan.net CNAME .
 *.us-saj-w-f-1.nashkan.net CNAME .
 us-saj-w-p-1.nashkan.net CNAME .
 *.us-saj-w-p-1.nashkan.net CNAME .
-adguard.neotix.net CNAME .
-*.adguard.neotix.net CNAME .
 netapult.net CNAME .
 *.netapult.net CNAME .
 netitude.net CNAME .
