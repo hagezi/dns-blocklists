@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768512600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768541340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jan 2026 21:30 UTC
-; Version: 2026.0115.2130.01
+; Last modified: 16 Jan 2026 05:29 UTC
+; Version: 2026.0116.0529.44
 ; Syntax: RPZ
-; Number of entries: 20224
+; Number of entries: 20208
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1383,8 +1383,6 @@ gmh.bz CNAME .
 *.gmh.bz CNAME .
 gst.bz CNAME .
 *.gst.bz CNAME .
-hut.bz CNAME .
-*.hut.bz CNAME .
 ice.bz CNAME .
 *.ice.bz CNAME .
 iti.bz CNAME .
@@ -4539,8 +4537,6 @@ goatcodes.com CNAME .
 *.goatcodes.com CNAME .
 link.goglogo.com CNAME .
 *.link.goglogo.com CNAME .
-gohostd.com CNAME .
-*.gohostd.com CNAME .
 gomakethings.com CNAME .
 *.gomakethings.com CNAME .
 gomyly.com CNAME .
@@ -4641,8 +4637,6 @@ shorrtener.herokuapp.com CNAME .
 *.shorrtener.herokuapp.com CNAME .
 heykamu.com CNAME .
 *.heykamu.com CNAME .
-hibastyle.com CNAME .
-*.hibastyle.com CNAME .
 hibfox.com CNAME .
 *.hibfox.com CNAME .
 hicider.com CNAME .
@@ -9579,8 +9573,6 @@ gjk.id CNAME .
 *.gjk.id CNAME .
 s.bnpb.go.id CNAME .
 *.s.bnpb.go.id CNAME .
-goads.id CNAME .
-*.goads.id CNAME .
 goitb.id CNAME .
 *.goitb.id CNAME .
 hilink.id CNAME .
@@ -11461,18 +11453,12 @@ elmnp.ir CNAME .
 *.elmnp.ir CNAME .
 fi9.ir CNAME .
 *.fi9.ir CNAME .
-go2l.ir CNAME .
-*.go2l.ir CNAME .
 h3x.ir CNAME .
 *.h3x.ir CNAME .
-harmonyurl.ir CNAME .
-*.harmonyurl.ir CNAME .
 amirhossein.id.ir CNAME .
 *.amirhossein.id.ir CNAME .
 ilk.ir CNAME .
 *.ilk.ir CNAME .
-irbaz.ir CNAME .
-*.irbaz.ir CNAME .
 iwo.ir CNAME .
 *.iwo.ir CNAME .
 kccim.ir CNAME .
@@ -17375,8 +17361,6 @@ fsu.ro CNAME .
 *.fsu.ro CNAME .
 icks.ro CNAME .
 *.icks.ro CNAME .
-invata-acum.ro CNAME .
-*.invata-acum.ro CNAME .
 iuu.ro CNAME .
 *.iuu.ro CNAME .
 jar.ro CNAME .
