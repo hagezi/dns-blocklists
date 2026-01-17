@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 15 Jan 2026 19:17 UTC
-# Version: 2026.0115.1917.58
+# Last modified: 17 Jan 2026 14:21 UTC
+# Version: 2026.0117.1421.24
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 490
+# Number of entries: 512
 #
 local=/frontier23-normal-alisg.tiktokv.com.bpgslb.com/
 local=/frontier.byteoversea.com/
@@ -90,16 +90,31 @@ local=/tnc-va.capcutapi.com/
 local=/tnc-va-us-looki.capcutapi.com/
 local=/tnc16-normal-us-ttp.capcutapi.us/
 local=/frontier.capcutw.us/
+local=/mcs-i18n.tiktok.com.edgekey.net/
+local=/mcs-sg.tiktok.com.edgekey.net/
+local=/mcs-va.tiktok.com.edgekey.net/
 local=/frontier-ru.tiktokv.com.edgekey.net/
+local=/mcs-sg.tiktokv.com.edgekey.net/
+local=/mcs-va.tiktokv.com.edgekey.net/
+local=/mcs-va-useast2a.tiktokv.com.edgekey.net/
 local=/mon-boot.tiktokv.com.edgekey.net/
 local=/mssdk-boot.tiktokv.com.edgekey.net/
+local=/mcs.us.tiktok.com.edgesuite.net/
+local=/mcs-ttp2.us.tiktok.com.edgesuite.net/
 local=/sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net/
+local=/mcs.us.tiktokv.com.edgesuite.net/
 local=/frontier.tiktokv-eu.com.edgesuite.net/
 local=/frontier16-normal-no1a.tiktokv.eu.edgesuite.net/
 local=/frontier16-normal-useastred.tiktokv.eu.edgesuite.net/
+local=/mcs-ie2.tiktokw.eu.edgesuite.net/
+local=/mcs16-normal-no1a.tiktokw.eu.edgesuite.net/
+local=/mcs16-normal-useastred.tiktokw.eu.edgesuite.net/
 local=/frontier.capcutw.us.edgesuite.net/
 local=/frontier.tiktokv.us.edgesuite.net/
 local=/frontier-ttp2.tiktokv.us.edgesuite.net/
+local=/mcs.tiktokv.us.edgesuite.net/
+local=/mcs-ttp2.tiktokv.us.edgesuite.net/
+local=/mcs.tiktokw.us.edgesuite.net/
 local=/abtest-ch.snssdk.com/
 local=/analytics.snssdk.com/
 local=/applog.snssdk.com/
@@ -175,6 +190,7 @@ local=/analytics-ttp2.us.tiktok.com/
 local=/mcs.us.tiktok.com/
 local=/mcs-ttp2.us.tiktok.com/
 local=/mssdk.us.tiktok.com/
+local=/mcs.tiktok-row.net/
 local=/sf16-telemetry-proxy-oci.tiktokcdn-us.com/
 local=/ad.tiktokv.com/
 local=/ad.tiktokv.us/
@@ -498,5 +514,11 @@ local=/mcs16-normal-useastred.tiktokw.eu/
 local=/mssdk.tiktokw.eu/
 local=/mssdk.tiktokw.us/
 local=/mssdk16-normal-useastred.tiktokw.eu/
+local=/mcs-sg.tiktok.com.ttdns2.com/
+local=/mcs-va.tiktok.com.ttdns2.com/
+local=/mcs-va.tiktokv.com.ttdns2.com/
+local=/mcs-va-useast2a.tiktokv.com.ttdns2.com/
 local=/frontier.tiktokv-eu.com.ttdns3.com/
+local=/mcs-ie.tiktokw.eu.ttdns3.com/
+local=/mcs-ie2.tiktokw.eu.ttdns3.com/
 local=/h4g3z1-native.tiktok.extended.web.app/

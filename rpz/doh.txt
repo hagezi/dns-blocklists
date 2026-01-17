@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768646340 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768689480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jan 2026 10:39 UTC
-; Version: 2026.0117.1039.09
+; Last modified: 17 Jan 2026 22:38 UTC
+; Version: 2026.0117.2238.50
 ; Syntax: RPZ
-; Number of entries: 6938
+; Number of entries: 6934
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2977,8 +2977,6 @@ dns.jsd.web.id CNAME .
 *.dns.jsd.web.id CNAME .
 panser.web.id CNAME .
 *.panser.web.id CNAME .
-s.rafiadinata.web.id CNAME .
-*.s.rafiadinata.web.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
 web-rated.ie CNAME .
@@ -3267,8 +3265,6 @@ pro.shecan.ir CNAME .
 *.pro.shecan.ir CNAME .
 dns.virtual-qr.ir CNAME .
 *.dns.virtual-qr.ir CNAME .
-adg.webyfa.ir CNAME .
-*.adg.webyfa.ir CNAME .
 cryptostorm.is CNAME .
 *.cryptostorm.is CNAME .
 dns.flatuslifir.is CNAME .
