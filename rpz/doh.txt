@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768586160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768617480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jan 2026 17:56 UTC
-; Version: 2026.0116.1756.28
+; Last modified: 17 Jan 2026 02:38 UTC
+; Version: 2026.0117.0238.53
 ; Syntax: RPZ
-; Number of entries: 6950
+; Number of entries: 6946
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -4295,8 +4295,6 @@ mydns.phatna.net CNAME .
 *.mydns.phatna.net CNAME .
 dns.phillipjberry.net CNAME .
 *.dns.phillipjberry.net CNAME .
-pioko.net CNAME .
-*.pioko.net CNAME .
 dns.powerbs.net CNAME .
 *.dns.powerbs.net CNAME .
 home.qbak.net CNAME .
@@ -5993,8 +5991,6 @@ amopython.shop CNAME .
 *.amopython.shop CNAME .
 hfgx.shop CNAME .
 *.hfgx.shop CNAME .
-paradise-human.shop CNAME .
-*.paradise-human.shop CNAME .
 beta.thegodfatheriam.shop CNAME .
 *.beta.thegodfatheriam.shop CNAME .
 polisitogel.show CNAME .

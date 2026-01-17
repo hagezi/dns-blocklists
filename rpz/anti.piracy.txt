@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768586280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768617180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jan 2026 17:58 UTC
-; Version: 2026.0116.1758.09
+; Last modified: 17 Jan 2026 02:33 UTC
+; Version: 2026.0117.0233.44
 ; Syntax: RPZ
-; Number of entries: 23358
+; Number of entries: 23338
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -194,8 +194,6 @@ bitcine.app CNAME .
 *.bitcine.app CNAME .
 buffstreams.app CNAME .
 *.buffstreams.app CNAME .
-burmese.app CNAME .
-*.burmese.app CNAME .
 cb01.app CNAME .
 *.cb01.app CNAME .
 cineby.app CNAME .
@@ -520,8 +518,6 @@ hdmovie2.bar CNAME .
 *.hdmovie2.bar CNAME .
 ettv.mrunblock.bar CNAME .
 *.ettv.mrunblock.bar CNAME .
-putlockers.bar CNAME .
-*.putlockers.bar CNAME .
 streamingcommunityz.bar CNAME .
 *.streamingcommunityz.bar CNAME .
 unblocked.bar CNAME .
@@ -1666,6 +1662,8 @@ tlgetin.cc CNAME .
 *.tlgetin.cc CNAME .
 torrentdownloads.cc CNAME .
 *.torrentdownloads.cc CNAME .
+node02.torrentonline.cc CNAME .
+*.node02.torrentonline.cc CNAME .
 torrentproject.cc CNAME .
 *.torrentproject.cc CNAME .
 torrents9.cc CNAME .
@@ -5290,6 +5288,8 @@ justinwb.com CNAME .
 *.justinwb.com CNAME .
 jutone.com CNAME .
 *.jutone.com CNAME .
+jvavav.com CNAME .
+*.jvavav.com CNAME .
 k2nblog.com CNAME .
 *.k2nblog.com CNAME .
 kaitovault.com CNAME .
@@ -6422,8 +6422,6 @@ popuw.com CNAME .
 *.popuw.com CNAME .
 pornevo.com CNAME .
 *.pornevo.com CNAME .
-porno-torent.com CNAME .
-*.porno-torent.com CNAME .
 pornoshara.com CNAME .
 *.pornoshara.com CNAME .
 portable4pc.com CNAME .
@@ -6538,8 +6536,6 @@ putlockert.com CNAME .
 *.putlockert.com CNAME .
 putlockerwatch.com CNAME .
 *.putlockerwatch.com CNAME .
-quebec-partage.com CNAME .
-*.quebec-partage.com CNAME .
 quedustreaming.com CNAME .
 *.quedustreaming.com CNAME .
 quezstresser.com CNAME .
@@ -6566,8 +6562,6 @@ rainbownetworkbd.com CNAME .
 *.rainbownetworkbd.com CNAME .
 rajaapk.com CNAME .
 *.rajaapk.com CNAME .
-ramsport1.com CNAME .
-*.ramsport1.com CNAME .
 randomnothings.com CNAME .
 *.randomnothings.com CNAME .
 raphustle.com CNAME .
@@ -6676,8 +6670,6 @@ rlsdb.com CNAME .
 *.rlsdb.com CNAME .
 rnbastreams.com CNAME .
 *.rnbastreams.com CNAME .
-roarmediazone.com CNAME .
-*.roarmediazone.com CNAME .
 rochestergroove.com CNAME .
 *.rochestergroove.com CNAME .
 rodelaonlinebd.com CNAME .
@@ -11148,8 +11140,6 @@ putlockerr.is CNAME .
 *.putlockerr.is CNAME .
 putlockers.is CNAME .
 *.putlockers.is CNAME .
-rainierland.is CNAME .
-*.rainierland.is CNAME .
 rarbg.is CNAME .
 *.rarbg.is CNAME .
 ripple.is CNAME .
@@ -12374,8 +12364,6 @@ tracker.openlook.me CNAME .
 *.tracker.openlook.me CNAME .
 passthepopcorn.me CNAME .
 *.passthepopcorn.me CNAME .
-pelisflix20.me CNAME .
-*.pelisflix20.me CNAME .
 piratepc.me CNAME .
 *.piratepc.me CNAME .
 tracker.pixelcove.me CNAME .
@@ -14158,8 +14146,6 @@ publictorrent.net CNAME .
 *.publictorrent.net CNAME .
 pubt.net CNAME .
 *.pubt.net CNAME .
-putlocker2021.net CNAME .
-*.putlocker2021.net CNAME .
 putlockerfree.net CNAME .
 *.putlockerfree.net CNAME .
 putlockers.net CNAME .
@@ -15318,8 +15304,6 @@ onlyforscholarship.online CNAME .
 *.onlyforscholarship.online CNAME .
 pelisflix20.online CNAME .
 *.pelisflix20.online CNAME .
-pelisplus.online CNAME .
-*.pelisplus.online CNAME .
 pirate-bay.online CNAME .
 *.pirate-bay.online CNAME .
 piratv.online CNAME .
@@ -21582,8 +21566,6 @@ putlockers.tv CNAME .
 *.putlockers.tv CNAME .
 quantus.tv CNAME .
 *.quantus.tv CNAME .
-rapidzona.tv CNAME .
-*.rapidzona.tv CNAME .
 rebellyon.tv CNAME .
 *.rebellyon.tv CNAME .
 redditsoccerstreams.tv CNAME .
@@ -23200,8 +23182,6 @@ redwarez.xyz CNAME .
 *.redwarez.xyz CNAME .
 rivestream.xyz CNAME .
 *.rivestream.xyz CNAME .
-ronnyflix.xyz CNAME .
-*.ronnyflix.xyz CNAME .
 tracker.sakurato.xyz CNAME .
 *.tracker.sakurato.xyz CNAME .
 santost12.xyz CNAME .
