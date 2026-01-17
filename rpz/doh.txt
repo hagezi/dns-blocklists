@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768617480 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768646340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jan 2026 02:38 UTC
-; Version: 2026.0117.0238.53
+; Last modified: 17 Jan 2026 10:39 UTC
+; Version: 2026.0117.1039.09
 ; Syntax: RPZ
-; Number of entries: 6946
+; Number of entries: 6938
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -239,8 +239,6 @@ dns.casadecampo.casa CNAME .
 *.dns.casadecampo.casa CNAME .
 pds.cfornas.casa CNAME .
 *.pds.cfornas.casa CNAME .
-sriedmueadguard.casa CNAME .
-*.sriedmueadguard.casa CNAME .
 dns.native.cat CNAME .
 *.dns.native.cat CNAME .
 ag.alexf.cc CNAME .
@@ -3265,8 +3263,6 @@ dns.sbstructure.ir CNAME .
 *.dns.sbstructure.ir CNAME .
 dns.shecan.ir CNAME .
 *.dns.shecan.ir CNAME .
-free.shecan.ir CNAME .
-*.free.shecan.ir CNAME .
 pro.shecan.ir CNAME .
 *.pro.shecan.ir CNAME .
 dns.virtual-qr.ir CNAME .
@@ -3595,8 +3591,6 @@ do.shimul.me CNAME .
 *.do.shimul.me CNAME .
 dns.sildom.me CNAME .
 *.dns.sildom.me CNAME .
-adguard.sparshbajaj.me CNAME .
-*.adguard.sparshbajaj.me CNAME .
 bucheli.synology.me CNAME .
 *.bucheli.synology.me CNAME .
 chlaebi.synology.me CNAME .
@@ -4563,8 +4557,6 @@ dns1.schooldns.nl CNAME .
 *.dns1.schooldns.nl CNAME .
 doh.sidnlabs.nl CNAME .
 *.doh.sidnlabs.nl CNAME .
-lux.sn0w.nl CNAME .
-*.lux.sn0w.nl CNAME .
 dns.sstomp.nl CNAME .
 *.dns.sstomp.nl CNAME .
 timmes.nl CNAME .
