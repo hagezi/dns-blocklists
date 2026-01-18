@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768742880 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768771680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jan 2026 13:28 UTC
-; Version: 2026.0118.1328.33
+; Last modified: 18 Jan 2026 21:28 UTC
+; Version: 2026.0118.2128.44
 ; Syntax: RPZ
-; Number of entries: 28278
+; Number of entries: 28282
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -1938,6 +1938,8 @@ webtrader.aeratiqos.com CNAME .
 *.webtrader.aeratiqos.com CNAME .
 aetherarkex.com CNAME .
 *.aetherarkex.com CNAME .
+aetiducri.com CNAME .
+*.aetiducri.com CNAME .
 af-anlagenpartner.com CNAME .
 *.af-anlagenpartner.com CNAME .
 affenzahn-schuhe.com CNAME .
@@ -2960,6 +2962,8 @@ banqueoption.com CNAME .
 *.banqueoption.com CNAME .
 banxso.com CNAME .
 *.banxso.com CNAME .
+baolaoton.com CNAME .
+*.baolaoton.com CNAME .
 bapeeesti.com CNAME .
 *.bapeeesti.com CNAME .
 bapeisrael.com CNAME .
