@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768689180 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768732620 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jan 2026 22:33 UTC
-; Version: 2026.0117.2233.40
+; Last modified: 18 Jan 2026 10:37 UTC
+; Version: 2026.0118.1037.45
 ; Syntax: RPZ
 ; Number of entries: 23286
 ;
@@ -190,6 +190,8 @@ bitcine.app CNAME .
 *.bitcine.app CNAME .
 buffstreams.app CNAME .
 *.buffstreams.app CNAME .
+burmese.app CNAME .
+*.burmese.app CNAME .
 cb01.app CNAME .
 *.cb01.app CNAME .
 cineby.app CNAME .
@@ -5280,8 +5282,6 @@ justinwb.com CNAME .
 *.justinwb.com CNAME .
 jutone.com CNAME .
 *.jutone.com CNAME .
-jvavav.com CNAME .
-*.jvavav.com CNAME .
 k2nblog.com CNAME .
 *.k2nblog.com CNAME .
 kaitovault.com CNAME .
@@ -8566,8 +8566,6 @@ altadefinizione.dating CNAME .
 *.altadefinizione.dating CNAME .
 tracker.cutie.dating CNAME .
 *.tracker.cutie.dating CNAME .
-tracker-de-2.cutie.dating CNAME .
-*.tracker-de-2.cutie.dating CNAME .
 vegamovies.dating CNAME .
 *.vegamovies.dating CNAME .
 altadefinizione.day CNAME .
@@ -15876,6 +15874,8 @@ kingtam.eu.org CNAME .
 *.kingtam.eu.org CNAME .
 1cc.kr.eu.org CNAME .
 *.1cc.kr.eu.org CNAME .
+tracker.maya.no.eu.org CNAME .
+*.tracker.maya.no.eu.org CNAME .
 torrent.eu.org CNAME .
 *.torrent.eu.org CNAME .
 1.tracker.eu.org CNAME .
