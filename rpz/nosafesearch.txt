@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768586100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768850040 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,11 +9,13 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jan 2026 17:55 UTC
-; Version: 2026.0116.1755.37
+; Last modified: 19 Jan 2026 19:14 UTC
+; Version: 2026.0119.1914.23
 ; Syntax: RPZ
-; Number of entries: 358
+; Number of entries: 420
 ;
+search.femboy.ad CNAME .
+*.search.femboy.ad CNAME .
 h4g3z1-nosafesearch.web.app CNAME .
 *.h4g3z1-nosafesearch.web.app CNAME .
 searx.32bitflo.at CNAME .
@@ -24,6 +26,10 @@ searx.com.au CNAME .
 *.searx.com.au CNAME .
 searx.bar CNAME .
 *.searx.bar CNAME .
+search.ipsys.bf CNAME .
+*.search.ipsys.bf CNAME .
+searxng.biz CNAME .
+*.searxng.biz CNAME .
 search.aol.ca CNAME .
 *.search.aol.ca CNAME .
 dynabyte.ca CNAME .
@@ -44,6 +50,10 @@ searxzh.cn CNAME .
 *.searxzh.cn CNAME .
 search.0xgingi.com CNAME .
 *.search.0xgingi.com CNAME .
+100searchengines.com CNAME .
+*.100searchengines.com CNAME .
+search.abohiccups.com CNAME .
+*.search.abohiccups.com CNAME .
 alltheinternet.com CNAME .
 *.alltheinternet.com CNAME .
 andisearch.com CNAME .
@@ -74,10 +84,14 @@ gogoprivate.com CNAME .
 *.gogoprivate.com CNAME .
 hmsearx.h0meserver.com CNAME .
 *.hmsearx.h0meserver.com CNAME .
+searx.joshcenters.com CNAME .
+*.searx.joshcenters.com CNAME .
 lukol.com CNAME .
 *.lukol.com CNAME .
 metacrawler.com CNAME .
 *.metacrawler.com CNAME .
+metasearx.com CNAME .
+*.metasearx.com CNAME .
 mijisou.com CNAME .
 *.mijisou.com CNAME .
 millionshort.com CNAME .
@@ -86,6 +100,8 @@ search.modalogi.com CNAME .
 *.search.modalogi.com CNAME .
 mojeek.com CNAME .
 *.mojeek.com CNAME .
+monstercrawler.com CNAME .
+*.monstercrawler.com CNAME .
 neeva.com CNAME .
 *.neeva.com CNAME .
 nibblehole.com CNAME .
@@ -102,12 +118,18 @@ presearch.com CNAME .
 *.presearch.com CNAME .
 search.rabbit-company.com CNAME .
 *.search.rabbit-company.com CNAME .
+retifo.com CNAME .
+*.retifo.com CNAME .
+searchalot.com CNAME .
+*.searchalot.com CNAME .
 searchencrypt.com CNAME .
 *.searchencrypt.com CNAME .
 searx.semipvt.com CNAME .
 *.searx.semipvt.com CNAME .
 search.sethforprivacy.com CNAME .
 *.search.sethforprivacy.com CNAME .
+search.wdpserver.com CNAME .
+*.search.wdpserver.com CNAME .
 webcrawler.com CNAME .
 *.webcrawler.com CNAME .
 yep.com CNAME .
@@ -160,6 +182,10 @@ search.0xcb.dev CNAME .
 *.search.0xcb.dev CNAME .
 search.laksith.dev CNAME .
 *.search.laksith.dev CNAME .
+search.minus27315.dev CNAME .
+*.search.minus27315.dev CNAME .
+search.zina.dev CNAME .
+*.search.zina.dev CNAME .
 search.pabloferreiro.es CNAME .
 *.search.pabloferreiro.es CNAME .
 searx.divided-by-zero.eu CNAME .
@@ -186,8 +212,6 @@ searx.rasp.fr CNAME .
 *.searx.rasp.fr CNAME .
 wtf.roflcopter.fr CNAME .
 *.wtf.roflcopter.fr CNAME .
-search.spaceint.fr CNAME .
-*.search.spaceint.fr CNAME .
 searx.zapashcanon.fr CNAME .
 *.searx.zapashcanon.fr CNAME .
 s.trung.fun CNAME .
@@ -198,6 +222,8 @@ searx.cthd.icu CNAME .
 *.searx.cthd.icu CNAME .
 whoogle.lunar.icu CNAME .
 *.whoogle.lunar.icu CNAME .
+search.bladerunn.in CNAME .
+*.search.bladerunn.in CNAME .
 skyn3t.in CNAME .
 *.skyn3t.in CNAME .
 offtheradar.info CNAME .
@@ -210,6 +236,8 @@ searx.info CNAME .
 *.searx.info CNAME .
 searx.daetalytica.io CNAME .
 *.searx.daetalytica.io CNAME .
+gigablast.io CNAME .
+*.gigablast.io CNAME .
 search.privacytools.io CNAME .
 *.search.privacytools.io CNAME .
 searx.ir CNAME .
@@ -248,8 +276,18 @@ wiby.me CNAME .
 *.wiby.me CNAME .
 null.media CNAME .
 *.null.media CNAME .
+searxng.cups.moe CNAME .
+*.searxng.cups.moe CNAME .
+search.oh64.moe CNAME .
+*.search.oh64.moe CNAME .
+search.anoni.net CNAME .
+*.search.anoni.net CNAME .
 search.azkware.net CNAME .
 *.search.azkware.net CNAME .
+search.charliewhiskey.net CNAME .
+*.search.charliewhiskey.net CNAME .
+search.internetsucks.net CNAME .
+*.search.internetsucks.net CNAME .
 searx.nakhan.net CNAME .
 *.searx.nakhan.net CNAME .
 search.nebulacentre.net CNAME .
@@ -294,6 +332,8 @@ searx.elukerio.org CNAME .
 *.searx.elukerio.org CNAME .
 searx.everdot.org CNAME .
 *.searx.everdot.org CNAME .
+search.freestater.org CNAME .
+*.search.freestater.org CNAME .
 search.garudalinux.org CNAME .
 *.search.garudalinux.org CNAME .
 seeks.hsbp.org CNAME .
@@ -310,6 +350,8 @@ search.opentunisia.org CNAME .
 *.search.opentunisia.org CNAME .
 privacia.org CNAME .
 *.privacia.org CNAME .
+privacywall.org CNAME .
+*.privacywall.org CNAME .
 librex.pufe.org CNAME .
 *.librex.pufe.org CNAME .
 searche.org CNAME .
@@ -322,6 +364,10 @@ searx.thegreenwebfoundation.org CNAME .
 *.searx.thegreenwebfoundation.org CNAME .
 suche.uferwerk.org CNAME .
 *.suche.uferwerk.org CNAME .
+search.unredacted.org CNAME .
+*.search.unredacted.org CNAME .
+searx.party CNAME .
+*.searx.party CNAME .
 searx.linux.pizza CNAME .
 *.searx.linux.pizza CNAME .
 searx.monicz.pl CNAME .
@@ -336,30 +382,44 @@ searx.ru CNAME .
 *.searx.ru CNAME .
 searx.run CNAME .
 *.searx.run CNAME .
+search.darkness.services CNAME .
+*.search.darkness.services CNAME .
 searx.nixnet.services CNAME .
 *.searx.nixnet.services CNAME .
 searx.si CNAME .
 *.searx.si CNAME .
 searx.lynnesbian.space CNAME .
 *.searx.lynnesbian.space CNAME .
+searx.space CNAME .
+*.searx.space CNAME .
+searx.stream CNAME .
+*.searx.stream CNAME .
 searx.gnu.style CNAME .
 *.searx.gnu.style CNAME .
 search.funami.tech CNAME .
 *.search.funami.tech CNAME .
 search.trom.tf CNAME .
 *.search.trom.tf CNAME .
+searxng.canine.tools CNAME .
+*.searxng.canine.tools CNAME .
 searx.ericaftereric.top CNAME .
 *.searx.ericaftereric.top CNAME .
 searx.lavatech.top CNAME .
 *.searx.lavatech.top CNAME .
 search.aol.co.uk CNAME .
 *.search.aol.co.uk CNAME .
+search.undertale.uk CNAME .
+*.search.undertale.uk CNAME .
 searx.wegeeks.win CNAME .
 *.searx.wegeeks.win CNAME .
 searx.work CNAME .
 *.searx.work CNAME .
+grep.vim.wtf CNAME .
+*.grep.vim.wtf CNAME .
 xo.wtf CNAME .
 *.xo.wtf CNAME .
+search.2b9t.xyz CNAME .
+*.search.2b9t.xyz CNAME .
 search.albony.xyz CNAME .
 *.search.albony.xyz CNAME .
 search.davidovski.xyz CNAME .
@@ -370,5 +430,7 @@ search.rubberverse.xyz CNAME .
 *.search.rubberverse.xyz CNAME .
 searx.xyz CNAME .
 *.searx.xyz CNAME .
+find.xenorio.xyz CNAME .
+*.find.xenorio.xyz CNAME .
 search.zeroish.xyz CNAME .
 *.search.zeroish.xyz CNAME .
