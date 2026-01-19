@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768775640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768789980 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jan 2026 22:34 UTC
-; Version: 2026.0118.2234.42
+; Last modified: 19 Jan 2026 02:33 UTC
+; Version: 2026.0119.0233.55
 ; Syntax: RPZ
-; Number of entries: 23300
+; Number of entries: 23304
 ;
 altadefinizione.ac CNAME .
 *.altadefinizione.ac CNAME .
@@ -3710,6 +3710,8 @@ codeskeys24.com CNAME .
 *.codeskeys24.com CNAME .
 coldplaybootlegs.com CNAME .
 *.coldplaybootlegs.com CNAME .
+colivioo.com CNAME .
+*.colivioo.com CNAME .
 comandofilmetorrent.com CNAME .
 *.comandofilmetorrent.com CNAME .
 comandohdtorrents.com CNAME .
@@ -8572,6 +8574,8 @@ altadefinizione.dating CNAME .
 *.altadefinizione.dating CNAME .
 tracker.cutie.dating CNAME .
 *.tracker.cutie.dating CNAME .
+tracker-de-2.cutie.dating CNAME .
+*.tracker-de-2.cutie.dating CNAME .
 vegamovies.dating CNAME .
 *.vegamovies.dating CNAME .
 altadefinizione.day CNAME .
