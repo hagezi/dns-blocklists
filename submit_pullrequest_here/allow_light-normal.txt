@@ -1,0 +1,107 @@
+# Unblocking for relaxed lists only
+
+# https://www.reddit.com/r/ControlD/comments/1qja1jd/comment/o0xtkz2/
+statsig.anthropic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8659
+tw.netcore.co.in
+
+# n-tv app: When blocked, a video starts again after a few seconds
+### ad-ipd.sxp.smartclip.net
+### des.smartclip.net
+### te.technical-service.net
+### te2.technical-service.net
+### te.ip-prod.aws-cbc.cloud
+
+# Slow loading of the top images (tiles) in the new Windows 11 App Store
+### bat.bing.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7392
+*.i.posthog.com
+internal-*.posthog.com
+us.posthog.com
+posthog-ingress-prod-us-256455477.us-east-1.elb.amazonaws.com
+eu.posthog.com
+posthog-ingress-prod-eu-1819302861.eu-central-1.elb.amazonaws.com
+
+# AdBlock-Detection on various sites, e.g. https://tarnkappe.info/
+cdntrf.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7157
+*.pvp.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7044
+usage-ping.brave.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6893
+api.mantis-intelligence.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6811
+514001643.collect.igodigital.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5943
+variations.brave.com
+variations.bravesoftware.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5223
+smetrics.miles-and-more.com
+miles-and-more.com.data.adobedc.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4948
+ws.batch.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4928
+*.siteintercept.qualtrics.com
+*.siteintercept.qualtrics.com.cdn.cloudflare.net
+api.segment.io
+
+# Floods the dns with requests when blocked, possible battery drain on mobile devices.
+# If not blocked, 1-2 requests are made per day. 
+# Used for de-identified telemetry (DIT, anonymized telemetry) to collect integrity, reliability and performance data.
+# https://faq.whatsapp.com/538382354780857/
+dit.whatsapp.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4245
+callrail.com
+
+# Adblock detection iOS app derstandard.at
+### data-*.derstandard.at
+### data-dda7d24eb2.derstandard.at
+### at-w-atderstand-relay.iocnt.net
+### relay-client-c03.iocnt.net
+### imagesrv.adition.com
+### px.staticfiles.at
+
+# https://github.com/hagezi/dns-blocklists/issues/2229
+### ad3.adfarm1.adition.com
+
+# https://github.com/hagezi/dns-blocklists/issues/1183
+ad.71i.de
+data.sportdeutschland.tv
+
+# War Gaming Tile
+track.wargaming-aff.com
+
+# atresplayer.com videos on live channels
+www3.doubleclick.net
+# see: https://github.com/hagezi/dns-blocklists/issues/6662
+### 7db96.v.fwmrm.net
+
+# Breaks on-demand videos of Mediaset programs from smart TVs
+# Because it is a disguised, popular CNAME tracker, it is not unblocked in the aggressive lists.
+mediasetitalia01.wt-eu02.net
+
+# Possible fix for the data octopus Tiktok: 
+#  - You can't follow anyone
+#  - Random content doesn't load
+#  - Profiles remains empty
+#  - The app shows a network error
+#  - The same videos are often suggested
+# These errors are not reproducible and occur very rarely.
+# This Tiktoktupus app is the absolute privacy plague!
+# The domains will remain blocked in the native and aggressive lists for the time being.
+#log*-applog*.tiktok*.*
+#log*-checkout*.tiktok*.*
+#log*-normal*.tiktok*.*
+#log*-platform*.tiktok*.*
+#log*-tmp*.tiktok*.*

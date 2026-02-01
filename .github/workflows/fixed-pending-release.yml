@@ -1,0 +1,20 @@
+name: fixed-pending-release
+on:
+  issues:
+    types: labeled
+jobs:
+  comment:
+    if: github.event.label.name == 'fixed-pending-release'
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh issue comment "$NUMBER" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          BODY: >
+            Thank you for your support. The issue is scheduled to be fixed in the next release. 
+            You will be notified when the issue is finally fixed. 
+            Please keep the issue open; it will be automatically closed in the next release. 

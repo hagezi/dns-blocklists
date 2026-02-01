@@ -1,0 +1,236 @@
+# Unblocking for relaxed, balanced and aggressive (pro++) lists only
+
+# https://github.com/hagezi/dns-blocklists/issues/6664
+# https://github.com/hagezi/dns-blocklists/issues/7579
+# https://github.com/hagezi/dns-blocklists/issues/8956
+fscdn.eppo.cloud
+
+# https://github.com/hagezi/dns-blocklists/issues/7276
+0.datadog.pool.ntp.org
+1.datadog.pool.ntp.org
+2.datadog.pool.ntp.org
+3.datadog.pool.ntp.org
+datadog.pool.ntp.org
+
+# https://github.com/hagezi/dns-blocklists/issues/8079
+ssai.gumgum.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8115
+s3049749.t.eloqua.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7968
+tnc16-normal-ycru.tiktokv.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7864
+dd.monidentifiant.sncf
+dd.monidentifiant.sncf.first-party-js.datadome.co
+
+# https://github.com/hagezi/dns-blocklists/issues/7796
+optout.aboutads.info
+
+# Queries device coverage and guarantee data to assist support teams
+supportmetrics.apple.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2569
+a-fds.youborafds01.com
+
+# Blocking this domain has led to devices spamming the DNS resolver with requests 
+# every few seconds, which can disrupt normal streaming device functions 
+# or cause buffering issues for some services.
+*.youboranqs01.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7389
+ipwho.is
+
+# Google Maps Timeline feature
+locationhistory-pa.googleapis.com
+locationhistoryaggregates-pa.googleapis.com
+locationhistoryplacedetails-pa.googleapis.com
+
+# NFL app iOS/Android gets stuck on the start screen
+conduit.redfast.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6872
+*.ppe.settings.data.azclient.ms
+*.test.settings.data.azclient.ms
+atm-settingsfe-prod-geo2.trafficmanager.net
+settings-*.cloudapp.azure.com
+settings-*.data.microsoft.com
+settings.data.microsoft.com
+settingsfd-*.trafficmanager.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6931
+# Prevents the download of the Visual Studio Installer
+browser.events.data.microsoft.com
+browser.events.data.trafficmanager.net
+onedscolprdcus13.centralus.cloudapp.azure.com
+js.monitor.azure.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6749
+firebasecrashlyticssymbols.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6461
+*.ipify.org
+
+# Required in various bank applications
+cdn.appdynamics.com
+eum-appdynamics.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5915
+inference.location.live.net
+
+# https://github.com/hagezi/dns-blocklists/issues/5853
+mssdk-sg.tiktok.com
+mssdk-quic-sg.tiktok.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5393
+log.tailscale.io
+log.tailscale.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5252
+v10c.events.data.microsoft.com
+*-v10c.events.data.microsoft.com
+au-v10c.events.data.microsoft.com
+eu-v10c.events.data.microsoft.com
+jp-v10c.events.data.microsoft.com
+us-v10c.events.data.microsoft.com
+v10.events.data.microsoft.com
+*-v10.events.data.microsoft.com
+au-v10.events.data.microsoft.com
+eu-v10.events.data.microsoft.com
+jp-v10.events.data.microsoft.com
+us-v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+*-v20.events.data.microsoft.com
+au-v20.events.data.microsoft.com
+eu-v20.events.data.microsoft.com
+in-v20.events.data.microsoft.com
+jp-v20.events.data.microsoft.com
+uk-v20.events.data.microsoft.com
+us4-v20.events.data.microsoft.com
+us5-v20.events.data.microsoft.com
+us-v20.events.data.microsoft.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3573
+heartbeats.prd.data.s.joyn.de
+# https://github.com/AdguardTeam/AdguardFilters/issues/183277
+event-collector.prd.data.s.joyn.de
+event-collector.stg.data.s.joyn.de
+
+# Brave crypto
+basicattentiontoken.org
+
+# https://github.com/hagezi/dns-blocklists/issues/3621
+api.applicationinsights.io
+api.loganalytics.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2588346367
+footprints-pa.googleapis.com
+
+# Needed for additional Assistant downloads on Android
+geller-pa.googleapis.com
+gellar-pa.googleapis.com
+
+# Google Wallet - breaks adding PKPASS files
+auditrecording-pa.googleapis.com
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2590327413
+voilatile-pa.googleapis.com
+
+# Blocks the sending of reports to Apple developers
+iphonesubmissions-old.apple.com
+iphonesubmissions.apple.com
+iphonesubmissions.apple.com.akadns.net
+iphonesubmissions.v.aaplimg.com
+radarsubmissions.apple.com
+radarsubmissions.apple.com.akadns.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4265
+*.lpsnmedia.net
+*.liveperson.net
+*.livepersonk.akadns.net
+
+# AdBlock-Detection on various sites, e.g. https://www.parcello.org/
+cdns.symplr.de
+
+# https://github.com/hagezi/dns-blocklists/issues/4209
+idiagnostics-devices-mdn.apple.com
+idiagnostics-devices-qa.apple.com
+idiagnostics-devices-reno.apple.com
+idiagnostics-ft.apple.com
+idiagnostics-mdn1.apple.com
+idiagnostics-qa.apple.com
+idiagnostics-reno.apple.com
+idiagnostics.apple.com
+idiagnostics.apple.com.akadns.net
+idiagnosticsdevices-mdn1.apple.com
+idiagnosticsnwk.apple.com
+odin-signals.apple.com
+idv-signals-pommery-prod.v.aaplimg.com
+
+# Adblock detection on bild.de and others
+tags.tiqcdn.com
+tags-eu.tiqcdn.com
+www.asadcdn.com
+cdn.opecloud.com
+ast.bild.de
+ast.bild.de.greylabeldelivery.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3610
+cstat-lb.apple.com.akadns.net
+cstat-origin.apple.com
+cstat.apple.com
+cstat.apple.com.edgesuite.net
+cstat.cdn-apple.com
+cstat.g.aaplimg.com
+cstat.g.apple.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3599
+px-conf.perimeterx.net
+px-conf.px-cloud.net
+px-conf.px-cdn.net
+px-conf.pxchk.net
+px-conf.px-client.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3521
+captcha.perimeterx.net
+captcha.px-cloud.net
+captcha.px-cdn.net
+captcha.pxchk.net
+captcha.px-client.net
+client.perimeterx.net
+client.px-cloud.net
+client.px-cdn.net
+client.pxchk.net
+client.px-client.net
+
+# Whatsapp Avatars, Helpcenter and Video effects
+graph.whatsapp.com
+graph.whatsapp.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3025
+lloydsbankinggroup.*.omtrdc.net
+adobetarget.data.adobedc.net
+*.lloydsbankinggroup.com.data.adobedc.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3023
+seat.sc.omtrdc.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2956
+centricabritishgas.sc.omtrdc.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3007
+wingify.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2853
+fundingchoices.google.com
+fundingchoicesmessages.google.com # Breaks also some mobile Apps/Games
+
+# API for Developers
+api.bigdatacloud.net
+
+# Real-time Geolocation & Reverse IP Lookup REST API
+api.ipapi.com
+
+# IP address identification endpoints
+*.seeip.org
+*.jsonip.com

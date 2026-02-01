@@ -1,0 +1,20 @@
+name: malicious-scam-phishing
+on:
+  issues:
+    types: labeled
+jobs:
+  comment:
+    if: github.event.label.name == 'malicious/scam/phishing'
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh issue comment "$NUMBER" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          BODY: >
+            Thank you for your support. 
+            Ping @MikhailKasimov for checking and possibly including the domain(s).
+            

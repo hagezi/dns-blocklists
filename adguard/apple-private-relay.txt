@@ -1,0 +1,14 @@
+! Title: HaGeZi's Apple Private Relay/DNS Bypass
+! Description: Blocks Apple Private Relay and possible Apple DNS bypasses correctly.
+! Homepage: https://github.com/hagezi/dns-blocklists
+! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+! Issues: https://github.com/hagezi/dns-blocklists/issues
+! Syntax: AdGuard Home/DNS
+! 
+||mask.icloud.com^$dnsrewrite=NXDOMAIN
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN
+||mask-canary.icloud.com^$dnsrewrite=NXDOMAIN
+||doh.dns.apple.com^$dnsrewrite=NXDOMAIN
+||doh-dns-apple-com.v.aaplimg.com^$dnsrewrite=NXDOMAIN
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN
+||_dns.resolver.arpa^$dnsrewrite=NXDOMAIN

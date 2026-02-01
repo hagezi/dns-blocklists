@@ -1,0 +1,122 @@
+# Unblocking for relaxed and balanced lists (non-aggressive) only.
+
+# https://github.com/hagezi/dns-blocklists/issues/2524
+# https://github.com/hagezi/dns-blocklists/issues/8425
+lma.npaw.com
+interceptor.npaw.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8392#issuecomment-3673432316
+csp.withgoogle.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8146
+analytics.home-assistant.io
+
+# https://github.com/hagezi/dns-blocklists/issues/8108
+receive-lp1.dg.srv.nintendo.net
+receive-lp1.er.srv.nintendo.net
+receive.p01.lp1.dg.srv.nintendo.net
+receive.p01.lp1.er.srv.nintendo.net
+
+# Savegamesync Steam - Train Valley 2 and others
+cdp.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+
+# Various Apps on Android (TomTom, …)
+device-api.asnapieu.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7342
+# https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1970
+cdn.trackjs.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7701
+fc.yahoo.com
+
+# Videos on various sites, e.g. https://time.com/collection/video/
+c.amazon-adsystem.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7309
+cn.find.api.micloud.xiaomi.net
+eu.find.api.micloud.xiaomi.net
+in.find.api.micloud.xiaomi.net
+us.find.api.micloud.xiaomi.net
+us2.find.api.micloud.xiaomi.net
+*.find.api.micloud.xiaomi.net
+
+# There are reports that the SSO (AD) login of various Microsoft apps does not work on Android - could not be reproduced and confirmed so far: https://github.com/hagezi/dns-blocklists/issues/5118
+mobile.events.data.microsoft.com
+au-mobile.events.data.microsoft.com
+eu-mobile.events.data.microsoft.com
+eu-r-mobile.events.data.microsoft.com
+in-mobile.events.data.microsoft.com
+jp-mobile.events.data.microsoft.com
+uk-mobile.events.data.microsoft.com
+us-mobile.events.data.microsoft.com
+# CNAMES
+mobile.events.data.trafficmanager.net
+au.events.data.trafficmanager.net
+eu.events.data.trafficmanager.net
+in.events.data.trafficmanager.net
+jp.events.data.trafficmanager.net
+uk.events.data.trafficmanager.net
+us.events.data.trafficmanager.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7357
+id.tinypass.com
+buy.tinypass.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4941
+cdn.convertbox.com
+app.convertbox.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6262
+remote-data.asnapieu.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6075
+raka.bing.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5625
+delivers.dtignite.com
+
+# Newsletter (un)subscribe/links (Quarks and other german sites)
+api.cleverpush.com
+static.cleverpush.com
+api-eu.cleverpush.com
+static-eu.cleverpush.com
+
+# Referral
+engagements.appsflyer.com
+
+# Office365 - Save documents to the cloud
+# https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+ecs.nel.measure.office.net
+
+# Videos on https://www.tv8.it/streaming
+cdn.speedcurve.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2754
+telemetry.banuba.cloud
+stats.sdk.banuba.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2757
+sdk-01.moengage.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2437#issuecomment-2053875051
+a0.app.xiaomi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2582
+karavel.112.2o7.net
+
+# Unsubscribe from newsletters (e.g. RND)
+api.pushwoosh.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2260
+webhook.logentries.com
+
+# https://github.com/hagezi/dns-blocklists/issues/1768
+# https://github.com/hagezi/dns-blocklists/issues/4587
+micro.rubiconproject.com
+digicertwc.rubiconproject.com.edgekey.net
+e8960.e2.akamaiedge.net
+
+# Apps (Pampers, ...)
+api.segment.io

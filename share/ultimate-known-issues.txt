@@ -1,0 +1,100 @@
+# Paramount+ - Streaming/Continue watching
+# Bild.de - Adblock-Detection
+# PlutoTV US
+tags.tiqcdn.com
+
+# PlutoTV US
+a-fds.youborafds01.com
+
+# Bild.de - Adblock-Detection
+ast.bild.de.greylabeldelivery.com
+cdn.opecloud.com
+www.asadcdn.com
+
+# Telekom MagentaCloud - Login
+tags-eu.tiqcdn.com
+
+# n-tv app: When blocked, a video starts again after a few seconds
+# 11/2025: The problem no longer exists.
+# ad-ipd.sxp.smartclip.net
+# des.smartclip.net
+# te.technical-service.net
+# te2.technical-service.net
+# te.ip-prod.aws-cbc.cloud
+
+# CMP - Breaks some Apps/Sites
+fundingchoices.google.com
+fundingchoicesmessages.google.com
+
+# Google Wallet - breaks adding PKPASS files
+# Find My Device - breaks adding/sharing trackers
+# Reason for blocking: https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2571513897
+auditrecording-pa.googleapis.com
+
+# Needed for additional Google Assistant downloads on Android
+# Required to download Pixel Studio AI models
+# Reason for blocking: https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2571513897
+geller-pa.googleapis.com
+
+# Only required on Android for initial use after installing Google Assistant and Gemini.
+# No known problems under iOS.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2586009150
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2588346367
+footprints-pa.googleapis.com
+
+# May interfere with some apps on Android, not confirmed.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2590327413
+# Needed for speech-to-text with the Gboard keyboard on Galaxy smart watch.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-3478793925
+voilatile-pa.googleapis.com
+
+# Google API for geo-location through cell towers and Wi-Fi access points to determine device location.
+# https://github.com/hagezi/dns-blocklists/issues/6959
+# Prevents Android devices from automatically updating their timezone when roaming/travelling.
+# Needed for Google Timeline
+# https://github.com/hagezi/dns-blocklists/issues/7981
+# In some configurations or regions, blocking causes Google Maps to not provide current GPS data. Not reproducible on mass scale.
+userlocation.googleapis.com
+
+# Perplexity model selection on Android. The problem does not occur under iOS.
+# https://github.com/hagezi/dns-blocklists/issues/6664
+# Breaks search on booksy.com
+# https://github.com/hagezi/dns-blocklists/issues/7579#issuecomment-3479258974
+fscdn.eppo.cloud
+
+# NFL app iOS/Android gets stuck on the start screen
+# Related to tracking services.
+conduit.redfast.com
+# https://github.com/hagezi/dns-blocklists/issues/8537
+# sedge.nfl.com
+ht4t7b8mjz.data.adobedc.net
+
+# Required for Xioami Find Device
+# https://github.com/hagezi/dns-blocklists/issues/7309
+cn.find.api.micloud.xiaomi.net
+eu.find.api.micloud.xiaomi.net
+in.find.api.micloud.xiaomi.net
+us.find.api.micloud.xiaomi.net
+us2.find.api.micloud.xiaomi.net
+
+# Collect streaming quality data (such as buffering events, 
+# playback smoothness, and video segment timings).
+# Blocking this domain has led to devices spamming the DNS resolver with requests 
+# every few seconds, which can disrupt normal streaming device functions 
+# or cause buffering issues for some services.
+youboranqs01.com
+
+# dmax.de - consent
+www.googletagmanager.com
+
+# Videos on various sites (CNN, Time, ...)
+c.amazon-adsystem.com
+
+# Various Apps on Android (TomTom, …)
+# Not reproducible
+device-api.asnapieu.com
+
+# Perplexcity freezes randomly.
+# https://github.com/hagezi/dns-blocklists/issues/8956
+fscdn.eppo.cloud
+

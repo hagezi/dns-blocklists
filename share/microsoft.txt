@@ -1,0 +1,126 @@
+# Windows Spotlight/Search, XBox Gamepass Images/GPU Perks.
+# Also used for Microsoft's advertising/tracking and content delivery services.
+arc.msn.com
+# CNAME
+arc.trafficmanager.net
+
+# Microsoft 365 and Office: Blocking this domain could disrupt the ability to save documents to the cloud 
+# or access recently used files and might hinder the performance of these Office applications.
+# Also used for telemetry.
+self.events.data.microsoft.com
+# CNAME
+self-events-data.trafficmanager.net
+
+# XBox Live Achievements
+# Microsoft uses the following domains, which are also used for other telemetry data, to display and track earned Xbox Achievements.
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+# CNAME
+win-global-asimov-leafs-events-data.trafficmanager.net
+
+# Activity history Tracking across Windows devices.
+# It's primarily used in connection with Windows Timeline, a feature introduced in Windows 10 that allows users to see a history of activities they've performed on their devices.
+# Blocking this domains may break Authenticator app's Cloud backup feature on Android.
+activity.windows.com
+assets.activity.windows.com
+canary.activity.windows.com
+edge.activity.windows.com
+edge-enterprise.activity.windows.com
+enterprise.activity.windows.com
+enterprise-eudb.activity.windows.com
+ppe.activity.windows.com
+
+# Error reports and analyses
+in.appcenter.ms
+
+# Breaks Microsoft "Quick Assist" utility (used for remote desktop assistance)
+# Also used for "Real User Monitoring"
+# https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-sdk?tabs=javascriptwebsdkloaderscript
+js.monitor.azure.com
+
+# Microsoft endpoint associated with the telemetry and diagnostic data collection in Windows operating systems.
+# Also be used to fetch configuration data or updates for settings related to diagnostics and privacy: Settings > Privacy > Diagnostics & feedback
+# Issue reports:
+# The Date/Time Sync does not work under Windows 11 if the domains are blocked. Not confirmed/reproducible. Issue: https://github.com/hagezi/dns-blocklists/issues/5723
+# Used when updating KGL (Known Game List) to address issues such as core parking on dual CCD processors. Blocking this domain interferes with these updates and will cause game related performance problems. Not confirmed/reproducible. Issue:  https://github.com/hagezi/dns-blocklists/issues/6872
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+settings-sandbox.data.microsoft.com
+settings-win-ppe.data.microsoft.com
+# CNAMES
+atm-settingsfe-prod-geo2.trafficmanager.net
+settingsfd-sandbox.trafficmanager.net
+settingsfd-ppe.trafficmanager.net
+
+# Leads to restrictions in the Azure portal (Application Insights data on the Azure portal), see: https://github.com/hagezi/dns-blocklists/issues/3621
+# Microsoft’s Application Insights, also used for "Real User Monitoring", see: https://github.com/hagezi/dns-blocklists/issues/4900
+applicationinsights.io
+loganalytics.io
+
+# Feedback & Diagnostics: Used to collect diagnostic information and logs for Microsoft Office products and to analyze problems. It is mainly used in support and troubleshooting processes. 
+# https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-endpoints#feedback-and-diagnostics
+api.diagnostics.office.com
+api.msa.diagnostics.office.com
+cjs.diagnostics.office.com
+cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
+diagnostics.office.com
+entitlement.diagnostics.office.com
+incidents.diagnostics.office.com
+logging.diagnostics.office.com
+msa.diagnostics.office.com
+supportexperience.diagnostics.office.com
+
+# Microsoft Defender for Endpoint (MDE) agents
+# Having this blocked presents a security issue if Defender cannot act on security threats in Windows.
+# https://github.com/hagezi/dns-blocklists/issues/5252
+v10c.events.data.microsoft.com
+au-v10c.events.data.microsoft.com
+eu-v10c.events.data.microsoft.com
+jp-v10c.events.data.microsoft.com
+us-v10c.events.data.microsoft.com
+au-v10.events.data.microsoft.com
+eu-v10.events.data.microsoft.com
+jp-v10.events.data.microsoft.com
+us-v10.events.data.microsoft.com
+au-v20.events.data.microsoft.com
+eu-v20.events.data.microsoft.com
+in-v20.events.data.microsoft.com
+jp-v20.events.data.microsoft.com
+uk-v20.events.data.microsoft.com
+us4-v20.events.data.microsoft.com
+us5-v20.events.data.microsoft.com
+us-v20.events.data.microsoft.com
+
+# If you block traffic for this endpoint, devices, windows and apps can't use location data.
+# e.g. breaks locations services on Surface Pro
+# Is also used to track the location without this being explicitly requested by an app.
+inference.location.live.net
+
+# OPTIONAL
+
+# There are reports that the SSO (AD) login of various Microsoft apps does not work on Android - could not be reproduced and confirmed so far: https://github.com/hagezi/dns-blocklists/issues/5118
+# Also used for various Microsoft telemetry: https://github.com/microsoft/cpp_client_telemetry/blob/main/docs/EUDB-compliance.md
+# Code: https://github.com/search?q=repo%3Amicrosoft%2Fcpp_client_telemetry%20mobile.events.data.microsoft.com&type=code
+mobile.events.data.microsoft.com
+au-mobile.events.data.microsoft.com
+eu-mobile.events.data.microsoft.com
+eu-r-mobile.events.data.microsoft.com
+in-mobile.events.data.microsoft.com
+jp-mobile.events.data.microsoft.com
+uk-mobile.events.data.microsoft.com
+us-mobile.events.data.microsoft.com
+# CNAMES
+mobile.events.data.trafficmanager.net
+au.events.data.trafficmanager.net
+eu.events.data.trafficmanager.net
+in.events.data.trafficmanager.net
+jp.events.data.trafficmanager.net
+uk.events.data.trafficmanager.net
+us.events.data.trafficmanager.net
+
+# Used to collect telemetry and diagnostic data from browsers, including Microsoft Edge and other Microsoft services.
+# Prevents the download of the Visual Studio Installer:
+# https://visualstudio.microsoft.com/de/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta
+browser.events.data.microsoft.com
+browser.events.data.trafficmanager.net
+# js.monitor.azure.com must also be unblocked!

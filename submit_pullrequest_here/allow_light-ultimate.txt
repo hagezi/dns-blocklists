@@ -1,0 +1,1481 @@
+# Unblocking for all lists (relaxed, balanced, aggressive and strict)
+# Domains to be removed from the light, normal, pro, pro++ and ultimate list. Also from the fake, popupads and tif.
+
+# https://github.com/hagezi/dns-blocklists/issues/8964
+pinpoint.espn.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5847
+dai.google.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8632
+# AdShield: Many websites do not work when blocked via DNS. The ads can only be blocked via content blockers.
+*.html-load.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8404
+# https://github.com/hagezi/dns-blocklists/issues/8563
+xga-serving-pa.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8396
+go.uniwue.de
+
+# https://github.com/hagezi/dns-blocklists/issues/6084
+skyrisecities.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8231
+bestsrv.de
+
+# https://github.com/hagezi/dns-blocklists/issues/8198
+test-gateway.instagram.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8130
+cdn.pubnub.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8126
+llamamegratis.es
+
+# https://github.com/hagezi/dns-blocklists/issues/8125
+bywe1.byside.com
+bywe2.byside.com
+we2.byside.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8124
+pics.miarroba.com
+fotos.miarroba.com
+espacioforos.miarroba.com
+
+# https://github.com/hagezi/dns-blocklists/issues/8116
+secure.meine.santander.de
+
+# https://github.com/hagezi/dns-blocklists/issues/8056
+bunkr.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/8055
+felvi.hu
+
+# https://github.com/hagezi/dns-blocklists/issues/8026
+t.17track.net
+s.17track.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7964
+bigdig.energy
+
+# https://github.com/hagezi/dns-blocklists/issues/6302#issuecomment-3499484533
+gamelogs.live.bhvrdbd.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7904
+bhimsentry.npci.org.in
+
+# https://github.com/hagezi/dns-blocklists/issues/7775
+dccb7552-tiles.spatialbuzz.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7738#issuecomment-3470451291
+simg-ssl.duolingo.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7777
+b.bdstatic.com
+gips1.baidu.com
+gips2.baidu.com
+dss3.baudu.com
+baikebcs.bdimg.com
+ms.bdstatic.com
+ufosdk.baidu.com
+narod.ru
+h1n.ru
+smi.today
+smi.media
+24smi.org
+img.smi2.ru
+static1.smi2.net
+static2.smi2.net
+static3.smi2.net
+static4.smi2.net
+static5.smi2.net
+static6.smi2.net
+static7.smi2.net
+static8.smi2.net
+mirtesen.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/7323
+*.netskrt.net
+*.cdn.peacocktv.com
+#pconfig-prd.cdn.peacocktv.com
+#g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g001-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g002-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g003-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g004-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g006-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g007-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g008-vod-us-cmaf-prd-mc.cdn.peacocktv.com
+#g*-sf-us-cmaf-prd-ak.cdn.peacocktv.com
+#g005-sf-us-cmaf-prd-ak.cdn.peacocktv.com
+#g*-sf-us-cmaf-prd-fy.cdn.peacocktv.com
+#g005-sf-us-cmaf-prd-fy.cdn.peacocktv.com
+#g*-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g001-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g002-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g004-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g006-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g007-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+#g008-sle-us-cmaf-prd-fy.cdn.peacocktv.com
+# https://github.com/hagezi/dns-blocklists/issues/7323#issuecomment-3449230542
+#*-ak.cdn.peacocktv.com
+#*-cc.cdn.peacocktv.com
+#*-cf.cdn.peacocktv.com
+#*-fy.cdn.peacocktv.com
+#*-mc.cdn.peacocktv.com
+#*-qw.cdn.peacocktv.com
+
+# https://github.com/AdguardTeam/AdguardFilters/issues/215044
+count.ing.de
+
+# https://github.com/hagezi/dns-blocklists/issues/7553
+myphonenumbers-pa.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7539
+smartscreen.microsoft.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7461
+cdn.radiantmediatechs.com
+cdn-gdpr.radiantmediatechs.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7457
+fprint-ml-poc.dev.svc.ui.com
+geo.svc.ui.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7448
+i.emlfiles4.com
+i.cloudflare-dm-cmpimg.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7424
+sgimage.netmarble.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7423
+*.coremedia.cloud
+
+# https://github.com/hagezi/dns-blocklists/issues/7393
+*.insight.rapid7.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7391
+zhan.vivo.com.cn
+h5.vivo.com.cn
+
+# https://github.com/hagezi/dns-blocklists/issues/7386
+apps.outfit7.com
+apps2-ru.outfit7.com
+apps2.outfit7.com
+apps2.outfit7.com.edgesuite.net
+apps2-ru.outfit7.com.edgesuite.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7367
+breezeflash17.pro
+clearflare66.live
+dewpoint34.wiki
+dobaklife10.com
+foggycrest91.online
+fogtwist21.xyz
+frostwave30.xyz
+frozengust85.pro
+haildrop77.pro
+hailglow59.site
+icemist80.wiki
+lightbeam83.wiki
+lightmist83.live
+mistcloud98.xyz
+raindust78.online
+rainfallpath36.site
+rainveil36.xyz
+rainwhisper40.xyz
+snowblink22.pro
+stormcurve61.site
+stormyfield58.pro
+sunhaze44.site
+sunveil63.live
+
+# https://github.com/hagezi/dns-blocklists/issues/7316
+ct.ddc.paypal.com
+ct.ddc.paypal.com.fpc.datadome.co
+ddc.paypal.com.fpc.datadome.co
+geo.ddc.paypal.com.fpc.datadome.co
+prod.ddc.paypal.com.fpc.datadome.co
+static.ddc.paypal.com.fpc.datadome.co
+
+# https://github.com/hagezi/dns-blocklists/issues/7304
+external-preview.redd.it
+preview.redd.it
+
+# https://github.com/hagezi/dns-blocklists/issues/7294
+similarweb.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7212
+www.hacker-model.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7206
+slitm.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7205
+captcha.hd.mi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7201
+pro-1w-dataaggregator.onelouder.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7174
+banner-bc2.cartoes.itau.com.br
+banner1.itau.com.br
+banner2.itau.com.br
+cdn-banner.cloud.itau.com.br
+da789ctlbdylk.cloudfront.net
+gtm.mobilepessoafisica.itau.akadns.net
+log-3347ea06.bzl.v2.we-stats.com
+mobilepessoafisica.itau.com.br
+promotion.xmeye.net
+wup-3347ea06.bzl.v2.we-stats.com
+wup-8deb1bc1.bzl.v2.we-stats.com
+
+# https://github.com/hagezi/dns-blocklists/issues/7123
+lang-server-*.allawnos.com
+
+# Genuine Streaming Site (Netflix look-a-like...)
+net2025.cc
+
+# Tiktok follows are not saved
+# EU: mssdk16-normal-no1a.tiktokv.eu
+mssdk16-normal-*.tiktokv.*
+
+# https://github.com/hagezi/dns-blocklists/issues/6905
+bill.ccbill.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6882
+prod-mobile-api.jn3cx6xo36.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6798
+httpdns-euex-push.heytapmobile.com
+httpdns.ocloud.heytapmobi.com
+httpdns-ocloud.heytapmobile.com
+httpdns.push.heytapmobi.com
+httpdns-push.heytapmobile.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6779
+cdn.dynamicyield.com
+st.dynamicyield.com
+
+# https://github.com/hagezi/dns-Blocklists/issues/6645
+p16-tiktok-ads-sg.tiktokcdn.com
+p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net
+p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net
+
+# https://github.com/hagezi/dns-blocklists/issues/7702
+p16-ad-sg.tiktokcdn.com
+p16-ad-sg.tiktokcdn.com.edgesuite.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6611
+monitoring.*.amazonaws.com
+logs.*.amazonaws.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6611#issuecomment-3030094828
+*telemetry*.oraclecloud.com
+*telemetry*.oraclecloud20.com
+
+# RTL+ live TV
+rin-yospace-adstorage-prod-cf.cbc-sttech-storage.aws-cbc.cloud
+
+# https://github.com/hagezi/dns-blocklists/issues/6509
+bstats.org
+
+# https://github.com/hagezi/dns-blocklists/issues/6508
+experimentation.deepl.com
+experimentation-grpc.deepl.com
+experimentation-lb.deepl.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6496
+config-api.internet.apps.samsung.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6475
+msh.amazon.*
+
+# https://github.com/hagezi/dns-blocklists/issues/6468
+ru.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6467
+eporner.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6429
+iris.mwbsys.com
+
+# Mozilla domains used for Firefox's tracking protection, not used for actual tracking...
+# https://github.com/mozilla/trackertest
+itisatracker.com
+trackertest.org
+
+# Blocks the location search in the weather app
+*-weather.vivoglobal.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6329
+bentonow.com
+www.bentonow.com
+blog.bentonow.com
+chat.bentonow.com
+
+# RT images blocked
+# Test with rtde.me
+mf.b37mrtl.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/6263
+gecko-sg.byteoversea.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6257
+sensor.grubhub.com
+
+# E-mail verification
+l.n11.com
+h.n11.com
+athena-event-provider.n11.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6247
+*-sysupgrade-api.vivoglobal.com
+*-sysupgrade.vivoglobal.com
+
+# Grafana Site. No Tracking or Ads...
+metrics.shields.io
+
+# https://github.com/hagezi/dns-blocklists/issues/6168
+telemetry-schema-app.rnps.dl.playstation.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6167
+faisalmovers.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6165
+chatbot.akbank.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6152
+nelonenmedia-pmd-ads-manual.nm-stream.nelonenmedia.fi
+
+# https://github.com/hagezi/dns-blocklists/issues/5839#issuecomment-2852254514
+# Buffering/freezing during commercials. Unblocking don't show ads on home screen.
+osm-ads*.delivery.roku.com
+osm-ads-aka.delivery.roku.com
+osm-ads-cf.delivery.roku.com
+osm-ads.delivery.roku.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6129
+so.n11.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6122
+www.restaurant-information.com
+
+# https://github.com/hagezi/dns-blocklists/pull/6079
+bmw-a4a.appspot.com
+
+# Apple Intelligence, Siri
+# https://github.com/hagezi/dns-blocklists/issues/5737#issuecomment-2771431741
+apple-relay.akamaized.net
+apple-relay.apple.com
+apple-relay.cloudflare.com
+apple-relay.fastly-edge.com
+# CNAME for apple-relay.apple.com
+apple-relay.mask.apple-dns.net
+
+# https://github.com/hagezi/dns-blocklists/issues/5676
+iot-earbuds-sg.allawnos.com
+iot-earbuds-*.allawnos.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5667
+api-partner.spotify.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5602
+mssdk-ttp2.tiktokw.us
+mssdk-ttp2.tiktokw.us.edgesuite.net
+mssdk-ttp2.us.tiktok.com
+mssdk-ttp2.us.tiktok.com.edgesuite.net
+
+# https://github.com/hagezi/dns-blocklists/issues/5515
+*odc.samsungapps.com.cdn.cloudflare.net
+
+# https://github.com/hagezi/dns-blocklists/issues/5420
+nlog.naver.com
+
+# https://github.com/hagezi/dns-blocklists/issues/5382
+api.nextgen.guardianapps.co.uk
+
+# https://github.com/hagezi/dns-blocklists/issues/5350
+hubblecontent.osi.office.net
+cdn.hubblecontent.osi.office.net
+cdn-1.hubblecontent.osi.office.net
+
+# https://github.com/hagezi/dns-blocklists/issues/5178
+*.lpsnmedia.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4945
+semanticlocation-pa.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4944
+secu100.net
+
+# Facebook, essential
+star-mini.c10r.facebook.com
+star-mini.fallback.c10r.facebook.com
+star.c10r.facebook.com
+star.fallback.c10r.facebook.com
+star.fallback.c10r.instagram.com
+star-mini-nohsts.c10r.facebook.com
+star-nohsts.c10r.facebook.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4935
+voc.evolok.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4782
+*.poltio.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4774
+track.connect.travelaudience.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4737
+24h.24hstatic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4656
+accountscenter.facebook.com
+
+# https://github.com/hagezi/dns-blocklists/pull/4582
+indystar.com
+account.indystar.com
+amp.indystar.com
+archive.indystar.com
+atoms.indystar.com
+blogs.indystar.com
+checkout.indystar.com
+cm.indystar.com
+connect.indystar.com
+data.indystar.com
+databases.indystar.com
+elections16.indystar.com
+eu.indystar.com
+foodandwine.indystar.com
+gdn.indystar.com
+help.indystar.com
+hiring.indystar.com
+ininotes.indystar.com
+ininotesb.indystar.com
+m.indystar.com
+newsfromyou.indystar.com
+photos.indystar.com
+profile-stage.indystar.com
+profile.indystar.com
+rssfeeds.indystar.com
+sp.indystar.com
+stage.indystar.com
+static.indystar.com
+subscribe.indystar.com
+support.indystar.com
+topics.indystar.com
+user.indystar.com
+uw-media.indystar.com
+ux.indystar.com
+www.indystar.com
+www2.indystar.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4537
+forcesafesearch.google.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4447
+*.dnsseed.emzy.de
+*.seed.bitcoin.sipa.be
+*.seed.bitcoin.sprovoost.nl
+*.seed.bitcoin.wiz.biz
+*.seed.bitcoinstats.com
+*.seed.btc.petertodd.org
+x5.dnsseed.bluematt.me
+x5.dnsseed.emzy.de
+x5.seed.bitcoin.sipa.be
+x5.seed.bitcoin.sprovoost.nl
+x5.seed.bitcoin.wiz.biz
+x5.seed.bitcoinstats.com
+x5.seed.btc.petertodd.org
+
+# https://github.com/hagezi/dns-blocklists/issues/4439
+cdn.sift.com
+api3.siftscience.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4437
+cdn46501877.ahacdn.me
+
+# GetApps (Xiaomi market): not possible to revoke consent (CMP/privacy policy)
+*.privacy.api.intl.miui.com
+
+# https://github.com/AdguardTeam/AdguardFilters/issues/193337
+reports.proton.me
+
+# https://github.com/hagezi/dns-blocklists/issues/4370
+ifota.realmemobile.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4367
+report-uri.com
+
+# https://github.com/Hagez/dns-blocklists/issues/4353
+qrcc.me
+
+# https://github.com/hagezi/dns-blocklists/issues/4354
+static.landbot.io
+
+# https://github.com/hagezi/dns-blocklists/issues/4355
+*.affiliate.logitravel.com
+ssl.affiliate.logitravel.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4289
+uhf.microsoft.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2855#issuecomment-2466520535
+autolinkmaker.itunes.apple.com
+geo.itunes.apple.com
+linkmaker.itunes.apple.com.edgekey.net
+
+# https://github.com/hagezi/dns-blocklists/issues/4178
+adssettings.google.com
+
+# https://github.com/hagezi/dns-blocklists/issues/4151
+hiboard-drcn.ai.dbankcloud.cn
+
+# https://github.com/hagezi/dns-blocklists/issues/3825#issuecomment-2424691633
+geomobileservices-pa.googleapis.com
+
+# Videos on various sites, e.g. 20min.ch
+tdn.da-services.ch
+
+# https://github.com/hagezi/dns-blocklists/issues/4020
+*.dxp.optimizely.com
+
+# Heymelody app updates on Oppo
+iot-earbuds-*.allawnos.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2319169147
+optimizationguide-pa.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3993
+kinesis.*.amazonaws.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3991
+805ba.v.fwmrm.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3977
+7caa2.v.fwmrm.net
+d1gw63jeifbb1b.cloudfront.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3958
+mtv.video-tracking.a2d.tv
+
+# Xiaomi newsfeed
+*.newsfeed.api.intl.miui.com
+*.api.newsfeed.intl.miui.com
+
+# Xiaomi games widget
+*.h5.app.intl.miui.com
+
+# Images in mails, unsubscribe from newsletters, referral
+custobar.com
+m-*.custobar.com
+
+# Genie AI app
+api.adapty.io
+api.onesignal.com
+
+# Xiaomi App Vault uses it to display the widget's center
+*.t14.market.xiaomi.com
+
+# Xiaomi app "Widget Feed"
+*.brs.api.intl.miui.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3620
+uobsoe.com
+benelph.de
+
+# https://github.com/hagezi/dns-blocklists/issues/3576
+hubspotlinks.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3330
+signal-collector.gemaltodigitalbankingidcloud.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3415
+d1mj578wat5n4o.cloudfront.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3414
+wallet-api.urbanairship.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3386
+tencent-cloud.cn
+
+# https://github.com/hagezi/dns-blocklists/issues/3384
+analytics.patcher.elderscrollsonline.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3375
+js.intercomcdn.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3372
+bilweb.se
+
+# https://github.com/hagezi/dns-blocklists/issues/3367
+zachej.sk
+
+# https://github.com/hagezi/dns-blocklists/issues/3333
+# Twitch App: causes increased stream buffering, tested on iOS/tvOS
+# Channel points are sometimes not awarded
+spade*.twitch.tv
+
+# https://github.com/hagezi/dns-blocklists/issues/3332
+host.fsastore.com
+fsastore.adspeed.net
+
+# https://github.com/hagezi/dns-blocklists/issues/3328
+api-*.outgrow.co
+api-n.outgrow.co
+api-live.outgrow.co
+api-h.outgrow.co
+
+# https://github.com/hagezi/dns-blocklists/issues/3326
+exp.notion.so
+
+# https://github.com/hagezi/dns-blocklists/issues/3313
+1gb.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/3297
+docs.erpnext.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3295
+shibboleth.highwire.org
+openathens-sp.highwire.org
+
+# https://github.com/hagezi/dns-blocklists/issues/3294
+cdn.gladly.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3292
+assets.tidiochat.com
+avatars.tidiochat.com
+tidiochat.com
+widget-v3.tidiochat.com
+widget-v4.tidiochat.com
+wix.tidiochat.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3287
+down-spe-sg.img.susercontent.com
+staticcache.gslb.sgw.shopeemobile.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3272
+web.diagnostic.networking.aws.dev
+
+# https://github.com/hagezi/dns-blocklists/issues/3263
+tracking.services.mozilla.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3249
+tabooporn.tv
+
+# https://github.com/hagezi/dns-blocklists/issues/3250
+faphouse.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3248
+syndication.twimg.com
+cdn.syndication.twimg.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3237
+awitatpapuri.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3231
+twisto.cz
+
+# https://github.com/hagezi/dns-blocklists/issues/3229
+topcashback.co.uk
+
+# https://github.com/hagezi/dns-blocklists/issues/3228
+img-resize-cdn-prod.samsungnyc.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3225
+subscriptions.costco.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3224
+shop.espruino.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3226
+cdn-widgetsrepository.yotpo.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3188
+twitchytides.io
+
+# https://github.com/hagezi/dns-blocklists/issues/3186
+pinamar.gob.ar
+
+# https://github.com/hagezi/dns-blocklists/issues/3177
+vsco-prod.web.app
+firebase-auth.vsco.co
+
+# https://github.com/hagezi/dns-blocklists/issues/3176
+cdn.viqeo.tv
+
+# https://github.com/hagezi/dns-blocklists/issues/3146
+tl.foxnews.com
+
+# Download PDFs from SmallPDF
+pluto.smallpdf.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3118
+tracking.emons.de
+
+# Referral
+secure.traqkarr.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3102
+c.tadst.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3091
+vxxx.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3082
+service.cz.nl
+zakelijk.cz.nl
+www.service.cz.nl
+www.zakelijk.cz.nl
+
+# https://github.com/hagezi/dns-blocklists/issues/3077
+cdn.awsde0-fusion.fds.api.mi-img.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3069
+*.kik-live.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3064
+cdn.glitch.global
+
+# https://github.com/hagezi/dns-blocklists/issues/3055
+decision.flagship.io
+
+# https://github.com/hagezi/dns-blocklists/issues/3048
+t.xfin.me
+
+# https://github.com/hagezi/dns-blocklists/issues/3046
+tracker.gamesdonequick.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3016
+biocatch.com
+we-stats.com
+
+# https://github.com/hagezi/dns-blocklists/issues/3011
+beatleader.xyz
+
+# https://github.com/hagezi/dns-blocklists/issues/3009
+ab.chatgpt.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2995
+cluster.versacommerce.de
+
+# https://github.com/hagezi/dns-blocklists/issues/2993
+subscriptions.seekingalpha.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2991
+asnwish.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2988
+pimpandhost.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2900
+chromesyncentities-pa.googleapis.com
+content-autofill.googleapis.com
+nearbysharing-pa.googleapis.com
+quake-pa.googleapis.com
+remoteprovisioning.googleapis.com
+deviceintegritytokens-pa.googleapis.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2973
+inv.tux.pizza
+
+# https://github.com/hagezi/dns-blocklists/issues/2959
+swadleys.com
+txxx.com
+
+# Needed for Destiny 2 3rd party app BrayTech
+b.vlsp.network
+
+# https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
+use-application-dns.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2919
+*.getadjacent.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2915
+waaw.to
+
+# https://github.com/hagezi/dns-blocklists/issues/2913
+banner.wintrustdigitalbanking.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2912
+appdump.nie.easebar.com
+who.nie.easebar.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2904
+agirls.aotter.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2898
+zondacrypto.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2867#issuecomment-2161327885
+speed.diagnostic.networking.aws.dev
+
+# https://github.com/hagezi/dns-blocklists/issues/2894
+qm.redbull.com
+
+# Breaks private DNS on Android - no „tracking“
+*.metric.gstatic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2887
+sundaysky.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2886
+sellpass.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2885
+no.run.place
+
+# https://github.com/hagezi/dns-blocklists/issues/2878
+digiseller.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/2869
+stackla.com
+
+# Status page for Cisco Avaamo call center
+status.avaamo.com
+
+# Guides in the game Mlbb
+api.gms.moontontech.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2857
+autohotkey.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2856
+papy.co.jp
+
+# https://github.com/hagezi/dns-blocklists/issues/2852
+telemetry.api.2kcoretech.online
+
+# https://github.com/hagezi/dns-blocklists/issues/2836
+play-*-*.livetech.shopee.*
+
+# https://github.com/hagezi/dns-blocklists/issues/2833
+*.dontkillmyapp.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2820
+beacons.ai
+
+# https://github.com/hagezi/dns-blocklists/issues/2821
+tracking.carrierlogistics.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2813
+ipmcdn.avast.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2811
+ephemeralcounters.api.roblox.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2806
+track.cvs.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2805
+secure.everyaction.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2804
+fingerprint.pb.ua
+
+# https://github.com/hagezi/dns-blocklists/issues/2797
+c0ak.rbxcdn.com
+# https://github.com/hagezi/dns-blocklists/issues/2812#issuecomment-2140946043
+c0aws.rbxcdn.com
+c0cfly.rbxcdn.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2793
+*.msrareservices.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2774
+clarity.*.moventus.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2768
+tracking.icims.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2765
+resultify.com
+resultify.se
+blog.resultify.se
+
+# https://github.com/hagezi/dns-blocklists/issues/2767
+device.memfault.com
+ota-cdn.memfault.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2762
+widgets.pinterest.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2753
+log-netgame.dmm.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2748
+addy.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2747
+set.page
+
+# https://github.com/hagezi/dns-blocklists/issues/2739
+p.bokecc.com
+
+# Looney Tunes mobile game
+raven-pepe.aprod.scopely.io
+fenrir-resolver-default.aprod.scopely.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2711
+cdn.smart-traffik.com
+v2.smart-traffik.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2706
+goproxy.bj.bcebos.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2692
+mcfwi.patronpoint.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2689
+michaelapplysome.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2688
+*.cmp.inmobi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2687
+chatbase.co
+
+# https://github.com/hagezi/dns-blocklists/issues/2685
+mymobility.vialto.com
+myid.vialto.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2672
+cdn*.avada.io
+sizechart.apps.avada.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2663
+shipmenttracking.costco.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2651
+openinstall.io
+e.kuaishou.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2641
+booktoki337.com
+booktoki336.com
+manatoki336.net
+
+# Blog
+xiaomitime.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2633
+foxypool.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2626
+adscendmedia.com
+rewardtk.com
+
+# Personalise button on https://craftbrothers.net/products/fotogravur-schlusselanhanger-fur-immer-an-deiner-seite
+cdn-zeptoapps.com
+
+# Breaks Betclic
+mpsnare.iesnare.com
+
+# Get email and sms verification codes
+cloudauth-device.aliyuncs.com
+
+# Parcel tracking
+tracking.handyhuellen.de
+
+# https://github.com/hagezi/dns-blocklists/issues/2608
+*.delivery.consentmanager.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2606
+igg-games.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2604
+mmm.page
+
+# Breaks Hayday
+event-assets.haydaygame.com
+
+# H&M's visual search
+search.visenze.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2580
+connect.rom.miui.com
+
+# Tracker for showing the status of Archive Teams Warrior projects
+tracker.archiveteam.org
+
+# BSH time synchronisation
+# https://github.com/hagezi/dns-blocklists/issues/1618#issuecomment-2085567064
+t.homeconnecthca.com
+
+# Internet provider
+*.planet.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2577
+app.mailjet.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2576
+backstory.ebay.*
+
+# CNAME for insights.infoblox.com and more
+*.lookbookhq.com
+
+# Online book store
+lastoriamilitare.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2562
+cdn.wolf-327b.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2563
+rockmods.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2559
+yts.mx
+
+# https://github.com/hagezi/dns-blocklists/issues/2560
+track.passportshipping.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2561
+filecr.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2552
+tidio.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2551
+tubestatic.usco1621-b.com
+
+# Unsubscribe
+api.webengage.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2535
+track.cubyn.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2532
+search.nosto.com
+
+# Feedback
+response.questback.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2529
+edge.xero.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2527
+sm.pcmag.com
+
+# Entech Remote Tools
+entechremote.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2519
+analyze.neiki.dev
+
+# Project makeover game files download
+abstatic.pmosvc.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2516
+feed.nobaraproject.org
+custom.getbeamer.com
+
+# Adblock-Detection/CMP on seznam.cz, mapy.cz and novinky.cz
+h.seznam.cz
+
+# https://github.com/hagezi/dns-blocklists/issues/2513
+fast.appcues.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2511
+a2zapk.com
+
+# Video download links ssyoutube.one
+genyoutube.online
+
+# Grafana Docs
+docs.grafana.org
+
+# Register IDM
+registeridm.com
+
+# Xiaomi Theme store
+thm.market.intl.xiaomi.com
+api.zhuti.intl.xiaomi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2499
+d335luupugsy2.cloudfront.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2502
+ambientsleepingpill.com
+
+# Reset password in MLBB game
+sctrack.sendcloud.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2486
+tracker.raspberrypi.org
+
+# https://github.com/hagezi/dns-blocklists/issues/2485
+tracker.superbits.org
+
+# https://github.com/hagezi/dns-blocklists/issues/2483
+pissmail.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2480
+ymstat.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2476
+best.aliexpress.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2471
+browser.lol
+
+# https://github.com/hagezi/dns-blocklists/issues/2469
+*.chnu.edu.ua
+cream-dream.com.ua
+
+# Medical site
+sprosivracha.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2465
+hazardwatch.gov.au
+
+# Fix offline toilet seat - https://github.com/hagezi/dns-blocklists/issues/2437#issuecomment-2037817295
+*.io.mi.com
+
+# https://github.com/easylist/easylist/issues/18542
+medlemskap.fagforbundet.no
+
+# https://github.com/hagezi/dns-blocklists/issues/2451
+aafp.org
+
+# https://github.com/hagezi/dns-blocklists/issues/2448
+policy.app.cookieinformation.com
+app.cookieinformation.com
+
+# Maps in China apps
+restapi.amap.com
+
+# FP/not malicious
+cert.home4four.com
+media.mc-svc-d.it
+
+# NSFW
+abgay.org
+
+# Weather extension
+badge.weatherextension.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2418
+greenlight.guru
+
+# https://github.com/hagezi/dns-blocklists/issues/2415
+ohay.tv
+
+# Images in Mails - ecm1._domainkey.volkswagen-partner.de
+*.g.shortest-route.com
+
+# Verification doesn't work in Chinese Version of Douyin (Tiktok)
+vcs.snssdk.com
+verify.snssdk.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2408
+virgocx.ca
+
+# https://github.com/hagezi/dns-blocklists/issues/2407
+ransomware.live
+
+# Insurance
+mutua.es
+
+# Network devices
+ruijie.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2388
+ro.blox.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2385
+imgs.elainemedia.net
+
+# Recover deleted instagram account via sms
+ig.me
+
+# https://github.com/hagezi/dns-blocklists/issues/2384
+1passwordservices.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2382
+advgo.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2379
+hqbang.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2378
+api-gtm.grubhub.com
+
+# Association of energy retailers and traders
+assoperatori.it
+
+# https://github.com/hagezi/dns-blocklists/issues/2376
+dailycamera.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2310
+*.ramses.nu
+
+# Breaks apkpure
+winudf.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2371
+interactivebrokers.com.au
+
+# Crypto mining pool
+coinminerz.com
+
+# Padovanews
+padovanews.it
+
+# https://github.com/hagezi/dns-blocklists/issues/2368
+jarvis.testbook.com
+
+# Payment site
+*.services.zam.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2367
+joxi.net
+
+# Node used by electrum bitcoin wallet
+electrum.hsmiths.com
+
+# Lidl App/Mails
+image.mail.lidlplus.de
+
+# https://github.com/hagezi/dns-blocklists/issues/2358
+intercom-clicks.com
+
+# Unsubscribe from emails
+track.spe.zyngamail.com
+ampsp.webengage.co
+
+# Partially breaks mail.ru
+trk.mail.ru
+
+# https://github.com/hagezi/dns-blocklists/issues/2355
+account-api.playpiknik.com
+
+# Homeassistant Bring integration
+api.getbring.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2347
+mx1.1984.is
+mx2.1984.is
+ns1.1984.is
+ns2.1984.is
+ns1.1984hosting.com
+ns2.1984hosting.com
+
+# SpreadShop
+myspreadshop.nl
+
+# https://github.com/hagezi/dns-blocklists/issues/2337
+api.thecut.co
+
+# https://github.com/hagezi/dns-blocklists/issues/2336
+api.mumuglobal.com
+store-api.mumuglobal.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2332
+androeed.ae
+androeed.cn
+androeed.de
+androeed.es
+androeed.ru
+androeed.store
+
+# https://github.com/hagezi/dns-blocklists/issues/2330
+cf.aliyun.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2325
+lookmovie2.to
+
+# Password reset
+ponf.linkedin.com
+
+# Disney Magic Kingdom
+a314.gameloft.com
+201205igp.gameloft.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2316
+vsfind.aps.contentstore.onmobile.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2315
+mkt%.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2314
+cmp.setupcmp.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2312
+*.userlike.com
+
+# https://mcr.microsoft.com
+*.mscr.io
+
+# https://github.com/hagezi/dns-blocklists/issues/2311
+starwank.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2308
+429men.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2298
+launchgiftcards.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2297
+xyoss.g.com.cn
+
+# Breaks Itau banking app
+itauunibanco2.us-4.evergage.com
+
+# Not malicious
+exposave.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2292
+lp.constantcontactpages.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2289
+track.roadie.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2287
+*.api.nj.partypoker.com
+*-api.nj.partypoker.com
+
+# Legit
+antiwar.com
+
+# Breaks picnic.nl
+bestelling.picnic.nl
+picnic.slgnt.eu
+picnic.slgnt.eu.cdn.cloudflare.net
+
+# CBS news videos
+saa.cbsi.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2282
+code.metalocator.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2281
+trk.bc.flxprogram.com
+
+# Bank push notifications
+pushmarketing.sberbank-tele.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2279
+10duke.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2280
+hs-sites.com
+
+# Picsart AI features
+optifyr.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2276
+pcmatic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2275
+parentalcontrol.eset.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2268
+capi.samsungcloud.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2252
+coinlocally.com
+
+# Newsletter Referral
+static.newsletter2go.com
+api.newsletter2go.com
+
+# NSFW
+brazzers.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2237
+# Legit adult site
+fapnado.xxx
+fapnado.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2235
+veteranstoday.com
+
+# Pacific Northwest’s Authority on Medical and Cosmetic Skin Care
+frontierdermatology.com
+
+# Necessary to access the customer service of Free
+s.free.fr
+
+# Tool to monitor website performance
+gtmetrix.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2234
+auction.co.kr
+
+# AnimeSuge is a free streaming anime website
+animesuge.to
+
+# Referral - https://github.com/hagezi/dns-blocklists/issues/2222
+*.tr.strumentimusicali.net
+*.trk.musvccustom.net
+
+# YELP
+yelp.co.uk
+
+# Required for Mobile Games Online Daily Quests etc... (Mergedragon)
+time.servogram.io
+
+# Game Shop
+play-asia.com
+
+# Breaks Pi Network app
+*.minepi.com
+
+# Former address of a large digital goods store in the CIS
+plati.ru
+
+# Indian Startup
+chargebee.com
+
+# Boostrap - front-end framework
+getbootstrap.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2205
+tcelectronic.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2204
+naturalnews.com
+
+# Battlefield community
+bf-games.net
+
+# https://github.com/hagezi/dns-blocklists/issues/2200
+hyperfollow.com
+
+# https://github.com/hagezi/dns-blocklists/issues/2191
+funarbe.org.br
+
+# Blocks the licence window via which you can accept the licence
+static.mobilelegends.com
+static.mobilelegends.com.wsoversea.com # CNAME
+
+# https://github.com/hagezi/dns-blocklists/issues/2190
+minghui.org
+www.minghui.org
+big5.minghui.org
+en.minghui.org
+fr.minghui.org
+jp.minghui.org
+library.minghui.org
+media.minghui.org
+package.minghui.org
+photo.minghui.org
+projectshield.en.minghui.org
+qikan.minghui.org
+ru.minghui.org
+search.minghui.org
+searchb5.minghui.org
+vn.minghui.org
+zhoubao.minghui.org
+
+# Facebook
+gateway.facebook.com
+gateway-fallback.facebook.com
+*gateway.facebook.com
+z-m-gateway.facebook.com
+z-p4-gateway.facebook.com

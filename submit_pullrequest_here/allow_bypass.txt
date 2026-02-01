@@ -1,0 +1,80 @@
+# Domains to be removed from the doh and doh-vpn-proxy-bypass list.
+*.brave.com
+*.cdn77.org
+*.cloudns.net
+*.discord.com
+*.f-secure.com
+*.fly.io
+*.fortinet.com
+*.fortinet.net
+*.fortiwebcloud.net
+*.hagezi.org
+*.iot-dns.com
+*.myfritz.net
+*.namecheap.com
+*.notjakob.com
+*.ns.cloudflare.com
+*.safebrowsing.apple
+*.salesforceliveagent.com
+*.yahoodns.net
+api.w.org
+apple-dns.net
+cdn.onesignal.com
+checkpoint.com
+clarity.ms
+comss.ru
+desec.io
+dnschecker.org
+easydns.com
+incognet.io
+mathnodes.com
+nephos.rocksolidtech.link
+newshosting.com
+noip.com
+norton.com
+ogp.me
+openvpn.net
+opera-api.com
+opera-api2.com
+opera-mini.net
+opera.com
+opera.software
+paddle.com
+public-dns.info
+riseup.net
+safebrowsing.google.com
+safebrowsing.googleapis.com
+savefrom.net
+stunnel.org
+switch.ch
+use-application-dns.net
+vpn.surf
+wireguard.com
+wshifen.com
+xeovo.com
+youtube.com
+
+# Apple Intelligence, Siri
+apple-relay.*
+# https://github.com/hagezi/dns-blocklists/issues/5737#issuecomment-2771431741
+apple-relay.akamaized.net
+apple-relay.apple.com
+apple-relay.cloudflare.com
+apple-relay.fastly-edge.com
+# CNAME for apple-relay.apple.com
+apple-relay.mask.apple-dns.net
+# https://github.com/hagezi/dns-blocklists/issues/6090
+mask-api.icloud.com
+# CNAME
+mask-api.fe2.apple-dns.net
+
+# Not Apple Private Relay related
+*.mask.apple-dns.net
+mask-boot.icloud.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6422
+staging.apple-carry-relay.cloudflare.com
+
+# https://github.com/hagezi/dns-blocklists/issues/6798#issuecomment-3495770373
+httpdns-push.heytapmobile.com
+*.push.heytapmobi.com

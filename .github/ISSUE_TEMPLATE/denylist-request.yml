@@ -1,0 +1,176 @@
+name: Denylist Request
+description: Report the domains that should be blocked.
+labels: ["deny"]
+assignees: 
+  - hagezi
+body:
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: |
+        To prevent invalid requests, please verify and confirm the following points.
+      options:
+        - label: I use the current version of the lists.
+          required: true
+        - label: I have blocked the domains in my network for several days now, and the blocking has not caused any disruptions or limitations.
+          required: true
+
+  - type: dropdown
+    id: adblocker
+    attributes:
+      label: Which AdBlocker or DNS cloud service do you use?
+      description: |
+        Choose the AdBlocker or DNS cloud service you are using. If it’s not listed, select Other and specify its name in the comments section below.
+      multiple: true
+      options:
+        - AdGuard
+        - AdGuard DNS
+        - AdGuard Home
+        - Adblock-lean
+        - OPNsense
+        - Pi-hole
+        - TechnitiumDNS
+        - pfBlockerNG
+        - uBlock Origin
+        - ControlD
+        - DNSBunker
+        - DNSwarden
+        - HaGeZi DNS
+        - NextDNS
+        - RethinkDNS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: other_adblocker
+    attributes:
+      label: Other AdBlocker or DNS cloud service
+      description: |
+        If you selected Other, please enter the name here.
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: blocklists
+    attributes:
+      label: Which blocklist(s) do you use?
+      multiple: true
+      options:
+        - Multi LIGHT
+        - Multi NORMAL
+        - Multi PRO
+        - Multi PRO mini
+        - Multi PRO++
+        - Multi PRO++ mini
+        - Multi ULTIMATE
+        - Multi ULTIMATE mini
+        - Fake
+        - Pop-Up Ads
+        - Threat Intelligence Feeds
+        - Threat Intelligence Feeds medium
+        - Threat Intelligence Feeds mini
+        - Threat Intelligence Feeds IPs
+        - DoH/VPN/TOR/Proxy Bypass
+        - DoH Bypass
+        - DoH Bypass IPs
+        - Safesearch not supported
+        - Dynamic DNS
+        - Badware Hoster
+        - Most Abused TLDs
+        - Anti Piracy
+        - Gambling
+        - Social Networks
+        - NSFW
+        - Native Tracker
+        - Referral
+        - URL shortener
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Which category do the domain(s) to be blocked belong to?
+      description: |
+        Specify the categories to which the domains to be blocked belong. If it’s not listed, select Other and specify the category in the comments section below.
+      multiple: true
+      options:
+        - Ads
+        - Pop-Up Ads
+        - Tracking
+        - Bug/Error tracking
+        - Analytics/Metrics/Telemetry
+        - Malware/Badware/Phishing/Scam
+        - Gambling
+        - Adult
+        - Piracy
+        - DoH/VPN/TOR/Proxy DNS bypass 
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: other_category
+    attributes:
+      label: Other category
+      description: |
+        If you selected Other, please enter the category here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: domains
+    attributes:
+      label: Which domain(s) should be blocked?
+      description: |
+        Provide the domains that should be blocked, ensuring you include only domain/subdomain names (e.g. example.com, a.example.com). Do not include adblock rules, URLs, or other formats.
+      placeholder: |
+        example.com
+        a.example.org
+        a.b.example.net
+      render: yaml
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Which website or app accesses the domain(s)?
+      description: |
+        Specify the websites or apps through which the domains are accessed.
+      render: yaml
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should these domain(s) be blocked?
+      description: |
+        Clearly explain why each domain should be blocked, including details such as tracking behavior, malicious activity, or how the domain is accessed.
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: blocked
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have verified that no existing issue explains why the domain(s) were previously unblocked or why the blocking request was declined.
+          required: true
+        - label: I have verified that the domain(s) is/are not already blocked.
+          required: true
+        - label: I have verified that the domain(s) is/are active and not inactive (dead).
+          required: true
+        - label: I have provided sufficient details to justify the need for blocking the domain(s).
+          required: true
+        - label: I did not answer truthfully to any of the above checkboxes.
+          required: false
+        
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: I confirm that the request does not contain any sexually explicit material or private/sensitive information.
+          required: true
