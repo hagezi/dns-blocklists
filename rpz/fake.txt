@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769938200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769947140 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Feb 2026 09:30 UTC
-; Version: 2026.0201.0930.55
+; Last modified: 01 Feb 2026 11:59 UTC
+; Version: 2026.0201.1159.42
 ; Syntax: RPZ
-; Number of entries: 28362
+; Number of entries: 28364
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -20964,6 +20964,8 @@ kagokamin.de CNAME .
 *.kagokamin.de CNAME .
 kahrmannsown.de CNAME .
 *.kahrmannsown.de CNAME .
+kaisermodehaus.de CNAME .
+*.kaisermodehaus.de CNAME .
 kalama-tech.de CNAME .
 *.kalama-tech.de CNAME .
 kalamataolivenoel.de CNAME .
