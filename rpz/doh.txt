@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770028980 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770050580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 10:43 UTC
-; Version: 2026.0202.1043.38
+; Last modified: 02 Feb 2026 16:43 UTC
+; Version: 2026.0202.1643.06
 ; Syntax: RPZ
-; Number of entries: 6998
+; Number of entries: 6992
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -605,8 +605,6 @@ blokuj.ujwie.co CNAME .
 *.blokuj.ujwie.co CNAME .
 nitter.ujwie.co CNAME .
 *.nitter.ujwie.co CNAME .
-adguard.clmnnt.codes CNAME .
-*.adguard.clmnnt.codes CNAME .
 dns.nguyendangduong.codes CNAME .
 *.dns.nguyendangduong.codes CNAME .
 dns.tipsy.coffee CNAME .
@@ -881,8 +879,6 @@ adguard.chaudharyarnav.com CNAME .
 *.adguard.chaudharyarnav.com CNAME .
 dns.chillstice.com CNAME .
 *.dns.chillstice.com CNAME .
-chenrouter.chironys.com CNAME .
-*.chenrouter.chironys.com CNAME .
 dns.chriswservers.com CNAME .
 *.dns.chriswservers.com CNAME .
 dns.chunghwamc.com CNAME .
@@ -6003,8 +5999,6 @@ dns.sb CNAME .
 *.dns.sb CNAME .
 doh.sb CNAME .
 *.doh.sb CNAME .
-dns.butterfly87.sbs CNAME .
-*.dns.butterfly87.sbs CNAME .
 myatris.sbs CNAME .
 *.myatris.sbs CNAME .
 dns.tbs6920.sbs CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770029040 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770050580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 10:44 UTC
-; Version: 2026.0202.1044.17
+; Last modified: 02 Feb 2026 16:43 UTC
+; Version: 2026.0202.1643.47
 ; Syntax: RPZ
-; Number of entries: 27150
+; Number of entries: 27120
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -875,6 +875,8 @@ doh.best CNAME .
 *.doh.best CNAME .
 fern.best CNAME .
 *.fern.best CNAME .
+papervpn.best CNAME .
+*.papervpn.best CNAME .
 supervpn.best CNAME .
 *.supervpn.best CNAME .
 vpns.best CNAME .
@@ -1943,8 +1945,6 @@ ondvnj302igfndni022.chikiyan.cl CNAME .
 *.ondvnj302igfndni022.chikiyan.cl CNAME .
 statpadderbron.chikiyan.cl CNAME .
 *.statpadderbron.chikiyan.cl CNAME .
-46tube.cky.cl CNAME .
-*.46tube.cky.cl CNAME .
 silentmoon.cmconsultores.cl.cmconsultores.cl CNAME .
 *.silentmoon.cmconsultores.cl.cmconsultores.cl CNAME .
 milkyway.colegioelprado.cl CNAME .
@@ -2769,8 +2769,6 @@ whoisit.co CNAME .
 *.whoisit.co CNAME .
 wqad4.co CNAME .
 *.wqad4.co CNAME .
-adguard.clmnnt.codes CNAME .
-*.adguard.clmnnt.codes CNAME .
 dns.nguyendangduong.codes CNAME .
 *.dns.nguyendangduong.codes CNAME .
 samj.codes CNAME .
@@ -4811,8 +4809,6 @@ cheapauth.com CNAME .
 *.cheapauth.com CNAME .
 cheaptextingapp.com CNAME .
 *.cheaptextingapp.com CNAME .
-waguri.cheesemobile.com CNAME .
-*.waguri.cheesemobile.com CNAME .
 cheesestorecedarhurst.com CNAME .
 *.cheesestorecedarhurst.com CNAME .
 bolteducation.chiangmaiorganics.com CNAME .
@@ -4823,8 +4819,6 @@ fernlol.chiangmaiorganics.com CNAME .
 *.fernlol.chiangmaiorganics.com CNAME .
 katyisd-you-cant-stop-me.chiangmaiorganics.com CNAME .
 *.katyisd-you-cant-stop-me.chiangmaiorganics.com CNAME .
-ends.chiaowang.com CNAME .
-*.ends.chiaowang.com CNAME .
 aberdeenmiddle34lol.chickenkiller.com CNAME .
 *.aberdeenmiddle34lol.chickenkiller.com CNAME .
 ajtf.chickenkiller.com CNAME .
@@ -4991,8 +4985,6 @@ cmdc.chinookyoga.com CNAME .
 *.cmdc.chinookyoga.com CNAME .
 uno.chippytime.com CNAME .
 *.uno.chippytime.com CNAME .
-chenrouter.chironys.com CNAME .
-*.chenrouter.chironys.com CNAME .
 free-vpn-connection.chris-pc.com CNAME .
 *.free-vpn-connection.chris-pc.com CNAME .
 christophbrem.com CNAME .
@@ -5069,8 +5061,6 @@ login.cmnjl.com CNAME .
 *.login.cmnjl.com CNAME .
 adguard.cnbeining.com CNAME .
 *.adguard.cnbeining.com CNAME .
-music.cnfirsthk.com CNAME .
-*.music.cnfirsthk.com CNAME .
 readingforfun.co.com CNAME .
 *.readingforfun.co.com CNAME .
 football.coaching2lead.com CNAME .
@@ -5095,10 +5085,6 @@ colomovers.com CNAME .
 *.colomovers.com CNAME .
 coloney3.com CNAME .
 *.coloney3.com CNAME .
-horimiya.colorws.com CNAME .
-*.horimiya.colorws.com CNAME .
-waguri.colorws.com CNAME .
-*.waguri.colorws.com CNAME .
 easy-vpn.comodo.com CNAME .
 *.easy-vpn.comodo.com CNAME .
 music.componetech.com CNAME .
@@ -16951,8 +16937,6 @@ rammerhead.casacam.net CNAME .
 *.rammerhead.casacam.net CNAME .
 dns.caspervk.net CNAME .
 *.dns.caspervk.net CNAME .
-dodging.school.dectations.since.2020.cbu.net CNAME .
-*.dodging.school.dectations.since.2020.cbu.net CNAME .
 basic.cbu.net CNAME .
 *.basic.cbu.net CNAME .
 learnstuff.cbu.net CNAME .
@@ -24223,8 +24207,6 @@ dns.sb CNAME .
 *.dns.sb CNAME .
 doh.sb CNAME .
 *.doh.sb CNAME .
-dns.butterfly87.sbs CNAME .
-*.dns.butterfly87.sbs CNAME .
 flickbox.sbs CNAME .
 *.flickbox.sbs CNAME .
 flipbit.sbs CNAME .
@@ -25521,8 +25503,6 @@ rmdns26.co.uk CNAME .
 *.rmdns26.co.uk CNAME .
 small-uk-schools.shentaichiacademy.co.uk CNAME .
 *.small-uk-schools.shentaichiacademy.co.uk CNAME .
-waguri.soloindustrialproducts.co.uk CNAME .
-*.waguri.soloindustrialproducts.co.uk CNAME .
 terms.clever.speedy-fit.co.uk CNAME .
 *.terms.clever.speedy-fit.co.uk CNAME .
 nana.utopia.speedy-fit.co.uk CNAME .
@@ -25563,8 +25543,6 @@ pizza.pizza.webconstructions.co.uk CNAME .
 *.pizza.pizza.webconstructions.co.uk CNAME .
 evilajhbbgboiii.wiltscomputers.co.uk CNAME .
 *.evilajhbbgboiii.wiltscomputers.co.uk CNAME .
-soappalled.xyzlee.co.uk CNAME .
-*.soappalled.xyzlee.co.uk CNAME .
 cokezero.uk CNAME .
 *.cokezero.uk CNAME .
 default2024.uk CNAME .
@@ -27017,10 +26995,6 @@ proxy.yt CNAME .
 *.proxy.yt CNAME .
 garlandisd.almotek.co.za CNAME .
 *.garlandisd.almotek.co.za CNAME .
-fpfanzduucru.anchorchain.co.za CNAME .
-*.fpfanzduucru.anchorchain.co.za CNAME .
-unknown.anchorchain.co.za CNAME .
-*.unknown.anchorchain.co.za CNAME .
 instructure.com.bizzbooks.co.za CNAME .
 *.instructure.com.bizzbooks.co.za CNAME .
 educationbooks.boxrepublic.co.za CNAME .
@@ -27125,16 +27099,12 @@ studentfr.sentinet.co.za CNAME .
 *.studentfr.sentinet.co.za CNAME .
 trucetonight.sentinet.co.za CNAME .
 *.trucetonight.sentinet.co.za CNAME .
-exploring.sghub.co.za CNAME .
-*.exploring.sghub.co.za CNAME .
 surfshark.co.za CNAME .
 *.surfshark.co.za CNAME .
 kahhot.it.liv.smarl-uh.hye.tyday.co.za CNAME .
 *.kahhot.it.liv.smarl-uh.hye.tyday.co.za CNAME .
 apple1.willemvisser.co.za CNAME .
 *.apple1.willemvisser.co.za CNAME .
-idontwanttogobacktoprison.willemvisser.co.za CNAME .
-*.idontwanttogobacktoprison.willemvisser.co.za CNAME .
 new.willemvisser.co.za CNAME .
 *.new.willemvisser.co.za CNAME .
 novastats.willemvisser.co.za CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770024780 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770046320 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 09:33 UTC
-; Version: 2026.0202.0933.08
+; Last modified: 02 Feb 2026 15:32 UTC
+; Version: 2026.0202.1532.24
 ; Syntax: RPZ
-; Number of entries: 20076
+; Number of entries: 20068
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -9869,8 +9869,6 @@ boostability.co.in CNAME .
 *.boostability.co.in CNAME .
 kutt.co.in CNAME .
 *.kutt.co.in CNAME .
-shrtly.co.in CNAME .
-*.shrtly.co.in CNAME .
 surl.co.in CNAME .
 *.surl.co.in CNAME .
 wowly.co.in CNAME .
@@ -12317,12 +12315,8 @@ bravos.life CNAME .
 *.bravos.life CNAME .
 buomto.life CNAME .
 *.buomto.life CNAME .
-c-hud-aixxx.life CNAME .
-*.c-hud-aixxx.life CNAME .
 chekc.life CNAME .
 *.chekc.life CNAME .
-chudaixxx.life CNAME .
-*.chudaixxx.life CNAME .
 conns.life CNAME .
 *.conns.life CNAME .
 cry-pto.life CNAME .
@@ -15137,8 +15131,6 @@ chkurl.net CNAME .
 *.chkurl.net CNAME .
 cjb.net CNAME .
 *.cjb.net CNAME .
-clicae.net CNAME .
-*.clicae.net CNAME .
 clicktracker.net CNAME .
 *.clicktracker.net CNAME .
 clientlinks.net CNAME .
