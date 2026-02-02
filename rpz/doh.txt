@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770007740 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770028980 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 04:49 UTC
-; Version: 2026.0202.0449.38
+; Last modified: 02 Feb 2026 10:43 UTC
+; Version: 2026.0202.1043.38
 ; Syntax: RPZ
-; Number of entries: 7002
+; Number of entries: 6998
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -4525,8 +4525,6 @@ next.miao.ninja CNAME .
 *.next.miao.ninja CNAME .
 ns3.bit-trail.nl CNAME .
 *.ns3.bit-trail.nl CNAME .
-ns1.bit-trails.nl CNAME .
-*.ns1.bit-trails.nl CNAME .
 adguard.boykevanvugt.nl CNAME .
 *.adguard.boykevanvugt.nl CNAME .
 adguard2.boykevanvugt.nl CNAME .
@@ -4739,8 +4737,6 @@ dns.artikel10.org CNAME .
 *.dns.artikel10.org CNAME .
 dns.auffray.org CNAME .
 *.dns.auffray.org CNAME .
-dns.bbppt.org CNAME .
-*.dns.bbppt.org CNAME .
 goga7777777.bissnes.org CNAME .
 *.goga7777777.bissnes.org CNAME .
 dns.blokada.org CNAME .
