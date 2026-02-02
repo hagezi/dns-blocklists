@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769981580 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770003180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,8 +16,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Feb 2026 21:33 UTC
-; Version: 2026.0201.2133.17
+; Last modified: 02 Feb 2026 03:33 UTC
+; Version: 2026.0202.0333.01
 ; Syntax: RPZ
 ; Number of entries: 20088
 ;
@@ -1019,8 +1019,6 @@ acesso.bio CNAME .
 *.acesso.bio CNAME .
 aduke.bio CNAME .
 *.aduke.bio CNAME .
-applink.bio CNAME .
-*.applink.bio CNAME .
 baba.bio CNAME .
 *.baba.bio CNAME .
 biofy.bio CNAME .
@@ -3977,6 +3975,8 @@ ctse-registry.com CNAME .
 *.ctse-registry.com CNAME .
 cuanbio.com CNAME .
 *.cuanbio.com CNAME .
+linkprotect.cudasvc.com CNAME .
+*.linkprotect.cudasvc.com CNAME .
 cukbaray.com CNAME .
 *.cukbaray.com CNAME .
 curlmin.com CNAME .
@@ -12467,8 +12467,6 @@ advisable.link CNAME .
 *.advisable.link CNAME .
 ai1.link CNAME .
 *.ai1.link CNAME .
-ai18.link CNAME .
-*.ai18.link CNAME .
 alav.link CNAME .
 *.alav.link CNAME .
 allbio.link CNAME .
@@ -17707,6 +17705,8 @@ winc.shop CNAME .
 *.3x.si CNAME .
 4x.si CNAME .
 *.4x.si CNAME .
+7z.si CNAME .
+*.7z.si CNAME .
 dik.si CNAME .
 *.dik.si CNAME .
 dy.si CNAME .
