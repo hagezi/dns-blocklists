@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770115620 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770158820 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Feb 2026 10:47 UTC
-; Version: 2026.0203.1047.18
+; Last modified: 03 Feb 2026 22:47 UTC
+; Version: 2026.0203.2247.34
 ; Syntax: RPZ
-; Number of entries: 6982
+; Number of entries: 6968
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1271,8 +1271,6 @@ adgh.imtsui.com CNAME .
 *.adgh.imtsui.com CNAME .
 incaseineeditoneday.com CNAME .
 *.incaseineeditoneday.com CNAME .
-dns.inclusioproject.com CNAME .
-*.dns.inclusioproject.com CNAME .
 dns.indybanipal.com CNAME .
 *.dns.indybanipal.com CNAME .
 dns.inforlogia.com CNAME .
@@ -1359,8 +1357,6 @@ dns.keskonet.com CNAME .
 *.dns.keskonet.com CNAME .
 dns.keviland.com CNAME .
 *.dns.keviland.com CNAME .
-khsan.com CNAME .
-*.khsan.com CNAME .
 shield.kidshielder.com CNAME .
 *.shield.kidshielder.com CNAME .
 dns.knyfie.com CNAME .
@@ -3275,8 +3271,6 @@ kcolspacrm.ir CNAME .
 *.kcolspacrm.ir CNAME .
 maincloud.ir CNAME .
 *.maincloud.ir CNAME .
-dns.midping.ir CNAME .
-*.dns.midping.ir CNAME .
 adguard.nostaloogia.ir CNAME .
 *.adguard.nostaloogia.ir CNAME .
 dns.sbstructure.ir CNAME .
@@ -3401,8 +3395,6 @@ guidetoworld.link CNAME .
 *.guidetoworld.link CNAME .
 intertop.link CNAME .
 *.intertop.link CNAME .
-s2.littlebr.link CNAME .
-*.s2.littlebr.link CNAME .
 dns.pmxu.link CNAME .
 *.dns.pmxu.link CNAME .
 adguard.ihatemy.live CNAME .
@@ -3573,8 +3565,6 @@ dns.karadag.me CNAME .
 *.dns.karadag.me CNAME .
 dns2.keinewerbung.me CNAME .
 *.dns2.keinewerbung.me CNAME .
-dns.koshin.me CNAME .
-*.dns.koshin.me CNAME .
 dns.kostydenis.me CNAME .
 *.dns.kostydenis.me CNAME .
 dns1.kostydenis.me CNAME .
@@ -5269,8 +5259,6 @@ httpdns.pro CNAME .
 *.httpdns.pro CNAME .
 ns1.lab321.pro CNAME .
 *.ns1.lab321.pro CNAME .
-test.marss.pro CNAME .
-*.test.marss.pro CNAME .
 ntwrkh.pro CNAME .
 *.ntwrkh.pro CNAME .
 dns.privateservices.pro CNAME .
@@ -5973,6 +5961,8 @@ waydnes.ru CNAME .
 *.waydnes.ru CNAME .
 dns.x8net.ru CNAME .
 *.dns.x8net.ru CNAME .
+xbox-dns.ru CNAME .
+*.xbox-dns.ru CNAME .
 dns.xcapenet.ru CNAME .
 *.dns.xcapenet.ru CNAME .
 dns2.xcapenet.ru CNAME .
@@ -6165,8 +6155,6 @@ dns.daarrk.tech CNAME .
 *.dns.daarrk.tech CNAME .
 dns.everdns.tech CNAME .
 *.dns.everdns.tech CNAME .
-makatla.tech CNAME .
-*.makatla.tech CNAME .
 dns.moraes.tech CNAME .
 *.dns.moraes.tech CNAME .
 qqmcfw.tech CNAME .
@@ -6277,8 +6265,6 @@ blog.kimiblock.top CNAME .
 *.blog.kimiblock.top CNAME .
 2024.laijy.top CNAME .
 *.2024.laijy.top CNAME .
-lboxtv.top CNAME .
-*.lboxtv.top CNAME .
 lesuo.top CNAME .
 *.lesuo.top CNAME .
 10.ln7371.top CNAME .
