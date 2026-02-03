@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770050580 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770094080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 16:43 UTC
-; Version: 2026.0202.1643.06
+; Last modified: 03 Feb 2026 04:48 UTC
+; Version: 2026.0203.0448.59
 ; Syntax: RPZ
-; Number of entries: 6992
+; Number of entries: 6984
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1077,8 +1077,6 @@ roucious.dyndns-remote.com CNAME .
 *.roucious.dyndns-remote.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
-oostelbos.dynu.com CNAME .
-*.oostelbos.dynu.com CNAME .
 saomai.dynu.com CNAME .
 *.saomai.dynu.com CNAME .
 safe.eaccelera.com CNAME .
@@ -6043,8 +6041,6 @@ adguard.bse4792.site CNAME .
 *.adguard.bse4792.site CNAME .
 callies-online.site CNAME .
 *.callies-online.site CNAME .
-dns88.site CNAME .
-*.dns88.site CNAME .
 fimoshinckaya-federation.site CNAME .
 *.fimoshinckaya-federation.site CNAME .
 ms.gswsfh2021.site CNAME .
@@ -6249,8 +6245,6 @@ dnssilo.top CNAME .
 *.dnssilo.top CNAME .
 dns.doserver.top CNAME .
 *.dns.doserver.top CNAME .
-droyd.top CNAME .
-*.droyd.top CNAME .
 yukito.duanzx.top CNAME .
 *.yukito.duanzx.top CNAME .
 az.dz4fun.top CNAME .
@@ -6857,8 +6851,6 @@ adguard.eximpius.xyz CNAME .
 *.adguard.eximpius.xyz CNAME .
 fra1.eyecay.xyz CNAME .
 *.fra1.eyecay.xyz CNAME .
-ad.faraan.xyz CNAME .
-*.ad.faraan.xyz CNAME .
 agent.frankutils.xyz CNAME .
 *.agent.frankutils.xyz CNAME .
 performance.gosami.xyz CNAME .

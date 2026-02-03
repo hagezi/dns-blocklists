@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770046320 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770089580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Feb 2026 15:32 UTC
-; Version: 2026.0202.1532.24
+; Last modified: 03 Feb 2026 03:33 UTC
+; Version: 2026.0203.0333.01
 ; Syntax: RPZ
-; Number of entries: 20068
+; Number of entries: 20064
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3157,6 +3157,8 @@ t.2merkato.com CNAME .
 *.30tools.com CNAME .
 321url.com CNAME .
 *.321url.com CNAME .
+t.360scm.com CNAME .
+*.t.360scm.com CNAME .
 396264243-020.com CNAME .
 *.396264243-020.com CNAME .
 396264243-025.com CNAME .
@@ -3927,8 +3929,6 @@ connectthelinks.com CNAME .
 *.connectthelinks.com CNAME .
 consiseurl.com CNAME .
 *.consiseurl.com CNAME .
-contasuolfatura.com CNAME .
-*.contasuolfatura.com CNAME .
 converterpanda.com CNAME .
 *.converterpanda.com CNAME .
 convertloom.com CNAME .
@@ -7851,6 +7851,8 @@ zephb.com CNAME .
 *.zephb.com CNAME .
 zetir.com CNAME .
 *.zetir.com CNAME .
+url.zeus27.com CNAME .
+*.url.zeus27.com CNAME .
 zeusurl.com CNAME .
 *.zeusurl.com CNAME .
 zguarou.com CNAME .
@@ -9521,8 +9523,6 @@ shorturl.co.id CNAME .
 *.shorturl.co.id CNAME .
 go.thamrin.co.id CNAME .
 *.go.thamrin.co.id CNAME .
-datalisa.id CNAME .
-*.datalisa.id CNAME .
 docmti.id CNAME .
 *.docmti.id CNAME .
 fileku.id CNAME .
@@ -13983,8 +13983,6 @@ cturl.me CNAME .
 *.cturl.me CNAME .
 cutly.me CNAME .
 *.cutly.me CNAME .
-cutt4.me CNAME .
-*.cutt4.me CNAME .
 cutu.me CNAME .
 *.cutu.me CNAME .
 cutx.me CNAME .
@@ -17505,8 +17503,6 @@ zz.sd CNAME .
 *.7i.se CNAME .
 benes.se CNAME .
 *.benes.se CNAME .
-cyver.se CNAME .
-*.cyver.se CNAME .
 eclip.se CNAME .
 *.eclip.se CNAME .
 ecra.se CNAME .

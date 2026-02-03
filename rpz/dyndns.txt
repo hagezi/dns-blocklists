@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769769540 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770094080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jan 2026 10:39 UTC
-; Version: 2026.0130.1039.38
+; Last modified: 03 Feb 2026 04:48 UTC
+; Version: 2026.0203.0448.29
 ; Syntax: RPZ
-; Number of entries: 2840
+; Number of entries: 2838
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2730,8 +2730,6 @@ ntdll.top CNAME .
 *.ntdll.top CNAME .
 better-than.tv CNAME .
 *.better-than.tv CNAME .
-cybertv.tv CNAME .
-*.cybertv.tv CNAME .
 dyndns.tv CNAME .
 *.dyndns.tv CNAME .
 kaohsiung.tv CNAME .
