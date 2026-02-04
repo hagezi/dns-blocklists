@@ -11,8 +11,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 03 Feb 2026 23:33 UTC
-! Version: 2026.0203.2333.57
+! Last modified: 04 Feb 2026 22:47 UTC
+! Version: 2026.0204.2247.21
 ! Syntax: uBlock
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -112,7 +112,7 @@
 ||fitness^$doc,domain=~johnreed.fitness
 ||florist^$doc
 ||foo^$doc,domain=~helloworld.foo
-||food^$doc
+||food^$doc,domain=~way.food
 ||forex^$doc
 ||forsale^$doc
 ||foundation^$doc,domain=~e.foundation|~grapheneos.foundation|~jp.foundation|~lgbt.foundation|~player.foundation
@@ -133,7 +133,7 @@
 ||gq^$doc,domain=~inege.gq
 ||gratis^$doc
 ||green^$doc,domain=~mastodon.green|~tilde.green|~treebal.green
-||guide^$doc,domain=~cfw.guide|~discordjs.guide|~hacks.guide|~homebrew.guide|~opensource.guide|~ripped.guide|~site.guide|~wii.guide|~wisely.guide|~zig.guide
+||guide^$doc,domain=~bedandbreakfast.guide|~cfw.guide|~discordjs.guide|~goodtravel.guide|~hacks.guide|~homebrew.guide|~opensource.guide|~ripped.guide|~site.guide|~slowfood.guide|~thebook.guide|~wii.guide|~wisely.guide|~zig.guide
 ||guru^$doc,domain=~bahn.guru|~base64.guru|~crontab.guru|~greenlight.guru|~jav.guru|~ludwig.guru|~mags.guru|~tilde.guru|~watcher.guru|~webcal.guru
 ||hair^$doc
 ||haus^$doc

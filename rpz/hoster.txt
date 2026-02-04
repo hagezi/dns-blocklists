@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770199380 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770242460 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Feb 2026 10:03 UTC
-; Version: 2026.0204.1003.51
+; Last modified: 04 Feb 2026 22:01 UTC
+; Version: 2026.0204.2201.50
 ; Syntax: RPZ
-; Number of entries: 2602
+; Number of entries: 2592
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -896,8 +896,6 @@ tribalpages.com CNAME .
 *.tribalpages.com CNAME .
 tripod.com CNAME .
 *.tripod.com CNAME .
-truistcooperative.com CNAME .
-*.truistcooperative.com CNAME .
 ubpages.com CNAME .
 *.ubpages.com CNAME .
 ucoz.com CNAME .
@@ -906,8 +904,6 @@ ueuo.com CNAME .
 *.ueuo.com CNAME .
 unaux.com CNAME .
 *.unaux.com CNAME .
-underxdown.com CNAME .
-*.underxdown.com CNAME .
 uphero.com CNAME .
 *.uphero.com CNAME .
 usafreespace.com CNAME .
@@ -2394,12 +2390,6 @@ pizzakeep.shop CNAME .
 *.pizzakeep.shop CNAME .
 shohu.shop CNAME .
 *.shohu.shop CNAME .
-teenradio.shop CNAME .
-*.teenradio.shop CNAME .
-tokusi.shop CNAME .
-*.tokusi.shop CNAME .
-tsure.shop CNAME .
-*.tsure.shop CNAME .
 videopaul.shop CNAME .
 *.videopaul.shop CNAME .
 xinei.shop CNAME .
