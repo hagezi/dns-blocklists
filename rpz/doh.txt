@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770158820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770202080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Feb 2026 22:47 UTC
-; Version: 2026.0203.2247.34
+; Last modified: 04 Feb 2026 10:48 UTC
+; Version: 2026.0204.1048.33
 ; Syntax: RPZ
-; Number of entries: 6968
+; Number of entries: 6956
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -287,8 +287,6 @@ maxfong.cc CNAME .
 *.maxfong.cc CNAME .
 dns.mytest.cc CNAME .
 *.dns.mytest.cc CNAME .
-dns.nekofish.cc CNAME .
-*.dns.nekofish.cc CNAME .
 dns.niccoli.cc CNAME .
 *.dns.niccoli.cc CNAME .
 dns.nonomi.cc CNAME .
@@ -1573,8 +1571,6 @@ kr2.ooroot.com CNAME .
 *.kr2.ooroot.com CNAME .
 sg2.ooroot.com CNAME .
 *.sg2.ooroot.com CNAME .
-tw2.ooroot.com CNAME .
-*.tw2.ooroot.com CNAME .
 dns.opendns.com CNAME .
 *.dns.opendns.com CNAME .
 2.dnscrypt-cert.opendns.com CNAME .
@@ -2721,8 +2717,6 @@ dns.octoworld.fr CNAME .
 *.dns.octoworld.fr CNAME .
 nas.patrick-antoine.fr CNAME .
 *.nas.patrick-antoine.fr CNAME .
-bit.psyk.fr CNAME .
-*.bit.psyk.fr CNAME .
 dns.qkc.fr CNAME .
 *.dns.qkc.fr CNAME .
 home.r01.fr CNAME .
@@ -3449,8 +3443,6 @@ doh.manish.ltd CNAME .
 *.doh.manish.ltd CNAME .
 sink.nolo.ltd CNAME .
 *.sink.nolo.ltd CNAME .
-ollama.rke2.ltd CNAME .
-*.ollama.rke2.ltd CNAME .
 crd.circl.lu CNAME .
 *.crd.circl.lu CNAME .
 dns.circl.lu CNAME .
@@ -6485,8 +6477,6 @@ dns.millernetwork.uk CNAME .
 *.dns.millernetwork.uk CNAME .
 dns.aa.net.uk CNAME .
 *.dns.aa.net.uk CNAME .
-resolver.dnsprivacy.org.uk CNAME .
-*.resolver.dnsprivacy.org.uk CNAME .
 teslacoils.org.uk CNAME .
 *.teslacoils.org.uk CNAME .
 doh.plaawan.uk CNAME .
@@ -6901,8 +6891,6 @@ paskam.xyz CNAME .
 *.paskam.xyz CNAME .
 loan.paymdm.xyz CNAME .
 *.loan.paymdm.xyz CNAME .
-pepetio.xyz CNAME .
-*.pepetio.xyz CNAME .
 pingbi.xyz CNAME .
 *.pingbi.xyz CNAME .
 pm1239-bd.xyz CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770156120 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770199380 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Feb 2026 22:02 UTC
-; Version: 2026.0203.2202.51
+; Last modified: 04 Feb 2026 10:03 UTC
+; Version: 2026.0204.1003.51
 ; Syntax: RPZ
-; Number of entries: 2614
+; Number of entries: 2602
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -836,8 +836,6 @@ runhosting.com CNAME .
 *.runhosting.com CNAME .
 sa.com CNAME .
 *.sa.com CNAME .
-safe-girogate.com CNAME .
-*.safe-girogate.com CNAME .
 schoolrack.com CNAME .
 *.schoolrack.com CNAME .
 sebipay.com CNAME .
@@ -2390,20 +2388,10 @@ hotloss.shop CNAME .
 *.hotloss.shop CNAME .
 kyoce.shop CNAME .
 *.kyoce.shop CNAME .
-nikoha.shop CNAME .
-*.nikoha.shop CNAME .
-nokojp.shop CNAME .
-*.nokojp.shop CNAME .
-officialcity.shop CNAME .
-*.officialcity.shop CNAME .
-okistore.shop CNAME .
-*.okistore.shop CNAME .
 onlineweb.shop CNAME .
 *.onlineweb.shop CNAME .
 pizzakeep.shop CNAME .
 *.pizzakeep.shop CNAME .
-rubberphone.shop CNAME .
-*.rubberphone.shop CNAME .
 shohu.shop CNAME .
 *.shohu.shop CNAME .
 teenradio.shop CNAME .

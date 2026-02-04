@@ -18,6 +18,7 @@ https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/05_popup.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/07_search-domains.txt
 https://dl.red.flag.domains/red.flag.domains.txt
+https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt
 https://easylist-downloads.adblockplus.org/abpindo.txt
 https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 https://easylist-downloads.adblockplus.org/bulgarian_list.txt
