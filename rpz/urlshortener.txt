@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770197640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770219180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Feb 2026 09:34 UTC
-; Version: 2026.0204.0934.48
+; Last modified: 04 Feb 2026 15:33 UTC
+; Version: 2026.0204.1533.18
 ; Syntax: RPZ
-; Number of entries: 19974
+; Number of entries: 19962
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2021,8 +2021,6 @@ social.ora.cl CNAME .
 *.social.ora.cl CNAME .
 pxs.cl CNAME .
 *.pxs.cl CNAME .
-short.cl CNAME .
-*.short.cl CNAME .
 ssff.cl CNAME .
 *.ssff.cl CNAME .
 supr.cl CNAME .
@@ -6265,8 +6263,6 @@ senseifarm.com CNAME .
 *.senseifarm.com CNAME .
 intro.sentrystrategy.com CNAME .
 *.intro.sentrystrategy.com CNAME .
-seotoolify.com CNAME .
-*.seotoolify.com CNAME .
 seotoolsaudit.com CNAME .
 *.seotoolsaudit.com CNAME .
 seru88-amp.com CNAME .
@@ -11969,8 +11965,6 @@ kua.lat CNAME .
 *.kua.lat CNAME .
 mv88.lat CNAME .
 *.mv88.lat CNAME .
-slink.lat CNAME .
-*.slink.lat CNAME .
 tik.lat CNAME .
 *.tik.lat CNAME .
 tvt.lat CNAME .
@@ -12933,8 +12927,6 @@ shrnk.link CNAME .
 *.shrnk.link CNAME .
 shrtme.link CNAME .
 *.shrtme.link CNAME .
-shrtq.link CNAME .
-*.shrtq.link CNAME .
 sicepat.link CNAME .
 *.sicepat.link CNAME .
 sidji.link CNAME .
@@ -14917,8 +14909,6 @@ link.popthebox.my CNAME .
 *.link.popthebox.my CNAME .
 rls.my CNAME .
 *.rls.my CNAME .
-sinni.my CNAME .
-*.sinni.my CNAME .
 ss88.my CNAME .
 *.ss88.my CNAME .
 tgmy.my CNAME .
@@ -16827,8 +16817,6 @@ shorturls.pro CNAME .
 *.shorturls.pro CNAME .
 shortwave.pro CNAME .
 *.shortwave.pro CNAME .
-shrinkme.pro CNAME .
-*.shrinkme.pro CNAME .
 shrinky.pro CNAME .
 *.shrinky.pro CNAME .
 shrtct.pro CNAME .
@@ -17311,8 +17299,6 @@ serpec.ru CNAME .
 *.serpec.ru CNAME .
 sgsu.ru CNAME .
 *.sgsu.ru CNAME .
-sho-rt.ru CNAME .
-*.sho-rt.ru CNAME .
 shorix.ru CNAME .
 *.shorix.ru CNAME .
 shorturl.ru CNAME .
@@ -19435,6 +19421,8 @@ dronescapes.video CNAME .
 *.dronescapes.video CNAME .
 trq.video CNAME .
 *.trq.video CNAME .
+dar.vin CNAME .
+*.dar.vin CNAME .
 fb.vin CNAME .
 *.fb.vin CNAME .
 1xregister.vip CNAME .
