@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770287700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770315000 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 10:35 UTC
-; Version: 2026.0205.1035.27
+; Last modified: 05 Feb 2026 18:10 UTC
+; Version: 2026.0205.1810.16
 ; Syntax: RPZ
-; Number of entries: 23146
+; Number of entries: 23148
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -5284,6 +5284,8 @@ kayoanime.com CNAME .
 *.kayoanime.com CNAME .
 tracker.keepfrds.com CNAME .
 *.tracker.keepfrds.com CNAME .
+kekchain.com CNAME .
+*.kekchain.com CNAME .
 data.kenecolor.com CNAME .
 *.data.kenecolor.com CNAME .
 keygenguru.com CNAME .

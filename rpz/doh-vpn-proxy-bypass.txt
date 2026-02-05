@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770288000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770315300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 10:40 UTC
-; Version: 2026.0205.1040.58
+; Last modified: 05 Feb 2026 18:15 UTC
+; Version: 2026.0205.1815.47
 ; Syntax: RPZ
-; Number of entries: 31174
+; Number of entries: 31194
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -251,6 +251,8 @@ dot.tiar.app CNAME .
 *.dot.tiar.app CNAME .
 jp.tiar.app CNAME .
 *.jp.tiar.app CNAME .
+trees.app CNAME .
+*.trees.app CNAME .
 dns.tryk.app CNAME .
 *.dns.tryk.app CNAME .
 ttsw557.app CNAME .
@@ -3639,6 +3641,8 @@ n8z7zwivjg.execute-api.us-east-1.amazonaws.com CNAME .
 *.n8z7zwivjg.execute-api.us-east-1.amazonaws.com CNAME .
 w6wgmwa4bd.execute-api.us-east-1.amazonaws.com CNAME .
 *.w6wgmwa4bd.execute-api.us-east-1.amazonaws.com CNAME .
+mellowtel-bucket.s3.us-east-1.amazonaws.com CNAME .
+*.mellowtel-bucket.s3.us-east-1.amazonaws.com CNAME .
 msstore-submissions.s3.us-east-1.amazonaws.com CNAME .
 *.msstore-submissions.s3.us-east-1.amazonaws.com CNAME .
 xv-client-json-configuration.s3.us-east-1.amazonaws.com CNAME .
@@ -4605,6 +4609,8 @@ bro-ru.com CNAME .
 *.bro-ru.com CNAME .
 agh.broaddy.com CNAME .
 *.agh.broaddy.com CNAME .
+broadearn.com CNAME .
+*.broadearn.com CNAME .
 browsec.com CNAME .
 *.browsec.com CNAME .
 browserling.com CNAME .
@@ -5233,6 +5239,8 @@ ct-vpn.com CNAME .
 *.ct-vpn.com CNAME .
 cubedns.com CNAME .
 *.cubedns.com CNAME .
+mobile-socket.culturegps.com CNAME .
+*.mobile-socket.culturegps.com CNAME .
 shadow.curesoutpost.com CNAME .
 *.shadow.curesoutpost.com CNAME .
 dns.cwlys.com CNAME .
@@ -7145,6 +7153,8 @@ homeproxy.com CNAME .
 *.homeproxy.com CNAME .
 honeygain.com CNAME .
 *.honeygain.com CNAME .
+honeyping.com CNAME .
+*.honeyping.com CNAME .
 dns.hoody.com CNAME .
 *.dns.hoody.com CNAME .
 dns.hopsken.com CNAME .
@@ -9501,6 +9511,8 @@ school.edu.radix-site.com CNAME .
 *.school.edu.radix-site.com CNAME .
 radmin-vpn.com CNAME .
 *.radmin-vpn.com CNAME .
+check.ragpets.com CNAME .
+*.check.ragpets.com CNAME .
 fern.best.rainbowcup.com CNAME .
 *.fern.best.rainbowcup.com CNAME .
 looking.rainbowcup.com CNAME .
@@ -18853,6 +18865,8 @@ furrytech.io CNAME .
 *.furrytech.io CNAME .
 geosurf.io CNAME .
 *.geosurf.io CNAME .
+getgrass.io CNAME .
+*.getgrass.io CNAME .
 batvpn.github.io CNAME .
 *.batvpn.github.io CNAME .
 censortracker.github.io CNAME .
@@ -20947,6 +20961,8 @@ player-nation.bayworld.net CNAME .
 *.player-nation.bayworld.net CNAME .
 vcsaontop.bayworld.net CNAME .
 *.vcsaontop.bayworld.net CNAME .
+beepong.net CNAME .
+*.beepong.net CNAME .
 best-mobile.net CNAME .
 *.best-mobile.net CNAME .
 bestapple.net CNAME .
@@ -23775,6 +23791,8 @@ freedom.mydns.network CNAME .
 *.freedom.mydns.network CNAME .
 paranoia.mydns.network CNAME .
 *.paranoia.mydns.network CNAME .
+mysterium.network CNAME .
+*.mysterium.network CNAME .
 node.network CNAME .
 *.node.network CNAME .
 dns.nominal.network CNAME .
@@ -29973,6 +29991,8 @@ dns.xwu.us CNAME .
 *.dns.xwu.us CNAME .
 leeway.uz CNAME .
 *.leeway.uz CNAME .
+traffix.uz CNAME .
+*.traffix.uz CNAME .
 drive.google.com.hs.vc CNAME .
 *.drive.google.com.hs.vc CNAME .
 grid.know.hs.vc CNAME .
