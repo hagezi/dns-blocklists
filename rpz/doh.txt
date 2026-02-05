@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770266700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770288000 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 04:45 UTC
-; Version: 2026.0205.0445.59
+; Last modified: 05 Feb 2026 10:40 UTC
+; Version: 2026.0205.1040.21
 ; Syntax: RPZ
 ; Number of entries: 6950
 ;
@@ -583,8 +583,6 @@ xiaoxinhui.cn CNAME .
 *.xiaoxinhui.cn CNAME .
 dns.xinwujiang.cn CNAME .
 *.dns.xinwujiang.cn CNAME .
-dns.zoogle.cn CNAME .
-*.dns.zoogle.cn CNAME .
 dns.zzuhacker.cn CNAME .
 *.dns.zzuhacker.cn CNAME .
 nas.embraced.co CNAME .
@@ -3991,6 +3989,8 @@ pdns.elecura.net CNAME .
 *.pdns.elecura.net CNAME .
 home.enjoymylife.net CNAME .
 *.home.enjoymylife.net CNAME .
+dns.envs.net CNAME .
+*.dns.envs.net CNAME .
 shield1.eranext.net CNAME .
 *.shield1.eranext.net CNAME .
 doh.ersei.net CNAME .
