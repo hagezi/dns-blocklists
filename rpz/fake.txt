@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770310800 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770327000 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 17:00 UTC
-; Version: 2026.0205.1700.11
+; Last modified: 05 Feb 2026 21:30 UTC
+; Version: 2026.0205.2130.28
 ; Syntax: RPZ
-; Number of entries: 27834
+; Number of entries: 27836
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -25212,6 +25212,8 @@ super-pharm-fr.net CNAME .
 *.super-pharm-fr.net CNAME .
 supragaming.net CNAME .
 *.supragaming.net CNAME .
+tagesgeld-plus.net CNAME .
+*.tagesgeld-plus.net CNAME .
 tedbakerireland.net CNAME .
 *.tedbakerireland.net CNAME .
 tedbakersuomi.net CNAME .

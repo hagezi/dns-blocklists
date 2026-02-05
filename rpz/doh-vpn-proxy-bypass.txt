@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770315300 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770331380 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 18:15 UTC
-; Version: 2026.0205.1815.47
+; Last modified: 05 Feb 2026 22:43 UTC
+; Version: 2026.0205.2243.15
 ; Syntax: RPZ
-; Number of entries: 31194
+; Number of entries: 31200
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -7305,6 +7305,8 @@ idcloak.com CNAME .
 *.idcloak.com CNAME .
 idealvpn.com CNAME .
 *.idealvpn.com CNAME .
+idleforest.com CNAME .
+*.idleforest.com CNAME .
 idolproxy.com CNAME .
 *.idolproxy.com CNAME .
 dns2.idsam.com CNAME .
@@ -23807,6 +23809,8 @@ talc.network CNAME .
 *.talc.network CNAME .
 dns.unerror.network CNAME .
 *.dns.unerror.network CNAME .
+ur.network CNAME .
+*.ur.network CNAME .
 voidd.network CNAME .
 *.voidd.network CNAME .
 proxy.wynd.network CNAME .
@@ -31199,6 +31203,8 @@ paulo.nom.za CNAME .
 *.paulo.nom.za CNAME .
 for-my-highschoolers.yun.nom.za CNAME .
 *.for-my-highschoolers.yun.nom.za CNAME .
+easytap.zone CNAME .
+*.easytap.zone CNAME .
 easyvpn.zone CNAME .
 *.easyvpn.zone CNAME .
 freevpn.zone CNAME .

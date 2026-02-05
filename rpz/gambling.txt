@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770314760 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770330840 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 18:06 UTC
-; Version: 2026.0205.1806.58
+; Last modified: 05 Feb 2026 22:34 UTC
+; Version: 2026.0205.2234.12
 ; Syntax: RPZ
-; Number of entries: 355098
+; Number of entries: 355096
 ;
 1xbet.ac CNAME .
 *.1xbet.ac CNAME .
@@ -261042,8 +261042,6 @@ z97.game CNAME .
 *.1xbet.games CNAME .
 1xplay.games CNAME .
 *.1xplay.games CNAME .
-28bet.games CNAME .
-*.28bet.games CNAME .
 33s.games CNAME .
 *.33s.games CNAME .
 365bets.games CNAME .
