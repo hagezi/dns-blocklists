@@ -10,8 +10,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 04 Feb 2026 22:47 UTC
-! Version: 2026.0204.2247.21
+! Last modified: 06 Feb 2026 04:46 UTC
+! Version: 2026.0206.0446.05
 ! Syntax: AdGuard
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -108,7 +108,7 @@
 ||*.financial^
 ||*.fishing^
 ||*.fit^$denyallow=appetit.fit|clubb.fit|justget.fit|pridegym.fit|union.fit
-||*.fitness^$denyallow=johnreed.fitness
+||*.fitness^$denyallow=johnreed.fitness|leaphealth.fitness
 ||*.florist^
 ||*.foo^$denyallow=helloworld.foo
 ||*.food^$denyallow=way.food
