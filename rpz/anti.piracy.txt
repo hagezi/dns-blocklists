@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770315000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770417420 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Feb 2026 18:10 UTC
-; Version: 2026.0205.1810.16
+; Last modified: 06 Feb 2026 22:37 UTC
+; Version: 2026.0206.2237.33
 ; Syntax: RPZ
-; Number of entries: 23148
+; Number of entries: 23152
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -10086,6 +10086,8 @@ rlsxtvt.icu CNAME .
 *.rlsxtvt.icu CNAME .
 streamingcommunity.icu CNAME .
 *.streamingcommunity.icu CNAME .
+strumyk.icu CNAME .
+*.strumyk.icu CNAME .
 tantifilm.icu CNAME .
 *.tantifilm.icu CNAME .
 thepiratebay.icu CNAME .
@@ -18806,6 +18808,8 @@ world4ufree.sale CNAME .
 *.world4ufree.sale CNAME .
 hdmovie2.salon CNAME .
 *.hdmovie2.salon CNAME .
+worldfree4u.sarl CNAME .
+*.worldfree4u.sarl CNAME .
 hdmovie2.sb CNAME .
 *.hdmovie2.sb CNAME .
 putlocker.sb CNAME .

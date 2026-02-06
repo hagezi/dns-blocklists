@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770393240 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770413160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 15:54 UTC
-; Version: 2026.0206.1554.34
+; Last modified: 06 Feb 2026 21:26 UTC
+; Version: 2026.0206.2126.08
 ; Syntax: RPZ
-; Number of entries: 116740
+; Number of entries: 116738
 ;
 simpleswap.ac CNAME .
 *.simpleswap.ac CNAME .
@@ -79156,8 +79156,6 @@ wristseeingscald.com CNAME .
 *.wristseeingscald.com CNAME .
 write-for-me.com CNAME .
 *.write-for-me.com CNAME .
-writeaffectionately.com CNAME .
-*.writeaffectionately.com CNAME .
 writehopedcrashed.com CNAME .
 *.writehopedcrashed.com CNAME .
 writhehawm.com CNAME .
