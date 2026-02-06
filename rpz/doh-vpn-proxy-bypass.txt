@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770353100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770374640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 04:45 UTC
-; Version: 2026.0206.0445.19
+; Last modified: 06 Feb 2026 10:44 UTC
+; Version: 2026.0206.1044.59
 ; Syntax: RPZ
-; Number of entries: 31202
+; Number of entries: 31232
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -217,6 +217,8 @@ onlinevpn.app CNAME .
 *.onlinevpn.app CNAME .
 pawns.app CNAME .
 *.pawns.app CNAME .
+peer2profit.app CNAME .
+*.peer2profit.app CNAME .
 peremen.app CNAME .
 *.peremen.app CNAME .
 proxybrowser.app CNAME .
@@ -787,6 +789,8 @@ galxy.autos CNAME .
 *.galxy.autos CNAME .
 please.sell-my-car.autos CNAME .
 *.please.sell-my-car.autos CNAME .
+fcgv4rovovvlixqc2a7qncvev40dbxsy.lambda-url.us-east-1.on.aws CNAME .
+*.fcgv4rovovvlixqc2a7qncvev40dbxsy.lambda-url.us-east-1.on.aws CNAME .
 adg.dz.ax CNAME .
 *.adg.dz.ax CNAME .
 ram.kunar.baby CNAME .
@@ -2379,6 +2383,8 @@ sudo.rm-rf.cloud CNAME .
 *.sudo.rm-rf.cloud CNAME .
 dns.roedel.cloud CNAME .
 *.dns.roedel.cloud CNAME .
+repocket-production.s3.fr-par.scw.cloud CNAME .
+*.repocket-production.s3.fr-par.scw.cloud CNAME .
 dns.stud.cloud CNAME .
 *.dns.stud.cloud CNAME .
 guard.thefather.cloud CNAME .
@@ -2693,6 +2699,8 @@ spedo.co CNAME .
 *.spedo.co CNAME .
 stealthy.co CNAME .
 *.stealthy.co CNAME .
+ufsnmvbmgwvkhirfnptm.supabase.co CNAME .
+*.ufsnmvbmgwvkhirfnptm.supabase.co CNAME .
 torrentproxy.co CNAME .
 *.torrentproxy.co CNAME .
 turbovpn.co CNAME .
@@ -3599,6 +3607,8 @@ e105l6mnx3.execute-api.eu-west-3.amazonaws.com CNAME .
 *.e105l6mnx3.execute-api.eu-west-3.amazonaws.com CNAME .
 sd3n0344di.execute-api.eu-west-3.amazonaws.com CNAME .
 *.sd3n0344di.execute-api.eu-west-3.amazonaws.com CNAME .
+zlhp6jksk5.execute-api.eu-west-3.amazonaws.com CNAME .
+*.zlhp6jksk5.execute-api.eu-west-3.amazonaws.com CNAME .
 apps-ivacy.s3.amazonaws.com CNAME .
 *.apps-ivacy.s3.amazonaws.com CNAME .
 fastestvpn.s3.amazonaws.com CNAME .
@@ -3639,6 +3649,8 @@ i4frgxs0s5.execute-api.us-east-1.amazonaws.com CNAME .
 *.i4frgxs0s5.execute-api.us-east-1.amazonaws.com CNAME .
 n8z7zwivjg.execute-api.us-east-1.amazonaws.com CNAME .
 *.n8z7zwivjg.execute-api.us-east-1.amazonaws.com CNAME .
+tb2hgc4485.execute-api.us-east-1.amazonaws.com CNAME .
+*.tb2hgc4485.execute-api.us-east-1.amazonaws.com CNAME .
 w6wgmwa4bd.execute-api.us-east-1.amazonaws.com CNAME .
 *.w6wgmwa4bd.execute-api.us-east-1.amazonaws.com CNAME .
 mellowtel-bucket.s3.us-east-1.amazonaws.com CNAME .
@@ -5393,6 +5405,8 @@ wsu.ams3.digitaloceanspaces.com CNAME .
 *.wsu.ams3.digitaloceanspaces.com CNAME .
 net4ebur.fra1.cdn.digitaloceanspaces.com CNAME .
 *.net4ebur.fra1.cdn.digitaloceanspaces.com CNAME .
+repocket-cdn.fra1.cdn.digitaloceanspaces.com CNAME .
+*.repocket-cdn.fra1.cdn.digitaloceanspaces.com CNAME .
 tierbase3.fra1.cdn.digitaloceanspaces.com CNAME .
 *.tierbase3.fra1.cdn.digitaloceanspaces.com CNAME .
 net4ebur.fra1.digitaloceanspaces.com CNAME .
@@ -8985,6 +8999,8 @@ ovpn.com CNAME .
 *.ovpn.com CNAME .
 oystervpn.com CNAME .
 *.oystervpn.com CNAME .
+p2p-app-bot.com CNAME .
+*.p2p-app-bot.com CNAME .
 dns.p55k.com CNAME .
 *.dns.p55k.com CNAME .
 solve.write.pacificbellinternational.com CNAME .
@@ -9011,6 +9027,8 @@ panwchi.com CNAME .
 *.panwchi.com CNAME .
 pashagame456.com CNAME .
 *.pashagame456.com CNAME .
+passiveapp.com CNAME .
+*.passiveapp.com CNAME .
 myapps.classlink.pastrypowered.com CNAME .
 *.myapps.classlink.pastrypowered.com CNAME .
 securley.patelmortgage.com CNAME .
@@ -9197,6 +9215,8 @@ privatevpn.com CNAME .
 *.privatevpn.com CNAME .
 privatewifi.com CNAME .
 *.privatewifi.com CNAME .
+privatix.com CNAME .
+*.privatix.com CNAME .
 pro-tower.com CNAME .
 *.pro-tower.com CNAME .
 prohashing.com CNAME .
@@ -15235,6 +15255,8 @@ updatedproxies.com CNAME .
 *.updatedproxies.com CNAME .
 dns.uplenk.com CNAME .
 *.dns.uplenk.com CNAME .
+uprock.com CNAME .
+*.uprock.com CNAME .
 uproxy2.com CNAME .
 *.uproxy2.com CNAME .
 ur-browser.com CNAME .
@@ -18187,6 +18209,8 @@ dns.mailcastle.in CNAME .
 *.dns.mailcastle.in CNAME .
 mywebproxy.in CNAME .
 *.mywebproxy.in CNAME .
+peer2profit.in CNAME .
+*.peer2profit.in CNAME .
 notrealy.portkochi.in CNAME .
 *.notrealy.portkochi.in CNAME .
 editor.primeent.in CNAME .
@@ -23169,6 +23193,8 @@ piaproxy.net CNAME .
 *.piaproxy.net CNAME .
 piaservers.net CNAME .
 *.piaservers.net CNAME .
+pingmybee.net CNAME .
+*.pingmybee.net CNAME .
 pktriot.net CNAME .
 *.pktriot.net CNAME .
 pktwizards.net CNAME .
@@ -25927,6 +25953,8 @@ daemonhunt.no-ip.org CNAME .
 *.daemonhunt.no-ip.org CNAME .
 adguard.nocnik.org CNAME .
 *.adguard.nocnik.org CNAME .
+nodepay.org CNAME .
+*.nodepay.org CNAME .
 imnotsoocoolsostop.nokedli.org CNAME .
 *.imnotsoocoolsostop.nokedli.org CNAME .
 nordforme.org CNAME .
@@ -26007,6 +26035,8 @@ picstash.org CNAME .
 *.picstash.org CNAME .
 piraproxy.org CNAME .
 *.piraproxy.org CNAME .
+ponghive.org CNAME .
+*.ponghive.org CNAME .
 endis.port0.org CNAME .
 *.endis.port0.org CNAME .
 topic.terms.port0.org CNAME .
@@ -29641,8 +29671,6 @@ doh.dnscrypt.uk CNAME .
 *.doh.dnscrypt.uk CNAME .
 v.dnscrypt.uk CNAME .
 *.v.dnscrypt.uk CNAME .
-dns.dooks.uk CNAME .
-*.dns.dooks.uk CNAME .
 mathiscool.eemotors.uk CNAME .
 *.mathiscool.eemotors.uk CNAME .
 superstudybrains.eemotors.uk CNAME .
@@ -31205,6 +31233,8 @@ paulo.nom.za CNAME .
 *.paulo.nom.za CNAME .
 for-my-highschoolers.yun.nom.za CNAME .
 *.for-my-highschoolers.yun.nom.za CNAME .
+easymoney.zone CNAME .
+*.easymoney.zone CNAME .
 easytap.zone CNAME .
 *.easytap.zone CNAME .
 easyvpn.zone CNAME .
