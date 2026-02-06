@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 30 Jan 2026 16:14 UTC
-# Version: 2026.0130.1614.58
+# Last modified: 06 Feb 2026 16:09 UTC
+# Version: 2026.0206.1609.07
 # Syntax: Domains (including possible subdomains)
-# Number of entries: 625
+# Number of entries: 632
 #
 3px.axp.amazon-adsystem.com
 aan.amazon.co.jp
@@ -48,6 +48,7 @@ aax-eu-rtb-adx.amazon-adsystem.com
 aax-eu-rtb.amazon-adsystem.com
 aax-eu-test1.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
+aax-events-cell01-cf.ap-southeast.3px.axp.amazon-adsystem.com
 aax-events-cell01-cf.ap-southeast.aps.axp.amazon-adsystem.com
 aax-events-cell01-cf.eu-central.3px.axp.amazon-adsystem.com
 aax-events-cell01-cf.eu-south.ono.axp.amazon-adsystem.com
@@ -75,6 +76,7 @@ aax-events-cell02.us-west.3px.axp.amazon-adsystem.com
 aax-events-dedicated.eu-west.ono.axp.amazon-adsystem.com
 aax-events-dedicated.us-east.ono.axp.amazon-adsystem.com
 aax-events-mobile.us-west.3px.axp.amazon-adsystem.com
+aax-events-pdns-wt.fe.us-west.ono.axp.amazon-adsystem.com
 aax-events-pdns-wt.us-west.3px.axp.amazon-adsystem.com
 aax-events-wt.ap-southeast.aps.axp.amazon-adsystem.com
 aax-events-wt.us-west.ono.axp.amazon-adsystem.com
@@ -225,7 +227,6 @@ bid-na.ads-gamma.aps.amazon-adsystem.com
 bid-na.ads.aps.amazon-adsystem.com
 bugs.firebat.prime-video.amazon.dev
 bugsnag-event.monitor.core.app.alexa.a2z.com
-bugsnag-session.monitor.core.app.alexa.a2z.com
 bugsnag.appstore.a2z.com
 bugsnag.shopbop.amazon.dev
 c.amazon-adsystem.com
@@ -273,6 +274,7 @@ cell8002.pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 cell8002.pdx.stv.event-na.ads.aps.amazon-adsystem.com
 cell8004.pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 cell8004.pdx.stv.event-na.ads.aps.amazon-adsystem.com
+cell8011.fra.mobile.bid-eu.ads.aps.amazon-adsystem.com
 client.aps.amazon-adsystem.com
 client.rum.us-east-1.amazonaws.com
 config.aps.amazon-adsystem.com
@@ -401,10 +403,12 @@ maws-aax-apse-rtb.amazon-adsystem.com
 maws-aax-eu-rtb-adx.amazon-adsystem.com
 maws-aax-eu-rtb.amazon-adsystem.com
 maws-aax-fe-sin.amazon-adsystem.com
+maws-aax-fe.amazon-adsystem.com
 maws-aax-us-east-rtb-adx.amazon-adsystem.com
 maws-aax-us-east-rtb.amazon-adsystem.com
 maws-aax-us-east-test4.amazon-adsystem.com
 maws-aax-us-pdx-rtb.amazon-adsystem.com
+mdtb-eu.ads.aps.amazon-adsystem.com
 mdtb.ads.aps.amazon-adsystem.com
 metrics.media-amazon.com
 minerva.devices.a2z.com
@@ -466,7 +470,9 @@ rum.us-west-2.amazonaws.com
 s-fe.amazon-adsystem.com
 s.amazon-adsystem.com
 s2s-iad.pg.bid-na.ads.aps.amazon-adsystem.com
+s2s-iad.stv.bid-na.ads.aps.amazon-adsystem.com
 s2s-pdx.pg.bid-na.ads.aps.amazon-adsystem.com
+s2s-pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 s2s.pg.bid-na.ads.aps.amazon-adsystem.com
 s2s.spp.bid-na.ads-beta.aps.amazon-adsystem.com
 s2s.spp.event-na.ads-beta.aps.amazon-adsystem.com
@@ -590,6 +596,7 @@ vfw-us-west-gamma.amazon-adsystem.com
 vfw-us-west.amazon-adsystem.com
 vfw-us.amazon-adsystem.com
 vfw.amazon-adsystem.com
+vfwm-us-west.amazon-adsystem.com
 vfwm-us.amazon-adsystem.com
 vfwm.amazon-adsystem.com
 vfws.amazon-adsystem.com

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769158800 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770394320 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jan 2026 09:00 UTC
-; Version: 2026.0123.0900.04
+; Last modified: 06 Feb 2026 16:12 UTC
+; Version: 2026.0206.1612.11
 ; Syntax: RPZ
-; Number of entries: 1032
+; Number of entries: 1038
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -198,6 +198,8 @@ pc-mon.snssdk.com CNAME .
 *.pc-mon.snssdk.com CNAME .
 sdfp.snssdk.com CNAME .
 *.sdfp.snssdk.com CNAME .
+stream.snssdk.com CNAME .
+*.stream.snssdk.com CNAME .
 tbm.snssdk.com CNAME .
 *.tbm.snssdk.com CNAME .
 temai.snssdk.com CNAME .
@@ -218,6 +220,8 @@ ug.snssdk.com CNAME .
 *.ug.snssdk.com CNAME .
 vas-hl-x.snssdk.com CNAME .
 *.vas-hl-x.snssdk.com CNAME .
+vcl-brain.snssdk.com CNAME .
+*.vcl-brain.snssdk.com CNAME .
 xlog.snssdk.com CNAME .
 *.xlog.snssdk.com CNAME .
 ads.tiktok.com CNAME .
@@ -888,6 +892,8 @@ ads-ttp2.tiktokw.eu CNAME .
 *.ads-ttp2.tiktokw.eu CNAME .
 ads16-normal-useastred.tiktokw.eu CNAME .
 *.ads16-normal-useastred.tiktokw.eu CNAME .
+analytics-exp-ttp2.tiktokw.eu CNAME .
+*.analytics-exp-ttp2.tiktokw.eu CNAME .
 analytics-ie.tiktokw.eu CNAME .
 *.analytics-ie.tiktokw.eu CNAME .
 analytics-ttp2.tiktokw.eu CNAME .

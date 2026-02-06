@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769789640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770394140 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jan 2026 16:14 UTC
-; Version: 2026.0130.1614.58
+; Last modified: 06 Feb 2026 16:09 UTC
+; Version: 2026.0206.1609.07
 ; Syntax: RPZ
-; Number of entries: 632
+; Number of entries: 634
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -56,8 +56,6 @@ advertising.a2z.com CNAME .
 *.advertising.a2z.com CNAME .
 bugsnag-event.monitor.core.app.alexa.a2z.com CNAME .
 *.bugsnag-event.monitor.core.app.alexa.a2z.com CNAME .
-bugsnag-session.monitor.core.app.alexa.a2z.com CNAME .
-*.bugsnag-session.monitor.core.app.alexa.a2z.com CNAME .
 bugsnag.appstore.a2z.com CNAME .
 *.bugsnag.appstore.a2z.com CNAME .
 minerva.devices.a2z.com CNAME .
@@ -334,6 +332,8 @@ maws-aax-eu-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-eu-rtb.amazon-adsystem.com CNAME .
 maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
 *.maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
+maws-aax-fe.amazon-adsystem.com CNAME .
+*.maws-aax-fe.amazon-adsystem.com CNAME .
 maws-aax-fe-sin.amazon-adsystem.com CNAME .
 *.maws-aax-fe-sin.amazon-adsystem.com CNAME .
 maws-aax-us-east-rtb.amazon-adsystem.com CNAME .
@@ -430,6 +430,8 @@ vfwm.amazon-adsystem.com CNAME .
 *.vfwm.amazon-adsystem.com CNAME .
 vfwm-us.amazon-adsystem.com CNAME .
 *.vfwm-us.amazon-adsystem.com CNAME .
+vfwm-us-west.amazon-adsystem.com CNAME .
+*.vfwm-us-west.amazon-adsystem.com CNAME .
 vfws.amazon-adsystem.com CNAME .
 *.vfws.amazon-adsystem.com CNAME .
 vq-eu-west-1.amazon-adsystem.com CNAME .
