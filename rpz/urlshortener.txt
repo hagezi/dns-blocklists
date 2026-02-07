@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770478200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770499800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 15:30 UTC
-; Version: 2026.0207.1530.59
+; Last modified: 07 Feb 2026 21:30 UTC
+; Version: 2026.0207.2130.30
 ; Syntax: RPZ
-; Number of entries: 20004
+; Number of entries: 20008
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3615,6 +3615,8 @@ bitlylinks.com CNAME .
 *.bitlylinks.com CNAME .
 bitlyshort.com CNAME .
 *.bitlyshort.com CNAME .
+bitlyvi.com CNAME .
+*.bitlyvi.com CNAME .
 bitshrt.com CNAME .
 *.bitshrt.com CNAME .
 bitstackhub.com CNAME .
@@ -7915,8 +7917,6 @@ tox.cx CNAME .
 *.tox.cx CNAME .
 trim.cx CNAME .
 *.trim.cx CNAME .
-vix.cx CNAME .
-*.vix.cx CNAME .
 x3.cx CNAME .
 *.x3.cx CNAME .
 url.cy CNAME .
@@ -8331,6 +8331,8 @@ bit.do CNAME .
 *.bit.do CNAME .
 biolink.com.do CNAME .
 *.biolink.com.do CNAME .
+onelink.com.do CNAME .
+*.onelink.com.do CNAME .
 dad.do CNAME .
 *.dad.do CNAME .
 eb.do CNAME .
@@ -10291,6 +10293,8 @@ chudaitrieuview.info CNAME .
 *.chudaitrieuview.info CNAME .
 cinecom.info CNAME .
 *.cinecom.info CNAME .
+coinpr.info CNAME .
+*.coinpr.info CNAME .
 cookcenter.info CNAME .
 *.cookcenter.info CNAME .
 cqma.info CNAME .

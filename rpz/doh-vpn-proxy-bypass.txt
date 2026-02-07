@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770482700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770504360 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 16:45 UTC
-; Version: 2026.0207.1645.53
+; Last modified: 07 Feb 2026 22:46 UTC
+; Version: 2026.0207.2246.56
 ; Syntax: RPZ
-; Number of entries: 31072
+; Number of entries: 31080
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -4479,6 +4479,8 @@ www.securly.com.bookpropofplace.com CNAME .
 *.www.securly.com.bookpropofplace.com CNAME .
 boomproxy.com CNAME .
 *.boomproxy.com CNAME .
+boomtunnel.com CNAME .
+*.boomtunnel.com CNAME .
 booster456.com CNAME .
 *.booster456.com CNAME .
 twindrill.bornsecret.com CNAME .
@@ -19429,6 +19431,8 @@ zorrovpn.io CNAME .
 *.zorrovpn.io CNAME .
 grgrgrkeepcalmkeepcalm.asatid12.ir CNAME .
 *.grgrgrkeepcalmkeepcalm.asatid12.ir CNAME .
+ougonokaze.cheftayebeh.ir CNAME .
+*.ougonokaze.cheftayebeh.ir CNAME .
 qh.cheftayebeh.ir CNAME .
 *.qh.cheftayebeh.ir CNAME .
 coolsitebroughttoyoubyant.cpub.ir CNAME .
@@ -25183,6 +25187,10 @@ brooklyndancefestival.org CNAME .
 *.brooklyndancefestival.org CNAME .
 classroom.broomleigh.org CNAME .
 *.classroom.broomleigh.org CNAME .
+goguardian.broomleigh.org CNAME .
+*.goguardian.broomleigh.org CNAME .
+linewize.broomleigh.org CNAME .
+*.linewize.broomleigh.org CNAME .
 bropay.org CNAME .
 *.bropay.org CNAME .
 buildmyplays.org CNAME .

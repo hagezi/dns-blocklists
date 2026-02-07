@@ -1,6 +1,12 @@
 # Unblocking for all lists (relaxed, balanced, aggressive and strict)
 # Domains to be removed from the light, normal, pro, pro++ and ultimate list. Also from the fake, popupads and tif.
 
+# https://github.com/hagezi/dns-blocklists/issues/9039#issuecomment-3865187739
+nicehash.com
+
+# https://github.com/hagezi/dns-blocklists/issues/9064#issuecomment-3864834813
+vpngate.net
+
 # Breaks login in some Apps, e.g. Klarna
 *.customlinks.appsflyer.com
 *.customlinks.appsflyer.com.cdn.cloudflare.net
