@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770417420 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770460860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 22:37 UTC
-; Version: 2026.0206.2237.33
+; Last modified: 07 Feb 2026 10:41 UTC
+; Version: 2026.0207.1041.01
 ; Syntax: RPZ
-; Number of entries: 23152
+; Number of entries: 23158
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -2542,6 +2542,8 @@ ytricks.co CNAME .
 *.6ffc826b.yyv.co CNAME .
 z-shadow.co CNAME .
 *.z-shadow.co CNAME .
+123movies.coach CNAME .
+*.123movies.coach CNAME .
 cb01.coach CNAME .
 *.cb01.coach CNAME .
 cineblog01.coach CNAME .
@@ -9538,6 +9540,8 @@ vegamovies.frl CNAME .
 *.123movies4u.fun CNAME .
 123unblock.fun CNAME .
 *.123unblock.fun CNAME .
+1337x.fun CNAME .
+*.1337x.fun CNAME .
 9kmovies.fun CNAME .
 *.9kmovies.fun CNAME .
 actrue.fun CNAME .
@@ -20646,6 +20650,8 @@ kinox.tools CNAME .
 *.03hao.top CNAME .
 123movies.top CNAME .
 *.123movies.top CNAME .
+123movieshd.top CNAME .
+*.123movieshd.top CNAME .
 supaflix.1mt.top CNAME .
 *.supaflix.1mt.top CNAME .
 supaflix-series.1mt.top CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770417780 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770461160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 22:43 UTC
-; Version: 2026.0206.2243.04
+; Last modified: 07 Feb 2026 10:46 UTC
+; Version: 2026.0207.1046.52
 ; Syntax: RPZ
-; Number of entries: 31048
+; Number of entries: 31064
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -223,6 +223,8 @@ peremen.app CNAME .
 *.peremen.app CNAME .
 pornproxy.app CNAME .
 *.pornproxy.app CNAME .
+proxifi.app CNAME .
+*.proxifi.app CNAME .
 proxybrowser.app CNAME .
 *.proxybrowser.app CNAME .
 purejsq.app CNAME .
@@ -317,6 +319,8 @@ ikilledmydog.vercel.app CNAME .
 *.ikilledmydog.vercel.app CNAME .
 ilovemrmorris-ggnewo.vercel.app CNAME .
 *.ilovemrmorris-ggnewo.vercel.app CNAME .
+k-vpn.vercel.app CNAME .
+*.k-vpn.vercel.app CNAME .
 kwazydabest.vercel.app CNAME .
 *.kwazydabest.vercel.app CNAME .
 kwazyisntgay.vercel.app CNAME .
@@ -349,6 +353,8 @@ sureee.vercel.app CNAME .
 *.sureee.vercel.app CNAME .
 tiwschool.vercel.app CNAME .
 *.tiwschool.vercel.app CNAME .
+turbo-node.vercel.app CNAME .
+*.turbo-node.vercel.app CNAME .
 tyagain.vercel.app CNAME .
 *.tyagain.vercel.app CNAME .
 ugfd-proxy-offical.vercel.app CNAME .
@@ -2865,6 +2871,8 @@ ayman-dns.731my.com CNAME .
 *.ayman-dns.731my.com CNAME .
 dns.73zls.com CNAME .
 *.dns.73zls.com CNAME .
+idk.7btech.com CNAME .
+*.idk.7btech.com CNAME .
 7vpn.com CNAME .
 *.7vpn.com CNAME .
 8proxy.com CNAME .
@@ -4683,10 +4691,8 @@ bypasskey.com CNAME .
 *.bypasskey.com CNAME .
 bypasstunnel.com CNAME .
 *.bypasstunnel.com CNAME .
-api.bytelixir.com CNAME .
-*.api.bytelixir.com CNAME .
-dash.bytelixir.com CNAME .
-*.dash.bytelixir.com CNAME .
+bytelixir.com CNAME .
+*.bytelixir.com CNAME .
 bytzvpn.com CNAME .
 *.bytzvpn.com CNAME .
 c-dns.com CNAME .
@@ -14595,6 +14601,8 @@ coolsubdomain.strangersduo.com CNAME .
 *.coolsubdomain.strangersduo.com CNAME .
 streamixvpn.com CNAME .
 *.streamixvpn.com CNAME .
+cdn.streamr.com CNAME .
+*.cdn.streamr.com CNAME .
 dns.streamsmoke.com CNAME .
 *.dns.streamsmoke.com CNAME .
 streamvia.com CNAME .
@@ -16013,6 +16021,8 @@ panel.quiz.courses CNAME .
 *.panel.quiz.courses CNAME .
 blancvpn.cv CNAME .
 *.blancvpn.cv CNAME .
+satnet.cv CNAME .
+*.satnet.cv CNAME .
 bubyrajkepepslap.1337.cx CNAME .
 *.bubyrajkepepslap.1337.cx CNAME .
 guest.1337.cx CNAME .
@@ -16091,6 +16101,8 @@ selenite.skys.day CNAME .
 *.0815cloud.de CNAME .
 1and1-dns.de CNAME .
 *.1and1-dns.de CNAME .
+1proxy.de CNAME .
+*.1proxy.de CNAME .
 2proxy.de CNAME .
 *.2proxy.de CNAME .
 dns.2t9.de CNAME .
@@ -24359,6 +24371,8 @@ vapor.onl CNAME .
 *.2mrk0bvkkye.online CNAME .
 2pxcmgs.online CNAME .
 *.2pxcmgs.online CNAME .
+30t.online CNAME .
+*.30t.online CNAME .
 3gvsjdodyalgolb.online CNAME .
 *.3gvsjdodyalgolb.online CNAME .
 3jdyuyqtvf.online CNAME .
@@ -24815,6 +24829,8 @@ login.readinghelper.online CNAME .
 *.login.readinghelper.online CNAME .
 redshieldvpn.online CNAME .
 *.redshieldvpn.online CNAME .
+repsdemo.online CNAME .
+*.repsdemo.online CNAME .
 ripno9uq0q6kyvss.online CNAME .
 *.ripno9uq0q6kyvss.online CNAME .
 roundrockisd.online CNAME .
