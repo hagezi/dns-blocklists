@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770456600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770478200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 09:30 UTC
-; Version: 2026.0207.0930.46
+; Last modified: 07 Feb 2026 15:30 UTC
+; Version: 2026.0207.1530.59
 ; Syntax: RPZ
-; Number of entries: 19992
+; Number of entries: 20004
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3413,6 +3413,8 @@ parg.aparg.com CNAME .
 *.parg.aparg.com CNAME .
 apbiosuccess.com CNAME .
 *.apbiosuccess.com CNAME .
+apcargocourier.com CNAME .
+*.apcargocourier.com CNAME .
 apkpurs.com CNAME .
 *.apkpurs.com CNAME .
 apollo2b.com CNAME .
@@ -11315,6 +11317,8 @@ zuitte.io CNAME .
 *.900r.ir CNAME .
 adr3.ir CNAME .
 *.adr3.ir CNAME .
+agbr.ir CNAME .
+*.agbr.ir CNAME .
 atpz.ir CNAME .
 *.atpz.ir CNAME .
 axees.ir CNAME .
@@ -13161,6 +13165,8 @@ aisc.live CNAME .
 *.aisc.live CNAME .
 alias.live CNAME .
 *.alias.live CNAME .
+alibuy.live CNAME .
+*.alibuy.live CNAME .
 alongno1.live CNAME .
 *.alongno1.live CNAME .
 apply-here.live CNAME .
@@ -16005,6 +16011,8 @@ sah.ooo CNAME .
 *.3dsecure.org CNAME .
 a.6mqw.org CNAME .
 *.a.6mqw.org CNAME .
+9g9.org CNAME .
+*.9g9.org CNAME .
 a1ertavoice.org CNAME .
 *.a1ertavoice.org CNAME .
 a3utocall.org CNAME .
@@ -16951,6 +16959,8 @@ thefp.pub CNAME .
 *.2u.pw CNAME .
 3c.pw CNAME .
 *.3c.pw CNAME .
+888b.pw CNAME .
+*.888b.pw CNAME .
 8u.pw CNAME .
 *.8u.pw CNAME .
 amzn.pw CNAME .
@@ -17641,6 +17651,8 @@ adslinks.site CNAME .
 *.adslinks.site CNAME .
 alturl.site CNAME .
 *.alturl.site CNAME .
+as1ansl0t88.site CNAME .
+*.as1ansl0t88.site CNAME .
 bio66.site CNAME .
 *.bio66.site CNAME .
 bitlee.site CNAME .

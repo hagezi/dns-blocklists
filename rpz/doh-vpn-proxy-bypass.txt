@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770461160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770482700 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 10:46 UTC
-; Version: 2026.0207.1046.52
+; Last modified: 07 Feb 2026 16:45 UTC
+; Version: 2026.0207.1645.53
 ; Syntax: RPZ
-; Number of entries: 31064
+; Number of entries: 31072
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -2521,6 +2521,8 @@ fasthistory.baodacn.cn CNAME .
 *.fasthistory.baodacn.cn CNAME .
 ghyust.baodacn.cn CNAME .
 *.ghyust.baodacn.cn CNAME .
+stellaralgebra.baodacn.cn CNAME .
+*.stellaralgebra.baodacn.cn CNAME .
 dns.beardic.cn CNAME .
 *.dns.beardic.cn CNAME .
 dns.citystars.cn CNAME .
@@ -3463,6 +3465,8 @@ adblockersite.com CNAME .
 *.adblockersite.com CNAME .
 adblockluna.com CNAME .
 *.adblockluna.com CNAME .
+adfreeproxy.com CNAME .
+*.adfreeproxy.com CNAME .
 adgremoteau.com CNAME .
 *.adgremoteau.com CNAME .
 dns.adguard.com CNAME .
@@ -18361,6 +18365,8 @@ micro.alloxr.info CNAME .
 *.micro.alloxr.info CNAME .
 vps.alloxr.info CNAME .
 *.vps.alloxr.info CNAME .
+alphavpn.info CNAME .
+*.alphavpn.info CNAME .
 americaproxy.info CNAME .
 *.americaproxy.info CNAME .
 anonymousblog.info CNAME .
@@ -26623,6 +26629,8 @@ noturmotherlol.worksheetsforteachers.org CNAME .
 *.noturmotherlol.worksheetsforteachers.org CNAME .
 pdf.worksheetsforteachers.org CNAME .
 *.pdf.worksheetsforteachers.org CNAME .
+dns.xiumu.org CNAME .
+*.dns.xiumu.org CNAME .
 securely.com.xn--d1aqf.org CNAME .
 *.securely.com.xn--d1aqf.org CNAME .
 securly.com.xn--d1aqf.org CNAME .
