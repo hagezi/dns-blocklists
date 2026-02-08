@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770547500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770590940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 10:45 UTC
-; Version: 2026.0208.1045.24
+; Last modified: 08 Feb 2026 22:49 UTC
+; Version: 2026.0208.2249.33
 ; Syntax: RPZ
-; Number of entries: 2948
+; Number of entries: 2950
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -798,6 +798,8 @@ heroinewarrior.com CNAME .
 *.heroinewarrior.com CNAME .
 hijaxdesigns.com CNAME .
 *.hijaxdesigns.com CNAME .
+hiprinter.com CNAME .
+*.hiprinter.com CNAME .
 hitremixes.com CNAME .
 *.hitremixes.com CNAME .
 hobby-site.com CNAME .

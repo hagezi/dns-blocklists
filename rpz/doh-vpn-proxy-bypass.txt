@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770547560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770591000 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 10:46 UTC
-; Version: 2026.0208.1046.27
+; Last modified: 08 Feb 2026 22:50 UTC
+; Version: 2026.0208.2250.38
 ; Syntax: RPZ
-; Number of entries: 26712
+; Number of entries: 26718
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -7289,6 +7289,8 @@ hotspotshield.com CNAME .
 *.hotspotshield.com CNAME .
 hotspotvpn.com CNAME .
 *.hotspotvpn.com CNAME .
+hoverfc.com CNAME .
+*.hoverfc.com CNAME .
 hoxx.com CNAME .
 *.hoxx.com CNAME .
 hqconsole.com CNAME .
@@ -8223,6 +8225,10 @@ locaproxy.com CNAME .
 *.locaproxy.com CNAME .
 logmein.com CNAME .
 *.logmein.com CNAME .
+pbs.lookids.com CNAME .
+*.pbs.lookids.com CNAME .
+time4schooled.lookids.com CNAME .
+*.time4schooled.lookids.com CNAME .
 lopana.com CNAME .
 *.lopana.com CNAME .
 deweerd.loseyourip.com CNAME .

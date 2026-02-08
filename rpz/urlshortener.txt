@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770543060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770586320 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 09:31 UTC
-; Version: 2026.0208.0931.20
+; Last modified: 08 Feb 2026 21:32 UTC
+; Version: 2026.0208.2132.58
 ; Syntax: RPZ
-; Number of entries: 20028
+; Number of entries: 20054
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1057,6 +1057,8 @@ ice.bio CNAME .
 *.ice.bio CNAME .
 inlink.bio CNAME .
 *.inlink.bio CNAME .
+jks.bio CNAME .
+*.jks.bio CNAME .
 jos.bio CNAME .
 *.jos.bio CNAME .
 kazma.bio CNAME .
@@ -2649,6 +2651,8 @@ linkc.co CNAME .
 *.linkc.co CNAME .
 linkdom.co CNAME .
 *.linkdom.co CNAME .
+linkia.co CNAME .
+*.linkia.co CNAME .
 linkiq.co CNAME .
 *.linkiq.co CNAME .
 linkis.co CNAME .
@@ -4619,6 +4623,8 @@ shorrtener.herokuapp.com CNAME .
 *.shorrtener.herokuapp.com CNAME .
 heykamu.com CNAME .
 *.heykamu.com CNAME .
+hibastyle.com CNAME .
+*.hibastyle.com CNAME .
 hibfox.com CNAME .
 *.hibfox.com CNAME .
 hicider.com CNAME .
@@ -11367,10 +11373,18 @@ go2l.ir CNAME .
 *.go2l.ir CNAME .
 h3x.ir CNAME .
 *.h3x.ir CNAME .
+harmonyurl.ir CNAME .
+*.harmonyurl.ir CNAME .
 amirhossein.id.ir CNAME .
 *.amirhossein.id.ir CNAME .
 ilk.ir CNAME .
 *.ilk.ir CNAME .
+irbaz.ir CNAME .
+*.irbaz.ir CNAME .
+iwo.ir CNAME .
+*.iwo.ir CNAME .
+kccim.ir CNAME .
+*.kccim.ir CNAME .
 khtm.ir CNAME .
 *.khtm.ir CNAME .
 kkon.ir CNAME .
@@ -11379,12 +11393,20 @@ kuta.ir CNAME .
 *.kuta.ir CNAME .
 l1k.ir CNAME .
 *.l1k.ir CNAME .
+l2o.ir CNAME .
+*.l2o.ir CNAME .
 li2li.ir CNAME .
 *.li2li.ir CNAME .
 go.liara.ir CNAME .
 *.go.liara.ir CNAME .
+liink.ir CNAME .
+*.liink.ir CNAME .
+linkp.ir CNAME .
+*.linkp.ir CNAME .
 ln24.ir CNAME .
 *.ln24.ir CNAME .
+lt5.ir CNAME .
+*.lt5.ir CNAME .
 m7p.ir CNAME .
 *.m7p.ir CNAME .
 mc1.ir CNAME .
@@ -13263,6 +13285,8 @@ jilitrick.live CNAME .
 *.jilitrick.live CNAME .
 jxxl.live CNAME .
 *.jxxl.live CNAME .
+kajtech.live CNAME .
+*.kajtech.live CNAME .
 kornferry.live CNAME .
 *.kornferry.live CNAME .
 kryvon.live CNAME .
@@ -18369,6 +18393,8 @@ hif.to CNAME .
 *.hif.to CNAME .
 hoa.to CNAME .
 *.hoa.to CNAME .
+hopla.to CNAME .
+*.hopla.to CNAME .
 hpe.to CNAME .
 *.hpe.to CNAME .
 htn.to CNAME .
