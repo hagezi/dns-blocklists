@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770482640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770547500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 16:44 UTC
-; Version: 2026.0207.1644.40
+; Last modified: 08 Feb 2026 10:45 UTC
+; Version: 2026.0208.1045.24
 ; Syntax: RPZ
-; Number of entries: 2938
+; Number of entries: 2948
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1520,10 +1520,14 @@ dns64.de CNAME .
 *.dns64.de CNAME .
 dnshome.de CNAME .
 *.dnshome.de CNAME .
+dray-dns.de CNAME .
+*.dray-dns.de CNAME .
 dyn-access.de CNAME .
 *.dyn-access.de CNAME .
 dyn-ip24.de CNAME .
 *.dyn-ip24.de CNAME .
+dyn-vpn.de CNAME .
+*.dyn-vpn.de CNAME .
 dynamisches-dns.de CNAME .
 *.dynamisches-dns.de CNAME .
 dyndns64.de CNAME .
@@ -1532,6 +1536,8 @@ dyndnssec.de CNAME .
 *.dyndnssec.de CNAME .
 dynipv6.de CNAME .
 *.dynipv6.de CNAME .
+dynvpn.de CNAME .
+*.dynvpn.de CNAME .
 eth64.de CNAME .
 *.eth64.de CNAME .
 fuettertdasnetz.de CNAME .
@@ -1608,6 +1614,8 @@ colegiotorrevilano.es CNAME .
 *.colegiotorrevilano.es CNAME .
 ddnss.eu CNAME .
 *.ddnss.eu CNAME .
+diskstation.eu CNAME .
+*.diskstation.eu CNAME .
 duia.eu CNAME .
 *.duia.eu CNAME .
 humorvisite.eu CNAME .
@@ -2358,6 +2366,8 @@ dhis.org CNAME .
 *.dhis.org CNAME .
 dhs.org CNAME .
 *.dhs.org CNAME .
+diskstation.org CNAME .
+*.diskstation.org CNAME .
 dnsalias.org CNAME .
 *.dnsalias.org CNAME .
 dnsdojo.org CNAME .

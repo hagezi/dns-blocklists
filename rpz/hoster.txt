@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770501540 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770544740 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 21:59 UTC
-; Version: 2026.0207.2159.31
+; Last modified: 08 Feb 2026 09:59 UTC
+; Version: 2026.0208.0959.45
 ; Syntax: RPZ
 ; Number of entries: 2586
 ;
@@ -1750,8 +1750,6 @@ blogspot.kr CNAME .
 *.blogspot.kr CNAME .
 dothome.co.kr CNAME .
 *.dothome.co.kr CNAME .
-c.la CNAME .
-*.c.la CNAME .
 1a.lc CNAME .
 *.1a.lc CNAME .
 24.lc CNAME .
@@ -1982,6 +1980,8 @@ cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 dnip.net CNAME .
 *.dnip.net CNAME .
+efacturas.net CNAME .
+*.efacturas.net CNAME .
 eu5.net CNAME .
 *.eu5.net CNAME .
 flashbuilder.net CNAME .

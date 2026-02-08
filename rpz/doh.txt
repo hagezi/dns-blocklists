@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770482700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770547500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 16:45 UTC
-; Version: 2026.0207.1645.16
+; Last modified: 08 Feb 2026 10:45 UTC
+; Version: 2026.0208.1045.52
 ; Syntax: RPZ
-; Number of entries: 6952
+; Number of entries: 6964
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1661,6 +1661,8 @@ dns.porteii.com CNAME .
 *.dns.porteii.com CNAME .
 dns2.porteii.com CNAME .
 *.dns2.porteii.com CNAME .
+dns.practicallyunhackable.com CNAME .
+*.dns.practicallyunhackable.com CNAME .
 ny.pramanik.com CNAME .
 *.ny.pramanik.com CNAME .
 dns2.prima-solusindo.com CNAME .
@@ -3351,8 +3353,6 @@ ornext.luxury-web.kz CNAME .
 *.ornext.luxury-web.kz CNAME .
 dns.njal.la CNAME .
 *.dns.njal.la CNAME .
-xmr.land CNAME .
-*.xmr.land CNAME .
 nas.delage.li CNAME .
 *.nas.delage.li CNAME .
 doh.li CNAME .
@@ -4771,6 +4771,8 @@ gcpddns.duckdns.org CNAME .
 *.gcpddns.duckdns.org CNAME .
 genielee.duckdns.org CNAME .
 *.genielee.duckdns.org CNAME .
+home27.duckdns.org CNAME .
+*.home27.duckdns.org CNAME .
 homejerem.duckdns.org CNAME .
 *.homejerem.duckdns.org CNAME .
 hrsm12181.duckdns.org CNAME .
@@ -4793,6 +4795,8 @@ krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
 ldaman.duckdns.org CNAME .
 *.ldaman.duckdns.org CNAME .
+leoadguard.duckdns.org CNAME .
+*.leoadguard.duckdns.org CNAME .
 mipelinusa.duckdns.org CNAME .
 *.mipelinusa.duckdns.org CNAME .
 morgenegg.duckdns.org CNAME .
@@ -4805,6 +4809,8 @@ nicko99.duckdns.org CNAME .
 *.nicko99.duckdns.org CNAME .
 nikamurs.duckdns.org CNAME .
 *.nikamurs.duckdns.org CNAME .
+nqh-dns.duckdns.org CNAME .
+*.nqh-dns.duckdns.org CNAME .
 o--o.duckdns.org CNAME .
 *.o--o.duckdns.org CNAME .
 pitchforkwaydns.duckdns.org CNAME .
@@ -4829,14 +4835,20 @@ testapp-0-1-1.duckdns.org CNAME .
 *.testapp-0-1-1.duckdns.org CNAME .
 thaibksri.duckdns.org CNAME .
 *.thaibksri.duckdns.org CNAME .
+theadblocksg.duckdns.org CNAME .
+*.theadblocksg.duckdns.org CNAME .
 ts653d.duckdns.org CNAME .
 *.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
+tungdnsne.duckdns.org CNAME .
+*.tungdnsne.duckdns.org CNAME .
 unixfox.duckdns.org CNAME .
 *.unixfox.duckdns.org CNAME .
 wired-guardian.duckdns.org CNAME .
 *.wired-guardian.duckdns.org CNAME .
+wisehomeguard.duckdns.org CNAME .
+*.wisehomeguard.duckdns.org CNAME .
 workcavestl.duckdns.org CNAME .
 *.workcavestl.duckdns.org CNAME .
 x-o-x.duckdns.org CNAME .

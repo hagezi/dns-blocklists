@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770499800 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770543060 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Feb 2026 21:30 UTC
-; Version: 2026.0207.2130.30
+; Last modified: 08 Feb 2026 09:31 UTC
+; Version: 2026.0208.0931.20
 ; Syntax: RPZ
-; Number of entries: 20008
+; Number of entries: 20028
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1367,6 +1367,8 @@ dky.bz CNAME .
 *.dky.bz CNAME .
 dld.bz CNAME .
 *.dld.bz CNAME .
+dte.bz CNAME .
+*.dte.bz CNAME .
 egw.bz CNAME .
 *.egw.bz CNAME .
 egy.bz CNAME .
@@ -1663,6 +1665,8 @@ dl100.cc CNAME .
 *.dl100.cc CNAME .
 ez1.cc CNAME .
 *.ez1.cc CNAME .
+ezurl.cc CNAME .
+*.ezurl.cc CNAME .
 famu.cc CNAME .
 *.famu.cc CNAME .
 fbook.cc CNAME .
@@ -4025,6 +4029,8 @@ cutxly.com CNAME .
 *.cutxly.com CNAME .
 cutyurl.com CNAME .
 *.cutyurl.com CNAME .
+cvitko.com CNAME .
+*.cvitko.com CNAME .
 go.cwtv.com CNAME .
 *.go.cwtv.com CNAME .
 cyberrl.com CNAME .
@@ -4471,6 +4477,8 @@ getabre.com CNAME .
 *.getabre.com CNAME .
 getashorturl.com CNAME .
 *.getashorturl.com CNAME .
+getbiolink.com CNAME .
+*.getbiolink.com CNAME .
 getlickd.com CNAME .
 *.getlickd.com CNAME .
 tly.getrewardful.com CNAME .
@@ -11343,12 +11351,20 @@ deheh.ir CNAME .
 *.deheh.ir CNAME .
 drnx.ir CNAME .
 *.drnx.ir CNAME .
+e9e.ir CNAME .
+*.e9e.ir CNAME .
 ebbco.ir CNAME .
 *.ebbco.ir CNAME .
 ee9.ir CNAME .
 *.ee9.ir CNAME .
 elmnp.ir CNAME .
 *.elmnp.ir CNAME .
+fi9.ir CNAME .
+*.fi9.ir CNAME .
+fna.ir CNAME .
+*.fna.ir CNAME .
+go2l.ir CNAME .
+*.go2l.ir CNAME .
 h3x.ir CNAME .
 *.h3x.ir CNAME .
 amirhossein.id.ir CNAME .
@@ -13223,6 +13239,8 @@ fpis.live CNAME .
 *.fpis.live CNAME .
 gaysi.live CNAME .
 *.gaysi.live CNAME .
+gcrs.live CNAME .
+*.gcrs.live CNAME .
 gloshukadamiava2.live CNAME .
 *.gloshukadamiava2.live CNAME .
 gonature.live CNAME .
@@ -17677,6 +17695,8 @@ easyurl.site CNAME .
 *.easyurl.site CNAME .
 elx.site CNAME .
 *.elx.site CNAME .
+empukjeru.site CNAME .
+*.empukjeru.site CNAME .
 fastslinks.site CNAME .
 *.fastslinks.site CNAME .
 firelinks.site CNAME .
