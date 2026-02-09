@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770634080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770677640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 10:48 UTC
-; Version: 2026.0209.1048.08
+; Last modified: 09 Feb 2026 22:54 UTC
+; Version: 2026.0209.2254.05
 ; Syntax: RPZ
-; Number of entries: 26772
+; Number of entries: 26784
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -8577,6 +8577,8 @@ ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
 muchproxy.com CNAME .
 *.muchproxy.com CNAME .
+mupingbee.com CNAME .
+*.mupingbee.com CNAME .
 ssl-proxy.my-addr.com CNAME .
 *.ssl-proxy.my-addr.com CNAME .
 my-proxy.com CNAME .
@@ -9177,6 +9179,8 @@ piaproxy.com CNAME .
 *.piaproxy.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
+pingbeehive.com CNAME .
+*.pingbeehive.com CNAME .
 pingproxy.com CNAME .
 *.pingproxy.com CNAME .
 pingvpn.com CNAME .
@@ -9233,6 +9237,8 @@ policyedunet.com CNAME .
 *.policyedunet.com CNAME .
 study.polyhedramath.com CNAME .
 *.study.polyhedramath.com CNAME .
+pongbeeu.com CNAME .
+*.pongbeeu.com CNAME .
 dns.porteii.com CNAME .
 *.dns.porteii.com CNAME .
 dns2.porteii.com CNAME .
@@ -22151,6 +22157,8 @@ dns.thebuckners.org CNAME .
 *.dns.thebuckners.org CNAME .
 thecatholicleague.org CNAME .
 *.thecatholicleague.org CNAME .
+thehoneyponger.org CNAME .
+*.thehoneyponger.org CNAME .
 yh.themcgoughs.org CNAME .
 *.yh.themcgoughs.org CNAME .
 thenuke.org CNAME .
@@ -24363,6 +24371,8 @@ uboost.space CNAME .
 *.uboost.space CNAME .
 ubst.space CNAME .
 *.ubst.space CNAME .
+ubtv.space CNAME .
+*.ubtv.space CNAME .
 unblock2.space CNAME .
 *.unblock2.space CNAME .
 unblocked2.space CNAME .
@@ -26581,6 +26591,8 @@ uproxy.xyz CNAME .
 *.uproxy.xyz CNAME .
 uproxy2.xyz CNAME .
 *.uproxy2.xyz CNAME .
+ur.xyz CNAME .
+*.ur.xyz CNAME .
 dns.usualposts.xyz CNAME .
 *.dns.usualposts.xyz CNAME .
 dns.vaioswolke.xyz CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770629520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770673020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 09:32 UTC
-; Version: 2026.0209.0932.05
+; Last modified: 09 Feb 2026 21:37 UTC
+; Version: 2026.0209.2137.15
 ; Syntax: RPZ
-; Number of entries: 20064
+; Number of entries: 20078
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -6911,6 +6911,8 @@ the360tools.com CNAME .
 *.the360tools.com CNAME .
 the818challenge.com CNAME .
 *.the818challenge.com CNAME .
+thebindaas.com CNAME .
+*.thebindaas.com CNAME .
 thebiolinks.com CNAME .
 *.thebiolinks.com CNAME .
 thecamphb.com CNAME .
@@ -8155,6 +8157,8 @@ s04.de CNAME .
 *.s04.de CNAME .
 shortenr.de CNAME .
 *.shortenr.de CNAME .
+shortlyx.de CNAME .
+*.shortlyx.de CNAME .
 shortma.de CNAME .
 *.shortma.de CNAME .
 shrtco.de CNAME .
@@ -9061,6 +9065,8 @@ ou.gd CNAME .
 *.ou.gd CNAME .
 pic.gd CNAME .
 *.pic.gd CNAME .
+soo.gd CNAME .
+*.soo.gd CNAME .
 ta.gd CNAME .
 *.ta.gd CNAME .
 tl.gd CNAME .
@@ -10447,6 +10453,8 @@ shrinkme.info CNAME .
 *.shrinkme.info CNAME .
 sidework-click.info CNAME .
 *.sidework-click.info CNAME .
+soumtrack.info CNAME .
+*.soumtrack.info CNAME .
 sowiss.info CNAME .
 *.sowiss.info CNAME .
 ssl-check-links.info CNAME .
@@ -12033,6 +12041,8 @@ kua.lat CNAME .
 *.kua.lat CNAME .
 mv88.lat CNAME .
 *.mv88.lat CNAME .
+slink.lat CNAME .
+*.slink.lat CNAME .
 tik.lat CNAME .
 *.tik.lat CNAME .
 tvt.lat CNAME .
@@ -14989,6 +14999,8 @@ rls.my CNAME .
 *.rls.my CNAME .
 ss88.my CNAME .
 *.ss88.my CNAME .
+sway.my CNAME .
+*.sway.my CNAME .
 tgmy.my CNAME .
 *.tgmy.my CNAME .
 tpaper.my CNAME .
@@ -19377,6 +19389,8 @@ thinkpl.us CNAME .
 *.thinkpl.us CNAME .
 tiny.us CNAME .
 *.tiny.us CNAME .
+u.tlht.us CNAME .
+*.u.tlht.us CNAME .
 toyota.us CNAME .
 *.toyota.us CNAME .
 tprk.us CNAME .

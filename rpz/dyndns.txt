@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770634020 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770677580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 10:47 UTC
-; Version: 2026.0209.1047.02
+; Last modified: 09 Feb 2026 22:53 UTC
+; Version: 2026.0209.2253.05
 ; Syntax: RPZ
-; Number of entries: 2956
+; Number of entries: 2964
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1588,6 +1588,12 @@ srv64.de CNAME .
 *.srv64.de CNAME .
 srvdns.de CNAME .
 *.srvdns.de CNAME .
+syno-ds.de CNAME .
+*.syno-ds.de CNAME .
+synology-diskstation.de CNAME .
+*.synology-diskstation.de CNAME .
+synology-ds.de CNAME .
+*.synology-ds.de CNAME .
 tcp64.de CNAME .
 *.tcp64.de CNAME .
 traeumtgerade.de CNAME .
@@ -1890,6 +1896,8 @@ pride.moe CNAME .
 *.pride.moe CNAME .
 ddns.ms CNAME .
 *.ddns.ms CNAME .
+uk.ms CNAME .
+*.uk.ms CNAME .
 pics.mu CNAME .
 *.pics.mu CNAME .
 lee.mx CNAME .

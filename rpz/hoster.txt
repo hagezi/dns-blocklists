@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770631200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770674760 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 10:00 UTC
-; Version: 2026.0209.1000.28
+; Last modified: 09 Feb 2026 22:06 UTC
+; Version: 2026.0209.2206.41
 ; Syntax: RPZ
 ; Number of entries: 2590
 ;
@@ -1724,8 +1724,6 @@ nobody.jp CNAME .
 *.nobody.jp CNAME .
 shop-pro.jp CNAME .
 *.shop-pro.jp CNAME .
-webnode.jp CNAME .
-*.webnode.jp CNAME .
 xxxxxxxx.jp CNAME .
 *.xxxxxxxx.jp CNAME .
 blogspot.co.ke CNAME .
@@ -1754,6 +1752,8 @@ blogspot.kr CNAME .
 *.blogspot.kr CNAME .
 dothome.co.kr CNAME .
 *.dothome.co.kr CNAME .
+c.la CNAME .
+*.c.la CNAME .
 1a.lc CNAME .
 *.1a.lc CNAME .
 24.lc CNAME .
