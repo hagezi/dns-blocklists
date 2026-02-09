@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770547500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770634020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 10:45 UTC
-; Version: 2026.0208.1045.52
+; Last modified: 09 Feb 2026 10:47 UTC
+; Version: 2026.0209.1047.30
 ; Syntax: RPZ
-; Number of entries: 6964
+; Number of entries: 7008
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -37,6 +37,8 @@ doh.disconnect.app CNAME .
 *.doh.disconnect.app CNAME .
 doh.futa.app CNAME .
 *.doh.futa.app CNAME .
+dns.gearworks.app CNAME .
+*.dns.gearworks.app CNAME .
 dns-01.hir.app CNAME .
 *.dns-01.hir.app CNAME .
 dns.narl.app CNAME .
@@ -1105,6 +1107,8 @@ dns.esegece.com CNAME .
 *.dns.esegece.com CNAME .
 dns-family.esegece.com CNAME .
 *.dns-family.esegece.com CNAME .
+dns.fabidouille.com CNAME .
+*.dns.fabidouille.com CNAME .
 gsat.familyds.com CNAME .
 *.gsat.familyds.com CNAME .
 home.fendya.com CNAME .
@@ -1227,6 +1231,8 @@ dns.internal.hosmatic.com CNAME .
 *.dns.internal.hosmatic.com CNAME .
 dns.hostingim.com CNAME .
 *.dns.hostingim.com CNAME .
+freemnt.hpitto.com CNAME .
+*.freemnt.hpitto.com CNAME .
 doh.hshkf.com CNAME .
 *.doh.hshkf.com CNAME .
 httpdns.huaweicloud.com CNAME .
@@ -1401,6 +1407,8 @@ dns.lithvik.com CNAME .
 *.dns.lithvik.com CNAME .
 dns.lobbygod.com CNAME .
 *.dns.lobbygod.com CNAME .
+lordsalty.com CNAME .
+*.lordsalty.com CNAME .
 deweerd.loseyourip.com CNAME .
 *.deweerd.loseyourip.com CNAME .
 ddd.loukky.com CNAME .
@@ -2007,6 +2015,8 @@ us.novali.date CNAME .
 *.us.novali.date CNAME .
 dot.qooqle.date CNAME .
 *.dot.qooqle.date CNAME .
+ad.viet.date CNAME .
+*.ad.viet.date CNAME .
 0815cloud.de CNAME .
 *.0815cloud.de CNAME .
 1and1-dns.de CNAME .
@@ -2231,6 +2241,8 @@ dns.nick-slowinski.de CNAME .
 *.dns.nick-slowinski.de CNAME .
 doh.niyawe.de CNAME .
 *.doh.niyawe.de CNAME .
+noip4.de CNAME .
+*.noip4.de CNAME .
 dns.oliverweinhold.de CNAME .
 *.dns.oliverweinhold.de CNAME .
 oowo.de CNAME .
@@ -2589,6 +2601,8 @@ ads.therman.eu CNAME .
 *.ads.therman.eu CNAME .
 dns.tooizi.eu CNAME .
 *.dns.tooizi.eu CNAME .
+totoland.eu CNAME .
+*.totoland.eu CNAME .
 dns.server2.tschoerner.eu CNAME .
 *.dns.server2.tschoerner.eu CNAME .
 v1.ufamax.eu CNAME .
@@ -2755,6 +2769,8 @@ dns.zarchbox.fr CNAME .
 *.dns.zarchbox.fr CNAME .
 adfiltro.fun CNAME .
 *.adfiltro.fun CNAME .
+dns.arnabhome.fun CNAME .
+*.dns.arnabhome.fun CNAME .
 axaxa.fun CNAME .
 *.axaxa.fun CNAME .
 ag.brianlee.fun CNAME .
@@ -2903,6 +2919,8 @@ dns.kisnet.id CNAME .
 *.dns.kisnet.id CNAME .
 dns.marasov.id CNAME .
 *.dns.marasov.id CNAME .
+doh.moorecloud.id CNAME .
+*.doh.moorecloud.id CNAME .
 d.apemlegit.my.id CNAME .
 *.d.apemlegit.my.id CNAME .
 be2aja.my.id CNAME .
@@ -3203,6 +3221,8 @@ doh.qis.io CNAME .
 *.doh.qis.io CNAME .
 kams.kii.qzz.io CNAME .
 *.kams.kii.qzz.io CNAME .
+zouter.zhang3118.qzz.io CNAME .
+*.zouter.zhang3118.qzz.io CNAME .
 doh.rezhajul.io CNAME .
 *.doh.rezhajul.io CNAME .
 adguard.richardapplegate.io CNAME .
@@ -3261,6 +3281,8 @@ kcolspacrm.ir CNAME .
 *.kcolspacrm.ir CNAME .
 maincloud.ir CNAME .
 *.maincloud.ir CNAME .
+dns.midping.ir CNAME .
+*.dns.midping.ir CNAME .
 adguard.nostaloogia.ir CNAME .
 *.adguard.nostaloogia.ir CNAME .
 dns.sbstructure.ir CNAME .
@@ -4647,6 +4669,8 @@ dns4eu.online CNAME .
 *.dns4eu.online CNAME .
 herkes.online CNAME .
 *.herkes.online CNAME .
+dns.hopkinton.online CNAME .
+*.dns.hopkinton.online CNAME .
 ingenmannsland.online CNAME .
 *.ingenmannsland.online CNAME .
 inpssh.online CNAME .
@@ -4745,6 +4769,8 @@ dns.ikun6.dpdns.org CNAME .
 *.dns.ikun6.dpdns.org CNAME .
 adgrm.duckdns.org CNAME .
 *.adgrm.duckdns.org CNAME .
+adguardcalpena.duckdns.org CNAME .
+*.adguardcalpena.duckdns.org CNAME .
 adguardpi.duckdns.org CNAME .
 *.adguardpi.duckdns.org CNAME .
 andryk111.duckdns.org CNAME .
@@ -4829,6 +4855,8 @@ site-2.duckdns.org CNAME .
 *.site-2.duckdns.org CNAME .
 site-3.duckdns.org CNAME .
 *.site-3.duckdns.org CNAME .
+soporte-premium.duckdns.org CNAME .
+*.soporte-premium.duckdns.org CNAME .
 surviil.duckdns.org CNAME .
 *.surviil.duckdns.org CNAME .
 testapp-0-1-1.duckdns.org CNAME .
@@ -5753,6 +5781,8 @@ dehb.ru CNAME .
 *.dehb.ru CNAME .
 adguard.dekonix.ru CNAME .
 *.adguard.dekonix.ru CNAME .
+dns.deltain.ru CNAME .
+*.dns.deltain.ru CNAME .
 adguard.dervart.ru CNAME .
 *.adguard.dervart.ru CNAME .
 doh.edifiels.ru CNAME .
@@ -5763,6 +5793,10 @@ dns.engineer-lib.ru CNAME .
 *.dns.engineer-lib.ru CNAME .
 vpn.erhvict.ru CNAME .
 *.vpn.erhvict.ru CNAME .
+dns.farshmc.ru CNAME .
+*.dns.farshmc.ru CNAME .
+adgd.fragmentance.ru CNAME .
+*.adgd.fragmentance.ru CNAME .
 funtikspb.ru CNAME .
 *.funtikspb.ru CNAME .
 wp-test.fvds.ru CNAME .
@@ -5929,6 +5963,8 @@ dns0.tardishost.ru CNAME .
 *.dns0.tardishost.ru CNAME .
 dns1.tardishost.ru CNAME .
 *.dns1.tardishost.ru CNAME .
+dns.thedayg0ne.ru CNAME .
+*.dns.thedayg0ne.ru CNAME .
 thxvv.ru CNAME .
 *.thxvv.ru CNAME .
 tigrons.ru CNAME .
@@ -6249,6 +6285,8 @@ gigatapbot.top CNAME .
 *.gigatapbot.top CNAME .
 glacius.top CNAME .
 *.glacius.top CNAME .
+cloud.gqwyq.top CNAME .
+*.cloud.gqwyq.top CNAME .
 dns-us.ibmcloud.top CNAME .
 *.dns-us.ibmcloud.top CNAME .
 imperio.top CNAME .
@@ -6343,6 +6381,8 @@ adguard.doranpierst.com.tr CNAME .
 *.adguard.doranpierst.com.tr CNAME .
 dns.polatarasan.com.tr CNAME .
 *.dns.polatarasan.com.tr CNAME .
+dns-one.lins.co.tt CNAME .
+*.dns-one.lins.co.tt CNAME .
 dns-three.lins.co.tt CNAME .
 *.dns-three.lins.co.tt CNAME .
 doh.funtopia.tv CNAME .
@@ -6573,6 +6613,8 @@ adguard.quydang.name.vn CNAME .
 *.adguard.quydang.name.vn CNAME .
 tran.net.vn CNAME .
 *.tran.net.vn CNAME .
+dns.ntccloud.vn CNAME .
+*.dns.ntccloud.vn CNAME .
 phongg.vn CNAME .
 *.phongg.vn CNAME .
 dns.valbatos.pro.vn CNAME .
@@ -6621,6 +6663,8 @@ jp193.flyzhouyc.win CNAME .
 *.jp193.flyzhouyc.win CNAME .
 st.flyzhouyc.win CNAME .
 *.st.flyzhouyc.win CNAME .
+yin.flyzhouyc.win CNAME .
+*.yin.flyzhouyc.win CNAME .
 dns3.hu10us22.win CNAME .
 *.dns3.hu10us22.win CNAME .
 agh.kyusang.win CNAME .

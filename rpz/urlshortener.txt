@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770586320 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770629520 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 21:32 UTC
-; Version: 2026.0208.2132.58
+; Last modified: 09 Feb 2026 09:32 UTC
+; Version: 2026.0209.0932.05
 ; Syntax: RPZ
-; Number of entries: 20054
+; Number of entries: 20064
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2697,6 +2697,8 @@ lovinlit.co CNAME .
 *.lovinlit.co CNAME .
 lprk.co CNAME .
 *.lprk.co CNAME .
+ludigi.co CNAME .
+*.ludigi.co CNAME .
 lzd.co CNAME .
 *.lzd.co CNAME .
 magaus.co CNAME .
@@ -11437,6 +11439,8 @@ proshare.ir CNAME .
 *.proshare.ir CNAME .
 qeichy.ir CNAME .
 *.qeichy.ir CNAME .
+radly.ir CNAME .
+*.radly.ir CNAME .
 razi-link.ir CNAME .
 *.razi-link.ir CNAME .
 rizy.ir CNAME .
@@ -15389,6 +15393,8 @@ ls.notesit.net CNAME .
 *.ls.notesit.net CNAME .
 nowlinks.net CNAME .
 *.nowlinks.net CNAME .
+nullx.net CNAME .
+*.nullx.net CNAME .
 o-yes.net CNAME .
 *.o-yes.net CNAME .
 o9.net CNAME .
@@ -17053,6 +17059,8 @@ psce.pw CNAME .
 *.psce.pw CNAME .
 qdl.pw CNAME .
 *.qdl.pw CNAME .
+qsl.pw CNAME .
+*.qsl.pw CNAME .
 rebrand.pw CNAME .
 *.rebrand.pw CNAME .
 short24.pw CNAME .
@@ -19655,6 +19663,8 @@ fb.watch CNAME .
 *.fb.watch CNAME .
 loginsaja.website CNAME .
 *.loginsaja.website CNAME .
+prolink.website CNAME .
+*.prolink.website CNAME .
 shortened.website CNAME .
 *.shortened.website CNAME .
 titok.website CNAME .

@@ -1,5 +1,17 @@
 # Unblocking for relaxed, balanced and aggressive (pro++) lists only
 
+# https://github.com/hagezi/dns-blocklists/issues/7392
+# https://github.com/hagezi/dns-blocklists/issues/9074
+*.i.posthog.com
+eu-assets.i.posthog.com
+eu.i.posthog.com
+eu.posthog.com
+internal-*.posthog.com
+posthog-ingress-prod-*.eu-central-1.elb.amazonaws.com
+us-assets.i.posthog.com
+us.i.posthog.com
+us.posthog.com
+
 # https://github.com/hagezi/dns-blocklists/issues/9068
 checkip.amazonaws.com
 

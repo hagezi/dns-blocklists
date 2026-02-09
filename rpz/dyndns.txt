@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770590940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770634020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Feb 2026 22:49 UTC
-; Version: 2026.0208.2249.33
+; Last modified: 09 Feb 2026 10:47 UTC
+; Version: 2026.0209.1047.02
 ; Syntax: RPZ
-; Number of entries: 2950
+; Number of entries: 2956
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1564,6 +1564,12 @@ lebtimnetz.de CNAME .
 *.lebtimnetz.de CNAME .
 leitungsen.de CNAME .
 *.leitungsen.de CNAME .
+mein-vigor.de CNAME .
+*.mein-vigor.de CNAME .
+my-vigor.de CNAME .
+*.my-vigor.de CNAME .
+my-wan.de CNAME .
+*.my-wan.de CNAME .
 myhome-server.de CNAME .
 *.myhome-server.de CNAME .
 nas64.de CNAME .
