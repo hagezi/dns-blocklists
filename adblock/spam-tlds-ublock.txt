@@ -11,8 +11,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 08 Feb 2026 22:51 UTC
-! Version: 2026.0208.2251.25
+! Last modified: 10 Feb 2026 16:44 UTC
+! Version: 2026.0210.1644.25
 ! Syntax: uBlock
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -262,7 +262,7 @@
 ||tax^$doc
 ||taxi^$doc
 ||tel^$doc
-||tennis^$doc
+||tennis^$doc,domain=~swing.tennis
 ||tienda^$doc
 ||tires^$doc
 ||tk^$doc,domain=~air.tk|~bstweaker.tk|~budterence.tk|~c-r-t.tk|~google.tk|~goshujin.tk|~kabi.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
@@ -280,7 +280,7 @@
 ||ventures^$doc
 ||vin^$doc
 ||vip^$doc,domain=~18comic.vip|~liberta.vip|~oldskool.vip|~posh.vip|~ryde.vip|~stream.vip|~trdiziizle.vip|~vidstream.vip|~wetv.vip|~yesporn.vip
-||vision^$doc
+||vision^$doc,domain=~swing.vision
 ||vote^$doc,domain=~arizona.vote
 ||voto^$doc
 ||wang^$doc
