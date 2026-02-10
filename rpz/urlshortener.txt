@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770673020 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770715860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 21:37 UTC
-; Version: 2026.0209.2137.15
+; Last modified: 10 Feb 2026 09:31 UTC
+; Version: 2026.0210.0931.32
 ; Syntax: RPZ
-; Number of entries: 20078
+; Number of entries: 20088
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1555,6 +1555,8 @@ u2s.ca CNAME .
 *.u2s.ca CNAME .
 ur1.ca CNAME .
 *.ur1.ca CNAME .
+urlgo.ca CNAME .
+*.urlgo.ca CNAME .
 urlshort.ca CNAME .
 *.urlshort.ca CNAME .
 uwat.ca CNAME .
@@ -7363,6 +7365,8 @@ urlifypoint.com CNAME .
 *.urlifypoint.com CNAME .
 urlifys.com CNAME .
 *.urlifys.com CNAME .
+urlinko.com CNAME .
+*.urlinko.com CNAME .
 urlintel.com CNAME .
 *.urlintel.com CNAME .
 urlkai.com CNAME .
@@ -7575,6 +7579,8 @@ viralpep.com CNAME .
 *.viralpep.com CNAME .
 virl.com CNAME .
 *.virl.com CNAME .
+url.virtualstr8pnp.com CNAME .
+*.url.virtualstr8pnp.com CNAME .
 urls.visionrocket.com CNAME .
 *.urls.visionrocket.com CNAME .
 visitmylinks.com CNAME .
@@ -7711,6 +7717,8 @@ wwdurl.com CNAME .
 *.wwdurl.com CNAME .
 www-tinyurl.com CNAME .
 *.www-tinyurl.com CNAME .
+x-shrtn.com CNAME .
+*.x-shrtn.com CNAME .
 x2t.com CNAME .
 *.x2t.com CNAME .
 xaddr.com CNAME .
@@ -11483,6 +11491,8 @@ yon.ir CNAME .
 *.yon.ir CNAME .
 yourl.ir CNAME .
 *.yourl.ir CNAME .
+zeek.ir CNAME .
+*.zeek.ir CNAME .
 zrpl.ir CNAME .
 *.zrpl.ir CNAME .
 zurl.ir CNAME .

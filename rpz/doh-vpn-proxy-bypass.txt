@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770677640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770720360 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 22:54 UTC
-; Version: 2026.0209.2254.05
+; Last modified: 10 Feb 2026 10:46 UTC
+; Version: 2026.0210.1046.58
 ; Syntax: RPZ
-; Number of entries: 26784
+; Number of entries: 26790
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -1267,6 +1267,8 @@ pds.cfornas.casa CNAME .
 *.pds.cfornas.casa CNAME .
 onion.casa CNAME .
 *.onion.casa CNAME .
+uproxy.casa CNAME .
+*.uproxy.casa CNAME .
 dns.native.cat CNAME .
 *.dns.native.cat CNAME .
 yui.cat CNAME .
@@ -11023,6 +11025,8 @@ sniggles.vaultnoir.com CNAME .
 *.sniggles.vaultnoir.com CNAME .
 waguri.vawars.com CNAME .
 *.waguri.vawars.com CNAME .
+vectroproxy.com CNAME .
+*.vectroproxy.com CNAME .
 veepn.com CNAME .
 *.veepn.com CNAME .
 dns.veikus.com CNAME .
@@ -11207,6 +11211,8 @@ vpnneo.com CNAME .
 *.vpnneo.com CNAME .
 vpnoneclick.com CNAME .
 *.vpnoneclick.com CNAME .
+vpnonline.com CNAME .
+*.vpnonline.com CNAME .
 vpnoverview.com CNAME .
 *.vpnoverview.com CNAME .
 vpnprivacy.com CNAME .
