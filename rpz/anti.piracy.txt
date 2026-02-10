@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770741480 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770763380 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Feb 2026 16:38 UTC
-; Version: 2026.0210.1638.15
+; Last modified: 10 Feb 2026 22:43 UTC
+; Version: 2026.0210.2243.14
 ; Syntax: RPZ
 ; Number of entries: 23444
 ;
@@ -6464,12 +6464,8 @@ popuw.com CNAME .
 *.popuw.com CNAME .
 pornevo.com CNAME .
 *.pornevo.com CNAME .
-pornopen.com CNAME .
-*.pornopen.com CNAME .
 pornoshara.com CNAME .
 *.pornoshara.com CNAME .
-porntubeai.com CNAME .
-*.porntubeai.com CNAME .
 portable4pc.com CNAME .
 *.portable4pc.com CNAME .
 tpb.portalimg.com CNAME .
@@ -17944,6 +17940,8 @@ xmovie8.pro CNAME .
 *.xmovie8.pro CNAME .
 xxxtorrents.pro CNAME .
 *.xxxtorrents.pro CNAME .
+yomovies.productions CNAME .
+*.yomovies.productions CNAME .
 kinox.prof CNAME .
 *.kinox.prof CNAME .
 mkvcinemas.prof CNAME .
@@ -19048,6 +19046,8 @@ hdmovie2.salon CNAME .
 *.hdmovie2.salon CNAME .
 worldfree4u.sarl CNAME .
 *.worldfree4u.sarl CNAME .
+yomovies.sarl CNAME .
+*.yomovies.sarl CNAME .
 hdmovie2.sb CNAME .
 *.hdmovie2.sb CNAME .
 putlocker.sb CNAME .

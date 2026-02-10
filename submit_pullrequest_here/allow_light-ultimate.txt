@@ -1,6 +1,12 @@
 # Unblocking for all lists (relaxed, balanced, aggressive and strict)
 # Domains to be removed from the light, normal, pro, pro++ and ultimate list. Also from the fake, popupads and tif.
 
+# https://github.com/hagezi/dns-blocklists/issues/9094
+ct.captcha-delivery.com
+
+# https://github.com/hagezi/dns-blocklists/issues/9093
+g.alicdn.com
+
 # https://github.com/hagezi/dns-blocklists/issues/9039#issuecomment-3865187739
 nicehash.com
 
