@@ -1,6 +1,7 @@
 ### Sources
 *Active sources that are partially used for the compilation of the block lists. There is no 1:1 transfer of the sources, these merely form the basis for the individual list versions. Every source has its own license, for the individual licenses see the source files or source repositories:*
 ```
+https://about.iftas.org/wp-content/uploads/2025/10/iftas-dni-latest.csv
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/adguard_popup_filter.txt
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://botvrij.eu/data/ioclist.hostname

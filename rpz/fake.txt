@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770802080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770845520 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Feb 2026 09:28 UTC
-; Version: 2026.0211.0928.47
+; Last modified: 11 Feb 2026 21:32 UTC
+; Version: 2026.0211.2132.12
 ; Syntax: RPZ
-; Number of entries: 28282
+; Number of entries: 28280
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -20258,8 +20258,6 @@ haustechnik-muenchen.de CNAME .
 *.haustechnik-muenchen.de CNAME .
 haustechnikmeine.de CNAME .
 *.haustechnikmeine.de CNAME .
-haustierstolz.de CNAME .
-*.haustierstolz.de CNAME .
 havsbris.de CNAME .
 *.havsbris.de CNAME .
 hawalili.de CNAME .
