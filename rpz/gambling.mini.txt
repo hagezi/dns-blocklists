@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770763320 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770784800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - mini version
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Feb 2026 22:42 UTC
-; Version: 2026.0210.2242.50
+; Last modified: 11 Feb 2026 04:40 UTC
+; Version: 2026.0211.0440.56
 ; Syntax: RPZ
 ; Number of entries: 95748
 ;
@@ -49628,6 +49628,8 @@ szuperlotto.com CNAME .
 *.szuperlotto.com CNAME .
 t111.com CNAME .
 *.t111.com CNAME .
+t309.com CNAME .
+*.t309.com CNAME .
 t333casino.com CNAME .
 *.t333casino.com CNAME .
 t3index.com CNAME .
@@ -64158,8 +64160,6 @@ boyle-sportscasino.live CNAME .
 *.boyle-sportscasino.live CNAME .
 boylesportscasino.live CNAME .
 *.boylesportscasino.live CNAME .
-bubbascasino.live CNAME .
-*.bubbascasino.live CNAME .
 cashwin-casino.live CNAME .
 *.cashwin-casino.live CNAME .
 casiniacasino.live CNAME .

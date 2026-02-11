@@ -11,8 +11,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 10 Feb 2026 16:44 UTC
-! Version: 2026.0210.1644.25
+! Last modified: 11 Feb 2026 04:47 UTC
+! Version: 2026.0211.0447.16
 ! Syntax: uBlock
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -28,7 +28,7 @@
 ||band^$doc,domain=~flying-circus.band
 ||bar^$doc,domain=~bolero.bar|~brexx.bar|~einhorn.bar|~ethics.bar|~fap.bar|~hai.bar|~herz.bar|~mavie.bar|~metro.bar|~reit.bar|~strem.bar|~voi.bar
 ||beauty^$doc
-||beer^$doc
+||beer^$doc,domain=~amphi.beer
 ||best^$doc,domain=~epg.best|~xhamster.best
 ||bet^$doc,domain=~thescore.bet
 ||bid^$doc
