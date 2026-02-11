@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770763380 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770806340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Feb 2026 22:43 UTC
-; Version: 2026.0210.2243.14
+; Last modified: 11 Feb 2026 10:39 UTC
+; Version: 2026.0211.1039.36
 ; Syntax: RPZ
-; Number of entries: 23444
+; Number of entries: 23454
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -5014,6 +5014,8 @@ hdencode.com CNAME .
 *.hdencode.com CNAME .
 hdhublist.com CNAME .
 *.hdhublist.com CNAME .
+hdmovic.com CNAME .
+*.hdmovic.com CNAME .
 hdmovie2.com CNAME .
 *.hdmovie2.com CNAME .
 hdmovie20.com CNAME .
@@ -5208,6 +5210,8 @@ ioshaven.com CNAME .
 *.ioshaven.com CNAME .
 iosvizor.com CNAME .
 *.iosvizor.com CNAME .
+ip8ktv.com CNAME .
+*.ip8ktv.com CNAME .
 ipacrack.com CNAME .
 *.ipacrack.com CNAME .
 iphonecake.com CNAME .
@@ -6226,8 +6230,6 @@ omegastresser.com CNAME .
 *.omegastresser.com CNAME .
 omgtorrent.com CNAME .
 *.omgtorrent.com CNAME .
-tv.onefootball.com CNAME .
-*.tv.onefootball.com CNAME .
 onegaistudios.com CNAME .
 *.onegaistudios.com CNAME .
 onejav.com CNAME .
@@ -8548,6 +8550,8 @@ vide.cx CNAME .
 *.vide.cx CNAME .
 videothek.cx CNAME .
 *.videothek.cx CNAME .
+warez.cx CNAME .
+*.warez.cx CNAME .
 xcine.cx CNAME .
 *.xcine.cx CNAME .
 123moviesc.cyou CNAME .
@@ -10036,6 +10040,8 @@ vegamovies.health CNAME .
 *.vegamovies.health CNAME .
 altadefinizionegratis.help CNAME .
 *.altadefinizionegratis.help CNAME .
+calciostream.help CNAME .
+*.calciostream.help CNAME .
 filmywap.help CNAME .
 *.filmywap.help CNAME .
 full4movies.help CNAME .
@@ -12660,6 +12666,8 @@ megakino.men CNAME .
 *.megakino.men CNAME .
 seriesflix.men CNAME .
 *.seriesflix.men CNAME .
+streamingcommunityz.men CNAME .
+*.streamingcommunityz.men CNAME .
 hdhub4u.menu CNAME .
 *.hdhub4u.menu CNAME .
 hdmovie2.menu CNAME .
@@ -17264,6 +17272,8 @@ hdmovie2.organic CNAME .
 *.hdmovie2.organic CNAME .
 vegamovies.organic CNAME .
 *.vegamovies.organic CNAME .
+hdmovie2.osaka CNAME .
+*.hdmovie2.osaka CNAME .
 watch.coen.ovh CNAME .
 *.watch.coen.ovh CNAME .
 mokmobi.ovh CNAME .
