@@ -214,6 +214,7 @@ https://raw.githubusercontent.com/sakib-m/Pi-hole-Torrent-Blocklist/refs/heads/m
 https://raw.githubusercontent.com/sakib-m/Pi-hole-Torrent-Blocklist/refs/heads/main/all-torrent-websites.txt
 https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/domains.json
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/DNS
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Free
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Gambling

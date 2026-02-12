@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770910200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770931800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 15:30 UTC
-; Version: 2026.0212.1530.41
+; Last modified: 12 Feb 2026 21:30 UTC
+; Version: 2026.0212.2130.08
 ; Syntax: RPZ
-; Number of entries: 28284
+; Number of entries: 28288
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -14194,6 +14194,8 @@ scarpiereingresso.com CNAME .
 *.scarpiereingresso.com CNAME .
 scd-invest.com CNAME .
 *.scd-invest.com CNAME .
+scfinanz-ugco.com CNAME .
+*.scfinanz-ugco.com CNAME .
 schafflutzel-motorgerate.com CNAME .
 *.schafflutzel-motorgerate.com CNAME .
 scharfeprofession.com CNAME .
@@ -25774,6 +25776,8 @@ festzins.online CNAME .
 *.festzins.online CNAME .
 fexora.online CNAME .
 *.fexora.online CNAME .
+finanzpluss.online CNAME .
+*.finanzpluss.online CNAME .
 funjobs.online CNAME .
 *.funjobs.online CNAME .
 gavex.online CNAME .
