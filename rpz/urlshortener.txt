@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770715860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770867120 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Feb 2026 09:31 UTC
-; Version: 2026.0210.0931.32
+; Last modified: 12 Feb 2026 03:32 UTC
+; Version: 2026.0212.0332.02
 ; Syntax: RPZ
-; Number of entries: 20088
+; Number of entries: 20090
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -10623,6 +10623,8 @@ ytubl.ink CNAME .
 *.ytubl.ink CNAME .
 zom.ink CNAME .
 *.zom.ink CNAME .
+zovo.ink CNAME .
+*.zovo.ink CNAME .
 congress.international CNAME .
 *.congress.international CNAME .
 0ln.io CNAME .

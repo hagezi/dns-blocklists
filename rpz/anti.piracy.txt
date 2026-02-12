@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770852000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770871500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Feb 2026 23:20 UTC
-; Version: 2026.0211.2320.12
+; Last modified: 12 Feb 2026 04:45 UTC
+; Version: 2026.0212.0445.35
 ; Syntax: RPZ
-; Number of entries: 23456
+; Number of entries: 23462
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -906,6 +906,8 @@ kaffee-wellblech.no-ip.biz CNAME .
 *.kaffee-wellblech.no-ip.biz CNAME .
 ettv.nocensor.biz CNAME .
 *.ettv.nocensor.biz CNAME .
+novefx.biz CNAME .
+*.novefx.biz CNAME .
 t.overflow.biz CNAME .
 *.t.overflow.biz CNAME .
 pelisflix20.biz CNAME .
@@ -3676,6 +3678,8 @@ ccracks.com CNAME .
 *.ccracks.com CNAME .
 cdkeysgames.com CNAME .
 *.cdkeysgames.com CNAME .
+cdn-novflix.com CNAME .
+*.cdn-novflix.com CNAME .
 cdromance.com CNAME .
 *.cdromance.com CNAME .
 celerystresser.com CNAME .
@@ -22348,6 +22352,8 @@ multimovies.vip CNAME .
 *.multimovies.vip CNAME .
 myfreemp3.vip CNAME .
 *.myfreemp3.vip CNAME .
+noveflix.vip CNAME .
+*.noveflix.vip CNAME .
 nyafilmer.vip CNAME .
 *.nyafilmer.vip CNAME .
 pelisflix20.vip CNAME .
