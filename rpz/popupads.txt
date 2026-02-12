@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770866820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770910080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 03:27 UTC
-; Version: 2026.0212.0327.55
+; Last modified: 12 Feb 2026 15:28 UTC
+; Version: 2026.0212.1528.09
 ; Syntax: RPZ
 ; Number of entries: 117652
 ;
@@ -59084,6 +59084,8 @@ pbxai.com CNAME .
 *.pbxai.com CNAME .
 pc-ads.com CNAME .
 *.pc-ads.com CNAME .
+pc-huorong.com CNAME .
+*.pc-huorong.com CNAME .
 pc180101.com CNAME .
 *.pc180101.com CNAME .
 pc20160301.com CNAME .
@@ -113810,8 +113812,6 @@ ehtkfjhrozkeu.website CNAME .
 *.ehtkfjhrozkeu.website CNAME .
 ehygkgvwxipes.website CNAME .
 *.ehygkgvwxipes.website CNAME .
-ejretpiytkcna.website CNAME .
-*.ejretpiytkcna.website CNAME .
 ekliewcnqmfsn.website CNAME .
 *.ekliewcnqmfsn.website CNAME .
 embpsubecawmj.website CNAME .

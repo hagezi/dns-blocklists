@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770888600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770910200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 09:30 UTC
-; Version: 2026.0212.0930.32
+; Last modified: 12 Feb 2026 15:30 UTC
+; Version: 2026.0212.1530.41
 ; Syntax: RPZ
 ; Number of entries: 28284
 ;
@@ -6738,8 +6738,6 @@ figurinestoys.com CNAME .
 *.figurinestoys.com CNAME .
 filamniceent.com CNAME .
 *.filamniceent.com CNAME .
-fillamoda.com CNAME .
-*.fillamoda.com CNAME .
 fillethumn.com CNAME .
 *.fillethumn.com CNAME .
 filloutlet.com CNAME .
@@ -20264,6 +20262,8 @@ haustechnik-muenchen.de CNAME .
 *.haustechnik-muenchen.de CNAME .
 haustechnikmeine.de CNAME .
 *.haustechnikmeine.de CNAME .
+haustierstolz.de CNAME .
+*.haustierstolz.de CNAME .
 havsbris.de CNAME .
 *.havsbris.de CNAME .
 hawalili.de CNAME .
