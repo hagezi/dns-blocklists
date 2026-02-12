@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770845520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770888600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Feb 2026 21:32 UTC
-; Version: 2026.0211.2132.12
+; Last modified: 12 Feb 2026 09:30 UTC
+; Version: 2026.0212.0930.32
 ; Syntax: RPZ
-; Number of entries: 28280
+; Number of entries: 28284
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -4198,6 +4198,8 @@ carstruckstoy.com CNAME .
 *.carstruckstoy.com CNAME .
 cartomy.com CNAME .
 *.cartomy.com CNAME .
+cartsaga.com CNAME .
+*.cartsaga.com CNAME .
 carupgradezone.com CNAME .
 *.carupgradezone.com CNAME .
 carvana-deu.com CNAME .
@@ -6944,6 +6946,8 @@ fokusfinanz.com CNAME .
 *.fokusfinanz.com CNAME .
 foldingboxesstore.com CNAME .
 *.foldingboxesstore.com CNAME .
+foldingsbikedk.com CNAME .
+*.foldingsbikedk.com CNAME .
 folger-kollegen.com CNAME .
 *.folger-kollegen.com CNAME .
 folioflare.com CNAME .
@@ -14594,6 +14598,8 @@ shopraidlight.com CNAME .
 *.shopraidlight.com CNAME .
 shoprosada.com CNAME .
 *.shoprosada.com CNAME .
+shoprufe.com CNAME .
+*.shoprufe.com CNAME .
 shops-eminem.com CNAME .
 *.shops-eminem.com CNAME .
 shopsaddlebag.com CNAME .
@@ -27834,8 +27840,6 @@ d-ticket.su CNAME .
 *.d-ticket.su CNAME .
 applified.tech CNAME .
 *.applified.tech CNAME .
-autoled.tech CNAME .
-*.autoled.tech CNAME .
 gamebyte.tech CNAME .
 *.gamebyte.tech CNAME .
 installateur.prs247.tech CNAME .
