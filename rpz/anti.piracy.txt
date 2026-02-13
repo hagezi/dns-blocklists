@@ -1,5 +1,5 @@
-$TTL 300
-@ SOA localhost. root.localhost. 1770957720 43200 3600 86400 300
+$TTL 3600
+@ SOA localhost. root.localhost. 1771022580 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Feb 2026 04:42 UTC
-; Version: 2026.0213.0442.15
+; Last modified: 13 Feb 2026 22:43 UTC
+; Version: 2026.0213.2243.03
 ; Syntax: RPZ
-; Number of entries: 23470
+; Number of entries: 23474
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -9996,6 +9996,8 @@ annas-archive.gs CNAME .
 *.annas-archive.gs CNAME .
 3ds.hacks.guide CNAME .
 *.3ds.hacks.guide CNAME .
+piracy.guide CNAME .
+*.piracy.guide CNAME .
 dood.guru CNAME .
 *.dood.guru CNAME .
 gomovies.guru CNAME .
@@ -21046,6 +21048,8 @@ tracker.kmzs123.top CNAME .
 *.tracker.kmzs123.top CNAME .
 linkr.top CNAME .
 *.linkr.top CNAME .
+mangasukuna.top CNAME .
+*.mangasukuna.top CNAME .
 mathanosto.top CNAME .
 *.mathanosto.top CNAME .
 maxseries.top CNAME .
