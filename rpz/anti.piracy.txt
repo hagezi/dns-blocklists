@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770936120 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770957720 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 22:42 UTC
-; Version: 2026.0212.2242.56
+; Last modified: 13 Feb 2026 04:42 UTC
+; Version: 2026.0213.0442.15
 ; Syntax: RPZ
-; Number of entries: 23468
+; Number of entries: 23470
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -12966,6 +12966,8 @@ hdmovie2.navy CNAME .
 *.hdmovie2.navy CNAME .
 kinox.navy CNAME .
 *.kinox.navy CNAME .
+tracker.manager.v6.navy CNAME .
+*.tracker.manager.v6.navy CNAME .
 vegamovies.navy CNAME .
 *.vegamovies.navy CNAME .
 0123movie.net CNAME .

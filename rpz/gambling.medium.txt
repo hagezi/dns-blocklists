@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770936060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770957600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - medium version
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 22:41 UTC
-; Version: 2026.0212.2241.15
+; Last modified: 13 Feb 2026 04:40 UTC
+; Version: 2026.0213.0440.29
 ; Syntax: RPZ
-; Number of entries: 163234
+; Number of entries: 163232
 ;
 789f.ac CNAME .
 *.789f.ac CNAME .
@@ -9154,8 +9154,6 @@ pg88.cash CNAME .
 *.2-daddy.casino CNAME .
 20-01.casino CNAME .
 *.20-01.casino CNAME .
-20-01jj.casino CNAME .
-*.20-01jj.casino CNAME .
 20-01keke.casino CNAME .
 *.20-01keke.casino CNAME .
 20-01kjk.casino CNAME .

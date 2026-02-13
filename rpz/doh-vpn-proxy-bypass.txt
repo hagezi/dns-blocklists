@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770936480 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770958020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 22:48 UTC
-; Version: 2026.0212.2248.34
+; Last modified: 13 Feb 2026 04:47 UTC
+; Version: 2026.0213.0447.25
 ; Syntax: RPZ
-; Number of entries: 27956
+; Number of entries: 27944
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -687,8 +687,6 @@ vcsa.creographix.at CNAME .
 *.vcsa.creographix.at CNAME .
 bu-abdulla.dd-it.at CNAME .
 *.bu-abdulla.dd-it.at CNAME .
-dnsprivacy.at CNAME .
-*.dnsprivacy.at CNAME .
 dns.fancyorg.at CNAME .
 *.dns.fancyorg.at CNAME .
 dns.family.fraiss.at CNAME .
@@ -4125,8 +4123,6 @@ vanheim.ff.avast.com CNAME .
 *.vanheim.ff.avast.com CNAME .
 vpn-sd.ff.avast.com CNAME .
 *.vpn-sd.ff.avast.com CNAME .
-securedns.avast.com CNAME .
-*.securedns.avast.com CNAME .
 vpn.avg.tools.avast.com CNAME .
 *.vpn.avg.tools.avast.com CNAME .
 africa.avastdns.com CNAME .
@@ -9493,8 +9489,6 @@ o2comm-prd.norton.com CNAME .
 *.o2comm-prd.norton.com CNAME .
 spoc.norton.com CNAME .
 *.spoc.norton.com CNAME .
-dnsz.corp.nortonlifelock.com CNAME .
-*.dnsz.corp.nortonlifelock.com CNAME .
 easyschool.notesninjas.com CNAME .
 *.easyschool.notesninjas.com CNAME .
 noticepure.com CNAME .
@@ -22341,8 +22335,6 @@ doh.excdn.eu.org CNAME .
 *.doh.excdn.eu.org CNAME .
 frogiee1stoolbox.eu.org CNAME .
 *.frogiee1stoolbox.eu.org CNAME .
-futuredns.eu.org CNAME .
-*.futuredns.eu.org CNAME .
 doh.greenwood.eu.org CNAME .
 *.doh.greenwood.eu.org CNAME .
 sweethome.in.eu.org CNAME .
@@ -26371,8 +26363,6 @@ nordvpn.uk CNAME .
 *.nordvpn.uk CNAME .
 ixl.shh.dont.tell.apocalypto.org.uk CNAME .
 *.ixl.shh.dont.tell.apocalypto.org.uk CNAME .
-dnsprivacy.org.uk CNAME .
-*.dnsprivacy.org.uk CNAME .
 teslacoils.org.uk CNAME .
 *.teslacoils.org.uk CNAME .
 doh.plaawan.uk CNAME .
@@ -27011,8 +27001,6 @@ grimace-shake.skibidi-rizz-gyatt-fanum-tax-sigma-ohio.ct.ws CNAME .
 *.67.langhorne.ws CNAME .
 dns.mayr.ws CNAME .
 *.dns.mayr.ws CNAME .
-dnscrypt-cert.dnsrec.meo.ws CNAME .
-*.dnscrypt-cert.dnsrec.meo.ws CNAME .
 onion.ws CNAME .
 *.onion.ws CNAME .
 proxify.ws CNAME .
