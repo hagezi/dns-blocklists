@@ -443,7 +443,7 @@ Prevent methods to bypass your DNS.
 
 :green_circle: yes :yellow_square: partially :x: no
 
-**Entries:** 14051 compressed domains
+**Entries:** 14053 compressed domains
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
