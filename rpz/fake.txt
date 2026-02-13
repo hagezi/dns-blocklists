@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770974940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770999060 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Feb 2026 09:29 UTC
-; Version: 2026.0213.0929.42
+; Last modified: 13 Feb 2026 16:11 UTC
+; Version: 2026.0213.1611.40
 ; Syntax: RPZ
 ; Number of entries: 28314
 ;
@@ -6740,6 +6740,8 @@ figurinestoys.com CNAME .
 *.figurinestoys.com CNAME .
 filamniceent.com CNAME .
 *.filamniceent.com CNAME .
+fillamoda.com CNAME .
+*.fillamoda.com CNAME .
 fillethumn.com CNAME .
 *.fillethumn.com CNAME .
 filloutlet.com CNAME .
@@ -27296,8 +27298,6 @@ skinsociety.shop CNAME .
 *.skinsociety.shop CNAME .
 wabp.sleepysheepy.shop CNAME .
 *.wabp.sleepysheepy.shop CNAME .
-topeat.smallfall.shop CNAME .
-*.topeat.smallfall.shop CNAME .
 snmea.shop CNAME .
 *.snmea.shop CNAME .
 soapandmore.shop CNAME .

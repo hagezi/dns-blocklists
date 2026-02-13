@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 06 Feb 2026 16:09 UTC
-# Version: 2026.0206.1609.07
+# Last modified: 13 Feb 2026 16:03 UTC
+# Version: 2026.0213.1603.27
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 632
+# Number of entries: 640
 #
 0.0.0.0 3px.axp.amazon-adsystem.com
 0.0.0.0 aan.amazon.co.jp
@@ -266,12 +266,15 @@
 0.0.0.0 cell8001.iad.stv.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8001.iad.stv.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8001.iad.web.bid-na.ads.aps.amazon-adsystem.com
+0.0.0.0 cell8001.iad.web.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.pg.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.pg.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.spp.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.spp.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8002.pdx.stv.event-na.ads.aps.amazon-adsystem.com
+0.0.0.0 cell8003.iad.mobile.bid-na.ads.aps.amazon-adsystem.com
+0.0.0.0 cell8003.iad.mobile.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8004.pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8004.pdx.stv.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 cell8011.fra.mobile.bid-eu.ads.aps.amazon-adsystem.com
@@ -360,6 +363,7 @@
 0.0.0.0 fls-na.amazon.com.br
 0.0.0.0 fls-na.amazon.com.mx
 0.0.0.0 forester.a2z.com
+0.0.0.0 fra.mobile.bid-eu.ads.aps.amazon-adsystem.com
 0.0.0.0 ftv.bugsnag.appstore.a2z.com
 0.0.0.0 gamma-config.aps.amazon-adsystem.com
 0.0.0.0 gamma-toolbox.aps.amazon-adsystem.com
@@ -372,6 +376,7 @@
 0.0.0.0 global-3.telemetry.insights.video.a2z.com
 0.0.0.0 global.telemetry.insights.video.a2z.com
 0.0.0.0 h4g3z1-native.amazon.web.app
+0.0.0.0 iad.web.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 identity.browserapps.amazon.de
 0.0.0.0 imdb.amazon-adsystem.com
 0.0.0.0 insights.video.a2z.com
@@ -409,9 +414,11 @@
 0.0.0.0 maws-aax-us-east-test4.amazon-adsystem.com
 0.0.0.0 maws-aax-us-pdx-rtb.amazon-adsystem.com
 0.0.0.0 mdtb-eu.ads.aps.amazon-adsystem.com
+0.0.0.0 mdtb-na-2.ads.aps.amazon-adsystem.com
 0.0.0.0 mdtb.ads.aps.amazon-adsystem.com
 0.0.0.0 metrics.media-amazon.com
 0.0.0.0 minerva.devices.a2z.com
+0.0.0.0 mobile.bid-eu.ads.aps.amazon-adsystem.com
 0.0.0.0 mobile.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 mobile.eu-west.aps.axp.amazon-adsystem.com
 0.0.0.0 mobile.event-na.ads.aps.amazon-adsystem.com
@@ -611,6 +618,7 @@
 0.0.0.0 web.ap-southeast.aps.axp.amazon-adsystem.com
 0.0.0.0 web.bid-na.ads.aps.amazon-adsystem.com
 0.0.0.0 web.eu-west.aps.axp.amazon-adsystem.com
+0.0.0.0 web.event-na.ads.aps.amazon-adsystem.com
 0.0.0.0 web.us-east.aps.axp.amazon-adsystem.com
 0.0.0.0 wetfs.global-1.telemetry.insights.video.a2z.com
 0.0.0.0 wetfs.global-2.telemetry.insights.video.a2z.com

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770393480 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770998040 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 15:58 UTC
-; Version: 2026.0206.1558.47
+; Last modified: 13 Feb 2026 15:54 UTC
+; Version: 2026.0213.1554.21
 ; Syntax: RPZ
-; Number of entries: 424
+; Number of entries: 428
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -334,6 +334,8 @@ search.disroot.org CNAME .
 *.search.disroot.org CNAME .
 search.dr460nf1r3.org CNAME .
 *.search.dr460nf1r3.org CNAME .
+wgl.frail.duckdns.org CNAME .
+*.wgl.frail.duckdns.org CNAME .
 searx.elukerio.org CNAME .
 *.searx.elukerio.org CNAME .
 searx.everdot.org CNAME .
@@ -434,6 +436,8 @@ search.rubberverse.xyz CNAME .
 *.search.rubberverse.xyz CNAME .
 searx.xyz CNAME .
 *.searx.xyz CNAME .
+s.tokhmi.xyz CNAME .
+*.s.tokhmi.xyz CNAME .
 find.xenorio.xyz CNAME .
 *.find.xenorio.xyz CNAME .
 search.zeroish.xyz CNAME .

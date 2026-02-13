@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1770394140 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1770998640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Feb 2026 16:09 UTC
-; Version: 2026.0206.1609.51
+; Last modified: 13 Feb 2026 16:04 UTC
+; Version: 2026.0213.1604.09
 ; Syntax: RPZ
-; Number of entries: 760
+; Number of entries: 764
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -60,6 +60,10 @@ raka.bing.com CNAME .
 *.raka.bing.com CNAME .
 c.bingapis.com CNAME .
 *.c.bingapis.com CNAME .
+exo.nel.measure.office.net.sw.buhl-data.com CNAME .
+*.exo.nel.measure.office.net.sw.buhl-data.com CNAME .
+teams.nel.measure.office.net.sw.buhl-data.com CNAME .
+*.teams.nel.measure.office.net.sw.buhl-data.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .
