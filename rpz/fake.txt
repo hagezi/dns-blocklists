@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771082940 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771104540 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Feb 2026 15:29 UTC
-; Version: 2026.0214.1529.11
+; Last modified: 14 Feb 2026 21:29 UTC
+; Version: 2026.0214.2129.41
 ; Syntax: RPZ
-; Number of entries: 28296
+; Number of entries: 28294
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -1876,8 +1876,6 @@ activmarkets.com CNAME .
 *.activmarkets.com CNAME .
 actualite-placement.com CNAME .
 *.actualite-placement.com CNAME .
-actualites247.com CNAME .
-*.actualites247.com CNAME .
 acyen.com CNAME .
 *.acyen.com CNAME .
 ad-property.com CNAME .
