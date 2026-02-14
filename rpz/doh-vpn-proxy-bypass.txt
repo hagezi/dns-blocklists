@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771066080 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771087560 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Feb 2026 10:48 UTC
-; Version: 2026.0214.1048.17
+; Last modified: 14 Feb 2026 16:46 UTC
+; Version: 2026.0214.1646.56
 ; Syntax: RPZ
-; Number of entries: 28100
+; Number of entries: 28096
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -14373,8 +14373,6 @@ trigpractice.staglin.hr CNAME .
 *.trigpractice.staglin.hr CNAME .
 vpn.ht CNAME .
 *.vpn.ht CNAME .
-yt.2hintranet.hu CNAME .
-*.yt.2hintranet.hu CNAME .
 apamerican.govt.hu CNAME .
 *.apamerican.govt.hu CNAME .
 office.govt.hu CNAME .
@@ -24213,8 +24211,6 @@ chronos.24-7.ro CNAME .
 *.chronos.24-7.ro CNAME .
 hardthinkers.24-7.ro CNAME .
 *.hardthinkers.24-7.ro CNAME .
-kutay1234.24-7.ro CNAME .
-*.kutay1234.24-7.ro CNAME .
 apsciencetutoring.7hub.ro CNAME .
 *.apsciencetutoring.7hub.ro CNAME .
 browhat.7hub.ro CNAME .

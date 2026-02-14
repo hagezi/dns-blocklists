@@ -10,8 +10,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 12 Feb 2026 17:08 UTC
-! Version: 2026.0212.1708.52
+! Last modified: 14 Feb 2026 16:47 UTC
+! Version: 2026.0214.1647.44
 ! Syntax: AdGuard
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -173,7 +173,7 @@
 ||*.markets^
 ||*.mba^
 ||*.men^$denyallow=virgile.men
-||*.menu^$denyallow=speisekarte.menu
+||*.menu^$denyallow=speisekarte.menu|viewthe.menu
 ||*.miami^
 ||*.ml^$denyallow=aire.ml|amap.ml|google.ml|info-matin.ml|lemmygrad.ml|lemmy.ml|lingva.ml|loma.ml|mastodon.ml|melody.ml|precure.ml|prompt.ml
 ||*.moda^
@@ -287,7 +287,7 @@
 ||*.website^$denyallow=acro.website|bestmotherfucking.website|eddie.website|noclip.website|thatsup.website|tilde.website|tiny.tilde.website|uphold.website
 ||*.wedding^
 ||*.wiki^$denyallow=avid.wiki|bakugan.wiki|bg3.wiki|blazblue.wiki|burnout.wiki|chibi-robo.wiki|consumerrights.wiki|cooked.wiki|datei.wiki|deadlock.wiki|deltarune.wiki|dragalialost.wiki|drawntolife.wiki|falcom.wiki|fallout.wiki|gbf.wiki|getindie.wiki|hacktricks.wiki|hollowknight.wiki|hololive.wiki|klingon.wiki|kodi.wiki|koeitecmo.wiki|kometa.wiki|lain.wiki|lhlab.wiki|libreelec.wiki|manson.wiki|mediaclients.wiki|minecraft.wiki|modding.wiki|mtg.wiki|namu.wiki|nixos.wiki|notifiarr.wiki|osrs.wiki|pizzatower.wiki|rs.wiki|runescape.wiki|saintsrow.wiki|severance.wiki|survivors.wiki|tajrobe.wiki|tardis.wiki|thehomelab.wiki|tilde.wiki|twewy.wiki|umamusu.wiki|undertale.wiki|usermanual.wiki|vaporwave.wiki|w.wiki|yume.wiki|zeldawiki.wiki|zeppelin.wiki
-||*.win^$denyallow=activated.win|communities.win|debloat.win|patriots.win|vaultcord.win
+||*.win^$denyallow=activated.win|communities.win|debloat.win|ios-countdown.win|patriots.win|vaultcord.win
 ||*.wine^$denyallow=nostr.wine
 ||*.work^$denyallow=doesmycode.work|elphago.work|frame.work|koding.work|mirror.work|schueller.work
 ||*.world^$denyallow=bevisioneers.world|boo.world|calckey.world|camhub.world|edgecdn.world|heated.world|ift.world|juice.world|lemmings.world|lemmy.world|mastodon.world|maxwellcat.world|meming.world|mnetplus.world|mnr.world|shitposter.world|unidays.world|userstyles.world|welocal.world|wetdry.world|wiz.world
