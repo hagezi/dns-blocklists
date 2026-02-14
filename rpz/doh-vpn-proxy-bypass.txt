@@ -1,5 +1,5 @@
-$TTL 300
-@ SOA localhost. root.localhost. 1771014240 43200 3600 86400 300
+$TTL 3600
+@ SOA localhost. root.localhost. 1771066080 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Feb 2026 20:24 UTC
-; Version: 2026.0213.2024.44
+; Last modified: 14 Feb 2026 10:48 UTC
+; Version: 2026.0214.1048.17
 ; Syntax: RPZ
-; Number of entries: 28106
+; Number of entries: 28100
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -12529,10 +12529,6 @@ satnet.cv CNAME .
 *.satnet.cv CNAME .
 bubyrajkepepslap.1337.cx CNAME .
 *.bubyrajkepepslap.1337.cx CNAME .
-guest.1337.cx CNAME .
-*.guest.1337.cx CNAME .
-kotaa.1337.cx CNAME .
-*.kotaa.1337.cx CNAME .
 goal.music.1337.cx CNAME .
 *.goal.music.1337.cx CNAME .
 vps.avc.cx CNAME .
@@ -20935,8 +20931,6 @@ kjyourthegoat.0x.no CNAME .
 *.kjyourthegoat.0x.no CNAME .
 midsyland.0x.no CNAME .
 *.midsyland.0x.no CNAME .
-schoolschedulechecking.0x.no CNAME .
-*.schoolschedulechecking.0x.no CNAME .
 dns.anon.no CNAME .
 *.dns.anon.no CNAME .
 adg.tshost.no CNAME .

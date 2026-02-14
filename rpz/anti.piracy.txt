@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771022580 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771065720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Feb 2026 22:43 UTC
-; Version: 2026.0213.2243.03
+; Last modified: 14 Feb 2026 10:42 UTC
+; Version: 2026.0214.1042.22
 ; Syntax: RPZ
-; Number of entries: 23474
+; Number of entries: 23490
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -482,6 +482,8 @@ coolrom.com.au CNAME .
 *.coolrom.com.au CNAME .
 smtp-relay.odysseylabel.com.au CNAME .
 *.smtp-relay.odysseylabel.com.au CNAME .
+pobreflix.auction CNAME .
+*.pobreflix.auction CNAME .
 streamingcommunity.auction CNAME .
 *.streamingcommunity.auction CNAME .
 vegamovies.auction CNAME .
@@ -2638,8 +2640,6 @@ hdmovie2.cologne CNAME .
 *.037hdmovie.com CNAME .
 0magnet.com CNAME .
 *.0magnet.com CNAME .
-0second.com CNAME .
-*.0second.com CNAME .
 0vg9r.com CNAME .
 *.0vg9r.com CNAME .
 tracker.0x7c0.com CNAME .
@@ -2932,6 +2932,8 @@ americansoccerarchives.com CNAME .
 *.americansoccerarchives.com CNAME .
 amrbd.com CNAME .
 *.amrbd.com CNAME .
+amyflix.com CNAME .
+*.amyflix.com CNAME .
 an1.com CNAME .
 *.an1.com CNAME .
 an1build.com CNAME .
@@ -4454,6 +4456,8 @@ f1fullraces.com CNAME .
 *.f1fullraces.com CNAME .
 download.f60s.com CNAME .
 *.download.f60s.com CNAME .
+fandango.com CNAME .
+*.fandango.com CNAME .
 muds.fandom.com CNAME .
 *.muds.fandom.com CNAME .
 vsrecommendedgames.fandom.com CNAME .
@@ -4604,6 +4608,8 @@ flixdump.com CNAME .
 *.flixdump.com CNAME .
 flixjar.com CNAME .
 *.flixjar.com CNAME .
+flixster.com CNAME .
+*.flixster.com CNAME .
 ns1.floads.com CNAME .
 *.ns1.floads.com CNAME .
 ns2.floads.com CNAME .
@@ -6020,6 +6026,8 @@ netexpressbd.com CNAME .
 *.netexpressbd.com CNAME .
 netfilme.com CNAME .
 *.netfilme.com CNAME .
+netflixparty.com CNAME .
+*.netflixparty.com CNAME .
 netinfobd.com CNAME .
 *.netinfobd.com CNAME .
 openmovies.netlify.com CNAME .
@@ -6448,6 +6456,8 @@ plygig.com CNAME .
 *.plygig.com CNAME .
 pobreflix.com CNAME .
 *.pobreflix.com CNAME .
+pobreflixonline.com CNAME .
+*.pobreflixonline.com CNAME .
 podtropolis.com CNAME .
 *.podtropolis.com CNAME .
 pokemerald.com CNAME .
@@ -6668,6 +6678,8 @@ reddit-soccerstreams.com CNAME .
 *.reddit-soccerstreams.com CNAME .
 redditnhlstreams.com CNAME .
 *.redditnhlstreams.com CNAME .
+redirectnflix.com CNAME .
+*.redirectnflix.com CNAME .
 redvido.com CNAME .
 *.redvido.com CNAME .
 dpiui.reedlan.com CNAME .
@@ -7280,6 +7292,8 @@ telechargerjeuxtorrent.com CNAME .
 *.telechargerjeuxtorrent.com CNAME .
 telegrampremiumapk.com CNAME .
 *.telegrampremiumapk.com CNAME .
+teleparty.com CNAME .
+*.teleparty.com CNAME .
 tenvoi.com CNAME .
 *.tenvoi.com CNAME .
 tenyardtorrents.com CNAME .
@@ -11710,8 +11724,6 @@ srstop.link CNAME .
 *.srstop.link CNAME .
 strmd.link CNAME .
 *.strmd.link CNAME .
-0123movies.live CNAME .
-*.0123movies.live CNAME .
 tracker.aburaya.live CNAME .
 *.tracker.aburaya.live CNAME .
 afdah.live CNAME .
@@ -15340,6 +15352,8 @@ eurostreamings.online CNAME .
 *.eurostreamings.online CNAME .
 fbiwarning.online CNAME .
 *.fbiwarning.online CNAME .
+fgtd.online CNAME .
+*.fgtd.online CNAME .
 filmeflix.online CNAME .
 *.filmeflix.online CNAME .
 filmpertutti.online CNAME .
@@ -21590,6 +21604,8 @@ liveonscore.tv CNAME .
 *.liveonscore.tv CNAME .
 lostfilm.tv CNAME .
 *.lostfilm.tv CNAME .
+loveflix.tv CNAME .
+*.loveflix.tv CNAME .
 lovesyour.tv CNAME .
 *.lovesyour.tv CNAME .
 lshunters.tv CNAME .
