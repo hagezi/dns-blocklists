@@ -1,5 +1,5 @@
-$TTL 300
-@ SOA localhost. root.localhost. 1770634020 43200 3600 86400 300
+$TTL 3600
+@ SOA localhost. root.localhost. 1771152420 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Feb 2026 10:47 UTC
-; Version: 2026.0209.1047.30
+; Last modified: 15 Feb 2026 10:47 UTC
+; Version: 2026.0215.1047.51
 ; Syntax: RPZ
-; Number of entries: 7008
+; Number of entries: 7004
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -761,8 +761,6 @@ sradg2.eastus.cloudapp.azure.com CNAME .
 *.sradg2.eastus.cloudapp.azure.com CNAME .
 kawpad.southeastasia.cloudapp.azure.com CNAME .
 *.kawpad.southeastasia.cloudapp.azure.com CNAME .
-adguard-be-azure.westeurope.cloudapp.azure.com CNAME .
-*.adguard-be-azure.westeurope.cloudapp.azure.com CNAME .
 dns.b72.com CNAME .
 *.dns.b72.com CNAME .
 dns.bai0012.com CNAME .
@@ -2867,8 +2865,6 @@ dns.invent.hr CNAME .
 *.dns.invent.hr CNAME .
 dns.0ooo.icu CNAME .
 *.dns.0ooo.icu CNAME .
-dns.agfiudsv.icu CNAME .
-*.dns.agfiudsv.icu CNAME .
 dns.devopscloud.icu CNAME .
 *.dns.devopscloud.icu CNAME .
 dns.maybe.icu CNAME .

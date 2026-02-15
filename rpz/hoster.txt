@@ -1,5 +1,5 @@
-$TTL 300
-@ SOA localhost. root.localhost. 1770912120 43200 3600 86400 300
+$TTL 3600
+@ SOA localhost. root.localhost. 1771149720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Feb 2026 16:02 UTC
-; Version: 2026.0212.1602.05
+; Last modified: 15 Feb 2026 10:02 UTC
+; Version: 2026.0215.1002.27
 ; Syntax: RPZ
-; Number of entries: 2596
+; Number of entries: 2590
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -338,8 +338,6 @@ actifforum.com CNAME .
 *.actifforum.com CNAME .
 admarketlocation.com CNAME .
 *.admarketlocation.com CNAME .
-ag0rcgwjv5.com CNAME .
-*.ag0rcgwjv5.com CNAME .
 ahlamountada.com CNAME .
 *.ahlamountada.com CNAME .
 alboompro.com CNAME .
@@ -2362,12 +2360,8 @@ perl.sh CNAME .
 *.perl.sh CNAME .
 surge.sh CNAME .
 *.surge.sh CNAME .
-airself.shop CNAME .
-*.airself.shop CNAME .
 asiaal.shop CNAME .
 *.asiaal.shop CNAME .
-bizmovie.shop CNAME .
-*.bizmovie.shop CNAME .
 clubstrack.shop CNAME .
 *.clubstrack.shop CNAME .
 cubavalue.shop CNAME .
