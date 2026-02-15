@@ -200,6 +200,7 @@ https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-2.txt
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-3.txt
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-4.txt
+https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-5.txt
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
 https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
 https://raw.githubusercontent.com/mtxadmin/ublock/master/hosts/_all_bets_are_off

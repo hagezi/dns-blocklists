@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771152180 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771173600 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Feb 2026 10:43 UTC
-; Version: 2026.0215.1043.04
+; Last modified: 15 Feb 2026 16:40 UTC
+; Version: 2026.0215.1640.13
 ; Syntax: RPZ
-; Number of entries: 23478
+; Number of entries: 23460
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -572,8 +572,6 @@ nagordola.com.bd CNAME .
 *.nagordola.com.bd CNAME .
 netpoint.com.bd CNAME .
 *.netpoint.com.bd CNAME .
-nis.com.bd CNAME .
-*.nis.com.bd CNAME .
 nowhdtime.com.bd CNAME .
 *.nowhdtime.com.bd CNAME .
 salamonline.com.bd CNAME .
@@ -2314,12 +2312,8 @@ cb01.co CNAME .
 *.cb01.co CNAME .
 tracker.chdbits.co CNAME .
 *.tracker.chdbits.co CNAME .
-cineblog01.co CNAME .
-*.cineblog01.co CNAME .
 cinefun.co CNAME .
 *.cinefun.co CNAME .
-cinemagratis.co CNAME .
-*.cinemagratis.co CNAME .
 clicknupload.co CNAME .
 *.clicknupload.co CNAME .
 cmovies.co CNAME .
@@ -8534,8 +8528,6 @@ bloodsuckerz.cx CNAME .
 *.bloodsuckerz.cx CNAME .
 boerse.cx CNAME .
 *.boerse.cx CNAME .
-cineblog01.cx CNAME .
-*.cineblog01.cx CNAME .
 fmovies2.cx CNAME .
 *.fmovies2.cx CNAME .
 gidonline.cx CNAME .
@@ -9686,8 +9678,6 @@ cb01.fun CNAME .
 *.cb01.fun CNAME .
 cineblog01.fun CNAME .
 *.cineblog01.fun CNAME .
-codepcplay.fun CNAME .
-*.codepcplay.fun CNAME .
 ddnbd.fun CNAME .
 *.ddnbd.fun CNAME .
 dood.fun CNAME .
@@ -17526,8 +17516,6 @@ darksiders.pl CNAME .
 *.darksiders.pl CNAME .
 darkw.pl CNAME .
 *.darkw.pl CNAME .
-darkwarez.pl CNAME .
-*.darkwarez.pl CNAME .
 darmowe-torenty.pl CNAME .
 *.darmowe-torenty.pl CNAME .
 devil-torrents.pl CNAME .
@@ -18026,8 +18014,6 @@ tracker2.christianbro.pw CNAME .
 *.tracker2.christianbro.pw CNAME .
 cricfree.pw CNAME .
 *.cricfree.pw CNAME .
-cyber-hub.pw CNAME .
-*.cyber-hub.pw CNAME .
 demonoid.pw CNAME .
 *.demonoid.pw CNAME .
 dunia21.pw CNAME .
@@ -19734,8 +19720,6 @@ blackvid.space CNAME .
 *.blackvid.space CNAME .
 cineblog01.space CNAME .
 *.cineblog01.space CNAME .
-cmovies.space CNAME .
-*.cmovies.space CNAME .
 comicaso.space CNAME .
 *.comicaso.space CNAME .
 couchtuner.space CNAME .
@@ -19804,8 +19788,6 @@ vegamovies.ss CNAME .
 *.1337x.st CNAME .
 braflix.st CNAME .
 *.braflix.st CNAME .
-cinemadeck.st CNAME .
-*.cinemadeck.st CNAME .
 extratorrent.st CNAME .
 *.extratorrent.st CNAME .
 hdmovie2.st CNAME .
