@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771173600 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771195200 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Feb 2026 16:40 UTC
-; Version: 2026.0215.1640.13
+; Last modified: 15 Feb 2026 22:40 UTC
+; Version: 2026.0215.2240.39
 ; Syntax: RPZ
-; Number of entries: 23460
+; Number of entries: 23450
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -4358,8 +4358,6 @@ encodeking.com CNAME .
 *.encodeking.com CNAME .
 energy-torrent.com CNAME .
 *.energy-torrent.com CNAME .
-enseriestreaming.com CNAME .
-*.enseriestreaming.com CNAME .
 eolbd.com CNAME .
 *.eolbd.com CNAME .
 episodes-tv.com CNAME .
@@ -11734,8 +11732,6 @@ criaflix.live CNAME .
 *.criaflix.live CNAME .
 crichd.live CNAME .
 *.crichd.live CNAME .
-derendered.live CNAME .
-*.derendered.live CNAME .
 dflix.live CNAME .
 *.dflix.live CNAME .
 dood.live CNAME .
@@ -12098,8 +12094,6 @@ audiobookbay.lu CNAME .
 *.audiobookbay.lu CNAME .
 boot.lu CNAME .
 *.boot.lu CNAME .
-dood.lu CNAME .
-*.dood.lu CNAME .
 file.lu CNAME .
 *.file.lu CNAME .
 tracker.harry.lu CNAME .
@@ -19348,10 +19342,6 @@ hdmovie2.shopping CNAME .
 *.123movie.show CNAME .
 couchtuner.show CNAME .
 *.couchtuner.show CNAME .
-egydead.show CNAME .
-*.egydead.show CNAME .
-eurostreaming.show CNAME .
-*.eurostreaming.show CNAME .
 hdmovie2.show CNAME .
 *.hdmovie2.show CNAME .
 real-fmovies.show CNAME .
