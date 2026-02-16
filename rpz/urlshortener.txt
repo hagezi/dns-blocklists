@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771256280 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771277640 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Feb 2026 15:38 UTC
-; Version: 2026.0216.1538.07
+; Last modified: 16 Feb 2026 21:34 UTC
+; Version: 2026.0216.2134.00
 ; Syntax: RPZ
-; Number of entries: 20140
+; Number of entries: 20124
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -5635,8 +5635,6 @@ neonslug.com CNAME .
 *.neonslug.com CNAME .
 nepolls.com CNAME .
 *.nepolls.com CNAME .
-nepurl.com CNAME .
-*.nepurl.com CNAME .
 nerdleveltech.com CNAME .
 *.nerdleveltech.com CNAME .
 netbrandly.com CNAME .
@@ -5655,8 +5653,6 @@ nfgn.com CNAME .
 *.nfgn.com CNAME .
 nfsurl.com CNAME .
 *.nfsurl.com CNAME .
-ngnbrand.com CNAME .
-*.ngnbrand.com CNAME .
 ngrid.com CNAME .
 *.ngrid.com CNAME .
 ngshortx.com CNAME .
@@ -9579,8 +9575,6 @@ cbnet.my.id CNAME .
 *.cbnet.my.id CNAME .
 fic.my.id CNAME .
 *.fic.my.id CNAME .
-googl.my.id CNAME .
-*.googl.my.id CNAME .
 rcx.my.id CNAME .
 *.rcx.my.id CNAME .
 unp.my.id CNAME .
@@ -10485,8 +10479,6 @@ newsfeedph.info CNAME .
 *.newsfeedph.info CNAME .
 newss.info CNAME .
 *.newss.info CNAME .
-nftchampions.info CNAME .
-*.nftchampions.info CNAME .
 one-partner.info CNAME .
 *.one-partner.info CNAME .
 pamethelabel.info CNAME .
@@ -12885,8 +12877,6 @@ minify.link CNAME .
 *.minify.link CNAME .
 minny.link CNAME .
 *.minny.link CNAME .
-modash.link CNAME .
-*.modash.link CNAME .
 mojbio.link CNAME .
 *.mojbio.link CNAME .
 molok.link CNAME .
@@ -13375,8 +13365,6 @@ lynky.live CNAME .
 *.lynky.live CNAME .
 mattes.live CNAME .
 *.mattes.live CNAME .
-meliodaslonesita.live CNAME .
-*.meliodaslonesita.live CNAME .
 microsoftfiles.live CNAME .
 *.microsoftfiles.live CNAME .
 mmccwilson.live CNAME .
@@ -17831,14 +17819,10 @@ maha77.site CNAME .
 *.maha77.site CNAME .
 login.maraset.site CNAME .
 *.login.maraset.site CNAME .
-mebioo.site CNAME .
-*.mebioo.site CNAME .
 mst.site CNAME .
 *.mst.site CNAME .
 nawawinews.site CNAME .
 *.nawawinews.site CNAME .
-novatres.site CNAME .
-*.novatres.site CNAME .
 owly.site CNAME .
 *.owly.site CNAME .
 play-app.site CNAME .

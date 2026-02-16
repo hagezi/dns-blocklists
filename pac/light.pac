@@ -5,10 +5,10 @@
 // Issues: https://github.com/hagezi/dns-blocklists/issues
 // Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 // Expires: 1 day
-// Last modified: 16 Feb 2026 16:23 UTC
-// Version: 2026.0216.1623.24
+// Last modified: 16 Feb 2026 22:15 UTC
+// Version: 2026.0216.2215.15
 // Syntax: PAC
-// Number of entries: 125892
+// Number of entries: 125778
 //
 function FindProxyForURL(url, host) {
    if (
@@ -228,10 +228,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.0jxaw4gb7qh8.top") ||
           shExpMatch(host, "*.0network.com") ||
           shExpMatch(host, "*.0ntargetstaffingllc.com") ||
+          shExpMatch(host, "*.0qjhw56.lol") ||
           shExpMatch(host, "*.0rder-ebay.click") ||
           shExpMatch(host, "*.0rder-ebay.world") ||
           shExpMatch(host, "*.0stats.com") ||
           shExpMatch(host, "*.0to1code.com") ||
+          shExpMatch(host, "*.0w2wi8d.lat") ||
           shExpMatch(host, "*.0wwdo226yexm.top") ||
           shExpMatch(host, "*.0x.day") ||
           shExpMatch(host, "*.0x10cforum.com") ||
@@ -314,7 +316,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.1080players.com") ||
           shExpMatch(host, "*.1082d2d38754acd65fdd3764e7188a62.info") ||
           shExpMatch(host, "*.108shot.com") ||
-          shExpMatch(host, "*.1095dhsgeur7.top") ||
           shExpMatch(host, "*.10a1543ef90ad6ec.com") ||
           shExpMatch(host, "*.10answers.net") ||
           shExpMatch(host, "*.10bet.com") ||
@@ -409,7 +410,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.13585.cfd") ||
           shExpMatch(host, "*.136-google.com") ||
           shExpMatch(host, "*.13728c1810.com") ||
-          shExpMatch(host, "*.1382525wg3.shop") ||
           shExpMatch(host, "*.138ae378d7350ce30bef9468ac7d8337.com") ||
           shExpMatch(host, "*.13ae8ea873edb95f28f07435ef5c648b.com") ||
           shExpMatch(host, "*.13b6afdad586ffc4.com") ||
@@ -637,7 +637,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.1fd27fc99f.com") ||
           shExpMatch(host, "*.1fe6c7fe21994b5b0ce68df2da3bb93c0496f8ce516c43e2c488bf3bcbaaf13.link") ||
           shExpMatch(host, "*.1fe795b0cc9e.top") ||
-          shExpMatch(host, "*.1fxt.com") ||
+          shExpMatch(host, "*.1ftrqftw.lol") ||
           shExpMatch(host, "*.1giantmind.org") ||
           shExpMatch(host, "*.1grandzbet.fr") ||
           shExpMatch(host, "*.1hhwyb4vl.com") ||
@@ -773,8 +773,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.2020mustang.com") ||
           shExpMatch(host, "*.2022welcome.com") ||
           shExpMatch(host, "*.2026bettilt.com") ||
+          shExpMatch(host, "*.202heht.lat") ||
           shExpMatch(host, "*.2038.pro") ||
-          shExpMatch(host, "*.2045479233.asia") ||
           shExpMatch(host, "*.206ads.com") ||
           shExpMatch(host, "*.2081beta8.com") ||
           shExpMatch(host, "*.2083236893b.com") ||
@@ -928,6 +928,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.258bde96e6.0e024d23f9.com") ||
           shExpMatch(host, "*.25fee271186597e9e9edea73a560cfcc.org") ||
           shExpMatch(host, "*.25frames.org") ||
+          shExpMatch(host, "*.25y727t.lat") ||
           shExpMatch(host, "*.2601805870118904fdbb2711b2ae294.com") ||
           shExpMatch(host, "*.2601805870118904fdbb2711b2ae294.info") ||
           shExpMatch(host, "*.2601805870118904fdbb2711b2ae294.online") ||
@@ -943,6 +944,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.26c9782aeac2.space") ||
           shExpMatch(host, "*.26caca8ce24efef1d1699edfc4f1005d.com") ||
           shExpMatch(host, "*.26fa4802bcb8.top") ||
+          shExpMatch(host, "*.26wt6tw.lat") ||
           shExpMatch(host, "*.26yj3wme9q.com") ||
           shExpMatch(host, "*.27-theproject.com") ||
           shExpMatch(host, "*.27330e2525.44cd912290.com") ||
@@ -960,6 +962,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.2808gmail.com") ||
           shExpMatch(host, "*.28238787d23d2.cyou") ||
           shExpMatch(host, "*.282718e4199d.top") ||
+          shExpMatch(host, "*.2836ggs.lat") ||
+          shExpMatch(host, "*.283hegt3.lat") ||
           shExpMatch(host, "*.28457c41ec5c.top") ||
           shExpMatch(host, "*.284971823.xyz") ||
           shExpMatch(host, "*.28567557bbf3c785f82e6d56eab817ac.com") ||
@@ -972,6 +976,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.28dafd89fb.com") ||
           shExpMatch(host, "*.28dfb7c1edee2fef7c48315ec09f3039.com") ||
           shExpMatch(host, "*.28fba2d100629429.com") ||
+          shExpMatch(host, "*.28hetge65.lat") ||
           shExpMatch(host, "*.28juny.org") ||
           shExpMatch(host, "*.28yw0a.ru") ||
           shExpMatch(host, "*.29-fuku-live.com") ||
@@ -1062,6 +1067,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.2squared.com") ||
           shExpMatch(host, "*.2step-garage.co.uk") ||
           shExpMatch(host, "*.2target.net") ||
+          shExpMatch(host, "*.2tf6wtw3.lol") ||
           shExpMatch(host, "*.2track.info") ||
           shExpMatch(host, "*.2trk.info") ||
           shExpMatch(host, "*.2ucz3ymr1.com") ||
@@ -1210,6 +1216,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.37d9d25dbb2d4ad0.com") ||
           shExpMatch(host, "*.37db8241f99df184376af32d7f6b617e.org") ||
           shExpMatch(host, "*.37fce476af5d.top") ||
+          shExpMatch(host, "*.37heger3.lat") ||
           shExpMatch(host, "*.37wan.com") ||
           shExpMatch(host, "*.380.hotpix.fr") ||
           shExpMatch(host, "*.380.tw") ||
@@ -1329,6 +1336,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.3pkf5m0gd.com") ||
           shExpMatch(host, "*.3px.axp.amazon-adsystem.com") ||
           shExpMatch(host, "*.3r1kwxcd.top") ||
+          shExpMatch(host, "*.3rdfwdew.lat") ||
           shExpMatch(host, "*.3rdintifada.com") ||
           shExpMatch(host, "*.3sky.dev") ||
           shExpMatch(host, "*.3sofortauszahlung.info") ||
@@ -1377,6 +1385,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.424c652467.top") ||
           shExpMatch(host, "*.4253343997.xyz") ||
           shExpMatch(host, "*.42578a14ca0de653.com") ||
+          shExpMatch(host, "*.426fwfs.lat") ||
           shExpMatch(host, "*.4283439bpg.top") ||
           shExpMatch(host, "*.42931.sk") ||
           shExpMatch(host, "*.4294f24396aeb290.com") ||
@@ -1534,6 +1543,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.4fploutletstore.com") ||
           shExpMatch(host, "*.4fshoes.club") ||
           shExpMatch(host, "*.4fshop.club") ||
+          shExpMatch(host, "*.4gqw5r5.lol") ||
           shExpMatch(host, "*.4gstaffing.com") ||
           shExpMatch(host, "*.4hunqp.ru") ||
           shExpMatch(host, "*.4info.com") ||
@@ -1781,6 +1791,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.5fe5e5c5ad56e90793b053e7a59907fdd268d53f466cd3cc70e1e4cc28370a5.link") ||
           shExpMatch(host, "*.5ff59d4c01af7bd6.com") ||
           shExpMatch(host, "*.5gtb.com") ||
+          shExpMatch(host, "*.5gw55tg.lol") ||
           shExpMatch(host, "*.5gxs.org") ||
           shExpMatch(host, "*.5h3oyhv838.com") ||
           shExpMatch(host, "*.5hte21mz.com") ||
@@ -1895,6 +1906,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.64786087.xyz") ||
           shExpMatch(host, "*.64cdb535a3d79d080f784cb2152cdea2.com") ||
           shExpMatch(host, "*.64gkf7zhlwqn6y4eutgq1hjjo9y.rest") ||
+          shExpMatch(host, "*.652gwte.lol") ||
           shExpMatch(host, "*.6533ae7a1a.7ba3fa4259.com") ||
           shExpMatch(host, "*.6549af56e9.3696a16444.com") ||
           shExpMatch(host, "*.655-google.com") ||
@@ -1904,6 +1916,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.659c51869a4f80e31a75dc00cec432f2.com") ||
           shExpMatch(host, "*.65a2e5331b0a.info") ||
           shExpMatch(host, "*.65acef890fe9.top") ||
+          shExpMatch(host, "*.65wye56.lat") ||
           shExpMatch(host, "*.661321.xyz") ||
           shExpMatch(host, "*.662176de35ef.top") ||
           shExpMatch(host, "*.663fe070b193.com") ||
@@ -2024,6 +2037,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.6v6.work") ||
           shExpMatch(host, "*.6wzdsf.ru") ||
           shExpMatch(host, "*.6z561q97c3.world") ||
+          shExpMatch(host, "*.7-zip.com") ||
           shExpMatch(host, "*.70-google.com") ||
           shExpMatch(host, "*.700f312054.com") ||
           shExpMatch(host, "*.7011bed563b1fb90c7841ab1143a7211.xyz") ||
@@ -2095,7 +2109,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.76d2276d22.com") ||
           shExpMatch(host, "*.76d2276d44.com") ||
           shExpMatch(host, "*.76e3d5200b.com") ||
+          shExpMatch(host, "*.76qtw5t.lat") ||
           shExpMatch(host, "*.76ry.com") ||
+          shExpMatch(host, "*.76wv53.lol") ||
           shExpMatch(host, "*.7700-google.com") ||
           shExpMatch(host, "*.77119.cc") ||
           shExpMatch(host, "*.772773a.com") ||
@@ -2228,6 +2244,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.7sofortauszahlung.info") ||
           shExpMatch(host, "*.7u6h8.xyz") ||
           shExpMatch(host, "*.7vid.net") ||
+          shExpMatch(host, "*.7wgy63.lol") ||
           shExpMatch(host, "*.7zip.cloud") ||
           shExpMatch(host, "*.7zip.com") ||
           shExpMatch(host, "*.800400.net") ||
@@ -2467,6 +2484,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.8927385723.cfd") ||
           shExpMatch(host, "*.89287.xyz") ||
           shExpMatch(host, "*.89296649.xyz") ||
+          shExpMatch(host, "*.892ytwt.lat") ||
           shExpMatch(host, "*.89306.xyz") ||
           shExpMatch(host, "*.89318.xyz") ||
           shExpMatch(host, "*.89329.xyz") ||
@@ -2756,7 +2774,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.9ty1.com") ||
           shExpMatch(host, "*.9uaaa0144.com") ||
           shExpMatch(host, "*.9versemedia.com") ||
-          shExpMatch(host, "*.9w6gsh.lol") ||
           shExpMatch(host, "*.9wee.com") ||
           shExpMatch(host, "*.9x7ki1mf7jem1l6iexqi.cfd") ||
           shExpMatch(host, "*.9xmovies.dog") ||
@@ -4792,7 +4809,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.ads.mediadatafactory.com") ||
           shExpMatch(host, "*.ads.mediasmart.es") ||
           shExpMatch(host, "*.ads.meteored.com") ||
-          shExpMatch(host, "*.ads.mi.com") ||
           shExpMatch(host, "*.ads.microsoft.com") ||
           shExpMatch(host, "*.ads.mindfactory.de") ||
           shExpMatch(host, "*.ads.mncmedia.co.kr") ||
@@ -5913,6 +5929,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.aggressivestruggle.com") ||
           shExpMatch(host, "*.aggrossomeone.cfd") ||
           shExpMatch(host, "*.aggtizmals.com") ||
+          shExpMatch(host, "*.agguasegre.rest") ||
           shExpMatch(host, "*.aghtag.tech") ||
           shExpMatch(host, "*.agi-google.com") ||
           shExpMatch(host, "*.agi-static.indiatimes.com") ||
@@ -6383,10 +6400,10 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.alivecheck.app") ||
           shExpMatch(host, "*.alivephotos.ru") ||
           shExpMatch(host, "*.aliveprompt.com") ||
+          shExpMatch(host, "*.aliveto.cyou") ||
           shExpMatch(host, "*.aliyothcockal.shop") ||
           shExpMatch(host, "*.alizerips.shop") ||
           shExpMatch(host, "*.aljassarengineering.com") ||
-          shExpMatch(host, "*.alkartamain.com") ||
           shExpMatch(host, "*.alkoora-live.live") ||
           shExpMatch(host, "*.all-audio.pro") ||
           shExpMatch(host, "*.all-live.shop") ||
@@ -12098,6 +12115,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.bihunekus.com") ||
           shExpMatch(host, "*.bikedelivery.de") ||
           shExpMatch(host, "*.bikeevolv.live") ||
+          shExpMatch(host, "*.bikesdonkey.info") ||
           shExpMatch(host, "*.bil.su") ||
           shExpMatch(host, "*.bilateralunchanged.com") ||
           shExpMatch(host, "*.bilchflares.qpon") ||
@@ -12636,6 +12654,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.bnregalo.com") ||
           shExpMatch(host, "*.bnstarterupdate.live") ||
           shExpMatch(host, "*.bnxmerv.cn") ||
+          shExpMatch(host, "*.bo8f9nei9pqtp489ofirh5.cfd") ||
           shExpMatch(host, "*.boaboacasino-fr.fr") ||
           shExpMatch(host, "*.boaboacasino-france.fr") ||
           shExpMatch(host, "*.boannre.com") ||
@@ -14258,6 +14277,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.catsonictp.com") ||
           shExpMatch(host, "*.catsys.jp") ||
           shExpMatch(host, "*.cattailpectinselected.com") ||
+          shExpMatch(host, "*.cattlegold.xyz") ||
           shExpMatch(host, "*.caulisknittle.cyou") ||
           shExpMatch(host, "*.cauly.co.kr") ||
           shExpMatch(host, "*.causlesscauslessshowerconventional.com") ||
@@ -14572,6 +14592,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.cdnimages.xyz") ||
           shExpMatch(host, "*.cdnjs.work") ||
           shExpMatch(host, "*.cdnkma.biz") ||
+          shExpMatch(host, "*.cdnlibjs.com") ||
           shExpMatch(host, "*.cdnlogs.org") ||
           shExpMatch(host, "*.cdnmaster.com") ||
           shExpMatch(host, "*.cdnmon.com") ||
@@ -15047,6 +15068,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.chitika.com") ||
           shExpMatch(host, "*.chitika.net") ||
           shExpMatch(host, "*.chitrbrevne.rest") ||
+          shExpMatch(host, "*.chittrearo.rest") ||
           shExpMatch(host, "*.chivalrouscord.com") ||
           shExpMatch(host, "*.chiveducaton.cfd") ||
           shExpMatch(host, "*.chiviedperronbalu.cfd") ||
@@ -15164,6 +15186,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.cinemaofficeparty.com") ||
           shExpMatch(host, "*.cinemateka3d.ru") ||
           shExpMatch(host, "*.cinems.club") ||
+          shExpMatch(host, "*.cineooverp.rest") ||
           shExpMatch(host, "*.cintnetworks.com") ||
           shExpMatch(host, "*.cinvetica.com") ||
           shExpMatch(host, "*.cio-office.paris") ||
@@ -16646,6 +16669,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.controlaffliction.com") ||
           shExpMatch(host, "*.controversychilly.com") ||
           shExpMatch(host, "*.controversykeenworkshop.com") ||
+          shExpMatch(host, "*.contruropo.rest") ||
           shExpMatch(host, "*.conveappag.rest") ||
           shExpMatch(host, "*.conveniencesloot.com") ||
           shExpMatch(host, "*.conveniencetimetable.com") ||
@@ -18468,7 +18492,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.daweeddelivery.com") ||
           shExpMatch(host, "*.dawin.tv") ||
           shExpMatch(host, "*.dax.yle.fi") ||
-          shExpMatch(host, "*.daxd46s.lol") ||
           shExpMatch(host, "*.daxloriz-es.net") ||
           shExpMatch(host, "*.day-checkwallet.digital") ||
           shExpMatch(host, "*.dayanmate.com") ||
@@ -18661,6 +18684,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.debonairtree.com") ||
           shExpMatch(host, "*.debussypoz.cyou") ||
           shExpMatch(host, "*.decacopy.com") ||
+          shExpMatch(host, "*.decandesid.rest") ||
           shExpMatch(host, "*.decantgetlingleasts.cfd") ||
           shExpMatch(host, "*.decathlon-il.com") ||
           shExpMatch(host, "*.decaydespiteseminar.com") ||
@@ -19756,6 +19780,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.dk9ps7goqoeef.cloudfront.net") ||
           shExpMatch(host, "*.dkaksdaksortor.com") ||
           shExpMatch(host, "*.dkb-anmelden.click") ||
+          shExpMatch(host, "*.dkb-kunden.click") ||
           shExpMatch(host, "*.dkcozinhadelivery.com.br") ||
           shExpMatch(host, "*.dkdnqhyoapq.com") ||
           shExpMatch(host, "*.dkglrvavzfik.com") ||
@@ -20558,7 +20583,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.e091049a84.com") ||
           shExpMatch(host, "*.e10cf9be6716.top") ||
           shExpMatch(host, "*.e124561f37.com") ||
-          shExpMatch(host, "*.e133g.xyz") ||
           shExpMatch(host, "*.e133o.xyz") ||
           shExpMatch(host, "*.e13mz522fh.shop") ||
           shExpMatch(host, "*.e14bf32c5faa.top") ||
@@ -22374,7 +22398,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.eyestore.tebex.io") ||
           shExpMatch(host, "*.eyeviewads.com") ||
           shExpMatch(host, "*.eyewonder.com") ||
-          shExpMatch(host, "*.eyeye63.lol") ||
           shExpMatch(host, "*.eyiyagktqawbk.com") ||
           shExpMatch(host, "*.eyiyoxz.xyz") ||
           shExpMatch(host, "*.eymgfkjarlplhu.com") ||
@@ -23022,6 +23045,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.fibgreenunofficial.com") ||
           shExpMatch(host, "*.fibmzk7108.top") ||
           shExpMatch(host, "*.fibo.guru") ||
+          shExpMatch(host, "*.fickle-travel.pro") ||
           shExpMatch(host, "*.ficklerkabobs.qpon") ||
           shExpMatch(host, "*.fickotstuk.space") ||
           shExpMatch(host, "*.fid.agkn.com") ||
@@ -25453,6 +25477,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.gobetweendisconnectcousin.com") ||
           shExpMatch(host, "*.gobiasaker.cyou") ||
           shExpMatch(host, "*.goblin.hupu.com") ||
+          shExpMatch(host, "*.gobliny.org") ||
           shExpMatch(host, "*.gocertiport.pearsonvue.com") ||
           shExpMatch(host, "*.gochs-nso.ru") ||
           shExpMatch(host, "*.goclick.com") ||
@@ -27086,6 +27111,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.homedepot.demdex.net") ||
           shExpMatch(host, "*.homedepotmx.demdex.net") ||
           shExpMatch(host, "*.homefinancce.com") ||
+          shExpMatch(host, "*.homefireman.xyz") ||
           shExpMatch(host, "*.homeimprovementway.com") ||
           shExpMatch(host, "*.homelabbing.ru") ||
           shExpMatch(host, "*.homemeble.club") ||
@@ -27809,6 +27835,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.id-ward.com") ||
           shExpMatch(host, "*.id.crwdcntrl.net") ||
           shExpMatch(host, "*.id.idnkt78.com") ||
+          shExpMatch(host, "*.id373-822.space") ||
           shExpMatch(host, "*.id5-sync.com") ||
           shExpMatch(host, "*.id6.me") ||
           shExpMatch(host, "*.idaccedi.shop") ||
@@ -28419,6 +28446,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.infoaz.nl") ||
           shExpMatch(host, "*.infocart.jp") ||
           shExpMatch(host, "*.infocode.tech") ||
+          shExpMatch(host, "*.infodoctolibfr.com") ||
           shExpMatch(host, "*.infogamingpro320.top") ||
           shExpMatch(host, "*.infohubsource.net") ||
           shExpMatch(host, "*.infoidisai.rest") ||
@@ -28659,6 +28687,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.instreamvideo.ru") ||
           shExpMatch(host, "*.instrumentoffice.com") ||
           shExpMatch(host, "*.instrumenttactics.com") ||
+          shExpMatch(host, "*.instrumentvolcano.space") ||
           shExpMatch(host, "*.insulatech.com") ||
           shExpMatch(host, "*.insumosesmar.com") ||
           shExpMatch(host, "*.insurads.com") ||
@@ -28763,6 +28792,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.interstrap.rest") ||
           shExpMatch(host, "*.interstrav.rest") ||
           shExpMatch(host, "*.interti.cyou") ||
+          shExpMatch(host, "*.intertoys.sbs") ||
           shExpMatch(host, "*.interworksmedia.co.kr") ||
           shExpMatch(host, "*.intextscript.com") ||
           shExpMatch(host, "*.intg.snapchat.com") ||
@@ -33405,25 +33435,20 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.m19ud.cn") ||
           shExpMatch(host, "*.m1tm.motor1.com") ||
           shExpMatch(host, "*.m2.ai") ||
-          shExpMatch(host, "*.m2ftne.boats") ||
           shExpMatch(host, "*.m2m-ledger.com") ||
           shExpMatch(host, "*.m2m.tedmcgrathbrands.com") ||
           shExpMatch(host, "*.m2track.co") ||
-          shExpMatch(host, "*.m2y4a7.cfd") ||
           shExpMatch(host, "*.m30zd974va.shop") ||
           shExpMatch(host, "*.m32.media") ||
-          shExpMatch(host, "*.m36j.xyz") ||
           shExpMatch(host, "*.m36w.xyz") ||
           shExpMatch(host, "*.m3distribuidora.com") ||
           shExpMatch(host, "*.m3fq9t61v5ji8ewtbgt81.cfd") ||
           shExpMatch(host, "*.m3h0da.ru") ||
-          shExpMatch(host, "*.m4c0x2.lat") ||
           shExpMatch(host, "*.m4k31tn1c3.xyz") ||
           shExpMatch(host, "*.m4n.nl") ||
           shExpMatch(host, "*.m4vision.de") ||
           shExpMatch(host, "*.m5r.hoes.tube") ||
           shExpMatch(host, "*.m6g8uv8r1m4w9bctrw.cfd") ||
-          shExpMatch(host, "*.m6h8a1.lat") ||
           shExpMatch(host, "*.m6r.eu") ||
           shExpMatch(host, "*.m877.hameensanomat.fi") ||
           shExpMatch(host, "*.m88.com") ||
@@ -33495,7 +33520,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mackmore.shop") ||
           shExpMatch(host, "*.maclessons.com") ||
           shExpMatch(host, "*.maclinkatelier.com") ||
-          shExpMatch(host, "*.maclinkgo.com") ||
           shExpMatch(host, "*.maclinkon.com") ||
           shExpMatch(host, "*.macmigrate.com") ||
           shExpMatch(host, "*.macmirrorx.com") ||
@@ -33542,7 +33566,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.madcheddar.net") ||
           shExpMatch(host, "*.madcpms.com") ||
           shExpMatch(host, "*.made-in-tunisia.net") ||
-          shExpMatch(host, "*.madebitnox-app.com") ||
           shExpMatch(host, "*.madebybmr.tel") ||
           shExpMatch(host, "*.madebyluck.com") ||
           shExpMatch(host, "*.madelivery.online") ||
@@ -33562,7 +33585,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.madrid.report.botm.transparentedge.io") ||
           shExpMatch(host, "*.madridbetgiris-2026tr.vip") ||
           shExpMatch(host, "*.madridbetguncel-giris.vip") ||
-          shExpMatch(host, "*.madridherb.com") ||
           shExpMatch(host, "*.mads-eu.amazon.com") ||
           shExpMatch(host, "*.mads-fe.amazon.com") ||
           shExpMatch(host, "*.mads.amazon-adsystem.com") ||
@@ -33576,9 +33598,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.maesweetdelivery1.com") ||
           shExpMatch(host, "*.maesweetdelivery1.online") ||
           shExpMatch(host, "*.maesweetdeliverysiteg.com") ||
-          shExpMatch(host, "*.mafia-casino-france.fr") ||
           shExpMatch(host, "*.mafia-casino1.fr") ||
-          shExpMatch(host, "*.mafiacasino-france.fr") ||
           shExpMatch(host, "*.mafivaz.biz") ||
           shExpMatch(host, "*.mafroad.com") ||
           shExpMatch(host, "*.maftoomp.top") ||
@@ -33625,7 +33645,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.magnificentworker.com") ||
           shExpMatch(host, "*.magnify360.com") ||
           shExpMatch(host, "*.magnite.com") ||
-          shExpMatch(host, "*.magnumator-official.net") ||
           shExpMatch(host, "*.magnus.ms") ||
           shExpMatch(host, "*.magpi.com") ||
           shExpMatch(host, "*.magsl.net") ||
@@ -33647,7 +33666,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mahonlawoffice.com") ||
           shExpMatch(host, "*.mahubraces.com") ||
           shExpMatch(host, "*.mai-tel.jp") ||
-          shExpMatch(host, "*.maiabarkan.com") ||
           shExpMatch(host, "*.maidcontrarypenknife.com") ||
           shExpMatch(host, "*.maidentower.site") ||
           shExpMatch(host, "*.maidservicenyc.pro") ||
@@ -33724,7 +33742,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mairahandprints.com") ||
           shExpMatch(host, "*.mairiedebeaubray.fr") ||
           shExpMatch(host, "*.maisdeliverysombrio.com") ||
-          shExpMatch(host, "*.maisexpresshoje.site") ||
           shExpMatch(host, "*.maisores.com") ||
           shExpMatch(host, "*.maist.jp") ||
           shExpMatch(host, "*.maithigloab.net") ||
@@ -33747,13 +33764,11 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.makemark.xyz") ||
           shExpMatch(host, "*.makemegood24.com") ||
           shExpMatch(host, "*.makeoffice.cn") ||
-          shExpMatch(host, "*.makesqu.info") ||
           shExpMatch(host, "*.makibishi.jp") ||
           shExpMatch(host, "*.makinadusdclaim.com") ||
           shExpMatch(host, "*.makroo.com") ||
           shExpMatch(host, "*.makroo.haber7.net") ||
           shExpMatch(host, "*.maladie-assure.fr") ||
-          shExpMatch(host, "*.malamute.cfd") ||
           shExpMatch(host, "*.malassacra.rest") ||
           shExpMatch(host, "*.malaysa.cyou") ||
           shExpMatch(host, "*.malaysiaairlines.demdex.net") ||
@@ -33826,7 +33841,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.manebayabeda.info") ||
           shExpMatch(host, "*.manganareseau.qpon") ||
           shExpMatch(host, "*.mangerbodegon.cfd") ||
-          shExpMatch(host, "*.mango-sa.shop") ||
           shExpMatch(host, "*.mangoads.net") ||
           shExpMatch(host, "*.mangoapple.xyz") ||
           shExpMatch(host, "*.mangomob.net") ||
@@ -34869,7 +34883,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mb9pzp.ru") ||
           shExpMatch(host, "*.mbaobao.com") ||
           shExpMatch(host, "*.mbbai7.ru") ||
-          shExpMatch(host, "*.mbbvkzojqxojs.site") ||
           shExpMatch(host, "*.mbddip.com") ||
           shExpMatch(host, "*.mbdippex.com") ||
           shExpMatch(host, "*.mbdjoadtly.com") ||
@@ -34879,7 +34892,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mbidpp.com") ||
           shExpMatch(host, "*.mbidpsh.com") ||
           shExpMatch(host, "*.mbidtg.com") ||
-          shExpMatch(host, "*.mbifirzsua.com") ||
           shExpMatch(host, "*.mbitspctools.live") ||
           shExpMatch(host, "*.mbjrkm2.com") ||
           shExpMatch(host, "*.mbjwxrv.ru") ||
@@ -34932,7 +34944,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mcinext.com") ||
           shExpMatch(host, "*.mciun.com") ||
           shExpMatch(host, "*.mcizas.com") ||
-          shExpMatch(host, "*.mckensecuryr.info") ||
           shExpMatch(host, "*.mckinseydotcom.122.2o7.net") ||
           shExpMatch(host, "*.mckinseyglobalnewsitecoreprod.112.2o7.net") ||
           shExpMatch(host, "*.mckinseyknowledge.demdex.net") ||
@@ -35166,7 +35177,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.meetflirtmatch.com") ||
           shExpMatch(host, "*.meetgoogle.xyz") ||
           shExpMatch(host, "*.meetinfos.click") ||
-          shExpMatch(host, "*.meetingnow-goo-gle.com") ||
           shExpMatch(host, "*.meetings.gaylordhotels.com") ||
           shExpMatch(host, "*.meetingszoom.work") ||
           shExpMatch(host, "*.meetkodifofficehq.info") ||
@@ -35290,8 +35300,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.merchandise.opera-api2.com") ||
           shExpMatch(host, "*.merchant-business-solutions.com") ||
           shExpMatch(host, "*.merchant-center-analytics.goog") ||
-          shExpMatch(host, "*.merchant-tiktok-webaccess.com") ||
-          shExpMatch(host, "*.merchant-tiktok-websystem.com") ||
           shExpMatch(host, "*.merchantadvantage.com") ||
           shExpMatch(host, "*.merchantfamilyoffices.com") ||
           shExpMatch(host, "*.merchantnavymemorial.com") ||
@@ -35311,7 +35319,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.merferbitappsolution.com") ||
           shExpMatch(host, "*.meridia-nextday.org") ||
           shExpMatch(host, "*.meridianqualitybread.com") ||
-          shExpMatch(host, "*.meristemzone.cfd") ||
           shExpMatch(host, "*.meritteles.rest") ||
           shExpMatch(host, "*.mernrza.com") ||
           shExpMatch(host, "*.merrellchaussures.fr") ||
@@ -35341,7 +35348,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.met.vgwort.de") ||
           shExpMatch(host, "*.meta-submitinfraction-facebook.com") ||
           shExpMatch(host, "*.meta-trx.com") ||
-          shExpMatch(host, "*.meta-wwormhole.com") ||
           shExpMatch(host, "*.meta.lucida.su") ||
           shExpMatch(host, "*.metabatted.com") ||
           shExpMatch(host, "*.metacenter-submitinfraction-facebook.com") ||
@@ -35939,6 +35945,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mhc-sec-eu.myhomescreen.tv") ||
           shExpMatch(host, "*.mhiiafknctopm.site") ||
           shExpMatch(host, "*.mhkufxshpxgps.website") ||
+          shExpMatch(host, "*.mhplkjcy8zw82i1.cfd") ||
           shExpMatch(host, "*.mhrs-gov-randevu.cfd") ||
           shExpMatch(host, "*.mhxxrsrandevlarburda.org") ||
           shExpMatch(host, "*.mhzubvssuobic.space") ||
@@ -36035,7 +36042,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.midmaga.com") ||
           shExpMatch(host, "*.midnightlotusgrove.com") ||
           shExpMatch(host, "*.midnightmeadowq.cfd") ||
-          shExpMatch(host, "*.midnightntwrkddesktop.app") ||
           shExpMatch(host, "*.midway.run") ||
           shExpMatch(host, "*.miesiecznafakturaklienta.com") ||
           shExpMatch(host, "*.miesiecznasubskrypcjaspotify.com") ||
@@ -36086,7 +36092,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.milkyfan.com") ||
           shExpMatch(host, "*.millemedia.de") ||
           shExpMatch(host, "*.millennialmedia.com") ||
-          shExpMatch(host, "*.millennium-sms.life") ||
           shExpMatch(host, "*.millenniumm.info") ||
           shExpMatch(host, "*.millento.com") ||
           shExpMatch(host, "*.millerbrewingcompany.122.2o7.net") ||
@@ -36126,12 +36131,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.milsalerispl.shop") ||
           shExpMatch(host, "*.miluwo.com") ||
           shExpMatch(host, "*.milwaukeefamilyoffice.com") ||
-          shExpMatch(host, "*.mimerkapur.com") ||
-          shExpMatch(host, "*.mimesoffice.com") ||
           shExpMatch(host, "*.mimilcnf.pro") ||
           shExpMatch(host, "*.mimisdelivery.com") ||
           shExpMatch(host, "*.mimixiaoke.com") ||
-          shExpMatch(host, "*.min-office-noreply.ru") ||
           shExpMatch(host, "*.min-office.ru") ||
           shExpMatch(host, "*.min-sundhed-konto-dk.com") ||
           shExpMatch(host, "*.min.org.ua") ||
@@ -36158,7 +36160,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.minewhat.com") ||
           shExpMatch(host, "*.mini.eastday.com") ||
           shExpMatch(host, "*.miniads.ca") ||
-          shExpMatch(host, "*.miniagrape.sbs") ||
           shExpMatch(host, "*.miniapp.bilibili.com") ||
           shExpMatch(host, "*.miniast.com") ||
           shExpMatch(host, "*.miniature-injury.pro") ||
@@ -36172,14 +36173,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.minimizedice.best") ||
           shExpMatch(host, "*.minishop.in") ||
           shExpMatch(host, "*.minisoccerbal.com") ||
-          shExpMatch(host, "*.ministereinterieur.fr") ||
           shExpMatch(host, "*.minkatu.com") ||
           shExpMatch(host, "*.minkfrequent.com") ||
           shExpMatch(host, "*.minnesotacountyoffices.org") ||
           shExpMatch(host, "*.minootd.com") ||
           shExpMatch(host, "*.minotaur107.com") ||
           shExpMatch(host, "*.minoversigtportensundhed.com") ||
-          shExpMatch(host, "*.minoversigtsundhed.com") ||
           shExpMatch(host, "*.minoversigtsundhedport.com") ||
           shExpMatch(host, "*.minozefnd.com") ||
           shExpMatch(host, "*.mint-stealer.top") ||
@@ -36244,7 +36243,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.missionrewards.com") ||
           shExpMatch(host, "*.mississippicountyoffices.org") ||
           shExpMatch(host, "*.mississippifamilyoffice.com") ||
-          shExpMatch(host, "*.missjump.com") ||
           shExpMatch(host, "*.misslov.com") ||
           shExpMatch(host, "*.missmichiko.com") ||
           shExpMatch(host, "*.missoffice.de") ||
@@ -36293,12 +36291,10 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.miyuhot.com") ||
           shExpMatch(host, "*.mizobe-office.com") ||
           shExpMatch(host, "*.mj-snowplow-static-js.s3.amazonaws.com") ||
-          shExpMatch(host, "*.mjekwd.top") ||
           shExpMatch(host, "*.mjjtobmrqyolqqbqukpl.com") ||
           shExpMatch(host, "*.mjrzu.youngla.com") ||
           shExpMatch(host, "*.mjsaylor.com") ||
           shExpMatch(host, "*.mjtenterprisesllc.com") ||
-          shExpMatch(host, "*.mjwzsnztryxal.website") ||
           shExpMatch(host, "*.mkbyns3039.top") ||
           shExpMatch(host, "*.mkekzahca.com") ||
           shExpMatch(host, "*.mkeofficecleaning.store") ||
@@ -36448,7 +36444,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mobidia.com") ||
           shExpMatch(host, "*.mobidriven.com") ||
           shExpMatch(host, "*.mobiiliportaali.com") ||
-          shExpMatch(host, "*.mobil-giris-onlline.sbs") ||
           shExpMatch(host, "*.mobilda.com") ||
           shExpMatch(host, "*.mobile-ads.10sq.net") ||
           shExpMatch(host, "*.mobile-clean.top") ||
@@ -36460,7 +36455,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mobile-events.eservice.emarsys.net") ||
           shExpMatch(host, "*.mobile-http-intake.logs.datadoghq.com") ||
           shExpMatch(host, "*.mobile-http-intake.logs.datadoghq.eu") ||
-          shExpMatch(host, "*.mobile-ndd.xin") ||
           shExpMatch(host, "*.mobile-production.content-square.net") ||
           shExpMatch(host, "*.mobile.eum-appdynamics.com") ||
           shExpMatch(host, "*.mobile.slgnt.eu") ||
@@ -36525,7 +36519,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.modeactivate.dev") ||
           shExpMatch(host, "*.modeiko.com") ||
           shExpMatch(host, "*.modelcamxxx.com") ||
-          shExpMatch(host, "*.modelcomp.best") ||
           shExpMatch(host, "*.modeljav09212026.shop") ||
           shExpMatch(host, "*.modelupdate.io") ||
           shExpMatch(host, "*.modernjingleshoes.com") ||
@@ -36565,17 +36558,15 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mohsenoffice.com") ||
           shExpMatch(host, "*.mohursanders.cfd") ||
           shExpMatch(host, "*.mojafakturaklientaspotify.com") ||
-          shExpMatch(host, "*.mojamiesiecznaprzestrzensubskrypcyjna.com") ||
-          shExpMatch(host, "*.mojaobslugarozliczenklientow.com") ||
           shExpMatch(host, "*.mojaplatnosczaspotify.com") ||
           shExpMatch(host, "*.mojikjxxuy.com") ||
-          shExpMatch(host, "*.mojmiesiecznyrachunekzaspotify.com") ||
           shExpMatch(host, "*.mojrachunekzadisneyspace.com") ||
           shExpMatch(host, "*.mojrachunekzamiejscewspotify.com") ||
           shExpMatch(host, "*.mojrachunekzdisneya.com") ||
           shExpMatch(host, "*.mokeyiisservices.digital") ||
           shExpMatch(host, "*.moklgy.vip") ||
           shExpMatch(host, "*.moksoxos.com") ||
+          shExpMatch(host, "*.moldrik.top") ||
           shExpMatch(host, "*.moleshederinchekan.qpon") ||
           shExpMatch(host, "*.molibplura.rest") ||
           shExpMatch(host, "*.mollifyjonmajesta.cfd") ||
@@ -36585,9 +36576,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.moltenevent.com") ||
           shExpMatch(host, "*.molypsigry.pro") ||
           shExpMatch(host, "*.momentary.link") ||
-          shExpMatch(host, "*.moments-of.shop") ||
           shExpMatch(host, "*.momentsjuergen.com") ||
-          shExpMatch(host, "*.momentum-ai-app.com") ||
           shExpMatch(host, "*.momentummedia.com.au") ||
           shExpMatch(host, "*.momijoy.ru") ||
           shExpMatch(host, "*.mommybag.pl") ||
@@ -36597,15 +36586,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mon-boot.capcutapi.com") ||
           shExpMatch(host, "*.mon-boot.tiktokv.com") ||
           shExpMatch(host, "*.mon-boot.tiktokv.com.edgekey.net") ||
-          shExpMatch(host, "*.mon-espace-ca-securise.com") ||
           shExpMatch(host, "*.mon-espace-securise-interac.com") ||
-          shExpMatch(host, "*.mon-espacepersonnel-cdf.com") ||
           shExpMatch(host, "*.mon-i18n.tiktokv.com") ||
           shExpMatch(host, "*.mon-ru.tiktokv.com") ||
           shExpMatch(host, "*.mon-sg.capcutapi.com") ||
           shExpMatch(host, "*.mon-sg.lemon8-app.com") ||
           shExpMatch(host, "*.mon-sg.tiktokv.com") ||
-          shExpMatch(host, "*.mon-suivis-colis.fr") ||
           shExpMatch(host, "*.mon-trk.com") ||
           shExpMatch(host, "*.mon-v2-boot.capcutapi.com") ||
           shExpMatch(host, "*.mon-va-useast2a.byteoversea.com") ||
@@ -36629,7 +36615,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.moncompte-ameli.com") ||
           shExpMatch(host, "*.moncompteyou-credit.fr") ||
           shExpMatch(host, "*.mondayrecalled.com") ||
-          shExpMatch(host, "*.mondial-relay-info-colis.com") ||
           shExpMatch(host, "*.mondiale-trackship.info") ||
           shExpMatch(host, "*.mondialrelayinfo.fr") ||
           shExpMatch(host, "*.mondialrelayinfofr.com") ||
@@ -36685,7 +36670,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.monitoring-sdk.experimentation.intuit.com") ||
           shExpMatch(host, "*.monitoringservice.co") ||
           shExpMatch(host, "*.monitus.net") ||
-          shExpMatch(host, "*.monixbet.fr") ||
           shExpMatch(host, "*.monkeyapes.com") ||
           shExpMatch(host, "*.monkeystyping.com") ||
           shExpMatch(host, "*.monnaripl.com") ||
@@ -36701,7 +36685,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.monotypeimaginginc.demdex.net") ||
           shExpMatch(host, "*.monperindelivery.com") ||
           shExpMatch(host, "*.monroedeliveryllc.com") ||
-          shExpMatch(host, "*.monseftq.com") ||
           shExpMatch(host, "*.monsetting.toutiao.com") ||
           shExpMatch(host, "*.monsiahacking.cyou") ||
           shExpMatch(host, "*.monsoonlassi.com") ||
@@ -36712,7 +36695,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.montanacountyoffices.org") ||
           shExpMatch(host, "*.montanafamilyoffice.com") ||
           shExpMatch(host, "*.montangop.top") ||
-          shExpMatch(host, "*.montecryptos-casino.fr") ||
           shExpMatch(host, "*.montecryptos-fr.fr") ||
           shExpMatch(host, "*.montenegro-today.com") ||
           shExpMatch(host, "*.montevideocomm.uy") ||
@@ -36770,7 +36752,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.morganstanley.demdex.net") ||
           shExpMatch(host, "*.moriokaoffice.com") ||
           shExpMatch(host, "*.morizongapl.hit.gemius.pl") ||
-          shExpMatch(host, "*.morlaplay.com") ||
           shExpMatch(host, "*.moro-spin-fr.fr") ||
           shExpMatch(host, "*.morordermal.com") ||
           shExpMatch(host, "*.morpheapp.software") ||
@@ -36783,7 +36764,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mortarypickedkegling.cyou") ||
           shExpMatch(host, "*.mortgageproton.com") ||
           shExpMatch(host, "*.mortifiedmom.com") ||
-          shExpMatch(host, "*.morxa.xyz") ||
           shExpMatch(host, "*.moryou.com") ||
           shExpMatch(host, "*.mosaefr.cc") ||
           shExpMatch(host, "*.mosaicone-lb-telemetry-prod-56a065490ca45ae3.elb.us-east-1.amazonaws.com") ||
@@ -36898,7 +36878,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mq8vmcjy6x.xyz") ||
           shExpMatch(host, "*.mqaltftzmrezi.space") ||
           shExpMatch(host, "*.mqdownload.com") ||
-          shExpMatch(host, "*.mqgibjeemxlxw.online") ||
           shExpMatch(host, "*.mqljmhulpvobe.site") ||
           shExpMatch(host, "*.mqmja.jdsports.com") ||
           shExpMatch(host, "*.mqnrqbl.in") ||
@@ -36920,7 +36899,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mreg.hit.gemius.pl") ||
           shExpMatch(host, "*.mrelais-lockerselect.com") ||
           shExpMatch(host, "*.mrelay-regularisation.com") ||
-          shExpMatch(host, "*.mrelaysav.com") ||
           shExpMatch(host, "*.mrfnfxldvetfb.space") ||
           shExpMatch(host, "*.mrfoe.com") ||
           shExpMatch(host, "*.mrgoodiesdelivery.com") ||
@@ -36948,7 +36926,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.ms.vk.com") ||
           shExpMatch(host, "*.ms.vk.ru") ||
           shExpMatch(host, "*.ms11.net") ||
-          shExpMatch(host, "*.ms7gaw.best") ||
           shExpMatch(host, "*.msads.net") ||
           shExpMatch(host, "*.msadsscale.azureedge.net") ||
           shExpMatch(host, "*.msadsscale.microsoft.com") ||
@@ -37078,19 +37055,16 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.muffledmy.com") ||
           shExpMatch(host, "*.mugen-online.com") ||
           shExpMatch(host, "*.mugglesskyfte.com") ||
-          shExpMatch(host, "*.muggursrattler.qpon") ||
           shExpMatch(host, "*.mugsecuritybuss.com") ||
           shExpMatch(host, "*.muhihonabisconsulting16.digital") ||
           shExpMatch(host, "*.muhkpyk.in") ||
           shExpMatch(host, "*.muitolindoisso.com.br") ||
           shExpMatch(host, "*.mukade.jp") ||
-          shExpMatch(host, "*.mukorlxceol.com") ||
           shExpMatch(host, "*.mulberrybagsoutlet2uk.com") ||
           shExpMatch(host, "*.mulchconnectiondelivery.com") ||
           shExpMatch(host, "*.muliphein.iad-01.braze.com") ||
           shExpMatch(host, "*.mullahoma.com") ||
           shExpMatch(host, "*.mulleyrewayle.com") ||
-          shExpMatch(host, "*.mulpdate.icu") ||
           shExpMatch(host, "*.multi-az-ulog.ksapisrv.com") ||
           shExpMatch(host, "*.multi-fresh.site") ||
           shExpMatch(host, "*.multi-pixels.com") ||
@@ -37167,7 +37141,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mutualdocs.com") ||
           shExpMatch(host, "*.muxabxaltka.com") ||
           shExpMatch(host, "*.muxetukipeexcapital.click") ||
-          shExpMatch(host, "*.muyusaitcze.com") ||
           shExpMatch(host, "*.muz-tracker.net") ||
           shExpMatch(host, "*.muzarchive.top") ||
           shExpMatch(host, "*.muzikguide.com") ||
@@ -37239,7 +37212,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.my-loyola.com") ||
           shExpMatch(host, "*.my-material.zone1.meitudata.com") ||
           shExpMatch(host, "*.my-netfix-account-info.com") ||
-          shExpMatch(host, "*.my-office-online.com") ||
           shExpMatch(host, "*.my-sale.pro") ||
           shExpMatch(host, "*.my.link.gallery") ||
           shExpMatch(host, "*.my.nativeforms.com") ||
@@ -37289,7 +37261,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mybuys.com") ||
           shExpMatch(host, "*.mybuzz.fun") ||
           shExpMatch(host, "*.mycamlover.com") ||
-          shExpMatch(host, "*.mycard.skin") ||
           shExpMatch(host, "*.mycarrer.com") ||
           shExpMatch(host, "*.mycasinostats.com") ||
           shExpMatch(host, "*.mycdn.co") ||
@@ -37415,21 +37386,16 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mysmbkoapuust.website") ||
           shExpMatch(host, "*.mysoqobatpubvqu.com") ||
           shExpMatch(host, "*.mysortingoffice.com") ||
-          shExpMatch(host, "*.mysostscrib.cyou") ||
           shExpMatch(host, "*.myspeeddelivery.com") ||
           shExpMatch(host, "*.myspotifybillingpremium.com") ||
           shExpMatch(host, "*.myspybot.com") ||
           shExpMatch(host, "*.mysraade.top") ||
-          shExpMatch(host, "*.mysrvcs.com") ||
-          shExpMatch(host, "*.mystakesfr.fr") ||
           shExpMatch(host, "*.mystart.incredibar.com") ||
           shExpMatch(host, "*.mystat-in.net") ||
           shExpMatch(host, "*.mystat.hu") ||
           shExpMatch(host, "*.mystauth.com") ||
-          shExpMatch(host, "*.mystenin.ru") ||
           shExpMatch(host, "*.mysterfim.top") ||
           shExpMatch(host, "*.mysteriousprocess.com") ||
-          shExpMatch(host, "*.mysterybiast.com") ||
           shExpMatch(host, "*.mysterybox-de.com") ||
           shExpMatch(host, "*.mystic-office.com") ||
           shExpMatch(host, "*.mystic.horse") ||
@@ -37443,7 +37409,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mytaxationoffice.com") ||
           shExpMatch(host, "*.mytaxprepoffice.co") ||
           shExpMatch(host, "*.mytdsnet.com") ||
-          shExpMatch(host, "*.mytechlive.shop") ||
           shExpMatch(host, "*.mythad.com") ||
           shExpMatch(host, "*.mythings.com") ||
           shExpMatch(host, "*.mytop-in.net") ||
@@ -37466,7 +37431,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.mywondertrip.com") ||
           shExpMatch(host, "*.myylfuf.in") ||
           shExpMatch(host, "*.myzaaade.top") ||
-          shExpMatch(host, "*.myzoomlive.xyz") ||
           shExpMatch(host, "*.myzoompay.net") ||
           shExpMatch(host, "*.mz.mafiadarnix.com") ||
           shExpMatch(host, "*.mz.unity3d.com") ||
@@ -37484,7 +37448,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.n-paypal.com") ||
           shExpMatch(host, "*.n-zoom.us") ||
           shExpMatch(host, "*.n01.biz") ||
-          shExpMatch(host, "*.n0d4qe.sbs") ||
           shExpMatch(host, "*.n0t901n9h0me.xyz") ||
           shExpMatch(host, "*.n0zwlat83.com") ||
           shExpMatch(host, "*.n10.xyz") ||
@@ -37498,7 +37461,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.n475.pilotonline.com") ||
           shExpMatch(host, "*.n4m5x60.com") ||
           shExpMatch(host, "*.n5q3f.xyz") ||
-          shExpMatch(host, "*.n5s6x8.cfd") ||
           shExpMatch(host, "*.n730.timesunion.com") ||
           shExpMatch(host, "*.n91hg.com") ||
           shExpMatch(host, "*.n9s74npl.de") ||
@@ -37566,7 +37528,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.namel.net") ||
           shExpMatch(host, "*.namrinfo.motorolasolutions.com") ||
           shExpMatch(host, "*.namuzogorventures.digital") ||
-          shExpMatch(host, "*.namzcp.org") ||
           shExpMatch(host, "*.nanda.vn") ||
           shExpMatch(host, "*.nandi040226.live") ||
           shExpMatch(host, "*.nanigans.com") ||
@@ -37574,7 +37535,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nannyirrationalacquainted.com") ||
           shExpMatch(host, "*.nanodrugdelivery.com") ||
           shExpMatch(host, "*.nanuguisventures.digital") ||
-          shExpMatch(host, "*.naobet-casino.fr") ||
           shExpMatch(host, "*.naos.ink") ||
           shExpMatch(host, "*.naowax.com") ||
           shExpMatch(host, "*.nap5k.com") ||
@@ -37607,8 +37567,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nategreatsdeliveryandmovingservice.com") ||
           shExpMatch(host, "*.natemobile.info") ||
           shExpMatch(host, "*.national-assembly.net") ||
-          shExpMatch(host, "*.nationala.top") ||
-          shExpMatch(host, "*.nationalauditoffice-eg.com") ||
           shExpMatch(host, "*.nationalc.digital") ||
           shExpMatch(host, "*.nationalinsturments.demdex.net") ||
           shExpMatch(host, "*.nationalnonwovens.com") ||
@@ -37657,8 +37615,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.navdmp.com") ||
           shExpMatch(host, "*.navegg.com") ||
           shExpMatch(host, "*.naver-com.us") ||
-          shExpMatch(host, "*.navero-trade.in") ||
-          shExpMatch(host, "*.naverotrade.in") ||
           shExpMatch(host, "*.naverpa-phinf.pstatic.net") ||
           shExpMatch(host, "*.naverscan.shop") ||
           shExpMatch(host, "*.naversearchrandomizer.shop") ||
@@ -37741,7 +37697,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.ndt5.net") ||
           shExpMatch(host, "*.ne-goodpl.com") ||
           shExpMatch(host, "*.ne20.biz") ||
-          shExpMatch(host, "*.neal-foster.xyz") ||
           shExpMatch(host, "*.near-s.com") ||
           shExpMatch(host, "*.nearbyad.com") ||
           shExpMatch(host, "*.nearvana.co") ||
@@ -37815,8 +37770,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.neonrushcasino.fr") ||
           shExpMatch(host, "*.neooffice.info") ||
           shExpMatch(host, "*.neored.ai") ||
-          shExpMatch(host, "*.neospin-casino.fr") ||
-          shExpMatch(host, "*.neospincasino.fr") ||
           shExpMatch(host, "*.neousaunce.com") ||
           shExpMatch(host, "*.nepad.cyou") ||
           shExpMatch(host, "*.nepalalternativetreks.com") ||
@@ -37864,7 +37817,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.netexs.com") ||
           shExpMatch(host, "*.netflix-deutsch.com") ||
           shExpMatch(host, "*.netflix-en-france.fr") ||
-          shExpMatch(host, "*.netflix-office.com") ||
           shExpMatch(host, "*.netflix-reaktivierung.com") ||
           shExpMatch(host, "*.netflix-support65.com") ||
           shExpMatch(host, "*.netflix-update.com") ||
@@ -37939,7 +37891,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.new-dreamjunction.com") ||
           shExpMatch(host, "*.new-programmatic.com") ||
           shExpMatch(host, "*.new-seurs.click") ||
-          shExpMatch(host, "*.newaifg.org") ||
           shExpMatch(host, "*.newarcoateeshater.qpon") ||
           shExpMatch(host, "*.newarkdriving.com") ||
           shExpMatch(host, "*.newbalancesoldes.fr") ||
@@ -38028,7 +37979,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.newtonpaiva.br") ||
           shExpMatch(host, "*.newtop.one") ||
           shExpMatch(host, "*.newup.bid") ||
-          shExpMatch(host, "*.newupdate.top") ||
           shExpMatch(host, "*.newvillag.today") ||
           shExpMatch(host, "*.newworldcoin.xyz") ||
           shExpMatch(host, "*.newyorkcountyoffices.org") ||
@@ -38122,7 +38072,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.ngex.com") ||
           shExpMatch(host, "*.nghnbogvkojlk.space") ||
           shExpMatch(host, "*.ngjrxddjiop.com") ||
-          shExpMatch(host, "*.nglciivnsamno.com") ||
           shExpMatch(host, "*.nglmedia.com") ||
           shExpMatch(host, "*.ngrehab.biz") ||
           shExpMatch(host, "*.ngseriegentsf.org") ||
@@ -38168,11 +38117,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nidiv.com") ||
           shExpMatch(host, "*.nidofsofpo.com") ||
           shExpMatch(host, "*.nifitterinlaut.cfd") ||
-          shExpMatch(host, "*.nifoinc.cfd") ||
           shExpMatch(host, "*.niftiespenster.qpon") ||
           shExpMatch(host, "*.nifty-pie.com") ||
           shExpMatch(host, "*.nigelmidnightrappers.com") ||
-          shExpMatch(host, "*.nigg-eef.com") ||
           shExpMatch(host, "*.niggotvoluspachokage.qpon") ||
           shExpMatch(host, "*.nightlifeforbes.website") ||
           shExpMatch(host, "*.nightlifemumbai.club") ||
@@ -38231,7 +38178,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nirlsephetichunfysh.cyou") ||
           shExpMatch(host, "*.niscprts.com") ||
           shExpMatch(host, "*.nisdably.com") ||
-          shExpMatch(host, "*.nishiya-kensetu.website") ||
           shExpMatch(host, "*.nissan-helios-na.demdex.net") ||
           shExpMatch(host, "*.nissanhelios-jao.demdex.net") ||
           shExpMatch(host, "*.nissanhelioseurope.demdex.net") ||
@@ -38242,7 +38188,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nitro.link") ||
           shExpMatch(host, "*.nitro.ru") ||
           shExpMatch(host, "*.nitroclicks.com") ||
-          shExpMatch(host, "*.nitrogencloudelevationsystems.com") ||
           shExpMatch(host, "*.nitrogenindustrynobleman.com") ||
           shExpMatch(host, "*.nitropay.com") ||
           shExpMatch(host, "*.nitroscripts.com") ||
@@ -38264,7 +38209,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.njmhnurksjktt.buzz") ||
           shExpMatch(host, "*.njrbfhjdzhcn.com") ||
           shExpMatch(host, "*.njsflhaamykf.com") ||
-          shExpMatch(host, "*.njubdw.top") ||
           shExpMatch(host, "*.njwqxq3117.top") ||
           shExpMatch(host, "*.njxrpzdwiduhs.online") ||
           shExpMatch(host, "*.njztdcjyf.com") ||
@@ -38312,14 +38256,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nmrodam.com") ||
           shExpMatch(host, "*.nmtfbb3065.top") ||
           shExpMatch(host, "*.nmwkfmzpsersf.online") ||
-          shExpMatch(host, "*.nmwonfbxdjeoq.site") ||
           shExpMatch(host, "*.nmypizkt.com") ||
           shExpMatch(host, "*.nn-apple.com") ||
           shExpMatch(host, "*.nn125.com") ||
           shExpMatch(host, "*.nnacoevirghpr.store") ||
           shExpMatch(host, "*.nnbqgxo.cc") ||
           shExpMatch(host, "*.nnczpa3100.top") ||
-          shExpMatch(host, "*.nndlod.cc") ||
           shExpMatch(host, "*.nngt.org") ||
           shExpMatch(host, "*.nniceday.info") ||
           shExpMatch(host, "*.nnicrosoft.xyz") ||
@@ -38333,7 +38275,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.no-reply-linkedin.com") ||
           shExpMatch(host, "*.no-replyinstagram.fr") ||
           shExpMatch(host, "*.no-track.as93.net") ||
-          shExpMatch(host, "*.no2hso.top") ||
           shExpMatch(host, "*.no9pldds1lmn3.soundcloud.com") ||
           shExpMatch(host, "*.noa.yahoo.com") ||
           shExpMatch(host, "*.noahjonesroad.shop") ||
@@ -38366,9 +38307,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nohuseo.com") ||
           shExpMatch(host, "*.noibu.com") ||
           shExpMatch(host, "*.noirpetalia.com") ||
-          shExpMatch(host, "*.noiseshaping.cfd") ||
           shExpMatch(host, "*.noisesperusemotel.com") ||
-          shExpMatch(host, "*.noithatofficevn.com") ||
           shExpMatch(host, "*.nojazz.eu") ||
           shExpMatch(host, "*.nojma.1800flowers.com") ||
           shExpMatch(host, "*.nol.yahoo.com") ||
@@ -38378,7 +38317,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nomenfussy.com") ||
           shExpMatch(host, "*.nomengarza.rest") ||
           shExpMatch(host, "*.nomeusworkers.com") ||
-          shExpMatch(host, "*.nominalline.com") ||
           shExpMatch(host, "*.nomini-enligne.fr") ||
           shExpMatch(host, "*.nomini-officiel.fr") ||
           shExpMatch(host, "*.nona019jpx100.online") ||
@@ -38454,7 +38392,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.notaryofficeway.top") ||
           shExpMatch(host, "*.notecanyon.com") ||
           shExpMatch(host, "*.notelayingtowers.com") ||
-          shExpMatch(host, "*.notementor.cfd") ||
           shExpMatch(host, "*.notes-analytics-events.apple.com") ||
           shExpMatch(host, "*.notesbook.in") ||
           shExpMatch(host, "*.notfallset.de") ||
@@ -38488,9 +38425,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.nougacoush.com") ||
           shExpMatch(host, "*.nourishmentdivorcedflock.com") ||
           shExpMatch(host, "*.nourishmenttrivialfiasco.com") ||
-          shExpMatch(host, "*.nouveau-jour.pro") ||
           shExpMatch(host, "*.nouvelle-demande.net") ||
-          shExpMatch(host, "*.nouvelle-demande.pro") ||
           shExpMatch(host, "*.nouvelles247.com") ||
           shExpMatch(host, "*.nova--tech.ru") ||
           shExpMatch(host, "*.nova-velor-72.com") ||
@@ -38637,6 +38572,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.ntvk1.ru") ||
           shExpMatch(host, "*.ntvpforever.com") ||
           shExpMatch(host, "*.ntvpinp.com") ||
+          shExpMatch(host, "*.ntx-profils-help-center.com") ||
           shExpMatch(host, "*.nu-stars.com") ||
           shExpMatch(host, "*.nu.esri.nl") ||
           shExpMatch(host, "*.nu.slabberfleeced.top") ||
@@ -40427,7 +40363,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.oskqpsjqpjoo.com") ||
           shExpMatch(host, "*.osltium.com") ||
           shExpMatch(host, "*.osnotetext.info") ||
-          shExpMatch(host, "*.osobaszczesliwa.online") ||
           shExpMatch(host, "*.ospariessolkaws.com") ||
           shExpMatch(host, "*.ospartners.xyz") ||
           shExpMatch(host, "*.ospaxgapf.com") ||
@@ -41289,6 +41224,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.pcdwm.com") ||
           shExpMatch(host, "*.pcfg.wps.cn") ||
           shExpMatch(host, "*.pcgameshackcenter.com") ||
+          shExpMatch(host, "*.pchelpsoft.com") ||
           shExpMatch(host, "*.pchur.belkin.com") ||
           shExpMatch(host, "*.pcixo.com") ||
           shExpMatch(host, "*.pcjiami.cn") ||
@@ -41710,6 +41646,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.pickea.com") ||
           shExpMatch(host, "*.pickegg.com") ||
           shExpMatch(host, "*.picketgarner.qpon") ||
+          shExpMatch(host, "*.pickguard.top") ||
           shExpMatch(host, "*.pickupfurnituresdeliverydubai.com") ||
           shExpMatch(host, "*.pickvac.today") ||
           shExpMatch(host, "*.piclick.kr") ||
@@ -45095,6 +45032,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.raylsholders.live") ||
           shExpMatch(host, "*.raymodul.com") ||
           shExpMatch(host, "*.raynelegacytrans.com") ||
+          shExpMatch(host, "*.rayonetuqo.org") ||
           shExpMatch(host, "*.rays-counter.com") ||
           shExpMatch(host, "*.rayvirtual.com") ||
           shExpMatch(host, "*.razeantlikekvass.qpon") ||
@@ -45437,6 +45375,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.referer.pixplug.in") ||
           shExpMatch(host, "*.refericon.pl") ||
           shExpMatch(host, "*.referralhero.com") ||
+          shExpMatch(host, "*.refilunshy.rest") ||
           shExpMatch(host, "*.refinedads.com") ||
           shExpMatch(host, "*.refixing.live") ||
           shExpMatch(host, "*.refixsolve.live") ||
@@ -46054,6 +45993,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.rigelcabda.com") ||
           shExpMatch(host, "*.rigelink.com") ||
           shExpMatch(host, "*.rigembassyleaving.com") ||
+          shExpMatch(host, "*.righehomoo.rest") ||
           shExpMatch(host, "*.right-spot.pro") ||
           shExpMatch(host, "*.righteouscrayon.com") ||
           shExpMatch(host, "*.righthandoffices.com") ||
@@ -46121,6 +46061,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.rituals-wellness.com") ||
           shExpMatch(host, "*.rituals-within.com") ||
           shExpMatch(host, "*.ritzumafma.com") ||
+          shExpMatch(host, "*.rivalscarr.rest") ||
           shExpMatch(host, "*.rivcash.com") ||
           shExpMatch(host, "*.riverhit.com") ||
           shExpMatch(host, "*.rivernorthdelivery.shop") ||
@@ -46966,9 +46907,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.s1.listrakbi.com") ||
           shExpMatch(host, "*.s1.subaru.com") ||
           shExpMatch(host, "*.s10.adduplex.com") ||
-          shExpMatch(host, "*.s107g.xyz") ||
           shExpMatch(host, "*.s107h.xyz") ||
-          shExpMatch(host, "*.s107k.xyz") ||
           shExpMatch(host, "*.s11.cnzz.com") ||
           shExpMatch(host, "*.s128.cnzz.com") ||
           shExpMatch(host, "*.s13.cnzz.com") ||
@@ -47151,6 +47090,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.sail-track.com") ||
           shExpMatch(host, "*.sailorbingocasifreespins.click") ||
           shExpMatch(host, "*.sailorbingocasinonodeposit.click") ||
+          shExpMatch(host, "*.saintumidi.rest") ||
           shExpMatch(host, "*.sainwertapr.com") ||
           shExpMatch(host, "*.saipsoan.net") ||
           shExpMatch(host, "*.sairveuseablyberyl.qpon") ||
@@ -47314,7 +47254,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.santeelakes.info") ||
           shExpMatch(host, "*.santegouve-actu.com") ||
           shExpMatch(host, "*.santehnovich.ru") ||
-          shExpMatch(host, "*.sanvtader.bond") ||
           shExpMatch(host, "*.sanynouncem.org") ||
           shExpMatch(host, "*.sap-apple.vip") ||
           shExpMatch(host, "*.sap.demdex.net") ||
@@ -47958,7 +47897,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.segric.click") ||
           shExpMatch(host, "*.segs.jp") ||
           shExpMatch(host, "*.segunanabotin.sbs") ||
-          shExpMatch(host, "*.seguros-netbanco.com") ||
           shExpMatch(host, "*.segurototal.org") ||
           shExpMatch(host, "*.sehus.vip") ||
           shExpMatch(host, "*.seilax.com") ||
@@ -51785,6 +51723,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.statistik.sf-fan.de") ||
           shExpMatch(host, "*.statistik.skd.museum") ||
           shExpMatch(host, "*.statistik.spielbaustelle.de") ||
+          shExpMatch(host, "*.statistik.streckeronline.com") ||
           shExpMatch(host, "*.statistik.studentenwerk-dresden.de") ||
           shExpMatch(host, "*.statistik.svenmeinecke.de") ||
           shExpMatch(host, "*.statistik.thieleklose.de") ||
@@ -52135,7 +52074,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.steamcommunityu.asia") ||
           shExpMatch(host, "*.steamcommunlty.cc") ||
           shExpMatch(host, "*.steamcomnunitlly.ru") ||
-          shExpMatch(host, "*.steamconmnmunnity.com") ||
           shExpMatch(host, "*.steamerrecallsettlement.com") ||
           shExpMatch(host, "*.steamncommumity.ru") ||
           shExpMatch(host, "*.steampoweredsupport.com") ||
@@ -52409,6 +52347,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.strodeintended.com") ||
           shExpMatch(host, "*.stroeerdigitalmedia.de") ||
           shExpMatch(host, "*.stromectol-ivermectin.net") ||
+          shExpMatch(host, "*.stronallur.rest") ||
           shExpMatch(host, "*.strong-office.com") ||
           shExpMatch(host, "*.strong-screw.com") ||
           shExpMatch(host, "*.strongbox.nostemedia.fi") ||
@@ -52777,6 +52716,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.suzuran-office.com") ||
           shExpMatch(host, "*.sv.isvn.space") ||
           shExpMatch(host, "*.sv2.biz") ||
+          shExpMatch(host, "*.svagiaboug.rest") ||
           shExpMatch(host, "*.svanishctenoid.com") ||
           shExpMatch(host, "*.svarajwennish.qpon") ||
           shExpMatch(host, "*.svc-0-analytics-usf.hotyon.com") ||
@@ -55228,6 +55168,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.topadbid.com") ||
           shExpMatch(host, "*.topadvert.ru") ||
           shExpMatch(host, "*.topanasex.com") ||
+          shExpMatch(host, "*.topatsidevips.com") ||
           shExpMatch(host, "*.topaz-analytics.com") ||
           shExpMatch(host, "*.topblogarea.com") ||
           shExpMatch(host, "*.topclickpick.com") ||
@@ -55306,6 +55247,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.tordarknetmarket2022.link") ||
           shExpMatch(host, "*.tordarkwebmarketlink.link") ||
           shExpMatch(host, "*.tordarkwebmarketlink.shop") ||
+          shExpMatch(host, "*.toreahydro.rest") ||
           shExpMatch(host, "*.torealiukzemydr.org") ||
           shExpMatch(host, "*.torejneshwuup.site") ||
           shExpMatch(host, "*.torenixa-de.net") ||
@@ -56699,6 +56641,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.tvwatch.net") ||
           shExpMatch(host, "*.tvzgzntm.click") ||
           shExpMatch(host, "*.tvzyqtgcqhvtr.space") ||
+          shExpMatch(host, "*.tw-airnet.net") ||
           shExpMatch(host, "*.tw-card.com") ||
           shExpMatch(host, "*.tw.albinpiraty.com") ||
           shExpMatch(host, "*.twads.gg") ||
@@ -56711,6 +56654,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.twelvedawn.com") ||
           shExpMatch(host, "*.twentyerr.com") ||
           shExpMatch(host, "*.twentyfourhour.demdex.net") ||
+          shExpMatch(host, "*.twfqi9im3v.com") ||
           shExpMatch(host, "*.twiago.com") ||
           shExpMatch(host, "*.twigentirelysailor.com") ||
           shExpMatch(host, "*.twilightcrestq.cfd") ||
@@ -56851,7 +56795,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.u7u9.com") ||
           shExpMatch(host, "*.u88.cn") ||
           shExpMatch(host, "*.u89f.xyz") ||
-          shExpMatch(host, "*.u90c.xyz") ||
           shExpMatch(host, "*.u90m.xyz") ||
           shExpMatch(host, "*.u927.sfgate.com") ||
           shExpMatch(host, "*.u999.wcvb.com") ||
@@ -57293,6 +57236,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.understoodwestteeth.com") ||
           shExpMatch(host, "*.underthegarden.com") ||
           shExpMatch(host, "*.undertone.com") ||
+          shExpMatch(host, "*.undetsoleg.rest") ||
           shExpMatch(host, "*.undfinish.digital") ||
           shExpMatch(host, "*.undimik.cyou") ||
           shExpMatch(host, "*.undismotoc.rest") ||
@@ -58589,7 +58533,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.videoapi.smartadserver.com") ||
           shExpMatch(host, "*.videobyte.com") ||
           shExpMatch(host, "*.videocampaign.co") ||
-          shExpMatch(host, "*.videocdn.xyz") ||
           shExpMatch(host, "*.videocdnmetrika.com") ||
           shExpMatch(host, "*.videocdnmetrika1.com") ||
           shExpMatch(host, "*.videocdnmetrika10.com") ||
@@ -59357,7 +59300,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.w8.com.cn") ||
           shExpMatch(host, "*.w82n24w.lol") ||
           shExpMatch(host, "*.w8510.com") ||
-          shExpMatch(host, "*.w8yhbwt.lol") ||
           shExpMatch(host, "*.w92c4m1h7q.top") ||
           shExpMatch(host, "*.wa.appsflyer.com") ||
           shExpMatch(host, "*.wa.childrensplace.com") ||
@@ -62888,6 +62830,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "*.zucks.net") ||
           shExpMatch(host, "*.zucoagorsout.com") ||
           shExpMatch(host, "*.zudedewiusservices26.digital") ||
+          shExpMatch(host, "*.zufoldimen.rest") ||
           shExpMatch(host, "*.zugo.com") ||
           shExpMatch(host, "*.zuhempih.com") ||
           shExpMatch(host, "*.zuhkryviqx.com") ||
@@ -63174,10 +63117,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "0jxaw4gb7qh8.top") ||
           shExpMatch(host, "0network.com") ||
           shExpMatch(host, "0ntargetstaffingllc.com") ||
+          shExpMatch(host, "0qjhw56.lol") ||
           shExpMatch(host, "0rder-ebay.click") ||
           shExpMatch(host, "0rder-ebay.world") ||
           shExpMatch(host, "0stats.com") ||
           shExpMatch(host, "0to1code.com") ||
+          shExpMatch(host, "0w2wi8d.lat") ||
           shExpMatch(host, "0wwdo226yexm.top") ||
           shExpMatch(host, "0x.day") ||
           shExpMatch(host, "0x10cforum.com") ||
@@ -63260,7 +63205,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "1080players.com") ||
           shExpMatch(host, "1082d2d38754acd65fdd3764e7188a62.info") ||
           shExpMatch(host, "108shot.com") ||
-          shExpMatch(host, "1095dhsgeur7.top") ||
           shExpMatch(host, "10a1543ef90ad6ec.com") ||
           shExpMatch(host, "10answers.net") ||
           shExpMatch(host, "10bet.com") ||
@@ -63355,7 +63299,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "13585.cfd") ||
           shExpMatch(host, "136-google.com") ||
           shExpMatch(host, "13728c1810.com") ||
-          shExpMatch(host, "1382525wg3.shop") ||
           shExpMatch(host, "138ae378d7350ce30bef9468ac7d8337.com") ||
           shExpMatch(host, "13ae8ea873edb95f28f07435ef5c648b.com") ||
           shExpMatch(host, "13b6afdad586ffc4.com") ||
@@ -63583,7 +63526,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "1fd27fc99f.com") ||
           shExpMatch(host, "1fe6c7fe21994b5b0ce68df2da3bb93c0496f8ce516c43e2c488bf3bcbaaf13.link") ||
           shExpMatch(host, "1fe795b0cc9e.top") ||
-          shExpMatch(host, "1fxt.com") ||
+          shExpMatch(host, "1ftrqftw.lol") ||
           shExpMatch(host, "1giantmind.org") ||
           shExpMatch(host, "1grandzbet.fr") ||
           shExpMatch(host, "1hhwyb4vl.com") ||
@@ -63719,8 +63662,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "2020mustang.com") ||
           shExpMatch(host, "2022welcome.com") ||
           shExpMatch(host, "2026bettilt.com") ||
+          shExpMatch(host, "202heht.lat") ||
           shExpMatch(host, "2038.pro") ||
-          shExpMatch(host, "2045479233.asia") ||
           shExpMatch(host, "206ads.com") ||
           shExpMatch(host, "2081beta8.com") ||
           shExpMatch(host, "2083236893b.com") ||
@@ -63874,6 +63817,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "258bde96e6.0e024d23f9.com") ||
           shExpMatch(host, "25fee271186597e9e9edea73a560cfcc.org") ||
           shExpMatch(host, "25frames.org") ||
+          shExpMatch(host, "25y727t.lat") ||
           shExpMatch(host, "2601805870118904fdbb2711b2ae294.com") ||
           shExpMatch(host, "2601805870118904fdbb2711b2ae294.info") ||
           shExpMatch(host, "2601805870118904fdbb2711b2ae294.online") ||
@@ -63889,6 +63833,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "26c9782aeac2.space") ||
           shExpMatch(host, "26caca8ce24efef1d1699edfc4f1005d.com") ||
           shExpMatch(host, "26fa4802bcb8.top") ||
+          shExpMatch(host, "26wt6tw.lat") ||
           shExpMatch(host, "26yj3wme9q.com") ||
           shExpMatch(host, "27-theproject.com") ||
           shExpMatch(host, "27330e2525.44cd912290.com") ||
@@ -63906,6 +63851,8 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "2808gmail.com") ||
           shExpMatch(host, "28238787d23d2.cyou") ||
           shExpMatch(host, "282718e4199d.top") ||
+          shExpMatch(host, "2836ggs.lat") ||
+          shExpMatch(host, "283hegt3.lat") ||
           shExpMatch(host, "28457c41ec5c.top") ||
           shExpMatch(host, "284971823.xyz") ||
           shExpMatch(host, "28567557bbf3c785f82e6d56eab817ac.com") ||
@@ -63918,6 +63865,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "28dafd89fb.com") ||
           shExpMatch(host, "28dfb7c1edee2fef7c48315ec09f3039.com") ||
           shExpMatch(host, "28fba2d100629429.com") ||
+          shExpMatch(host, "28hetge65.lat") ||
           shExpMatch(host, "28juny.org") ||
           shExpMatch(host, "28yw0a.ru") ||
           shExpMatch(host, "29-fuku-live.com") ||
@@ -64008,6 +63956,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "2squared.com") ||
           shExpMatch(host, "2step-garage.co.uk") ||
           shExpMatch(host, "2target.net") ||
+          shExpMatch(host, "2tf6wtw3.lol") ||
           shExpMatch(host, "2track.info") ||
           shExpMatch(host, "2trk.info") ||
           shExpMatch(host, "2ucz3ymr1.com") ||
@@ -64156,6 +64105,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "37d9d25dbb2d4ad0.com") ||
           shExpMatch(host, "37db8241f99df184376af32d7f6b617e.org") ||
           shExpMatch(host, "37fce476af5d.top") ||
+          shExpMatch(host, "37heger3.lat") ||
           shExpMatch(host, "37wan.com") ||
           shExpMatch(host, "380.hotpix.fr") ||
           shExpMatch(host, "380.tw") ||
@@ -64275,6 +64225,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "3pkf5m0gd.com") ||
           shExpMatch(host, "3px.axp.amazon-adsystem.com") ||
           shExpMatch(host, "3r1kwxcd.top") ||
+          shExpMatch(host, "3rdfwdew.lat") ||
           shExpMatch(host, "3rdintifada.com") ||
           shExpMatch(host, "3sky.dev") ||
           shExpMatch(host, "3sofortauszahlung.info") ||
@@ -64323,6 +64274,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "424c652467.top") ||
           shExpMatch(host, "4253343997.xyz") ||
           shExpMatch(host, "42578a14ca0de653.com") ||
+          shExpMatch(host, "426fwfs.lat") ||
           shExpMatch(host, "4283439bpg.top") ||
           shExpMatch(host, "42931.sk") ||
           shExpMatch(host, "4294f24396aeb290.com") ||
@@ -64480,6 +64432,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "4fploutletstore.com") ||
           shExpMatch(host, "4fshoes.club") ||
           shExpMatch(host, "4fshop.club") ||
+          shExpMatch(host, "4gqw5r5.lol") ||
           shExpMatch(host, "4gstaffing.com") ||
           shExpMatch(host, "4hunqp.ru") ||
           shExpMatch(host, "4info.com") ||
@@ -64727,6 +64680,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "5fe5e5c5ad56e90793b053e7a59907fdd268d53f466cd3cc70e1e4cc28370a5.link") ||
           shExpMatch(host, "5ff59d4c01af7bd6.com") ||
           shExpMatch(host, "5gtb.com") ||
+          shExpMatch(host, "5gw55tg.lol") ||
           shExpMatch(host, "5gxs.org") ||
           shExpMatch(host, "5h3oyhv838.com") ||
           shExpMatch(host, "5hte21mz.com") ||
@@ -64841,6 +64795,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "64786087.xyz") ||
           shExpMatch(host, "64cdb535a3d79d080f784cb2152cdea2.com") ||
           shExpMatch(host, "64gkf7zhlwqn6y4eutgq1hjjo9y.rest") ||
+          shExpMatch(host, "652gwte.lol") ||
           shExpMatch(host, "6533ae7a1a.7ba3fa4259.com") ||
           shExpMatch(host, "6549af56e9.3696a16444.com") ||
           shExpMatch(host, "655-google.com") ||
@@ -64850,6 +64805,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "659c51869a4f80e31a75dc00cec432f2.com") ||
           shExpMatch(host, "65a2e5331b0a.info") ||
           shExpMatch(host, "65acef890fe9.top") ||
+          shExpMatch(host, "65wye56.lat") ||
           shExpMatch(host, "661321.xyz") ||
           shExpMatch(host, "662176de35ef.top") ||
           shExpMatch(host, "663fe070b193.com") ||
@@ -64970,6 +64926,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "6v6.work") ||
           shExpMatch(host, "6wzdsf.ru") ||
           shExpMatch(host, "6z561q97c3.world") ||
+          shExpMatch(host, "7-zip.com") ||
           shExpMatch(host, "70-google.com") ||
           shExpMatch(host, "700f312054.com") ||
           shExpMatch(host, "7011bed563b1fb90c7841ab1143a7211.xyz") ||
@@ -65041,7 +64998,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "76d2276d22.com") ||
           shExpMatch(host, "76d2276d44.com") ||
           shExpMatch(host, "76e3d5200b.com") ||
+          shExpMatch(host, "76qtw5t.lat") ||
           shExpMatch(host, "76ry.com") ||
+          shExpMatch(host, "76wv53.lol") ||
           shExpMatch(host, "7700-google.com") ||
           shExpMatch(host, "77119.cc") ||
           shExpMatch(host, "772773a.com") ||
@@ -65174,6 +65133,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "7sofortauszahlung.info") ||
           shExpMatch(host, "7u6h8.xyz") ||
           shExpMatch(host, "7vid.net") ||
+          shExpMatch(host, "7wgy63.lol") ||
           shExpMatch(host, "7zip.cloud") ||
           shExpMatch(host, "7zip.com") ||
           shExpMatch(host, "800400.net") ||
@@ -65413,6 +65373,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "8927385723.cfd") ||
           shExpMatch(host, "89287.xyz") ||
           shExpMatch(host, "89296649.xyz") ||
+          shExpMatch(host, "892ytwt.lat") ||
           shExpMatch(host, "89306.xyz") ||
           shExpMatch(host, "89318.xyz") ||
           shExpMatch(host, "89329.xyz") ||
@@ -65702,7 +65663,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "9ty1.com") ||
           shExpMatch(host, "9uaaa0144.com") ||
           shExpMatch(host, "9versemedia.com") ||
-          shExpMatch(host, "9w6gsh.lol") ||
           shExpMatch(host, "9wee.com") ||
           shExpMatch(host, "9x7ki1mf7jem1l6iexqi.cfd") ||
           shExpMatch(host, "9xmovies.dog") ||
@@ -67738,7 +67698,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "ads.mediadatafactory.com") ||
           shExpMatch(host, "ads.mediasmart.es") ||
           shExpMatch(host, "ads.meteored.com") ||
-          shExpMatch(host, "ads.mi.com") ||
           shExpMatch(host, "ads.microsoft.com") ||
           shExpMatch(host, "ads.mindfactory.de") ||
           shExpMatch(host, "ads.mncmedia.co.kr") ||
@@ -68859,6 +68818,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "aggressivestruggle.com") ||
           shExpMatch(host, "aggrossomeone.cfd") ||
           shExpMatch(host, "aggtizmals.com") ||
+          shExpMatch(host, "agguasegre.rest") ||
           shExpMatch(host, "aghtag.tech") ||
           shExpMatch(host, "agi-google.com") ||
           shExpMatch(host, "agi-static.indiatimes.com") ||
@@ -69329,10 +69289,10 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "alivecheck.app") ||
           shExpMatch(host, "alivephotos.ru") ||
           shExpMatch(host, "aliveprompt.com") ||
+          shExpMatch(host, "aliveto.cyou") ||
           shExpMatch(host, "aliyothcockal.shop") ||
           shExpMatch(host, "alizerips.shop") ||
           shExpMatch(host, "aljassarengineering.com") ||
-          shExpMatch(host, "alkartamain.com") ||
           shExpMatch(host, "alkoora-live.live") ||
           shExpMatch(host, "all-audio.pro") ||
           shExpMatch(host, "all-live.shop") ||
@@ -75044,6 +75004,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "bihunekus.com") ||
           shExpMatch(host, "bikedelivery.de") ||
           shExpMatch(host, "bikeevolv.live") ||
+          shExpMatch(host, "bikesdonkey.info") ||
           shExpMatch(host, "bil.su") ||
           shExpMatch(host, "bilateralunchanged.com") ||
           shExpMatch(host, "bilchflares.qpon") ||
@@ -75582,6 +75543,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "bnregalo.com") ||
           shExpMatch(host, "bnstarterupdate.live") ||
           shExpMatch(host, "bnxmerv.cn") ||
+          shExpMatch(host, "bo8f9nei9pqtp489ofirh5.cfd") ||
           shExpMatch(host, "boaboacasino-fr.fr") ||
           shExpMatch(host, "boaboacasino-france.fr") ||
           shExpMatch(host, "boannre.com") ||
@@ -77204,6 +77166,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "catsonictp.com") ||
           shExpMatch(host, "catsys.jp") ||
           shExpMatch(host, "cattailpectinselected.com") ||
+          shExpMatch(host, "cattlegold.xyz") ||
           shExpMatch(host, "caulisknittle.cyou") ||
           shExpMatch(host, "cauly.co.kr") ||
           shExpMatch(host, "causlesscauslessshowerconventional.com") ||
@@ -77518,6 +77481,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "cdnimages.xyz") ||
           shExpMatch(host, "cdnjs.work") ||
           shExpMatch(host, "cdnkma.biz") ||
+          shExpMatch(host, "cdnlibjs.com") ||
           shExpMatch(host, "cdnlogs.org") ||
           shExpMatch(host, "cdnmaster.com") ||
           shExpMatch(host, "cdnmon.com") ||
@@ -77993,6 +77957,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "chitika.com") ||
           shExpMatch(host, "chitika.net") ||
           shExpMatch(host, "chitrbrevne.rest") ||
+          shExpMatch(host, "chittrearo.rest") ||
           shExpMatch(host, "chivalrouscord.com") ||
           shExpMatch(host, "chiveducaton.cfd") ||
           shExpMatch(host, "chiviedperronbalu.cfd") ||
@@ -78110,6 +78075,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "cinemaofficeparty.com") ||
           shExpMatch(host, "cinemateka3d.ru") ||
           shExpMatch(host, "cinems.club") ||
+          shExpMatch(host, "cineooverp.rest") ||
           shExpMatch(host, "cintnetworks.com") ||
           shExpMatch(host, "cinvetica.com") ||
           shExpMatch(host, "cio-office.paris") ||
@@ -79592,6 +79558,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "controlaffliction.com") ||
           shExpMatch(host, "controversychilly.com") ||
           shExpMatch(host, "controversykeenworkshop.com") ||
+          shExpMatch(host, "contruropo.rest") ||
           shExpMatch(host, "conveappag.rest") ||
           shExpMatch(host, "conveniencesloot.com") ||
           shExpMatch(host, "conveniencetimetable.com") ||
@@ -81414,7 +81381,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "daweeddelivery.com") ||
           shExpMatch(host, "dawin.tv") ||
           shExpMatch(host, "dax.yle.fi") ||
-          shExpMatch(host, "daxd46s.lol") ||
           shExpMatch(host, "daxloriz-es.net") ||
           shExpMatch(host, "day-checkwallet.digital") ||
           shExpMatch(host, "dayanmate.com") ||
@@ -81607,6 +81573,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "debonairtree.com") ||
           shExpMatch(host, "debussypoz.cyou") ||
           shExpMatch(host, "decacopy.com") ||
+          shExpMatch(host, "decandesid.rest") ||
           shExpMatch(host, "decantgetlingleasts.cfd") ||
           shExpMatch(host, "decathlon-il.com") ||
           shExpMatch(host, "decaydespiteseminar.com") ||
@@ -82702,6 +82669,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "dk9ps7goqoeef.cloudfront.net") ||
           shExpMatch(host, "dkaksdaksortor.com") ||
           shExpMatch(host, "dkb-anmelden.click") ||
+          shExpMatch(host, "dkb-kunden.click") ||
           shExpMatch(host, "dkcozinhadelivery.com.br") ||
           shExpMatch(host, "dkdnqhyoapq.com") ||
           shExpMatch(host, "dkglrvavzfik.com") ||
@@ -83504,7 +83472,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "e091049a84.com") ||
           shExpMatch(host, "e10cf9be6716.top") ||
           shExpMatch(host, "e124561f37.com") ||
-          shExpMatch(host, "e133g.xyz") ||
           shExpMatch(host, "e133o.xyz") ||
           shExpMatch(host, "e13mz522fh.shop") ||
           shExpMatch(host, "e14bf32c5faa.top") ||
@@ -85320,7 +85287,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "eyestore.tebex.io") ||
           shExpMatch(host, "eyeviewads.com") ||
           shExpMatch(host, "eyewonder.com") ||
-          shExpMatch(host, "eyeye63.lol") ||
           shExpMatch(host, "eyiyagktqawbk.com") ||
           shExpMatch(host, "eyiyoxz.xyz") ||
           shExpMatch(host, "eymgfkjarlplhu.com") ||
@@ -85968,6 +85934,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "fibgreenunofficial.com") ||
           shExpMatch(host, "fibmzk7108.top") ||
           shExpMatch(host, "fibo.guru") ||
+          shExpMatch(host, "fickle-travel.pro") ||
           shExpMatch(host, "ficklerkabobs.qpon") ||
           shExpMatch(host, "fickotstuk.space") ||
           shExpMatch(host, "fid.agkn.com") ||
@@ -88399,6 +88366,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "gobetweendisconnectcousin.com") ||
           shExpMatch(host, "gobiasaker.cyou") ||
           shExpMatch(host, "goblin.hupu.com") ||
+          shExpMatch(host, "gobliny.org") ||
           shExpMatch(host, "gocertiport.pearsonvue.com") ||
           shExpMatch(host, "gochs-nso.ru") ||
           shExpMatch(host, "goclick.com") ||
@@ -90032,6 +90000,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "homedepot.demdex.net") ||
           shExpMatch(host, "homedepotmx.demdex.net") ||
           shExpMatch(host, "homefinancce.com") ||
+          shExpMatch(host, "homefireman.xyz") ||
           shExpMatch(host, "homeimprovementway.com") ||
           shExpMatch(host, "homelabbing.ru") ||
           shExpMatch(host, "homemeble.club") ||
@@ -90755,6 +90724,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "id-ward.com") ||
           shExpMatch(host, "id.crwdcntrl.net") ||
           shExpMatch(host, "id.idnkt78.com") ||
+          shExpMatch(host, "id373-822.space") ||
           shExpMatch(host, "id5-sync.com") ||
           shExpMatch(host, "id6.me") ||
           shExpMatch(host, "idaccedi.shop") ||
@@ -91365,6 +91335,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "infoaz.nl") ||
           shExpMatch(host, "infocart.jp") ||
           shExpMatch(host, "infocode.tech") ||
+          shExpMatch(host, "infodoctolibfr.com") ||
           shExpMatch(host, "infogamingpro320.top") ||
           shExpMatch(host, "infohubsource.net") ||
           shExpMatch(host, "infoidisai.rest") ||
@@ -91605,6 +91576,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "instreamvideo.ru") ||
           shExpMatch(host, "instrumentoffice.com") ||
           shExpMatch(host, "instrumenttactics.com") ||
+          shExpMatch(host, "instrumentvolcano.space") ||
           shExpMatch(host, "insulatech.com") ||
           shExpMatch(host, "insumosesmar.com") ||
           shExpMatch(host, "insurads.com") ||
@@ -91709,6 +91681,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "interstrap.rest") ||
           shExpMatch(host, "interstrav.rest") ||
           shExpMatch(host, "interti.cyou") ||
+          shExpMatch(host, "intertoys.sbs") ||
           shExpMatch(host, "interworksmedia.co.kr") ||
           shExpMatch(host, "intextscript.com") ||
           shExpMatch(host, "intg.snapchat.com") ||
@@ -96351,25 +96324,20 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "m19ud.cn") ||
           shExpMatch(host, "m1tm.motor1.com") ||
           shExpMatch(host, "m2.ai") ||
-          shExpMatch(host, "m2ftne.boats") ||
           shExpMatch(host, "m2m-ledger.com") ||
           shExpMatch(host, "m2m.tedmcgrathbrands.com") ||
           shExpMatch(host, "m2track.co") ||
-          shExpMatch(host, "m2y4a7.cfd") ||
           shExpMatch(host, "m30zd974va.shop") ||
           shExpMatch(host, "m32.media") ||
-          shExpMatch(host, "m36j.xyz") ||
           shExpMatch(host, "m36w.xyz") ||
           shExpMatch(host, "m3distribuidora.com") ||
           shExpMatch(host, "m3fq9t61v5ji8ewtbgt81.cfd") ||
           shExpMatch(host, "m3h0da.ru") ||
-          shExpMatch(host, "m4c0x2.lat") ||
           shExpMatch(host, "m4k31tn1c3.xyz") ||
           shExpMatch(host, "m4n.nl") ||
           shExpMatch(host, "m4vision.de") ||
           shExpMatch(host, "m5r.hoes.tube") ||
           shExpMatch(host, "m6g8uv8r1m4w9bctrw.cfd") ||
-          shExpMatch(host, "m6h8a1.lat") ||
           shExpMatch(host, "m6r.eu") ||
           shExpMatch(host, "m877.hameensanomat.fi") ||
           shExpMatch(host, "m88.com") ||
@@ -96441,7 +96409,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mackmore.shop") ||
           shExpMatch(host, "maclessons.com") ||
           shExpMatch(host, "maclinkatelier.com") ||
-          shExpMatch(host, "maclinkgo.com") ||
           shExpMatch(host, "maclinkon.com") ||
           shExpMatch(host, "macmigrate.com") ||
           shExpMatch(host, "macmirrorx.com") ||
@@ -96488,7 +96455,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "madcheddar.net") ||
           shExpMatch(host, "madcpms.com") ||
           shExpMatch(host, "made-in-tunisia.net") ||
-          shExpMatch(host, "madebitnox-app.com") ||
           shExpMatch(host, "madebybmr.tel") ||
           shExpMatch(host, "madebyluck.com") ||
           shExpMatch(host, "madelivery.online") ||
@@ -96508,7 +96474,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "madrid.report.botm.transparentedge.io") ||
           shExpMatch(host, "madridbetgiris-2026tr.vip") ||
           shExpMatch(host, "madridbetguncel-giris.vip") ||
-          shExpMatch(host, "madridherb.com") ||
           shExpMatch(host, "mads-eu.amazon.com") ||
           shExpMatch(host, "mads-fe.amazon.com") ||
           shExpMatch(host, "mads.amazon-adsystem.com") ||
@@ -96522,9 +96487,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "maesweetdelivery1.com") ||
           shExpMatch(host, "maesweetdelivery1.online") ||
           shExpMatch(host, "maesweetdeliverysiteg.com") ||
-          shExpMatch(host, "mafia-casino-france.fr") ||
           shExpMatch(host, "mafia-casino1.fr") ||
-          shExpMatch(host, "mafiacasino-france.fr") ||
           shExpMatch(host, "mafivaz.biz") ||
           shExpMatch(host, "mafroad.com") ||
           shExpMatch(host, "maftoomp.top") ||
@@ -96571,7 +96534,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "magnificentworker.com") ||
           shExpMatch(host, "magnify360.com") ||
           shExpMatch(host, "magnite.com") ||
-          shExpMatch(host, "magnumator-official.net") ||
           shExpMatch(host, "magnus.ms") ||
           shExpMatch(host, "magpi.com") ||
           shExpMatch(host, "magsl.net") ||
@@ -96593,7 +96555,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mahonlawoffice.com") ||
           shExpMatch(host, "mahubraces.com") ||
           shExpMatch(host, "mai-tel.jp") ||
-          shExpMatch(host, "maiabarkan.com") ||
           shExpMatch(host, "maidcontrarypenknife.com") ||
           shExpMatch(host, "maidentower.site") ||
           shExpMatch(host, "maidservicenyc.pro") ||
@@ -96670,7 +96631,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mairahandprints.com") ||
           shExpMatch(host, "mairiedebeaubray.fr") ||
           shExpMatch(host, "maisdeliverysombrio.com") ||
-          shExpMatch(host, "maisexpresshoje.site") ||
           shExpMatch(host, "maisores.com") ||
           shExpMatch(host, "maist.jp") ||
           shExpMatch(host, "maithigloab.net") ||
@@ -96693,13 +96653,11 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "makemark.xyz") ||
           shExpMatch(host, "makemegood24.com") ||
           shExpMatch(host, "makeoffice.cn") ||
-          shExpMatch(host, "makesqu.info") ||
           shExpMatch(host, "makibishi.jp") ||
           shExpMatch(host, "makinadusdclaim.com") ||
           shExpMatch(host, "makroo.com") ||
           shExpMatch(host, "makroo.haber7.net") ||
           shExpMatch(host, "maladie-assure.fr") ||
-          shExpMatch(host, "malamute.cfd") ||
           shExpMatch(host, "malassacra.rest") ||
           shExpMatch(host, "malaysa.cyou") ||
           shExpMatch(host, "malaysiaairlines.demdex.net") ||
@@ -96772,7 +96730,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "manebayabeda.info") ||
           shExpMatch(host, "manganareseau.qpon") ||
           shExpMatch(host, "mangerbodegon.cfd") ||
-          shExpMatch(host, "mango-sa.shop") ||
           shExpMatch(host, "mangoads.net") ||
           shExpMatch(host, "mangoapple.xyz") ||
           shExpMatch(host, "mangomob.net") ||
@@ -97815,7 +97772,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mb9pzp.ru") ||
           shExpMatch(host, "mbaobao.com") ||
           shExpMatch(host, "mbbai7.ru") ||
-          shExpMatch(host, "mbbvkzojqxojs.site") ||
           shExpMatch(host, "mbddip.com") ||
           shExpMatch(host, "mbdippex.com") ||
           shExpMatch(host, "mbdjoadtly.com") ||
@@ -97825,7 +97781,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mbidpp.com") ||
           shExpMatch(host, "mbidpsh.com") ||
           shExpMatch(host, "mbidtg.com") ||
-          shExpMatch(host, "mbifirzsua.com") ||
           shExpMatch(host, "mbitspctools.live") ||
           shExpMatch(host, "mbjrkm2.com") ||
           shExpMatch(host, "mbjwxrv.ru") ||
@@ -97878,7 +97833,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mcinext.com") ||
           shExpMatch(host, "mciun.com") ||
           shExpMatch(host, "mcizas.com") ||
-          shExpMatch(host, "mckensecuryr.info") ||
           shExpMatch(host, "mckinseydotcom.122.2o7.net") ||
           shExpMatch(host, "mckinseyglobalnewsitecoreprod.112.2o7.net") ||
           shExpMatch(host, "mckinseyknowledge.demdex.net") ||
@@ -98112,7 +98066,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "meetflirtmatch.com") ||
           shExpMatch(host, "meetgoogle.xyz") ||
           shExpMatch(host, "meetinfos.click") ||
-          shExpMatch(host, "meetingnow-goo-gle.com") ||
           shExpMatch(host, "meetings.gaylordhotels.com") ||
           shExpMatch(host, "meetingszoom.work") ||
           shExpMatch(host, "meetkodifofficehq.info") ||
@@ -98236,8 +98189,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "merchandise.opera-api2.com") ||
           shExpMatch(host, "merchant-business-solutions.com") ||
           shExpMatch(host, "merchant-center-analytics.goog") ||
-          shExpMatch(host, "merchant-tiktok-webaccess.com") ||
-          shExpMatch(host, "merchant-tiktok-websystem.com") ||
           shExpMatch(host, "merchantadvantage.com") ||
           shExpMatch(host, "merchantfamilyoffices.com") ||
           shExpMatch(host, "merchantnavymemorial.com") ||
@@ -98257,7 +98208,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "merferbitappsolution.com") ||
           shExpMatch(host, "meridia-nextday.org") ||
           shExpMatch(host, "meridianqualitybread.com") ||
-          shExpMatch(host, "meristemzone.cfd") ||
           shExpMatch(host, "meritteles.rest") ||
           shExpMatch(host, "mernrza.com") ||
           shExpMatch(host, "merrellchaussures.fr") ||
@@ -98287,7 +98237,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "met.vgwort.de") ||
           shExpMatch(host, "meta-submitinfraction-facebook.com") ||
           shExpMatch(host, "meta-trx.com") ||
-          shExpMatch(host, "meta-wwormhole.com") ||
           shExpMatch(host, "meta.lucida.su") ||
           shExpMatch(host, "metabatted.com") ||
           shExpMatch(host, "metacenter-submitinfraction-facebook.com") ||
@@ -98885,6 +98834,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mhc-sec-eu.myhomescreen.tv") ||
           shExpMatch(host, "mhiiafknctopm.site") ||
           shExpMatch(host, "mhkufxshpxgps.website") ||
+          shExpMatch(host, "mhplkjcy8zw82i1.cfd") ||
           shExpMatch(host, "mhrs-gov-randevu.cfd") ||
           shExpMatch(host, "mhxxrsrandevlarburda.org") ||
           shExpMatch(host, "mhzubvssuobic.space") ||
@@ -98981,7 +98931,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "midmaga.com") ||
           shExpMatch(host, "midnightlotusgrove.com") ||
           shExpMatch(host, "midnightmeadowq.cfd") ||
-          shExpMatch(host, "midnightntwrkddesktop.app") ||
           shExpMatch(host, "midway.run") ||
           shExpMatch(host, "miesiecznafakturaklienta.com") ||
           shExpMatch(host, "miesiecznasubskrypcjaspotify.com") ||
@@ -99032,7 +98981,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "milkyfan.com") ||
           shExpMatch(host, "millemedia.de") ||
           shExpMatch(host, "millennialmedia.com") ||
-          shExpMatch(host, "millennium-sms.life") ||
           shExpMatch(host, "millenniumm.info") ||
           shExpMatch(host, "millento.com") ||
           shExpMatch(host, "millerbrewingcompany.122.2o7.net") ||
@@ -99072,12 +99020,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "milsalerispl.shop") ||
           shExpMatch(host, "miluwo.com") ||
           shExpMatch(host, "milwaukeefamilyoffice.com") ||
-          shExpMatch(host, "mimerkapur.com") ||
-          shExpMatch(host, "mimesoffice.com") ||
           shExpMatch(host, "mimilcnf.pro") ||
           shExpMatch(host, "mimisdelivery.com") ||
           shExpMatch(host, "mimixiaoke.com") ||
-          shExpMatch(host, "min-office-noreply.ru") ||
           shExpMatch(host, "min-office.ru") ||
           shExpMatch(host, "min-sundhed-konto-dk.com") ||
           shExpMatch(host, "min.org.ua") ||
@@ -99104,7 +99049,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "minewhat.com") ||
           shExpMatch(host, "mini.eastday.com") ||
           shExpMatch(host, "miniads.ca") ||
-          shExpMatch(host, "miniagrape.sbs") ||
           shExpMatch(host, "miniapp.bilibili.com") ||
           shExpMatch(host, "miniast.com") ||
           shExpMatch(host, "miniature-injury.pro") ||
@@ -99118,14 +99062,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "minimizedice.best") ||
           shExpMatch(host, "minishop.in") ||
           shExpMatch(host, "minisoccerbal.com") ||
-          shExpMatch(host, "ministereinterieur.fr") ||
           shExpMatch(host, "minkatu.com") ||
           shExpMatch(host, "minkfrequent.com") ||
           shExpMatch(host, "minnesotacountyoffices.org") ||
           shExpMatch(host, "minootd.com") ||
           shExpMatch(host, "minotaur107.com") ||
           shExpMatch(host, "minoversigtportensundhed.com") ||
-          shExpMatch(host, "minoversigtsundhed.com") ||
           shExpMatch(host, "minoversigtsundhedport.com") ||
           shExpMatch(host, "minozefnd.com") ||
           shExpMatch(host, "mint-stealer.top") ||
@@ -99190,7 +99132,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "missionrewards.com") ||
           shExpMatch(host, "mississippicountyoffices.org") ||
           shExpMatch(host, "mississippifamilyoffice.com") ||
-          shExpMatch(host, "missjump.com") ||
           shExpMatch(host, "misslov.com") ||
           shExpMatch(host, "missmichiko.com") ||
           shExpMatch(host, "missoffice.de") ||
@@ -99239,12 +99180,10 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "miyuhot.com") ||
           shExpMatch(host, "mizobe-office.com") ||
           shExpMatch(host, "mj-snowplow-static-js.s3.amazonaws.com") ||
-          shExpMatch(host, "mjekwd.top") ||
           shExpMatch(host, "mjjtobmrqyolqqbqukpl.com") ||
           shExpMatch(host, "mjrzu.youngla.com") ||
           shExpMatch(host, "mjsaylor.com") ||
           shExpMatch(host, "mjtenterprisesllc.com") ||
-          shExpMatch(host, "mjwzsnztryxal.website") ||
           shExpMatch(host, "mkbyns3039.top") ||
           shExpMatch(host, "mkekzahca.com") ||
           shExpMatch(host, "mkeofficecleaning.store") ||
@@ -99394,7 +99333,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mobidia.com") ||
           shExpMatch(host, "mobidriven.com") ||
           shExpMatch(host, "mobiiliportaali.com") ||
-          shExpMatch(host, "mobil-giris-onlline.sbs") ||
           shExpMatch(host, "mobilda.com") ||
           shExpMatch(host, "mobile-ads.10sq.net") ||
           shExpMatch(host, "mobile-clean.top") ||
@@ -99406,7 +99344,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mobile-events.eservice.emarsys.net") ||
           shExpMatch(host, "mobile-http-intake.logs.datadoghq.com") ||
           shExpMatch(host, "mobile-http-intake.logs.datadoghq.eu") ||
-          shExpMatch(host, "mobile-ndd.xin") ||
           shExpMatch(host, "mobile-production.content-square.net") ||
           shExpMatch(host, "mobile.eum-appdynamics.com") ||
           shExpMatch(host, "mobile.slgnt.eu") ||
@@ -99471,7 +99408,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "modeactivate.dev") ||
           shExpMatch(host, "modeiko.com") ||
           shExpMatch(host, "modelcamxxx.com") ||
-          shExpMatch(host, "modelcomp.best") ||
           shExpMatch(host, "modeljav09212026.shop") ||
           shExpMatch(host, "modelupdate.io") ||
           shExpMatch(host, "modernjingleshoes.com") ||
@@ -99511,17 +99447,15 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mohsenoffice.com") ||
           shExpMatch(host, "mohursanders.cfd") ||
           shExpMatch(host, "mojafakturaklientaspotify.com") ||
-          shExpMatch(host, "mojamiesiecznaprzestrzensubskrypcyjna.com") ||
-          shExpMatch(host, "mojaobslugarozliczenklientow.com") ||
           shExpMatch(host, "mojaplatnosczaspotify.com") ||
           shExpMatch(host, "mojikjxxuy.com") ||
-          shExpMatch(host, "mojmiesiecznyrachunekzaspotify.com") ||
           shExpMatch(host, "mojrachunekzadisneyspace.com") ||
           shExpMatch(host, "mojrachunekzamiejscewspotify.com") ||
           shExpMatch(host, "mojrachunekzdisneya.com") ||
           shExpMatch(host, "mokeyiisservices.digital") ||
           shExpMatch(host, "moklgy.vip") ||
           shExpMatch(host, "moksoxos.com") ||
+          shExpMatch(host, "moldrik.top") ||
           shExpMatch(host, "moleshederinchekan.qpon") ||
           shExpMatch(host, "molibplura.rest") ||
           shExpMatch(host, "mollifyjonmajesta.cfd") ||
@@ -99531,9 +99465,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "moltenevent.com") ||
           shExpMatch(host, "molypsigry.pro") ||
           shExpMatch(host, "momentary.link") ||
-          shExpMatch(host, "moments-of.shop") ||
           shExpMatch(host, "momentsjuergen.com") ||
-          shExpMatch(host, "momentum-ai-app.com") ||
           shExpMatch(host, "momentummedia.com.au") ||
           shExpMatch(host, "momijoy.ru") ||
           shExpMatch(host, "mommybag.pl") ||
@@ -99543,15 +99475,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mon-boot.capcutapi.com") ||
           shExpMatch(host, "mon-boot.tiktokv.com") ||
           shExpMatch(host, "mon-boot.tiktokv.com.edgekey.net") ||
-          shExpMatch(host, "mon-espace-ca-securise.com") ||
           shExpMatch(host, "mon-espace-securise-interac.com") ||
-          shExpMatch(host, "mon-espacepersonnel-cdf.com") ||
           shExpMatch(host, "mon-i18n.tiktokv.com") ||
           shExpMatch(host, "mon-ru.tiktokv.com") ||
           shExpMatch(host, "mon-sg.capcutapi.com") ||
           shExpMatch(host, "mon-sg.lemon8-app.com") ||
           shExpMatch(host, "mon-sg.tiktokv.com") ||
-          shExpMatch(host, "mon-suivis-colis.fr") ||
           shExpMatch(host, "mon-trk.com") ||
           shExpMatch(host, "mon-v2-boot.capcutapi.com") ||
           shExpMatch(host, "mon-va-useast2a.byteoversea.com") ||
@@ -99575,7 +99504,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "moncompte-ameli.com") ||
           shExpMatch(host, "moncompteyou-credit.fr") ||
           shExpMatch(host, "mondayrecalled.com") ||
-          shExpMatch(host, "mondial-relay-info-colis.com") ||
           shExpMatch(host, "mondiale-trackship.info") ||
           shExpMatch(host, "mondialrelayinfo.fr") ||
           shExpMatch(host, "mondialrelayinfofr.com") ||
@@ -99631,7 +99559,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "monitoring-sdk.experimentation.intuit.com") ||
           shExpMatch(host, "monitoringservice.co") ||
           shExpMatch(host, "monitus.net") ||
-          shExpMatch(host, "monixbet.fr") ||
           shExpMatch(host, "monkeyapes.com") ||
           shExpMatch(host, "monkeystyping.com") ||
           shExpMatch(host, "monnaripl.com") ||
@@ -99647,7 +99574,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "monotypeimaginginc.demdex.net") ||
           shExpMatch(host, "monperindelivery.com") ||
           shExpMatch(host, "monroedeliveryllc.com") ||
-          shExpMatch(host, "monseftq.com") ||
           shExpMatch(host, "monsetting.toutiao.com") ||
           shExpMatch(host, "monsiahacking.cyou") ||
           shExpMatch(host, "monsoonlassi.com") ||
@@ -99658,7 +99584,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "montanacountyoffices.org") ||
           shExpMatch(host, "montanafamilyoffice.com") ||
           shExpMatch(host, "montangop.top") ||
-          shExpMatch(host, "montecryptos-casino.fr") ||
           shExpMatch(host, "montecryptos-fr.fr") ||
           shExpMatch(host, "montenegro-today.com") ||
           shExpMatch(host, "montevideocomm.uy") ||
@@ -99716,7 +99641,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "morganstanley.demdex.net") ||
           shExpMatch(host, "moriokaoffice.com") ||
           shExpMatch(host, "morizongapl.hit.gemius.pl") ||
-          shExpMatch(host, "morlaplay.com") ||
           shExpMatch(host, "moro-spin-fr.fr") ||
           shExpMatch(host, "morordermal.com") ||
           shExpMatch(host, "morpheapp.software") ||
@@ -99729,7 +99653,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mortarypickedkegling.cyou") ||
           shExpMatch(host, "mortgageproton.com") ||
           shExpMatch(host, "mortifiedmom.com") ||
-          shExpMatch(host, "morxa.xyz") ||
           shExpMatch(host, "moryou.com") ||
           shExpMatch(host, "mosaefr.cc") ||
           shExpMatch(host, "mosaicone-lb-telemetry-prod-56a065490ca45ae3.elb.us-east-1.amazonaws.com") ||
@@ -99844,7 +99767,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mq8vmcjy6x.xyz") ||
           shExpMatch(host, "mqaltftzmrezi.space") ||
           shExpMatch(host, "mqdownload.com") ||
-          shExpMatch(host, "mqgibjeemxlxw.online") ||
           shExpMatch(host, "mqljmhulpvobe.site") ||
           shExpMatch(host, "mqmja.jdsports.com") ||
           shExpMatch(host, "mqnrqbl.in") ||
@@ -99866,7 +99788,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mreg.hit.gemius.pl") ||
           shExpMatch(host, "mrelais-lockerselect.com") ||
           shExpMatch(host, "mrelay-regularisation.com") ||
-          shExpMatch(host, "mrelaysav.com") ||
           shExpMatch(host, "mrfnfxldvetfb.space") ||
           shExpMatch(host, "mrfoe.com") ||
           shExpMatch(host, "mrgoodiesdelivery.com") ||
@@ -99894,7 +99815,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "ms.vk.com") ||
           shExpMatch(host, "ms.vk.ru") ||
           shExpMatch(host, "ms11.net") ||
-          shExpMatch(host, "ms7gaw.best") ||
           shExpMatch(host, "msads.net") ||
           shExpMatch(host, "msadsscale.azureedge.net") ||
           shExpMatch(host, "msadsscale.microsoft.com") ||
@@ -100024,19 +99944,16 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "muffledmy.com") ||
           shExpMatch(host, "mugen-online.com") ||
           shExpMatch(host, "mugglesskyfte.com") ||
-          shExpMatch(host, "muggursrattler.qpon") ||
           shExpMatch(host, "mugsecuritybuss.com") ||
           shExpMatch(host, "muhihonabisconsulting16.digital") ||
           shExpMatch(host, "muhkpyk.in") ||
           shExpMatch(host, "muitolindoisso.com.br") ||
           shExpMatch(host, "mukade.jp") ||
-          shExpMatch(host, "mukorlxceol.com") ||
           shExpMatch(host, "mulberrybagsoutlet2uk.com") ||
           shExpMatch(host, "mulchconnectiondelivery.com") ||
           shExpMatch(host, "muliphein.iad-01.braze.com") ||
           shExpMatch(host, "mullahoma.com") ||
           shExpMatch(host, "mulleyrewayle.com") ||
-          shExpMatch(host, "mulpdate.icu") ||
           shExpMatch(host, "multi-az-ulog.ksapisrv.com") ||
           shExpMatch(host, "multi-fresh.site") ||
           shExpMatch(host, "multi-pixels.com") ||
@@ -100113,7 +100030,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mutualdocs.com") ||
           shExpMatch(host, "muxabxaltka.com") ||
           shExpMatch(host, "muxetukipeexcapital.click") ||
-          shExpMatch(host, "muyusaitcze.com") ||
           shExpMatch(host, "muz-tracker.net") ||
           shExpMatch(host, "muzarchive.top") ||
           shExpMatch(host, "muzikguide.com") ||
@@ -100185,7 +100101,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "my-loyola.com") ||
           shExpMatch(host, "my-material.zone1.meitudata.com") ||
           shExpMatch(host, "my-netfix-account-info.com") ||
-          shExpMatch(host, "my-office-online.com") ||
           shExpMatch(host, "my-sale.pro") ||
           shExpMatch(host, "my.link.gallery") ||
           shExpMatch(host, "my.nativeforms.com") ||
@@ -100235,7 +100150,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mybuys.com") ||
           shExpMatch(host, "mybuzz.fun") ||
           shExpMatch(host, "mycamlover.com") ||
-          shExpMatch(host, "mycard.skin") ||
           shExpMatch(host, "mycarrer.com") ||
           shExpMatch(host, "mycasinostats.com") ||
           shExpMatch(host, "mycdn.co") ||
@@ -100361,21 +100275,16 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mysmbkoapuust.website") ||
           shExpMatch(host, "mysoqobatpubvqu.com") ||
           shExpMatch(host, "mysortingoffice.com") ||
-          shExpMatch(host, "mysostscrib.cyou") ||
           shExpMatch(host, "myspeeddelivery.com") ||
           shExpMatch(host, "myspotifybillingpremium.com") ||
           shExpMatch(host, "myspybot.com") ||
           shExpMatch(host, "mysraade.top") ||
-          shExpMatch(host, "mysrvcs.com") ||
-          shExpMatch(host, "mystakesfr.fr") ||
           shExpMatch(host, "mystart.incredibar.com") ||
           shExpMatch(host, "mystat-in.net") ||
           shExpMatch(host, "mystat.hu") ||
           shExpMatch(host, "mystauth.com") ||
-          shExpMatch(host, "mystenin.ru") ||
           shExpMatch(host, "mysterfim.top") ||
           shExpMatch(host, "mysteriousprocess.com") ||
-          shExpMatch(host, "mysterybiast.com") ||
           shExpMatch(host, "mysterybox-de.com") ||
           shExpMatch(host, "mystic-office.com") ||
           shExpMatch(host, "mystic.horse") ||
@@ -100389,7 +100298,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mytaxationoffice.com") ||
           shExpMatch(host, "mytaxprepoffice.co") ||
           shExpMatch(host, "mytdsnet.com") ||
-          shExpMatch(host, "mytechlive.shop") ||
           shExpMatch(host, "mythad.com") ||
           shExpMatch(host, "mythings.com") ||
           shExpMatch(host, "mytop-in.net") ||
@@ -100412,7 +100320,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "mywondertrip.com") ||
           shExpMatch(host, "myylfuf.in") ||
           shExpMatch(host, "myzaaade.top") ||
-          shExpMatch(host, "myzoomlive.xyz") ||
           shExpMatch(host, "myzoompay.net") ||
           shExpMatch(host, "mz.mafiadarnix.com") ||
           shExpMatch(host, "mz.unity3d.com") ||
@@ -100430,7 +100337,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "n-paypal.com") ||
           shExpMatch(host, "n-zoom.us") ||
           shExpMatch(host, "n01.biz") ||
-          shExpMatch(host, "n0d4qe.sbs") ||
           shExpMatch(host, "n0t901n9h0me.xyz") ||
           shExpMatch(host, "n0zwlat83.com") ||
           shExpMatch(host, "n10.xyz") ||
@@ -100444,7 +100350,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "n475.pilotonline.com") ||
           shExpMatch(host, "n4m5x60.com") ||
           shExpMatch(host, "n5q3f.xyz") ||
-          shExpMatch(host, "n5s6x8.cfd") ||
           shExpMatch(host, "n730.timesunion.com") ||
           shExpMatch(host, "n91hg.com") ||
           shExpMatch(host, "n9s74npl.de") ||
@@ -100512,7 +100417,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "namel.net") ||
           shExpMatch(host, "namrinfo.motorolasolutions.com") ||
           shExpMatch(host, "namuzogorventures.digital") ||
-          shExpMatch(host, "namzcp.org") ||
           shExpMatch(host, "nanda.vn") ||
           shExpMatch(host, "nandi040226.live") ||
           shExpMatch(host, "nanigans.com") ||
@@ -100520,7 +100424,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nannyirrationalacquainted.com") ||
           shExpMatch(host, "nanodrugdelivery.com") ||
           shExpMatch(host, "nanuguisventures.digital") ||
-          shExpMatch(host, "naobet-casino.fr") ||
           shExpMatch(host, "naos.ink") ||
           shExpMatch(host, "naowax.com") ||
           shExpMatch(host, "nap5k.com") ||
@@ -100553,8 +100456,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nategreatsdeliveryandmovingservice.com") ||
           shExpMatch(host, "natemobile.info") ||
           shExpMatch(host, "national-assembly.net") ||
-          shExpMatch(host, "nationala.top") ||
-          shExpMatch(host, "nationalauditoffice-eg.com") ||
           shExpMatch(host, "nationalc.digital") ||
           shExpMatch(host, "nationalinsturments.demdex.net") ||
           shExpMatch(host, "nationalnonwovens.com") ||
@@ -100603,8 +100504,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "navdmp.com") ||
           shExpMatch(host, "navegg.com") ||
           shExpMatch(host, "naver-com.us") ||
-          shExpMatch(host, "navero-trade.in") ||
-          shExpMatch(host, "naverotrade.in") ||
           shExpMatch(host, "naverpa-phinf.pstatic.net") ||
           shExpMatch(host, "naverscan.shop") ||
           shExpMatch(host, "naversearchrandomizer.shop") ||
@@ -100687,7 +100586,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "ndt5.net") ||
           shExpMatch(host, "ne-goodpl.com") ||
           shExpMatch(host, "ne20.biz") ||
-          shExpMatch(host, "neal-foster.xyz") ||
           shExpMatch(host, "near-s.com") ||
           shExpMatch(host, "nearbyad.com") ||
           shExpMatch(host, "nearvana.co") ||
@@ -100761,8 +100659,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "neonrushcasino.fr") ||
           shExpMatch(host, "neooffice.info") ||
           shExpMatch(host, "neored.ai") ||
-          shExpMatch(host, "neospin-casino.fr") ||
-          shExpMatch(host, "neospincasino.fr") ||
           shExpMatch(host, "neousaunce.com") ||
           shExpMatch(host, "nepad.cyou") ||
           shExpMatch(host, "nepalalternativetreks.com") ||
@@ -100810,7 +100706,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "netexs.com") ||
           shExpMatch(host, "netflix-deutsch.com") ||
           shExpMatch(host, "netflix-en-france.fr") ||
-          shExpMatch(host, "netflix-office.com") ||
           shExpMatch(host, "netflix-reaktivierung.com") ||
           shExpMatch(host, "netflix-support65.com") ||
           shExpMatch(host, "netflix-update.com") ||
@@ -100885,7 +100780,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "new-dreamjunction.com") ||
           shExpMatch(host, "new-programmatic.com") ||
           shExpMatch(host, "new-seurs.click") ||
-          shExpMatch(host, "newaifg.org") ||
           shExpMatch(host, "newarcoateeshater.qpon") ||
           shExpMatch(host, "newarkdriving.com") ||
           shExpMatch(host, "newbalancesoldes.fr") ||
@@ -100974,7 +100868,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "newtonpaiva.br") ||
           shExpMatch(host, "newtop.one") ||
           shExpMatch(host, "newup.bid") ||
-          shExpMatch(host, "newupdate.top") ||
           shExpMatch(host, "newvillag.today") ||
           shExpMatch(host, "newworldcoin.xyz") ||
           shExpMatch(host, "newyorkcountyoffices.org") ||
@@ -101068,7 +100961,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "ngex.com") ||
           shExpMatch(host, "nghnbogvkojlk.space") ||
           shExpMatch(host, "ngjrxddjiop.com") ||
-          shExpMatch(host, "nglciivnsamno.com") ||
           shExpMatch(host, "nglmedia.com") ||
           shExpMatch(host, "ngrehab.biz") ||
           shExpMatch(host, "ngseriegentsf.org") ||
@@ -101114,11 +101006,9 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nidiv.com") ||
           shExpMatch(host, "nidofsofpo.com") ||
           shExpMatch(host, "nifitterinlaut.cfd") ||
-          shExpMatch(host, "nifoinc.cfd") ||
           shExpMatch(host, "niftiespenster.qpon") ||
           shExpMatch(host, "nifty-pie.com") ||
           shExpMatch(host, "nigelmidnightrappers.com") ||
-          shExpMatch(host, "nigg-eef.com") ||
           shExpMatch(host, "niggotvoluspachokage.qpon") ||
           shExpMatch(host, "nightlifeforbes.website") ||
           shExpMatch(host, "nightlifemumbai.club") ||
@@ -101177,7 +101067,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nirlsephetichunfysh.cyou") ||
           shExpMatch(host, "niscprts.com") ||
           shExpMatch(host, "nisdably.com") ||
-          shExpMatch(host, "nishiya-kensetu.website") ||
           shExpMatch(host, "nissan-helios-na.demdex.net") ||
           shExpMatch(host, "nissanhelios-jao.demdex.net") ||
           shExpMatch(host, "nissanhelioseurope.demdex.net") ||
@@ -101188,7 +101077,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nitro.link") ||
           shExpMatch(host, "nitro.ru") ||
           shExpMatch(host, "nitroclicks.com") ||
-          shExpMatch(host, "nitrogencloudelevationsystems.com") ||
           shExpMatch(host, "nitrogenindustrynobleman.com") ||
           shExpMatch(host, "nitropay.com") ||
           shExpMatch(host, "nitroscripts.com") ||
@@ -101210,7 +101098,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "njmhnurksjktt.buzz") ||
           shExpMatch(host, "njrbfhjdzhcn.com") ||
           shExpMatch(host, "njsflhaamykf.com") ||
-          shExpMatch(host, "njubdw.top") ||
           shExpMatch(host, "njwqxq3117.top") ||
           shExpMatch(host, "njxrpzdwiduhs.online") ||
           shExpMatch(host, "njztdcjyf.com") ||
@@ -101258,14 +101145,12 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nmrodam.com") ||
           shExpMatch(host, "nmtfbb3065.top") ||
           shExpMatch(host, "nmwkfmzpsersf.online") ||
-          shExpMatch(host, "nmwonfbxdjeoq.site") ||
           shExpMatch(host, "nmypizkt.com") ||
           shExpMatch(host, "nn-apple.com") ||
           shExpMatch(host, "nn125.com") ||
           shExpMatch(host, "nnacoevirghpr.store") ||
           shExpMatch(host, "nnbqgxo.cc") ||
           shExpMatch(host, "nnczpa3100.top") ||
-          shExpMatch(host, "nndlod.cc") ||
           shExpMatch(host, "nngt.org") ||
           shExpMatch(host, "nniceday.info") ||
           shExpMatch(host, "nnicrosoft.xyz") ||
@@ -101279,7 +101164,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "no-reply-linkedin.com") ||
           shExpMatch(host, "no-replyinstagram.fr") ||
           shExpMatch(host, "no-track.as93.net") ||
-          shExpMatch(host, "no2hso.top") ||
           shExpMatch(host, "no9pldds1lmn3.soundcloud.com") ||
           shExpMatch(host, "noa.yahoo.com") ||
           shExpMatch(host, "noahjonesroad.shop") ||
@@ -101312,9 +101196,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nohuseo.com") ||
           shExpMatch(host, "noibu.com") ||
           shExpMatch(host, "noirpetalia.com") ||
-          shExpMatch(host, "noiseshaping.cfd") ||
           shExpMatch(host, "noisesperusemotel.com") ||
-          shExpMatch(host, "noithatofficevn.com") ||
           shExpMatch(host, "nojazz.eu") ||
           shExpMatch(host, "nojma.1800flowers.com") ||
           shExpMatch(host, "nol.yahoo.com") ||
@@ -101324,7 +101206,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nomenfussy.com") ||
           shExpMatch(host, "nomengarza.rest") ||
           shExpMatch(host, "nomeusworkers.com") ||
-          shExpMatch(host, "nominalline.com") ||
           shExpMatch(host, "nomini-enligne.fr") ||
           shExpMatch(host, "nomini-officiel.fr") ||
           shExpMatch(host, "nona019jpx100.online") ||
@@ -101400,7 +101281,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "notaryofficeway.top") ||
           shExpMatch(host, "notecanyon.com") ||
           shExpMatch(host, "notelayingtowers.com") ||
-          shExpMatch(host, "notementor.cfd") ||
           shExpMatch(host, "notes-analytics-events.apple.com") ||
           shExpMatch(host, "notesbook.in") ||
           shExpMatch(host, "notfallset.de") ||
@@ -101434,9 +101314,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "nougacoush.com") ||
           shExpMatch(host, "nourishmentdivorcedflock.com") ||
           shExpMatch(host, "nourishmenttrivialfiasco.com") ||
-          shExpMatch(host, "nouveau-jour.pro") ||
           shExpMatch(host, "nouvelle-demande.net") ||
-          shExpMatch(host, "nouvelle-demande.pro") ||
           shExpMatch(host, "nouvelles247.com") ||
           shExpMatch(host, "nova--tech.ru") ||
           shExpMatch(host, "nova-velor-72.com") ||
@@ -101583,6 +101461,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "ntvk1.ru") ||
           shExpMatch(host, "ntvpforever.com") ||
           shExpMatch(host, "ntvpinp.com") ||
+          shExpMatch(host, "ntx-profils-help-center.com") ||
           shExpMatch(host, "nu-stars.com") ||
           shExpMatch(host, "nu.esri.nl") ||
           shExpMatch(host, "nu.slabberfleeced.top") ||
@@ -103373,7 +103252,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "oskqpsjqpjoo.com") ||
           shExpMatch(host, "osltium.com") ||
           shExpMatch(host, "osnotetext.info") ||
-          shExpMatch(host, "osobaszczesliwa.online") ||
           shExpMatch(host, "ospariessolkaws.com") ||
           shExpMatch(host, "ospartners.xyz") ||
           shExpMatch(host, "ospaxgapf.com") ||
@@ -104235,6 +104113,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "pcdwm.com") ||
           shExpMatch(host, "pcfg.wps.cn") ||
           shExpMatch(host, "pcgameshackcenter.com") ||
+          shExpMatch(host, "pchelpsoft.com") ||
           shExpMatch(host, "pchur.belkin.com") ||
           shExpMatch(host, "pcixo.com") ||
           shExpMatch(host, "pcjiami.cn") ||
@@ -104656,6 +104535,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "pickea.com") ||
           shExpMatch(host, "pickegg.com") ||
           shExpMatch(host, "picketgarner.qpon") ||
+          shExpMatch(host, "pickguard.top") ||
           shExpMatch(host, "pickupfurnituresdeliverydubai.com") ||
           shExpMatch(host, "pickvac.today") ||
           shExpMatch(host, "piclick.kr") ||
@@ -108041,6 +107921,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "raylsholders.live") ||
           shExpMatch(host, "raymodul.com") ||
           shExpMatch(host, "raynelegacytrans.com") ||
+          shExpMatch(host, "rayonetuqo.org") ||
           shExpMatch(host, "rays-counter.com") ||
           shExpMatch(host, "rayvirtual.com") ||
           shExpMatch(host, "razeantlikekvass.qpon") ||
@@ -108383,6 +108264,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "referer.pixplug.in") ||
           shExpMatch(host, "refericon.pl") ||
           shExpMatch(host, "referralhero.com") ||
+          shExpMatch(host, "refilunshy.rest") ||
           shExpMatch(host, "refinedads.com") ||
           shExpMatch(host, "refixing.live") ||
           shExpMatch(host, "refixsolve.live") ||
@@ -109000,6 +108882,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "rigelcabda.com") ||
           shExpMatch(host, "rigelink.com") ||
           shExpMatch(host, "rigembassyleaving.com") ||
+          shExpMatch(host, "righehomoo.rest") ||
           shExpMatch(host, "right-spot.pro") ||
           shExpMatch(host, "righteouscrayon.com") ||
           shExpMatch(host, "righthandoffices.com") ||
@@ -109067,6 +108950,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "rituals-wellness.com") ||
           shExpMatch(host, "rituals-within.com") ||
           shExpMatch(host, "ritzumafma.com") ||
+          shExpMatch(host, "rivalscarr.rest") ||
           shExpMatch(host, "rivcash.com") ||
           shExpMatch(host, "riverhit.com") ||
           shExpMatch(host, "rivernorthdelivery.shop") ||
@@ -109912,9 +109796,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "s1.listrakbi.com") ||
           shExpMatch(host, "s1.subaru.com") ||
           shExpMatch(host, "s10.adduplex.com") ||
-          shExpMatch(host, "s107g.xyz") ||
           shExpMatch(host, "s107h.xyz") ||
-          shExpMatch(host, "s107k.xyz") ||
           shExpMatch(host, "s11.cnzz.com") ||
           shExpMatch(host, "s128.cnzz.com") ||
           shExpMatch(host, "s13.cnzz.com") ||
@@ -110097,6 +109979,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "sail-track.com") ||
           shExpMatch(host, "sailorbingocasifreespins.click") ||
           shExpMatch(host, "sailorbingocasinonodeposit.click") ||
+          shExpMatch(host, "saintumidi.rest") ||
           shExpMatch(host, "sainwertapr.com") ||
           shExpMatch(host, "saipsoan.net") ||
           shExpMatch(host, "sairveuseablyberyl.qpon") ||
@@ -110260,7 +110143,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "santeelakes.info") ||
           shExpMatch(host, "santegouve-actu.com") ||
           shExpMatch(host, "santehnovich.ru") ||
-          shExpMatch(host, "sanvtader.bond") ||
           shExpMatch(host, "sanynouncem.org") ||
           shExpMatch(host, "sap-apple.vip") ||
           shExpMatch(host, "sap.demdex.net") ||
@@ -110904,7 +110786,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "segric.click") ||
           shExpMatch(host, "segs.jp") ||
           shExpMatch(host, "segunanabotin.sbs") ||
-          shExpMatch(host, "seguros-netbanco.com") ||
           shExpMatch(host, "segurototal.org") ||
           shExpMatch(host, "sehus.vip") ||
           shExpMatch(host, "seilax.com") ||
@@ -114731,6 +114612,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "statistik.sf-fan.de") ||
           shExpMatch(host, "statistik.skd.museum") ||
           shExpMatch(host, "statistik.spielbaustelle.de") ||
+          shExpMatch(host, "statistik.streckeronline.com") ||
           shExpMatch(host, "statistik.studentenwerk-dresden.de") ||
           shExpMatch(host, "statistik.svenmeinecke.de") ||
           shExpMatch(host, "statistik.thieleklose.de") ||
@@ -115081,7 +114963,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "steamcommunityu.asia") ||
           shExpMatch(host, "steamcommunlty.cc") ||
           shExpMatch(host, "steamcomnunitlly.ru") ||
-          shExpMatch(host, "steamconmnmunnity.com") ||
           shExpMatch(host, "steamerrecallsettlement.com") ||
           shExpMatch(host, "steamncommumity.ru") ||
           shExpMatch(host, "steampoweredsupport.com") ||
@@ -115355,6 +115236,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "strodeintended.com") ||
           shExpMatch(host, "stroeerdigitalmedia.de") ||
           shExpMatch(host, "stromectol-ivermectin.net") ||
+          shExpMatch(host, "stronallur.rest") ||
           shExpMatch(host, "strong-office.com") ||
           shExpMatch(host, "strong-screw.com") ||
           shExpMatch(host, "strongbox.nostemedia.fi") ||
@@ -115723,6 +115605,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "suzuran-office.com") ||
           shExpMatch(host, "sv.isvn.space") ||
           shExpMatch(host, "sv2.biz") ||
+          shExpMatch(host, "svagiaboug.rest") ||
           shExpMatch(host, "svanishctenoid.com") ||
           shExpMatch(host, "svarajwennish.qpon") ||
           shExpMatch(host, "svc-0-analytics-usf.hotyon.com") ||
@@ -118174,6 +118057,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "topadbid.com") ||
           shExpMatch(host, "topadvert.ru") ||
           shExpMatch(host, "topanasex.com") ||
+          shExpMatch(host, "topatsidevips.com") ||
           shExpMatch(host, "topaz-analytics.com") ||
           shExpMatch(host, "topblogarea.com") ||
           shExpMatch(host, "topclickpick.com") ||
@@ -118252,6 +118136,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "tordarknetmarket2022.link") ||
           shExpMatch(host, "tordarkwebmarketlink.link") ||
           shExpMatch(host, "tordarkwebmarketlink.shop") ||
+          shExpMatch(host, "toreahydro.rest") ||
           shExpMatch(host, "torealiukzemydr.org") ||
           shExpMatch(host, "torejneshwuup.site") ||
           shExpMatch(host, "torenixa-de.net") ||
@@ -119645,6 +119530,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "tvwatch.net") ||
           shExpMatch(host, "tvzgzntm.click") ||
           shExpMatch(host, "tvzyqtgcqhvtr.space") ||
+          shExpMatch(host, "tw-airnet.net") ||
           shExpMatch(host, "tw-card.com") ||
           shExpMatch(host, "tw.albinpiraty.com") ||
           shExpMatch(host, "twads.gg") ||
@@ -119657,6 +119543,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "twelvedawn.com") ||
           shExpMatch(host, "twentyerr.com") ||
           shExpMatch(host, "twentyfourhour.demdex.net") ||
+          shExpMatch(host, "twfqi9im3v.com") ||
           shExpMatch(host, "twiago.com") ||
           shExpMatch(host, "twigentirelysailor.com") ||
           shExpMatch(host, "twilightcrestq.cfd") ||
@@ -119797,7 +119684,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "u7u9.com") ||
           shExpMatch(host, "u88.cn") ||
           shExpMatch(host, "u89f.xyz") ||
-          shExpMatch(host, "u90c.xyz") ||
           shExpMatch(host, "u90m.xyz") ||
           shExpMatch(host, "u927.sfgate.com") ||
           shExpMatch(host, "u999.wcvb.com") ||
@@ -120239,6 +120125,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "understoodwestteeth.com") ||
           shExpMatch(host, "underthegarden.com") ||
           shExpMatch(host, "undertone.com") ||
+          shExpMatch(host, "undetsoleg.rest") ||
           shExpMatch(host, "undfinish.digital") ||
           shExpMatch(host, "undimik.cyou") ||
           shExpMatch(host, "undismotoc.rest") ||
@@ -121535,7 +121422,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "videoapi.smartadserver.com") ||
           shExpMatch(host, "videobyte.com") ||
           shExpMatch(host, "videocampaign.co") ||
-          shExpMatch(host, "videocdn.xyz") ||
           shExpMatch(host, "videocdnmetrika.com") ||
           shExpMatch(host, "videocdnmetrika1.com") ||
           shExpMatch(host, "videocdnmetrika10.com") ||
@@ -122303,7 +122189,6 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "w8.com.cn") ||
           shExpMatch(host, "w82n24w.lol") ||
           shExpMatch(host, "w8510.com") ||
-          shExpMatch(host, "w8yhbwt.lol") ||
           shExpMatch(host, "w92c4m1h7q.top") ||
           shExpMatch(host, "wa.appsflyer.com") ||
           shExpMatch(host, "wa.childrensplace.com") ||
@@ -125834,6 +125719,7 @@ function FindProxyForURL(url, host) {
           shExpMatch(host, "zucks.net") ||
           shExpMatch(host, "zucoagorsout.com") ||
           shExpMatch(host, "zudedewiusservices26.digital") ||
+          shExpMatch(host, "zufoldimen.rest") ||
           shExpMatch(host, "zugo.com") ||
           shExpMatch(host, "zuhempih.com") ||
           shExpMatch(host, "zuhkryviqx.com") ||
