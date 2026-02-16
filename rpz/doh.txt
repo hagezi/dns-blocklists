@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771195500 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771238940 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Feb 2026 22:45 UTC
-; Version: 2026.0215.2245.29
+; Last modified: 16 Feb 2026 10:49 UTC
+; Version: 2026.0216.1049.03
 ; Syntax: RPZ
-; Number of entries: 7000
+; Number of entries: 6996
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1217,8 +1217,6 @@ himedns.com CNAME .
 *.himedns.com CNAME .
 adguard.hoangcongchuc.com CNAME .
 *.adguard.hoangcongchuc.com CNAME .
-adguard.home-lab-network.com CNAME .
-*.adguard.home-lab-network.com CNAME .
 dns.hoody.com CNAME .
 *.dns.hoody.com CNAME .
 dns.hopsken.com CNAME .
@@ -1275,8 +1273,6 @@ dns.indybanipal.com CNAME .
 *.dns.indybanipal.com CNAME .
 dns.inforlogia.com CNAME .
 *.dns.inforlogia.com CNAME .
-doh.infotechlibrary.com CNAME .
-*.doh.infotechlibrary.com CNAME .
 apidns.kwd.inkuai.com CNAME .
 *.apidns.kwd.inkuai.com CNAME .
 httpdns.kwd.inkuai.com CNAME .

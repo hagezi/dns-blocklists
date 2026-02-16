@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771214460 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771236120 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Feb 2026 04:01 UTC
-; Version: 2026.0216.0401.15
+; Last modified: 16 Feb 2026 10:02 UTC
+; Version: 2026.0216.1002.50
 ; Syntax: RPZ
-; Number of entries: 2574
+; Number of entries: 2568
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -684,8 +684,6 @@ htmlpasta.com CNAME .
 *.htmlpasta.com CNAME .
 hyderabadadda.com CNAME .
 *.hyderabadadda.com CNAME .
-hyip.com CNAME .
-*.hyip.com CNAME .
 hyperphp.com CNAME .
 *.hyperphp.com CNAME .
 iceiy.com CNAME .
@@ -1694,8 +1692,6 @@ beepworld.it CNAME .
 *.beepworld.it CNAME .
 blogspot.it CNAME .
 *.blogspot.it CNAME .
-gymsharkitaliaofficial.it CNAME .
-*.gymsharkitaliaofficial.it CNAME .
 webnode.it CNAME .
 *.webnode.it CNAME .
 2.je CNAME .
@@ -2366,8 +2362,6 @@ downfall.shop CNAME .
 *.downfall.shop CNAME .
 findarea.shop CNAME .
 *.findarea.shop CNAME .
-hotloss.shop CNAME .
-*.hotloss.shop CNAME .
 kyoce.shop CNAME .
 *.kyoce.shop CNAME .
 onlineweb.shop CNAME .
