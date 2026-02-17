@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771325400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771368480 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Feb 2026 10:50 UTC
-; Version: 2026.0217.1050.31
+; Last modified: 17 Feb 2026 22:48 UTC
+; Version: 2026.0217.2248.23
 ; Syntax: RPZ
-; Number of entries: 6986
+; Number of entries: 6978
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -6061,8 +6061,6 @@ doh.mochou.site CNAME .
 *.doh.mochou.site CNAME .
 oscnl.site CNAME .
 *.oscnl.site CNAME .
-sgdns.site CNAME .
-*.sgdns.site CNAME .
 s1.s2.shahramv1.site CNAME .
 *.s1.s2.shahramv1.site CNAME .
 dns.srijan.site CNAME .
@@ -6513,8 +6511,6 @@ zetland.rm-ni.uk CNAME .
 *.zetland.rm-ni.uk CNAME .
 shanghainese.uk CNAME .
 *.shanghainese.uk CNAME .
-dns.voronin.uk CNAME .
-*.dns.voronin.uk CNAME .
 dus.ysbs.uk CNAME .
 *.dus.ysbs.uk CNAME .
 doh.zhongbr.uk CNAME .
@@ -6941,8 +6937,6 @@ adguard.servernation.xyz CNAME .
 *.adguard.servernation.xyz CNAME .
 ag.ssrahul96.xyz CNAME .
 *.ag.ssrahul96.xyz CNAME .
-doh.sublime9.xyz CNAME .
-*.doh.sublime9.xyz CNAME .
 thakkali.teej.xyz CNAME .
 *.thakkali.teej.xyz CNAME .
 dns.thezudrive.xyz CNAME .
@@ -6961,8 +6955,6 @@ dns.vinnyp.xyz CNAME .
 *.dns.vinnyp.xyz CNAME .
 dns.vip-kingstore.xyz CNAME .
 *.dns.vip-kingstore.xyz CNAME .
-dns.vod11.xyz CNAME .
-*.dns.vod11.xyz CNAME .
 killads.vpms.xyz CNAME .
 *.killads.vpms.xyz CNAME .
 zhang.wenru.xyz CNAME .
