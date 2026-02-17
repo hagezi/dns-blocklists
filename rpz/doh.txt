@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771238940 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771325400 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Feb 2026 10:49 UTC
-; Version: 2026.0216.1049.03
+; Last modified: 17 Feb 2026 10:50 UTC
+; Version: 2026.0217.1050.31
 ; Syntax: RPZ
-; Number of entries: 6996
+; Number of entries: 6986
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1719,8 +1719,6 @@ newd.rezyro.com CNAME .
 *.newd.rezyro.com CNAME .
 rjaldorau.com CNAME .
 *.rjaldorau.com CNAME .
-saya.rnrkurir.com CNAME .
-*.saya.rnrkurir.com CNAME .
 dns.rogpurs.com CNAME .
 *.dns.rogpurs.com CNAME .
 o.rsaikat.com CNAME .
@@ -4353,8 +4351,6 @@ dns1.sarakas.net CNAME .
 *.dns1.sarakas.net CNAME .
 dns2.sarakas.net CNAME .
 *.dns2.sarakas.net CNAME .
-dns.homenet.saschagaspar.net CNAME .
-*.dns.homenet.saschagaspar.net CNAME .
 dns.scarx.net CNAME .
 *.dns.scarx.net CNAME .
 dns.shareworx.net CNAME .
@@ -5185,8 +5181,6 @@ orpi.privado.ovh CNAME .
 *.orpi.privado.ovh CNAME .
 oury.privado.ovh CNAME .
 *.oury.privado.ovh CNAME .
-dns.quidam.ovh CNAME .
-*.dns.quidam.ovh CNAME .
 dns2.rocksdns.ovh CNAME .
 *.dns2.rocksdns.ovh CNAME .
 lime.samonte.ovh CNAME .
@@ -5909,8 +5903,6 @@ test.privatenode.ru CNAME .
 *.test.privatenode.ru CNAME .
 owa.pvmedia.ru CNAME .
 *.owa.pvmedia.ru CNAME .
-log.qrsoft.ru CNAME .
-*.log.qrsoft.ru CNAME .
 dns.reolinks.ru CNAME .
 *.dns.reolinks.ru CNAME .
 1.rock-review.ru CNAME .
@@ -5921,8 +5913,6 @@ vpn.sakhwow.ru CNAME .
 *.vpn.sakhwow.ru CNAME .
 sdvizhkov.ru CNAME .
 *.sdvizhkov.ru CNAME .
-vpn.self-tech.ru CNAME .
-*.vpn.self-tech.ru CNAME .
 dns.serdcebolit.ru CNAME .
 *.dns.serdcebolit.ru CNAME .
 dns1.serdcebolit.ru CNAME .
