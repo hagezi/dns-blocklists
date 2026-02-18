@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771368480 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771411440 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Feb 2026 22:48 UTC
-; Version: 2026.0217.2248.23
+; Last modified: 18 Feb 2026 10:44 UTC
+; Version: 2026.0218.1044.40
 ; Syntax: RPZ
-; Number of entries: 6978
+; Number of entries: 6968
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -321,10 +321,6 @@ hk.yoosoo.cc CNAME .
 *.hk.yoosoo.cc CNAME .
 dns.yuzia.cc CNAME .
 *.dns.yuzia.cc CNAME .
-dns140.zhhz.cc CNAME .
-*.dns140.zhhz.cc CNAME .
-dns168.zhhz.cc CNAME .
-*.dns168.zhhz.cc CNAME .
 ns.cd CNAME .
 *.ns.cd CNAME .
 dns.keweon.center CNAME .
@@ -1927,8 +1923,6 @@ dns.xusqui.com CNAME .
 *.dns.xusqui.com CNAME .
 v1.xylto.com CNAME .
 *.v1.xylto.com CNAME .
-dns.yameenassotally.com CNAME .
-*.dns.yameenassotally.com CNAME .
 agh-hetzner.yasirafique.com CNAME .
 *.agh-hetzner.yasirafique.com CNAME .
 lion.yazilimatolye.com CNAME .
@@ -2307,8 +2301,6 @@ vsrv15195.customer.xenway.de CNAME .
 *.vsrv15195.customer.xenway.de CNAME .
 xn--durhre-yxa.de CNAME .
 *.xn--durhre-yxa.de CNAME .
-dns.ygonline.de CNAME .
-*.dns.ygonline.de CNAME .
 ys4.de CNAME .
 *.ys4.de CNAME .
 adguard-kartoffel.zernico.de CNAME .
@@ -3401,8 +3393,6 @@ adguard.ihatemy.live CNAME .
 *.adguard.ihatemy.live CNAME .
 xins.live CNAME .
 *.xins.live CNAME .
-v2.xx3210766.live CNAME .
-*.v2.xx3210766.live CNAME .
 acomit.lk CNAME .
 *.acomit.lk CNAME .
 d.bod.lol CNAME .

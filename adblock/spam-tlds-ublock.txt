@@ -11,8 +11,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 17 Feb 2026 22:49 UTC
-! Version: 2026.0217.2249.59
+! Last modified: 18 Feb 2026 10:46 UTC
+! Version: 2026.0218.1046.17
 ! Syntax: uBlock
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -82,7 +82,7 @@
 ||day^$doc
 ||deals^$doc,domain=~gg.deals
 ||degree^$doc,domain=~opf.degree|~three60.degree
-||delivery^$doc,domain=~push.delivery|~return-my.delivery
+||delivery^$doc,domain=~push.delivery|~return-my.delivery|~ze.delivery
 ||dental^$doc
 ||desi^$doc,domain=~xhamster.desi
 ||directory^$doc,domain=~2fa.directory|~cursor.directory|~fedi.directory|~ooh.directory|~passkeys.directory|~reactnative.directory

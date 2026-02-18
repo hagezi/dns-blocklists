@@ -10,8 +10,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 17 Feb 2026 22:49 UTC
-! Version: 2026.0217.2249.59
+! Last modified: 18 Feb 2026 10:46 UTC
+! Version: 2026.0218.1046.17
 ! Syntax: AdGuard
 ! Number of latin TLDs: 284 - punycode TLDs: 151
 !
@@ -81,7 +81,7 @@
 ||*.day^
 ||*.deals^$denyallow=gg.deals
 ||*.degree^$denyallow=opf.degree|three60.degree
-||*.delivery^$denyallow=push.delivery|return-my.delivery
+||*.delivery^$denyallow=push.delivery|return-my.delivery|ze.delivery
 ||*.dental^
 ||*.desi^$denyallow=xhamster.desi
 ||*.directory^$denyallow=2fa.directory|cursor.directory|fedi.directory|ooh.directory|passkeys.directory|reactnative.directory
