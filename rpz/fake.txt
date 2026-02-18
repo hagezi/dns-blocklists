@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771407000 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771428600 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Feb 2026 09:30 UTC
-; Version: 2026.0218.0930.25
+; Last modified: 18 Feb 2026 15:30 UTC
+; Version: 2026.0218.1530.17
 ; Syntax: RPZ
-; Number of entries: 27904
+; Number of entries: 27902
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -7416,8 +7416,6 @@ geschaftdrachen.com CNAME .
 *.geschaftdrachen.com CNAME .
 geschenkblumen.com CNAME .
 *.geschenkblumen.com CNAME .
-geschenklust.com CNAME .
-*.geschenklust.com CNAME .
 geschirrangebote.com CNAME .
 *.geschirrangebote.com CNAME .
 geschirronyx.com CNAME .

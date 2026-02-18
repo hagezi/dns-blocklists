@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771411140 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771432980 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Feb 2026 10:39 UTC
-; Version: 2026.0218.1039.38
+; Last modified: 18 Feb 2026 16:43 UTC
+; Version: 2026.0218.1643.39
 ; Syntax: RPZ
-; Number of entries: 23358
+; Number of entries: 23362
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -11662,6 +11662,8 @@ altadefinizione.live CNAME .
 *.altadefinizione.live CNAME .
 anytv.live CNAME .
 *.anytv.live CNAME .
+aurorabird6.live CNAME .
+*.aurorabird6.live CNAME .
 baked.live CNAME .
 *.baked.live CNAME .
 bdixtv.live CNAME .
@@ -11802,6 +11804,8 @@ rivestream.live CNAME .
 *.rivestream.live CNAME .
 fs.satrong.live CNAME .
 *.fs.satrong.live CNAME .
+shadowpanda3.live CNAME .
+*.shadowpanda3.live CNAME .
 soaper.live CNAME .
 *.soaper.live CNAME .
 sport365.live CNAME .
