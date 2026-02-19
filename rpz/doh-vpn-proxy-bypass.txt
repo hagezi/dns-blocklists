@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771433340 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771498260 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Feb 2026 16:49 UTC
-; Version: 2026.0218.1649.48
+; Last modified: 19 Feb 2026 10:51 UTC
+; Version: 2026.0219.1051.24
 ; Syntax: RPZ
-; Number of entries: 29380
+; Number of entries: 29352
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -7009,8 +7009,6 @@ freevpn724.com CNAME .
 *.freevpn724.com CNAME .
 freevpnastro.com CNAME .
 *.freevpnastro.com CNAME .
-freevpnl2tp.com CNAME .
-*.freevpnl2tp.com CNAME .
 freevpnmars.com CNAME .
 *.freevpnmars.com CNAME .
 freevpnnode.com CNAME .
@@ -14999,8 +14997,6 @@ ferniiiiiiiii4.rainbowcreative.web.id CNAME .
 *.ferniiiiiiiii4.rainbowcreative.web.id CNAME .
 ferniiiiiiiii5.rainbowcreative.web.id CNAME .
 *.ferniiiiiiiii5.rainbowcreative.web.id CNAME .
-serverssh.web.id CNAME .
-*.serverssh.web.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
 01100010011011000110111101100011011010110110110101100101.zone.id CNAME .
@@ -17223,8 +17219,6 @@ dns.johndave.me CNAME .
 *.dns.johndave.me CNAME .
 agh.josephyap.me CNAME .
 *.agh.josephyap.me CNAME .
-josvpn.me CNAME .
-*.josvpn.me CNAME .
 dns.karadag.me CNAME .
 *.dns.karadag.me CNAME .
 dns2.keinewerbung.me CNAME .
@@ -17287,8 +17281,6 @@ ntuc.me CNAME .
 *.ntuc.me CNAME .
 oculta.me CNAME .
 *.oculta.me CNAME .
-okgas.me CNAME .
-*.okgas.me CNAME .
 p99nxpivfscyverz.me CNAME .
 *.p99nxpivfscyverz.me CNAME .
 paopaoyun.me CNAME .
@@ -21459,8 +21451,6 @@ dns.linkr.ninja CNAME .
 *.dns.linkr.ninja CNAME .
 next.miao.ninja CNAME .
 *.next.miao.ninja CNAME .
-xraybest.ninja CNAME .
-*.xraybest.ninja CNAME .
 ayucloud.nl CNAME .
 *.ayucloud.nl CNAME .
 ns3.bit-trail.nl CNAME .
@@ -24489,8 +24479,6 @@ doh.kel.pe CNAME .
 *.doh.kel.pe CNAME .
 adguardhome.softcloud.pe CNAME .
 *.adguardhome.softcloud.pe CNAME .
-onion.pet CNAME .
-*.onion.pet CNAME .
 jike.ph CNAME .
 *.jike.ph CNAME .
 surfshark.ph CNAME .
@@ -24899,8 +24887,6 @@ tiger.dns.qwer.pw CNAME .
 *.tiger.dns.qwer.pw CNAME .
 raj.pw CNAME .
 *.raj.pw CNAME .
-servergo.pw CNAME .
-*.servergo.pw CNAME .
 serverkit.pw CNAME .
 *.serverkit.pw CNAME .
 shandian.pw CNAME .
@@ -26141,8 +26127,6 @@ mycelium.site CNAME .
 *.mycelium.site CNAME .
 nodevpn.site CNAME .
 *.nodevpn.site CNAME .
-noobz.site CNAME .
-*.noobz.site CNAME .
 nordwangzhan.site CNAME .
 *.nordwangzhan.site CNAME .
 opensvr.site CNAME .
@@ -26171,8 +26155,6 @@ dns.srijan.site CNAME .
 *.dns.srijan.site CNAME .
 ssh0.site CNAME .
 *.ssh0.site CNAME .
-sshocean.site CNAME .
-*.sshocean.site CNAME .
 sshtun.site CNAME .
 *.sshtun.site CNAME .
 ssobfs.site CNAME .
@@ -26209,8 +26191,6 @@ twhd.site CNAME .
 *.twhd.site CNAME .
 uboost.site CNAME .
 *.uboost.site CNAME .
-udpserv.site CNAME .
-*.udpserv.site CNAME .
 udptun.site CNAME .
 *.udptun.site CNAME .
 unblock2.site CNAME .
@@ -26235,8 +26215,6 @@ web-proxy.site CNAME .
 *.web-proxy.site CNAME .
 xg8tw7gfox.site CNAME .
 *.xg8tw7gfox.site CNAME .
-xtls.site CNAME .
-*.xtls.site CNAME .
 xvless.site CNAME .
 *.xvless.site CNAME .
 xvmess.site CNAME .
@@ -26605,8 +26583,6 @@ toppal.tech CNAME .
 *.toppal.tech CNAME .
 tuskythehusky.tech CNAME .
 *.tuskythehusky.tech CNAME .
-vhina.tech CNAME .
-*.vhina.tech CNAME .
 dns.vmisch.tech CNAME .
 *.dns.vmisch.tech CNAME .
 vpntypebot.tech CNAME .
@@ -27341,8 +27317,6 @@ accessvpn.co.uk CNAME .
 *.accessvpn.co.uk CNAME .
 binhexsolutions.co.uk CNAME .
 *.binhexsolutions.co.uk CNAME .
-burgerip.co.uk CNAME .
-*.burgerip.co.uk CNAME .
 buystoryapp.co.uk CNAME .
 *.buystoryapp.co.uk CNAME .
 dns.chaosen3.co.uk CNAME .
@@ -28569,8 +28543,6 @@ demonzero.xyz CNAME .
 *.demonzero.xyz CNAME .
 desertlake.xyz CNAME .
 *.desertlake.xyz CNAME .
-dnsvstunnel.xyz CNAME .
-*.dnsvstunnel.xyz CNAME .
 do-39574-tr.xyz CNAME .
 *.do-39574-tr.xyz CNAME .
 doggygo.xyz CNAME .
