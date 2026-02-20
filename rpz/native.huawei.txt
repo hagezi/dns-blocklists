@@ -1,5 +1,5 @@
-$TTL 300
-@ SOA localhost. root.localhost. 1769006520 43200 3600 86400 300
+$TTL 3600
+@ SOA localhost. root.localhost. 1771603740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 21 Jan 2026 14:42 UTC
-; Version: 2026.0121.1442.33
+; Last modified: 20 Feb 2026 16:09 UTC
+; Version: 2026.0220.1609.03
 ; Syntax: RPZ
-; Number of entries: 242
+; Number of entries: 238
 ;
 h4g3z1-native.huawei.web.app CNAME .
 *.h4g3z1-native.huawei.web.app CNAME .
@@ -242,10 +242,6 @@ logservice.vmall.com CNAME .
 *.logservice.vmall.com CNAME .
 grs.dbankcloud.eu CNAME .
 *.grs.dbankcloud.eu CNAME .
-events-op-hicloud-com-drcn.appacc.dbankedge.net CNAME .
-*.events-op-hicloud-com-drcn.appacc.dbankedge.net CNAME .
-events-op-hicloud-com-drcn.appacc-region.dbankedge.net CNAME .
-*.events-op-hicloud-com-drcn.appacc-region.dbankedge.net CNAME .
 adx-dre.op.dbankcloud.com.edgekey.net CNAME .
 *.adx-dre.op.dbankcloud.com.edgekey.net CNAME .
 dt.dbankcloud.ru CNAME .

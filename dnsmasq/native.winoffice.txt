@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 13 Feb 2026 16:04 UTC
-# Version: 2026.0213.1604.09
+# Last modified: 20 Feb 2026 16:08 UTC
+# Version: 2026.0220.1608.09
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 382
+# Number of entries: 390
 #
 local=/c-bingapis-com.dual-a-0034.a-msedge.net/
 local=/measure.office.com.akamaized.net/
@@ -55,6 +55,14 @@ local=/insights.cloud.microsoft/
 local=/westus-0.in.applicationinsights.azure.com.drandts.co.uk/
 local=/measure.office.net.edgesuite.net/
 local=/collector.azure.eaglex.ic.gov/
+local=/ecs.nel.measure.office.net.cn.intinfra.com/
+local=/exo.nel.measure.office.net.cn.intinfra.com/
+local=/identity.nel.measure.office.net.cn.intinfra.com/
+local=/m365cdn.nel.measure.office.net.cn.intinfra.com/
+local=/officehub.nel.measure.office.net.cn.intinfra.com/
+local=/spo.nel.measure.office.net.cn.intinfra.com/
+local=/teams.nel.measure.office.net.cn.intinfra.com/
+local=/wordonline.nel.measure.office.net.cn.intinfra.com/
 local=/analytics.live.com/
 local=/c.live.com/
 local=/location.live.net/

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771581540 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771602780 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 09:59 UTC
-; Version: 2026.0220.0959.06
+; Last modified: 20 Feb 2026 15:53 UTC
+; Version: 2026.0220.1553.17
 ; Syntax: RPZ
-; Number of entries: 117218
+; Number of entries: 117220
 ;
 simpleswap.ac CNAME .
 *.simpleswap.ac CNAME .
@@ -58144,6 +58144,8 @@ payoffdonatecookery.com CNAME .
 *.payoffdonatecookery.com CNAME .
 payoffyes.com CNAME .
 *.payoffyes.com CNAME .
+payout-chatgpt.com CNAME .
+*.payout-chatgpt.com CNAME .
 payperpost.com CNAME .
 *.payperpost.com CNAME .
 pays4ever.com CNAME .
