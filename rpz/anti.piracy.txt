@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771546020 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771585860 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 00:07 UTC
-; Version: 2026.0220.0007.53
+; Last modified: 20 Feb 2026 11:11 UTC
+; Version: 2026.0220.1111.39
 ; Syntax: RPZ
-; Number of entries: 23372
+; Number of entries: 23378
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -17798,6 +17798,8 @@ tracker.ncore.pro CNAME .
 *.tracker.ncore.pro CNAME .
 nicemoviezion.pro CNAME .
 *.nicemoviezion.pro CNAME .
+obstream.pro CNAME .
+*.obstream.pro CNAME .
 multimovies.p2pplay.pro CNAME .
 *.multimovies.p2pplay.pro CNAME .
 pelisflix20.pro CNAME .
@@ -19392,6 +19394,8 @@ hdmovie2.site CNAME .
 *.hdmovie2.site CNAME .
 ilgeniodellostreaming.site CNAME .
 *.ilgeniodellostreaming.site CNAME .
+inzarbod.site CNAME .
+*.inzarbod.site CNAME .
 italia-film.site CNAME .
 *.italia-film.site CNAME .
 juraganfilm.site CNAME .
@@ -22968,6 +22972,8 @@ arrr.xyz CNAME .
 *.arrr.xyz CNAME .
 asger.xyz CNAME .
 *.asger.xyz CNAME .
+aspirated.xyz CNAME .
+*.aspirated.xyz CNAME .
 atzenbunker.xyz CNAME .
 *.atzenbunker.xyz CNAME .
 azmovies.xyz CNAME .
