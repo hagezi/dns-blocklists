@@ -18,6 +18,7 @@ https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/04_fake.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/05_popup.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/07_search-domains.txt
+https://ctu.gov.cz/vyhledavaci-databaze/blokovane-weby/csv
 https://dl.red.flag.domains/red.flag.domains.txt
 https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt
 https://easylist-downloads.adblockplus.org/abpindo.txt
@@ -54,6 +55,7 @@ https://hole.cert.pl/domains/domains.txt
 https://hole.cert.pl/domains/v2/domains.txt
 https://hosts.tweedge.net/malicious.txt
 https://lists.cyberhost.uk/malware.txt
+https://mf.gov.cz/assets/attachments/Zverejnovane-udaje-ze-Seznamu-nepovolenych-internetovych-her_vNNN.csv
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
 https://phish.co.za/latest/phishing-domains-ACTIVE.txt
 https://phishing.army/download/phishing_army_blocklist_extended.txt
@@ -280,6 +282,7 @@ https://www.globalantiscam.org/scam-websites
 https://www.kushari.org/downloads/mal.txt
 https://www.spamhaus.org/reputation-statistics/gtlds/domains/
 https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+https://www.szpi.gov.cz/ViewFile.aspx?docid=3000211
 https://www.trustedshops.de/fake-shops/
 https://www.usom.gov.tr/url-list.txt
 https://www.verbraucherzentrale-niedersachsen.de/vorsicht-falle

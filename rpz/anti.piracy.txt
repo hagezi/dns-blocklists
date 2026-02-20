@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771432980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771546020 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Feb 2026 16:43 UTC
-; Version: 2026.0218.1643.39
+; Last modified: 20 Feb 2026 00:07 UTC
+; Version: 2026.0220.0007.53
 ; Syntax: RPZ
-; Number of entries: 23362
+; Number of entries: 23372
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -1972,6 +1972,8 @@ altadefinizione-nuovo.click CNAME .
 *.altadefinizione-nuovo.click CNAME .
 altadefinizione01.click CNAME .
 *.altadefinizione01.click CNAME .
+altadefinizionex.click CNAME .
+*.altadefinizionex.click CNAME .
 animex.click CNAME .
 *.animex.click CNAME .
 cb01.click CNAME .
@@ -2022,6 +2024,8 @@ sprtsonline.click CNAME .
 *.sprtsonline.click CNAME .
 starlive.click CNAME .
 *.starlive.click CNAME .
+streamhls.click CNAME .
+*.streamhls.click CNAME .
 streamingcommunity.click CNAME .
 *.streamingcommunity.click CNAME .
 streamingcommunityz.click CNAME .
@@ -19522,6 +19526,10 @@ hdmovie2.ski CNAME .
 *.2embed.skin CNAME .
 altadefinizione-01.skin CNAME .
 *.altadefinizione-01.skin CNAME .
+altadefinizione001.skin CNAME .
+*.altadefinizione001.skin CNAME .
+altadefinizionex.skin CNAME .
+*.altadefinizionex.skin CNAME .
 casacinema.skin CNAME .
 *.casacinema.skin CNAME .
 cineblog01.skin CNAME .
@@ -21072,6 +21080,8 @@ unblockit.top CNAME .
 *.unblockit.top CNAME .
 ettv.unblockproject.top CNAME .
 *.ettv.unblockproject.top CNAME .
+valamhub.top CNAME .
+*.valamhub.top CNAME .
 veranime.top CNAME .
 *.veranime.top CNAME .
 vidify.top CNAME .

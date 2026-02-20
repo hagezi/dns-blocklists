@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771526700 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771546440 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Feb 2026 18:45 UTC
-; Version: 2026.0219.1845.13
+; Last modified: 20 Feb 2026 00:14 UTC
+; Version: 2026.0220.0014.10
 ; Syntax: RPZ
-; Number of entries: 32820
+; Number of entries: 32818
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -3245,8 +3245,6 @@ metrovpn.co CNAME .
 *.metrovpn.co CNAME .
 miaona.co CNAME .
 *.miaona.co CNAME .
-mojiessr.co CNAME .
-*.mojiessr.co CNAME .
 moutx2.co CNAME .
 *.moutx2.co CNAME .
 nordvpn.co CNAME .
@@ -13773,8 +13771,6 @@ vpnacademy.com CNAME .
 *.vpnacademy.com CNAME .
 vpnaccounts.com CNAME .
 *.vpnaccounts.com CNAME .
-vpnagent.com CNAME .
-*.vpnagent.com CNAME .
 vpnapplication.com CNAME .
 *.vpnapplication.com CNAME .
 vpnarea.com CNAME .
@@ -30079,6 +30075,8 @@ aiyun007.top CNAME .
 *.aiyun007.top CNAME .
 ano404.top CNAME .
 *.ano404.top CNAME .
+barintg.top CNAME .
+*.barintg.top CNAME .
 batvpn.top CNAME .
 *.batvpn.top CNAME .
 beibeilink.top CNAME .
