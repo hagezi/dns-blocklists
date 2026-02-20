@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771603260 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771627080 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 16:01 UTC
-; Version: 2026.0220.1601.51
+; Last modified: 20 Feb 2026 22:38 UTC
+; Version: 2026.0220.2238.27
 ; Syntax: RPZ
-; Number of entries: 380410
+; Number of entries: 380414
 ;
 1xbet.ac CNAME .
 *.1xbet.ac CNAME .
@@ -129364,6 +129364,8 @@ betmostpoker.com CNAME .
 *.betmostpoker.com CNAME .
 betmotion.com CNAME .
 *.betmotion.com CNAME .
+betmxcasino.com CNAME .
+*.betmxcasino.com CNAME .
 betmyline.com CNAME .
 *.betmyline.com CNAME .
 betmylines.com CNAME .
@@ -364612,6 +364614,8 @@ bets1o-turkiye-yeniadresiniz.vip CNAME .
 *.bets1o-turkiye-yeniadresiniz.vip CNAME .
 bets365s.vip CNAME .
 *.bets365s.vip CNAME .
+betsatfory.vip CNAME .
+*.betsatfory.vip CNAME .
 betsatfynq.vip CNAME .
 *.betsatfynq.vip CNAME .
 betsatgwr.vip CNAME .
