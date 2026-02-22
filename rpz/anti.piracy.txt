@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771585860 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771735860 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 11:11 UTC
-; Version: 2026.0220.1111.39
+; Last modified: 22 Feb 2026 04:51 UTC
+; Version: 2026.0222.0451.51
 ; Syntax: RPZ
-; Number of entries: 23378
+; Number of entries: 23396
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -148,6 +148,8 @@ filmcomplet.al CNAME .
 *.filmcomplet.al CNAME .
 filmstreaming.al CNAME .
 *.filmstreaming.al CNAME .
+french-stream.al CNAME .
+*.french-stream.al CNAME .
 libertyland.al CNAME .
 *.libertyland.al CNAME .
 vegamovies.al CNAME .
@@ -1538,6 +1540,10 @@ tp.m-team.cc CNAME .
 *.tp.m-team.cc CNAME .
 tracker.m-team.cc CNAME .
 *.tracker.m-team.cc CNAME .
+node01.madtia.cc CNAME .
+*.node01.madtia.cc CNAME .
+node02.madtia.cc CNAME .
+*.node02.madtia.cc CNAME .
 mmastreams.cc CNAME .
 *.mmastreams.cc CNAME .
 modradar.cc CNAME .
@@ -8492,6 +8498,8 @@ hdmovie2.cricket CNAME .
 *.hdmovie2.cricket CNAME .
 vegamovies.cricket CNAME .
 *.vegamovies.cricket CNAME .
+frenchstreeam.cv CNAME .
+*.frenchstreeam.cv CNAME .
 tracker.startwork.cv CNAME .
 *.tracker.startwork.cv CNAME .
 vegamovies.cv CNAME .
@@ -10516,6 +10524,8 @@ filmeseseriesonline.info CNAME .
 *.filmeseseriesonline.info CNAME .
 flywarez.info CNAME .
 *.flywarez.info CNAME .
+fstream.info CNAME .
+*.fstream.info CNAME .
 futebolplayhd.info CNAME .
 *.futebolplayhd.info CNAME .
 fxp-terminal.info CNAME .
@@ -11922,6 +11932,8 @@ filmstreaming.lol CNAME .
 *.filmstreaming.lol CNAME .
 freebooks.lol CNAME .
 *.freebooks.lol CNAME .
+fs12.lol CNAME .
+*.fs12.lol CNAME .
 fs4.lol CNAME .
 *.fs4.lol CNAME .
 fs6.lol CNAME .
@@ -13556,6 +13568,8 @@ tracker.frozen-layer.net CNAME .
 *.tracker.frozen-layer.net CNAME .
 fsave.net CNAME .
 *.fsave.net CNAME .
+fstream.net CNAME .
+*.fstream.net CNAME .
 ftpbd.net CNAME .
 *.ftpbd.net CNAME .
 fullcrackserial.net CNAME .
@@ -15096,6 +15110,8 @@ fmovies.one CNAME .
 *.fmovies.one CNAME .
 footybite.one CNAME .
 *.footybite.one CNAME .
+french-stream.one CNAME .
+*.french-stream.one CNAME .
 gidonline.one CNAME .
 *.gidonline.one CNAME .
 guardaserie.one CNAME .
@@ -21398,6 +21414,8 @@ firstsrowsports.tv CNAME .
 *.firstsrowsports.tv CNAME .
 foumovies.tv CNAME .
 *.foumovies.tv CNAME .
+french-streaming.tv CNAME .
+*.french-streaming.tv CNAME .
 freshon.tv CNAME .
 *.freshon.tv CNAME .
 fullthrottleip.tv CNAME .
