@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771258260 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771798740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Feb 2026 16:11 UTC
-; Version: 2026.0216.1611.03
+; Last modified: 22 Feb 2026 22:19 UTC
+; Version: 2026.0222.2219.18
 ; Syntax: RPZ
-; Number of entries: 2566
+; Number of entries: 2568
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -278,6 +278,8 @@ wapka.co CNAME .
 *.0catch.com CNAME .
 0hna.com CNAME .
 *.0hna.com CNAME .
+0pi.com CNAME .
+*.0pi.com CNAME .
 10001mb.com CNAME .
 *.10001mb.com CNAME .
 100freemb.com CNAME .
