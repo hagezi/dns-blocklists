@@ -10,8 +10,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 22 Feb 2026 04:58 UTC
-! Version: 2026.0222.0458.52
+! Last modified: 23 Feb 2026 11:53 UTC
+! Version: 2026.0223.1153.23
 ! Syntax: AdGuard
 ! Number of latin TLDs: 283 - punycode TLDs: 151
 !
@@ -135,7 +135,7 @@
 ||*.guide^$denyallow=bedandbreakfast.guide|cfw.guide|discordjs.guide|goodtravel.guide|hacks.guide|homebrew.guide|opensource.guide|ripped.guide|site.guide|slowfood.guide|thebook.guide|wii.guide|wisely.guide|zig.guide
 ||*.guru^$denyallow=bahn.guru|base64.guru|crontab.guru|greenlight.guru|jav.guru|ludwig.guru|mags.guru|tilde.guru|watcher.guru|webcal.guru
 ||*.hair^
-||*.haus^
+||*.haus^$denyallow=lunar.haus
 ||*.health^$denyallow=sca.health
 ||*.healthcare^$denyallow=severance.healthcare
 ||*.help^$denyallow=crisp.help|fastmail.help|gorgias.help|kustomer.help|pixiv.help
@@ -211,7 +211,7 @@
 ||*.post^$denyallow=cypruspost.post
 ||*.prof^$denyallow=casey.prof
 ||*.promo^
-||*.pub^$denyallow=arc.pub|bierbaum.pub|infosec.pub|leaflet.pub|static.pub|wapo.pub
+||*.pub^$denyallow=arc.pub|bierbaum.pub|infosec.pub|leaflet.pub|lunar.pub|static.pub|wapo.pub
 ||*.pw^$denyallow=buttercup.pw|core.pw|darkcrystal.pw|dpc.pw|gopass.pw|palaugov.pw|petridish.pw|plutonium.pw|tabula-rasa.pw|xor.pw|zok.pw
 ||*.qpon^
 ||*.quest^$denyallow=dice.quest|epochal.quest|mhn.quest|mylegendary.quest|prometheus.quest|raccoon.quest

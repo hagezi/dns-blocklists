@@ -124,3 +124,9 @@ us.events.data.trafficmanager.net
 browser.events.data.microsoft.com
 browser.events.data.trafficmanager.net
 # js.monitor.azure.com must also be unblocked!
+
+# Azure Application Insights Workbooks on portal.azure.com
+# https://github.com/hagezi/dns-blocklists/issues/9215
+api.applicationinsights.azure.com
+api.monitor.azure.com
+api.privatelink.monitor.azure.com

@@ -93,8 +93,8 @@ Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/light.txt) [M1](lnkgl_d/light.txt) [M2](lnkjd_d/light.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/light.txt) [M1](lnkgl_h/light.txt) [M2](lnkjd_h/light.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/light.txt) [M1](lnkgl_d/light.txt) [M2](lnkjd_d/light.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/light.txt) [M1](lnkgl_h/light.txt) [M2](lnkjd_h/light.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/light-compressed.txt) [M1](lnkgl_h/light-compressed.txt) [M2](lnkjd_h/light-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/light.txt) [M1](lnkgl_a/light.txt) [M2](lnkjd_a/light.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini |
 | DNSMasq | [Link](lnkgh_m/light.txt) [M1](lnkgl_m/light.txt) [M2](lnkjd_m/light.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -118,8 +118,8 @@ Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tr
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/multi.txt) [M1](lnkgl_d/multi.txt) [M2](lnkjd_d/multi.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/multi.txt) [M1](lnkgl_h/multi.txt) [M2](lnkjd_h/multi.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/multi.txt) [M1](lnkgl_d/multi.txt) [M2](lnkjd_d/multi.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/multi.txt) [M1](lnkgl_h/multi.txt) [M2](lnkjd_h/multi.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/multi-compressed.txt) [M1](lnkgl_h/multi-compressed.txt) [M2](lnkjd_h/multi-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/multi.txt) [M1](lnkgl_a/multi.txt) [M2](lnkjd_a/multi.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini |
 | DNSMasq | [Link](lnkgh_m/multi.txt) [M1](lnkgl_m/multi.txt) [M2](lnkjd_m/multi.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -139,8 +139,8 @@ Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/pro.txt) [M1](lnkgl_d/pro.txt) [M2](lnkjd_d/pro.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/pro.txt) [M1](lnkgl_h/pro.txt) [M2](lnkjd_h/pro.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/pro.txt) [M1](lnkgl_d/pro.txt) [M2](lnkjd_d/pro.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/pro.txt) [M1](lnkgl_h/pro.txt) [M2](lnkjd_h/pro.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/pro-compressed.txt) [M1](lnkgl_h/pro-compressed.txt) [M2](lnkjd_h/pro-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/pro.txt) [M1](lnkgl_a/pro.txt) [M2](lnkjd_a/pro.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam |
 | DNSMasq | [Link](lnkgh_m/pro.txt) [M1](lnkgl_m/pro.txt) [M2](lnkjd_m/pro.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -178,8 +178,8 @@ Sweeper - Aggressive cleans the Internet and protects your privacy! Blocks Ads, 
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/pro.plus.txt) [M1](lnkgl_d/pro.plus.txt) [M2](lnkjd_d/pro.plus.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/pro.plus.txt) [M1](lnkgl_h/pro.plus.txt) [M2](lnkjd_h/pro.plus.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/pro.plus.txt) [M1](lnkgl_d/pro.plus.txt) [M2](lnkjd_d/pro.plus.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/pro.plus.txt) [M1](lnkgl_h/pro.plus.txt) [M2](lnkjd_h/pro.plus.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/pro.plus-compressed.txt) [M1](lnkgl_h/pro.plus-compressed.txt) [M2](lnkjd_h/pro.plus-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/pro.plus.txt) [M1](lnkgl_a/pro.plus.txt) [M2](lnkjd_a/pro.plus.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam |
 | DNSMasq | [Link](lnkgh_m/pro.plus.txt) [M1](lnkgl_m/pro.plus.txt) [M2](lnkjd_m/pro.plus.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -229,8 +229,8 @@ Ultimate Sweeper - Strictly cleans the Internet and protects your privacy! Block
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/ultimate.txt) [M1](lnkgl_d/ultimate.txt) [M2](lnkjd_d/ultimate.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/ultimate.txt) [M1](lnkgl_h/ultimate.txt) [M2](lnkjd_h/ultimate.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/ultimate.txt) [M1](lnkgl_d/ultimate.txt) [M2](lnkjd_d/ultimate.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/ultimate.txt) [M1](lnkgl_h/ultimate.txt) [M2](lnkjd_h/ultimate.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/ultimate-compressed.txt) [M1](lnkgl_h/ultimate-compressed.txt) [M2](lnkjd_h/ultimate-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/ultimate.txt) [M1](lnkgl_a/ultimate.txt) [M2](lnkjd_a/ultimate.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam |
 | DNSMasq | [Link](lnkgh_m/ultimate.txt) [M1](lnkgl_m/ultimate.txt) [M2](lnkjd_m/ultimate.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -316,8 +316,8 @@ A blocklist for blocking Malware, Cryptojacking, Scam, Spam and Phishing. Blocks
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/tif.txt) [M1](lnkgl_d/tif.txt) [M2](lnkjd_d/tif.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/tif.txt) [M1](lnkgl_h/tif.txt) [M2](lnkjd_h/tif.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/tif.txt) [M1](lnkgl_d/tif.txt) [M2](lnkjd_d/tif.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/tif.txt) [M1](lnkgl_h/tif.txt) [M2](lnkjd_h/tif.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/tif-compressed.txt) [M1](lnkgl_h/tif-compressed.txt) [M2](lnkjd_h/tif-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/tif.txt) [M1](lnkgl_a/tif.txt) [M2](lnkjd_a/tif.txt) | Pi-hole, ~~AdGuard~~ (too big!), AdGuard Home (only devices with > 1GB RAM!), eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam |
 | DNSMasq | [Link](lnkgh_m/tif.txt) [M1](lnkgl_m/tif.txt) [M2](lnkjd_m/tif.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |
@@ -465,8 +465,8 @@ Prevent methods to bypass your DNS.
 
 | Format | Links | Should be used for |
 |:-------|:-----|:----------------|
-| Domains<br>Subdomains | [Link](lnkgh_d/doh.txt) [M1](lnkgl_d/doh.txt) [M2](lnkjd_d/doh.txt) | Blocky (older than v0.23), Diversion (older than v5), OpenSnitch, PersonalBlocklist, pfBlockerNG |
-| Hosts | [Link](lnkgh_h/doh.txt) [M1](lnkgl_h/doh.txt) [M2](lnkjd_h/doh.txt) | AdAway, uMatrix, DNS66, NetGuard |
+| Domains<br>Subdomains | [Link](lnkgh_d/doh.txt) [M1](lnkgl_d/doh.txt) [M2](lnkjd_d/doh.txt) | Blocky (older than v0.23), Diversion (older than v5), PersonalBlocklist, pfBlockerNG |
+| Hosts | [Link](lnkgh_h/doh.txt) [M1](lnkgl_h/doh.txt) [M2](lnkjd_h/doh.txt) | AdAway, uMatrix, OpenSnitch, DNS66, NetGuard |
 | Hosts<br>Compressed | [Link](lnkgh_h/doh-compressed.txt) [M1](lnkgl_h/doh-compressed.txt) [M2](lnkjd_h/doh-compressed.txt) | Hostfile, Linux |
 | Adblock | [Link](lnkgh_a/doh.txt) [M1](lnkgl_a/doh.txt) [M2](lnkjd_a/doh.txt) | Pi-hole, AdGuard, AdGuard Home, eBlocker, uBlock Origin, Brave (only in aggressive mode), AdNauseam, Little Snitch Mini |
 | DNSMasq | [Link](lnkgh_m/doh.txt) [M1](lnkgl_m/doh.txt) [M2](lnkjd_m/doh.txt) | DNSMasq (v2.86 or newer), Diversion (v5 or newer) |

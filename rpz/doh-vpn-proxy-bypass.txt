@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771843800 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771847760 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 10:50 UTC
-; Version: 2026.0223.1050.27
+; Last modified: 23 Feb 2026 11:56 UTC
+; Version: 2026.0223.1156.00
 ; Syntax: RPZ
-; Number of entries: 32754
+; Number of entries: 32774
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -3559,6 +3559,8 @@ idk.7btech.com CNAME .
 *.idk.7btech.com CNAME .
 7c45b8ee2a19601f023836f7e22bae70ac80ca7f.com CNAME .
 *.7c45b8ee2a19601f023836f7e22bae70ac80ca7f.com CNAME .
+7gain.com CNAME .
+*.7gain.com CNAME .
 7suyun.com CNAME .
 *.7suyun.com CNAME .
 7vpn.com CNAME .
@@ -10639,6 +10641,8 @@ mysdvqp.com CNAME .
 *.mysdvqp.com CNAME .
 myspaceunlock.com CNAME .
 *.myspaceunlock.com CNAME .
+mysteriumdark.com CNAME .
+*.mysteriumdark.com CNAME .
 mysteriumvpn.com CNAME .
 *.mysteriumvpn.com CNAME .
 mystnodes.com CNAME .
@@ -11397,6 +11401,8 @@ gaia.plonknet.com CNAME .
 *.gaia.plonknet.com CNAME .
 uranus.plonknet.com CNAME .
 *.uranus.plonknet.com CNAME .
+plugnearn.com CNAME .
+*.plugnearn.com CNAME .
 privacy.plumedns.com CNAME .
 *.privacy.plumedns.com CNAME .
 muppy.pnamae.com CNAME .
@@ -12207,6 +12213,8 @@ lightcoding.sevecom.com CNAME .
 *.lightcoding.sevecom.com CNAME .
 playernation.sevecom.com CNAME .
 *.playernation.sevecom.com CNAME .
+sevengain.com CNAME .
+*.sevengain.com CNAME .
 sf-helper.com CNAME .
 *.sf-helper.com CNAME .
 sfasoftballcamps.com CNAME .
@@ -12473,6 +12481,8 @@ somelikeitproxy.com CNAME .
 *.somelikeitproxy.com CNAME .
 sonicsvpn.com CNAME .
 *.sonicsvpn.com CNAME .
+soundsonas.com CNAME .
+*.soundsonas.com CNAME .
 soundwaveearbuds.com CNAME .
 *.soundwaveearbuds.com CNAME .
 sourceproxy.com CNAME .
@@ -16691,6 +16701,8 @@ pub-7673769c88704e338cf94be8e7833d08.r2.dev CNAME .
 *.pub-7673769c88704e338cf94be8e7833d08.r2.dev CNAME .
 pub-8029ed10cf4e4db0b3757e6b82ef7a40.r2.dev CNAME .
 *.pub-8029ed10cf4e4db0b3757e6b82ef7a40.r2.dev CNAME .
+pub-a6321dc4515447b698de8db2567150ff.r2.dev CNAME .
+*.pub-a6321dc4515447b698de8db2567150ff.r2.dev CNAME .
 renardbleu.dev CNAME .
 *.renardbleu.dev CNAME .
 resolver.rferee.dev CNAME .
@@ -19023,6 +19035,8 @@ hxlm.io CNAME .
 *.hxlm.io CNAME .
 iantem.io CNAME .
 *.iantem.io CNAME .
+ice.io CNAME .
+*.ice.io CNAME .
 indiavpn.io CNAME .
 *.indiavpn.io CNAME .
 ipfreely.io CNAME .
@@ -23675,6 +23689,8 @@ netapult.net CNAME .
 *.netapult.net CNAME .
 netitude.net CNAME .
 *.netitude.net CNAME .
+netnow.net CNAME .
+*.netnow.net CNAME .
 dns.netrve.net CNAME .
 *.dns.netrve.net CNAME .
 netscop.net CNAME .
@@ -29791,6 +29807,8 @@ vpn.surf CNAME .
 *.vpn.surf CNAME .
 crypto.sx CNAME .
 *.crypto.sx CNAME .
+proxies.sx CNAME .
+*.proxies.sx CNAME .
 proxy.sx CNAME .
 *.proxy.sx CNAME .
 what.the.aw.root.sx CNAME .
@@ -29843,6 +29861,8 @@ romirely.tech CNAME .
 *.romirely.tech CNAME .
 s4m.tech CNAME .
 *.s4m.tech CNAME .
+sia.tech CNAME .
+*.sia.tech CNAME .
 dns.startupstack.tech CNAME .
 *.dns.startupstack.tech CNAME .
 tois.tech CNAME .
