@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771839120 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771860720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 09:32 UTC
-; Version: 2026.0223.0932.08
+; Last modified: 23 Feb 2026 15:32 UTC
+; Version: 2026.0223.1532.22
 ; Syntax: RPZ
-; Number of entries: 28274
+; Number of entries: 28278
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -18890,6 +18890,8 @@ clotha-boutique.de CNAME .
 *.clotha-boutique.de CNAME .
 cloudschuhesale.de CNAME .
 *.cloudschuhesale.de CNAME .
+cold-rp.de CNAME .
+*.cold-rp.de CNAME .
 columbi.de CNAME .
 *.columbi.de CNAME .
 airjordan.com.de CNAME .
@@ -20326,6 +20328,8 @@ haustechnik-muenchen.de CNAME .
 *.haustechnik-muenchen.de CNAME .
 haustechnikmeine.de CNAME .
 *.haustechnikmeine.de CNAME .
+haustierstolz.de CNAME .
+*.haustierstolz.de CNAME .
 havsbris.de CNAME .
 *.havsbris.de CNAME .
 hawalili.de CNAME .

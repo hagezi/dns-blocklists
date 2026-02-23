@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771847760 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771865400 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 11:56 UTC
-; Version: 2026.0223.1156.00
+; Last modified: 23 Feb 2026 16:50 UTC
+; Version: 2026.0223.1650.07
 ; Syntax: RPZ
-; Number of entries: 32774
+; Number of entries: 32780
 ;
 unblocked.ac CNAME .
 *.unblocked.ac CNAME .
@@ -13303,6 +13303,8 @@ dns.tuankhaiit.com CNAME .
 *.dns.tuankhaiit.com CNAME .
 tubeprox.com CNAME .
 *.tubeprox.com CNAME .
+tunnel4.com CNAME .
+*.tunnel4.com CNAME .
 tunnelbear.com CNAME .
 *.tunnelbear.com CNAME .
 learn.how.tupuola.com CNAME .
@@ -28933,6 +28935,8 @@ dns.trifanov-online.ru CNAME .
 *.dns.trifanov-online.ru CNAME .
 trovs.ru CNAME .
 *.trovs.ru CNAME .
+try-this.ru CNAME .
+*.try-this.ru CNAME .
 adguard.tver-tech.ru CNAME .
 *.adguard.tver-tech.ru CNAME .
 rb750gr3.ulfhednar.ru CNAME .
@@ -28987,6 +28991,8 @@ dns2.xcapenet.ru CNAME .
 *.dns2.xcapenet.ru CNAME .
 doh.xorlet.ru CNAME .
 *.doh.xorlet.ru CNAME .
+xtunnel.ru CNAME .
+*.xtunnel.ru CNAME .
 dns.yandex.ru CNAME .
 *.dns.yandex.ru CNAME .
 ns6.ygy.ru CNAME .
