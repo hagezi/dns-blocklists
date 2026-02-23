@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771864980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771888080 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - mini version
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 16:43 UTC
-; Version: 2026.0223.1643.13
+; Last modified: 23 Feb 2026 23:08 UTC
+; Version: 2026.0223.2308.01
 ; Syntax: RPZ
 ; Number of entries: 91410
 ;
@@ -35228,6 +35228,8 @@ l6betsa.com CNAME .
 *.l6betsa.com CNAME .
 l8casino.com CNAME .
 *.l8casino.com CNAME .
+la49.com CNAME .
+*.la49.com CNAME .
 lab-casino-fr.com CNAME .
 *.lab-casino-fr.com CNAME .
 labuubuu.com CNAME .
@@ -74882,8 +74884,6 @@ atlasonlinecasinogroup.shop CNAME .
 *.atlasonlinecasinogroup.shop CNAME .
 auroracasinobonusroom.shop CNAME .
 *.auroracasinobonusroom.shop CNAME .
-base.shop CNAME .
-*.base.shop CNAME .
 beachgame.shop CNAME .
 *.beachgame.shop CNAME .
 bestfpv.shop CNAME .
