@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771368420 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771843740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Feb 2026 22:47 UTC
-; Version: 2026.0217.2247.53
+; Last modified: 23 Feb 2026 10:49 UTC
+; Version: 2026.0223.1049.07
 ; Syntax: RPZ
-; Number of entries: 2966
+; Number of entries: 2956
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1316,8 +1316,6 @@ serveusers.com CNAME .
 *.serveusers.com CNAME .
 sexidude.com CNAME .
 *.sexidude.com CNAME .
-shadir.com CNAME .
-*.shadir.com CNAME .
 sharkltd.com CNAME .
 *.sharkltd.com CNAME .
 shekinahphotography.com CNAME .
@@ -1684,8 +1682,6 @@ now.im CNAME .
 *.now.im CNAME .
 cloudns.in CNAME .
 *.cloudns.in CNAME .
-evils.in CNAME .
-*.evils.in CNAME .
 indevs.in CNAME .
 *.indevs.in CNAME .
 aintno.info CNAME .
@@ -2276,8 +2272,6 @@ viiic.net CNAME .
 *.viiic.net CNAME .
 vpndns.net CNAME .
 *.vpndns.net CNAME .
-vxe6.net CNAME .
-*.vxe6.net CNAME .
 webhop.net CNAME .
 *.webhop.net CNAME .
 webok.net CNAME .
@@ -2832,8 +2826,6 @@ epac.to CNAME .
 *.epac.to CNAME .
 forss.to CNAME .
 *.forss.to CNAME .
-fr.to CNAME .
-*.fr.to CNAME .
 my.to CNAME .
 *.my.to CNAME .
 qc.to CNAME .
@@ -2898,8 +2890,6 @@ dynamicdns.org.uk CNAME .
 *.dynamicdns.org.uk CNAME .
 limit.org.uk CNAME .
 *.limit.org.uk CNAME .
-0rg.us CNAME .
-*.0rg.us CNAME .
 4twenty.us CNAME .
 *.4twenty.us CNAME .
 atlantatruckdrivingschool.us CNAME .

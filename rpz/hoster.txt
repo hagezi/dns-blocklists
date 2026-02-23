@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771798740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771840980 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Feb 2026 22:19 UTC
-; Version: 2026.0222.2219.18
+; Last modified: 23 Feb 2026 10:03 UTC
+; Version: 2026.0223.1003.12
 ; Syntax: RPZ
-; Number of entries: 2568
+; Number of entries: 2560
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -278,8 +278,6 @@ wapka.co CNAME .
 *.0catch.com CNAME .
 0hna.com CNAME .
 *.0hna.com CNAME .
-0pi.com CNAME .
-*.0pi.com CNAME .
 10001mb.com CNAME .
 *.10001mb.com CNAME .
 100freemb.com CNAME .
@@ -350,8 +348,6 @@ angelfire.com CNAME .
 *.angelfire.com CNAME .
 arcadepages.com CNAME .
 *.arcadepages.com CNAME .
-argentpropertiesvb.com CNAME .
-*.argentpropertiesvb.com CNAME .
 atsnx.com CNAME .
 *.atsnx.com CNAME .
 atspace.com CNAME .
@@ -396,6 +392,8 @@ blogspot.com CNAME .
 *.blogspot.com CNAME .
 blogzet.com CNAME .
 *.blogzet.com CNAME .
+bokee.com CNAME .
+*.bokee.com CNAME .
 bookmark.com CNAME .
 *.bookmark.com CNAME .
 bravehost.com CNAME .
@@ -644,10 +642,6 @@ gofreeserve.com CNAME .
 *.gofreeserve.com CNAME .
 googletagmanagers.com CNAME .
 *.googletagmanagers.com CNAME .
-govauinboxmsg-support.com CNAME .
-*.govauinboxmsg-support.com CNAME .
-govinboxausecure-support.com CNAME .
-*.govinboxausecure-support.com CNAME .
 gr-site.com CNAME .
 *.gr-site.com CNAME .
 greatnow.com CNAME .
@@ -668,8 +662,6 @@ hostedforfree.com CNAME .
 *.hostedforfree.com CNAME .
 hostingsiteforfree.com CNAME .
 *.hostingsiteforfree.com CNAME .
-hostkda.com CNAME .
-*.hostkda.com CNAME .
 hostseba.com CNAME .
 *.hostseba.com CNAME .
 hoxty.com CNAME .
@@ -1136,6 +1128,8 @@ aw3.de CNAME .
 *.aw3.de CNAME .
 ballern.de CNAME .
 *.ballern.de CNAME .
+beepworld.de CNAME .
+*.beepworld.de CNAME .
 begins.de CNAME .
 *.begins.de CNAME .
 blogg.de CNAME .
@@ -1694,6 +1688,8 @@ beepworld.it CNAME .
 *.beepworld.it CNAME .
 blogspot.it CNAME .
 *.blogspot.it CNAME .
+kataweb.it CNAME .
+*.kataweb.it CNAME .
 webnode.it CNAME .
 *.webnode.it CNAME .
 2.je CNAME .
@@ -1964,8 +1960,6 @@ one4u.0lx.net CNAME .
 *.6te.net CNAME .
 8m.net CNAME .
 *.8m.net CNAME .
-a0001.net CNAME .
-*.a0001.net CNAME .
 batcave.net CNAME .
 *.batcave.net CNAME .
 bigheadhosting.net CNAME .
@@ -1984,8 +1978,6 @@ cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 dnip.net CNAME .
 *.dnip.net CNAME .
-efacturas.net CNAME .
-*.efacturas.net CNAME .
 eu5.net CNAME .
 *.eu5.net CNAME .
 flashbuilder.net CNAME .
