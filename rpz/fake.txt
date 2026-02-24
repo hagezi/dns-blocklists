@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771925400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771947060 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Feb 2026 09:30 UTC
-; Version: 2026.0224.0930.34
+; Last modified: 24 Feb 2026 15:31 UTC
+; Version: 2026.0224.1531.21
 ; Syntax: RPZ
 ; Number of entries: 28330
 ;
@@ -13124,6 +13124,8 @@ pmpkp.com CNAME .
 *.pmpkp.com CNAME .
 pmtinnova.com CNAME .
 *.pmtinnova.com CNAME .
+pnl-holding.com CNAME .
+*.pnl-holding.com CNAME .
 pnladvanced.com CNAME .
 *.pnladvanced.com CNAME .
 poascontrst.com CNAME .
@@ -16902,8 +16904,6 @@ veradam.com CNAME .
 *.veradam.com CNAME .
 veraziahgroup.com CNAME .
 *.veraziahgroup.com CNAME .
-verdalucina.com CNAME .
-*.verdalucina.com CNAME .
 verkauf-garten.com CNAME .
 *.verkauf-garten.com CNAME .
 verkauffahrradbike.com CNAME .

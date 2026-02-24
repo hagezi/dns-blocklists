@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771883580 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771946880 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 21:53 UTC
-; Version: 2026.0223.2153.39
+; Last modified: 24 Feb 2026 15:28 UTC
+; Version: 2026.0224.1528.55
 ; Syntax: RPZ
-; Number of entries: 115042
+; Number of entries: 115044
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -70336,8 +70336,8 @@ tiresuperservermarble.com CNAME .
 *.tiresuperservermarble.com CNAME .
 tirosagalite.com CNAME .
 *.tirosagalite.com CNAME .
-li.tisaneata.com CNAME .
-*.li.tisaneata.com CNAME .
+tisaneata.com CNAME .
+*.tisaneata.com CNAME .
 titanads1.com CNAME .
 *.titanads1.com CNAME .
 titanads2.com CNAME .
@@ -81686,6 +81686,8 @@ primechainnet.co.in CNAME .
 *.primechainnet.co.in CNAME .
 senscirrascul.co.in CNAME .
 *.senscirrascul.co.in CNAME .
+sentinelbotcore.co.in CNAME .
+*.sentinelbotcore.co.in CNAME .
 www.shubhin.co.in CNAME .
 *.www.shubhin.co.in CNAME .
 stableflowconnection.co.in CNAME .
