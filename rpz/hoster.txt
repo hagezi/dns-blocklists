@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771840980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1771927200 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Feb 2026 10:03 UTC
-; Version: 2026.0223.1003.12
+; Last modified: 24 Feb 2026 10:00 UTC
+; Version: 2026.0224.1000.44
 ; Syntax: RPZ
-; Number of entries: 2560
+; Number of entries: 2562
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -2022,6 +2022,8 @@ netai.net CNAME .
 *.netai.net CNAME .
 onlinewebshop.net CNAME .
 *.onlinewebshop.net CNAME .
+pacbell.net CNAME .
+*.pacbell.net CNAME .
 page-suspension.net CNAME .
 *.page-suspension.net CNAME .
 pktriot.net CNAME .
