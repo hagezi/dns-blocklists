@@ -10,6 +10,7 @@ https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-dns.txt
 https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter.txt
 https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/1st_domains.txt
 https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+https://codeberg.org/KhodeKiaa/PersianBlocker/raw/branch/main/PersianBlocker.txt
 https://codeberg.org/remad0/TurkHosts404/raw/branch/main/dns-blocklists/adblock.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/01_ad.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/02_mal.txt

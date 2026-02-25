@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772011740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772033340 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Feb 2026 09:29 UTC
-; Version: 2026.0225.0929.53
+; Last modified: 25 Feb 2026 15:29 UTC
+; Version: 2026.0225.1529.55
 ; Syntax: RPZ
-; Number of entries: 115024
+; Number of entries: 115028
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -12504,6 +12504,8 @@ aaaacdn.com CNAME .
 *.aaaacdn.com CNAME .
 aaateendrugtests.com CNAME .
 *.aaateendrugtests.com CNAME .
+aaatrk.com CNAME .
+*.aaatrk.com CNAME .
 u51.aabdmn.com CNAME .
 *.u51.aabdmn.com CNAME .
 aada35c15f.com CNAME .
@@ -45128,6 +45130,8 @@ jerboasjourney.com CNAME .
 *.jerboasjourney.com CNAME .
 cno.jerkmate.com CNAME .
 *.cno.jerkmate.com CNAME .
+mosaic2.jerkmate.com CNAME .
+*.mosaic2.jerkmate.com CNAME .
 jerld.com CNAME .
 *.jerld.com CNAME .
 qa.jerlwagner.com CNAME .
