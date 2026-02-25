@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771994820 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772016300 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Feb 2026 04:47 UTC
-; Version: 2026.0225.0447.06
+; Last modified: 25 Feb 2026 10:45 UTC
+; Version: 2026.0225.1045.06
 ; Syntax: RPZ
-; Number of entries: 23224
+; Number of entries: 23232
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -9308,6 +9308,8 @@ mkvcinemas.fit CNAME .
 *.mkvcinemas.fit CNAME .
 pelisflix20.fit CNAME .
 *.pelisflix20.fit CNAME .
+sportsnetwork.fit CNAME .
+*.sportsnetwork.fit CNAME .
 streaming-community.fit CNAME .
 *.streaming-community.fit CNAME .
 streamingcommunity.fit CNAME .
@@ -17204,6 +17206,8 @@ vegamovies.photo CNAME .
 *.vegamovies.photo CNAME .
 hdmovie2.photography CNAME .
 *.hdmovie2.photography CNAME .
+dontorrent.photos CNAME .
+*.dontorrent.photos CNAME .
 hdmovie2.photos CNAME .
 *.hdmovie2.photos CNAME .
 streamingcommunity.photos CNAME .
@@ -19408,6 +19412,8 @@ hdmovie2.skin CNAME .
 *.hdmovie2.skin CNAME .
 ilgeniodellostreaming.skin CNAME .
 *.ilgeniodellostreaming.skin CNAME .
+kkiste-io.skin CNAME .
+*.kkiste-io.skin CNAME .
 larooza.skin CNAME .
 *.larooza.skin CNAME .
 seriesflix.skin CNAME .
@@ -20854,6 +20860,8 @@ movieuwutv.top CNAME .
 *.movieuwutv.top CNAME .
 mp4hydra.top CNAME .
 *.mp4hydra.top CNAME .
+nalix.top CNAME .
+*.nalix.top CNAME .
 tracker.netmap.top CNAME .
 *.tracker.netmap.top CNAME .
 nicedocx.top CNAME .

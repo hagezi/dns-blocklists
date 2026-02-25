@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771990140 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772011740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Feb 2026 03:29 UTC
-; Version: 2026.0225.0329.10
+; Last modified: 25 Feb 2026 09:29 UTC
+; Version: 2026.0225.0929.53
 ; Syntax: RPZ
-; Number of entries: 115022
+; Number of entries: 115024
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -36882,6 +36882,8 @@ fowlsstirringinclude.com CNAME .
 *.fowlsstirringinclude.com CNAME .
 foxheadquarter.com CNAME .
 *.foxheadquarter.com CNAME .
+foxiceberg.com CNAME .
+*.foxiceberg.com CNAME .
 foxload.com CNAME .
 *.foxload.com CNAME .
 fpadserver.com CNAME .
