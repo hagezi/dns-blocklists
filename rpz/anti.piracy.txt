@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772103360 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772127540 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Feb 2026 10:56 UTC
-; Version: 2026.0226.1056.22
+; Last modified: 26 Feb 2026 17:39 UTC
+; Version: 2026.0226.1739.07
 ; Syntax: RPZ
-; Number of entries: 23232
+; Number of entries: 23260
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -292,6 +292,8 @@ soccerstreams.app CNAME .
 *.soccerstreams.app CNAME .
 solarmovie.app CNAME .
 *.solarmovie.app CNAME .
+streamfree.app CNAME .
+*.streamfree.app CNAME .
 horriblesubs.theproxy.app CNAME .
 *.horriblesubs.theproxy.app CNAME .
 viprow.theproxy.app CNAME .
@@ -4566,6 +4568,10 @@ flixdump.com CNAME .
 *.flixdump.com CNAME .
 flixjar.com CNAME .
 *.flixjar.com CNAME .
+flixthor.com CNAME .
+*.flixthor.com CNAME .
+flixthorapp.com CNAME .
+*.flixthorapp.com CNAME .
 ns1.floads.com CNAME .
 *.ns1.floads.com CNAME .
 ns2.floads.com CNAME .
@@ -7202,6 +7208,8 @@ taodung.com CNAME .
 *.taodung.com CNAME .
 tapedown.com CNAME .
 *.tapedown.com CNAME .
+tarhex.com CNAME .
+*.tarhex.com CNAME .
 tarjetarojatvhd.com CNAME .
 *.tarjetarojatvhd.com CNAME .
 tc-boxing.com CNAME .
@@ -8126,6 +8134,8 @@ wushare.com CNAME .
 *.wushare.com CNAME .
 wvw-fmovies.com CNAME .
 *.wvw-fmovies.com CNAME .
+ww2-nortorrent.com CNAME .
+*.ww2-nortorrent.com CNAME .
 wwereleases.com CNAME .
 *.wwereleases.com CNAME .
 wwwhesgoal.com CNAME .
@@ -8248,6 +8258,8 @@ yqzuji.com CNAME .
 *.yqzuji.com CNAME .
 ytbdownload.com CNAME .
 *.ytbdownload.com CNAME .
+yts2.com CNAME .
+*.yts2.com CNAME .
 ytsstreaming.com CNAME .
 *.ytsstreaming.com CNAME .
 ytstorrent.com CNAME .
@@ -9410,6 +9422,8 @@ z-lib.fm CNAME .
 *.z-lib.fm CNAME .
 fmovies.fo CNAME .
 *.fmovies.fo CNAME .
+cinemalux.foo CNAME .
+*.cinemalux.foo CNAME .
 kinox.foo CNAME .
 *.kinox.foo CNAME .
 streamingcommunity.foo CNAME .
@@ -12842,6 +12856,8 @@ hichemtigsetorgy.0fees.net CNAME .
 *.hichemtigsetorgy.0fees.net CNAME .
 0mag.net CNAME .
 *.0mag.net CNAME .
+111movies.net CNAME .
+*.111movies.net CNAME .
 123fox.net CNAME .
 *.123fox.net CNAME .
 123freemovies.net CNAME .
@@ -16322,6 +16338,8 @@ movieheaven.org CNAME .
 *.movieheaven.org CNAME .
 movieparadise.org CNAME .
 *.movieparadise.org CNAME .
+moviesfever.org CNAME .
+*.moviesfever.org CNAME .
 moviestreamhd.org CNAME .
 *.moviestreamhd.org CNAME .
 moviesyify.org CNAME .
@@ -17564,6 +17582,8 @@ filmstreaming1.pro CNAME .
 *.filmstreaming1.pro CNAME .
 tracker.fixr.pro CNAME .
 *.tracker.fixr.pro CNAME .
+footfy.pro CNAME .
+*.footfy.pro CNAME .
 frostcomet5.pro CNAME .
 *.frostcomet5.pro CNAME .
 frozengust85.pro CNAME .
@@ -18350,6 +18370,8 @@ boxset.ru CNAME .
 *.boxset.ru CNAME .
 braflix.ru CNAME .
 *.braflix.ru CNAME .
+bridgerton-lordserials.ru CNAME .
+*.bridgerton-lordserials.ru CNAME .
 bwtorrents.ru CNAME .
 *.bwtorrents.ru CNAME .
 carsvin.ru CNAME .
@@ -19102,6 +19124,8 @@ sportsurgev34.shop CNAME .
 *.sportsurgev34.shop CNAME .
 streamingcommunityz.shop CNAME .
 *.streamingcommunityz.shop CNAME .
+tiendaskin.shop CNAME .
+*.tiendaskin.shop CNAME .
 tviy-vybir.shop CNAME .
 *.tviy-vybir.shop CNAME .
 udderlesscowswithmilk.shop CNAME .
@@ -19534,6 +19558,8 @@ mrunlock.space CNAME .
 *.mrunlock.space CNAME .
 neufneuf.space CNAME .
 *.neufneuf.space CNAME .
+neweras8kportal.space CNAME .
+*.neweras8kportal.space CNAME .
 tracker.ololosh.space CNAME .
 *.tracker.ololosh.space CNAME .
 tracker-de.ololosh.space CNAME .
@@ -20736,6 +20762,8 @@ eurostreamings.top CNAME .
 *.eurostreamings.top CNAME .
 tracker.expli.top CNAME .
 *.tracker.expli.top CNAME .
+film2mediax.top CNAME .
+*.film2mediax.top CNAME .
 filmesonline.top CNAME .
 *.filmesonline.top CNAME .
 filmpertutti.top CNAME .
