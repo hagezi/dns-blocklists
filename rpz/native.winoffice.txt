@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771603680 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772208480 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 16:08 UTC
-; Version: 2026.0220.1608.09
+; Last modified: 27 Feb 2026 16:08 UTC
+; Version: 2026.0227.1608.11
 ; Syntax: RPZ
 ; Number of entries: 780
 ;
@@ -64,22 +64,24 @@ exo.nel.measure.office.net.sw.buhl-data.com CNAME .
 *.exo.nel.measure.office.net.sw.buhl-data.com CNAME .
 teams.nel.measure.office.net.sw.buhl-data.com CNAME .
 *.teams.nel.measure.office.net.sw.buhl-data.com CNAME .
-ecs.nel.measure.office.net.cn.intinfra.com CNAME .
-*.ecs.nel.measure.office.net.cn.intinfra.com CNAME .
-exo.nel.measure.office.net.cn.intinfra.com CNAME .
-*.exo.nel.measure.office.net.cn.intinfra.com CNAME .
-identity.nel.measure.office.net.cn.intinfra.com CNAME .
-*.identity.nel.measure.office.net.cn.intinfra.com CNAME .
-m365cdn.nel.measure.office.net.cn.intinfra.com CNAME .
-*.m365cdn.nel.measure.office.net.cn.intinfra.com CNAME .
-officehub.nel.measure.office.net.cn.intinfra.com CNAME .
-*.officehub.nel.measure.office.net.cn.intinfra.com CNAME .
-spo.nel.measure.office.net.cn.intinfra.com CNAME .
-*.spo.nel.measure.office.net.cn.intinfra.com CNAME .
-teams.nel.measure.office.net.cn.intinfra.com CNAME .
-*.teams.nel.measure.office.net.cn.intinfra.com CNAME .
-wordonline.nel.measure.office.net.cn.intinfra.com CNAME .
-*.wordonline.nel.measure.office.net.cn.intinfra.com CNAME .
+measure.office.net.cn.intinfra.com CNAME .
+*.measure.office.net.cn.intinfra.com CNAME .
+ecs.nel.measure.office.net.cz.intinfra.com CNAME .
+*.ecs.nel.measure.office.net.cz.intinfra.com CNAME .
+exo.nel.measure.office.net.cz.intinfra.com CNAME .
+*.exo.nel.measure.office.net.cz.intinfra.com CNAME .
+identity.nel.measure.office.net.cz.intinfra.com CNAME .
+*.identity.nel.measure.office.net.cz.intinfra.com CNAME .
+m365cdn.nel.measure.office.net.cz.intinfra.com CNAME .
+*.m365cdn.nel.measure.office.net.cz.intinfra.com CNAME .
+officehub.nel.measure.office.net.cz.intinfra.com CNAME .
+*.officehub.nel.measure.office.net.cz.intinfra.com CNAME .
+spo.nel.measure.office.net.cz.intinfra.com CNAME .
+*.spo.nel.measure.office.net.cz.intinfra.com CNAME .
+teams.nel.measure.office.net.cz.intinfra.com CNAME .
+*.teams.nel.measure.office.net.cz.intinfra.com CNAME .
+exo.nel.measure.office.net.in.intinfra.com CNAME .
+*.exo.nel.measure.office.net.in.intinfra.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .
@@ -786,8 +788,6 @@ wayfinderanalytics.servicebus.windows.net CNAME .
 *.wayfinderanalytics.servicebus.windows.net CNAME .
 collector.azure.microsoft.scloud CNAME .
 *.collector.azure.microsoft.scloud CNAME .
-westus-0.in.applicationinsights.azure.com.drandts.co.uk CNAME .
-*.westus-0.in.applicationinsights.azure.com.drandts.co.uk CNAME .
 dc.applicationinsights.azure.us CNAME .
 *.dc.applicationinsights.azure.us CNAME .
 in.applicationinsights.azure.us CNAME .

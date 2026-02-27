@@ -5,11 +5,12 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 06 Feb 2026 16:11 UTC
-# Version: 2026.0206.1611.24
+# Last modified: 27 Feb 2026 16:09 UTC
+# Version: 2026.0227.1609.52
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 376
+# Number of entries: 381
 #
+local=/mon-ru.tiktokv.com.blinkt.de/
 local=/frontier.byteoversea.com/
 local=/gplog-sg.byteoversea.com/
 local=/gplog-va.byteoversea.com/
@@ -40,6 +41,8 @@ local=/sgali-mcs.byteoversea.com/
 local=/sgaws-mcs.byteoversea.com/
 local=/sgee-log.byteoversea.com/
 local=/sgee-mcs.byteoversea.com/
+local=/tnc16-alisg.byteoversea.com/
+local=/tnc16-useast1a.byteoversea.com/
 local=/ug-sg.byteoversea.com/
 local=/v16-ad.byteoversea.com/
 local=/vaali-mcs.byteoversea.com/
@@ -155,6 +158,8 @@ local=/analytics-ttp2.us.tiktok.com/
 local=/mcs.us.tiktok.com/
 local=/mcs-ttp2.us.tiktok.com/
 local=/mssdk.us.tiktok.com/
+local=/p16-ad-site-sign-sg.tiktokcdn.com/
+local=/p19-ad-site-sign-sg.tiktokcdn.com/
 local=/sf16-telemetry-proxy-oci.tiktokcdn-us.com/
 local=/ad.tiktokv.com/
 local=/ad.tiktokv.us/

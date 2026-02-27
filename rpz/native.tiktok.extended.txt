@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771751580 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772208600 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Feb 2026 09:13 UTC
-; Version: 2026.0222.0913.27
+; Last modified: 27 Feb 2026 16:10 UTC
+; Version: 2026.0227.1610.44
 ; Syntax: RPZ
-; Number of entries: 1040
+; Number of entries: 1050
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -74,6 +74,10 @@ sgee-log.byteoversea.com CNAME .
 *.sgee-log.byteoversea.com CNAME .
 sgee-mcs.byteoversea.com CNAME .
 *.sgee-mcs.byteoversea.com CNAME .
+tnc16-alisg.byteoversea.com CNAME .
+*.tnc16-alisg.byteoversea.com CNAME .
+tnc16-useast1a.byteoversea.com CNAME .
+*.tnc16-useast1a.byteoversea.com CNAME .
 ug-sg.byteoversea.com CNAME .
 *.ug-sg.byteoversea.com CNAME .
 v16-ad.byteoversea.com CNAME .
@@ -300,6 +304,10 @@ mcs-ttp2.us.tiktok.com CNAME .
 *.mcs-ttp2.us.tiktok.com CNAME .
 mssdk.us.tiktok.com CNAME .
 *.mssdk.us.tiktok.com CNAME .
+p16-ad-site-sign-sg.tiktokcdn.com CNAME .
+*.p16-ad-site-sign-sg.tiktokcdn.com CNAME .
+p19-ad-site-sign-sg.tiktokcdn.com CNAME .
+*.p19-ad-site-sign-sg.tiktokcdn.com CNAME .
 sf16-ads-format-sign.tiktokcdn.com CNAME .
 *.sf16-ads-format-sign.tiktokcdn.com CNAME .
 sf19-ads-format-sign.tiktokcdn.com CNAME .
@@ -842,6 +850,8 @@ mcs-ie.tiktokw.eu.ttdns3.com CNAME .
 *.mcs-ie.tiktokw.eu.ttdns3.com CNAME .
 mcs-ie2.tiktokw.eu.ttdns3.com CNAME .
 *.mcs-ie2.tiktokw.eu.ttdns3.com CNAME .
+mon-ru.tiktokv.com.blinkt.de CNAME .
+*.mon-ru.tiktokv.com.blinkt.de CNAME .
 ad-instantpage-ttp2.tiktokv.eu CNAME .
 *.ad-instantpage-ttp2.tiktokv.eu CNAME .
 adinstantpage16-normal-useastred.tiktokv.eu CNAME .
