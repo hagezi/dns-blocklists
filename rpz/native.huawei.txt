@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771603740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772186460 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 16:09 UTC
-; Version: 2026.0220.1609.03
+; Last modified: 27 Feb 2026 10:01 UTC
+; Version: 2026.0227.1001.06
 ; Syntax: RPZ
-; Number of entries: 238
+; Number of entries: 254
 ;
 h4g3z1-native.huawei.web.app CNAME .
 *.h4g3z1-native.huawei.web.app CNAME .
@@ -22,6 +22,14 @@ browsercfg-drcn.cloud.dbankcloud.cn CNAME .
 *.browsercfg-drcn.cloud.dbankcloud.cn CNAME .
 ubacollect-drcn.cloud.dbankcloud.cn CNAME .
 *.ubacollect-drcn.cloud.dbankcloud.cn CNAME .
+connect-dra.dbankcloud.cn CNAME .
+*.connect-dra.dbankcloud.cn CNAME .
+connect-drcn.dbankcloud.cn CNAME .
+*.connect-drcn.dbankcloud.cn CNAME .
+connect-dre.dbankcloud.cn CNAME .
+*.connect-dre.dbankcloud.cn CNAME .
+connect-drru.dbankcloud.cn CNAME .
+*.connect-drru.dbankcloud.cn CNAME .
 metrics-dre.data.dbankcloud.cn CNAME .
 *.metrics-dre.data.dbankcloud.cn CNAME .
 metrics1.data.dbankcloud.cn CNAME .
@@ -44,6 +52,8 @@ metrics1-drcn.dt.dbankcloud.cn CNAME .
 *.metrics1-drcn.dt.dbankcloud.cn CNAME .
 grs.dbankcloud.cn CNAME .
 *.grs.dbankcloud.cn CNAME .
+connect-drru.hispace.dbankcloud.cn CNAME .
+*.connect-drru.hispace.dbankcloud.cn CNAME .
 adx-drcn.op.dbankcloud.cn CNAME .
 *.adx-drcn.op.dbankcloud.cn CNAME .
 events-drcn.op.dbankcloud.cn CNAME .
@@ -152,6 +162,10 @@ grs.dbankcloud.com CNAME .
 *.grs.dbankcloud.com CNAME .
 logservice1.dbankcloud.com CNAME .
 *.logservice1.dbankcloud.com CNAME .
+connect-dra.map.dbankcloud.com CNAME .
+*.connect-dra.map.dbankcloud.com CNAME .
+connect-dre.map.dbankcloud.com CNAME .
+*.connect-dre.map.dbankcloud.com CNAME .
 adx-dra.op.dbankcloud.com CNAME .
 *.adx-dra.op.dbankcloud.com CNAME .
 adx-dre.op.dbankcloud.com CNAME .
@@ -246,6 +260,8 @@ adx-dre.op.dbankcloud.com.edgekey.net CNAME .
 *.adx-dre.op.dbankcloud.com.edgekey.net CNAME .
 dt.dbankcloud.ru CNAME .
 *.dt.dbankcloud.ru CNAME .
+connect-drru.hispace.dbankcloud.ru CNAME .
+*.connect-drru.hispace.dbankcloud.ru CNAME .
 grs.platform.dbankcloud.ru CNAME .
 *.grs.platform.dbankcloud.ru CNAME .
 ads-drru.cloud.huawei.ru CNAME .

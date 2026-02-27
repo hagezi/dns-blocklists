@@ -6,13 +6,17 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 20 Feb 2026 16:09 UTC
-! Version: 2026.0220.1609.03
+! Last modified: 27 Feb 2026 10:01 UTC
+! Version: 2026.0227.1001.06
 ! Syntax: AdBlock
-! Number of entries: 119
+! Number of entries: 127
 !
 ||browsercfg-drcn.cloud.dbankcloud.cn^
 ||ubacollect-drcn.cloud.dbankcloud.cn^
+||connect-dra.dbankcloud.cn^
+||connect-drcn.dbankcloud.cn^
+||connect-dre.dbankcloud.cn^
+||connect-drru.dbankcloud.cn^
 ||metrics-dre.data.dbankcloud.cn^
 ||metrics1.data.dbankcloud.cn^
 ||dnkeeper.dbankcloud.com^
@@ -35,7 +39,11 @@
 ||grs.dbankcloud.cn^
 ||grs.dbankcloud.com^
 ||grs.dbankcloud.eu^
+||connect-drru.hispace.dbankcloud.cn^
+||connect-drru.hispace.dbankcloud.ru^
 ||logservice1.dbankcloud.com^
+||connect-dra.map.dbankcloud.com^
+||connect-dre.map.dbankcloud.com^
 ||adx-dra.op.dbankcloud.com^
 ||adx-drcn.op.dbankcloud.cn^
 ||adx-dre.op.dbankcloud.com^
