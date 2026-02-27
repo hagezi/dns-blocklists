@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772122980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772163120 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Feb 2026 16:23 UTC
-; Version: 2026.0226.1623.03
+; Last modified: 27 Feb 2026 03:32 UTC
+; Version: 2026.0227.0332.37
 ; Syntax: RPZ
-; Number of entries: 28394
+; Number of entries: 28400
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -11724,6 +11724,8 @@ mywhomeofficial.com CNAME .
 *.mywhomeofficial.com CNAME .
 mywonderfy.com CNAME .
 *.mywonderfy.com CNAME .
+myzenistitch.com CNAME .
+*.myzenistitch.com CNAME .
 nabenprada.com CNAME .
 *.nabenprada.com CNAME .
 nachhaltigeherrenmode.com CNAME .
@@ -17834,6 +17836,8 @@ zeltundschlaf.com CNAME .
 *.zeltundschlaf.com CNAME .
 zengyt.com CNAME .
 *.zengyt.com CNAME .
+zenistitch.com CNAME .
+*.zenistitch.com CNAME .
 zenniagoods.com CNAME .
 *.zenniagoods.com CNAME .
 zentempel.com CNAME .
@@ -24396,6 +24400,8 @@ mezam.dk CNAME .
 *.mezam.dk CNAME .
 smk.dog CNAME .
 *.smk.dog CNAME .
+fitgirl-repacks.download CNAME .
+*.fitgirl-repacks.download CNAME .
 start.learn-english.education CNAME .
 *.start.learn-english.education CNAME .
 gbgroup.ee CNAME .

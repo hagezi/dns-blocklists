@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772127480 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772167500 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - mini version
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Feb 2026 17:38 UTC
-; Version: 2026.0226.1738.36
+; Last modified: 27 Feb 2026 04:45 UTC
+; Version: 2026.0227.0445.09
 ; Syntax: RPZ
-; Number of entries: 92092
+; Number of entries: 92094
 ;
 789f.ac CNAME .
 *.789f.ac CNAME .
@@ -54610,6 +54610,8 @@ autohausvosdellen.de CNAME .
 *.autohausvosdellen.de CNAME .
 bacanaplay.de CNAME .
 *.bacanaplay.de CNAME .
+bdsm-shop-24.de CNAME .
+*.bdsm-shop-24.de CNAME .
 bergmanncasino.de CNAME .
 *.bergmanncasino.de CNAME .
 bestecasinoliste.de CNAME .
