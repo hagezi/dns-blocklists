@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777294560 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777308420 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Apr 2026 12:56 UTC
-; Version: 2026.0427.1256.33
+; Last modified: 27 Apr 2026 16:47 UTC
+; Version: 2026.0427.1647.24
 ; Syntax: RPZ
-; Number of entries: 104032
+; Number of entries: 104006
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -3018,30 +3018,8 @@ hanhart.cn CNAME .
 *.hanhart.cn CNAME .
 hctyzx.cn CNAME .
 *.hctyzx.cn CNAME .
-app-google-zh.hl.cn CNAME .
-*.app-google-zh.hl.cn CNAME .
-apps-chrome-zh.hl.cn CNAME .
-*.apps-chrome-zh.hl.cn CNAME .
-chrome-gooogle-zh.hl.cn CNAME .
-*.chrome-gooogle-zh.hl.cn CNAME .
-chrome-hl.hl.cn CNAME .
-*.chrome-hl.hl.cn CNAME .
-cnzh-google-apps.hl.cn CNAME .
-*.cnzh-google-apps.hl.cn CNAME .
-go-todesk.hl.cn CNAME .
-*.go-todesk.hl.cn CNAME .
-googgle-chrrome.hl.cn CNAME .
-*.googgle-chrrome.hl.cn CNAME .
-google-chrrome-zh.hl.cn CNAME .
-*.google-chrrome-zh.hl.cn CNAME .
-office-wps-hl.hl.cn CNAME .
-*.office-wps-hl.hl.cn CNAME .
-todesk-zh.hl.cn CNAME .
-*.todesk-zh.hl.cn CNAME .
-zh-googlle-chrome.hl.cn CNAME .
-*.zh-googlle-chrome.hl.cn CNAME .
-zhcn-googele.hl.cn CNAME .
-*.zhcn-googele.hl.cn CNAME .
+hl.cn CNAME .
+*.hl.cn CNAME .
 hologramid.cn CNAME .
 *.hologramid.cn CNAME .
 huadasp.cn CNAME .
@@ -23610,6 +23588,8 @@ cmvrclicks000.com CNAME .
 *.cmvrclicks000.com CNAME .
 cmzdm.com CNAME .
 *.cmzdm.com CNAME .
+tudthrone.cn.com CNAME .
+*.tudthrone.cn.com CNAME .
 cn-idm.com CNAME .
 *.cn-idm.com CNAME .
 cn846.com CNAME .
@@ -67946,8 +67926,6 @@ urtirepor.com CNAME .
 *.urtirepor.com CNAME .
 urtyert.com CNAME .
 *.urtyert.com CNAME .
-checkedtakemyclassonline.us.com CNAME .
-*.checkedtakemyclassonline.us.com CNAME .
 us-aliexpress.com CNAME .
 *.us-aliexpress.com CNAME .
 us0704.com CNAME .
@@ -90832,12 +90810,8 @@ iw.banglecoiners.shop CNAME .
 *.iw.banglecoiners.shop CNAME .
 barmingorrhoid.shop CNAME .
 *.barmingorrhoid.shop CNAME .
-chiyouranai.base.shop CNAME .
-*.chiyouranai.base.shop CNAME .
-tokujiro.base.shop CNAME .
-*.tokujiro.base.shop CNAME .
-uranai1111.base.shop CNAME .
-*.uranai1111.base.shop CNAME .
+base.shop CNAME .
+*.base.shop CNAME .
 bavettefiglike.shop CNAME .
 *.bavettefiglike.shop CNAME .
 beckonindoin.shop CNAME .
