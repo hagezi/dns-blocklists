@@ -98,7 +98,7 @@ jobs:
           done
           echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
       - name: Purge CDN cache
-        uses: egad13/purge-jsdelivr-cache@v1.1.0
+        uses: kaycodes13/purge-jsdelivr-cache@v1.1.0
         with:
           url: ${{ steps.purge_urls.outputs.urls }}
     needs: [release, close-issues, relabel-issues]
