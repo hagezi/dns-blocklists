@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777275300 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777294560 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Apr 2026 07:35 UTC
-; Version: 2026.0427.0735.48
+; Last modified: 27 Apr 2026 12:56 UTC
+; Version: 2026.0427.1256.33
 ; Syntax: RPZ
-; Number of entries: 104004
+; Number of entries: 104032
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -3018,8 +3018,30 @@ hanhart.cn CNAME .
 *.hanhart.cn CNAME .
 hctyzx.cn CNAME .
 *.hctyzx.cn CNAME .
-hl.cn CNAME .
-*.hl.cn CNAME .
+app-google-zh.hl.cn CNAME .
+*.app-google-zh.hl.cn CNAME .
+apps-chrome-zh.hl.cn CNAME .
+*.apps-chrome-zh.hl.cn CNAME .
+chrome-gooogle-zh.hl.cn CNAME .
+*.chrome-gooogle-zh.hl.cn CNAME .
+chrome-hl.hl.cn CNAME .
+*.chrome-hl.hl.cn CNAME .
+cnzh-google-apps.hl.cn CNAME .
+*.cnzh-google-apps.hl.cn CNAME .
+go-todesk.hl.cn CNAME .
+*.go-todesk.hl.cn CNAME .
+googgle-chrrome.hl.cn CNAME .
+*.googgle-chrrome.hl.cn CNAME .
+google-chrrome-zh.hl.cn CNAME .
+*.google-chrrome-zh.hl.cn CNAME .
+office-wps-hl.hl.cn CNAME .
+*.office-wps-hl.hl.cn CNAME .
+todesk-zh.hl.cn CNAME .
+*.todesk-zh.hl.cn CNAME .
+zh-googlle-chrome.hl.cn CNAME .
+*.zh-googlle-chrome.hl.cn CNAME .
+zhcn-googele.hl.cn CNAME .
+*.zhcn-googele.hl.cn CNAME .
 hologramid.cn CNAME .
 *.hologramid.cn CNAME .
 huadasp.cn CNAME .
@@ -30134,6 +30156,8 @@ eclkmpbn.com CNAME .
 *.eclkmpbn.com CNAME .
 eclkmpsa.com CNAME .
 *.eclkmpsa.com CNAME .
+ecomicrolab.com CNAME .
+*.ecomicrolab.com CNAME .
 ecommercecall.com CNAME .
 *.ecommercecall.com CNAME .
 economicalathlete.com CNAME .
@@ -90808,8 +90832,12 @@ iw.banglecoiners.shop CNAME .
 *.iw.banglecoiners.shop CNAME .
 barmingorrhoid.shop CNAME .
 *.barmingorrhoid.shop CNAME .
-base.shop CNAME .
-*.base.shop CNAME .
+chiyouranai.base.shop CNAME .
+*.chiyouranai.base.shop CNAME .
+tokujiro.base.shop CNAME .
+*.tokujiro.base.shop CNAME .
+uranai1111.base.shop CNAME .
+*.uranai1111.base.shop CNAME .
 bavettefiglike.shop CNAME .
 *.bavettefiglike.shop CNAME .
 beckonindoin.shop CNAME .
