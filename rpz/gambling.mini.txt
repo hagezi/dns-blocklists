@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777194540 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777257780 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - mini version
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Apr 2026 09:09 UTC
-; Version: 2026.0426.0909.30
+; Last modified: 27 Apr 2026 02:43 UTC
+; Version: 2026.0427.0243.37
 ; Syntax: RPZ
-; Number of entries: 96514
+; Number of entries: 96512
 ;
 789f.ac CNAME .
 *.789f.ac CNAME .
@@ -16474,8 +16474,6 @@ casinoonline-suisse.ch CNAME .
 *.casinoonline-suisse.ch CNAME .
 casinoroulette.ch CNAME .
 *.casinoroulette.ch CNAME .
-casinotipp.ch CNAME .
-*.casinotipp.ch CNAME .
 casombiecasino-ch.ch CNAME .
 *.casombiecasino-ch.ch CNAME .
 casumo-casino.ch CNAME .
