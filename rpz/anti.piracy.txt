@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777309320 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777367580 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Apr 2026 17:02 UTC
-; Version: 2026.0427.1702.05
+; Last modified: 28 Apr 2026 09:13 UTC
+; Version: 2026.0428.0913.36
 ; Syntax: RPZ
-; Number of entries: 24808
+; Number of entries: 24812
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -2398,6 +2398,8 @@ kinox.club CNAME .
 *.kinox.club CNAME .
 kkiste.club CNAME .
 *.kkiste.club CNAME .
+limontorrents.club CNAME .
+*.limontorrents.club CNAME .
 megacloud.club CNAME .
 *.megacloud.club CNAME .
 megakino1.club CNAME .
@@ -19214,6 +19216,8 @@ hdmovie2.reise CNAME .
 *.hdmovie2.reise CNAME .
 vegamovies.reise CNAME .
 *.vegamovies.reise CNAME .
+dontorrent.reisen CNAME .
+*.dontorrent.reisen CNAME .
 hdmovie2.reisen CNAME .
 *.hdmovie2.reisen CNAME .
 tantifilm.reisen CNAME .
