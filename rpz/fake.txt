@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777448280 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777482720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Apr 2026 07:38 UTC
-; Version: 2026.0429.0738.23
+; Last modified: 29 Apr 2026 17:12 UTC
+; Version: 2026.0429.1712.06
 ; Syntax: RPZ
-; Number of entries: 28874
+; Number of entries: 28870
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -7842,8 +7842,6 @@ govern1.com CNAME .
 *.govern1.com CNAME .
 gpslocatorphone.com CNAME .
 *.gpslocatorphone.com CNAME .
-gpt-definity.com CNAME .
-*.gpt-definity.com CNAME .
 gpt-immediate.com CNAME .
 *.gpt-immediate.com CNAME .
 grabpillsusa.com CNAME .
@@ -25686,8 +25684,6 @@ fastigeriptv.live CNAME .
 *.fastigeriptv.live CNAME .
 fintechnews.live CNAME .
 *.fintechnews.live CNAME .
-granimator.live CNAME .
-*.granimator.live CNAME .
 mydealz.live CNAME .
 *.mydealz.live CNAME .
 pillsshop.live CNAME .

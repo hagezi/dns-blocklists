@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777454400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777482300 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Apr 2026 09:20 UTC
-; Version: 2026.0429.0920.19
+; Last modified: 29 Apr 2026 17:05 UTC
+; Version: 2026.0429.1705.02
 ; Syntax: RPZ
-; Number of entries: 24818
+; Number of entries: 24822
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -9602,6 +9602,8 @@ streamingcommunityz.enterprises CNAME .
 *.streamingcommunityz.enterprises CNAME .
 vegamovies.enterprises CNAME .
 *.vegamovies.enterprises CNAME .
+hdmovie2.equipment CNAME .
+*.hdmovie2.equipment CNAME .
 alldebrid.es CNAME .
 *.alldebrid.es CNAME .
 animebyt.es CNAME .
@@ -20154,6 +20156,8 @@ xuyadong.sbs CNAME .
 *.123movies.sc CNAME .
 123movieshub.sc CNAME .
 *.123movieshub.sc CNAME .
+cineby.sc CNAME .
+*.cineby.sc CNAME .
 cricfree.sc CNAME .
 *.cricfree.sc CNAME .
 crichd.sc CNAME .
