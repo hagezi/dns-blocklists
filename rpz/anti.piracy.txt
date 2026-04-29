@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777367580 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777454400 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Apr 2026 09:13 UTC
-; Version: 2026.0428.0913.36
+; Last modified: 29 Apr 2026 09:20 UTC
+; Version: 2026.0429.0920.19
 ; Syntax: RPZ
-; Number of entries: 24812
+; Number of entries: 24818
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -13766,6 +13766,8 @@ frembed.my CNAME .
 *.frembed.my CNAME .
 hdfilme.my CNAME .
 *.hdfilme.my CNAME .
+hdfilme-de.my CNAME .
+*.hdfilme-de.my CNAME .
 hdfilme-to.my CNAME .
 *.hdfilme-to.my CNAME .
 hdmovie2.my CNAME .
@@ -20866,6 +20868,8 @@ unblockproject.space CNAME .
 *.unblockproject.space CNAME .
 vdiiy.space CNAME .
 *.vdiiy.space CNAME .
+vito-tracker.space CNAME .
+*.vito-tracker.space CNAME .
 9kmovies.spot CNAME .
 *.9kmovies.spot CNAME .
 hdmovie2.spot CNAME .
@@ -21284,6 +21288,8 @@ serienjunkies.team CNAME .
 *.serienjunkies.team CNAME .
 seriesflix.team CNAME .
 *.seriesflix.team CNAME .
+streaming-community.team CNAME .
+*.streaming-community.team CNAME .
 bookfinder.tech CNAME .
 *.bookfinder.tech CNAME .
 bookorg.tech CNAME .
