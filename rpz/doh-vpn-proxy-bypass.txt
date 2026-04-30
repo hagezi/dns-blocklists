@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777454820 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777541280 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Apr 2026 09:27 UTC
-; Version: 2026.0429.0927.05
+; Last modified: 30 Apr 2026 09:28 UTC
+; Version: 2026.0430.0928.53
 ; Syntax: RPZ
-; Number of entries: 38180
+; Number of entries: 38190
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -319,6 +319,8 @@ proxifi.app CNAME .
 *.proxifi.app CNAME .
 proxybrowser.app CNAME .
 *.proxybrowser.app CNAME .
+proxycell.app CNAME .
+*.proxycell.app CNAME .
 proxyshare.app CNAME .
 *.proxyshare.app CNAME .
 purejsq.app CNAME .
@@ -24331,6 +24333,8 @@ alumn.tests.bad.mn CNAME .
 *.alumn.tests.bad.mn CNAME .
 hide.mn CNAME .
 *.hide.mn CNAME .
+crawler.mobi CNAME .
+*.crawler.mobi CNAME .
 fiberproxy.mobi CNAME .
 *.fiberproxy.mobi CNAME .
 metrovpn.mobi CNAME .
@@ -28907,6 +28911,8 @@ dns.pari.network CNAME .
 *.dns.pari.network CNAME .
 privacy.network CNAME .
 *.privacy.network CNAME .
+proxyshare.network CNAME .
+*.proxyshare.network CNAME .
 spide.network CNAME .
 *.spide.network CNAME .
 streamr.network CNAME .
@@ -36669,6 +36675,8 @@ dns.dotnet.win CNAME .
 *.dns.dotnet.win CNAME .
 fasti.win CNAME .
 *.fasti.win CNAME .
+fastproxy.win CNAME .
+*.fastproxy.win CNAME .
 fkey.win CNAME .
 *.fkey.win CNAME .
 hk154.flyzhouyc.win CNAME .
@@ -37855,6 +37863,8 @@ tujenasnaszato.xyz CNAME .
 *.tujenasnaszato.xyz CNAME .
 adguard.twotigers.xyz CNAME .
 *.adguard.twotigers.xyz CNAME .
+u2dpn.xyz CNAME .
+*.u2dpn.xyz CNAME .
 unblock2.xyz CNAME .
 *.unblock2.xyz CNAME .
 unblockedsite.xyz CNAME .

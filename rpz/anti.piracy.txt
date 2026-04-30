@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1777482300 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1777540920 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Apr 2026 17:05 UTC
-; Version: 2026.0429.1705.02
+; Last modified: 30 Apr 2026 09:22 UTC
+; Version: 2026.0430.0922.32
 ; Syntax: RPZ
-; Number of entries: 24822
+; Number of entries: 24828
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -10360,6 +10360,8 @@ vediq.fun CNAME .
 *.vediq.fun CNAME .
 videqc.fun CNAME .
 *.videqc.fun CNAME .
+vidzen.fun CNAME .
+*.vidzen.fun CNAME .
 vodiy.fun CNAME .
 *.vodiy.fun CNAME .
 vudiy.fun CNAME .
@@ -13686,6 +13688,8 @@ hdmovie2.moscow CNAME .
 *.hdmovie2.moscow CNAME .
 streamingcommunityz.motorcycles CNAME .
 *.streamingcommunityz.motorcycles CNAME .
+1filmyfly.mov CNAME .
+*.1filmyfly.mov CNAME .
 9kmovies.mov CNAME .
 *.9kmovies.mov CNAME .
 coflix.mov CNAME .
@@ -20304,6 +20308,8 @@ redacted.sh CNAME .
 *.redacted.sh CNAME .
 soap2day.sh CNAME .
 *.soap2day.sh CNAME .
+streamex.sh CNAME .
+*.streamex.sh CNAME .
 tb-cdn.sh CNAME .
 *.tb-cdn.sh CNAME .
 torrent9.sh CNAME .
