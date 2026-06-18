@@ -17,7 +17,7 @@ jobs:
     if: contains(github.event.head_commit.message, 'release')
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Generate release tag
         run: |
           repo_version=$(printf '%o' "$(date -u +"%Y")")$(date +'%Y.%-j').$((`date +%s` % 86400 ))
@@ -52,7 +52,7 @@ jobs:
     needs: [release, close-issues]
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 2
 
