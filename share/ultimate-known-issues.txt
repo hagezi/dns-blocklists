@@ -1,0 +1,271 @@
+# Paramount+ - Streaming/Continue watching
+# Bild.de - Adblock-Detection
+# PlutoTV US
+tags.tiqcdn.com
+
+# PlutoTV US
+a-fds.youborafds01.com
+
+# Bild.de - Adblock-Detection
+ast.bild.de.greylabeldelivery.com
+cdn.opecloud.com
+www.asadcdn.com
+
+# Telekom MagentaCloud - Login
+tags-eu.tiqcdn.com
+
+# n-tv app: When blocked, a video starts again after a few seconds
+# 11/2025: The problem no longer exists.
+# ad-ipd.sxp.smartclip.net
+# des.smartclip.net
+# te.technical-service.net
+# te2.technical-service.net
+# te.ip-prod.aws-cbc.cloud
+
+# CMP - Breaks some Apps/Sites
+fundingchoices.google.com
+fundingchoicesmessages.google.com
+
+# Needed for additional Google Assistant downloads on Android
+# Required to download Pixel Studio AI models
+# Reason for blocking: https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2571513897
+geller-pa.googleapis.com
+
+# Only required on Android for initial use after installing Google Assistant and Gemini.
+# No known problems under iOS.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2586009150
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2588346367
+footprints-pa.googleapis.com
+
+# May interfere with some apps on Android, not confirmed.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-2590327413
+# Needed for speech-to-text with the Gboard keyboard on Galaxy smart watch.
+# https://github.com/hagezi/dns-blocklists/issues/2900#issuecomment-3478793925
+voilatile-pa.googleapis.com
+
+# Google API for geo-location through cell towers and Wi-Fi access points to determine device location.
+# https://github.com/hagezi/dns-blocklists/issues/6959
+# Prevents Android devices from automatically updating their timezone when roaming/travelling.
+# Needed for Google Timeline
+# https://github.com/hagezi/dns-blocklists/issues/7981
+# In some configurations or regions, blocking causes Google Maps to not provide current GPS data. Not reproducible on mass scale.
+userlocation.googleapis.com
+
+# Perplexity model selection on Android. The problem does not occur under iOS.
+# https://github.com/hagezi/dns-blocklists/issues/6664
+# Breaks search on booksy.com
+# https://github.com/hagezi/dns-blocklists/issues/7579#issuecomment-3479258974
+fscdn.eppo.cloud
+
+# NFL app iOS/Android gets stuck on the start screen
+# Related to tracking services.
+conduit.redfast.com
+# https://github.com/hagezi/dns-blocklists/issues/8537
+# sedge.nfl.com
+ht4t7b8mjz.data.adobedc.net
+
+# Required for Xioami Find Device
+# https://github.com/hagezi/dns-blocklists/issues/7309
+cn.find.api.micloud.xiaomi.net
+eu.find.api.micloud.xiaomi.net
+in.find.api.micloud.xiaomi.net
+us.find.api.micloud.xiaomi.net
+us2.find.api.micloud.xiaomi.net
+
+# Collect streaming quality data (such as buffering events, 
+# playback smoothness, and video segment timings).
+# Blocking this domain has led to devices spamming the DNS resolver with requests 
+# every few seconds, which can disrupt normal streaming device functions 
+# or cause buffering issues for some services.
+youboranqs01.com
+
+# dmax.de - consent
+www.googletagmanager.com
+
+# Videos on various sites (CNN, Time, ...)
+c.amazon-adsystem.com
+
+# Various Apps on Android (TomTom, …)
+# Not reproducible
+device-api.asnapieu.com
+
+# Perplexcity freezes randomly.
+# https://github.com/hagezi/dns-blocklists/issues/8956
+fscdn.eppo.cloud
+
+# Restricts functionality on various pages, e.g. https://www.businesstimes.com.sg/breaking-news
+# https://github.com/hagezi/dns-blocklists/issues/9074
+# https://duckduckgo.github.io/tracker-radar-wiki/domains/posthog.com.html
+i.posthog.com
+
+# Ad-Shield: Some websites may break when blocked at the DNS level.
+# Unblocking these domains can restore functionality but will allow ads on affected pages.
+# If unblocked, use a browser-based ad blocker to filter ads.
+# Ad-Shield domain list:
+# https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/share/ad-shield.txt
+# The domain below may need to be unblocked for certain "Ad-Shield contaminated" sites to work properly:
+adshield-fallback-dev-wskxz.b-cdn.net
+adshield-fallback-staging-yp6cs.b-cdn.net
+# *.html-load.com
+0.fb.html-load.com
+0.fb.stg.html-load.com
+0.html-load.com
+0.s.html-load.com
+0.stg.html-load.com
+0.v.html-load.com
+0.v.s.html-load.com
+0.v.stg.html-load.com
+1.fb.html-load.com
+1.fb.stg.html-load.com
+1.html-load.com
+1.s.html-load.com
+1.stg.html-load.com
+1.v.html-load.com
+1.v.s.html-load.com
+1.v.stg.html-load.com
+2.fb.stg.html-load.com
+2.html-load.com
+2.s.html-load.com
+2.stg.html-load.com
+2.v.html-load.com
+2.v.s.html-load.com
+2.v.stg.html-load.com
+3.fb.stg.html-load.com
+3.html-load.com
+3.s.html-load.com
+3.stg.html-load.com
+3.v.html-load.com
+3.v.s.html-load.com
+3.v.stg.html-load.com
+4.fb.stg.html-load.com
+4.html-load.com
+4.s.html-load.com
+4.stg.html-load.com
+4.v.html-load.com
+4.v.s.html-load.com
+4.v.stg.html-load.com
+5.fb.stg.html-load.com
+5.html-load.com
+5.s.html-load.com
+5.stg.html-load.com
+5.v.html-load.com
+5.v.s.html-load.com
+5.v.stg.html-load.com
+6.fb.stg.html-load.com
+6.html-load.com
+6.s.html-load.com
+6.stg.html-load.com
+6.v.html-load.com
+6.v.s.html-load.com
+6.v.stg.html-load.com
+7.fb.stg.html-load.com
+7.html-load.com
+7.s.html-load.com
+7.stg.html-load.com
+7.v.html-load.com
+7.v.s.html-load.com
+7.v.stg.html-load.com
+8.fb.stg.html-load.com
+8.html-load.com
+8.s.html-load.com
+8.stg.html-load.com
+8.v.html-load.com
+8.v.s.html-load.com
+8.v.stg.html-load.com
+9.fb.stg.html-load.com
+9.html-load.com
+9.s.html-load.com
+9.stg.html-load.com
+9.v.html-load.com
+9.v.s.html-load.com
+9.v.stg.html-load.com
+fb.html-load.com
+fb.stg.html-load.com
+html-load.com
+s.html-load.com
+stg.html-load.com
+v.html-load.com
+v.s.html-load.com
+v.stg.html-load.com
+# *.content-loader.com
+0.content-loader.com
+0.fb.content-loader.com
+0.fb.stg.content-loader.com
+0.stg.content-loader.com
+0.v.content-loader.com
+1.content-loader.com
+1.fb.content-loader.com
+1.fb.stg.content-loader.com
+1.stg.content-loader.com
+1.v.content-loader.com
+2.content-loader.com
+2.fb.content-loader.com
+2.fb.stg.content-loader.com
+2.stg.content-loader.com
+2.v.content-loader.com
+3.content-loader.com
+3.fb.content-loader.com
+3.fb.stg.content-loader.com
+3.stg.content-loader.com
+3.v.content-loader.com
+4.content-loader.com
+4.fb.content-loader.com
+4.fb.stg.content-loader.com
+4.stg.content-loader.com
+4.v.content-loader.com
+5.content-loader.com
+5.fb.content-loader.com
+5.fb.stg.content-loader.com
+5.stg.content-loader.com
+5.v.content-loader.com
+6.content-loader.com
+6.fb.content-loader.com
+6.fb.stg.content-loader.com
+6.stg.content-loader.com
+6.v.content-loader.com
+7.content-loader.com
+7.fb.content-loader.com
+7.fb.stg.content-loader.com
+7.stg.content-loader.com
+7.v.content-loader.com
+8.content-loader.com
+8.fb.content-loader.com
+8.fb.stg.content-loader.com
+8.stg.content-loader.com
+8.v.content-loader.com
+9.content-loader.com
+9.fb.content-loader.com
+9.fb.stg.content-loader.com
+9.stg.content-loader.com
+9.v.content-loader.com
+content-loader.com
+fb.content-loader.com
+fb.stg.content-loader.com
+stg.content-loader.com
+# *.css-load.com
+css-load.com
+# *.video-loads.com
+0.video-loads.com
+1.video-loads.com
+2.video-loads.com
+3.video-loads.com
+4.video-loads.com
+5.video-loads.com
+6.video-loads.com
+7.video-loads.com
+8.video-loads.com
+9.video-loads.com
+video-loads.com
+
+# BBC Videos - https://www.bbc.com/video
+pub.doubleverify.com
+
+# CNBC
+# https://github.com/hagezi/dns-blocklists/issues/11042
+buy.tinypass.com
+c2.piano.io
+cdn.tinypass.com
+experience.piano.io
+
+# Adblock-Detection on various sites - e.g. pcwelt.de (Admiral)
+dt.adsafeprotected.com

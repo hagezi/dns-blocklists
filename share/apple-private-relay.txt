@@ -1,0 +1,36 @@
+# Apple Private Relay
+mask.apple-dns.net
+africa-mask.wrr.mask.apple-dns.net
+apac-mask.wrr.mask.apple-dns.net
+canary.mask.apple-dns.net
+emea-mask.wrr.mask.apple-dns.net
+north-america-mask.wrr.mask.apple-dns.net
+south-america-mask.wrr.mask.apple-dns.net
+wrr.mask.apple-dns.net
+
+mask.icloud.com
+mask-h2.icloud.com
+
+mask-boot.icloud.com
+mask-canary.icloud.com
+
+# Apple DNS-over-HTTPS
+doh.dns.apple.com
+doh.dns.apple.com.v.aaplimg.com
+
+# Apple Intelligence, Siri
+# https://support.apple.com/en-us/101555
+# https://github.com/hagezi/dns-blocklists/issues/5737#issuecomment-2771431741
+apple-relay.akamaized.net
+apple-relay.apple.com
+apple-relay.cloudflare.com
+apple-relay.fastly-edge.com
+# CNAME for apple-relay.apple.com
+apple-relay.mask.apple-dns.net
+# https://github.com/hagezi/dns-blocklists/issues/6090
+mask-api.icloud.com
+# CNAME
+mask-api.fe2.apple-dns.net
+
+# https://github.com/hagezi/dns-blocklists/issues/6422
+apple-carry-relay.cloudflare.com

@@ -1,0 +1,120 @@
+# Title: HaGeZi's Apple Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Apple native trackers baked into devices, services, and operating systems that quietly track what you do.
+# Homepage: https://github.com/hagezi/dns-blocklists
+# License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+# Issues: https://github.com/hagezi/dns-blocklists/issues
+# Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
+# Expires: 8 hours
+# Last modified: 31 Aug 2026 18:36 UTC
+# Version: 2026.0831.1836.12
+# Syntax: DNSMasq v2.86 or newer
+# Number of entries: 108
+#
+local=/cstat.g.aaplimg.com/
+local=/diagassets.g.aaplimg.com/
+local=/cdn-xp-ingest-ab.v.aaplimg.com/
+local=/iphonesubmissions.v.aaplimg.com/
+local=/prod-event-relay-api.v.aaplimg.com/
+local=/prod-event-relay-books-api.v.aaplimg.com/
+local=/prod-event-relay-notes-api.v.aaplimg.com/
+local=/prod-event-relay-sports-api.v.aaplimg.com/
+local=/prod-event-relay-stocks-api.v.aaplimg.com/
+local=/prod-event-relay-weather-api.v.aaplimg.com/
+local=/prod-news-notification-events.v.aaplimg.com/
+local=/securemetrics.v.aaplimg.com/
+local=/securemetrics-cn.v.aaplimg.com/
+local=/securemvt.v.aaplimg.com/
+local=/smoot-feedback.v.aaplimg.com/
+local=/supportmetrics.v.aaplimg.com/
+local=/xp.v.aaplimg.com/
+local=/ab.apple.com.akadns.net/
+local=/diagassets-lb.apple.com.akadns.net/
+local=/diagnostics.apple.com.akadns.net/
+local=/iadcontent-lb.apple.com.akadns.net/
+local=/iadsdk.apple.com.akadns.net/
+local=/idiagnostics.apple.com.akadns.net/
+local=/iphonesubmissions.apple.com.akadns.net/
+local=/radarsubmissions.apple.com.akadns.net/
+local=/partiality.itunes-apple.com.akadns.net/
+local=/searchads.lb-apple.com.akadns.net/
+local=/iad-apple.com.akadns.net/
+local=/partiality.itunes.apple.com/
+local=/msc-dct-prod.msc.apple.com/
+local=/fbs.smoot.apple.com/
+local=/ads.apple.com/
+local=/advertising.apple.com/
+local=/advp.apple.com/
+local=/analytics-events.apple.com/
+local=/api-adservices.apple.com/
+local=/books-analytics-events.apple.com/
+local=/cstat.apple.com/
+local=/cstat-origin.apple.com/
+local=/databeacon.apple.com/
+local=/datacollection.apple.com/
+local=/diagassets.apple.com/
+local=/diagnostics.apple.com/
+local=/dz1dt3wqswdezgx4j2ryem5iad.apple.com/
+local=/experiments.apple.com/
+local=/flirfvysba2opz0zmzqs5iuiad.apple.com/
+local=/graffiti-tags.apple.com/
+local=/iad.apple.com/
+local=/iadcontent.apple.com/
+local=/iadmoo.apple.com/
+local=/iadsdk.apple.com/
+local=/iadworkbench.apple.com/
+local=/idiagnostics.apple.com/
+local=/idiagnostics-mdn1.apple.com/
+local=/internalcheck.apple.com/
+local=/iphonesubmissions.apple.com/
+local=/iphonesubmissions-old.apple.com/
+local=/launch.apple.com/
+local=/metrics.apple.com/
+local=/news-analytics-events.apple.com/
+local=/news-app-events.apple.com/
+local=/news-events.apple.com/
+local=/news-notification-events.apple.com/
+local=/news-sports-events.apple.com/
+local=/notes-analytics-events.apple.com/
+local=/odin-signals.apple.com/
+local=/performance-partners.apple.com/
+local=/phonesubmissions.apple.com/
+local=/podcasts-analytics-events.apple.com/
+local=/prd-usw2-requestattribution-iad.apple.com/
+local=/proxy-skadnetwork.apple.com/
+local=/radarsubmissions.apple.com/
+local=/searchads.apple.com/
+local=/securemetrics.apple.com/
+local=/securemvt.apple.com/
+local=/stocks-analytics-events.apple.com/
+local=/supportmetrics.apple.com/
+local=/tv-analytics-events.apple.com/
+local=/weather-analytics-events.apple.com/
+local=/xp.apple.com/
+local=/xp-cdn.apple.com/
+local=/feedbackws.fe.apple-dns.cn/
+local=/feedbackws.fe.apple-dns.net/
+local=/feedbackws.fe2.apple-dns.net/
+local=/books-analytics-events.news.apple-dns.net/
+local=/notes-analytics-events.news.apple-dns.net/
+local=/stocks-analytics-events.news.apple-dns.net/
+local=/weather-analytics-events.news.apple-dns.net/
+local=/me.apple-dns.net/
+local=/cstat.cdn-apple.com/
+local=/securemetrics.apple.com.cn/
+local=/feedbackws.icloud.com.cn/
+local=/cdn-xp-ingest.edge.apple/
+local=/partiality.itunes.apple.com.edgekey.net/
+local=/experiments.apple.com.edgekey.net/
+local=/iadsdk.apple.com.edgekey.net/
+local=/xp.apple.com.edgekey.net/
+local=/cstat.apple.com.edgesuite.net/
+local=/searchads.apple.com.edgesuite.net/
+local=/acfeedbackws.icloud.com/
+local=/feedbackws.icloud.com/
+local=/metrics.icloud.com/
+local=/metrics.mzstatic.com/
+local=/marketing.services.apple/
+local=/beacon.shazam.com/
+local=/h4g3z1-native.apple.web.app/
+local=/applemediaservices.com/
+local=/qwapi.com/

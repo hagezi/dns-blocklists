@@ -1,0 +1,115 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  actions: write
+  contents: write
+  issues: write
+  pull-requests: write
+  
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'release')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Generate release tag
+        run: |
+          repo_version=$(printf '%o' "$(date -u +"%Y")")$(date +'%Y.%-j').$((`date +%s` % 86400 ))
+          echo "release_tag=$repo_version" >> $GITHUB_ENV
+      - name: Generate issue list
+        run: echo "issue_list=$(gh issue list -l fixed-pending-release  | cut -f1 | sed 's/^/#/' | sed 's/$/ /' | tr -d '\n\t\r')" >> $GITHUB_ENV
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+      - name: Create release
+        uses: ncipollo/release-action@v1.21.0
+        with:
+          tag: ${{ env.release_tag }}
+          name: ${{ env.release_tag }}
+          body: ${{ env.issue_list }}
+          
+  close-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close fixed issues
+        uses: gcampbell-msft/fixed-pending-release@main
+        with:
+          token: ${{ github.token }}
+          label: fixed-pending-release
+          removeLabel: true
+          applyToAll: true
+          message: "This issue has been fixed in release [${releaseTag}](${releaseUrl})"
+    needs: release
+
+  purge:
+    runs-on: ubuntu-latest
+    needs: [release, close-issues]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+
+      - name: Determine changed URLs to purge
+        id: purge_urls
+        shell: bash
+        run: |
+          base="https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest"
+
+          mapfile -t files < <(
+            git diff --name-only HEAD^ HEAD -- \
+              adblock adguard controld dnsmasq domains hosts ips rpz share wildcard \
+            | grep -E '\.(txt|pac|json)$' || true
+          )
+
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "urls=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          printf 'urls=' >> "$GITHUB_OUTPUT"
+          printf '%s\n' "${files[@]}" | sed "s#^#${base}/#" | paste -sd, - >> "$GITHUB_OUTPUT"
+
+      - name: Wait before CDN purge
+        if: steps.purge_urls.outputs.urls != ''
+        run: sleep 240
+        shell: bash
+        
+      - name: Purge CDN cache
+        if: steps.purge_urls.outputs.urls != ''
+        uses: hagezi/purge-jsdelivr-cache@v1.1.1
+        continue-on-error: true
+        with:
+          url: ${{ steps.purge_urls.outputs.urls }}
+          attempts: 5
+          
+  release-cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old releases
+        uses: sgpublic/delete-release-action@v1.2
+        with:
+          release-drop: true
+          release-keep-count: 0
+          release-drop-tag: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+    needs: [release, close-issues, purge]
+    
+  workflow-cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2.1
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 0
+    needs: [release, close-issues, purge, release-cleanup]
