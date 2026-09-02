@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788315420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788333180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Sep 2026 02:17 UTC
-; Version: 2026.0902.0217.25
+; Last modified: 02 Sep 2026 07:13 UTC
+; Version: 2026.0902.0713.45
 ; Syntax: RPZ
-; Number of entries: 19748
+; Number of entries: 19744
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3247,8 +3247,6 @@ aimetath.com CNAME .
 *.aimetath.com CNAME .
 aimqr.com CNAME .
 *.aimqr.com CNAME .
-aintok.com CNAME .
-*.aintok.com CNAME .
 airrlink.com CNAME .
 *.airrlink.com CNAME .
 docs.airship.com CNAME .
@@ -3283,8 +3281,6 @@ aliasurlshortener.com CNAME .
 *.aliasurlshortener.com CNAME .
 alice-w.com CNAME .
 *.alice-w.com CNAME .
-alicedeals.com CNAME .
-*.alicedeals.com CNAME .
 alien-traffic.com CNAME .
 *.alien-traffic.com CNAME .
 alientraffic.com CNAME .

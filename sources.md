@@ -296,7 +296,6 @@ https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynami
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Free
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Wild_Tunnel
-https://raw.githubusercontent.com/cbuijs/public-dns/main/domains.list
 https://raw.githubusercontent.com/cbuijs/ut1/master/vpn/domains
 https://raw.githubusercontent.com/clsfo/reflect4-blocklist/refs/heads/main/reflect4_domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt

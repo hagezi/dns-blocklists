@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788320640 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788338340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Sep 2026 03:44 UTC
-; Version: 2026.0902.0344.28
+; Last modified: 02 Sep 2026 08:39 UTC
+; Version: 2026.0902.0839.58
 ; Syntax: RPZ
-; Number of entries: 6706
+; Number of entries: 6696
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3609,8 +3609,6 @@ per.adfilter.net CNAME .
 *.per.adfilter.net CNAME .
 syd.adfilter.net CNAME .
 *.syd.adfilter.net CNAME .
-affcdn.net CNAME .
-*.affcdn.net CNAME .
 ahadns.net CNAME .
 *.ahadns.net CNAME .
 dns.airns.net CNAME .
@@ -3635,14 +3633,8 @@ odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
 odoh-target-noads.alekberg.net CNAME .
 *.odoh-target-noads.alekberg.net CNAME .
-odoh-target-noads-se.alekberg.net CNAME .
-*.odoh-target-noads-se.alekberg.net CNAME .
-odoh-target-se.alekberg.net CNAME .
-*.odoh-target-se.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
-management.alexpollard.net CNAME .
-*.management.alexpollard.net CNAME .
 doh.amonsul.net CNAME .
 *.doh.amonsul.net CNAME .
 adguard.amscenter.net CNAME .
@@ -5807,8 +5799,6 @@ dns.rin.sh CNAME .
 *.dns.rin.sh CNAME .
 aicx99.shop CNAME .
 *.aicx99.shop CNAME .
-amopython.shop CNAME .
-*.amopython.shop CNAME .
 hfgx.shop CNAME .
 *.hfgx.shop CNAME .
 moamao.shop CNAME .
