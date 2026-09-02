@@ -412,11 +412,15 @@ Got general questions or just want to chat? Head to the [GitHub Discussions](htt
 
 ## <a name="licensing"></a> 14. Licensing and liability
 
-The lists are published under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html), so you can redistribute, modify, or adapt them, but only within the terms of that license. Check the license in the repository before redistributing the lists as part of your own product or service.
+The lists are published under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html), so you can redistribute, modify, or adapt them, but only within the terms of that license. Check the license in the repository before redistributing the lists as part of your own product or service. Some of the input data comes from third-party sources with their own terms, so if you build directly on that data instead of on the published lists, check those terms too.
 
 The maintainer ("the Provider") publishes the lists as-is, with no warranty of accuracy, completeness, or fitness for any particular purpose, and no guarantee that every malicious domain is caught or that no legitimate domain ever gets blocked by mistake. You use them entirely at your own risk, and the Provider isn't liable for damages from use or misuse, except in cases of willful misconduct, gross negligence, or death/personal injury caused by negligence.
 
 Basically, treat these lists as one layer in a bigger security setup, not a standalone fix. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk.
+
+A domain being on a list isn't an accusation against whoever runs it. It's a technical filtering decision based on threat data, public rankings, and observed behavior, and any of that can be outdated or wrong. If you operate a domain and think it's listed by mistake, report it and it'll get reviewed, see [section 13](#support).
+
+How you deploy the lists is on you. That matters most when you filter a network other people use, at work, at school, or for guests, and when you use the lists that restrict access rather than block threats, like NSFW, Social Networks, Gambling, Anti Piracy, or the DoH/VPN/TOR/Proxy Bypass list. Employment, telecommunications, and data-protection rules can all come into play, and sorting that out is your job, not the Provider's.
 
 This FAQ entry is a plain-language summary and doesn't cover every detail. The [Disclaimer section](README.md#disclaimer) in the repository is the full, legally binding version. If anything here ever conflicts with it, the Disclaimer section governs.
 

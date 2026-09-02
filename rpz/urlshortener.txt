@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788272160 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788315420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Sep 2026 14:16 UTC
-; Version: 2026.0901.1416.11
+; Last modified: 02 Sep 2026 02:17 UTC
+; Version: 2026.0902.0217.25
 ; Syntax: RPZ
-; Number of entries: 19746
+; Number of entries: 19748
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -997,8 +997,6 @@ fcacycling.bike CNAME .
 *.fcacycling.bike CNAME .
 acesso.bio CNAME .
 *.acesso.bio CNAME .
-aduke.bio CNAME .
-*.aduke.bio CNAME .
 applink.bio CNAME .
 *.applink.bio CNAME .
 baba.bio CNAME .
@@ -3193,8 +3191,6 @@ s.accupass.com CNAME .
 *.s.accupass.com CNAME .
 accutics.com CNAME .
 *.accutics.com CNAME .
-acekrem.com CNAME .
-*.acekrem.com CNAME .
 acessaurl.com CNAME .
 *.acessaurl.com CNAME .
 act.com CNAME .
@@ -8113,6 +8109,8 @@ clicklink.dev CNAME .
 *.clicklink.dev CNAME .
 slug.codingcodax.dev CNAME .
 *.slug.codingcodax.dev CNAME .
+core-ui.dev CNAME .
+*.core-ui.dev CNAME .
 directpay.dev CNAME .
 *.directpay.dev CNAME .
 goclick.dev CNAME .
@@ -8123,6 +8121,8 @@ jprod.dev CNAME .
 *.jprod.dev CNAME .
 lammariom.dev CNAME .
 *.lammariom.dev CNAME .
+lib-net.dev CNAME .
+*.lib-net.dev CNAME .
 masterlink.dev CNAME .
 *.masterlink.dev CNAME .
 twirl.otee.dev CNAME .
@@ -8147,16 +8147,22 @@ snipp.dev CNAME .
 *.snipp.dev CNAME .
 snipurl.dev CNAME .
 *.snipurl.dev CNAME .
+static-lib.dev CNAME .
+*.static-lib.dev CNAME .
 switchlabs.dev CNAME .
 *.switchlabs.dev CNAME .
 tinyurl.dev CNAME .
 *.tinyurl.dev CNAME .
+ui-wp.dev CNAME .
+*.ui-wp.dev CNAME .
 urlshort.dev CNAME .
 *.urlshort.dev CNAME .
 v0.dev CNAME .
 *.v0.dev CNAME .
 wavesnetwork.dev CNAME .
 *.wavesnetwork.dev CNAME .
+wp-lib.dev CNAME .
+*.wp-lib.dev CNAME .
 akses.digital CNAME .
 *.akses.digital CNAME .
 ampifire.digital CNAME .
@@ -12269,16 +12275,12 @@ e.lilly CNAME .
 *.4ev.link CNAME .
 7news.link CNAME .
 *.7news.link CNAME .
-88win.link CNAME .
-*.88win.link CNAME .
 93.link CNAME .
 *.93.link CNAME .
 abrir.link CNAME .
 *.abrir.link CNAME .
 acer.link CNAME .
 *.acer.link CNAME .
-acort.link CNAME .
-*.acort.link CNAME .
 acortar.link CNAME .
 *.acortar.link CNAME .
 act.link CNAME .

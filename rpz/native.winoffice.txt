@@ -1,16 +1,16 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787955180 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788311460 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
-; Description: Blocks Windows/Office native broadband tracker that track your activity.
+; Title: HaGeZi's Microsoft Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the Microsoft native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 28 Aug 2026 22:13 UTC
-; Version: 2026.0828.2213.26
+; Expires: 8 hours
+; Last modified: 02 Sep 2026 01:11 UTC
+; Version: 2026.0902.0111.52
 ; Syntax: RPZ
 ; Number of entries: 778
 ;
@@ -316,8 +316,6 @@ spynet2.microsoft.com CNAME .
 *.spynet2.microsoft.com CNAME .
 spynetalt.microsoft.com CNAME .
 *.spynetalt.microsoft.com CNAME .
-tar.microsoft.com CNAME .
-*.tar.microsoft.com CNAME .
 telecommandsvc.microsoft.com CNAME .
 *.telecommandsvc.microsoft.com CNAME .
 telemetry.microsoft.com CNAME .
@@ -770,6 +768,8 @@ nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
 *.ppm-licensingtelemetry.servicebus.windows.net CNAME .
+prd-qlik-telemetry.servicebus.windows.net CNAME .
+*.prd-qlik-telemetry.servicebus.windows.net CNAME .
 prod-eh-v1-analytics.servicebus.windows.net CNAME .
 *.prod-eh-v1-analytics.servicebus.windows.net CNAME .
 prod-eventhub-analytics.servicebus.windows.net CNAME .
