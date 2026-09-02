@@ -109,7 +109,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I have verified that the domain(s) are blocked by these blocklists and that the issue is not caused by any other additional blocklists in use. The behavior is also not caused by a browser content blocker or similar browser add-ons, nor by browser settings such as an enhanced/strict tracking protection.
+        - label: I have [verified that the domain(s) are blocked by these blocklists](https://hagezi-mirror.dnsbunker.org/listseek.php) and that the issue is not caused by any other additional blocklists in use. The behavior is also not caused by a browser content blocker or similar browser add-ons, nor by browser settings such as an enhanced/strict tracking protection.
           required: true
         - label: I have verified that the unblocking of the domain(s) has not been declined in any existing issue.
           required: true
