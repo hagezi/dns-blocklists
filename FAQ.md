@@ -258,13 +258,14 @@ Not every DNS provider offers every list. The services in this matrix let you pi
 | Most Abused TLDs | :green_circle: | :notebook: | :x: | :x: |
 | Anti Piracy | :green_circle: | :yellow_circle: | :x: | :x: |
 | Gambling | :green_circle: | :yellow_circle: | :x: | :x: |
+| NSFW | :yellow_circle: | :yellow_circle: | :x: | :x: |
 | Some other lists | :green_circle: | :x: | :x: | :x: |
 
 **Legend:**
 
 - :green_circle: Fully available as a native list on that service.
 - :x: Not available.
-- :yellow_circle: Included in ControlD's own native lists for that category, no separate list needed.
+- :yellow_circle: Included in Provider's own native lists for that category, no separate list needed.
 - :notebook: Available as a separate [ControlD folder](https://github.com/hagezi/dns-blocklists/tree/main/controld).
 
 > [!NOTE]
