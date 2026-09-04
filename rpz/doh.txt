@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788425280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788478740 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Sep 2026 08:48 UTC
-; Version: 2026.0903.0848.11
+; Last modified: 03 Sep 2026 23:39 UTC
+; Version: 2026.0903.2339.01
 ; Syntax: RPZ
-; Number of entries: 7664
+; Number of entries: 7658
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -427,8 +427,6 @@ dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
 dns-secondary.cloudnx.cloud CNAME .
 *.dns-secondary.cloudnx.cloud CNAME .
-doh.cnetwork.cloud CNAME .
-*.doh.cnetwork.cloud CNAME .
 adguard.dessoi.cloud CNAME .
 *.adguard.dessoi.cloud CNAME .
 adguard.dsns.cloud CNAME .
@@ -5247,10 +5245,6 @@ adg.tshost.no CNAME .
 *.adg.tshost.no CNAME .
 dns.rkjha.com.np CNAME .
 *.dns.rkjha.com.np CNAME .
-anycast.censurfridns.nu CNAME .
-*.anycast.censurfridns.nu CNAME .
-unicast.censurfridns.nu CNAME .
-*.unicast.censurfridns.nu CNAME .
 exns1.exalto.nu CNAME .
 *.exns1.exalto.nu CNAME .
 dns.huth.nu CNAME .

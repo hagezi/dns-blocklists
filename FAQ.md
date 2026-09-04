@@ -27,9 +27,9 @@ A practical guide to how these DNS blocklists get built, which version fits your
 Here's the fast track to getting protection running, no need to read the rest of the FAQ first.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://hagezi-mirror.dnsbunker.org/assets/images/dark/hagezi-dns-blocklists.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://hagezi-mirror.dnsbunker.org/assets/images/light/hagezi-dns-blocklists.svg">
-  <img src="https://hagezi-mirror.dnsbunker.org/assets/images/light/hagezi-dns-blocklists.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/hagezi-dns-blocklists.svg">
+  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/hagezi-dns-blocklists.svg">
 </picture>
 
 1. **Pick a version.** Not sure? Start with [Pro](README.md#pro), it's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.

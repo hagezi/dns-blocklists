@@ -1,9 +1,9 @@
 # :bookmark_tabs: Blocklists Cheat Sheet <a name="top"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://hagezi-mirror.dnsbunker.org/assets/images/dark/blocklists-cheat-sheet.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://hagezi-mirror.dnsbunker.org/assets/images/light/blocklists-cheat-sheet.svg">
-  <img src="https://hagezi-mirror.dnsbunker.org/assets/images/light/blocklists-cheat-sheet.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/blocklists-cheat-sheet.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/blocklists-cheat-sheet.svg">
+  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/blocklists-cheat-sheet.svg">
 </picture>
 
 A quick, scannable reference for every list in this collection: what it blocks, who it's best suited for, what to watch out for, and the actual file name. Click a list name to jump to its full section in the [README](README.md), except for the two referral lists, which are documented in the [FAQ](FAQ.md#referral) instead.

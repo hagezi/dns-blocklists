@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 03 Sep 2026 08:48 UTC
-# Version: 2026.0903.0848.11
+# Last modified: 03 Sep 2026 23:39 UTC
+# Version: 2026.0903.2339.01
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3832
+# Number of entries: 3829
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -541,9 +541,7 @@ local=/ns1.ceinetworks.com/
 local=/ns2.ceinetworks.com/
 local=/unicast2.servers.censurfridns.dk/
 local=/anycast.censurfridns.dk/
-local=/anycast.censurfridns.nu/
 local=/unicast.censurfridns.dk/
-local=/unicast.censurfridns.nu/
 local=/dns.centrocomputer.it/
 local=/dns.cert.ee/
 local=/ns.cesnet.cz/
@@ -618,7 +616,6 @@ local=/us.doh.cloudveil.org/
 local=/dns.cmrg.net/
 local=/adguard.cnbeining.com/
 local=/ns1.cnet.hu/
-local=/doh.cnetwork.cloud/
 local=/adguard.aa4.co.uk/
 local=/dns.adriason.co.uk/
 local=/teamspeak.adriason.co.uk/

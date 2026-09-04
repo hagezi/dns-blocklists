@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788419940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788473640 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Sep 2026 07:19 UTC
-; Version: 2026.0903.0719.04
+; Last modified: 03 Sep 2026 22:14 UTC
+; Version: 2026.0903.2214.03
 ; Syntax: RPZ
-; Number of entries: 19724
+; Number of entries: 19706
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1237,8 +1237,6 @@ conteudo.megasoft.com.br CNAME .
 *.conteudo.megasoft.com.br CNAME .
 nabio.com.br CNAME .
 *.nabio.com.br CNAME .
-rocketlink.com.br CNAME .
-*.rocketlink.com.br CNAME .
 shortlinks.com.br CNAME .
 *.shortlinks.com.br CNAME .
 solinks.com.br CNAME .
@@ -2015,8 +2013,6 @@ biotap.click CNAME .
 *.biotap.click CNAME .
 cb.click CNAME .
 *.cb.click CNAME .
-cloudku.click CNAME .
-*.cloudku.click CNAME .
 ddot.click CNAME .
 *.ddot.click CNAME .
 dgt77.click CNAME .
@@ -2351,8 +2347,6 @@ cbj.co CNAME .
 *.cbj.co CNAME .
 cden.co CNAME .
 *.cden.co CNAME .
-choply.co CNAME .
-*.choply.co CNAME .
 cisn.co CNAME .
 *.cisn.co CNAME .
 clarobr.co CNAME .
@@ -3727,12 +3721,8 @@ cczxdc.com CNAME .
 *.cczxdc.com CNAME .
 cdwus.com CNAME .
 *.cdwus.com CNAME .
-ceittp.com CNAME .
-*.ceittp.com CNAME .
 c.centralretail.com CNAME .
 *.c.centralretail.com CNAME .
-centurylinke.com CNAME .
-*.centurylinke.com CNAME .
 cesinthi.com CNAME .
 *.cesinthi.com CNAME .
 cgatx.com CNAME .
@@ -3811,8 +3801,6 @@ clockurl.com CNAME .
 *.clockurl.com CNAME .
 cloudshrinker.com CNAME .
 *.cloudshrinker.com CNAME .
-cloudtechlinks.com CNAME .
-*.cloudtechlinks.com CNAME .
 clourls.com CNAME .
 *.clourls.com CNAME .
 coachingtree.com CNAME .
@@ -13685,8 +13673,6 @@ chooze.me CNAME .
 *.chooze.me CNAME .
 chort.me CNAME .
 *.chort.me CNAME .
-chotourl.me CNAME .
-*.chotourl.me CNAME .
 ciac.me CNAME .
 *.ciac.me CNAME .
 ciakkaliaw.me CNAME .
@@ -14695,8 +14681,6 @@ bioku.my CNAME .
 *.bioku.my CNAME .
 bitsy.my CNAME .
 *.bitsy.my CNAME .
-salesadvisor.nazriproton.com.my CNAME .
-*.salesadvisor.nazriproton.com.my CNAME .
 cort.my CNAME .
 *.cort.my CNAME .
 customers.my CNAME .
@@ -14903,8 +14887,6 @@ cjb.net CNAME .
 *.cjb.net CNAME .
 clicktracker.net CNAME .
 *.clicktracker.net CNAME .
-clientlinks.net CNAME .
-*.clientlinks.net CNAME .
 clikx.net CNAME .
 *.clikx.net CNAME .
 cloudradar.net CNAME .
