@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788598680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788623640 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Sep 2026 08:58 UTC
-; Version: 2026.0905.0858.37
+; Last modified: 05 Sep 2026 15:54 UTC
+; Version: 2026.0905.1554.21
 ; Syntax: RPZ
-; Number of entries: 7650
+; Number of entries: 7648
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1185,8 +1185,6 @@ d.gametechnet.com CNAME .
 *.d.gametechnet.com CNAME .
 adguard.gattow.com CNAME .
 *.adguard.gattow.com CNAME .
-gclouddns.com CNAME .
-*.gclouddns.com CNAME .
 lamdtl.giize.com CNAME .
 *.lamdtl.giize.com CNAME .
 dns.giriprabhat.com CNAME .
@@ -3659,6 +3657,8 @@ filter.myaddr.io CNAME .
 *.filter.myaddr.io CNAME .
 dns.n23.io CNAME .
 *.dns.n23.io CNAME .
+anycast.nextdns.io CNAME .
+*.anycast.nextdns.io CNAME .
 apple.nextdns.io CNAME .
 *.apple.nextdns.io CNAME .
 dns.nextdns.io CNAME .
@@ -6409,8 +6409,6 @@ dns.farshmc.ru CNAME .
 *.dns.farshmc.ru CNAME .
 ns2.foodline.ru CNAME .
 *.ns2.foodline.ru CNAME .
-adgd.fragmentance.ru CNAME .
-*.adgd.fragmentance.ru CNAME .
 funtikspb.ru CNAME .
 *.funtikspb.ru CNAME .
 wp-test.fvds.ru CNAME .

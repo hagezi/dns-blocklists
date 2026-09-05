@@ -1,6 +1,6 @@
 # FAQ
 
-A practical guide to how these DNS blocklists get built, which version fits your setup, and why some domains are left unblocked on purpose. For a quick, scannable overview of every individual list, see the [Cheat Sheet](CHEATSHEET.md). If a term looks unfamiliar, the [Glossary](#glossary) at the bottom covers this FAQ, the Cheat Sheet, and the main README alike. Just want to know whether one specific domain is blocked and by which list? That's what the [Blocklist Lookup](#listlookup) is for.
+A practical guide to how these DNS blocklists get built, which version fits your setup, and why some domains are left unblocked on purpose. For a quick, scannable overview of every individual list, see the [Cheat Sheet](CHEATSHEET.md). If a term looks unfamiliar, the [Glossary](#glossary) at the bottom covers this FAQ, the Cheat Sheet, and the main README alike. Just want to know whether one specific domain or IP is blocked and by which list? That's what the [Blocklist Lookup](#listlookup) is for.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A practical guide to how these DNS blocklists get built, which version fits your
 9. [Which lists are available on which DNS services?](#availablelists)
 10. [How current is the data, and where can I get it?](#mirrors)
 11. [Where does the data come from, and how are the lists built?](#sources)
-12. [How do I check whether a domain is blocked, and by which list?](#listlookup)
+12. [How do I check whether a domain or IP is blocked, and by which list?](#listlookup)
 13. [Getting help and reporting issues](#support)
 14. [Licensing and liability](#licensing)
 15. [Glossary](#glossary)
@@ -29,18 +29,17 @@ Here's the fast track to getting protection running, no need to read the rest of
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/hagezi-dns-blocklists.svg">
-  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/hagezi-dns-blocklists.svg">
+  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
 </picture>
 
-1. **Pick a version.** Not sure? Start with [Pro](README.md#pro), it's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.
-2. **Figure out your setup.** Are you blocking DNS network-wide (Pi-hole, AdGuard Home, TechnitiumDNS, OPNsense) or using a browser content blocker (uBlock Origin, AdGuard browser extension)? Network-wide blocking protects every device on your network, while a browser blocker only covers that one browser.
-3. **Grab the right format.** Check [section 4](#formats) for what your tool expects, then copy the matching list URL from the [README](README.md#overview) into your tool's blocklist or filter subscription settings.
-4. **Add Threat Intelligence Feeds (TIF).** Add the [TIF](README.md#tif) list (or its medium/mini version if your tool struggles with size) alongside your main list for extra protection against malware and phishing, no matter which tier you picked.
-5. **No self-hosted DNS server?** Use one of the [online DNS services](#availablelists) instead, they let you turn these lists on without running your own setup.
-6. **Layer on a browser content blocker too.** DNS-level blocking catches most ads, trackers, and malware, but not everything, some ads and scripts load from otherwise legit domains. A browser content blocker like uBlock Origin or AdGuard closes that gap, see [section 6](#inappads) for why that matters especially inside apps like YouTube or Spotify.
-7. **Test it out.** Browse normally for a day and note anything that behaves oddly.
-8. **If something breaks, confirm the cause first.** A DNS-level block usually shows up as a failed page load with a name-resolution error ("server not found" or similar), not as a normal page error. Most DNS tools (Pi-hole, AdGuard Home, TechnitiumDNS) keep a query log where you can look up the exact domain and see that it was blocked. Once you know which domain is responsible, run it through the [Blocklist Lookup](#listlookup) to see exactly which list blocks it and with which rule, check [section 2](#whatshouldiuse) for known side effects (especially with Pro++ and Ultimate), unblock that domain in your tool, and see [section 13](#support) if you want to report a false positive or a missed domain.
-9. **Keep it current.** These lists update regularly. If your tool doesn't auto-refresh subscribed lists, set a reminder to re-download, and check [section 10](#mirrors) if you want the freshest data possible.
+1. **Figure out your setup and your format.** Are you blocking DNS network-wide (Pi-hole, AdGuard Home, TechnitiumDNS, OPNsense) or using a browser content blocker (uBlock Origin, AdGuard browser extension)? Network-wide blocking protects every device on your network, while a browser blocker only covers that one browser. If you don't run either and don't want to set one up, stop here and use one of the [online DNS services](README.md#dnsservices) instead, they let you turn these lists on without running anything yourself, see [section 9](#availablelists) for which service carries which list. Otherwise, look up in [section 4](#formats) which format your tool actually understands (Adblock, DNSMasq, Wildcard, RPZ, and so on) and note its file name pattern, you'll need it in step 4.
+2. **Pick a version.** Not sure? Start with [Pro](README.md#pro), it's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.
+3. **Add Threat Intelligence Feeds (TIF).** Note down the [TIF](README.md#tif) list (or its medium/mini version if your tool struggles with size) alongside your main list for extra protection against malware and phishing, no matter which tier you picked.
+4. **Grab the links and subscribe.** In the [README](README.md#overview), copy the URLs for your lists in the format from step 1 and add them to your tool's blocklist or filter subscription settings. Each list needs its own subscription entry. File names differ per format, so a list isn't always just `pro.txt`, check the extension pattern before assuming a name carries over.
+5. **Layer on a browser content blocker too.** DNS-level blocking catches most ads, trackers, and malware, but not everything, some ads and scripts load from otherwise legit domains. A browser content blocker like uBlock Origin or AdGuard closes that gap, see [section 6](#inappads) for why that matters especially inside apps like YouTube or Spotify.
+6. **Test it out.** Browse normally for a day and note anything that behaves oddly.
+7. **If something breaks, confirm the cause first.** A DNS-level block usually shows up as a failed page load with a name-resolution error ("server not found" or similar), not as a normal page error. Most DNS tools (Pi-hole, AdGuard Home, TechnitiumDNS) keep a query log where you can look up the exact domain and see that it was blocked. Once you know which domain is responsible, run it through the [Blocklist Lookup](#listlookup) to see exactly which list blocks it and with which rule, check [section 2](#whatshouldiuse) for known side effects (especially with Pro++ and Ultimate), unblock that domain in your tool, and see [section 13](#support) if you want to report a false positive or a missed domain.
+8. **Keep it current.** These lists update regularly. If your tool doesn't auto-refresh subscribed lists, set a reminder to re-download, and check [section 10](#mirrors) if you want the freshest data possible.
 
 **[Back to top](#table-of-contents)**
 
@@ -54,8 +53,8 @@ The "risk of breakage" ratings below are a general guide, not exact error rates.
 
 | Version | Best for | Risk of breakage |
 |:---|:---|:---|
-| [Light](README.md#light) | No admin around to unblock stuff, or an ad blocker that can't handle big lists | Minimal. Built to avoid restrictions almost entirely |
-| [Normal](README.md#normal) | Everyday use, same crowd as Light | Low. Restrictions are rare and usually minor |
+| [Light](README.md#light) | Anywhere Normal doesn't fit: an ad blocker that can't handle big lists, or a setting where even Normal's low risk is too much | Minimal. Built to avoid restrictions almost entirely |
+| [Normal](README.md#normal) | The default for unattended setups with no admin around to unblock things | Low. Restrictions are rare and usually minor |
 | [Pro](README.md#pro) | The go-to default: setups with an admin nearby who can unblock things if needed | Low to moderate. Restrictions are uncommon and easy to work around |
 | [Pro++](README.md#proplus) | Experienced users with an admin available | Moderate. Might include some false positives that limit functionality |
 | [Ultimate](README.md#ultimate) | Very experienced users with an admin available | High. Deliberately blocks some popular trackers, which can limit app or website functionality |
@@ -142,7 +141,7 @@ Only a limited set of lists exists in them: Light, Normal, Pro, Pro++, Ultimate,
 
 **Requirements to check before you subscribe**
 
-- **Little Snitch Mini has a rule-count limit**, so it can't handle the larger lists. It's offered for Light, Normal, Fake, Pop-Up Ads, Anti Piracy, Social Networks, Dynamic DNS, Badware Hoster, URL Shortener, Safesearch Not Supported, both Bypass lists, Gambling Medium, Gambling Mini, and every Mini tier (Pro Mini, Pro++ Mini, Ultimate Mini, TIF Mini). Not offered for the full Pro, Pro++, Ultimate, TIF, TIF Medium, Gambling, or NSFW lists.
+- **Little Snitch Mini has a rule-count limit**, so it can't handle the larger lists. It's offered for Light, Normal, Fake, Pop-Up Ads, Anti Piracy, Social Networks, Dynamic DNS, Badware Hoster, URL Shortener, Safesearch Not Supported, both domain-based Bypass lists (Full and DoH only), Gambling Medium, Gambling Mini, and every Mini tier (Pro Mini, Pro++ Mini, Ultimate Mini, TIF Mini). Not offered for the full Pro, Pro++, Ultimate, TIF, TIF Medium, Gambling, or NSFW lists.
 - **TIF and TIF Medium** are both too big for AdGuard Mobile for iOS. In AdGuard Home (a different product), the full TIF list needs at least 2 GB of RAM and TIF Medium at least 1 GB. The full list's RPZ version is split into two files, and you need both. If even TIF Medium is too much, use **TIF Mini**.
 - **The three [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) lists** cover different scopes and aren't interchangeable, see [section 5](#listrelationships). Whichever one you pick, pair it with a firewall rule blocking outbound ports 53 and 853, otherwise devices can still reach unencrypted or TLS-based DNS servers directly.
 - **DoH IPs and TIF IPs:** if you run AdGuard Home alongside either one, disable IPv6 resolution there, otherwise a device can slip past the block by resolving the same server over IPv6.
@@ -272,7 +271,7 @@ Not every DNS provider offers every list. The services in this matrix let you pi
 > This table answers "can I get it there", not "how much of it do I get", which is why it uses different symbols than the [coverage matrix](CHEATSHEET.md#inclusionmatrix) in the Cheat Sheet. There's no scale here, a list is either offered or it isn't.
 
 > [!NOTE]
-> **"Some other lists" is not a promise of everything.** AdGuard DNS carries a wider selection than the other three services, but not literally every list published here, and its coverage of a category can be partial. The Native Tracker lists are the clearest example: only some of the device lists are offered there, not all twelve. The [AdGuard DNS section in the README](README.md#adguarddns) has the current selection.
+> **"Some other lists" is not a promise of everything.** AdGuard DNS carries a wider selection than the other three services, but not literally every list published here, and its coverage of a category can be partial. The Native Tracker lists are the clearest example: only some of the device lists are offered there, not all of them. The [AdGuard DNS section in the README](README.md#adguarddns) has the current selection.
 
 Service availability, pricing, and plan limits can change. Check each provider's site for current details.
 
@@ -373,13 +372,15 @@ In short: being listed in [Sources](https://github.com/hagezi/dns-blocklists/blo
 
 ---
 
-## <a name="listlookup"></a> 12. How do I check whether a domain is blocked, and by which list?
+## <a name="listlookup"></a> 12. How do I check whether a domain or IP is blocked, and by which list?
 
 Use the **Blocklist Lookup**: [hagezi-mirror.dnsbunker.org/listseek.php](https://hagezi-mirror.dnsbunker.org/listseek.php)
 
-Paste in one domain or a whole batch, one per line, hit Search, and you get a table per domain showing every list that blocks it plus the exact rule doing the blocking. It streams the published lists live from the build mirror, so the answer always reflects the newest build. No downloading files and grepping through them yourself.
+Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry showing every list that blocks it plus the exact rule doing the blocking. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `192.168.2.1` in the same run. It streams the published lists live from the build mirror, so the answer always reflects the newest build. No downloading files and grepping through them yourself.
 
 It's subdomain-aware, which is often the interesting part. Look up `region1.app-measurement.com` and the result shows the rule `||app-measurement.com^`, so you can tell the block comes from a wildcard on the parent domain rather than from an entry for that exact hostname.
+
+It also follows CNAME chains, up to 8 hops. A domain that isn't on any list itself still gets flagged if it points at something that is, which is exactly how CNAME cloaking hides trackers behind a harmless looking first-party name, see the [glossary](#gl-c). The result then shows the full chain, so you can see where the block actually comes from.
 
 What it's good for:
 
@@ -387,6 +388,8 @@ What it's good for:
 - **Picking or switching tiers.** Check a domain you depend on before you move. If it shows up under Pro++ but not under Pro, you know exactly what you'd be signing up for.
 - **Before you report something.** A report that names the domain, the list, and the rule is much faster to act on, see [section 13](#support).
 - **Checking coverage.** No results at all means no published list currently blocks that domain, which is exactly the case for a "should be blocked but isn't" report.
+
+The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, see [section 5](#listrelationships) for what those lists cover and switch them on for that query.
 
 > [!NOTE]
 > Two things the Lookup can't tell you:
@@ -453,7 +456,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 |:---|:---|
 | Badware | Umbrella term for domains involved in anything harmful, from malware and scams to abusive hosting. It's used in list descriptions where several of those categories are meant at once and naming just one would be misleading, for example "ads, trackers, metrics, telemetry, and some badware" in the Light tier. |
 | Blocklist (denylist) | A list of domains that get blocked so they can't load, usually to stop ads, trackers, or malware. |
-| Blocklist Lookup | A web tool on the build mirror that checks one or more domains against every published list and shows which lists block them, and with which rule. Handy for tracking down a false positive or confirming coverage before reporting a domain, see [section 12](#listlookup). |
+| Blocklist Lookup | A web tool on the build mirror that checks one or more domains or IPv4 addresses against every published list and shows which lists block them, and with which rule. Follows CNAME chains and understands wildcard rules on parent domains. Handy for tracking down a false positive or confirming coverage before reporting a domain, see [section 12](#listlookup). |
 | Blocky | An open-source, self-hosted DNS proxy and ad blocker that supports the Wildcard (Asterisk) format (v0.23 or newer) and, in older versions, the legacy Subdomains format. Aimed at users comfortable with more advanced, config-file-based setups. |
 | Brave (aggressive mode) | The Brave browser only applies these lists when its shielding is set to aggressive blocking. On the default setting it ignores most third-party domain rules, which is why every format table specifies "aggressive mode only". |
 | Browser content blocker | A browser extension or app that can block or modify individual web requests and page elements. Unlike DNS blocking, it can apply URL-specific rules, cosmetic filters, and site-specific exceptions. |
@@ -464,9 +467,10 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 |:---|:---|
 | C2 server (command-and-control server) | A server attackers use to remotely control malware already running on infected devices. Threat Intelligence Feeds specifically target the domains these servers rely on. |
 | CAPTCHA | The "prove you're human" challenge some sites show before letting you through. Blocking location and IP trackers can make sites less certain about a visitor, which sometimes triggers extra CAPTCHAs, a known Ultimate side effect, see [section 2](#whatshouldiuse). |
-| Cisco Umbrella Top 1M | A ranking of the top 1 million most-visited domains, published by Cisco. It does double duty here: it's one of the seven ranking sources the build uses, and it's the basis for the roughly 10,000-page set the lists are tested against, checking that pages, navigation, images, and videos still work correctly. |
+| Cisco Umbrella Top 1M | A ranking of the top 1 million most-visited domains, published by Cisco. It does double duty here: it's one of the seven ranking sources the build uses, and it's the basis for the roughly 10,000-page set the lists were tested against while they were developed, checking that pages, navigation, images, and videos still work correctly. That was a benchmark run, not something that repeats with every build. |
 | Cloudflare Radar / Netcraft / SpamHaus | Three threat-intelligence sources whose combined data feeds the Most Abused TLDs list: Cloudflare Radar tracks internet traffic and abuse trends, Netcraft specializes in phishing and fraud detection, and SpamHaus maintains reputation blocklists for spam and malware sources. Not to be confused with the plain "Cloudflare" domain ranking listed under "Top 1M list". |
 | CMP (Consent Management Platform/Provider) | The tech behind cookie consent pop-ups on websites, letting visitors choose what data a site can collect about them. Common examples include OneTrust, Cookiebot, and Usercentrics. |
+| CNAME cloaking | A trick where a tracker is reached through a harmless looking subdomain of the site you're visiting, which then points on to the tracker's real domain via a CNAME record. It's designed to look first-party so it slips past blocking that only checks the name you actually requested. The Blocklist Lookup follows these chains for you, see [section 12](#listlookup). |
 | ControlD | A free and paid online DNS resolver service offering Light, Normal, Pro, Pro++, Ultimate, and TIF without your own DNS server. Some categories are covered by ControlD's own native lists instead, and a few lists ship as importable ControlD folders, see [section 9](#availablelists). |
 | ControlD folder | A ControlD-specific feature for grouping custom rules into a reusable set you can apply across profiles. |
 | Cosmetic filters | Browser-based filter rules that hide page elements visually (for example via CSS) rather than blocking a network request. A DNS resolver has no concept of page content, so it can't apply cosmetic filters at all, which is why they're never converted into DNS entries, see [section 11](#sources). |
@@ -480,12 +484,13 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Defense-in-depth | A security strategy that layers multiple independent protections on top of each other, so if one layer fails, the others still catch the problem. These blocklists are meant to be one layer in that kind of setup, not a complete solution on their own, see [section 14](#licensing) and the repository's Disclaimer for how that plays out here. |
 | Denyallow / domain modifier | A rule type in filter lists used to carve out exceptions from a blocking rule. These modifiers have a technical length limit, so you can't cram unlimited exceptions into one rule, that's why exclusion lists sometimes stay short on purpose. |
 | DGA (Domain Generation Algorithm) | A technique malware uses to generate large numbers of random-looking domains on the fly, making them harder to block in advance. This project's DGA lists come as three rolling windows (past 7, 14, and 30 days) that overlap rather than stack, so pick one instead of combining them, see [section 5](#listrelationships). The same data is also used inside the build to flag suspicious domains for review, see [section 11](#sources). |
+| Diversion | An ad-blocking and DNS add-on for Asuswrt-Merlin routers. Version 5 or newer reads the DNSMasq format, older versions the legacy Subdomains format. |
 | DNS (Domain Name System) | The system that translates website names, like example.com, into the numeric IP addresses computers use to find each other. Every blocklist works by intercepting these translations for unwanted domains. |
 | DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Available for AdGuard, AdGuard Home, and AdGuard DNS. Some other DNS blockers already have their own version of this built in, worth checking before you add a separate list. |
 | DNS resolver | The server that actually performs the DNS lookup for your device, sometimes also called a recursive resolver. AdGuard DNS, ControlD, RethinkDNS, and DNSwarden are all examples of resolvers that support these blocklists. |
 | DNSCrypt (DNSCloak) | A protocol that authenticates and encrypts DNS traffic between a device and its resolver, distinct from DoH and DoT. DNSCloak and DNSCrypt (the client) are apps that implement it and are among the tools supporting the "Wildcard (Domains only)" format. |
 | DNSMasq | A lightweight, widely used piece of software for DNS and DHCP, often running on routers or small home servers. One of the five formats these lists come in is built specifically for it. |
-| DNSwarden | A free online DNS resolver service offering Light, Normal, Pro, Pro++, Ultimate, and TIF as ready-made DNS-over-HTTPS and DNS-over-TLS/QUIC endpoints, aimed at people who don't want to run their own DNS server. It doesn't support Bypass, DynDNS, Hoster, TLDs, Anti Piracy, or Gambling, see [section 9](#availablelists). |
+| DNSwarden | A free online DNS resolver service offering Light, Normal, Pro, Pro++, Ultimate, and TIF as ready-made DNS-over-HTTPS and DNS-over-TLS/QUIC endpoints, aimed at people who don't want to run their own DNS server. It doesn't support Bypass, DynDNS, Hoster, TLDs, Anti Piracy, Gambling, or NSFW, see [section 9](#availablelists). |
 | Do53 | The classic, unencrypted way of doing DNS, over port 53. The name literally means "DNS over port 53", as opposed to encrypted options like DoH or DoT. |
 | DoH / DoT (DNS-over-HTTPS / DNS-over-TLS) | Methods of encrypting DNS traffic so it can't be read or tampered with in transit. DoT typically runs over port 853, which is why some bypass lists recommend also blocking that port at the firewall. These encrypted methods can also bypass DNS-level blocklists by routing around your configured resolver, which is why a dedicated bypass list exists. |
 | DoH3 / DoQ | Newer variants of encrypted DNS that run over QUIC instead of the older TCP-based connection, making lookups faster. Some DNS providers offer this as an extra connection option alongside regular DoH. |
@@ -522,6 +527,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Term | What it means |
 |:---|:---|
 | IDS/IPS (Intrusion Detection/Prevention System) | Security tools that watch network traffic for attack patterns. An IDS just flags suspicious activity, an IPS can actively block it. Another example of the extra protection layers these blocklists don't replace on their own. |
+| Inclusion Matrix | The table in the [Cheat Sheet](CHEATSHEET.md#inclusionmatrix) showing which lists a Multi tier already covers and how much of them, so you don't add a list your tier includes anyway. The main README carries the same matrix as a graphic. |
 | InviZible Pro | An Android app that routes device traffic through Tor, DNSCrypt, and a purpose-built firewall for extra privacy. One of the tools supporting the "Wildcard (Domains only)" format. |
 | IPv4 / IPv6 | Two versions of the internet protocol that hand out IP addresses. IPv4 uses the older, shorter-style addresses, IPv6 the newer, much longer ones. Some blocklists also ship as plain IP lists, since a domain could otherwise slip past a domain-only block by resolving over IPv6. |
 
@@ -547,7 +553,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Malware | An umbrella term for malicious software of all kinds, viruses, trojans, spyware, you name it, that infects a device, steals data, or lets someone else control it remotely. |
 | Meta (META) | The company behind Facebook, Instagram, Messenger, and WhatsApp. Ultimate blocks some of its trackers, which limits Facebook and Messenger and affects a few WhatsApp features, see [section 2](#whatshouldiuse). |
 | Metrics | Usage measurements a site or app collects about how its own service is being used, such as page views, load times, or click paths. Related to telemetry and analytics, and blocked from the Light tier upwards. |
-| Mirror | An exact copy of a project hosted elsewhere, for example on GitLab or Codeberg instead of GitHub. Acts as a backup source in case the main one is ever unreachable. |
+| Mirror (repository mirror / build mirror) | An exact copy of the lists hosted elsewhere, as a backup in case the main source is unreachable. Two kinds exist here: repository mirrors (GitLab, Codeberg) that copy GitHub and publish one build a day, and the build mirror (hagezi-mirror.dnsbunker.org) that hangs off the build system directly and publishes every build, see [section 10](#mirrors). |
 | mobileconfig (Apple configuration profile) | A settings file for iOS, iPadOS, and macOS that installs an encrypted DNS server with one tap, instead of entering the settings by hand. Several of the DNS services listed here provide one. |
 
 ### <a name="gl-n"></a>N
@@ -558,13 +564,14 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Network-wide blocking | Blocking domains for every device on a network at once, phones, laptops, smart TVs, everything, typically by changing the DNS server for the whole router. The opposite of a browser-only blocker, which only protects the browser it's installed in. |
 | Normalization (normalized rules) | The build step that turns an upstream filter rule into a plain, concrete domain name a DNS resolver can act on. Rules already naming a concrete domain are normalized directly; wildcard or regular-expression rules only if they can be safely matched against the Top 1M/10M ranking datasets first, see [section 11](#sources). |
 | NRD (Newly Registered Domain) | A domain registered very recently, typically within the last 7 to 35 days. Threat actors like fresh domains because security tools haven't flagged them yet. This project's NRD lists come as five non-overlapping day-range files meant to be stacked, see [section 5](#listrelationships). The same data is also used inside the build to flag suspicious domains for review, see [section 11](#sources). |
+| NSFW (Not Safe For Work) | The usual shorthand for adult content, the category the NSFW list blocks. Named after content you wouldn't want on screen at the office. |
 
 ### <a name="gl-o"></a>O
 
 | Term | What it means |
 |:---|:---|
-| OPNsense | An open-source firewall and routing platform that can apply the "Wildcard (Asterisk)" format directly, letting DNS blocking happen at the network's edge rather than on a separate device. |
 | OpenWrt | An open-source, Linux-based firmware for routers, popular for advanced home-networking setups. adblock-lean, one of the network-wide DNS blockers this project points to, is built specifically to run on OpenWrt. |
+| OPNsense | An open-source firewall and routing platform that can apply the "Wildcard (Asterisk)" format directly, letting DNS blocking happen at the network's edge rather than on a separate device. |
 
 ### <a name="gl-p"></a>P
 
@@ -586,6 +593,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Term | What it means |
 |:---|:---|
 | Referral domain | A domain used in affiliate or tracking links, commonly found on deal websites, in emails, and in search results. These typically only activate when a link is clicked, unlike ad domains, which load automatically. |
+| Regular expression (regex) | A pattern language for matching text, used in some upstream filter rules and in the AdGuard format. A DNS resolver can't evaluate patterns, so such a rule only makes it into a list once it has been matched against real domains from the Top 1M/10M data and stored as plain domain names, see [section 11](#sources). |
 | RethinkDNS | A free online DNS resolver service, also available as an Android/iOS app, offering Light, Normal, Pro, Pro++, Ultimate, TIF, Bypass, DynDNS, and Badware Hoster. It refreshes its copies only once a week, so it lags behind the source repository, see [section 9](#availablelists). |
 | Root domain | The base part of a domain name without any subdomains, like `example.com` in `shop.example.com` or `cdn.example.com`. Some blocklists, like Badware Hoster, deliberately block at the root domain level, which means every subdomain underneath gets blocked too, including any legitimate ones hosted on the same provider. |
 | RPZ (Response Policy Zone) | A DNS server feature (used by Bind, Knot, PowerDNS, and Unbound) that lets a resolver apply blocklists directly at the server level, instead of through a separate ad-blocking app. |
@@ -596,16 +604,21 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 |:---|:---|
 | Safesearch | A filter built into search engines that keeps explicit results out of the result list. It can only be enforced on engines that actually support it, which is why there's a list blocking the ones that don't. |
 | Scam / fake shop | Fraudulent websites posing as fake online stores, bogus streaming sites, or hidden subscription traps, all designed to grab your money or your data. |
+| Size-optimized variant (Mini / Medium) | A smaller cut of one specific list, for tools that choke on the full version. Mini variants keep only domains that also appear in the Top 1M/10M data. These are alternatives to their full list, never something you run alongside it, and each one belongs to exactly one list, see [section 5](#listrelationships). |
 | Stamus Labs | A threat-research team whose data feeds this project's NRD and DGA (Newly Registered Domain / Domain Generation Algorithm) lists, and which is also used as a signal inside the build, see [section 11](#sources). They don't guarantee same-day updates, so the underlying data can occasionally lag by a few days. |
+| Subdomain | The part in front of a domain, like `shop` in `shop.example.com`. Wildcard formats cover every subdomain of a listed domain automatically; the legacy formats have to spell each one out, which is why they always have gaps, see [section 4](#formats). |
 
 ### <a name="gl-t"></a>T
 
 | Term | What it means |
 |:---|:---|
 | TechnitiumDNS | A free, open-source, self-hosted DNS server that supports the "Wildcard (Domains only)" format and is one of the network-wide options this project recommends alongside Pi-hole and AdGuard Home. |
+| Telemetry / analytics | Usage and diagnostic data an app, site, or device sends back to its maker in the background. Closely related to metrics, and blocked from the Light tier upwards. |
 | TIF (Threat Intelligence Feeds) | A list built from security research sources that tracks domains actively known to be involved in malware, phishing, command-and-control servers, or other live threats. Worth adding on top of any tier, since none of the tiers include the full feed, see [section 2](#whatshouldiuse). Some TIF domains do get carried into the regular tiers during the build, which is why those tiers already cover part of the feed, see [section 11](#sources). |
 | TLD (Top-Level Domain) | The last segment of a domain name, like .com, .net, or a country code like .de. Some TLDs, like .top, .shop, or .gdn, get abused for spam or scams way more often than others. |
 | Top 1M list / Top 10M list | Rankings of the one million (or ten million) most-visited domains on the internet, used to identify domains with broad, observed use. Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, and DomCop each publish their own, and all seven feed into this project's build. Top 1M and Top 10M are usually named together as one combined ranking signal, see [section 11](#sources). |
+| TOR | An anonymity network that routes traffic through several relays, which also routes it around your DNS filtering. That's why it's covered by the Bypass Full list alongside VPN and proxy services. |
+| Tracker | Any domain whose job is to watch what you do, whether it belongs to an ad network, an analytics provider, or a device manufacturer. Blocking them is the main privacy purpose of these lists, and how far that blocking goes is what separates the tiers. |
 | Tranco | A research-oriented ranking of the top million websites, built by averaging several other popularity rankings over a 30-day period, making it more stable and harder to manipulate than a single-source ranking. |
 
 ### <a name="gl-u"></a>U
@@ -626,7 +639,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 
 | Term | What it means |
 |:---|:---|
-| whotracks.me | A public research project cataloging tracker and privacy data gathered from real websites. The roughly 10,000-page test set is cross-referenced through its site list, so it and the Cisco Umbrella set refer to the same benchmark. |
+| whotracks.me | A public research project cataloging tracker and privacy data gathered from real websites. The roughly 10,000-page set used to benchmark the lists during development is cross-referenced through its site list, so it and the Cisco Umbrella set refer to the same pages. |
 | Wildcard (Asterisk) format | One of the two wildcard formats these lists come in. Each entry is written with a placeholder asterisk, like `*.example.com`, so a single line covers the domain and all its subdomains without listing them one by one. Used by tools like Blocky, Nebulo, NetDuma, OPNsense, and YogaDNS. |
 | Wildcard (Domains only) format | The other wildcard format. Each entry is just the plain domain name, like `example.com`, with no asterisk, since these tools already treat a listed domain as covering all its subdomains automatically. Used by tools like DNSCloak, DNSCrypt, FRITZ!Box, TechnitiumDNS, adblock-lean, PersonalDNSfilter, and InviZible Pro. |
 

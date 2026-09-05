@@ -3,12 +3,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/blocklists-cheat-sheet.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/blocklists-cheat-sheet.svg">
-  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/light/blocklists-cheat-sheet.svg">
+  <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/blocklists-cheat-sheet.svg">
 </picture>
 
 A quick, scannable reference for every list in this collection: what it blocks, who it's best suited for, what to watch out for, and the actual file name. Click a list name to jump to its full section in the [README](README.md), except for the two referral lists, which are documented in the [FAQ](FAQ.md#referral) instead.
 
-**Related FAQ sections:** [quick setup](FAQ.md#quicksetup) · [can I use more than one list?](FAQ.md#combining) · [which format for my tool](FAQ.md#formats) · [check a single domain](FAQ.md#listlookup) · [glossary of terms](FAQ.md#glossary)
+**Related FAQ sections:** [quick setup](FAQ.md#quicksetup) · [can I use more than one list?](FAQ.md#combining) · [which format for my tool](FAQ.md#formats) · [check a single domain or IP](FAQ.md#listlookup) · [glossary of terms](FAQ.md#glossary)
 
 ## :bookmark_tabs: Table of Contents <a name="toc"></a>
 
@@ -86,7 +86,7 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 > Full breakdown in the [FAQ](FAQ.md#whatshouldiuse).
 
 > [!TIP]
-> This matrix works list by list. If your question is about one specific **domain** instead, the [Blocklist Lookup](https://hagezi-mirror.dnsbunker.org/listseek.php) checks it against every published list and shows which ones block it and with which rule, see [FAQ](FAQ.md#listlookup).
+> This matrix works list by list. If your question is about one specific **domain or IP** instead, the [Blocklist Lookup](https://hagezi-mirror.dnsbunker.org/listseek.php) checks it against every published list and shows which ones block it and with which rule, following CNAME chains along the way, see [FAQ](FAQ.md#listlookup).
 
 **[Back to top](#toc)**
 
@@ -96,8 +96,8 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 
 | List | What It Blocks | Blocking Level / Risk of Breakage | Best For | Caveats | File Name (Adblock) |
 |:-----|:----------------|:---------------|:---------|:--------|:---------------------|
-| [Multi Light](README.md#light) | Ads, trackers, metrics, telemetry, some badware | Relaxed / Minimal | No admin around, low-RAM setups | Size-optimized cut of Normal, which is why Fake isn't in it, see [Inclusion Matrix](#inclusionmatrix). No crash/error trackers until Pro | `light.txt` |
-| [Multi Normal](README.md#normal) | Ads, trackers, telemetry, phishing, malware, scams, fakes, cryptojacking | Relaxed to Balanced / Low | Everyday use | No crash/error trackers until Pro | `multi.txt` |
+| [Multi Light](README.md#light) | Ads, trackers, metrics, telemetry, some badware | Relaxed / Minimal | Low-RAM setups, or anywhere even Normal's low risk is too much | Size-optimized cut of Normal, which is why Fake isn't in it, see [Inclusion Matrix](#inclusionmatrix). No crash/error trackers until Pro | `light.txt` |
+| [Multi Normal](README.md#normal) | Ads, trackers, telemetry, phishing, malware, scams, fakes, cryptojacking | Relaxed to Balanced / Low | The default for unattended setups with no admin around | No crash/error trackers until Pro | `multi.txt` |
 | [Multi Pro](README.md#pro) | Same categories as Normal, wider net (recommended default) | Balanced / Low to moderate | Setups with an admin available | Blocks a few referral domains, see [Referral Allowlist](FAQ.md#referral). First tier with crash/error trackers | `pro.txt` |
 | [Multi Pro Mini](README.md#promini) | Same categories as Pro | Balanced / Low to moderate | Pro-level protection on limited hardware | Size-optimized: Top 1M/10M domains only | `pro.mini.txt` |
 | [Multi Pro++](README.md#proplus) | Same categories as Pro, more aggressive | Balanced to Aggressive / Moderate | Experienced users with an admin available | :warning: Some non-link-tracking referral domains blocked, though not the whole category, see [FAQ](FAQ.md#referral) | `pro.plus.txt` |

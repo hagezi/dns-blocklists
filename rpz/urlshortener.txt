@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788593700 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788618180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Sep 2026 07:35 UTC
-; Version: 2026.0905.0735.09
+; Last modified: 05 Sep 2026 14:23 UTC
+; Version: 2026.0905.1423.16
 ; Syntax: RPZ
-; Number of entries: 19724
+; Number of entries: 19720
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -15003,8 +15003,6 @@ gdanstum.net CNAME .
 *.gdanstum.net CNAME .
 geefi.net CNAME .
 *.geefi.net CNAME .
-getpcp.net CNAME .
-*.getpcp.net CNAME .
 gettolink.net CNAME .
 *.gettolink.net CNAME .
 go777.net CNAME .
@@ -18069,8 +18067,6 @@ fre.to CNAME .
 *.fre.to CNAME .
 fwds.to CNAME .
 *.fwds.to CNAME .
-fwr.to CNAME .
-*.fwr.to CNAME .
 u.g0.to CNAME .
 *.u.g0.to CNAME .
 gat.to CNAME .

@@ -353,3 +353,11 @@ https://big.oisd.nl
 https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt
 https://raw.githubusercontent.com/hectorm/hmirror/refs/heads/master/data/molinero.dev/list.txt
 ```
+
+### Domain rankings and reputation data
+
+Not blocklists, but datasets the build uses to decide what belongs in a list. They're named here so the picture is complete, without download links, since most are subscription or research datasets rather than plain files.
+
+- **Top 1M/10M rankings** (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop) are the main selection signal for the Multi tiers and the basis for every size-optimized variant. They also make it possible to turn a wildcard or regular-expression rule into concrete domains safely, see the [FAQ](FAQ.md#sources).
+- Reputation data from **Cloudflare Radar, Netcraft, and SpamHaus** decides which top-level domains end up on the Most Abused TLDs list.
+- **whotracks.me** and the Cisco Umbrella ranking provide the roughly 10,000-page set the lists were tested against while they were developed, to check that normal browsing still works. That's a benchmark run, not a step in the regular build.
