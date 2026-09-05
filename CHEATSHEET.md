@@ -26,8 +26,8 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 
 | If you want... | Use this |
 |:----------------|:---------|
-| The absolute basics, no admin available | [Light](README.md#light) + [TIF](README.md#tif) (or [TIF Mini](README.md#tifmini) for size) |
-| Solid everyday protection, low breakage risk | [Normal](README.md#normal) + [TIF](README.md#tif) |
+| The absolute basics, where even Normal is too much | [Light](README.md#light) + [TIF](README.md#tif) (or [TIF Mini](README.md#tifmini) for size) |
+| Solid protection with no admin available | [Normal](README.md#normal) + [TIF](README.md#tif) |
 | A strong, balanced default (recommended) | [Pro](README.md#pro) + [TIF](README.md#tif) |
 | More aggressive than Pro, admin available | [Pro++](README.md#proplus) + [TIF](README.md#tif) |
 | Maximum privacy and aggressive blocking | [Ultimate](README.md#ultimate) + [TIF](README.md#tif) |

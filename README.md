@@ -115,7 +115,7 @@ A handful of lists don't follow this pattern, because their content or their exc
 Hand brush edition. Cleans up the internet and protects your privacy without going overboard. Blocks ads, trackers, metrics, telemetry, and some badware. Basically a size-optimized version of Multi NORMAL, built only from domains that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop).
 
 > [!NOTE]
-> This version shouldn't cause any real restrictions. Great if there's no admin around to unblock stuff for you, or if your ad blocker chokes on big lists.
+> This version shouldn't cause any real restrictions. Great if your ad blocker chokes on big lists, or anywhere even Normal's low risk is too much.
 
 > [!IMPORTANT]
 > Doesn't block error trackers like Bugsnag, Crashlytics, Firebase, Instabug, Sentry, and similar app crash reporters. Those only get blocked starting with the Pro version.
@@ -565,7 +565,7 @@ Blocks the native trackers baked into devices, services, and operating systems t
 
 Not sure whether a domain is blocked, or which list is responsible for it? The **Blocklist Lookup** answers both: [hagezi-mirror.dnsbunker.org/listseek.php](https://hagezi-mirror.dnsbunker.org/listseek.php)
 
-Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry listing every list that blocks it along with the exact rule. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `192.168.2.1` in the same run. It streams the published lists live from the build mirror, so the results always reflect the newest build.
+Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry listing every list that blocks it along with the exact rule. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `1.1.1.1` in the same run. It reads the published lists straight from the build mirror, so the results always reflect the newest build.
 
 It's subdomain-aware too: look up `region1.app-measurement.com` and you'll see the match comes from `||app-measurement.com^`, a wildcard on the parent domain, not an entry for that exact hostname. It also follows CNAME chains, up to 8 hops, so a domain that isn't on any list itself still gets flagged if it points at something that is, and the result shows you the full chain.
 
