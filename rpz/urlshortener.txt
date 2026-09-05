@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788561060 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788593700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Sep 2026 22:31 UTC
-; Version: 2026.0904.2231.49
+; Last modified: 05 Sep 2026 07:35 UTC
+; Version: 2026.0905.0735.09
 ; Syntax: RPZ
-; Number of entries: 19742
+; Number of entries: 19724
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2439,8 +2439,6 @@ exchangle.co CNAME .
 *.exchangle.co CNAME .
 ezurl.co CNAME .
 *.ezurl.co CNAME .
-ezyurl.co CNAME .
-*.ezyurl.co CNAME .
 fa-st.co CNAME .
 *.fa-st.co CNAME .
 fandan.co CNAME .
@@ -2451,8 +2449,6 @@ fbot.co CNAME .
 *.fbot.co CNAME .
 filspay.co CNAME .
 *.filspay.co CNAME .
-find-url.co CNAME .
-*.find-url.co CNAME .
 fundgop.co CNAME .
 *.fundgop.co CNAME .
 fvrr.co CNAME .
@@ -4211,8 +4207,6 @@ ezcashlink.com CNAME .
 *.ezcashlink.com CNAME .
 ezilinks.com CNAME .
 *.ezilinks.com CNAME .
-ezlinkad.com CNAME .
-*.ezlinkad.com CNAME .
 ezlinkcloaker.com CNAME .
 *.ezlinkcloaker.com CNAME .
 ezwashing.com CNAME .
@@ -4233,8 +4227,6 @@ famousurl.com CNAME .
 *.famousurl.com CNAME .
 fansurl.com CNAME .
 *.fansurl.com CNAME .
-fashionparklanka.com CNAME .
-*.fashionparklanka.com CNAME .
 fastserp.com CNAME .
 *.fastserp.com CNAME .
 fasttory.com CNAME .
@@ -4265,10 +4257,6 @@ firefone.com CNAME .
 *.firefone.com CNAME .
 fitnur.com CNAME .
 *.fitnur.com CNAME .
-links.fivedollarsaas.com CNAME .
-*.links.fivedollarsaas.com CNAME .
-linksmanager.fivedollarsaas.com CNAME .
-*.linksmanager.fivedollarsaas.com CNAME .
 fjr24.com CNAME .
 *.fjr24.com CNAME .
 fklit.com CNAME .
@@ -9793,8 +9781,6 @@ elivr.in CNAME .
 *.elivr.in CNAME .
 f0rk.in CNAME .
 *.f0rk.in CNAME .
-f1m.in CNAME .
-*.f1m.in CNAME .
 furl.in CNAME .
 *.furl.in CNAME .
 fy9.in CNAME .
@@ -13529,8 +13515,6 @@ woodmans.market CNAME .
 *.woodmans.market CNAME .
 cga.marketing CNAME .
 *.cga.marketing CNAME .
-fits.marketing CNAME .
-*.fits.marketing CNAME .
 flug.marketing CNAME .
 *.flug.marketing CNAME .
 supercool.marketing CNAME .
@@ -14723,8 +14707,6 @@ do.my CNAME .
 *.do.my CNAME .
 esa.my CNAME .
 *.esa.my CNAME .
-filmygallery1.my CNAME .
-*.filmygallery1.my CNAME .
 gir.my CNAME .
 *.gir.my CNAME .
 goto.my CNAME .
