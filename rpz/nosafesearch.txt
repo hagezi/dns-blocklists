@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786743960 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788560340 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's safesearch not supported DNS Blocklist
-; Description: Prevents the use of search engines that do not support safesearch.
+; Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
+; Description: Blocks search engines that don't support Safesearch.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 14 Aug 2026 21:46 UTC
-; Version: 2026.0814.2146.24
+; Expires: 8 hours
+; Last modified: 04 Sep 2026 22:19 UTC
+; Version: 2026.0904.2219.45
 ; Syntax: RPZ
-; Number of entries: 410
+; Number of entries: 408
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -188,8 +188,6 @@ search.zina.dev CNAME .
 *.search.zina.dev CNAME .
 searx.divided-by-zero.eu CNAME .
 *.searx.divided-by-zero.eu CNAME .
-librex.myroware.eu CNAME .
-*.librex.myroware.eu CNAME .
 searxng.nicfab.eu CNAME .
 *.searxng.nicfab.eu CNAME .
 nigma.eu CNAME .

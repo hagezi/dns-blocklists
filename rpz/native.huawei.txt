@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784530560 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788562140 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Huawei Tracker DNS Blocklist
-; Description: Blocks Huawei native broadband tracker that track your activity.
+; Title: HaGeZi's Huawei Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the Huawei native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 20 Jul 2026 06:56 UTC
-; Version: 2026.0720.0656.36
+; Expires: 8 hours
+; Last modified: 04 Sep 2026 22:49 UTC
+; Version: 2026.0904.2249.46
 ; Syntax: RPZ
-; Number of entries: 272
+; Number of entries: 270
 ;
 h4g3z1-native.huawei.web.app CNAME .
 *.h4g3z1-native.huawei.web.app CNAME .
@@ -36,8 +36,6 @@ metrics1.data.dbankcloud.cn CNAME .
 *.metrics1.data.dbankcloud.cn CNAME .
 datacollector-dra.dt.dbankcloud.cn CNAME .
 *.datacollector-dra.dt.dbankcloud.cn CNAME .
-datacollector-drcn.dt.dbankcloud.cn CNAME .
-*.datacollector-drcn.dt.dbankcloud.cn CNAME .
 datacollector-dre.dt.dbankcloud.cn CNAME .
 *.datacollector-dre.dt.dbankcloud.cn CNAME .
 metrics.dt.dbankcloud.cn CNAME .

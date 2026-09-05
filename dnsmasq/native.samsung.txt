@@ -1,14 +1,14 @@
-# Title: HaGeZi's Samsung Tracker DNS Blocklist
-# Description: Blocks Samsung native broadband tracker that track your activity.
+# Title: HaGeZi's Samsung Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Samsung native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 28 Aug 2026 22:20 UTC
-# Version: 2026.0828.2220.32
+# Expires: 8 hours
+# Last modified: 04 Sep 2026 22:58 UTC
+# Version: 2026.0904.2258.03
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 201
+# Number of entries: 199
 #
 local=/samsung-com.112.2o7.net/
 local=/metric.account-samsung.com/
@@ -60,7 +60,6 @@ local=/samsung-akcja.e-kei.pl/
 local=/samsung.ecorebates.com/
 local=/samsung.telemetry.eyeo.com/
 local=/ehg-samsungusa.hitbox.com/
-local=/ureca.samsungapps.com.ad.mexnet.de/
 local=/samsung.com.ssl.sc.omtrdc.net/
 local=/samsungcard.sc.omtrdc.net/
 local=/samsungnorthamerica.sc.omtrdc.net/
@@ -134,7 +133,6 @@ local=/devicelog.samsungcloudsolution.net/
 local=/prderrordumphsm.samsungcloudsolution.com/
 local=/prderrordumpssm.samsungcloudsolution.net/
 local=/report.gras.samsungdm.com/
-local=/us-report.gras.samsungdm.com/
 local=/diagmon-policy.samsungdm.com/
 local=/diagmon-serviceapi.samsungdm.com/
 local=/dev-apigw.samsungdmroute.com/

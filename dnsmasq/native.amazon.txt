@@ -1,12 +1,12 @@
-# Title: HaGeZi's Amazon Tracker DNS Blocklist
-# Description: Blocks Amazon native broadband tracker that track your activity.
+# Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Amazon native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 31 Aug 2026 05:37 UTC
-# Version: 2026.0831.0537.39
+# Last modified: 04 Sep 2026 22:47 UTC
+# Version: 2026.0904.2247.49
 # Syntax: DNSMasq v2.86 or newer
 # Number of entries: 369
 #
@@ -51,7 +51,6 @@ local=/aax-fe-sin.amazon-adsystem.com/
 local=/aax-fe.amazon-adsystem.com/
 local=/aax-gamma-us-east.axp.amazon-adsystem.com/
 local=/aax-ott-c2s.amazon-adsystem.com/
-local=/aax-ott-sdk.amazon-adsystem.amazon.com/
 local=/aax-ott-sdk.amazon-adsystem.com/
 local=/aax-ott.amazon-adsystem.amazon.com/
 local=/aax-ott.amazon-adsystem.com/
@@ -120,7 +119,6 @@ local=/alexa-mobile-analytics-configuration-prod.s3.amazonaws.com/
 local=/alexa-mobile-analytics-configuration-prod.s3.us-east-1.amazonaws.com/
 local=/alt1-3ps.amazon-adsystem.com/
 local=/api.eu-west-1.aiv-delivery.net/
-local=/api.metrics.eu-central-1.iris.apx.amazon.dev/
 local=/api.metrics.us-west-2.iris.apx.amazon.dev/
 local=/api.us-east-1.aiv-delivery.net/
 local=/api.us-west-2.aiv-delivery.net/
@@ -231,6 +229,7 @@ local=/maws-aax-us-east-rtb.amazon-adsystem.com/
 local=/maws-aax-us-east-test4.amazon-adsystem.com/
 local=/maws-aax-us-east.amazon-adsystem.com/
 local=/maws-aax-us-pdx-rtb.amazon-adsystem.com/
+local=/metrics.eu-central-1.iris.apx.amazon.dev/
 local=/metrics.eu-south-2.iris.apx.amazon.dev/
 local=/metrics.eu-west-1.iris.apx.amazon.dev/
 local=/metrics.media-amazon.com/
@@ -238,6 +237,7 @@ local=/metrics.us-east-1.iris.apx.amazon.dev/
 local=/minerva.devices.a2z.com/
 local=/mobileanalytics.us-east-1.amazonaws.com/
 local=/mshopbugsnag.irm.amazon.dev/
+local=/origin-s.amazon-adsystem.com/
 local=/origin-sq-tungsten-ts.amazon-adsystem.com/
 local=/paa-reporting-advertising.amazon/
 local=/pri1-3ps.amazon-adsystem.com/

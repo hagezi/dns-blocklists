@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787955600 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788562680 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Samsung Tracker DNS Blocklist
-; Description: Blocks Samsung native broadband tracker that track your activity.
+; Title: HaGeZi's Samsung Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the Samsung native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 28 Aug 2026 22:20 UTC
-; Version: 2026.0828.2220.32
+; Expires: 8 hours
+; Last modified: 04 Sep 2026 22:58 UTC
+; Version: 2026.0904.2258.03
 ; Syntax: RPZ
-; Number of entries: 402
+; Number of entries: 398
 ;
 h4g3z1-native.samsung.web.app CNAME .
 *.h4g3z1-native.samsung.web.app CNAME .
@@ -150,8 +150,6 @@ diagmon-serviceapi.samsungdm.com CNAME .
 *.diagmon-serviceapi.samsungdm.com CNAME .
 report.gras.samsungdm.com CNAME .
 *.report.gras.samsungdm.com CNAME .
-us-report.gras.samsungdm.com CNAME .
-*.us-report.gras.samsungdm.com CNAME .
 dev-apigw.samsungdmroute.com CNAME .
 *.dev-apigw.samsungdmroute.com CNAME .
 stg-apigw.samsungdmroute.com CNAME .
@@ -282,8 +280,6 @@ samsungusa.api.useinsider.com CNAME .
 *.samsungusa.api.useinsider.com CNAME .
 samsungvn.api.useinsider.com CNAME .
 *.samsungvn.api.useinsider.com CNAME .
-ureca.samsungapps.com.ad.mexnet.de CNAME .
-*.ureca.samsungapps.com.ad.mexnet.de CNAME .
 samsung-com.112.2o7.net CNAME .
 *.samsung-com.112.2o7.net CNAME .
 samsungcard.data.adobedc.net CNAME .

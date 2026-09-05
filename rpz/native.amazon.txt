@@ -1,16 +1,16 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788154620 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788562020 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Amazon Tracker DNS Blocklist
-; Description: Blocks Amazon native broadband tracker that track your activity.
+; Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the Amazon native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 31 Aug 2026 05:37 UTC
-; Version: 2026.0831.0537.39
+; Last modified: 04 Sep 2026 22:47 UTC
+; Version: 2026.0904.2247.49
 ; Syntax: RPZ
 ; Number of entries: 738
 ;
@@ -98,8 +98,6 @@ aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
-aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
-*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 aax-us-ott.amazon-adsystem.amazon.com CNAME .
@@ -386,6 +384,8 @@ maws-aax-us-east-test4.amazon-adsystem.com CNAME .
 *.maws-aax-us-east-test4.amazon-adsystem.com CNAME .
 maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
+origin-s.amazon-adsystem.com CNAME .
+*.origin-s.amazon-adsystem.com CNAME .
 origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 *.origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 pri1-3ps.amazon-adsystem.com CNAME .
@@ -572,8 +572,8 @@ assoc-amazon.de CNAME .
 *.assoc-amazon.de CNAME .
 advertising.amazon.dev CNAME .
 *.advertising.amazon.dev CNAME .
-api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
-*.api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+*.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
 metrics.eu-south-2.iris.apx.amazon.dev CNAME .
 *.metrics.eu-south-2.iris.apx.amazon.dev CNAME .
 metrics.eu-west-1.iris.apx.amazon.dev CNAME .

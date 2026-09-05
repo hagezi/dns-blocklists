@@ -1,21 +1,20 @@
-# Title: HaGeZi's Huawei Tracker DNS Blocklist
-# Description: Blocks Huawei native broadband tracker that track your activity.
+# Title: HaGeZi's Huawei Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Huawei native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 20 Jul 2026 06:56 UTC
-# Version: 2026.0720.0656.36
+# Expires: 8 hours
+# Last modified: 04 Sep 2026 22:49 UTC
+# Version: 2026.0904.2249.46
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 136
+# Number of entries: 135
 #
 local=/browsercfg-drcn.cloud.dbankcloud.cn/
 local=/ubacollect-drcn.cloud.dbankcloud.cn/
 local=/metrics-dre.data.dbankcloud.cn/
 local=/metrics1.data.dbankcloud.cn/
 local=/datacollector-dra.dt.dbankcloud.cn/
-local=/datacollector-drcn.dt.dbankcloud.cn/
 local=/datacollector-dre.dt.dbankcloud.cn/
 local=/hisearch-dra.dt.dbankcloud.com/
 local=/hisearch-drcn.dt.dbankcloud.com/

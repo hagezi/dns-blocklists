@@ -1,15 +1,15 @@
 [Adblock Plus]
-! Title: HaGeZi's Samsung Tracker DNS Blocklist
-! Description: Blocks Samsung native broadband tracker that track your activity.
+! Title: HaGeZi's Samsung Tracker - blocks built-in trackers from devices, apps, and OSes!
+! Description: Blocks the Samsung native trackers baked into devices, services, and operating systems that quietly track what you do.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-! Expires: 1 day
-! Last modified: 28 Aug 2026 22:20 UTC
-! Version: 2026.0828.2220.32
+! Expires: 8 hours
+! Last modified: 04 Sep 2026 22:58 UTC
+! Version: 2026.0904.2258.03
 ! Syntax: AdBlock
-! Number of entries: 201
+! Number of entries: 199
 !
 ||samsung-com.112.2o7.net^
 ||metric.account-samsung.com^
@@ -61,7 +61,6 @@
 ||samsung.ecorebates.com^
 ||samsung.telemetry.eyeo.com^
 ||ehg-samsungusa.hitbox.com^
-||ureca.samsungapps.com.ad.mexnet.de^
 ||samsung.com.ssl.sc.omtrdc.net^
 ||samsungcard.sc.omtrdc.net^
 ||samsungnorthamerica.sc.omtrdc.net^
@@ -135,7 +134,6 @@
 ||prderrordumphsm.samsungcloudsolution.com^
 ||prderrordumpssm.samsungcloudsolution.net^
 ||report.gras.samsungdm.com^
-||us-report.gras.samsungdm.com^
 ||diagmon-policy.samsungdm.com^
 ||diagmon-serviceapi.samsungdm.com^
 ||dev-apigw.samsungdmroute.com^

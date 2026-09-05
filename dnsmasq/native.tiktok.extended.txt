@@ -1,14 +1,14 @@
-# Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
-# Description: Aggressive version, may interfere with functionality. Blocks TikTok fingerprinting/tracker that track your activity.
+# Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the TikTok native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 28 Aug 2026 22:15 UTC
-# Version: 2026.0828.2215.50
+# Expires: 8 hours
+# Last modified: 04 Sep 2026 22:51 UTC
+# Version: 2026.0904.2251.14
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 611
+# Number of entries: 612
 #
 local=/analytics.us.tiktok.com.bytedance.akadns.net/
 local=/p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net/
@@ -306,6 +306,7 @@ local=/frontier23-normal-alisg.tiktokv.com/
 local=/frontier23-normal-useast1a.tiktokv.com/
 local=/live-video-log16-normal-alisg.tiktokv.com/
 local=/location.tiktokv.com/
+local=/location.tiktokv.eu/
 local=/location-i18n.tiktokv.com/
 local=/location-sg.tiktokv.com/
 local=/location-ttp2.tiktokv.eu/

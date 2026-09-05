@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788506100 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788561060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Sep 2026 07:15 UTC
-; Version: 2026.0904.0715.00
+; Last modified: 04 Sep 2026 22:31 UTC
+; Version: 2026.0904.2231.49
 ; Syntax: RPZ
-; Number of entries: 19754
+; Number of entries: 19742
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -63,8 +63,6 @@ abre.ae CNAME .
 *.abre.ae CNAME .
 clic.ae CNAME .
 *.clic.ae CNAME .
-encurta.ae CNAME .
-*.encurta.ae CNAME .
 i8.ae CNAME .
 *.i8.ae CNAME .
 omg.ae CNAME .
@@ -4055,8 +4053,6 @@ domainsandlinks.com CNAME .
 *.domainsandlinks.com CNAME .
 domainul.com CNAME .
 *.domainul.com CNAME .
-domixox.com CNAME .
-*.domixox.com CNAME .
 doonor.com CNAME .
 *.doonor.com CNAME .
 dostupevent.com CNAME .
@@ -4133,8 +4129,6 @@ easylinkref.com CNAME .
 *.easylinkref.com CNAME .
 easyuri.com CNAME .
 *.easyuri.com CNAME .
-easyurlshortener.com CNAME .
-*.easyurlshortener.com CNAME .
 eaxcj.com CNAME .
 *.eaxcj.com CNAME .
 ebarata.com CNAME .
@@ -12461,14 +12455,10 @@ dl-protect.link CNAME .
 *.dl-protect.link CNAME .
 docthem.link CNAME .
 *.docthem.link CNAME .
-dojobe.link CNAME .
-*.dojobe.link CNAME .
 domi.link CNAME .
 *.domi.link CNAME .
 dpb.link CNAME .
 *.dpb.link CNAME .
-drafthound.link CNAME .
-*.drafthound.link CNAME .
 dropl.link CNAME .
 *.dropl.link CNAME .
 dub.link CNAME .
@@ -13781,8 +13771,6 @@ dsre.me CNAME .
 *.dsre.me CNAME .
 duakale.me CNAME .
 *.duakale.me CNAME .
-dylink.me CNAME .
-*.dylink.me CNAME .
 l.ead.me CNAME .
 *.l.ead.me CNAME .
 eclink.me CNAME .

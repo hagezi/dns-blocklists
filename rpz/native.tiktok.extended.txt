@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787955300 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788562260 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
-; Description: Aggressive version, may interfere with functionality. Blocks TikTok fingerprinting/tracker that track your activity.
+; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the TikTok native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 28 Aug 2026 22:15 UTC
-; Version: 2026.0828.2215.50
+; Expires: 8 hours
+; Last modified: 04 Sep 2026 22:51 UTC
+; Version: 2026.0904.2251.14
 ; Syntax: RPZ
-; Number of entries: 1222
+; Number of entries: 1224
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -902,6 +902,8 @@ frontier16-normal-no1a.tiktokv.eu CNAME .
 *.frontier16-normal-no1a.tiktokv.eu CNAME .
 frontier16-normal-useastred.tiktokv.eu CNAME .
 *.frontier16-normal-useastred.tiktokv.eu CNAME .
+location.tiktokv.eu CNAME .
+*.location.tiktokv.eu CNAME .
 location-ttp2.tiktokv.eu CNAME .
 *.location-ttp2.tiktokv.eu CNAME .
 location-v6-ttp2.tiktokv.eu CNAME .
