@@ -380,20 +380,20 @@ In short: being listed in [Sources](https://github.com/hagezi/dns-blocklists/blo
 
 Use the **Blocklist Lookup**: [hagezi-mirror.dnsbunker.org/listseek.php](https://hagezi-mirror.dnsbunker.org/listseek.php)
 
-Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry showing every list that blocks it plus the exact rule doing the blocking. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `1.1.1.1` in the same run. It reads the published lists straight from the build mirror, so the answer always reflects the newest build. No downloading files and grepping through them yourself.
+Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry showing every list that blocks it plus the exact rule doing the blocking. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `1.1.1.1` in the same run. Wildcard patterns like `*.example.com` work too, listing every matching rule, and you can paste a full URL or bracketed notation (`example[.]com`) straight in. It reads the published lists straight from the build mirror, so the answer always reflects the newest build. No downloading files and grepping through them yourself.
 
 It's subdomain-aware, which is often the interesting part. Look up `region1.app-measurement.com` and the result shows the rule `||app-measurement.com^`, so you can tell the block comes from a wildcard on the parent domain rather than from an entry for that exact hostname.
 
-It also follows CNAME chains, up to 8 hops. A domain that isn't on any list itself still gets flagged if it points at something that is, which is exactly how CNAME cloaking hides trackers behind a harmless looking first-party name, see the [glossary](#gl-c). The result then shows the full chain, so you can see where the block actually comes from.
+It also follows CNAME chains, up to 8 hops. A domain that isn't on any list itself still gets flagged if it points at something that is, which is exactly how CNAME cloaking hides trackers behind a harmless looking first-party name, see the [glossary](#gl-c). The result then shows the full chain, so you can see where the block actually comes from. Chains that don't resolve, or hosts hidden behind further server-side redirection, can't be caught this way.
 
 What it's good for:
 
 - **Something broke.** Your query log gives you the domain, the Lookup tells you which list is responsible. If it's a list you subscribe to, allowlist the domain or drop down to a less aggressive tier, see [section 2](#whatshouldiuse).
 - **Picking or switching tiers.** Check a domain you depend on before you move. If it shows up under Pro++ but not under Pro, you know exactly what you'd be signing up for.
 - **Before you report something.** A report that names the domain, the list, and the rule is much faster to act on, see [section 13](#support).
-- **Checking coverage.** No results at all means no published list currently blocks that domain, which is exactly the case for a "should be blocked but isn't" report.
+- **Checking coverage.** A **Not found** result means no published list currently blocks that domain, which is exactly the case for a "should be blocked but isn't" report. If the domain has no DNS records at all, you also get a note that it may no longer exist, so you know it's dead rather than just unlisted.
 
-The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, see [section 5](#listrelationships) for what those lists cover and switch them on for that query.
+The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, see [section 5](#listrelationships) for what those lists cover and tick **Include NRD and DGA lists** for that query.
 
 > [!NOTE]
 > Two things the Lookup can't tell you:

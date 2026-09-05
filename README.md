@@ -565,7 +565,7 @@ Blocks the native trackers baked into devices, services, and operating systems t
 
 Not sure whether a domain is blocked, or which list is responsible for it? The **Blocklist Lookup** answers both: [hagezi-mirror.dnsbunker.org/listseek.php](https://hagezi-mirror.dnsbunker.org/listseek.php)
 
-Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry listing every list that blocks it along with the exact rule. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `1.1.1.1` in the same run. It reads the published lists straight from the build mirror, so the results always reflect the newest build.
+Paste in one entry or a whole batch, one per line and up to 50 per query, hit Search, and you get a card per entry listing every list that blocks it along with the exact rule. Domains and IPv4 addresses both work, so you can check something like `ads.tracker.net` and `1.1.1.1` in the same run. Wildcard patterns like `*.example.com` work too, listing every matching rule, and you can paste a full URL or bracketed notation (`example[.]com`) straight in. It reads the published lists straight from the build mirror, so the results always reflect the newest build.
 
 It's subdomain-aware too: look up `region1.app-measurement.com` and you'll see the match comes from `||app-measurement.com^`, a wildcard on the parent domain, not an entry for that exact hostname. It also follows CNAME chains, up to 8 hops, so a domain that isn't on any list itself still gets flagged if it points at something that is, and the result shows you the full chain.
 
