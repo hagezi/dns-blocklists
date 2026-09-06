@@ -7,26 +7,23 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 05 Sep 2026 15:55 UTC
-! Version: 2026.0905.1555.19
+! Last modified: 06 Sep 2026 08:42 UTC
+! Version: 2026.0906.0842.04
 ! Syntax: AdBlock
-! Number of entries: 357
+! Number of entries: 332
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
 ||doh-dns-apple-com.v.aaplimg.com^
-||mask-canary.v.aaplimg.com^
 ||adl.adfilter.net^
 ||per.adfilter.net^
 ||syd.adfilter.net^
 ||dns.adguard.com^
 ||dns-family.adguard.com^
 ||dns-unfiltered.adguard.com^
-||dns.bitdefender.net.akadns.net^
 ||httpdns.alicdn.com^
 ||resolvers-cn.httpdns.aliyuncs.com^
 ||httpdns-sc.aliyuncs.com^
-||eu-opush-heytapmobile-pubgw-1244993624.eu-west-3.elb.amazonaws.com^
 ||doh.dns.apple.com^
 ||httpsdns.baidu.com^
 ||httpdns.baidubce.com^
@@ -35,11 +32,12 @@
 ||dns.bitdefender.net^
 ||fra-dns.bitdefender.net^
 ||iow-dns.bitdefender.net^
-||ned-dns.bitdefender.net^
 ||nvi-dns.bitdefender.net^
 ||ore-dns.bitdefender.net^
 ||tky-dns.bitdefender.net^
+||doh-ch.blahdns.com^
 ||doh-de.blahdns.com^
+||doh-fi.blahdns.com^
 ||doh-jp.blahdns.com^
 ||doh-sg.blahdns.com^
 ||dns.brahma.world^
@@ -49,7 +47,6 @@
 ||dns.circl.lu^
 ||dns.cloudflare.com^
 ||api.cloudflareclient.com^
-||gayanalysing.co.uk^
 ||pooblet.co.za^
 ||sbdns.co.in^
 ||dns.weixin.qq.com.cn^
@@ -62,10 +59,12 @@
 ||httpdns-platform-dbankcloud-com-dre.wec.dbankedge.cn^
 ||dns.digitalsize.net^
 ||dotserver.douyucdn.cn^
+||dns.electrotm.org^
 ||waterfox-ohttp-relay.fastly-edge.com^
 ||ns1.fdn.fr^
 ||doh.ffmuc.net^
 ||dns.gamban.com^
+||doh.ptqy.gitv.tv^
 ||moph.go.th^
 ||dns.google.com^
 ||google-public-dns-a.google.com^
@@ -85,9 +84,9 @@
 ||protective.joindns4.eu^
 ||unfiltered.joindns4.eu^
 ||opencdn.jomodns.com^
+||dns.kernel-error.de^
 ||hdns.ksyun.com^
 ||doh.libredns.gr^
-||inf-wan.vip.meituan.com^
 ||httpdns.meituan.com^
 ||httpdnsmultiapi.meituan.com^
 ||httpdnsmultiapivip.meituan.com^
@@ -111,9 +110,7 @@
 ||sandbox.opendns.com^
 ||httpdns.ocloud.oppomobile.com^
 ||httpdns.push.oppomobile.com^
-||splat-api.us-ashburn-1.oci.oraclecloud.com^
 ||pluton.plan9-dns.com^
-||pixie.porkbun.com^
 ||httpdns.kg.qq.com^
 ||dns.weixin.qq.com^
 ||paydns.weixin.qq.com^
@@ -127,13 +124,16 @@
 ||dnspub.restena.lu^
 ||dns.rubyfish.cn^
 ||free.shecan.ir^
+||dns.smartguard.io^
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
 ||dns.surfsharkdns.com^
 ||ibksturm.synology.me^
 ||dns.t-ipnet.de^
-||dns.technorail.com^
+||httpdns.danuoyi.tbcache.com^
 ||homenet.telecomitalia.it^
+||doh.tiar.app^
+||dot.tiar.app^
 ||sdkconfig.tlivedns.com^
 ||dns.twnic.tw^
 ||dot.ublockdns.com^
@@ -145,7 +145,6 @@
 ||h4g3z1-doh.top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
-||dns.weibo.cn^
 ||doh2.gslb2.xfinity.com^
 ||doh.xfinity.com^
 ||common.dot.dns.yandex.net^
@@ -162,7 +161,6 @@
 ||3dns.eu^
 ||3jjxxl.tech^
 ||8888.google^
-||abstergo.it^
 ||adblockersite.com^
 ||adfreedns.top^
 ||adguard-dns.com^
@@ -181,14 +179,11 @@
 ||bestwon203.com^
 ||bluemood.me^
 ||bravedns.com^
-||brono.cloud^
 ||c-dns.com^
-||cahlen.com^
 ||callies-online.site^
 ||catchen121299.top^
 ||catdns.org^
 ||cfdjb.org^
-||christian.moe^
 ||cleanbrowsing.org^
 ||cloudbenders.fun^
 ||cloudflare-dns.com^
@@ -201,7 +196,6 @@
 ||cryptroute.com^
 ||cubedns.com^
 ||cynntex.fun^
-||daw.dev^
 ||deep-henchman-excuse.cfd^
 ||digitale-gesellschaft.ch^
 ||dingdangnao.com^
@@ -210,9 +204,6 @@
 ||dns.pub^
 ||dns.sb^
 ||dns.watch^
-||dns-53.com^
-||dns-53.uk^
-||dns-53.us^
 ||dns-free.link^
 ||dns0.eu^
 ||dns4me.net^
@@ -240,7 +231,6 @@
 ||easyhandshake.com^
 ||edgy-dns.com^
 ||eth.link^
-||faked.org^
 ||farewellkou.click^
 ||fezgate.ovh^
 ||fidelius.top^
@@ -248,11 +238,8 @@
 ||gibblets.top^
 ||gigatapbot.top^
 ||glacius.top^
-||glf.wtf^
 ||greatideasforlife.lol^
 ||gztech.me^
-||hahnjo.de^
-||haka.se^
 ||hfgx.shop^
 ||himedns.com^
 ||hitian.me^
@@ -262,7 +249,6 @@
 ||iij.jp^
 ||imperio.top^
 ||inpssh.online^
-||internetpositif.id^
 ||intertop.link^
 ||ivnkn.xyz^
 ||jabber-germany.de^
@@ -273,7 +259,6 @@
 ||kaiwu.xyz^
 ||kavkaz.monster^
 ||kilabit.info^
-||kimiblock.top^
 ||ko-18948-tr.xyz^
 ||kx-97795-tr.xyz^
 ||lastentarvike.fi^
@@ -282,14 +267,11 @@
 ||lesuo.top^
 ||lewsha.lol^
 ||lifeisa.live^
-||listo.click^
 ||loadlow.me^
 ||lukscasino-479-tr.xyz^
 ||lukscasino-542-tr.xyz^
 ||lukscasino-929-tr.xyz^
-||maitrekuc.fr^
 ||maqgie.xyz^
-||marasov.id^
 ||masters-of-cloud.de^
 ||maxfong.cc^
 ||meganerd.nl^
@@ -299,18 +281,15 @@
 ||muxyuji.ru^
 ||myatris.sbs^
 ||najiakeji.top^
-||nicolas-dorriere.fr^
 ||nicsezcheckfbi.gov^
 ||ns3.com^
 ||ntwrkh.pro^
 ||nwps.fi^
 ||o1.lt^
-||onlyfriends.info^
 ||openbld.net^
 ||paradise-human.shop^
 ||pashagame456.com^
 ||pepetio.xyz^
-||piekacz.pl^
 ||pm1239-bd.xyz^
 ||pm7051-br.xyz^
 ||pm9352-bd.xyz^
@@ -320,7 +299,6 @@
 ||polisitogel.webcam^
 ||project-evoex.de^
 ||qqmcfw.tech^
-||qrtz.club^
 ||quic.lol^
 ||r1bnc.com^
 ||regiopolis.cloud^
@@ -328,16 +306,13 @@
 ||rethinkdns.com^
 ||revelio.top^
 ||ricko.is^
-||rin.sh^
 ||rockwell.website^
 ||rumpelsepp.org^
 ||safeservedns.com^
 ||shalenkov.dev^
 ||strassmair.org^
 ||sunnygyl.com^
-||szpadel.ovh^
 ||tecdrive.site^
-||tiar.app^
 ||tlz.asia^
 ||toaster.lol^
 ||tri-dns.net^
