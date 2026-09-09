@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788857340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788910860 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 08 Sep 2026 08:49 UTC
-; Version: 2026.0908.0849.56
+; Last modified: 08 Sep 2026 23:41 UTC
+; Version: 2026.0908.2341.36
 ; Syntax: RPZ
-; Number of entries: 6648
+; Number of entries: 6644
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3083,8 +3083,6 @@ de.dns.privex.io CNAME .
 *.de.dns.privex.io CNAME .
 nl.dns.privex.io CNAME .
 *.nl.dns.privex.io CNAME .
-kams.kii.qzz.io CNAME .
-*.kams.kii.qzz.io CNAME .
 zouter.zhang3118.qzz.io CNAME .
 *.zouter.zhang3118.qzz.io CNAME .
 doh.rezhajul.io CNAME .
@@ -4143,8 +4141,6 @@ darya.persiannit.net CNAME .
 *.darya.persiannit.net CNAME .
 phantom3c.net CNAME .
 *.phantom3c.net CNAME .
-mydns.phatna.net CNAME .
-*.mydns.phatna.net CNAME .
 dns.phillipjberry.net CNAME .
 *.dns.phillipjberry.net CNAME .
 dns.powerbs.net CNAME .
