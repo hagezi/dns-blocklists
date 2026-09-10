@@ -227,9 +227,6 @@ https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/ma
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/Alternative%20list%20formats/antimalware_domains_nopups.txt
 https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt
 https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt
-https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt
-https://raw.githubusercontent.com/stamparm/aux/master/maltrail-static-trails.txt
-https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 https://siberguvenlik.gov.tr/zararli-baglantilar
 https://threatfox.abuse.ch/downloads/hostfile
@@ -300,12 +297,6 @@ https://raw.githubusercontent.com/cbuijs/ut1/master/vpn/domains
 https://raw.githubusercontent.com/clsfo/reflect4-blocklist/refs/heads/main/reflect4_domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/anonymous_web_proxy.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/blockchain_dns.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/dns_tunneling_service.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/free_web_hosting.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/onion.txt
-https://raw.githubusercontent.com/stamparm/trails/main/suspicious/port_proxy.txt
 ```
 
 ### Gambling

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788910860 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788996960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 08 Sep 2026 23:41 UTC
-; Version: 2026.0908.2341.36
+; Last modified: 09 Sep 2026 23:36 UTC
+; Version: 2026.0909.2336.30
 ; Syntax: RPZ
-; Number of entries: 6644
+; Number of entries: 6636
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -343,8 +343,6 @@ doh.quickline.ch CNAME .
 *.doh.quickline.ch CNAME .
 dot.quickline.ch CNAME .
 *.dot.quickline.ch CNAME .
-dns.sheggi.ch CNAME .
-*.dns.sheggi.ch CNAME .
 dns.simplylinux.ch CNAME .
 *.dns.simplylinux.ch CNAME .
 dns.switch.ch CNAME .
@@ -2859,8 +2857,6 @@ dns.pondokngunut.ponpes.id CNAME .
 *.dns.pondokngunut.ponpes.id CNAME .
 doh.runsel.id CNAME .
 *.doh.runsel.id CNAME .
-filter.das.sch.id CNAME .
-*.filter.das.sch.id CNAME .
 dns.walker.id CNAME .
 *.dns.walker.id CNAME .
 dns6.web.id CNAME .
@@ -5381,8 +5377,6 @@ gdns.end.pub CNAME .
 *.gdns.end.pub CNAME .
 hk.end.pub CNAME .
 *.hk.end.pub CNAME .
-alidns.session.pub CNAME .
-*.alidns.session.pub CNAME .
 doh.totoro.pub CNAME .
 *.doh.totoro.pub CNAME .
 doh.datt.pw CNAME .
@@ -5855,8 +5849,6 @@ nl.dns.shx.su CNAME .
 *.nl.dns.shx.su CNAME .
 smartcamp.su CNAME .
 *.smartcamp.su CNAME .
-proxy.srs.su CNAME .
-*.proxy.srs.su CNAME .
 ztv.su CNAME .
 *.ztv.su CNAME .
 crypto.sx CNAME .
