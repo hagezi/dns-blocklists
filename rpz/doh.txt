@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788996960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789116900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Sep 2026 23:36 UTC
-; Version: 2026.0909.2336.30
+; Last modified: 11 Sep 2026 08:55 UTC
+; Version: 2026.0911.0855.31
 ; Syntax: RPZ
-; Number of entries: 6636
+; Number of entries: 6630
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1797,8 +1797,6 @@ adguard.vozersky.com CNAME .
 *.adguard.vozersky.com CNAME .
 45.32.17.58.vultrusercontent.com CNAME .
 *.45.32.17.58.vultrusercontent.com CNAME .
-wantaquddin.com CNAME .
-*.wantaquddin.com CNAME .
 dns.wechat.com CNAME .
 *.dns.wechat.com CNAME .
 dns.wellstsai.com CNAME .
@@ -1833,8 +1831,6 @@ dot.xfinity.com CNAME .
 *.dot.xfinity.com CNAME .
 doh2.gslb2.xfinity.com CNAME .
 *.doh2.gslb2.xfinity.com CNAME .
-xorbiadns.com CNAME .
-*.xorbiadns.com CNAME .
 dns.xusqui.com CNAME .
 *.dns.xusqui.com CNAME .
 dns.yameenassotally.com CNAME .
@@ -5907,8 +5903,6 @@ dns.readlook.tk CNAME .
 *.dns.readlook.tk CNAME .
 ag.teqilla.tk CNAME .
 *.ag.teqilla.tk CNAME .
-dns.vinokurov.tk CNAME .
-*.dns.vinokurov.tk CNAME .
 dns.koala.us.to CNAME .
 *.dns.koala.us.to CNAME .
 mcore.us.to CNAME .

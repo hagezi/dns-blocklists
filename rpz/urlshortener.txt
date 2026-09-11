@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789025340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789111440 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 10 Sep 2026 07:29 UTC
-; Version: 2026.0910.0729.23
+; Last modified: 11 Sep 2026 07:24 UTC
+; Version: 2026.0911.0724.58
 ; Syntax: RPZ
-; Number of entries: 19806
+; Number of entries: 19772
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1815,8 +1815,6 @@ urlf.cc CNAME .
 *.urlf.cc CNAME .
 urlme.cc CNAME .
 *.urlme.cc CNAME .
-urltiny.cc CNAME .
-*.urltiny.cc CNAME .
 urlty.cc CNAME .
 *.urlty.cc CNAME .
 ut9.cc CNAME .
@@ -2931,8 +2929,6 @@ u3l.co CNAME .
 *.u3l.co CNAME .
 uafly.co CNAME .
 *.uafly.co CNAME .
-umper.co CNAME .
-*.umper.co CNAME .
 undrarmr.co CNAME .
 *.undrarmr.co CNAME .
 unipapa.co CNAME .
@@ -7067,8 +7063,6 @@ travelmarketingandmedia.com CNAME .
 *.travelmarketingandmedia.com CNAME .
 trceme.com CNAME .
 *.trceme.com CNAME .
-treelinked.com CNAME .
-*.treelinked.com CNAME .
 treszki.com CNAME .
 *.treszki.com CNAME .
 triggerbee.com CNAME .
@@ -7243,24 +7237,18 @@ url50.com CNAME .
 *.url50.com CNAME .
 url56x.com CNAME .
 *.url56x.com CNAME .
-url5xx.com CNAME .
-*.url5xx.com CNAME .
 url666x.com CNAME .
 *.url666x.com CNAME .
 url69xx.com CNAME .
 *.url69xx.com CNAME .
 url6x.com CNAME .
 *.url6x.com CNAME .
-url6xx.com CNAME .
-*.url6xx.com CNAME .
 url777x.com CNAME .
 *.url777x.com CNAME .
 url77xx.com CNAME .
 *.url77xx.com CNAME .
 url84.com CNAME .
 *.url84.com CNAME .
-url8x.com CNAME .
-*.url8x.com CNAME .
 urladda.com CNAME .
 *.urladda.com CNAME .
 urlah.com CNAME .
@@ -7319,8 +7307,6 @@ urlifypoint.com CNAME .
 *.urlifypoint.com CNAME .
 urlifys.com CNAME .
 *.urlifys.com CNAME .
-urlintel.com CNAME .
-*.urlintel.com CNAME .
 urlkai.com CNAME .
 *.urlkai.com CNAME .
 urlki.com CNAME .
@@ -7547,8 +7533,6 @@ visitmylinks.com CNAME .
 *.visitmylinks.com CNAME .
 visitsitenow.com CNAME .
 *.visitsitenow.com CNAME .
-visiyta.com CNAME .
-*.visiyta.com CNAME .
 vivoldi.com CNAME .
 *.vivoldi.com CNAME .
 vkik.com CNAME .
@@ -7729,8 +7713,6 @@ xronia.com CNAME .
 *.xronia.com CNAME .
 xtglinks.com CNAME .
 *.xtglinks.com CNAME .
-xxuse.com CNAME .
-*.xxuse.com CNAME .
 xxxdwz.com CNAME .
 *.xxxdwz.com CNAME .
 yahbo.com CNAME .
@@ -10269,8 +10251,6 @@ vilpower.in CNAME .
 *.vilpower.in CNAME .
 vipshort.in CNAME .
 *.vipshort.in CNAME .
-vlinks.in CNAME .
-*.vlinks.in CNAME .
 vlnq.in CNAME .
 *.vlnq.in CNAME .
 vplink.in CNAME .
@@ -10475,8 +10455,6 @@ timewatch.info CNAME .
 *.timewatch.info CNAME .
 tinylink.info CNAME .
 *.tinylink.info CNAME .
-ttdt.info CNAME .
-*.ttdt.info CNAME .
 unclic.info CNAME .
 *.unclic.info CNAME .
 url-shortener.info CNAME .
@@ -11259,8 +11237,6 @@ urlb.io CNAME .
 *.urlb.io CNAME .
 urlbit.io CNAME .
 *.urlbit.io CNAME .
-urlmini.io CNAME .
-*.urlmini.io CNAME .
 urlshortx.io CNAME .
 *.urlshortx.io CNAME .
 urlzip.io CNAME .
@@ -13055,8 +13031,6 @@ urlify.link CNAME .
 *.urlify.link CNAME .
 urllink.link CNAME .
 *.urllink.link CNAME .
-urlshorten.link CNAME .
-*.urlshorten.link CNAME .
 usetiny.link CNAME .
 *.usetiny.link CNAME .
 uxo.link CNAME .
@@ -13631,8 +13605,6 @@ flug.marketing CNAME .
 *.flug.marketing CNAME .
 supercool.marketing CNAME .
 *.supercool.marketing CNAME .
-tuch.marketing CNAME .
-*.tuch.marketing CNAME .
 sv.mba CNAME .
 *.sv.mba CNAME .
 aus.md CNAME .
@@ -14461,8 +14433,6 @@ troms.me CNAME .
 *.troms.me CNAME .
 trucri.me CNAME .
 *.trucri.me CNAME .
-trustbit.me CNAME .
-*.trustbit.me CNAME .
 try4.me CNAME .
 *.try4.me CNAME .
 tsz4.me CNAME .
@@ -16375,8 +16345,6 @@ weareja.org CNAME .
 *.weareja.org CNAME .
 webshort.org CNAME .
 *.webshort.org CNAME .
-wildflowerlinks.org CNAME .
-*.wildflowerlinks.org CNAME .
 wingsy.org CNAME .
 *.wingsy.org CNAME .
 data.worldbank.org CNAME .
@@ -16805,8 +16773,6 @@ urlyshort.pro CNAME .
 *.urlyshort.pro CNAME .
 vd1.pro CNAME .
 *.vd1.pro CNAME .
-vdio.pro CNAME .
-*.vdio.pro CNAME .
 vivir.pro CNAME .
 *.vivir.pro CNAME .
 wakgengs.pro CNAME .
