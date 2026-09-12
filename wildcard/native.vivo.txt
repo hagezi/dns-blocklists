@@ -1,14 +1,14 @@
-# Title: HaGeZi's Vivo Tracker DNS Blocklist
-# Description: Blocks Vivo native broadband tracker that track your activity.
+# Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Vivo native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 14 Aug 2026 22:05 UTC
-# Version: 2026.0814.2205.29
+# Expires: 8 hours
+# Last modified: 11 Sep 2026 22:02 UTC
+# Version: 2026.0911.2202.53
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 229
+# Number of entries: 233
 #
 *.vhs.wwstat.com.eo.unicomcdn.com.cn
 *.az.appstore.vivo.com.cn
@@ -98,6 +98,7 @@
 *.eu-p.vivoglobal.com
 *.eu-pnrt-stsdk.vivoglobal.com
 *.eu-romsp-unifyconfig.vivoglobal.com
+*.eu-st-exappupgrade.vivoglobal.com
 *.eu-st-sl.vivoglobal.com
 *.eu-stsdk.vivoglobal.com
 *.eu-timesync.vivoglobal.com
@@ -140,17 +141,20 @@
 *.in-vcode-or.vivoglobal.com
 *.in-vpushonrt-stsdk.vivoglobal.com
 *.in-vpushort-stsdk.vivoglobal.com
+*.kz-album-api.vivoglobal.com
 *.kz-cname-sin01-bigdata.vivoglobal.com
 *.kz-err-up.vivoglobal.com
 *.kz-monitor-stsdk.vivoglobal.com
 *.kz-onrt-stsdk.vivoglobal.com
 *.kz-ort-stsdk.vivoglobal.com
+*.kz-p.vivoglobal.com
 *.kz-pnrt-stsdk.vivoglobal.com
 *.kz-prt-stsdk.vivoglobal.com
 *.kz-st-exappupgrade.vivoglobal.com
 *.kz-st-sl.vivoglobal.com
 *.kz-st-sysupgrade.vivoglobal.com
 *.kz-stsdk.vivoglobal.com
+*.kz-timesync.vivoglobal.com
 *.kz-vcode-od.vivoglobal.com
 *.kz-vcode-or.vivoglobal.com
 *.monitor-stsdk.vivoglobal.com

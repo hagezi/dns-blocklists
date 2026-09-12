@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788562080 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789163820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Microsoft Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Sep 2026 22:48 UTC
-; Version: 2026.0904.2248.42
+; Last modified: 11 Sep 2026 21:57 UTC
+; Version: 2026.0911.2157.59
 ; Syntax: RPZ
-; Number of entries: 776
+; Number of entries: 774
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -754,8 +754,6 @@ citrixtelemetryeheu-alias.servicebus.windows.net CNAME .
 *.citrixtelemetryeheu-alias.servicebus.windows.net CNAME .
 ehtelemetrystaging-alias.servicebus.windows.net CNAME .
 *.ehtelemetrystaging-alias.servicebus.windows.net CNAME .
-ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net CNAME .
-*.ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net CNAME .
 hme-live-loganalytics-namespace.servicebus.windows.net CNAME .
 *.hme-live-loganalytics-namespace.servicebus.windows.net CNAME .
 hme-uat-loganalytics-namespace.servicebus.windows.net CNAME .

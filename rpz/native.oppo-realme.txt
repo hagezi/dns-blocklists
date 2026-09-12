@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785740820 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1789164180 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's OPPO & Realme Tracker DNS Blocklist
-; Description: Blocks OPPO & Realme native broadband tracker that track your activity.
+; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the OPPO & Realme native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 03 Aug 2026 07:07 UTC
-; Version: 2026.0803.0707.52
+; Expires: 8 hours
+; Last modified: 11 Sep 2026 22:03 UTC
+; Version: 2026.0911.2203.40
 ; Syntax: RPZ
-; Number of entries: 968
+; Number of entries: 966
 ;
 h4g3z1-native.oppo-realme.web.app CNAME .
 *.h4g3z1-native.oppo-realme.web.app CNAME .
@@ -230,8 +230,6 @@ guif.coloros.com CNAME .
 *.guif.coloros.com CNAME .
 guif-eu.coloros.com CNAME .
 *.guif-eu.coloros.com CNAME .
-icosa-sg.coloros.com CNAME .
-*.icosa-sg.coloros.com CNAME .
 icota-eu.coloros.com CNAME .
 *.icota-eu.coloros.com CNAME .
 ifrus.coloros.com CNAME .

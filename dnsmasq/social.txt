@@ -1,14 +1,15 @@
-# Title: HaGeZi's Social Networks DNS Blocklist
-# Description: Blocks access to social networks (Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, ...)
+# Title: HaGeZi's Social Networks - blocks access to social networks!
+# Description: Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, and others.
+# Note: This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 27 Aug 2026 16:53 UTC
-# Version: 2026.0827.1653.59
+# Expires: 8 hours
+# Last modified: 12 Sep 2026 07:35 UTC
+# Version: 2026.0912.0735.40
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 902
+# Number of entries: 900
 #
 local=/2ch.org/
 local=/4cdn.org/
@@ -770,9 +771,7 @@ local=/redditmail.com/
 local=/redditmedia.com/
 local=/redditstatic.com/
 local=/redkix.com/
-local=/rocksdb.com/
 local=/rocksdb.net/
-local=/rocksdb.org/
 local=/rollenspiel.social/
 local=/rossgram.ru/
 local=/ruby.social/

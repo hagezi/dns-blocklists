@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 04 Sep 2026 22:50 UTC
-# Version: 2026.0904.2250.20
+# Last modified: 11 Sep 2026 21:59 UTC
+# Version: 2026.0911.2159.40
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 435
+# Number of entries: 438
 #
 local=/analytics.us.tiktok.com.bytedance.akadns.net/
 local=/analytics.us.tiktok.com.bytewlb.akadns.net/
@@ -88,6 +88,7 @@ local=/tnc-va.capcutapi.com/
 local=/tnc-va-us-looki.capcutapi.com/
 local=/tnc16-normal-us-ttp.capcutapi.us/
 local=/frontier.capcutw.us/
+local=/mssdk-ru.tiktokv.com.www.digmawifi.com/
 local=/mon-i18n.tiktokv.com.dvaitas.lt/
 local=/mcs-ie2.tiktokw.eu.dvaitas.lt/
 local=/analytics.tiktok.com.edgekey.net/
@@ -214,6 +215,7 @@ local=/xlog16-normal-useast8.us.tiktokv.com/
 local=/xlog16-platform-useast5.us.tiktokv.com/
 local=/ad.tiktokv.com/
 local=/ad.tiktokv.us/
+local=/ad-format.tiktokv.us/
 local=/ad-format-sg.tiktokv.com/
 local=/ad-format-ttp2.tiktokv.eu/
 local=/ad-format16-normal-useastred.tiktokv.eu/
@@ -228,6 +230,7 @@ local=/live-video-log16-normal-alisg.tiktokv.com/
 local=/location.tiktokv.com/
 local=/location.tiktokv.eu/
 local=/location-i18n.tiktokv.com/
+local=/location-ru.tiktokv.com/
 local=/location-sg.tiktokv.com/
 local=/location-ttp2.tiktokv.eu/
 local=/location-v6.tiktokv.com/
@@ -292,7 +295,6 @@ local=/log32-normal-useast1a.tiktokv.com/
 local=/log32-normal-useast2a.tiktokv.com/
 local=/log32-normal-useastred.tiktokv.eu/
 local=/log32-normal-zr.tiktokv.com/
-local=/log53-normal-c-useast1a.tiktokv.com/
 local=/log58-normal.tiktokv.com/
 local=/log58-normal-alisg.tiktokv.com/
 local=/log58-normal-c-alisg.tiktokv.com/
@@ -327,6 +329,7 @@ local=/rtc-logger.tiktokv.com/
 local=/rtc-logger.tiktokv.us/
 local=/rtc-logger-i18n.tiktokv.com/
 local=/rtc-logger-ie.tiktokv.eu/
+local=/rtc-logger-ttp2.tiktokv.us/
 local=/rtc-logger-va.tiktokv.com/
 local=/rtc-logger16-normal-useastred.tiktokv.eu/
 local=/rtlog.tiktokv.com/

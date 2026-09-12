@@ -1,14 +1,14 @@
-# Title: HaGeZi's Vivo Tracker DNS Blocklist
-# Description: Blocks Vivo native broadband tracker that track your activity.
+# Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
+# Description: Blocks the Vivo native trackers baked into devices, services, and operating systems that quietly track what you do.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-# Expires: 1 day
-# Last modified: 14 Aug 2026 22:05 UTC
-# Version: 2026.0814.2205.29
+# Expires: 8 hours
+# Last modified: 11 Sep 2026 22:02 UTC
+# Version: 2026.0911.2202.53
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 229
+# Number of entries: 233
 #
 local=/vhs.wwstat.com.eo.unicomcdn.com.cn/
 local=/az.appstore.vivo.com.cn/
@@ -98,6 +98,7 @@ local=/eu-ort-stsdk.vivoglobal.com/
 local=/eu-p.vivoglobal.com/
 local=/eu-pnrt-stsdk.vivoglobal.com/
 local=/eu-romsp-unifyconfig.vivoglobal.com/
+local=/eu-st-exappupgrade.vivoglobal.com/
 local=/eu-st-sl.vivoglobal.com/
 local=/eu-stsdk.vivoglobal.com/
 local=/eu-timesync.vivoglobal.com/
@@ -140,17 +141,20 @@ local=/in-vcode-od.vivoglobal.com/
 local=/in-vcode-or.vivoglobal.com/
 local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
+local=/kz-album-api.vivoglobal.com/
 local=/kz-cname-sin01-bigdata.vivoglobal.com/
 local=/kz-err-up.vivoglobal.com/
 local=/kz-monitor-stsdk.vivoglobal.com/
 local=/kz-onrt-stsdk.vivoglobal.com/
 local=/kz-ort-stsdk.vivoglobal.com/
+local=/kz-p.vivoglobal.com/
 local=/kz-pnrt-stsdk.vivoglobal.com/
 local=/kz-prt-stsdk.vivoglobal.com/
 local=/kz-st-exappupgrade.vivoglobal.com/
 local=/kz-st-sl.vivoglobal.com/
 local=/kz-st-sysupgrade.vivoglobal.com/
 local=/kz-stsdk.vivoglobal.com/
+local=/kz-timesync.vivoglobal.com/
 local=/kz-vcode-od.vivoglobal.com/
 local=/kz-vcode-or.vivoglobal.com/
 local=/monitor-stsdk.vivoglobal.com/
