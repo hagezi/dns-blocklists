@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789136220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789284180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Sep 2026 14:17 UTC
-; Version: 2026.0911.1417.27
+; Last modified: 13 Sep 2026 07:23 UTC
+; Version: 2026.0913.0723.12
 ; Syntax: RPZ
-; Number of entries: 19770
+; Number of entries: 19762
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -6851,8 +6851,6 @@ developer.telesign.com CNAME .
 *.developer.telesign.com CNAME .
 tellurl.com CNAME .
 *.tellurl.com CNAME .
-www.temporary-url.com CNAME .
-*.www.temporary-url.com CNAME .
 terashort.com CNAME .
 *.terashort.com CNAME .
 terijoss.com CNAME .
@@ -7175,6 +7173,8 @@ univ-stmik.com CNAME .
 *.univ-stmik.com CNAME .
 unlockflowurls.com CNAME .
 *.unlockflowurls.com CNAME .
+unnajd.com CNAME .
+*.unnajd.com CNAME .
 unpixly.com CNAME .
 *.unpixly.com CNAME .
 unsololink.com CNAME .
@@ -10793,8 +10793,6 @@ git.io CNAME .
 *.git.io CNAME .
 glatt.io CNAME .
 *.glatt.io CNAME .
-glnk.io CNAME .
-*.glnk.io CNAME .
 golinkfy.io CNAME .
 *.golinkfy.io CNAME .
 grem.io CNAME .
@@ -13827,8 +13825,6 @@ digiprofile.me CNAME .
 *.digiprofile.me CNAME .
 direct.me CNAME .
 *.direct.me CNAME .
-dlink.me CNAME .
-*.dlink.me CNAME .
 dos.me CNAME .
 *.dos.me CNAME .
 drinks.me CNAME .
@@ -14233,8 +14229,6 @@ t2mio.pulsem.me CNAME .
 *.t2mio.pulsem.me CNAME .
 pxlfy.me CNAME .
 *.pxlfy.me CNAME .
-pxlme.me CNAME .
-*.pxlme.me CNAME .
 qcklik.me CNAME .
 *.qcklik.me CNAME .
 qlynk.me CNAME .
@@ -14537,8 +14531,6 @@ xib.me CNAME .
 *.xib.me CNAME .
 xn--ru-via.me CNAME .
 *.xn--ru-via.me CNAME .
-xpixl.me CNAME .
-*.xpixl.me CNAME .
 xt3.me CNAME .
 *.xt3.me CNAME .
 xth.me CNAME .
