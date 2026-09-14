@@ -16,9 +16,10 @@ A practical guide to how these DNS blocklists get built, which version fits your
 10. [How current is the data, and where can I get it?](#mirrors)
 11. [Where does the data come from, and how are the lists built?](#sources)
 12. [How do I check whether a domain or IP is blocked, and by which list?](#listlookup)
-13. [Getting help and reporting issues](#support)
-14. [Licensing and liability](#licensing)
-15. [Glossary](#glossary)
+13. [How do I get the download links for the lists I picked?](#linkgenerator)
+14. [Getting help and reporting issues](#support)
+15. [Licensing and liability](#licensing)
+16. [Glossary](#glossary)
 
 ---
 
@@ -32,17 +33,20 @@ Here's the fast track to getting protection running, no need to read the rest of
   <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
 </picture>
 
+> [!TIP]
+> **Want to skip the clicking?** The [Direct Link Generator](#linkgenerator) rolls steps 1 to 4 into a single page: select the app or device you use and it sets the format for you, tick the lists you want, then copy every download link in one go. The steps below still explain what you're actually choosing, so they're worth a read either way.
+
 1. **Figure out what you're running, and which format it needs.** Are you blocking DNS network-wide (Pi-hole, AdGuard Home, TechnitiumDNS, OPNsense) or in the browser (uBlock Origin, AdGuard browser extension)? Network-wide blocking covers every device on your network, a browser blocker only that one browser, and running both is the better setup, see step 5. If you don't have either and don't want to set one up, use one of the [online DNS services](README.md#dnsservices) instead: they have these lists built in, so you just switch on what you want and skip step 4 entirely, and [section 9](#availablelists) shows which service carries which list. Everyone else: check [section 4](#formats) for the format your tool understands (Adblock, DNSMasq, Wildcard, RPZ, and so on). Tools only read their own format, and you'll need to know yours in step 4.
 2. **Pick a version.** The main list comes in five strengths: Light, Normal, Pro, Pro++, and Ultimate. Not sure? Start with [Pro](README.md#pro), it's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.
 3. **Pick Threat Intelligence Feeds (TIF) as well.** The [TIF](README.md#tif) list adds protection against malware and phishing and belongs alongside your main list no matter which strength you picked. If your tool struggles with big lists, take its medium or mini version instead.
-4. **Grab the links and subscribe.** Every list has its own section in the [README](README.md#overview), reachable from the overview table or the table of contents. That section ends in a small table with one column per format, so right-click (long-press on mobile) the Link under the format from step 1, copy the link address, and paste it into your tool's blocklist or filter subscription settings. Each list needs its own subscription entry, so do that once for your main list and once for TIF.
+4. **Grab the links and subscribe.** Every list has its own section in the [README](README.md#overview), reachable from the overview table or the table of contents. That section ends in a small table with one column per format, so right-click (long-press on mobile) the Link under the format from step 1, copy the link address, and paste it into your tool's blocklist or filter subscription settings. Each list needs its own subscription entry, so do that once for your main list and once for TIF. Or let the [Direct Link Generator](#linkgenerator) put the links together instead, see section 13.
 
    **Worked example, Pi-hole in its current version.** Pi-hole reads the Adblock format (step 1), and say you picked Pro plus TIF in steps 2 and 3. In the README, open the Multi PRO section, right-click the Link in the Adblock column, and copy the link address. Then in Pi-hole: log in to the web interface and open **Lists** under Group Management. Paste the URL into the **Address** field, add a comment if you want one, and click the red **Add blocklist** button. The green **Add allowlist** button right next to it is for allowlists, so watch which one you hit. Now do the same with the link from the Threat Intelligence Feeds section, again the Adblock column. Pi-hole also takes both URLs at once if you separate them with a space or a comma, and still files them as two entries. Last step, and the one people forget: open **Tools, Update Gravity** and click **Update**. Until you do, Pi-hole keeps serving the old data and nothing you just added has any effect.
 
 5. **Add a browser content blocker too.** DNS blocking catches most ads, trackers, and malware, but not everything, some ads and scripts come from the same domains as the content you want. A browser content blocker like uBlock Origin or AdGuard closes that gap and works alongside your DNS setup rather than replacing it, see [section 6](#inappads) for why that matters especially inside apps like YouTube or Spotify.
 6. **Check that it's actually working.** Browse for a few minutes, then open your tool's query log. Blocked entries piling up means the subscription is live. An empty log usually means your devices aren't using that DNS server yet, so the lists never get consulted. Then just browse normally for a day and note anything odd.
 7. **If something breaks, find the responsible domain first.** Breakage comes in two shapes. Either the page doesn't come up at all, which shows as a name-resolution error ("server not found" or similar) rather than a normal error page from the site, or the page loads but doesn't behave right: images and videos stay blank, embedded maps, comments, or players never appear, a login or checkout button does nothing. The second kind is the more common one and it's easy to miss, because the site itself looks like it's working. Either way, your query log shows what got blocked while you were on that page. With partial breakage the culprit is almost never the site you're visiting, so look for whatever else was blocked at that moment.
-8. **Then fix it.** Run that domain through the [Blocklist Lookup](#listlookup) to see which list blocks it and with which rule, and check [section 2](#whatshouldiuse) for known side effects, especially with Pro++ and Ultimate. To get the site working again, add the domain to your tool's allowlist (some tools call it a whitelist). If you think it shouldn't be blocked at all, or you've found something that should be blocked and isn't, see [section 13](#support).
+8. **Then fix it.** Run that domain through the [Blocklist Lookup](#listlookup) to see which list blocks it and with which rule, and check [section 2](#whatshouldiuse) for known side effects, especially with Pro++ and Ultimate. To get the site working again, add the domain to your tool's allowlist (some tools call it a whitelist). If you think it shouldn't be blocked at all, or you've found something that should be blocked and isn't, see [section 14](#support).
 9. **Keep it current.** These lists update regularly. If your tool doesn't auto-refresh subscribed lists, set a reminder to re-download, and check [section 10](#mirrors) if you want the freshest data possible.
 
 **[Back to top](#table-of-contents)**
@@ -123,6 +127,9 @@ There are five formats because different tools read blocklist files differently,
 | Wildcard (Asterisk) | Blocky (v0.23 or newer), Nebulo, NetDuma, OPNsense, YogaDNS |
 | Wildcard (Domains only) | DNSCloak, DNSCrypt, FRITZ!Box (FRITZ!OS v8.40 or newer), TechnitiumDNS, adblock-lean, PersonalDNSfilter, InviZible Pro |
 | RPZ | Bind, Knot, PowerDNS, Unbound, and other software supporting Response Policy Zones |
+
+> [!TIP]
+> Not sure which of the five your tool needs? The [Direct Link Generator](#linkgenerator) has a dropdown for exactly that: pick your app or device, and it selects the format for you and builds the download links for whatever lists you tick.
 
 A few lists don't follow this pattern, and a few come with extra technical requirements worth knowing about before you subscribe.
 
@@ -390,7 +397,7 @@ What it's good for:
 
 - **Something broke.** Your query log gives you the domain, the Lookup tells you which list is responsible. If it's a list you subscribe to, allowlist the domain or drop down to a less aggressive tier, see [section 2](#whatshouldiuse).
 - **Picking or switching tiers.** Check a domain you depend on before you move. If it shows up under Pro++ but not under Pro, you know exactly what you'd be signing up for.
-- **Before you report something.** A report that names the domain, the list, and the rule is much faster to act on, see [section 13](#support).
+- **Before you report something.** A report that names the domain, the list, and the rule is much faster to act on, see [section 14](#support).
 - **Checking coverage.** A **Not found** result means no published list currently blocks that domain, which is exactly the case for a "should be blocked but isn't" report. If the domain has no DNS records at all, you also get a note that it may no longer exist, so you know it's dead rather than just unlisted.
 
 The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, see [section 5](#listrelationships) for what those lists cover and tick **Include NRD and DGA lists** for that query.
@@ -406,7 +413,33 @@ The **NRD and DGA lists aren't searched by default.** They're very large and inc
 
 ---
 
-## <a name="support"></a> 13. Getting help and reporting issues
+## <a name="linkgenerator"></a> 13. How do I get the download links for the lists I picked?
+
+Copy them out of the [README](README.md#overview) by hand, one list section at a time, or let the **Direct Link Generator** do it for you: [hagezi-mirror.dnsbunker.org/dlg.html](https://hagezi-mirror.dnsbunker.org/dlg.html)
+
+Pick a source and a format, or just select the app or device you use and it sets the format for you. Then pick one Main Tier, tick the add-ons you want, and every matching link shows up at the bottom of the page. Copy them one by one, or grab the whole set with **Copy all links**.
+
+The source is set to the build mirror by default, since that's the freshest one, but you can switch it to jsDelivr, GitHub, GitLab, or Codeberg and the links change accordingly, see [section 10](#mirrors). That also makes it a quick way to move an existing setup from one source to another: tick the same lists, pick the new source, copy the new links, no URL surgery by hand.
+
+What makes it more than a typing shortcut is that it knows how the lists relate to each other, so you don't end up with a set that works against itself:
+
+- Lists your tier already covers get greyed out. Pick Pro and the [Fake](README.md#fake) list switches off, because Pro already carries it.
+- Where the overlap is only partial it says so instead of hiding the list, for example [Pop-Up Ads](README.md#popupads) on Light or Normal.
+- [NRD and DGA](README.md#nrd) lock each other out, since they're alternatives rather than a pair, see [section 5](#listrelationships).
+- The two referral lists do the same, and which of them is on offer depends on your tier, see [section 7](#referral).
+- Picking the full [TIF](README.md#tif) list in RPZ format hands you both of its files, so you can't end up subscribed to half of it.
+- Lists that are unusually large, or powerful enough to cause trouble if you enable them blindly, carry a small badge, so you can see what you're signing up for before you tick it.
+
+**What it doesn't cover.** It only builds links for the five standard formats from [section 4](#formats), so the legacy Subdomains and Hosts formats aren't in there. NRD, DGA, and the two referral lists only show up when the format is Adblock or Wildcard (Domains). A few lists follow their own naming scheme and are left out entirely: [Most Abused TLDs](README.md#tlds), [DNS Rebind Protection](README.md#dnsrebind), the IP lists for [TIF](README.md#tifips) and [DoH](README.md#bypass_ips), and the ControlD folders. Use the link tables in the README for those.
+
+> [!NOTE]
+> The generator only puts URLs together. It doesn't download anything, doesn't verify that a file exists at that address, and has no idea what your DNS filter is currently subscribed to.
+
+**[Back to top](#table-of-contents)**
+
+---
+
+## <a name="support"></a> 14. Getting help and reporting issues
 
 Found a legitimate domain that got blocked, or spotted one that should be blocked but isn't? Report it through the [issue tracker](https://github.com/hagezi/dns-blocklists/issues) on GitHub. That's the fastest way to get a false positive fixed or a coverage gap closed. You can also reach out by email at [support@hagezi.org](mailto:support@hagezi.org).
 
@@ -418,7 +451,7 @@ Got general questions or just want to chat? Head to the [GitHub Discussions](htt
 
 ---
 
-## <a name="licensing"></a> 14. Licensing and liability
+## <a name="licensing"></a> 15. Licensing and liability
 
 The lists are published under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html), so you can redistribute, modify, or adapt them, but only within the terms of that license. Check the license in the repository before redistributing the lists as part of your own product or service. Some of the input data comes from third-party sources with their own terms, so if you build directly on that data instead of on the published lists, check those terms too.
 
@@ -426,7 +459,7 @@ The maintainer ("the Provider") publishes the lists as-is, with no warranty of a
 
 Basically, treat these lists as one layer in a bigger security setup, not a standalone fix. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk.
 
-A domain being on a list isn't an accusation against whoever runs it. It's a technical filtering decision based on threat data, public rankings, and observed behavior, and any of that can be outdated or wrong. If you operate a domain and think it's listed by mistake, report it and it'll get reviewed, see [section 13](#support).
+A domain being on a list isn't an accusation against whoever runs it. It's a technical filtering decision based on threat data, public rankings, and observed behavior, and any of that can be outdated or wrong. If you operate a domain and think it's listed by mistake, report it and it'll get reviewed, see [section 14](#support).
 
 How you deploy the lists is on you. That matters most when you filter a network other people use, at work, at school, or for guests, and when you use the lists that restrict access rather than block threats, like NSFW, Social Networks, Gambling, Anti Piracy, or the DoH/VPN/TOR/Proxy Bypass list. Employment, telecommunications, and data-protection rules can all come into play, and sorting that out is your job, not the Provider's.
 
@@ -436,7 +469,7 @@ This FAQ entry is a plain-language summary and doesn't cover every detail. The [
 
 ---
 
-## <a name="glossary"></a> 15. Glossary
+## <a name="glossary"></a> 16. Glossary
 
 This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEET.md), and the main [README](README.md), since all three documents share it.
 
@@ -485,9 +518,10 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 
 | Term | What it means |
 |:---|:---|
-| Defense-in-depth | A security strategy that layers multiple independent protections on top of each other, so if one layer fails, the others still catch the problem. These blocklists are meant to be one layer in that kind of setup, not a complete solution on their own, see [section 14](#licensing) and the repository's Disclaimer for how that plays out here. |
+| Defense-in-depth | A security strategy that layers multiple independent protections on top of each other, so if one layer fails, the others still catch the problem. These blocklists are meant to be one layer in that kind of setup, not a complete solution on their own, see [section 15](#licensing) and the repository's Disclaimer for how that plays out here. |
 | Denyallow / domain modifier | A rule type in filter lists used to carve out exceptions from a blocking rule. These modifiers have a technical length limit, so you can't cram unlimited exceptions into one rule, that's why exclusion lists sometimes stay short on purpose. |
 | DGA (Domain Generation Algorithm) | A technique malware uses to generate large numbers of random-looking domains on the fly, making them harder to block in advance. This project's DGA lists come as three rolling windows (past 7, 14, and 30 days) that overlap rather than stack, so pick one instead of combining them, see [section 5](#listrelationships). The same data is also used inside the build to flag suspicious domains for review, see [section 11](#sources). |
+| Direct Link Generator | A web tool on the build mirror that puts blocklist download links together for you: pick a source and a format, tick the lists you want, copy the finished URLs. It also greys out lists your chosen tier already covers and keeps you from combining lists that rule each other out, see [section 13](#linkgenerator). |
 | Diversion | An ad-blocking and DNS add-on for Asuswrt-Merlin routers. Version 5 or newer reads the DNSMasq format, older versions the legacy Subdomains format. |
 | DNS (Domain Name System) | The system that translates website names, like example.com, into the numeric IP addresses computers use to find each other. Every blocklist works by intercepting these translations for unwanted domains. |
 | DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Available for AdGuard, AdGuard Home, and AdGuard DNS. Some other DNS blockers already have their own version of this built in, worth checking before you add a separate list. |

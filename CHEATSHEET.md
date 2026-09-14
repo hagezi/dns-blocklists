@@ -8,7 +8,7 @@
 
 A quick, scannable reference for every list in this collection: what it blocks, who it's best suited for, what to watch out for, and the actual file name. Click a list name to jump to its full section in the [README](README.md), except for the two referral lists, which are documented in the [FAQ](FAQ.md#referral) instead.
 
-**Related FAQ sections:** [quick setup](FAQ.md#quicksetup) · [can I use more than one list?](FAQ.md#combining) · [which format for my tool](FAQ.md#formats) · [check a single domain or IP](FAQ.md#listlookup) · [glossary of terms](FAQ.md#glossary)
+**Related FAQ sections:** [quick setup](FAQ.md#quicksetup) · [can I use more than one list?](FAQ.md#combining) · [which format for my tool](FAQ.md#formats) · [get the download links](FAQ.md#linkgenerator) · [check a single domain or IP](FAQ.md#listlookup) · [glossary of terms](FAQ.md#glossary)
 
 ## :bookmark_tabs: Table of Contents <a name="toc"></a>
 
@@ -48,6 +48,9 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 
 > [!TIP]
 > Pair any DNS-level setup with a browser content blocker like [AdGuard](https://adguard.com), [uBlock Origin](https://github.com/uBlockOrigin/), or [Ghostery](https://www.ghostery.com/). DNS blocking can't touch ads served from a service's own domain, see [FAQ](FAQ.md#inappads) and [Recommendation](README.md#recommendation).
+
+> [!TIP]
+> Picked your combo? The [Direct Link Generator](https://hagezi-mirror.dnsbunker.org/dlg.html) turns it into ready-to-paste download links: choose your format, tick the lists, copy them in one go. It also greys out whatever your tier already covers, see [FAQ](FAQ.md#linkgenerator).
 
 **[Back to top](#toc)**
 
