@@ -1,15 +1,15 @@
-# Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass - stop people from sneaking around your DNS!
-# Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, TOR, Proxies.
+# Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
+# Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, Tor, Proxies.
 # Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 # Homepage: https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 14 Sep 2026 08:52 UTC
-# Version: 2026.0914.0852.06
+# Last modified: 15 Sep 2026 09:01 UTC
+# Version: 2026.0915.0901.31
 # Syntax: Domains (without subdomains)
-# Number of entries: 16279
+# Number of entries: 16247
 #
 ss.0001.xyz
 ns.00dani.me
@@ -425,20 +425,9 @@ doh.appliedprivacy.net
 dot1.appliedprivacy.net
 iron-dot-cobalt-antenna-219709.appspot.com
 vpn.appsverse.com
-212.108.98.100.aprawood.ir
-212.108.98.101.aprawood.ir
-212.108.98.102.aprawood.ir
-212.108.98.103.aprawood.ir
-212.108.98.104.aprawood.ir
-212.108.98.105.aprawood.ir
-212.108.98.4.aprawood.ir
-91.234.147.5.aprawood.ir
 91.234.147.6.aprawood.ir
-212.108.98.6.aprawood.ir
 91.234.147.7.aprawood.ir
-212.108.98.7.aprawood.ir
 91.234.147.8.aprawood.ir
-212.108.98.8.aprawood.ir
 91.234.147.9.aprawood.ir
 x.aptlive.org
 dns.aquilenet.fr
@@ -464,7 +453,6 @@ nilfheim.asguardian.de
 dns.ashleyjackson.net
 music.know.asiapacificpatent.net
 doh.asli.id
-s9.assetflux.org
 task.major.assholetenants.com
 dns.asterimoon.com
 amgr.asuscomm.com
@@ -601,6 +589,7 @@ home.basthorst.eu
 67.baumgardner.us
 garden.baumgardner.us
 fake.bayworld.net
+ir.bazzawill.info
 vps01.bbhc.xyz
 httpdns.bcelive.com
 dns.beardic.cn
@@ -612,6 +601,10 @@ dns.belnet.be
 adblock.benmeyer.net
 dns.bermeitinger.eu
 domburg.beruys.com
+91.234.147.10.best-domain.ir
+91.234.147.11.best-domain.ir
+91.234.147.12.best-domain.ir
+91.234.147.13.best-domain.ir
 mathforfun.firstgrad.bestprogramsforkids.com
 learnvcsa.bestprogramsforkids.com
 officialcepheusx.bestprogramsforkids.com
@@ -1035,7 +1028,6 @@ httpdns.cctv.com
 1999369668.rsc.cdn77.org
 httpdns.c.cdnhwc2.com
 httpdns1.cc.cdnhwc5.com
-cdn8.cdnwave.org
 adguard.cedoman.com
 dns.cert.ee
 pds.cfornas.casa
@@ -1873,22 +1865,18 @@ securesurfvpn.all.co.tz
 safedns.allover.co.za
 safedns2.allover.co.za
 deleted.antony-gordon.co.uk
-cdn.benzcls.co.uk
 iranian.billblog.co.uk
 educationbooks.boxrepublic.co.za
 adguard.cell.co.id
 dns.chaosen3.co.uk
 silver.ciaude.co.uk
-ir.closcloud.co.uk
 dns-01.computerservices.co.nz
 dns-02.computerservices.co.nz
-turk.dasy2k1.co.uk
 adg.datamatter.co.za
 pihole.datamatter.co.za
+khaste.delroba.co.uk
 l0vie.delroba.co.uk
-my-iran.dinocol.co.uk
 adguard.discounthost.co.uk
-im.dumaniltd.co.uk
 dns.eliv.co.kr
 komi3er.fesgheli.co.uk
 at.foltmeingop.co.uk
@@ -1899,7 +1887,6 @@ look.foltmeingop.co.uk
 me.foltmeingop.co.uk
 mio.foltmeingop.co.uk
 you.foltmeingop.co.uk
-evo.foriran.co.uk
 gn-z11.franscois.co.za
 dns.gayanalysing.co.uk
 dns.gi.co.id
@@ -1911,13 +1898,10 @@ for.you.goooalir.co.uk
 ava.goooalir.co.uk
 azadi.goooalir.co.uk
 baran.goooalir.co.uk
-behtarin.goooalir.co.uk
 cr777.goooalir.co.uk
 for-iran.goooalir.co.uk
 from.goooalir.co.uk
-jadid.goooalir.co.uk
 joje.goooalir.co.uk
-leomessi.goooalir.co.uk
 meshki.goooalir.co.uk
 nab.goooalir.co.uk
 napoli.goooalir.co.uk
@@ -1927,14 +1911,11 @@ paydar.goooalir.co.uk
 sefid.goooalir.co.uk
 soh5.goooalir.co.uk
 soheil.goooalir.co.uk
-tabestan.goooalir.co.uk
 tassian.goooalir.co.uk
 vasle.goooalir.co.uk
 focus.utopia.gzone.co.kr
 dns.hashemlabs.co.uk
 ma.hastim.co.uk
-ccc.horizon555.co.uk
-one.horizon555.co.uk
 ag.hostme.co.il
 ixl.math.hsf.co.za
 support.infinityhalo.co.uk
@@ -1942,6 +1923,8 @@ sub.iran-tehran.co.uk
 mashti.just-money.co.uk
 dns.kloiber.co.at
 dns2.kloiber.co.at
+dokhtar.kocholo.co.uk
+pesar.kocholo.co.uk
 new.lambforkebeb.co.uk
 new2.lambforkebeb.co.uk
 noone.lavazemi1.co.uk
@@ -1953,15 +1936,11 @@ dns-three.lins.co.tt
 guard.lumusimc.co.uk
 ir.makkers.co.uk
 craft.malavanann.co.uk
-benz.mohearn.co.uk
-vasl-sho.mohearn.co.uk
 vip.mohearn.co.uk
 yeke-jahan.mohearn.co.uk
 mio.mozitop.co.uk
 puot.mozitop.co.uk
 ving.mozitop.co.uk
-lashboy.muzanesghy.co.uk
-havashenasi.my-moon.co.uk
 dokhtar.nanaz.co.uk
 hapoo.nanaz.co.uk
 pesar.nanaz.co.uk
@@ -1977,14 +1956,11 @@ apple11.nowhearthis.co.uk
 opsecmastur.nowhearthis.co.uk
 dns.nzxti5.co.uk
 dns.oliviertv.co.za
-full-vasl.peachsoft.co.uk
-god-mode-on.peachsoft.co.uk
 golden.peachsoft.co.uk
 chrismylove.qr-code.co.za
 lightspeed.qr-code.co.za
 mathnotes.qr-code.co.za
 dns.rawalker.co.nz
-silver-winst.royaclinic.co.uk
 reyhoon.shambelile.co.uk
 shahi.shambelile.co.uk
 dns.skuy.co.id
@@ -1999,8 +1975,6 @@ star.talebi.co.uk
 piano.goal.the-black-hole.co.uk
 dns1.thylacine.co.nz
 dns2.thylacine.co.nz
-for-iran.tryzub-it.co.uk
-kurd.tryzub-it.co.uk
 doh.tsmu.co.id
 dns1.understandingcyber.co.uk
 dns.unknown-universe.co.uk
@@ -2036,10 +2010,10 @@ justproxy.co.uk
 lamnia.co.uk
 mamadali.co.uk
 mamadgoli.co.uk
-mizaneshgh2.co.uk
 my-private-network.co.uk
 ninjaproxy.co.uk
 noblocc.co.uk
+nocloudnew.co.uk
 nordvpn.co.il
 nordvpn.co.uk
 nordvpn.co.za
@@ -2053,13 +2027,11 @@ proxywebsite.co.uk
 readingforfun.co.com
 rfastvpn.co.cc
 rmdns26.co.uk
-rootssh2.co.uk
 safesurfer.co.nz
 sbdns.co.in
 secvpnproxy.co.cc
 severjadid.co.uk
 sols.co.in
-speed-speed.co.uk
 suodbo.co.uk
 surfshark.co.uk
 surfshark.co.za
@@ -2077,8 +2049,6 @@ vpnmailvista.co.cc
 vpnofanti.co.cc
 vpnoffice.co.cc
 windler.co.uk
-yarypple.co.uk
-zon-b0z.co.uk
 ag.coco-tama-hoiku.com
 block.coconut.id
 dns.codarbyte.de
@@ -2326,6 +2296,7 @@ plans.datacommunicationsinc.com
 doh.datahata.by
 dns.datenquark.de
 doh.datt.pw
+ykima.davay.click
 dns.david888.com
 math.davidandasabi.org
 rammer.davispetsitter.com
@@ -2985,7 +2956,6 @@ dns.fancyorg.at
 dns.farshidhakimy.de
 dns.farshmc.ru
 cayden.farted.net
-1b2aca9d-6852-45a7-bd7b-771a70fde2b7.fast-cdn.cc
 kendrickandpetezah.s81.fast-page.org
 asteroid.freetls.fastly.net
 f.freetls.fastly.net
@@ -3079,7 +3049,6 @@ dns.ffnw.de
 study.tests.fiat500.li
 dns.fifux.be
 dns.filipccz.eu
-ir.speed.finecooking.info
 fast.finecooking.info
 canvas-math-tools.firebaseapp.com
 infamous-scram-test.firebaseapp.com
@@ -3382,7 +3351,6 @@ jp.hannielzhang.com
 d.hansj.cc
 classroom.haoqiw.com
 dns.haoxuan.xyz
-media10.happtg.org
 cars.happyforever.com
 skibidiparkergoon.happyforever.com
 turtle.happyforever.com
@@ -3488,6 +3456,7 @@ task.edu.hueteinterpreting.com
 doh.hugang8.cn
 dns.huizegunsing.nl
 dns.hujiayucc.cn
+ads.hunga1k47.com
 www-proxy.huorbx.com
 doth.huque.com
 dns.huth.nu
@@ -4009,7 +3978,6 @@ endiscracker.loseyourip.com
 hamster67.loseyourip.com
 iwillnot.loseyourip.com
 ddd.loukky.com
-global.lovely.lat
 relay.lsaccess.cf
 n5.lsasss.com
 dns.lsho.top
@@ -4035,6 +4003,7 @@ v971850.macloud.host
 dns.mafyuh.io
 guard.magic-pics.tk
 dns.mahiro.online
+adhome.maige.fun
 dns.mailcastle.in
 dnsserver.mailchan.eu
 dns.maitrekuc.fr
@@ -4100,8 +4069,6 @@ httpdnsmultiapi.meituan.com
 httpdnsmultiapivip.meituan.com
 httpdnsvip.meituan.com
 08kj.ir.ir.ir.meli-n12.info
-417.ir.ir.ir.meli-n12.info
-8pl9o1.ir.ir.ir.meli-n12.info
 k7k31.ir.ir.ir.meli-n12.info
 kfk31.ir.ir.ir.meli-n12.info
 s44447n.ir.ir.ir.meli-n12.info
@@ -4113,15 +4080,12 @@ sn.ir.ir.ir.meli-n12.info
 277ddd1.mmd1.meli-n12.info
 2yyddd1.mmd1.meli-n12.info
 32.ir.meli-n13.info
-791kk.ir.meli-n13.info
 bh77.ir.meli-n13.info
-ih8nb.ir.meli-n13.info
 pl32.ir.meli-n13.info
-pm00c.ir.meli-n13.info
-pmjc.ir.meli-n13.info
 ppp7332.ir.meli-n13.info
 dns.melvin2204.nl
 recap.utopia.menorahscrazyblog.com
+t.meow-network.com
 testaghome.meshkov.info
 dns.mestdag.fr
 learn.logic.metaure.com
@@ -4147,13 +4111,13 @@ rwkdwpwsyv48.mikopono.nl
 dns.millernetwork.uk
 yozoragames.mills-family.us
 fern.mine.bz
+aitkcrev.minhduc.pw
 api.miningbest.com
 dns.mipauns.com
 guard.miracloud.fr
 netcup.mismat.ch
 httpdns.browser.miui.com
 dns.miyun1.com
-as.mkim.click
 doh.mmmalia.com
 afrcloud22.mmv.kr
 dns.mnet-online.de
@@ -4200,6 +4164,7 @@ dns.mrkaran.dev
 vcsaxselenite.ms-itsllc.com
 dns.msxnet.ru
 dns.mtoo.vip
+granite.mtproxy.zip
 ns.mtsoln.com
 dns.muellerstech.de
 course.graph.mulcahy.info
@@ -4879,8 +4844,6 @@ list.proxyloom.com
 interstellar.nana.psgl.cl
 nana.rammer.psgl.cl
 public-is-wonderful.publicvm.com
-hamrah.mci.ir.pugfhtrdyted.info
-khalije-ta-abad-fars.ir.pugfhtrdyted.info
 dns.pumpkinvrar.com
 dns-privacy.puregeni.us
 dns-uk.puregeni.us
@@ -4897,6 +4860,7 @@ vpsus3.pzhg.me
 home.qbak.net
 adk.qcloud.work
 dns.qkc.fr
+ir.qkzheng.info
 dns.qpt.one
 dns2.qpt.one
 httpdns.kg.qq.com
@@ -4944,7 +4908,6 @@ h.ra3.in
 jpser.ra3.us
 water.rabbitforge.xyz
 ginnungagap.rabenhain.net
-kima.rabotaet.online
 d0904c68e362dce88371-d2dc096b53690d6d3857ec60c148f11c.ssl.cf1.rackcdn.com
 97fd9d2d2372c16421db-c82445aa74ed2d389b26a8a86fc26e69.ssl.cf4.rackcdn.com
 b0ac15e151420f6dc473-72e85853250626f809e7d6f166ccb9a7.ssl.cf6.rackcdn.com
@@ -5530,7 +5493,6 @@ thakkali.teej.xyz
 books.quiz.teeman.org
 dns.tefuir0829.cn
 family.dns.teknoholistik.com
-sosis.telbet.app
 homenet.telecomitalia.it
 dns.telekom.de
 d51538618.access.telenet.be
@@ -6031,6 +5993,7 @@ cloud.xn--4gq62f52gdss.asia
 gw-1.xn--ehqx7tcnnope.com
 doh.xorlet.ru
 state.mass.xpatholiday.com
+adgh.xrossj.top
 look.xshentx.org
 dns.xuming.studio
 dns.xusqui.com
@@ -6230,6 +6193,7 @@ dns.zzuhacker.cn
 1k3j1blg.com
 1ldlv4m7.com
 1proxy.de
+1proxy.in
 1svpn.biz
 1svpn.com
 1svpn.mom
@@ -6753,6 +6717,7 @@ ajabk.cn
 ajh.academy
 ajh.boats
 ajh.college
+ajh.quest
 ajh.wtf
 ajhmath.org
 ajhsvault.lat
@@ -6798,6 +6763,7 @@ alohabrowser.com
 alohaprofile.com
 alon93rus.ru
 alphabr.online
+alphabrowser.xyz
 alphagame.co
 alphavpn.info
 alternatepath.net
@@ -6838,6 +6804,7 @@ andrey93rus.ru
 androidconnect.fyi
 androidruleonline.xyz
 androidshopweb.rocks
+androvpn.com
 andy123123.xyz
 andyvpn.cc
 angdwml6.com
@@ -9557,6 +9524,7 @@ freedome-vpn.net
 freedomproxy.com
 freeeuroproxy.com
 freehiddenvpn.gq
+freeinternet.skin
 freelux.world
 freemicvpn.com
 freemybrowser.com
@@ -9699,7 +9667,6 @@ galaxyvipaff01.cc
 galtvpn.com
 galxy.autos
 gameproxy.org
-gamerpr.cfd
 gamers-nor.com
 gamingssh.com
 gammesfeld.eu
@@ -14508,6 +14475,7 @@ topiran.baby
 topman8848.com
 toppal.tech
 toppeopleverse.top
+topproxt.asia
 topsecure.info
 topspeedvpn.homes
 topstudio.one

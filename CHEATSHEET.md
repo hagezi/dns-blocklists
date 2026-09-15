@@ -35,7 +35,7 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 | Pro/Pro++/Ultimate-level protection, low-RAM device | [Pro Mini](README.md#promini) / [Pro++ Mini](README.md#proplusmini) / [Ultimate Mini](README.md#ultimatemini) + [TIF Mini](README.md#tifmini) |
 | Stronger native tracker coverage without going all the way to Ultimate | [Pro](README.md#pro)/[Pro++](README.md#proplus) + [TIF](README.md#tif) + the specific [Native Tracker](README.md#native) device lists you need |
 | Zero native device/app tracking, no exceptions | [Ultimate](README.md#ultimate) |
-| A safe network for kids | [Gambling](README.md#gambling) + [Anti Piracy](README.md#piracy) + [Safesearch](README.md#safesearch) + [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) + [Social Networks](README.md#social) + [NSFW](README.md#nsfw) |
+| A safe network for kids | [Gambling](README.md#gambling) + [Anti Piracy](README.md#piracy) + [Safesearch](README.md#safesearch) + [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) + [Social Networks](README.md#social) + [NSFW](README.md#nsfw) |
 | Locked-down corporate or school network | [Pro++](README.md#proplus) + [Bypass Full](README.md#bypass_all) + [Dynamic DNS](README.md#dyndns) + [Badware Hoster](README.md#hoster) |
 | Threat hunting / reduced attack surface | [TIF](README.md#tif) + [Dynamic DNS](README.md#dyndns) + [Badware Hoster](README.md#hoster) + [Most Abused TLDs](README.md#tlds) + [NRD](README.md#nrd) |
 | Threat hunting with less noise | Same as above, but swap [NRD](README.md#nrd) for [DGA](README.md#nrd) |
@@ -140,7 +140,7 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 
 | List | What It Blocks | Best For | Caveats | File Name (Adblock) |
 |:-----|:----------------|:---------|:--------|:---------------------|
-| [Bypass Full](README.md#bypass_all) | Encrypted DNS, VPN, TOR, and proxy services, the broadest of the three | Corporate or parental lockdown | Also block ports 53 and 853 outbound at the firewall. See [how the three bypass lists relate](FAQ.md#listrelationships) | `doh-vpn-proxy-bypass.txt` |
+| [Bypass Full](README.md#bypass_all) | Encrypted DNS, VPN, Tor, and proxy services, the broadest of the three | Corporate or parental lockdown | Also block ports 53 and 853 outbound at the firewall. See [how the three bypass lists relate](FAQ.md#listrelationships) | `doh-vpn-proxy-bypass.txt` |
 | [Bypass, DoH only](README.md#bypass_dns) | Encrypted DNS servers only, narrower than Full | Setups that only need to stop encrypted DNS | Same port-blocking requirement (53 and 853) | `doh.txt` |
 | [Bypass, DoH IPs](README.md#bypass_ips) | IPv4 addresses of encrypted DNS servers | IP-level firewall coverage | Companion to DoH only, not to Full. :warning: Disable IPv6 resolution in AdGuard Home | `doh-ips.txt` |
 | [Safesearch Not Supported](README.md#safesearch) | Search engines that skip Safesearch | Parental or admin Safesearch enforcement | None | `nosafesearch.txt` |

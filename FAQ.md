@@ -84,7 +84,7 @@ The "risk of breakage" ratings below are a general guide, not exact error rates.
 **Extra lists worth adding, depending on your goals:**
 
 - **Security focus:** combine TIF with the [Dynamic DNS](README.md#dyndns) list (blocks dynamic DNS services often abused for phishing), the [Badware Hoster](README.md#hoster) list (blocks hosting providers whose infrastructure gets abused for malware a lot), the [Most Abused TLDs](README.md#tlds) list (blocks entire top-level domains with bad reputations, like `.top`, `.shop`, or `.gdn`), and either the [NRD](README.md#nrd) lists (broad) or the [DGA](README.md#nrd) lists (narrower, less noise), never both at once, see [section 5](#listrelationships).
-- **Protecting kids:** combine the [Gambling](README.md#gambling), [Anti Piracy](README.md#piracy), [Safesearch](README.md#safesearch), [DoH/VPN/TOR/Proxy Bypass](README.md#bypass), [Social Networks](README.md#social), and [NSFW](README.md#nsfw) lists. Heads up: the Social Networks list only blocks traditional platforms (Facebook, Instagram, TikTok, X, Snapchat), not messaging apps like WhatsApp or streaming platforms like Twitch.
+- **Protecting kids:** combine the [Gambling](README.md#gambling), [Anti Piracy](README.md#piracy), [Safesearch](README.md#safesearch), [DoH/VPN/Tor/Proxy Bypass](README.md#bypass), [Social Networks](README.md#social), and [NSFW](README.md#nsfw) lists. Heads up: the Social Networks list only blocks traditional platforms (Facebook, Instagram, TikTok, X, Snapchat), not messaging apps like WhatsApp or streaming platforms like Twitch.
 
 > [!NOTE]
 > **You usually don't need to add the Fake, Pop-Up Ads, or Native Tracker lists separately, they're already baked in, though coverage varies by version:**
@@ -154,7 +154,7 @@ Only a limited set of lists exists in them: Light, Normal, Pro, Pro++, Ultimate,
 
 - **Little Snitch Mini has a rule-count limit**, so it can't handle the larger lists. It's offered for Light, Normal, Fake, Pop-Up Ads, Anti Piracy, Social Networks, Dynamic DNS, Badware Hoster, URL Shortener, Safesearch Not Supported, both domain-based Bypass lists (Full and DoH only), Gambling Medium, Gambling Mini, and every Mini tier (Pro Mini, Pro++ Mini, Ultimate Mini, TIF Mini). Not offered for the full Pro, Pro++, Ultimate, TIF, TIF Medium, Gambling, or NSFW lists.
 - **TIF and TIF Medium** are both too big for AdGuard Mobile for iOS. In AdGuard Home (a different product), the full TIF list needs at least 2 GB of RAM and TIF Medium at least 1 GB. The full list's RPZ version is split into two files, and you need both. If even TIF Medium is too much, use **TIF Mini**.
-- **The three [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) lists** cover different scopes and aren't interchangeable, see [section 5](#listrelationships). Whichever one you pick, pair it with a firewall rule blocking outbound ports 53 and 853, otherwise devices can still reach unencrypted or TLS-based DNS servers directly.
+- **The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists** cover different scopes and aren't interchangeable, see [section 5](#listrelationships). Whichever one you pick, pair it with a firewall rule blocking outbound ports 53 and 853, otherwise devices can still reach unencrypted or TLS-based DNS servers directly.
 - **DoH IPs and TIF IPs:** if you run AdGuard Home alongside either one, disable IPv6 resolution there, otherwise a device can slip past the block by resolving the same server over IPv6.
 
 **[Back to top](#table-of-contents)**
@@ -183,11 +183,11 @@ A few lists in this collection sound similar or get recommended together, but th
 - The full NRD list is split into five files, each covering a distinct, non-overlapping window: 7 days ago to yesterday, 14 to 8 days ago, 21 to 15 days ago, 28 to 22 days ago, and 35 to 29 days ago. These bands are meant to be stacked: for the last 14 days, combine `nrd7` and `nrd14-8`; for 21 days, add `nrd21-15`, and so on.
 - The DGA list comes as three rolling windows instead: past 7, past 14, and past 30 days. Each one counts back from today rather than covering a separate slice, so `dga30` already contains everything in `dga14` and `dga7`. Pick the single file that matches how far back you want to go instead of combining them.
 
-**The three [DoH/VPN/TOR/Proxy Bypass](README.md#bypass) lists build on each other:**
+**The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists build on each other:**
 
-- [Bypass Full](README.md#bypass_all) covers encrypted DNS servers plus VPN, TOR, and proxy services, the broadest of the three.
+- [Bypass Full](README.md#bypass_all) covers encrypted DNS servers plus VPN, Tor, and proxy services, the broadest of the three.
 - [DoH only](README.md#bypass_dns) is the narrower encrypted-DNS-only subset.
-- [DoH IPs](README.md#bypass_ips) is the IPv4 companion specifically for the DoH-only list, not for VPN/TOR/proxy services, since those don't resolve to a fixed, enumerable IP set the same way encrypted DNS servers do.
+- [DoH IPs](README.md#bypass_ips) is the IPv4 companion specifically for the DoH-only list, not for VPN/Tor/proxy services, since those don't resolve to a fixed, enumerable IP set the same way encrypted DNS servers do.
 
 **[Back to top](#table-of-contents)**
 
@@ -461,7 +461,7 @@ Basically, treat these lists as one layer in a bigger security setup, not a stan
 
 A domain being on a list isn't an accusation against whoever runs it. It's a technical filtering decision based on threat data, public rankings, and observed behavior, and any of that can be outdated or wrong. If you operate a domain and think it's listed by mistake, report it and it'll get reviewed, see [section 14](#support).
 
-How you deploy the lists is on you. That matters most when you filter a network other people use, at work, at school, or for guests, and when you use the lists that restrict access rather than block threats, like NSFW, Social Networks, Gambling, Anti Piracy, or the DoH/VPN/TOR/Proxy Bypass list. Employment, telecommunications, and data-protection rules can all come into play, and sorting that out is your job, not the Provider's.
+How you deploy the lists is on you. That matters most when you filter a network other people use, at work, at school, or for guests, and when you use the lists that restrict access rather than block threats, like NSFW, Social Networks, Gambling, Anti Piracy, or the DoH/VPN/Tor/Proxy Bypass list. Employment, telecommunications, and data-protection rules can all come into play, and sorting that out is your job, not the Provider's.
 
 This FAQ entry is a plain-language summary and doesn't cover every detail. The [Disclaimer section](README.md#disclaimer) in the repository is the full, legally binding version. If anything here ever conflicts with it, the Disclaimer section governs.
 
@@ -655,7 +655,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | TIF (Threat Intelligence Feeds) | A list built from security research sources that tracks domains actively known to be involved in malware, phishing, command-and-control servers, or other live threats. Worth adding on top of any tier, since none of the tiers include the full feed, see [section 2](#whatshouldiuse). Some TIF domains do get carried into the regular tiers during the build, which is why those tiers already cover part of the feed, see [section 11](#sources). |
 | TLD (Top-Level Domain) | The last segment of a domain name, like .com, .net, or a country code like .de. Some TLDs, like .top, .shop, or .gdn, get abused for spam or scams way more often than others. |
 | Top 1M list / Top 10M list | Rankings of the one million (or ten million) most-visited domains on the internet, used to identify domains with broad, observed use. Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, and DomCop each publish their own, and all seven feed into this project's build. Top 1M and Top 10M are usually named together as one combined ranking signal, see [section 11](#sources). |
-| TOR | An anonymity network that routes traffic through several relays, which also routes it around your DNS filtering. That's why it's covered by the Bypass Full list alongside VPN and proxy services. |
+| Tor | An anonymity network that routes traffic through several relays, which also routes it around your DNS filtering. That's why it's covered by the Bypass Full list alongside VPN and proxy services. |
 | Tracker | Any domain whose job is to watch what you do, whether it belongs to an ad network, an analytics provider, or a device manufacturer. Blocking them is the main privacy purpose of these lists, and how far that blocking goes is what separates the tiers. |
 | Tranco | A research-oriented ranking of the top million websites, built by averaging several other popularity rankings over a 30-day period, making it more stable and harder to manipulate than a single-source ranking. |
 
@@ -671,7 +671,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 
 | Term | What it means |
 |:---|:---|
-| VPN/TOR/Proxy bypass | Techniques that reroute traffic outside the local network's normal DNS path, which can accidentally or deliberately skip past blocklists. |
+| VPN/Tor/Proxy bypass | Techniques that reroute traffic outside the local network's normal DNS path, which can accidentally or deliberately skip past blocklists. |
 
 ### <a name="gl-w"></a>W
 

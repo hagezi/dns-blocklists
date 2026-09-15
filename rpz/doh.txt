@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789141500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789462800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Sep 2026 15:45 UTC
-; Version: 2026.0911.1545.19
+; Last modified: 15 Sep 2026 09:00 UTC
+; Version: 2026.0915.0900.23
 ; Syntax: RPZ
-; Number of entries: 6624
+; Number of entries: 6632
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1143,6 +1143,8 @@ freemnt.hpitto.com CNAME .
 *.freemnt.hpitto.com CNAME .
 httpdns.huaweicloud.com CNAME .
 *.httpdns.huaweicloud.com CNAME .
+ads.hunga1k47.com CNAME .
+*.ads.hunga1k47.com CNAME .
 doth.huque.com CNAME .
 *.doth.huque.com CNAME .
 dns.huyizhou.com CNAME .
@@ -2663,6 +2665,8 @@ jcdns.fun CNAME .
 *.jcdns.fun CNAME .
 x.laoban.fun CNAME .
 *.x.laoban.fun CNAME .
+adhome.maige.fun CNAME .
+*.adhome.maige.fun CNAME .
 pcgo.fun CNAME .
 *.pcgo.fun CNAME .
 dns.rayarksb.fun CNAME .
@@ -5383,6 +5387,8 @@ doh.meetz.pw CNAME .
 *.doh.meetz.pw CNAME .
 redsea.meetz.pw CNAME .
 *.redsea.meetz.pw CNAME .
+aitkcrev.minhduc.pw CNAME .
+*.aitkcrev.minhduc.pw CNAME .
 ttag.dns.nomu.pw CNAME .
 *.ttag.dns.nomu.pw CNAME .
 las-vegas.privacy-dns.pw CNAME .
@@ -6017,6 +6023,8 @@ xholgm.top CNAME .
 *.xholgm.top CNAME .
 agh.xinfeng16m.top CNAME .
 *.agh.xinfeng16m.top CNAME .
+adgh.xrossj.top CNAME .
+*.adgh.xrossj.top CNAME .
 dns.yingroad.top CNAME .
 *.dns.yingroad.top CNAME .
 dns.yyaan.top CNAME .

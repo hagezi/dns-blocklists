@@ -8,8 +8,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 13 Sep 2026 23:43 UTC
-! Version: 2026.0913.2343.06
+! Last modified: 14 Sep 2026 23:44 UTC
+! Version: 2026.0914.2344.48
 ! Syntax: AdGuard
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -214,7 +214,7 @@
 ||*.place^$denyallow=gamedev.place
 ||*.plus^$denyallow=mstdn.plus|pahe.plus|rcti.plus|saepay.plus
 ||*.poker^
-||*.post^$denyallow=cypruspost.post
+||*.post^$denyallow=cypruspost.post|postnl.post
 ||*.prof^$denyallow=casey.prof
 ||*.promo^
 ||*.pub^$denyallow=arc.pub|bierbaum.pub|infosec.pub|isu.pub|leaflet.pub|lunar.pub|outpost.pub|soapbox.pub|static.pub|wapo.pub

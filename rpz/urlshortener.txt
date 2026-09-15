@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789284180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789457340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Sep 2026 07:23 UTC
-; Version: 2026.0913.0723.12
+; Last modified: 15 Sep 2026 07:29 UTC
+; Version: 2026.0915.0729.17
 ; Syntax: RPZ
-; Number of entries: 19762
+; Number of entries: 19774
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3037,6 +3037,8 @@ has.coffee CNAME .
 *.0s0.com CNAME .
 11ixcco.com CNAME .
 *.11ixcco.com CNAME .
+14103231082025domain.com CNAME .
+*.14103231082025domain.com CNAME .
 19081.com CNAME .
 *.19081.com CNAME .
 1dietplans.com CNAME .
@@ -8435,6 +8437,8 @@ ross.education CNAME .
 *.ross.education CNAME .
 addtr.ee CNAME .
 *.addtr.ee CNAME .
+adtr.ee CNAME .
+*.adtr.ee CNAME .
 and.ee CNAME .
 *.and.ee CNAME .
 bitb.ee CNAME .
@@ -9735,6 +9739,8 @@ zxc.im CNAME .
 *.1r2.in CNAME .
 1zr.in CNAME .
 *.1zr.in CNAME .
+2ad.in CNAME .
+*.2ad.in CNAME .
 2link.in CNAME .
 *.2link.in CNAME .
 2one.in CNAME .
@@ -13099,6 +13105,8 @@ zuplo.link CNAME .
 *.zuplo.link CNAME .
 zweet.link CNAME .
 *.zweet.link CNAME .
+23conmuc.live CNAME .
+*.23conmuc.live CNAME .
 3xs.live CNAME .
 *.3xs.live CNAME .
 aisc.live CNAME .
@@ -17687,6 +17695,8 @@ yourls.i2m.solutions CNAME .
 *.yourls.i2m.solutions CNAME .
 zenfilm.solutions CNAME .
 *.zenfilm.solutions CNAME .
+adlinkfly.space CNAME .
+*.adlinkfly.space CNAME .
 brevi.space CNAME .
 *.brevi.space CNAME .
 clsks.space CNAME .
@@ -17893,6 +17903,8 @@ kutt.this.team CNAME .
 *.kutt.this.team CNAME .
 victoryworship.team CNAME .
 *.victoryworship.team CNAME .
+1xfn.tech CNAME .
+*.1xfn.tech CNAME .
 allinonetool.tech CNAME .
 *.allinonetool.tech CNAME .
 b2g.tech CNAME .

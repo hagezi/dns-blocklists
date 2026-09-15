@@ -245,6 +245,7 @@ Feeds the Fake list and the scam-related parts of TIF.
 ```
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/03_scam.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/04_fake.txt
+https://investigations.nebty-id.com/doppelcart/api
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
@@ -285,7 +286,7 @@ https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
 
 ### DoH, VPN, proxy, dynamic DNS, hoster
 
-Feeds the DoH/VPN/TOR/Proxy Bypass lists, the Dynamic DNS list and the Badware Hoster list.
+Feeds the DoH/VPN/Tor/Proxy Bypass lists, the Dynamic DNS list and the Badware Hoster list.
 
 ```
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/DNS
