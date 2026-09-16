@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789462800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789549140 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Sep 2026 09:00 UTC
-; Version: 2026.0915.0900.23
+; Last modified: 16 Sep 2026 08:59 UTC
+; Version: 2026.0916.0859.16
 ; Syntax: RPZ
-; Number of entries: 6632
+; Number of entries: 6650
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -613,6 +613,10 @@ dns-unfiltered.adguard.com CNAME .
 *.dns-unfiltered.adguard.com CNAME .
 adguard-dns.com CNAME .
 *.adguard-dns.com CNAME .
+dns.adguarddns.com CNAME .
+*.dns.adguarddns.com CNAME .
+family.adguarddns.com CNAME .
+*.family.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 dns.adrianlam.com CNAME .
@@ -767,6 +771,8 @@ dot-sg.blahdns.com CNAME .
 *.dot-sg.blahdns.com CNAME .
 doh.blitarian.com CNAME .
 *.doh.blitarian.com CNAME .
+blockdns.com CNAME .
+*.blockdns.com CNAME .
 doh.blockerdns.com CNAME .
 *.doh.blockerdns.com CNAME .
 adh.blogcuahieu.com CNAME .
@@ -841,6 +847,8 @@ cloudflareresolve.com CNAME .
 *.cloudflareresolve.com CNAME .
 dns.cloudseriousshit.com CNAME .
 *.dns.cloudseriousshit.com CNAME .
+dns-fr-psv1.cloudsides.com CNAME .
+*.dns-fr-psv1.cloudsides.com CNAME .
 adguard.cnbeining.com CNAME .
 *.adguard.cnbeining.com CNAME .
 ag.coco-tama-hoiku.com CNAME .
@@ -1141,6 +1149,8 @@ dns.hostingim.com CNAME .
 *.dns.hostingim.com CNAME .
 freemnt.hpitto.com CNAME .
 *.freemnt.hpitto.com CNAME .
+doh.hshkf.com CNAME .
+*.doh.hshkf.com CNAME .
 httpdns.huaweicloud.com CNAME .
 *.httpdns.huaweicloud.com CNAME .
 ads.hunga1k47.com CNAME .
@@ -1267,6 +1277,8 @@ kstdownload.com CNAME .
 *.kstdownload.com CNAME .
 hdns.ksyun.com CNAME .
 *.hdns.ksyun.com CNAME .
+dns.kugoapps.com CNAME .
+*.dns.kugoapps.com CNAME .
 mx1.laoxiao789.com CNAME .
 *.mx1.laoxiao789.com CNAME .
 dns.lauraeguido.com CNAME .
@@ -1773,10 +1785,8 @@ dns.tuankhaiit.com CNAME .
 *.dns.tuankhaiit.com CNAME .
 typaza.com CNAME .
 *.typaza.com CNAME .
-dot.ublockdns.com CNAME .
-*.dot.ublockdns.com CNAME .
-my.ublockdns.com CNAME .
-*.my.ublockdns.com CNAME .
+ublockdns.com CNAME .
+*.ublockdns.com CNAME .
 doh.ultradns.com CNAME .
 *.doh.ultradns.com CNAME .
 dns.umbrella.com CNAME .
@@ -3333,6 +3343,8 @@ bluemood.me CNAME .
 *.bluemood.me CNAME .
 hk-adg.bluenight.me CNAME .
 *.hk-adg.bluenight.me CNAME .
+doh.boje8.me CNAME .
+*.doh.boje8.me CNAME .
 dns.carter.me CNAME .
 *.dns.carter.me CNAME .
 dns.chriscsc.me CNAME .
@@ -3619,6 +3631,8 @@ doh.appliedprivacy.net CNAME .
 *.doh.appliedprivacy.net CNAME .
 dot1.appliedprivacy.net CNAME .
 *.dot1.appliedprivacy.net CNAME .
+doh.armadillodns.net CNAME .
+*.doh.armadillodns.net CNAME .
 resolver.as203038.net CNAME .
 *.resolver.as203038.net CNAME .
 dns.as212683.net CNAME .
@@ -4125,6 +4139,8 @@ dns.otezz.net CNAME .
 *.dns.otezz.net CNAME .
 padermail.net CNAME .
 *.padermail.net CNAME .
+dns.paliska.net CNAME .
+*.dns.paliska.net CNAME .
 rpz-public-resolver1.rrdns.pch.net CNAME .
 *.rpz-public-resolver1.rrdns.pch.net CNAME .
 dns.pernika.net CNAME .
@@ -6557,6 +6573,8 @@ lukscasino-542-tr.xyz CNAME .
 *.lukscasino-542-tr.xyz CNAME .
 lukscasino-929-tr.xyz CNAME .
 *.lukscasino-929-tr.xyz CNAME .
+dns.maolaohei.xyz CNAME .
+*.dns.maolaohei.xyz CNAME .
 maqgie.xyz CNAME .
 *.maqgie.xyz CNAME .
 dns.mh4ckt3mh4ckt1c4s.xyz CNAME .

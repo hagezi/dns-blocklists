@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 15 Sep 2026 09:00 UTC
-# Version: 2026.0915.0900.23
+# Last modified: 16 Sep 2026 08:59 UTC
+# Version: 2026.0916.0859.16
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3316
+# Number of entries: 3325
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -154,6 +154,8 @@ local=/syd.adfilter.net/
 local=/dns.adguard.com/
 local=/dns-family.adguard.com/
 local=/dns-unfiltered.adguard.com/
+local=/dns.adguarddns.com/
+local=/family.adguarddns.com/
 local=/dns.adnull.com/
 local=/dns.adrianlam.com/
 local=/adguard.adrianofrongillo.ovh/
@@ -243,6 +245,7 @@ local=/dns.arapurayil.com/
 local=/doh.archuser.org/
 local=/dns.ares-taiwan.com/
 local=/dns.arkbotech.com/
+local=/doh.armadillodns.net/
 local=/nsec.arnor.org/
 local=/dns.articrevised.cc/
 local=/dns.artikel10.org/
@@ -364,6 +367,7 @@ local=/dns.bluestarnc.com/
 local=/dns.bmwhocking.com/
 local=/cloud.boboba.ru/
 local=/dns.bofh.in/
+local=/doh.boje8.me/
 local=/adguard.bonis.de/
 local=/adguard1.bonis.de/
 local=/adguard2.bonis.de/
@@ -479,6 +483,7 @@ local=/9132706292.cloudns.be/
 local=/zeusvps.cloudns.nz/
 local=/dns-secondary.cloudnx.cloud/
 local=/dns.cloudseriousshit.com/
+local=/dns-fr-psv1.cloudsides.com/
 local=/dns.cloudtrust.solutions/
 local=/ca.doh.cloudveil.org/
 local=/us.doh.cloudveil.org/
@@ -1377,6 +1382,7 @@ local=/dns.hostux.net/
 local=/dns.hotta.page/
 local=/dns.housedenolf.be/
 local=/freemnt.hpitto.com/
+local=/doh.hshkf.com/
 local=/pub.hsuan.ink/
 local=/dnsguard.hte.vn/
 local=/dns.huanmave.cc/
@@ -1627,6 +1633,7 @@ local=/dns.kriswerry.nl/
 local=/xray.krnl.eu/
 local=/dns.krol.cloud/
 local=/hdns.ksyun.com/
+local=/dns.kugoapps.com/
 local=/dns.kukal.cz/
 local=/agh.kul-lippek.de/
 local=/dns.kusoneko.moe/
@@ -1724,6 +1731,7 @@ local=/dns.maitrekuc.fr/
 local=/dns.malhuda.com/
 local=/dns.mandre.dev/
 local=/adguard.manmademagic.com/
+local=/dns.maolaohei.xyz/
 local=/dns.maomaovpn.com/
 local=/adguard.mapor.co/
 local=/dns.marasov.id/
@@ -2103,6 +2111,7 @@ local=/dns.p3k.sk/
 local=/dns.p55k.com/
 local=/dns.pacificmonster.com/
 local=/dns.paesa.es/
+local=/dns.paliska.net/
 local=/adguard.pancybertronics.com/
 local=/adguard.pangerl.it/
 local=/dns.panszelescik.pl/
@@ -2629,8 +2638,6 @@ local=/dns.twnic.tw/
 local=/adguard.twotigers.xyz/
 local=/dns.txq.life/
 local=/ad.tzockt.beer/
-local=/dot.ublockdns.com/
-local=/my.ublockdns.com/
 local=/v1.ufamax.eu/
 local=/blokuj.ujwie.co/
 local=/nitter.ujwie.co/
@@ -2917,6 +2924,7 @@ local=/bazooki-infra.dev/
 local=/beacon.dog/
 local=/berd.moe/
 local=/bestwon203.com/
+local=/blockdns.com/
 local=/bluedns.xyz/
 local=/bluemood.me/
 local=/bobstrecansky.com/
@@ -3272,6 +3280,7 @@ local=/truta.org/
 local=/tujenasnaszato.xyz/
 local=/tuskythehusky.tech/
 local=/typaza.com/
+local=/ublockdns.com/
 local=/unasw.eu/
 local=/uncensoreddns.org/
 local=/unp.im/
