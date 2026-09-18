@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789549140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789722720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Sep 2026 08:59 UTC
-; Version: 2026.0916.0859.16
+; Last modified: 18 Sep 2026 09:12 UTC
+; Version: 2026.0918.0912.19
 ; Syntax: RPZ
-; Number of entries: 6650
+; Number of entries: 6658
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -617,6 +617,8 @@ dns.adguarddns.com CNAME .
 *.dns.adguarddns.com CNAME .
 family.adguarddns.com CNAME .
 *.family.adguarddns.com CNAME .
+unfiltered.adguarddns.com CNAME .
+*.unfiltered.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 dns.adrianlam.com CNAME .
@@ -1005,6 +1007,8 @@ resolver2.dyndnsinternetguide.com CNAME .
 *.resolver2.dyndnsinternetguide.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
+saomai.dynu.com CNAME .
+*.saomai.dynu.com CNAME .
 safe.eaccelera.com CNAME .
 *.safe.eaccelera.com CNAME .
 easyhandshake.com CNAME .
@@ -1701,6 +1705,8 @@ adguard.shoupperuser.com CNAME .
 *.adguard.shoupperuser.com CNAME .
 dns.silentlybren.com CNAME .
 *.dns.silentlybren.com CNAME .
+sitdns.com CNAME .
+*.sitdns.com CNAME .
 dns.sky-plex.com CNAME .
 *.dns.sky-plex.com CNAME .
 skydragoness.com CNAME .
@@ -4255,6 +4261,8 @@ adguard.tetnet.net CNAME .
 *.adguard.tetnet.net CNAME .
 dns.thegoodsource.net CNAME .
 *.dns.thegoodsource.net CNAME .
+timedns.net CNAME .
+*.timedns.net CNAME .
 agathe.tobkar.net CNAME .
 *.agathe.tobkar.net CNAME .
 edgar.tobkar.net CNAME .

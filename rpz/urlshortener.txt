@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789631400 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789716660 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Sep 2026 07:50 UTC
-; Version: 2026.0917.0750.48
+; Last modified: 18 Sep 2026 07:31 UTC
+; Version: 2026.0918.0731.40
 ; Syntax: RPZ
-; Number of entries: 19868
+; Number of entries: 19930
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -937,6 +937,8 @@ shortu.be CNAME .
 *.shortu.be CNAME .
 shtu.be CNAME .
 *.shtu.be CNAME .
+shurl.be CNAME .
+*.shurl.be CNAME .
 sly.be CNAME .
 *.sly.be CNAME .
 surl.be CNAME .
@@ -1799,6 +1801,8 @@ to8.cc CNAME .
 *.to8.cc CNAME .
 topurl.cc CNAME .
 *.topurl.cc CNAME .
+toui.cc CNAME .
+*.toui.cc CNAME .
 twurl.cc CNAME .
 *.twurl.cc CNAME .
 ub0.cc CNAME .
@@ -1837,6 +1841,8 @@ wiwir.cc CNAME .
 *.wiwir.cc CNAME .
 app.workdog.cc CNAME .
 *.app.workdog.cc CNAME .
+xav.cc CNAME .
+*.xav.cc CNAME .
 xn--ugt.cc CNAME .
 *.xn--ugt.cc CNAME .
 xxxdwz.cc CNAME .
@@ -2251,6 +2257,8 @@ url.cn CNAME .
 *.url.cn CNAME .
 urlify.cn CNAME .
 *.urlify.cn CNAME .
+v7c.cn CNAME .
+*.v7c.cn CNAME .
 ws91.cn CNAME .
 *.ws91.cn CNAME .
 x5n.cn CNAME .
@@ -2905,6 +2913,8 @@ tiny-link.co CNAME .
 *.tiny-link.co CNAME .
 tinyard.co CNAME .
 *.tinyard.co CNAME .
+tinygo.co CNAME .
+*.tinygo.co CNAME .
 tinyl.co CNAME .
 *.tinyl.co CNAME .
 tinyurlz.co CNAME .
@@ -2953,6 +2963,8 @@ vehi.co CNAME .
 *.vehi.co CNAME .
 vgnx.co CNAME .
 *.vgnx.co CNAME .
+vidcy.co CNAME .
+*.vidcy.co CNAME .
 viraln.co CNAME .
 *.viraln.co CNAME .
 vtred.co CNAME .
@@ -6341,6 +6353,8 @@ senseifarm.com CNAME .
 *.senseifarm.com CNAME .
 intro.sentrystrategy.com CNAME .
 *.intro.sentrystrategy.com CNAME .
+seorumahtoto.com CNAME .
+*.seorumahtoto.com CNAME .
 seotoolify.com CNAME .
 *.seotoolify.com CNAME .
 seotoolsaudit.com CNAME .
@@ -6503,6 +6517,8 @@ shorturl.com CNAME .
 *.shorturl.com CNAME .
 shorturl4me.com CNAME .
 *.shorturl4me.com CNAME .
+shorturl88.com CNAME .
+*.shorturl88.com CNAME .
 shorturlapp.com CNAME .
 *.shorturlapp.com CNAME .
 shorturlbot.com CNAME .
@@ -6521,6 +6537,8 @@ shortyearn.com CNAME .
 *.shortyearn.com CNAME .
 shortyzone.com CNAME .
 *.shortyzone.com CNAME .
+shotxy.com CNAME .
+*.shotxy.com CNAME .
 shotzon.com CNAME .
 *.shotzon.com CNAME .
 shourl.com CNAME .
@@ -6581,6 +6599,8 @@ shtnar.com CNAME .
 *.shtnar.com CNAME .
 shurturl.com CNAME .
 *.shurturl.com CNAME .
+shycmedi.com CNAME .
+*.shycmedi.com CNAME .
 shylnk.com CNAME .
 *.shylnk.com CNAME .
 sigboms.com CNAME .
@@ -6841,6 +6861,8 @@ syurl.com CNAME .
 *.syurl.com CNAME .
 t-iny.com CNAME .
 *.t-iny.com CNAME .
+t2-link.com CNAME .
+*.t2-link.com CNAME .
 t2mio.com CNAME .
 *.t2mio.com CNAME .
 tabzi.com CNAME .
@@ -7045,6 +7067,8 @@ tnyweb.com CNAME .
 *.tnyweb.com CNAME .
 to24r.com CNAME .
 *.to24r.com CNAME .
+tocnp.com CNAME .
+*.tocnp.com CNAME .
 toliyos.com CNAME .
 *.toliyos.com CNAME .
 link.tomalvarez.com CNAME .
@@ -7187,6 +7211,8 @@ ufjqt.com CNAME .
 *.ufjqt.com CNAME .
 ufsps.com CNAME .
 *.ufsps.com CNAME .
+uhishado.com CNAME .
+*.uhishado.com CNAME .
 uitly.com CNAME .
 *.uitly.com CNAME .
 s.ul.com CNAME .
@@ -7281,6 +7307,8 @@ url777x.com CNAME .
 *.url777x.com CNAME .
 url77xx.com CNAME .
 *.url77xx.com CNAME .
+url7x.com CNAME .
+*.url7x.com CNAME .
 url84.com CNAME .
 *.url84.com CNAME .
 urladda.com CNAME .
@@ -7373,6 +7401,8 @@ urlmama.com CNAME .
 *.urlmama.com CNAME .
 urlno.com CNAME .
 *.urlno.com CNAME .
+urlnova.com CNAME .
+*.urlnova.com CNAME .
 urlo12x.com CNAME .
 *.urlo12x.com CNAME .
 urlot.com CNAME .
@@ -7611,6 +7641,8 @@ w2link.com CNAME .
 *.w2link.com CNAME .
 w3dv.com CNAME .
 *.w3dv.com CNAME .
+walmart-to.com CNAME .
+*.walmart-to.com CNAME .
 wangzhanzhubo.com CNAME .
 *.wangzhanzhubo.com CNAME .
 wasapbro.com CNAME .
@@ -10645,6 +10677,8 @@ terbar.ink CNAME .
 *.terbar.ink CNAME .
 timxxx.ink CNAME .
 *.timxxx.ink CNAME .
+tinyl.ink CNAME .
+*.tinyl.ink CNAME .
 turtl.ink CNAME .
 *.turtl.ink CNAME .
 wonderl.ink CNAME .
@@ -11303,6 +11337,8 @@ utmlink.io CNAME .
 *.utmlink.io CNAME .
 uwuw.io CNAME .
 *.uwuw.io CNAME .
+v68.io CNAME .
+*.v68.io CNAME .
 vipb.io CNAME .
 *.vipb.io CNAME .
 vlgc.io CNAME .
@@ -13285,6 +13321,8 @@ rouletteonline.live CNAME .
 *.rouletteonline.live CNAME .
 securelink.live CNAME .
 *.securelink.live CNAME .
+shopgo.live CNAME .
+*.shopgo.live CNAME .
 shortener.live CNAME .
 *.shortener.live CNAME .
 shortmaro.live CNAME .
@@ -14429,6 +14467,8 @@ sorc.me CNAME .
 *.sorc.me CNAME .
 sorkale.me CNAME .
 *.sorkale.me CNAME .
+sotly.me CNAME .
+*.sotly.me CNAME .
 spoo.me CNAME .
 *.spoo.me CNAME .
 starkho.me CNAME .
@@ -14471,6 +14511,8 @@ ti.me CNAME .
 *.ti.me CNAME .
 tigerlink.me CNAME .
 *.tigerlink.me CNAME .
+tiny-url.me CNAME .
+*.tiny-url.me CNAME .
 tinyfy.me CNAME .
 *.tinyfy.me CNAME .
 tinylink.me CNAME .
@@ -14515,10 +14557,14 @@ tyx.me CNAME .
 *.tyx.me CNAME .
 uabio.me CNAME .
 *.uabio.me CNAME .
+ucam.me CNAME .
+*.ucam.me CNAME .
 ukaz.me CNAME .
 *.ukaz.me CNAME .
 ukf.me CNAME .
 *.ukf.me CNAME .
+ultrashort.me CNAME .
+*.ultrashort.me CNAME .
 unesa.me CNAME .
 *.unesa.me CNAME .
 untiny.me CNAME .
@@ -14541,6 +14587,8 @@ urlth.me CNAME .
 *.urlth.me CNAME .
 urlto.me CNAME .
 *.urlto.me CNAME .
+ushort.me CNAME .
+*.ushort.me CNAME .
 vaila.me CNAME .
 *.vaila.me CNAME .
 vaza.me CNAME .
@@ -14725,6 +14773,8 @@ sht.moe CNAME .
 *.sht.moe CNAME .
 linux.mom CNAME .
 *.linux.mom CNAME .
+zeus4d.mom CNAME .
+*.zeus4d.mom CNAME .
 inf.money CNAME .
 *.inf.money CNAME .
 sexy.jill.survive.from.the.monster CNAME .
@@ -15881,6 +15931,8 @@ ubd.one CNAME .
 *.ubd.one CNAME .
 unl.one CNAME .
 *.unl.one CNAME .
+uptolink.one CNAME .
+*.uptolink.one CNAME .
 urltiny.one CNAME .
 *.urltiny.one CNAME .
 urlys.one CNAME .
@@ -16429,6 +16481,8 @@ ylg.org CNAME .
 *.ylg.org CNAME .
 music.yosa.org CNAME .
 *.music.yosa.org CNAME .
+youlinks.org CNAME .
+*.youlinks.org CNAME .
 yourls.org CNAME .
 *.yourls.org CNAME .
 youweepingt.org CNAME .
@@ -16843,6 +16897,8 @@ urlbit.pro CNAME .
 *.urlbit.pro CNAME .
 urlfy.pro CNAME .
 *.urlfy.pro CNAME .
+urlshortener.pro CNAME .
+*.urlshortener.pro CNAME .
 urly.pro CNAME .
 *.urly.pro CNAME .
 urlys.pro CNAME .
@@ -17655,6 +17711,8 @@ shrinkme.site CNAME .
 *.shrinkme.site CNAME .
 shrturl.site CNAME .
 *.shrturl.site CNAME .
+sloto89.site CNAME .
+*.sloto89.site CNAME .
 spread.site CNAME .
 *.spread.site CNAME .
 totopecah.site CNAME .
@@ -18421,6 +18479,8 @@ sy.to CNAME .
 *.sy.to CNAME .
 tak.to CNAME .
 *.tak.to CNAME .
+taps.to CNAME .
+*.taps.to CNAME .
 temu.to CNAME .
 *.temu.to CNAME .
 theurl.to CNAME .
@@ -18439,6 +18499,8 @@ tsl.to CNAME .
 *.tsl.to CNAME .
 twtr.to CNAME .
 *.twtr.to CNAME .
+tyny.to CNAME .
+*.tyny.to CNAME .
 tzu.to CNAME .
 *.tzu.to CNAME .
 u.to CNAME .
