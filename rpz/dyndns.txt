@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789602300 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789767960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Sep 2026 23:45 UTC
-; Version: 2026.0916.2345.29
+; Last modified: 18 Sep 2026 21:46 UTC
+; Version: 2026.0918.2146.14
 ; Syntax: RPZ
-; Number of entries: 3074
+; Number of entries: 3078
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1864,6 +1864,8 @@ allez.la CNAME .
 *.allez.la CNAME .
 project.li CNAME .
 *.project.li CNAME .
+keenetic.link CNAME .
+*.keenetic.link CNAME .
 ax.lt CNAME .
 *.ax.lt CNAME .
 gw.lt CNAME .
@@ -2776,6 +2778,8 @@ dyndns.pro CNAME .
 *.dyndns.pro CNAME .
 hmao.pro CNAME .
 *.hmao.pro CNAME .
+keenetic.pro CNAME .
+*.keenetic.pro CNAME .
 netcraze.pro CNAME .
 *.netcraze.pro CNAME .
 netcabo.pt CNAME .

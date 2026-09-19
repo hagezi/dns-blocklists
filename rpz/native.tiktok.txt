@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789163940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789769040 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Sep 2026 21:59 UTC
-; Version: 2026.0911.2159.40
+; Last modified: 18 Sep 2026 22:04 UTC
+; Version: 2026.0918.2204.29
 ; Syntax: RPZ
-; Number of entries: 876
+; Number of entries: 872
 ;
 h4g3z1-native.tiktok.web.app CNAME .
 *.h4g3z1-native.tiktok.web.app CNAME .
@@ -144,8 +144,6 @@ tnc-va.capcutapi.com CNAME .
 *.tnc-va.capcutapi.com CNAME .
 tnc-va-us-looki.capcutapi.com CNAME .
 *.tnc-va-us-looki.capcutapi.com CNAME .
-mssdk-ru.tiktokv.com.www.digmawifi.com CNAME .
-*.mssdk-ru.tiktokv.com.www.digmawifi.com CNAME .
 abtest-ch.snssdk.com CNAME .
 *.abtest-ch.snssdk.com CNAME .
 analytics.snssdk.com CNAME .
@@ -864,8 +862,6 @@ mcs-ttp2.tiktokv.us CNAME .
 *.mcs-ttp2.tiktokv.us CNAME .
 rtc-logger.tiktokv.us CNAME .
 *.rtc-logger.tiktokv.us CNAME .
-rtc-logger-ttp2.tiktokv.us CNAME .
-*.rtc-logger-ttp2.tiktokv.us CNAME .
 rtlog16-normal-useast5.tiktokv.us CNAME .
 *.rtlog16-normal-useast5.tiktokv.us CNAME .
 rtlog16-normal-useast8.tiktokv.us CNAME .

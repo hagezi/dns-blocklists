@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789162920 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789767900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Sep 2026 21:42 UTC
-; Version: 2026.0911.2142.03
+; Last modified: 18 Sep 2026 21:45 UTC
+; Version: 2026.0918.2145.28
 ; Syntax: RPZ
-; Number of entries: 406
+; Number of entries: 410
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -144,6 +144,8 @@ suche.aol.de CNAME .
 *.suche.aol.de CNAME .
 searx.decatec.de CNAME .
 *.searx.decatec.de CNAME .
+searxng.diadz.de CNAME .
+*.searxng.diadz.de CNAME .
 search.dojoro.de CNAME .
 *.search.dojoro.de CNAME .
 eulie.de CNAME .
@@ -278,6 +280,8 @@ search.azkware.net CNAME .
 *.search.azkware.net CNAME .
 search.charliewhiskey.net CNAME .
 *.search.charliewhiskey.net CNAME .
+search.internetsucks.net CNAME .
+*.search.internetsucks.net CNAME .
 searx.nakhan.net CNAME .
 *.searx.nakhan.net CNAME .
 search.nebulacentre.net CNAME .
