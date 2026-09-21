@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789716660 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1789975740 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Sep 2026 07:31 UTC
-; Version: 2026.0918.0731.40
+; Last modified: 21 Sep 2026 07:29 UTC
+; Version: 2026.0921.0729.57
 ; Syntax: RPZ
-; Number of entries: 19930
+; Number of entries: 19936
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -765,6 +765,8 @@ loki.at CNAME .
 *.loki.at CNAME .
 many.at CNAME .
 *.many.at CNAME .
+nlink.at CNAME .
+*.nlink.at CNAME .
 oerk.at CNAME .
 *.oerk.at CNAME .
 url.or.at CNAME .
@@ -6269,6 +6271,8 @@ saerly.com CNAME .
 *.saerly.com CNAME .
 safeelink.com CNAME .
 *.safeelink.com CNAME .
+safelinkearn.com CNAME .
+*.safelinkearn.com CNAME .
 safelinku.com CNAME .
 *.safelinku.com CNAME .
 go.sagesure.com CNAME .
@@ -15657,6 +15661,8 @@ zshort.net CNAME .
 *.zshort.net CNAME .
 zxq.net CNAME .
 *.zxq.net CNAME .
+adtival.network CNAME .
+*.adtival.network CNAME .
 web3.destore.network CNAME .
 *.web3.destore.network CNAME .
 git.new CNAME .
