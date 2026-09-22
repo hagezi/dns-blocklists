@@ -302,10 +302,10 @@ The lists are rebuilt several times a day. Every source below serves the same li
 
 | Source | What it is | Publishes |
 |:---|:---|:---|
-| [GitHub/jsDelivr](https://github.com/hagezi/dns-blocklists) | Reference repository | Once a day |
-| [gitlab.com/hagezi/mirror](https://gitlab.com/hagezi/mirror) | Repository mirror | Once a day, in sync with GitHub |
-| [codeberg.org/hagezi/mirror2](https://codeberg.org/hagezi/mirror2) | Repository mirror | Once a day, in sync with GitHub |
-| [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org) | Build mirror | Every build, roughly every 4 to 8 hours |
+| [GitHub/jsDelivr](https://github.com/hagezi/dns-blocklists) | Reference repository | Once a day (11:00 a.m. UTC) |
+| [gitlab.com/hagezi/mirror](https://gitlab.com/hagezi/mirror) | Repository mirror | Once a day, in sync with GitHub (11:00 a.m. UTC) |
+| [codeberg.org/hagezi/mirror2](https://codeberg.org/hagezi/mirror2) | Repository mirror | Once a day, in sync with GitHub (11:00 a.m. UTC) |
+| [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org) | Build mirror | Every build, roughly every 4 to 8 hours (11:00 a.m. UTC, 7:00 p.m. UTC, 3:00 a.m. UTC) |
 
 > [!TIP]
 > Pick by how fresh you need the data. Once a day is plenty for most setups. If you want every build the moment it exists, use the build mirror at [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org).
