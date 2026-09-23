@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789769160 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790169900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's LG webOS Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,17 +9,33 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Sep 2026 22:06 UTC
-; Version: 2026.0918.2206.12
+; Last modified: 23 Sep 2026 13:25 UTC
+; Version: 2026.0923.1325.47
 ; Syntax: RPZ
-; Number of entries: 442
+; Number of entries: 458
 ;
 h4g3z1-native.lgwebos.web.app CNAME .
 *.h4g3z1-native.lgwebos.web.app CNAME .
 lgsmartad.com CNAME .
 *.lgsmartad.com CNAME .
-lgtvcommon.com CNAME .
-*.lgtvcommon.com CNAME .
+ads.lgtvcommon.com CNAME .
+*.ads.lgtvcommon.com CNAME .
+adts.lgtvcommon.com CNAME .
+*.adts.lgtvcommon.com CNAME .
+cdpbeacon.lgtvcommon.com CNAME .
+*.cdpbeacon.lgtvcommon.com CNAME .
+cdpbeacon2.lgtvcommon.com CNAME .
+*.cdpbeacon2.lgtvcommon.com CNAME .
+rdl.lgtvcommon.com CNAME .
+*.rdl.lgtvcommon.com CNAME .
+recommend.lgtvcommon.com CNAME .
+*.recommend.lgtvcommon.com CNAME .
+thinqrecommend.lgtvcommon.com CNAME .
+*.thinqrecommend.lgtvcommon.com CNAME .
+videoads.lgtvcommon.com CNAME .
+*.videoads.lgtvcommon.com CNAME .
+wiseconfig.lgtvcommon.com CNAME .
+*.wiseconfig.lgtvcommon.com CNAME .
 rdx2.lgtvsdp.com CNAME .
 *.rdx2.lgtvsdp.com CNAME .
 rdx2.nextlgsdp.com CNAME .
