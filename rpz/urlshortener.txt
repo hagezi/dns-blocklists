@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789975740 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790149200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 21 Sep 2026 07:29 UTC
-; Version: 2026.0921.0729.57
+; Last modified: 23 Sep 2026 07:40 UTC
+; Version: 2026.0923.0740.54
 ; Syntax: RPZ
-; Number of entries: 19936
+; Number of entries: 19962
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3053,6 +3053,8 @@ has.coffee CNAME .
 *.08url.com CNAME .
 0s0.com CNAME .
 *.0s0.com CNAME .
+1001giris.com CNAME .
+*.1001giris.com CNAME .
 11ixcco.com CNAME .
 *.11ixcco.com CNAME .
 14103231082025domain.com CNAME .
@@ -15095,12 +15097,22 @@ ce0.net CNAME .
 *.ce0.net CNAME .
 chkurl.net CNAME .
 *.chkurl.net CNAME .
+cioudinary.net CNAME .
+*.cioudinary.net CNAME .
 cjb.net CNAME .
 *.cjb.net CNAME .
 clicktracker.net CNAME .
 *.clicktracker.net CNAME .
 clikx.net CNAME .
 *.clikx.net CNAME .
+cloudfronte.net CNAME .
+*.cloudfronte.net CNAME .
+cloudinery.net CNAME .
+*.cloudinery.net CNAME .
+cloudiniry.net CNAME .
+*.cloudiniry.net CNAME .
+cloudnairy.net CNAME .
+*.cloudnairy.net CNAME .
 cloudradar.net CNAME .
 *.cloudradar.net CNAME .
 codegood.net CNAME .
@@ -15177,6 +15189,8 @@ fgurl.net CNAME .
 *.fgurl.net CNAME .
 firsturl.net CNAME .
 *.firsturl.net CNAME .
+flickker.net CNAME .
+*.flickker.net CNAME .
 fortheinfo.net CNAME .
 *.fortheinfo.net CNAME .
 url-shortener.freebusinessapps.net CNAME .
@@ -15405,8 +15419,12 @@ oyo.net CNAME .
 *.oyo.net CNAME .
 passion-radio.net CNAME .
 *.passion-radio.net CNAME .
+pexls.net CNAME .
+*.pexls.net CNAME .
 pgto.net CNAME .
 *.pgto.net CNAME .
+plxabay.net CNAME .
+*.plxabay.net CNAME .
 prfd.net CNAME .
 *.prfd.net CNAME .
 prime-link.net CNAME .
@@ -15575,6 +15593,14 @@ unand.net CNAME .
 *.unand.net CNAME .
 uniurl.net CNAME .
 *.uniurl.net CNAME .
+unsp1ash.net CNAME .
+*.unsp1ash.net CNAME .
+unsplach.net CNAME .
+*.unsplach.net CNAME .
+unsplasc.net CNAME .
+*.unsplasc.net CNAME .
+unsplsh.net CNAME .
+*.unsplsh.net CNAME .
 urlc.net CNAME .
 *.urlc.net CNAME .
 urlino.net CNAME .
