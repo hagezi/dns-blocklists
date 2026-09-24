@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789944300 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790237340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Sep 2026 22:45 UTC
-; Version: 2026.0920.2245.53
+; Last modified: 24 Sep 2026 08:09 UTC
+; Version: 2026.0924.0809.46
 ; Syntax: RPZ
-; Number of entries: 2472
+; Number of entries: 2476
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -706,6 +706,8 @@ lihi1.com CNAME .
 *.lihi1.com CNAME .
 list-mgmt.com CNAME .
 *.list-mgmt.com CNAME .
+live-website.com CNAME .
+*.live-website.com CNAME .
 liveblog365.com CNAME .
 *.liveblog365.com CNAME .
 lovestoblog.com CNAME .
@@ -2326,6 +2328,8 @@ temporary.site CNAME .
 *.temporary.site CNAME .
 temporary-demo.site CNAME .
 *.temporary-demo.site CNAME .
+tiiny.site CNAME .
+*.tiiny.site CNAME .
 turbo.site CNAME .
 *.turbo.site CNAME .
 wapka.site CNAME .

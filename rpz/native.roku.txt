@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787350020 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1790236800 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Roku Tracker DNS Blocklist
-; Description: Blocks Roku native broadband tracker that track your activity.
+; Title: HaGeZi's Roku Tracker - blocks built-in trackers from devices, apps, and OSes!
+; Description: Blocks the Roku native trackers baked into devices, services, and operating systems that quietly track what you do.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 21 Aug 2026 22:07 UTC
-; Version: 2026.0821.2207.32
+; Expires: 8 hours
+; Last modified: 24 Sep 2026 08:00 UTC
+; Version: 2026.0924.0800.55
 ; Syntax: RPZ
-; Number of entries: 144
+; Number of entries: 146
 ;
 h4g3z1-native.roku.web.app CNAME .
 *.h4g3z1-native.roku.web.app CNAME .
@@ -156,5 +156,7 @@ pixel.staging.web.roku.com CNAME .
 *.pixel.staging.web.roku.com CNAME .
 wwwimg.roku.com CNAME .
 *.wwwimg.roku.com CNAME .
+ads.rokuapi.net CNAME .
+*.ads.rokuapi.net CNAME .
 ravm.tv CNAME .
 *.ravm.tv CNAME .

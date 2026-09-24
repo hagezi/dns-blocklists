@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789807800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790207340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Sep 2026 08:50 UTC
-; Version: 2026.0919.0850.41
+; Last modified: 23 Sep 2026 23:49 UTC
+; Version: 2026.0923.2349.13
 ; Syntax: RPZ
-; Number of entries: 6662
+; Number of entries: 6666
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -6477,6 +6477,10 @@ dns19.854000.xyz CNAME .
 *.dns19.854000.xyz CNAME .
 tyo.883933770.xyz CNAME .
 *.tyo.883933770.xyz CNAME .
+addns.886675.xyz CNAME .
+*.addns.886675.xyz CNAME .
+dot.886675.xyz CNAME .
+*.dot.886675.xyz CNAME .
 dns.886886886.xyz CNAME .
 *.dns.886886886.xyz CNAME .
 dns.888654.xyz CNAME .
