@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790207340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790327700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Sep 2026 23:49 UTC
-; Version: 2026.0923.2349.13
+; Last modified: 25 Sep 2026 09:15 UTC
+; Version: 2026.0925.0915.25
 ; Syntax: RPZ
-; Number of entries: 6666
+; Number of entries: 6668
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -681,8 +681,6 @@ dns.arkbotech.com CNAME .
 *.dns.arkbotech.com CNAME .
 doh.asecdns.com CNAME .
 *.doh.asecdns.com CNAME .
-dot.asecdns.com CNAME .
-*.dot.asecdns.com CNAME .
 dns.asterimoon.com CNAME .
 *.dns.asterimoon.com CNAME .
 amgr.asuscomm.com CNAME .
@@ -997,6 +995,10 @@ phonedns.dr3ff1c13nt.com CNAME .
 *.phonedns.dr3ff1c13nt.com CNAME .
 twingatedns.dr3ff1c13nt.com CNAME .
 *.twingatedns.dr3ff1c13nt.com CNAME .
+family.dns.dremaxx.com CNAME .
+*.family.dns.dremaxx.com CNAME .
+open.dns.dremaxx.com CNAME .
+*.open.dns.dremaxx.com CNAME .
 dvgarm.com CNAME .
 *.dvgarm.com CNAME .
 roucious.dyndns-remote.com CNAME .

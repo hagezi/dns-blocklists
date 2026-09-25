@@ -247,13 +247,17 @@ Feeds the Fake list and the scam-related parts of TIF.
 ```
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/03_scam.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/04_fake.txt
+https://hinweishelden.com/
 https://investigations.nebty-id.com/doppelcart/api
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
 https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
+https://www.auktionshilfe.info/board-feed/22/
 https://www.spamhaus.org/drop/drop.txt
 https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_50000.txt
+https://www.vzhh.de/themen/einkauf-reise-freizeit/einkauf-online-shopping/fake-shop-liste-wenn-guenstig-richtig-teuer-wird
+https://www.watchlist-internet.at/liste-betruegerischer-shops/csv
 ```
 
 ### Cryptomining and cryptojacking
