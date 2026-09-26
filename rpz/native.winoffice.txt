@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789768920 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790373660 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Microsoft Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,17 +9,15 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Sep 2026 22:02 UTC
-; Version: 2026.0918.2202.44
+; Last modified: 25 Sep 2026 22:01 UTC
+; Version: 2026.0925.2201.23
 ; Syntax: RPZ
-; Number of entries: 776
+; Number of entries: 772
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
 collector.azure.microsoft.cloud CNAME .
 *.collector.azure.microsoft.cloud CNAME .
-api.applicationinsights.azure.cn CNAME .
-*.api.applicationinsights.azure.cn CNAME .
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
 in.applicationinsights.azure.cn CNAME .
@@ -356,8 +354,6 @@ arc2.msn.com CNAME .
 *.arc2.msn.com CNAME .
 arc3.msn.com CNAME .
 *.arc3.msn.com CNAME .
-arc5.msn.com CNAME .
-*.arc5.msn.com CNAME .
 arc9.msn.com CNAME .
 *.arc9.msn.com CNAME .
 c.at.msn.com CNAME .

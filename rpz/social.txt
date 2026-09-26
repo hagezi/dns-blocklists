@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789198500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790373420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks - blocks access to social networks!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Sep 2026 07:35 UTC
-; Version: 2026.0912.0735.40
+; Last modified: 25 Sep 2026 21:57 UTC
+; Version: 2026.0925.2157.19
 ; Syntax: RPZ
-; Number of entries: 1800
+; Number of entries: 1798
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -803,8 +803,6 @@ p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
-p16-tiktok-va.ibyteimg.com CNAME .
-*.p16-tiktok-va.ibyteimg.com CNAME .
 p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 *.p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 igcdn.com CNAME .

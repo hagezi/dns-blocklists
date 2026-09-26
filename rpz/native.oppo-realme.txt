@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789646820 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790374020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Sep 2026 12:07 UTC
-; Version: 2026.0917.1207.15
+; Last modified: 25 Sep 2026 22:07 UTC
+; Version: 2026.0925.2207.29
 ; Syntax: RPZ
-; Number of entries: 972
+; Number of entries: 974
 ;
 h4g3z1-native.oppo-realme.web.app CNAME .
 *.h4g3z1-native.oppo-realme.web.app CNAME .
@@ -582,6 +582,8 @@ ads-bdapi-th.heytapmobile.com CNAME .
 *.ads-bdapi-th.heytapmobile.com CNAME .
 ads-bdapi-vn.heytapmobile.com CNAME .
 *.ads-bdapi-vn.heytapmobile.com CNAME .
+ads-cps-in.heytapmobile.com CNAME .
+*.ads-cps-in.heytapmobile.com CNAME .
 adx-ads-fr.heytapmobile.com CNAME .
 *.adx-ads-fr.heytapmobile.com CNAME .
 adx-ads-ru.heytapmobile.com CNAME .
