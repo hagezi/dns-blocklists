@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790413500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790895060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 26 Sep 2026 09:05 UTC
-; Version: 2026.0926.0905.56
+; Last modified: 01 Oct 2026 22:51 UTC
+; Version: 2026.1001.2251.53
 ; Syntax: RPZ
-; Number of entries: 2476
+; Number of entries: 2470
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -728,8 +728,6 @@ me-page.com CNAME .
 *.me-page.com CNAME .
 medianewsonline.com CNAME .
 *.medianewsonline.com CNAME .
-merchats.com CNAME .
-*.merchats.com CNAME .
 microsoftaistories.com CNAME .
 *.microsoftaistories.com CNAME .
 mihanblog.com CNAME .
@@ -896,8 +894,6 @@ vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
 *.vdxh.com CNAME .
-veritafinancebank.com CNAME .
-*.veritafinancebank.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
 w3spaces.com CNAME .
@@ -1560,8 +1556,6 @@ blogspot.hu CNAME .
 *.blogspot.hu CNAME .
 pe.hu CNAME .
 *.pe.hu CNAME .
-mediafirex.icu CNAME .
-*.mediafirex.icu CNAME .
 blogspot.co.id CNAME .
 *.blogspot.co.id CNAME .
 blogspot.ie CNAME .

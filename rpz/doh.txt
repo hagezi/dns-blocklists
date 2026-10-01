@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790673540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790898600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 29 Sep 2026 09:19 UTC
-; Version: 2026.0929.0919.09
+; Last modified: 01 Oct 2026 23:50 UTC
+; Version: 2026.1001.2350.28
 ; Syntax: RPZ
-; Number of entries: 6672
+; Number of entries: 6640
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -131,8 +131,6 @@ adguard.veanswart.cloudns.be CNAME .
 *.adguard.veanswart.cloudns.be CNAME .
 digitallink.be CNAME .
 *.digitallink.be CNAME .
-dns.fifux.be CNAME .
-*.dns.fifux.be CNAME .
 dns.housedenolf.be CNAME .
 *.dns.housedenolf.be CNAME .
 dns.jimirobaer.be CNAME .
@@ -311,8 +309,6 @@ dns.keweon.center CNAME .
 *.dns.keweon.center CNAME .
 ux.go20.cf CNAME .
 *.ux.go20.cf CNAME .
-ychen.cf CNAME .
-*.ychen.cf CNAME .
 deep-henchman-excuse.cfd CNAME .
 *.deep-henchman-excuse.cfd CNAME .
 ajlxwk4kedu5.absq.ch CNAME .
@@ -503,6 +499,8 @@ dns.foximao.cn CNAME .
 *.dns.foximao.cn CNAME .
 nas.guyifei.cn CNAME .
 *.nas.guyifei.cn CNAME .
+dns.hshoe.cn CNAME .
+*.dns.hshoe.cn CNAME .
 doh.hugang8.cn CNAME .
 *.doh.hugang8.cn CNAME .
 dns.hujiayucc.cn CNAME .
@@ -593,8 +591,6 @@ doh-dns-apple-com.v.aaplimg.com CNAME .
 *.doh-dns-apple-com.v.aaplimg.com CNAME .
 dns.aaronplayzgaming.com CNAME .
 *.dns.aaronplayzgaming.com CNAME .
-dns.aaytorr.com CNAME .
-*.dns.aaytorr.com CNAME .
 dns.abhimankolte.com CNAME .
 *.dns.abhimankolte.com CNAME .
 abluehope.com CNAME .
@@ -795,8 +791,6 @@ agh.broaddy.com CNAME .
 *.agh.broaddy.com CNAME .
 doh.bt.com CNAME .
 *.doh.bt.com CNAME .
-doh.bugdns.com CNAME .
-*.doh.bugdns.com CNAME .
 c-dns.com CNAME .
 *.c-dns.com CNAME .
 dns.cahlen.com CNAME .
@@ -1009,8 +1003,6 @@ resolver2.dyndnsinternetguide.com CNAME .
 *.resolver2.dyndnsinternetguide.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
-saomai.dynu.com CNAME .
-*.saomai.dynu.com CNAME .
 safe.eaccelera.com CNAME .
 *.safe.eaccelera.com CNAME .
 easyhandshake.com CNAME .
@@ -1103,8 +1095,6 @@ vps.grussenmeyer.com CNAME .
 *.vps.grussenmeyer.com CNAME .
 guanmengkai.com CNAME .
 *.guanmengkai.com CNAME .
-dns.guardmydns.com CNAME .
-*.dns.guardmydns.com CNAME .
 homedns.gumeniuk.com CNAME .
 *.homedns.gumeniuk.com CNAME .
 hkns.gzelvis.com CNAME .
@@ -2721,8 +2711,6 @@ dns.google CNAME .
 *.dns.google CNAME .
 nicsezcheckfbi.gov CNAME .
 *.nicsezcheckfbi.gov CNAME .
-ychen.gq CNAME .
-*.ychen.gq CNAME .
 doh.libredns.gr CNAME .
 *.doh.libredns.gr CNAME .
 dot.libredns.gr CNAME .
@@ -3607,24 +3595,8 @@ dns.airns.net CNAME .
 *.dns.airns.net CNAME .
 adguard.ajinga.net CNAME .
 *.adguard.ajinga.net CNAME .
-dns.alekberg.net CNAME .
-*.dns.alekberg.net CNAME .
-dns2.alekberg.net CNAME .
-*.dns2.alekberg.net CNAME .
-dnses.alekberg.net CNAME .
-*.dnses.alekberg.net CNAME .
-dnsnl.alekberg.net CNAME .
-*.dnsnl.alekberg.net CNAME .
-dnsnl-noads.alekberg.net CNAME .
-*.dnsnl-noads.alekberg.net CNAME .
-dnsse.alekberg.net CNAME .
-*.dnsse.alekberg.net CNAME .
-dnsse-noads.alekberg.net CNAME .
-*.dnsse-noads.alekberg.net CNAME .
 odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
-odoh-target-noads.alekberg.net CNAME .
-*.odoh-target-noads.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
 doh.amonsul.net CNAME .
@@ -5905,8 +5877,6 @@ dns.startupstack.tech CNAME .
 *.dns.startupstack.tech CNAME .
 tuskythehusky.tech CNAME .
 *.tuskythehusky.tech CNAME .
-dns.zfsystem.tech CNAME .
-*.dns.zfsystem.tech CNAME .
 voyage-s01.cloudku.technology CNAME .
 *.voyage-s01.cloudku.technology CNAME .
 voyage-s02.cloudku.technology CNAME .
@@ -6057,8 +6027,6 @@ xholgm.top CNAME .
 *.xholgm.top CNAME .
 agh.xinfeng16m.top CNAME .
 *.agh.xinfeng16m.top CNAME .
-adgh.xrossj.top CNAME .
-*.adgh.xrossj.top CNAME .
 dns.yingroad.top CNAME .
 *.dns.yingroad.top CNAME .
 dns.yyaan.top CNAME .
