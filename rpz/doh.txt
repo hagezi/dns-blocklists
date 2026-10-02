@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790898600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790934480 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Oct 2026 23:50 UTC
-; Version: 2026.1001.2350.28
+; Last modified: 02 Oct 2026 09:48 UTC
+; Version: 2026.1002.0948.57
 ; Syntax: RPZ
-; Number of entries: 6640
+; Number of entries: 6632
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -659,8 +659,6 @@ oradns.anbitech.com CNAME .
 *.oradns.anbitech.com CNAME .
 dns.andreykiv.com CNAME .
 *.dns.andreykiv.com CNAME .
-sanns.aniuo.com CNAME .
-*.sanns.aniuo.com CNAME .
 anixlab.com CNAME .
 *.anixlab.com CNAME .
 dns1.api110.com CNAME .
@@ -3595,8 +3593,6 @@ dns.airns.net CNAME .
 *.dns.airns.net CNAME .
 adguard.ajinga.net CNAME .
 *.adguard.ajinga.net CNAME .
-odoh-target.alekberg.net CNAME .
-*.odoh-target.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
 doh.amonsul.net CNAME .
@@ -4531,8 +4527,6 @@ mailer.amlegion.org CNAME .
 *.mailer.amlegion.org CNAME .
 resolver1.amlegion.org CNAME .
 *.resolver1.amlegion.org CNAME .
-dns.jp.anitelecom.org CNAME .
-*.dns.jp.anitelecom.org CNAME .
 doh.archuser.org CNAME .
 *.doh.archuser.org CNAME .
 nsec.arnor.org CNAME .
@@ -5473,8 +5467,6 @@ andrey93rus.ru CNAME .
 *.andrey93rus.ru CNAME .
 angrysky.ru CNAME .
 *.angrysky.ru CNAME .
-dns.ru.anitelekom.ru CNAME .
-*.dns.ru.anitelekom.ru CNAME .
 ad.anym0re.ru CNAME .
 *.ad.anym0re.ru CNAME .
 arcticstorm.ru CNAME .

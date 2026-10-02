@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790893020 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790927880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Oct 2026 22:17 UTC
-; Version: 2026.1001.2217.33
+; Last modified: 02 Oct 2026 07:58 UTC
+; Version: 2026.1002.0758.43
 ; Syntax: RPZ
 ; Number of entries: 19870
 ;
@@ -2591,6 +2591,8 @@ linkbio.co CNAME .
 *.linkbio.co CNAME .
 linkc.co CNAME .
 *.linkc.co CNAME .
+linkhd.co CNAME .
+*.linkhd.co CNAME .
 linkia.co CNAME .
 *.linkia.co CNAME .
 linkiq.co CNAME .
@@ -2723,6 +2725,8 @@ pofy.co CNAME .
 *.pofy.co CNAME .
 pojonews.co CNAME .
 *.pojonews.co CNAME .
+polink.co CNAME .
+*.polink.co CNAME .
 politi.co CNAME .
 *.politi.co CNAME .
 popfeed.co CNAME .
@@ -3329,8 +3333,6 @@ anbisu.com CNAME .
 *.anbisu.com CNAME .
 anetbio.com CNAME .
 *.anetbio.com CNAME .
-animxo.com CNAME .
-*.animxo.com CNAME .
 annabelparr.com CNAME .
 *.annabelparr.com CNAME .
 annoyingnightmareedit.com CNAME .
@@ -3371,8 +3373,6 @@ aqariads.com CNAME .
 *.aqariads.com CNAME .
 arebh.com CNAME .
 *.arebh.com CNAME .
-argunia.com CNAME .
-*.argunia.com CNAME .
 arnolditkinclaims.com CNAME .
 *.arnolditkinclaims.com CNAME .
 arolinks.com CNAME .
