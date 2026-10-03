@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790934480 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791018960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Oct 2026 09:48 UTC
-; Version: 2026.1002.0948.57
+; Last modified: 03 Oct 2026 09:16 UTC
+; Version: 2026.1003.0916.50
 ; Syntax: RPZ
-; Number of entries: 6632
+; Number of entries: 6626
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2549,8 +2549,6 @@ barnabech.fr CNAME .
 *.barnabech.fr CNAME .
 doh.bortzmeyer.fr CNAME .
 *.doh.bortzmeyer.fr CNAME .
-dns.briac-mlb.fr CNAME .
-*.dns.briac-mlb.fr CNAME .
 stratus.bugz.fr CNAME .
 *.stratus.bugz.fr CNAME .
 fukuda.ccnt.fr CNAME .
@@ -4957,8 +4955,6 @@ doh.zknt.org CNAME .
 *.doh.zknt.org CNAME .
 adguard.adrianofrongillo.ovh CNAME .
 *.adguard.adrianofrongillo.ovh CNAME .
-doh.azoris.ovh CNAME .
-*.doh.azoris.ovh CNAME .
 cloudns.bosco.ovh CNAME .
 *.cloudns.bosco.ovh CNAME .
 dns.clanless.ovh CNAME .
@@ -5473,8 +5469,6 @@ arcticstorm.ru CNAME .
 *.arcticstorm.ru CNAME .
 aridia.ru CNAME .
 *.aridia.ru CNAME .
-node3.b4el.ru CNAME .
-*.node3.b4el.ru CNAME .
 baxtri.ru CNAME .
 *.baxtri.ru CNAME .
 dns1.blackrandcrf.ru CNAME .

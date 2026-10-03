@@ -5,8 +5,8 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 27 Sep 2026 20:28 UTC
-# Version: 2026.0927.2028.19
+# Last modified: 02 Oct 2026 18:15 UTC
+# Version: 2026.1002.1815.40
 # Syntax: DNSMasq v2.86 or newer
 # Number of entries: 384
 #
@@ -54,7 +54,6 @@ local=/m365cdn.nel.measure.office.net.cardano.com/
 local=/officehub.nel.measure.office.net.cardano.com/
 local=/spo.nel.measure.office.net.cardano.com/
 local=/teams.nel.measure.office.net.cardano.com/
-local=/insights.cloud.microsoft/
 local=/measure.office.net.edgesuite.net/
 local=/westeurope-5.in.applicationinsights.azure.com.fiege.de/
 local=/collector.azure.eaglex.ic.gov/
@@ -380,6 +379,7 @@ local=/kg-legacy-analytics.servicebus.windows.net/
 local=/licensingtelemetry-prod.servicebus.windows.net/
 local=/nexxtv-events.servicebus.windows.net/
 local=/ppm-licensingtelemetry.servicebus.windows.net/
+local=/prd-qlik-telemetry.servicebus.windows.net/
 local=/prod-eh-v1-analytics.servicebus.windows.net/
 local=/prod-eventhub-analytics.servicebus.windows.net/
 local=/production-jobactivity-analytics.servicebus.windows.net/

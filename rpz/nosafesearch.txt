@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789767900 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790977560 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Sep 2026 21:45 UTC
-; Version: 2026.0918.2145.28
+; Last modified: 02 Oct 2026 21:46 UTC
+; Version: 2026.1002.2146.20
 ; Syntax: RPZ
-; Number of entries: 410
+; Number of entries: 406
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -46,8 +46,6 @@ searx.ch CNAME .
 *.searx.ch CNAME .
 search.kokomo.cloud CNAME .
 *.search.kokomo.cloud CNAME .
-searxzh.cn CNAME .
-*.searxzh.cn CNAME .
 search.0xgingi.com CNAME .
 *.search.0xgingi.com CNAME .
 100searchengines.com CNAME .
@@ -244,8 +242,6 @@ websearch.excite.co.jp CNAME .
 *.websearch.excite.co.jp CNAME .
 searx.foo.li CNAME .
 *.searx.foo.li CNAME .
-searx.nightmare.life CNAME .
-*.searx.nightmare.life CNAME .
 searx.hardwired.link CNAME .
 *.searx.hardwired.link CNAME .
 searx.vitanetworks.link CNAME .

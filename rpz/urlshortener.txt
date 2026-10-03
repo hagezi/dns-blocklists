@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790927880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791013140 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Oct 2026 07:58 UTC
-; Version: 2026.1002.0758.43
+; Last modified: 03 Oct 2026 07:39 UTC
+; Version: 2026.1003.0739.56
 ; Syntax: RPZ
-; Number of entries: 19870
+; Number of entries: 19854
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -973,8 +973,6 @@ shorturl.best CNAME .
 *.shorturl.best CNAME .
 yourls.best CNAME .
 *.yourls.best CNAME .
-b808.bet CNAME .
-*.b808.bet CNAME .
 bloom.bg CNAME .
 *.bloom.bg CNAME .
 s.skip.bh CNAME .
@@ -3615,8 +3613,6 @@ bnetwhk.com CNAME .
 *.bnetwhk.com CNAME .
 bnidigital.com CNAME .
 *.bnidigital.com CNAME .
-bnishipping.com CNAME .
-*.bnishipping.com CNAME .
 bnodr.com CNAME .
 *.bnodr.com CNAME .
 bnrsol.com CNAME .
@@ -3649,8 +3645,6 @@ on.bp.com CNAME .
 *.on.bp.com CNAME .
 bpjames.com CNAME .
 *.bpjames.com CNAME .
-bragimov.com CNAME .
-*.bragimov.com CNAME .
 brahmanalink.com CNAME .
 *.brahmanalink.com CNAME .
 brevelink.com CNAME .
@@ -3677,8 +3671,6 @@ buddn.com CNAME .
 *.buddn.com CNAME .
 budurl.com CNAME .
 *.budurl.com CNAME .
-buildinhockinghills.com CNAME .
-*.buildinhockinghills.com CNAME .
 bulkurlshortener.com CNAME .
 *.bulkurlshortener.com CNAME .
 bumpnt.com CNAME .
@@ -9845,8 +9837,6 @@ bitw.in CNAME .
 *.bitw.in CNAME .
 bjli.in CNAME .
 *.bjli.in CNAME .
-blinkurl.in CNAME .
-*.blinkurl.in CNAME .
 blnk.in CNAME .
 *.blnk.in CNAME .
 bnds.in CNAME .
@@ -9857,8 +9847,6 @@ br4.in CNAME .
 *.br4.in CNAME .
 bstnd.in CNAME .
 *.bstnd.in CNAME .
-btty.in CNAME .
-*.btty.in CNAME .
 byoo.in CNAME .
 *.byoo.in CNAME .
 bytly.in CNAME .
@@ -10691,8 +10679,6 @@ appurl.io CNAME .
 *.appurl.io CNAME .
 assinar.io CNAME .
 *.assinar.io CNAME .
-avtk.io CNAME .
-*.avtk.io CNAME .
 avyc.io CNAME .
 *.avyc.io CNAME .
 b2s.io CNAME .
@@ -13769,8 +13755,6 @@ boskale.me CNAME .
 *.boskale.me CNAME .
 brandlink.me CNAME .
 *.brandlink.me CNAME .
-brcloud.me CNAME .
-*.brcloud.me CNAME .
 briefen.me CNAME .
 *.briefen.me CNAME .
 brightestbeginning.me CNAME .
