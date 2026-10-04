@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791105240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791128520 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Oct 2026 09:14 UTC
-; Version: 2026.1004.0914.27
+; Last modified: 04 Oct 2026 15:42 UTC
+; Version: 2026.1004.1542.40
 ; Syntax: RPZ
-; Number of entries: 32240
+; Number of entries: 32212
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -25,8 +25,6 @@ vanyavpn.ac CNAME .
 *.vanyavpn.ac CNAME .
 vpn.ac CNAME .
 *.vpn.ac CNAME .
-dear.actor CNAME .
-*.dear.actor CNAME .
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
 standard.mask.ad CNAME .
@@ -5503,8 +5501,6 @@ www-proxy.deersserverhosting.com CNAME .
 *.www-proxy.deersserverhosting.com CNAME .
 www-theweb.deersserverhosting.com CNAME .
 *.www-theweb.deersserverhosting.com CNAME .
-wutidontunderstand.defdc.com CNAME .
-*.wutidontunderstand.defdc.com CNAME .
 defencevpn.com CNAME .
 *.defencevpn.com CNAME .
 defyxvpn.com CNAME .
@@ -12949,6 +12945,8 @@ tunnel4.com CNAME .
 *.tunnel4.com CNAME .
 tunnelbear.com CNAME .
 *.tunnelbear.com CNAME .
+tunnelmole.com CNAME .
+*.tunnelmole.com CNAME .
 learn.how.tupuola.com CNAME .
 *.learn.how.tupuola.com CNAME .
 turboitems.com CNAME .
@@ -15951,8 +15949,6 @@ sin2.edge.access.zznet.fun CNAME .
 *.sin2.edge.access.zznet.fun CNAME .
 androidconnect.fyi CNAME .
 *.androidconnect.fyi CNAME .
-defendfrienddns.fyi CNAME .
-*.defendfrienddns.fyi CNAME .
 directconnect.fyi CNAME .
 *.directconnect.fyi CNAME .
 edgehub.fyi CNAME .
@@ -18641,8 +18637,6 @@ comcatches.live CNAME .
 *.comcatches.live CNAME .
 datadistribute.live CNAME .
 *.datadistribute.live CNAME .
-class.desmos.live CNAME .
-*.class.desmos.live CNAME .
 dostup.live CNAME .
 *.dostup.live CNAME .
 dp-ca-01.live CNAME .
@@ -19679,8 +19673,6 @@ cloud.securifi.com.my CNAME .
 *.cloud.securifi.com.my CNAME .
 mehmetgayalo.southern.com.my CNAME .
 *.mehmetgayalo.southern.com.my CNAME .
-darikon.my CNAME .
-*.darikon.my CNAME .
 fonarex.my CNAME .
 *.fonarex.my CNAME .
 glock.my CNAME .
@@ -21833,8 +21825,6 @@ aveekay.ddns.net CNAME .
 *.aveekay.ddns.net CNAME .
 batshitcrazy.ddns.net CNAME .
 *.batshitcrazy.ddns.net CNAME .
-adguard.bug3factory.ddns.net CNAME .
-*.adguard.bug3factory.ddns.net CNAME .
 cloak.ddns.net CNAME .
 *.cloak.ddns.net CNAME .
 cloudflares.ddns.net CNAME .
@@ -23521,6 +23511,8 @@ tsgqi2p2na3m7q.net CNAME .
 *.tsgqi2p2na3m7q.net CNAME .
 net.tt6.net CNAME .
 *.net.tt6.net CNAME .
+tunnelmole.net CNAME .
+*.tunnelmole.net CNAME .
 turbovpnapp.net CNAME .
 *.turbovpnapp.net CNAME .
 twoproxy.net CNAME .
@@ -24227,8 +24219,6 @@ deepcores.online CNAME .
 *.deepcores.online CNAME .
 vm.delfini.online CNAME .
 *.vm.delfini.online CNAME .
-deqyutix.online CNAME .
-*.deqyutix.online CNAME .
 djc5yls6yrtdmo69.online CNAME .
 *.djc5yls6yrtdmo69.online CNAME .
 dns4eu.online CNAME .
@@ -25321,8 +25311,6 @@ math.davidandasabi.org CNAME .
 *.math.davidandasabi.org CNAME .
 learnsowashcoorg.ddnss.org CNAME .
 *.learnsowashcoorg.ddnss.org CNAME .
-definitechaos.org CNAME .
-*.definitechaos.org CNAME .
 adguard.ext.devkon.org CNAME .
 *.adguard.ext.devkon.org CNAME .
 difficultycrossing.org CNAME .
@@ -27117,8 +27105,6 @@ caiyun.pw CNAME .
 *.caiyun.pw CNAME .
 cv2.pw CNAME .
 *.cv2.pw CNAME .
-doh.datt.pw CNAME .
-*.doh.datt.pw CNAME .
 xn--28j2a3ar1p.died.pw CNAME .
 *.xn--28j2a3ar1p.died.pw CNAME .
 dschmidt.pw CNAME .
@@ -27399,12 +27385,6 @@ s2.d3mik.ru CNAME .
 *.s2.d3mik.ru CNAME .
 dark-proxy.ru CNAME .
 *.dark-proxy.ru CNAME .
-darvilo.ru CNAME .
-*.darvilo.ru CNAME .
-dastrix.ru CNAME .
-*.dastrix.ru CNAME .
-daxiro.ru CNAME .
-*.daxiro.ru CNAME .
 dd34.ru CNAME .
 *.dd34.ru CNAME .
 ded-ios.ru CNAME .
@@ -27417,12 +27397,6 @@ adguard.dekonix.ru CNAME .
 *.adguard.dekonix.ru CNAME .
 dns.deltain.ru CNAME .
 *.dns.deltain.ru CNAME .
-denstro.ru CNAME .
-*.denstro.ru CNAME .
-der-lino.ru CNAME .
-*.der-lino.ru CNAME .
-derlino.ru CNAME .
-*.derlino.ru CNAME .
 adguard.dervart.ru CNAME .
 *.adguard.dervart.ru CNAME .
 dexira.ru CNAME .
@@ -31347,8 +31321,6 @@ dansereau.xyz CNAME .
 *.dansereau.xyz CNAME .
 datadispatch.xyz CNAME .
 *.datadispatch.xyz CNAME .
-ddsss1.xyz CNAME .
-*.ddsss1.xyz CNAME .
 dedvpn.xyz CNAME .
 *.dedvpn.xyz CNAME .
 demonzero.xyz CNAME .
