@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790964900 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791143460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Microsoft Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Oct 2026 18:15 UTC
-; Version: 2026.1002.1815.40
+; Last modified: 04 Oct 2026 19:51 UTC
+; Version: 2026.1004.1951.54
 ; Syntax: RPZ
-; Number of entries: 768
+; Number of entries: 762
 ;
 h4g3z1-native-winoffice.web.app CNAME .
 *.h4g3z1-native-winoffice.web.app CNAME .
@@ -54,20 +54,6 @@ raka.bing.com CNAME .
 *.raka.bing.com CNAME .
 c.bingapis.com CNAME .
 *.c.bingapis.com CNAME .
-excelonline.nel.measure.office.net.cardano.com CNAME .
-*.excelonline.nel.measure.office.net.cardano.com CNAME .
-exo.nel.measure.office.net.cardano.com CNAME .
-*.exo.nel.measure.office.net.cardano.com CNAME .
-identity.nel.measure.office.net.cardano.com CNAME .
-*.identity.nel.measure.office.net.cardano.com CNAME .
-m365cdn.nel.measure.office.net.cardano.com CNAME .
-*.m365cdn.nel.measure.office.net.cardano.com CNAME .
-officehub.nel.measure.office.net.cardano.com CNAME .
-*.officehub.nel.measure.office.net.cardano.com CNAME .
-spo.nel.measure.office.net.cardano.com CNAME .
-*.spo.nel.measure.office.net.cardano.com CNAME .
-teams.nel.measure.office.net.cardano.com CNAME .
-*.teams.nel.measure.office.net.cardano.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .
@@ -260,6 +246,8 @@ analyticspixel.microsoft.com CNAME .
 *.analyticspixel.microsoft.com CNAME .
 applicationinsights.microsoft.com CNAME .
 *.applicationinsights.microsoft.com CNAME .
+logs.appsource.microsoft.com CNAME .
+*.logs.appsource.microsoft.com CNAME .
 pipe.aria.microsoft.com CNAME .
 *.pipe.aria.microsoft.com CNAME .
 azurewatson.microsoft.com CNAME .
@@ -292,18 +280,26 @@ ieonline.microsoft.com CNAME .
 *.ieonline.microsoft.com CNAME .
 location.microsoft.com CNAME .
 *.location.microsoft.com CNAME .
+measure.microsoft.com CNAME .
+*.measure.microsoft.com CNAME .
 redir.metaservices.microsoft.com CNAME .
 *.redir.metaservices.microsoft.com CNAME .
 track.mp.microsoft.com CNAME .
 *.track.mp.microsoft.com CNAME .
 msadsscale.microsoft.com CNAME .
 *.msadsscale.microsoft.com CNAME .
+inputsuggestions.msdxcdn.microsoft.com CNAME .
+*.inputsuggestions.msdxcdn.microsoft.com CNAME .
 oca.microsoft.com CNAME .
 *.oca.microsoft.com CNAME .
 watson.officeint.microsoft.com CNAME .
 *.watson.officeint.microsoft.com CNAME .
 rad.microsoft.com CNAME .
 *.rad.microsoft.com CNAME .
+romeccs.microsoft.com CNAME .
+*.romeccs.microsoft.com CNAME .
+feedback.search.microsoft.com CNAME .
+*.feedback.search.microsoft.com CNAME .
 telem-edge.smartscreen.microsoft.com CNAME .
 *.telem-edge.smartscreen.microsoft.com CNAME .
 i1.services.social.microsoft.com CNAME .
@@ -758,8 +754,6 @@ nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
 *.ppm-licensingtelemetry.servicebus.windows.net CNAME .
-prd-qlik-telemetry.servicebus.windows.net CNAME .
-*.prd-qlik-telemetry.servicebus.windows.net CNAME .
 prod-eh-v1-analytics.servicebus.windows.net CNAME .
 *.prod-eh-v1-analytics.servicebus.windows.net CNAME .
 prod-eventhub-analytics.servicebus.windows.net CNAME .

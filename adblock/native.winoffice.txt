@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 02 Oct 2026 18:15 UTC
-! Version: 2026.1002.1815.40
+! Last modified: 04 Oct 2026 19:51 UTC
+! Version: 2026.1004.1951.54
 ! Syntax: AdBlock
-! Number of entries: 384
+! Number of entries: 381
 !
 ||c-bingapis-com.dual-a-0034.a-msedge.net^
 ||measure.office.com.akamaized.net^
@@ -48,13 +48,6 @@
 ||g.bing.com^
 ||raka.bing.com^
 ||c.bingapis.com^
-||excelonline.nel.measure.office.net.cardano.com^
-||exo.nel.measure.office.net.cardano.com^
-||identity.nel.measure.office.net.cardano.com^
-||m365cdn.nel.measure.office.net.cardano.com^
-||officehub.nel.measure.office.net.cardano.com^
-||spo.nel.measure.office.net.cardano.com^
-||teams.nel.measure.office.net.cardano.com^
 ||measure.office.net.edgesuite.net^
 ||westeurope-5.in.applicationinsights.azure.com.fiege.de^
 ||collector.azure.eaglex.ic.gov^
@@ -150,6 +143,7 @@
 ||rad.live.com^
 ||ssw.live.com^
 ||watson.live.com^
+||logs.appsource.microsoft.com^
 ||pipe.aria.microsoft.com^
 ||collector.azure.microsoft.cloud^
 ||track.notif.careersppe.microsoft.com^
@@ -162,7 +156,9 @@
 ||api.edgeoffer.microsoft.com^
 ||redir.metaservices.microsoft.com^
 ||track.mp.microsoft.com^
+||inputsuggestions.msdxcdn.microsoft.com^
 ||watson.officeint.microsoft.com^
+||feedback.search.microsoft.com^
 ||telem-edge.smartscreen.microsoft.com^
 ||i1.services.social.microsoft.com^
 ||telemetry.urs.microsoft.com^
@@ -181,9 +177,11 @@
 ||clarity.microsoft.com^
 ||ieonline.microsoft.com^
 ||location.microsoft.com^
+||measure.microsoft.com^
 ||msadsscale.microsoft.com^
 ||oca.microsoft.com^
 ||rad.microsoft.com^
+||romeccs.microsoft.com^
 ||spynet2.microsoft.com^
 ||spynetalt.microsoft.com^
 ||telecommandsvc.microsoft.com^
@@ -380,7 +378,6 @@
 ||licensingtelemetry-prod.servicebus.windows.net^
 ||nexxtv-events.servicebus.windows.net^
 ||ppm-licensingtelemetry.servicebus.windows.net^
-||prd-qlik-telemetry.servicebus.windows.net^
 ||prod-eh-v1-analytics.servicebus.windows.net^
 ||prod-eventhub-analytics.servicebus.windows.net^
 ||production-jobactivity-analytics.servicebus.windows.net^

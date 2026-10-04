@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 02 Oct 2026 18:15 UTC
-# Version: 2026.1002.1815.40
+# Last modified: 04 Oct 2026 19:51 UTC
+# Version: 2026.1004.1951.54
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 384
+# Number of entries: 381
 #
 local=/c-bingapis-com.dual-a-0034.a-msedge.net/
 local=/measure.office.com.akamaized.net/
@@ -47,13 +47,6 @@ local=/commerce.bing.com/
 local=/g.bing.com/
 local=/raka.bing.com/
 local=/c.bingapis.com/
-local=/excelonline.nel.measure.office.net.cardano.com/
-local=/exo.nel.measure.office.net.cardano.com/
-local=/identity.nel.measure.office.net.cardano.com/
-local=/m365cdn.nel.measure.office.net.cardano.com/
-local=/officehub.nel.measure.office.net.cardano.com/
-local=/spo.nel.measure.office.net.cardano.com/
-local=/teams.nel.measure.office.net.cardano.com/
 local=/measure.office.net.edgesuite.net/
 local=/westeurope-5.in.applicationinsights.azure.com.fiege.de/
 local=/collector.azure.eaglex.ic.gov/
@@ -149,6 +142,7 @@ local=/outlookads.live.com/
 local=/rad.live.com/
 local=/ssw.live.com/
 local=/watson.live.com/
+local=/logs.appsource.microsoft.com/
 local=/pipe.aria.microsoft.com/
 local=/collector.azure.microsoft.cloud/
 local=/track.notif.careersppe.microsoft.com/
@@ -161,7 +155,9 @@ local=/vortex-win-sandbox.data.microsoft.com/
 local=/api.edgeoffer.microsoft.com/
 local=/redir.metaservices.microsoft.com/
 local=/track.mp.microsoft.com/
+local=/inputsuggestions.msdxcdn.microsoft.com/
 local=/watson.officeint.microsoft.com/
+local=/feedback.search.microsoft.com/
 local=/telem-edge.smartscreen.microsoft.com/
 local=/i1.services.social.microsoft.com/
 local=/telemetry.urs.microsoft.com/
@@ -180,9 +176,11 @@ local=/c1.microsoft.com/
 local=/clarity.microsoft.com/
 local=/ieonline.microsoft.com/
 local=/location.microsoft.com/
+local=/measure.microsoft.com/
 local=/msadsscale.microsoft.com/
 local=/oca.microsoft.com/
 local=/rad.microsoft.com/
+local=/romeccs.microsoft.com/
 local=/spynet2.microsoft.com/
 local=/spynetalt.microsoft.com/
 local=/telecommandsvc.microsoft.com/
@@ -379,7 +377,6 @@ local=/kg-legacy-analytics.servicebus.windows.net/
 local=/licensingtelemetry-prod.servicebus.windows.net/
 local=/nexxtv-events.servicebus.windows.net/
 local=/ppm-licensingtelemetry.servicebus.windows.net/
-local=/prd-qlik-telemetry.servicebus.windows.net/
 local=/prod-eh-v1-analytics.servicebus.windows.net/
 local=/prod-eventhub-analytics.servicebus.windows.net/
 local=/production-jobactivity-analytics.servicebus.windows.net/
