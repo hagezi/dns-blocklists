@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791018960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791105120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Oct 2026 09:16 UTC
-; Version: 2026.1003.0916.50
+; Last modified: 04 Oct 2026 09:12 UTC
+; Version: 2026.1004.0912.56
 ; Syntax: RPZ
-; Number of entries: 6626
+; Number of entries: 6620
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -439,8 +439,6 @@ dns-2.wil.cloud CNAME .
 *.dns-2.wil.cloud CNAME .
 wyx.cloud CNAME .
 *.wyx.cloud CNAME .
-dns.comeonjames.club CNAME .
-*.dns.comeonjames.club CNAME .
 adguard.ef67daisuki.club CNAME .
 *.adguard.ef67daisuki.club CNAME .
 dns.fsociety.club CNAME .
@@ -809,8 +807,6 @@ adguard.cedoman.com CNAME .
 *.adguard.cedoman.com CNAME .
 dns.chalkychalk.com CNAME .
 *.dns.chalkychalk.com CNAME .
-adguard.chaudharyarnav.com CNAME .
-*.adguard.chaudharyarnav.com CNAME .
 dns.chillstice.com CNAME .
 *.dns.chillstice.com CNAME .
 dns.chriswservers.com CNAME .
@@ -3535,8 +3531,6 @@ shinano.anime.com.my CNAME .
 *.shinano.anime.com.my CNAME .
 cloud.securifi.com.my CNAME .
 *.cloud.securifi.com.my CNAME .
-iux3-s.cuiy4trg8fmosya2iip3ci.name CNAME .
-*.iux3-s.cuiy4trg8fmosya2iip3ci.name CNAME .
 domain.name CNAME .
 *.domain.name CNAME .
 searxng.rcxpony.name CNAME .
@@ -5477,8 +5471,6 @@ cloud.boboba.ru CNAME .
 *.cloud.boboba.ru CNAME .
 dns.ch295.ru CNAME .
 *.dns.ch295.ru CNAME .
-adguard.chestnov.ru CNAME .
-*.adguard.chestnov.ru CNAME .
 qual.cuprum.ru CNAME .
 *.qual.cuprum.ru CNAME .
 s2.d3mik.ru CNAME .
@@ -5709,6 +5701,8 @@ online.zotio.ru CNAME .
 *.online.zotio.ru CNAME .
 your-dns.run CNAME .
 *.your-dns.run CNAME .
+dns.hqdns.sarl CNAME .
+*.dns.hqdns.sarl CNAME .
 dns.sb CNAME .
 *.dns.sb CNAME .
 doh.sb CNAME .

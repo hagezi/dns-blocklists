@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791013140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791099960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Oct 2026 07:39 UTC
-; Version: 2026.1003.0739.56
+; Last modified: 04 Oct 2026 07:46 UTC
+; Version: 2026.1004.0746.36
 ; Syntax: RPZ
-; Number of entries: 19854
+; Number of entries: 19830
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3771,8 +3771,6 @@ chogoon.com CNAME .
 *.chogoon.com CNAME .
 chuchik.com CNAME .
 *.chuchik.com CNAME .
-chunkylinks.com CNAME .
-*.chunkylinks.com CNAME .
 go.library.cikeys.com CNAME .
 *.go.library.cikeys.com CNAME .
 cinterraent.com CNAME .
@@ -3783,14 +3781,10 @@ ciptalink.com CNAME .
 *.ciptalink.com CNAME .
 sh.classera.com CNAME .
 *.sh.classera.com CNAME .
-cleanhockinghills.com CNAME .
-*.cleanhockinghills.com CNAME .
 cleanuri.com CNAME .
 *.cleanuri.com CNAME .
 links.clearlabs.com CNAME .
 *.links.clearlabs.com CNAME .
-click-genius.com CNAME .
-*.click-genius.com CNAME .
 click-goo.com CNAME .
 *.click-goo.com CNAME .
 clickgenee.com CNAME .
@@ -3807,8 +3801,6 @@ clinkzy.com CNAME .
 *.clinkzy.com CNAME .
 cliow.com CNAME .
 *.cliow.com CNAME .
-clipitx.com CNAME .
-*.clipitx.com CNAME .
 cliplinkly.com CNAME .
 *.cliplinkly.com CNAME .
 clipperlink.com CNAME .
@@ -3881,20 +3873,14 @@ crourl.com CNAME .
 *.crourl.com CNAME .
 crypsante.com CNAME .
 *.crypsante.com CNAME .
-csepyl.com CNAME .
-*.csepyl.com CNAME .
 csnode.com CNAME .
 *.csnode.com CNAME .
 csvcllc.com CNAME .
 *.csvcllc.com CNAME .
 ctahire.com CNAME .
 *.ctahire.com CNAME .
-ctrllinks.com CNAME .
-*.ctrllinks.com CNAME .
 ctse-registry.com CNAME .
 *.ctse-registry.com CNAME .
-cuanbio.com CNAME .
-*.cuanbio.com CNAME .
 linkprotect.cudasvc.com CNAME .
 *.linkprotect.cudasvc.com CNAME .
 cukbaray.com CNAME .
@@ -8473,8 +8459,6 @@ bridg.ee CNAME .
 *.bridg.ee CNAME .
 bytr.ee CNAME .
 *.bytr.ee CNAME .
-cutt.ee CNAME .
-*.cutt.ee CNAME .
 eid.ee CNAME .
 *.eid.ee CNAME .
 enlac.ee CNAME .
@@ -10629,8 +10613,6 @@ zat.ink CNAME .
 *.zat.ink CNAME .
 zom.ink CNAME .
 *.zom.ink CNAME .
-congress.international CNAME .
-*.congress.international CNAME .
 0ln.io CNAME .
 *.0ln.io CNAME .
 10xtools.io CNAME .
@@ -10719,8 +10701,6 @@ cb.io CNAME .
 *.cb.io CNAME .
 cdcp.io CNAME .
 *.cdcp.io CNAME .
-cgrp.io CNAME .
-*.cgrp.io CNAME .
 chilink.io CNAME .
 *.chilink.io CNAME .
 chmpn.io CNAME .
@@ -11963,8 +11943,6 @@ znz.kr CNAME .
 *.znz.kr CNAME .
 zrr.kr CNAME .
 *.zrr.kr CNAME .
-click.krd CNAME .
-*.click.krd CNAME .
 cshd.kz CNAME .
 *.cshd.kz CNAME .
 twi.kz CNAME .
@@ -17129,8 +17107,6 @@ clvr.rocks CNAME .
 *.clvr.rocks CNAME .
 ct.rocks CNAME .
 *.ct.rocks CNAME .
-cybr.rocks CNAME .
-*.cybr.rocks CNAME .
 go.pomona.rocks CNAME .
 *.go.pomona.rocks CNAME .
 rvv.rocks CNAME .
