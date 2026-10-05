@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791152160 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791186540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Oct 2026 22:16 UTC
-; Version: 2026.1004.2216.10
+; Last modified: 05 Oct 2026 07:49 UTC
+; Version: 2026.1005.0749.17
 ; Syntax: RPZ
-; Number of entries: 19820
+; Number of entries: 19818
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4211,8 +4211,6 @@ erannis.com CNAME .
 *.erannis.com CNAME .
 erikarydberghall.com CNAME .
 *.erikarydberghall.com CNAME .
-eru2earn.com CNAME .
-*.eru2earn.com CNAME .
 esfirum.com CNAME .
 *.esfirum.com CNAME .
 esilkroads.com CNAME .
@@ -8857,6 +8855,8 @@ crwd.fr CNAME .
 *.crwd.fr CNAME .
 cybr.fr CNAME .
 *.cybr.fr CNAME .
+edurl.fr CNAME .
+*.edurl.fr CNAME .
 url.enepe.fr CNAME .
 *.url.enepe.fr CNAME .
 etkt.fr CNAME .
@@ -19401,8 +19401,6 @@ short.com.vn CNAME .
 *.short.com.vn CNAME .
 cop.vn CNAME .
 *.cop.vn CNAME .
-link.dvlog.vn CNAME .
-*.link.dvlog.vn CNAME .
 fee.vn CNAME .
 *.fee.vn CNAME .
 url.1.hubs.vn CNAME .
