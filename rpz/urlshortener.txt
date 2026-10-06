@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791273360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791325260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 07:56 UTC
-; Version: 2026.1006.0756.54
+; Last modified: 06 Oct 2026 22:21 UTC
+; Version: 2026.1006.2221.03
 ; Syntax: RPZ
-; Number of entries: 19808
+; Number of entries: 19802
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4617,8 +4617,6 @@ hitlap.com CNAME .
 *.hitlap.com CNAME .
 dl.hitxgh.com CNAME .
 *.dl.hitxgh.com CNAME .
-hjsrs.com CNAME .
-*.hjsrs.com CNAME .
 ly.hkfture.com CNAME .
 *.ly.hkfture.com CNAME .
 hncinnamon.com CNAME .
@@ -4629,8 +4627,6 @@ hoki22crot.com CNAME .
 *.hoki22crot.com CNAME .
 honda800storage.com CNAME .
 *.honda800storage.com CNAME .
-honeyurl.com CNAME .
-*.honeyurl.com CNAME .
 hooturl.com CNAME .
 *.hooturl.com CNAME .
 hopklik.com CNAME .
@@ -4657,8 +4653,6 @@ htrhcl.com CNAME .
 *.htrhcl.com CNAME .
 httpslink.com CNAME .
 *.httpslink.com CNAME .
-hubenar.com CNAME .
-*.hubenar.com CNAME .
 hugeurl.com CNAME .
 *.hugeurl.com CNAME .
 urls.hungrito.com CNAME .

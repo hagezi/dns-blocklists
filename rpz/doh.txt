@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791278400 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791330600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 09:20 UTC
-; Version: 2026.1006.0920.58
+; Last modified: 06 Oct 2026 23:50 UTC
+; Version: 2026.1006.2350.38
 ; Syntax: RPZ
-; Number of entries: 6604
+; Number of entries: 6596
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1113,8 +1113,6 @@ office.heimtec.com CNAME .
 *.office.heimtec.com CNAME .
 dns.hellozhao.com CNAME .
 *.dns.hellozhao.com CNAME .
-dns.msk.hexagon1736.com CNAME .
-*.dns.msk.hexagon1736.com CNAME .
 hexxitcompany.com CNAME .
 *.hexxitcompany.com CNAME .
 httpdns.ocloud.heytapmobi.com CNAME .
@@ -3369,8 +3367,6 @@ dns.griffioen.me CNAME .
 *.dns.griffioen.me CNAME .
 gztech.me CNAME .
 *.gztech.me CNAME .
-hdnsadguardhome.me CNAME .
-*.hdnsadguardhome.me CNAME .
 hitian.me CNAME .
 *.hitian.me CNAME .
 ns.hjk.me CNAME .
@@ -4461,8 +4457,6 @@ excelkin.online CNAME .
 *.excelkin.online CNAME .
 herkes.online CNAME .
 *.herkes.online CNAME .
-dns.hopkinton.online CNAME .
-*.dns.hopkinton.online CNAME .
 inpssh.online CNAME .
 *.inpssh.online CNAME .
 externalmobiel.lekdijk.online CNAME .
@@ -5797,8 +5791,6 @@ node9.servernode.store CNAME .
 *.node9.servernode.store CNAME .
 dmit.wangjiaqi.store CNAME .
 *.dmit.wangjiaqi.store CNAME .
-adguard.homenetmedia.stream CNAME .
-*.adguard.homenetmedia.stream CNAME .
 villalazza.stream CNAME .
 *.villalazza.stream CNAME .
 dns.fizz.studio CNAME .

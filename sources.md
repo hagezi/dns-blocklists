@@ -64,7 +64,6 @@ https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easypriva
 https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
-https://raw.githubusercontent.com/smed79/blacklist/refs/heads/master/abp.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets//master/filters/ubol-filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
@@ -125,7 +124,6 @@ https://raw.githubusercontent.com/DeepSpaceHarbor/Macedonian-adBlock-Filters/ref
 https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/1st_domains.txt
 https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/3rd_domains.txt
 https://raw.githubusercontent.com/Hakame-kun/uBlock-Filters-Indonesia/master/uBlock%20Indo/ubindo.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerAds-Hosts.txt
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerTrackers-Hosts.txt
@@ -204,11 +202,7 @@ The main input for the Threat Intelligence Feeds (TIF) lists.
 ```
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/02_mal.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
-https://dl.red.flag.domains/red.flag.domains.txt
 https://hole.cert.pl/domains/v2/domains.txt
-https://malware-filter.gitlab.io/malware-filter/botnet-filter.txt
-https://phishing-filter.pages.dev/phishing-filter-hosts.txt
-https://phishing.army/download/phishing_army_blocklist_extended.txt
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv
 https://raw.githubusercontent.com/DNSBunker/CTI/refs/heads/main/domains.txt
@@ -224,19 +218,10 @@ https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/hos
 https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains
 https://raw.githubusercontent.com/chainapsis/phishing-block-list/refs/heads/main/block-list.txt
-https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
-https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/Alternative%20list%20formats/antimalware_domains_nopups.txt
-https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt
 https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 https://siberguvenlik.gov.tr/zararli-baglantilar
-https://threatfox.abuse.ch/downloads/hostfile
-https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt
-https://urlhaus-filter.pages.dev/urlhaus-filter-dnscrypt-blocked-ips.txt
-https://urlhaus-filter.pages.dev/urlhaus-filter-hosts.txt
-https://urlhaus.abuse.ch/downloads/hostfile
-https://vn-badsite-filter.pages.dev/vn-badsite-filter-hosts.txt
 https://www.kushari.org/downloads/mal.txt
 ```
 
@@ -247,17 +232,10 @@ Feeds the Fake list and the scam-related parts of TIF.
 ```
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/03_scam.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/04_fake.txt
-https://hinweishelden.com/
-https://investigations.nebty-id.com/doppelcart/api
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt
 https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt
-https://www.auktionshilfe.info/board-feed/22/
-https://www.spamhaus.org/drop/drop.txt
-https://www.stopforumspam.com/downloads/toxic_domains_whole_filtered_50000.txt
-https://www.vzhh.de/themen/einkauf-reise-freizeit/einkauf-online-shopping/fake-shop-liste-wenn-guenstig-richtig-teuer-wird
-https://www.watchlist-internet.at/liste-betruegerischer-shops/csv
 ```
 
 ### Cryptomining and cryptojacking
@@ -312,7 +290,6 @@ Feeds the Gambling list and its medium and mini versions.
 
 ```
 https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_thirdparty.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Gambling
 https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/gambling.txt
 https://raw.githubusercontent.com/arfshl/anti-gambling-domains/refs/heads/main/domains.txt

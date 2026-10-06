@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791275340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791327300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 08:29 UTC
-; Version: 2026.1006.0829.26
+; Last modified: 06 Oct 2026 22:55 UTC
+; Version: 2026.1006.2255.47
 ; Syntax: RPZ
-; Number of entries: 2472
+; Number of entries: 2454
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -418,8 +418,6 @@ cixx6.com CNAME .
 *.cixx6.com CNAME .
 clipser.com CNAME .
 *.clipser.com CNAME .
-cloudwaysapps.com CNAME .
-*.cloudwaysapps.com CNAME .
 comeze.com CNAME .
 *.comeze.com CNAME .
 comli.com CNAME .
@@ -448,8 +446,6 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
-sitebeat.crazydomains.com CNAME .
-*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 ctempurl.com CNAME .
@@ -684,8 +680,6 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
-jimdofree.com CNAME .
-*.jimdofree.com CNAME .
 just-allen.com CNAME .
 *.just-allen.com CNAME .
 justicewasgreen.com CNAME .
@@ -716,8 +710,6 @@ loxblog.com CNAME .
 *.loxblog.com CNAME .
 luzzati.com CNAME .
 *.luzzati.com CNAME .
-m-pages.com CNAME .
-*.m-pages.com CNAME .
 maddsites.com CNAME .
 *.maddsites.com CNAME .
 maminforum.com CNAME .
@@ -748,16 +740,12 @@ myartsonline.com CNAME .
 *.myartsonline.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
-myclickfunnels.com CNAME .
-*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
 *.myftpupload.com CNAME .
 myfunnelish.com CNAME .
 *.myfunnelish.com CNAME .
-myportfolio.com CNAME .
-*.myportfolio.com CNAME .
 mypressonline.com CNAME .
 *.mypressonline.com CNAME .
 mystrikingly.com CNAME .
@@ -822,6 +810,8 @@ securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
 *.seite.com CNAME .
+sendspace.com CNAME .
+*.sendspace.com CNAME .
 servetown.com CNAME .
 *.servetown.com CNAME .
 sharkserve.com CNAME .
@@ -896,8 +886,6 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
-w3spaces.com CNAME .
-*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -932,8 +920,6 @@ worldsoffinance.com CNAME .
 *.worldsoffinance.com CNAME .
 wtcsites.com CNAME .
 *.wtcsites.com CNAME .
-wuaze.com CNAME .
-*.wuaze.com CNAME .
 wy5532.com CNAME .
 *.wy5532.com CNAME .
 xaper.com CNAME .
@@ -1666,8 +1652,6 @@ blogspot.it CNAME .
 *.8.je CNAME .
 9.je CNAME .
 *.9.je CNAME .
-xo.je CNAME .
-*.xo.je CNAME .
 blogspot.jp CNAME .
 *.blogspot.jp CNAME .
 blogspot.co.ke CNAME .
@@ -2068,8 +2052,6 @@ aeza.network CNAME .
 *.aeza.network CNAME .
 fr.nf CNAME .
 *.fr.nf CNAME .
-free.nf CNAME .
-*.free.nf CNAME .
 us.nf CNAME .
 *.us.nf CNAME .
 blogspot.com.ng CNAME .
@@ -2290,6 +2272,8 @@ in.run CNAME .
 *.in.run CNAME .
 pancake.run CNAME .
 *.pancake.run CNAME .
+plasmic.run CNAME .
+*.plasmic.run CNAME .
 vn.run CNAME .
 *.vn.run CNAME .
 blogspot.se CNAME .
@@ -2482,8 +2466,6 @@ adlinkfly.mightyscripts.xyz CNAME .
 *.adlinkfly.mightyscripts.xyz CNAME .
 mightyurl.mightyscripts.xyz CNAME .
 *.mightyurl.mightyscripts.xyz CNAME .
-tggame.xyz CNAME .
-*.tggame.xyz CNAME .
 blogspot.co.za CNAME .
 *.blogspot.co.za CNAME .
 thamboli.co.za CNAME .
