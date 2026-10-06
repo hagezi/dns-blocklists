@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791154080 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791275340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Oct 2026 22:48 UTC
-; Version: 2026.1004.2248.16
+; Last modified: 06 Oct 2026 08:29 UTC
+; Version: 2026.1006.0829.26
 ; Syntax: RPZ
-; Number of entries: 2478
+; Number of entries: 2472
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -822,8 +822,6 @@ securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
 *.seite.com CNAME .
-sendspace.com CNAME .
-*.sendspace.com CNAME .
 servetown.com CNAME .
 *.servetown.com CNAME .
 sharkserve.com CNAME .
@@ -912,8 +910,6 @@ webcindario.com CNAME .
 *.webcindario.com CNAME .
 webege.com CNAME .
 *.webege.com CNAME .
-webgarden.com CNAME .
-*.webgarden.com CNAME .
 webnode.com CNAME .
 *.webnode.com CNAME .
 webobo.com CNAME .
@@ -1616,8 +1612,6 @@ profis.info CNAME .
 *.profis.info CNAME .
 seite.info CNAME .
 *.seite.info CNAME .
-42web.io CNAME .
-*.42web.io CNAME .
 boxmode.io CNAME .
 *.boxmode.io CNAME .
 craftum.io CNAME .
@@ -2296,8 +2290,6 @@ in.run CNAME .
 *.in.run CNAME .
 pancake.run CNAME .
 *.pancake.run CNAME .
-plasmic.run CNAME .
-*.plasmic.run CNAME .
 vn.run CNAME .
 *.vn.run CNAME .
 blogspot.se CNAME .
@@ -2430,6 +2422,8 @@ all.co.uk CNAME .
 *.all.co.uk CNAME .
 blogspot.co.uk CNAME .
 *.blogspot.co.uk CNAME .
+infy.uk CNAME .
+*.infy.uk CNAME .
 quiztionnaire.uk CNAME .
 *.quiztionnaire.uk CNAME .
 000free.us CNAME .

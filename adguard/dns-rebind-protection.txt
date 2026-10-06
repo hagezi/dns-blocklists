@@ -3,38 +3,147 @@
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Syntax: AdGuard (Regex)
-! 
+! Syntax: AdGuard
+!
+! ----------------------------------------------------------------------
 ! IPv4
-! Private
+! ----------------------------------------------------------------------
+! Private (RFC 1918)
 /^10\.(?:\d{1,3})\.(?:\d{1,3})\.(?:\d{1,3})$/
 /^172\.(?:1[6-9]|2\d|3[0-1])\.(?:\d{1,3})\.(?:\d{1,3})$/
 /^192\.168\.(?:\d{1,3})\.(?:\d{1,3})$/
-! Link-Local
+! Link-local (169.254.0.0/16, RFC 3927)
 /^169\.254\.(?:\d{1,3})\.(?:\d{1,3})$/
-! Loopback
+! Loopback (127.0.0.0/8, RFC 1122)
 /^127\.(?:\d{1,3})\.(?:\d{1,3})\.(?:\d{1,3})$/
-! Unspecified / block response
-/^0\.0\.0\.(?:\d{1,3})$/
+! This network / unspecified / block response (0.0.0.0/8, RFC 1122)
+/^0\.(?:\d{1,3})\.(?:\d{1,3})\.(?:\d{1,3})$/
 ! DNS4EU block response
 /^51\.15\.69\.11$/
-! OpenDNS block response
-/^146\.112\.61\.108$/
+! OpenDNS block responses (146.112.61.104 - 146.112.61.110)
+/^146\.112\.61\.1(?:0[4-9]|10)$/
+!
+! ----------------------------------------------------------------------
 ! IPv6
-! Unique Local Address (ULA)
+! ----------------------------------------------------------------------
+! Unique local address (fc00::/7, RFC 4193)
 /^f[cd][0-9a-f]{2}:/
-! Link-Local
-/^fe80:/
-! Loopback
+! Link-local (fe80::/10, RFC 4291)
+/^fe[89ab][0-9a-f]:/
+! Loopback (::1/128)
 /^::1$/
-! Unspecified
+! Unspecified (::/128)
 /^::$/
-! Host
-/^([a-z0-9\-]+\.)?(localhost|localdomain|ip6-localhost)$/
+!
+! ----------------------------------------------------------------------
+! Hosts
+! ----------------------------------------------------------------------
+||localhost^
+||ip6-localhost^
+||ip6-loopback^
+!
+! ----------------------------------------------------------------------
 ! Allow
-! Fritz!Box
+! ----------------------------------------------------------------------
+! Local zones (non-delegated, cannot be controlled by an attacker)
+! RFC 8375
+@@||home.arpa^
+! ICANN reserved private-use TLD
+@@||internal^
+! RFC 6762 Appendix G and common defaults
+@@||lan^
+@@||local^
+@@||localdomain^
+@@||home^
+@@||corp^
+@@||intranet^
+@@||private^
+!
+! Network infrastructure
+! NAT64 prefix discovery (RFC 7050)
+@@||ipv4only.arpa^
+! Mobile network infrastructure (VoWiFi ePDG, entitlement), GSMA-managed
+@@||3gppnetwork.org^
+!
+! Router / device setup names
+! AVM / FRITZ! (fritz.box is owned by AVM since 2024)
 @@||fritz.box^
 @@||fritz.nas^
-@@||fritz.local^
+@@||fritz.repeater^
+@@||fritz.powerline^
+@@||fritz.smartgateway^
+! Telekom Speedport
+@@||speedport.ip^
+! Starlink
+@@||dishy.starlink.com^
+! Netgear
+@@||routerlogin.net^
+@@||routerlogin.com^
+! TP-Link
+@@||tplinkwifi.net^
+@@||tplinklogin.net^
+@@||tplinkrepeater.net^
+@@||tplinkap.net^
+! ASUS
+@@||router.asus.com^
+@@||asusrouter.com^
+!
+! Services resolving to LAN IPs by design
 ! Microsoft Windows network status
 @@||dns.msftncsi.com^
+! Plex
+@@||plex.direct^
+! Unraid
+@@||myunraid.net^
+! Synology QuickConnect
+@@||direct.quickconnect.to^
+!
+! DNS-based blocklists / allowlists (return 127.0.0.0/8 by design)
+! Spamhaus (ZEN, SBL, XBL, PBL, DBL, ZRD, DWL)
+@@||spamhaus.org^
+! Spamhaus Data Query Service
+@@||dq.spamhaus.net^
+! SpamCop
+@@||bl.spamcop.net^
+! Barracuda
+@@||b.barracudacentral.org^
+! URIBL
+@@||uribl.com^
+! SURBL
+@@||surbl.org^
+! DNSWL
+@@||dnswl.org^
+! Mailspike
+@@||mailspike.net^
+! UCEPROTECT
+@@||uceprotect.net^
+! Abusix Mail Intelligence
+@@||mail.abusix.zone^
+! Passive Spam Block List
+@@||psbl.surriel.com^
+! Spam Eating Monkey
+@@||spameatingmonkey.net^
+! SpamRATS
+@@||spamrats.com^
+! Backscatterer
+@@||backscatterer.org^
+! NordSpam
+@@||nordspam.com^
+! JunkEmailFilter Hostkarma
+@@||hostkarma.junkemailfilter.com^
+! blocklist.de
+@@||bl.blocklist.de^
+! DroneBL
+@@||dnsbl.dronebl.org^
+! dan.me.uk Tor lists
+@@||tor.dan.me.uk^
+@@||torexit.dan.me.uk^
+!
+! Hash / reputation lookups (return 127.0.0.0/8 by design)
+! Team Cymru Malware Hash Registry
+@@||hash.cymru.com^
+! Sophos Live Protection
+@@||sophosxl.net^
+! McAfee / Trellix GTI
+@@||avqs.mcafee.com^
+@@||avts.mcafee.com^

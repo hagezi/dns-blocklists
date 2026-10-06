@@ -80,12 +80,12 @@ For a full inclusion matrix that also covers the standalone lists, see the [Chea
 
 | List | Blocking type | Risk of breakage | Entries | Size-optimized<br>version |
 |:--------|:--------------|:-----------------|--------:|-----------------------:|
-| :green_book:[Light](#light)        | Relaxed             | Minimal          | 64048    | - |
-| :blue_book:[Normal](#normal)       | Relaxed/Balanced    | Low              | 173200    | Light: 64048 |
-| :ledger:[Pro](#pro)                | Balanced            | Low to moderate  | 206248      | Mini: 73906 |
-| :orange_book:[Pro++](#proplus)     | Balanced/Aggressive | Moderate         | 221621  | Mini: 84693 |
-| :closed_book:[Ultimate](#ultimate) | Aggressive          | High             | 243184 | Mini: 103850 |
-| :closed_lock_with_key:[TIF](#tif)  | Threats only        | Low              | 2553275      | Medium: 693959<br>Mini: 203211 |
+| :green_book:[Light](#light)        | Relaxed             | Minimal          | 55540    | - |
+| :blue_book:[Normal](#normal)       | Relaxed/Balanced    | Low              | 159845    | Light: 55540 |
+| :ledger:[Pro](#pro)                | Balanced            | Low to moderate  | 197741      | Mini: 70238 |
+| :orange_book:[Pro++](#proplus)     | Balanced/Aggressive | Moderate         | 210794  | Mini: 81506 |
+| :closed_book:[Ultimate](#ultimate) | Aggressive          | High             | 233635 | Mini: 101823 |
+| :closed_lock_with_key:[TIF](#tif)  | Threats only        | Low              | 2103097      | Medium: 617897<br>Mini: 199510 |
 
 The first five build on each other, so pick exactly one of them. TIF works differently: it's an add-on covering malware, phishing, and other live threats, and it's worth running alongside any tier. The size-optimized versions are alternatives to their full list, never something you add on top. Entry counts change with every build.
 
@@ -126,7 +126,7 @@ Hand brush edition. Cleans up the internet and protects your privacy without goi
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 64048 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/light.txt) |
+| 55540 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/light.txt) |
 
 ---
 
@@ -142,7 +142,7 @@ Broom edition. Cleans up the internet and protects your privacy. Blocks ads, tra
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 173200 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/multi.txt) |
+| 159845 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/multi.txt) |
 
 ---
 
@@ -159,7 +159,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 206248 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.txt) |
+| 197741 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.txt) |
 
 #### :ledger: **Multi PRO mini (best for browser/mobile ad blockers)** <a name="promini"></a>
 
@@ -167,7 +167,7 @@ A size-optimized version made for DNS or browser blockers, like devices with lim
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 73906 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.mini.txt) |
+| 70238 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.mini.txt) |
 
 ---
 
@@ -184,7 +184,7 @@ Sweeper edition. This one cleans up the internet aggressively and protects your 
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 221621 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.txt) |
+| 210794 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.txt) |
 
 #### :orange_book: **Multi PRO++ mini** <a name="proplusmini"></a>
 
@@ -192,7 +192,7 @@ Built the same way as [Pro mini](#promini), but from the full Pro++ list: only i
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 84693 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.mini.txt) |
+| 81506 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.mini.txt) |
 
 ---
 
@@ -221,7 +221,7 @@ Ultimate sweeper edition. Strictly cleans up the internet and locks down your pr
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 243184 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.txt) |
+| 233635 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.txt) |
 
 #### :closed_book: **Multi ULTIMATE mini** <a name="ultimatemini"></a>
 
@@ -229,7 +229,7 @@ Built the same way as [Pro mini](#promini), but from the full Ultimate list: onl
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 103850 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.mini.txt) |
+| 101823 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.mini.txt) |
 
 ---
 
@@ -239,7 +239,7 @@ This blocklist targets fake stores, fake streaming sites, rip-offs, subscription
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 17112 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/fake.txt) |
+| 17143 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/fake.txt) |
 
 ---
 
@@ -249,7 +249,7 @@ Targets pop-up ads that range from annoying to outright malicious.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 47982 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/popupads.txt) |
+| 47805 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/popupads.txt) |
 
 ---
 
@@ -264,7 +264,7 @@ This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blo
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ<br>(split) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 2553275 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt) | :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) |
+| 2103097 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt) | :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, medium version (best for browser/mobile ad blockers)** <a name="tifmedium"></a>
 
@@ -275,7 +275,7 @@ A medium-sized version of the TIF list, built for ad blockers that struggle with
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 693959 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt) |
+| 617897 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, mini version** <a name="tifmini"></a>
 
@@ -283,7 +283,7 @@ A size-optimized version of the TIF Medium list, for ad blockers that even strug
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 203211 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt) |
+| 199510 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, IPs** <a name="tifips"></a>
 
@@ -314,17 +314,17 @@ There are two variants:
 > Stamus Labs doesn't promise daily updates, so the data can sometimes lag by a few days.
 >
 > Current status of the data:
-> - Stamus Labs: :green_circle: - Mon, 05 Oct 2026 04:33:42 UTC / 11591126 domains
+> - Stamus Labs: :green_circle: - Tue, 06 Oct 2026 04:31:59 UTC / 11444176 domains
 
 #### :new: **NRDs:** all newly registered domains, unfiltered
 
 | Time<br>period | Entries | Format<br>Adblock | Format<br>Domains |
 |:--------------:|--------:|:-----------------:|:-----------------:|
-| 7 days ago to yesterday    | 3100865 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd7.txt) |
-| 14 days ago to 8 days ago  | 2655465 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd14-8.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd14-8.txt) |
-| 21 days ago to 15 days ago | 3147296 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd21-15.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd21-15.txt) |
-| 28 days ago to 22 days ago | 2654139 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd28-22.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd28-22.txt) |
-| 35 days ago to 29 days ago | 2852728 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd35-29.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd35-29.txt) |
+| 7 days ago to yesterday    | 3220857 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd7.txt) |
+| 14 days ago to 8 days ago  | 2527870 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd14-8.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd14-8.txt) |
+| 21 days ago to 15 days ago | 3271940 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd21-15.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd21-15.txt) |
+| 28 days ago to 22 days ago | 2594739 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd28-22.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd28-22.txt) |
+| 35 days ago to 29 days ago | 2903574 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd35-29.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd35-29.txt) |
 
 > [!NOTE]
 > The five files are non-overlapping bands, so stack them for wider coverage: `nrd7` plus `nrd14-8` covers the last 14 days, add `nrd21-15` for 21 days, and so on.
@@ -340,9 +340,9 @@ There are two variants:
 
 | Time<br>period | Entries | Format<br>Adblock | Format<br>Domains |
 |:--------------:|--------:|:-----------------:|:-----------------:|
-| Past 7 days    | 624491 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga7.txt) |
-| Past 14 days   | 1262144 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga14.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga14.txt) |
-| Past 30 days   | 2591640 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga30.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga30.txt) |
+| Past 7 days    | 625762 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga7.txt) |
+| Past 14 days   | 1228381 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga14.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga14.txt) |
+| Past 30 days   | 2555246 | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga30.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/dga30.txt) |
 
 ---
 
@@ -370,7 +370,7 @@ Blocks known hosting providers that repeatedly host badware through user-uploade
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ | ControlD |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1239 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt) | [Link](https://github.com/hagezi/dns-blocklists/blob/main/controld/badware-hoster-folder.json) |
+| 1236 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt) | [Link](https://github.com/hagezi/dns-blocklists/blob/main/controld/badware-hoster-folder.json) |
 
 ---
 
@@ -430,13 +430,13 @@ Blocks common ways to bypass your DNS setup.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 16082 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt) |
+| 16012 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt) |
 
 #### :outbox_tray: **Encrypted DNS servers only** <a name="bypass_dns"></a>
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 3303 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh.txt) |
+| 3302 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh.txt) |
 
 #### :outbox_tray: **Encrypted DNS server IPs** <a name="bypass_ips"></a>
 
@@ -469,7 +469,7 @@ Blocks every known URL/link shortener out there.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 9909 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/urlshortener.txt) |
+| 9904 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/urlshortener.txt) |
 
 ---
 
@@ -479,7 +479,7 @@ Blocks sites and services mainly used for illegally distributing copyrighted con
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 53938 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt) |
+| 53991 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt) |
 
 ---
 
@@ -489,7 +489,7 @@ Blocks gambling-related sites.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 582593 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt) |
+| 582306 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt) |
 
 #### :slot_machine: **Gambling, medium version** <a name="gamblingmedium"></a>
 
@@ -497,7 +497,7 @@ A medium-sized version for ad blockers that have trouble with the full gambling 
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 225897 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.medium.txt) |
+| 224112 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.medium.txt) |
 
 #### :slot_machine: **Gambling, mini version** <a name="gamblingmini"></a>
 
@@ -505,7 +505,7 @@ A size-optimized version of the Gambling Medium list. Only contains domains that
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 224226 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.mini.txt) |
+| 174398 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.mini.txt) |
 
 ---
 
@@ -528,7 +528,7 @@ Blocks adult content.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 84123 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt) |
+| 84395 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt) |
 
 ---
 

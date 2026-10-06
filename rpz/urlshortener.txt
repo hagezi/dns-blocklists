@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791186540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791273360 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Oct 2026 07:49 UTC
-; Version: 2026.1005.0749.17
+; Last modified: 06 Oct 2026 07:56 UTC
+; Version: 2026.1006.0756.54
 ; Syntax: RPZ
-; Number of entries: 19818
+; Number of entries: 19808
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1345,8 +1345,6 @@ ejo.bz CNAME .
 *.ejo.bz CNAME .
 ggd.bz CNAME .
 *.ggd.bz CNAME .
-gmh.bz CNAME .
-*.gmh.bz CNAME .
 gst.bz CNAME .
 *.gst.bz CNAME .
 ice.bz CNAME .
@@ -1893,8 +1891,6 @@ girlte.ch CNAME .
 *.girlte.ch CNAME .
 gmqr.ch CNAME .
 *.gmqr.ch CNAME .
-gowat.ch CNAME .
-*.gowat.ch CNAME .
 helvetqr.ch CNAME .
 *.helvetqr.ch CNAME .
 go.iec.ch CNAME .
@@ -4333,8 +4329,6 @@ fneezet.com CNAME .
 *.fneezet.com CNAME .
 fnleasing.com CNAME .
 *.fnleasing.com CNAME .
-fnoogy.com CNAME .
-*.fnoogy.com CNAME .
 fondby.com CNAME .
 *.fondby.com CNAME .
 foodtv.com CNAME .
@@ -13593,8 +13587,6 @@ woodmans.market CNAME .
 *.woodmans.market CNAME .
 cga.marketing CNAME .
 *.cga.marketing CNAME .
-flug.marketing CNAME .
-*.flug.marketing CNAME .
 supercool.marketing CNAME .
 *.supercool.marketing CNAME .
 sv.mba CNAME .
@@ -19685,8 +19677,6 @@ flexitube.xyz CNAME .
 *.flexitube.xyz CNAME .
 gacor99-vip.xyz CNAME .
 *.gacor99-vip.xyz CNAME .
-gacorwak.xyz CNAME .
-*.gacorwak.xyz CNAME .
 ggapps.xyz CNAME .
 *.ggapps.xyz CNAME .
 hellokity.xyz CNAME .
