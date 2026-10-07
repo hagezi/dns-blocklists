@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791327300 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791363120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 22:55 UTC
-; Version: 2026.1006.2255.47
+; Last modified: 07 Oct 2026 08:52 UTC
+; Version: 2026.1007.0852.10
 ; Syntax: RPZ
-; Number of entries: 2454
+; Number of entries: 2456
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -378,6 +378,8 @@ blogcheese.com CNAME .
 *.blogcheese.com CNAME .
 blogspot.com CNAME .
 *.blogspot.com CNAME .
+bugs3.com CNAME .
+*.bugs3.com CNAME .
 bulkurlshortener.com CNAME .
 *.bulkurlshortener.com CNAME .
 business-minagne.com CNAME .
@@ -654,8 +656,6 @@ hyperphp.com CNAME .
 *.hyperphp.com CNAME .
 iceiy.com CNAME .
 *.iceiy.com CNAME .
-imageurlhost.com CNAME .
-*.imageurlhost.com CNAME .
 infinityfreeapp.com CNAME .
 *.infinityfreeapp.com CNAME .
 instantfreesite.com CNAME .
@@ -1878,6 +1878,8 @@ sitey.me CNAME .
 *.sitey.me CNAME .
 social-networking.me CNAME .
 *.social-networking.me CNAME .
+testingnow.me CNAME .
+*.testingnow.me CNAME .
 ukit.me CNAME .
 *.ukit.me CNAME .
 unesa.me CNAME .

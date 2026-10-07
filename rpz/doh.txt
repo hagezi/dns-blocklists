@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791330600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791367320 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 23:50 UTC
-; Version: 2026.1006.2350.38
+; Last modified: 07 Oct 2026 10:02 UTC
+; Version: 2026.1007.1002.17
 ; Syntax: RPZ
-; Number of entries: 6596
+; Number of entries: 6590
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1883,8 +1883,6 @@ polisitogel.contractors CNAME .
 *.polisitogel.contractors CNAME .
 noad.kipp.cool CNAME .
 *.noad.kipp.cool CNAME .
-vps.avc.cx CNAME .
-*.vps.avc.cx CNAME .
 atris.cyou CNAME .
 *.atris.cyou CNAME .
 adguard.dantynes.cyou CNAME .
@@ -3913,8 +3911,6 @@ adblock.indianets.net CNAME .
 *.adblock.indianets.net CNAME .
 doh.infracell.net CNAME .
 *.doh.infracell.net CNAME .
-premiumtier-network.instadart.net CNAME .
-*.premiumtier-network.instadart.net CNAME .
 dns.irk38.net CNAME .
 *.dns.irk38.net CNAME .
 dns.it-pa.net CNAME .
@@ -3959,6 +3955,8 @@ africadns1.liquidtelecom.net CNAME .
 *.africadns1.liquidtelecom.net CNAME .
 africadns2.liquidtelecom.net CNAME .
 *.africadns2.liquidtelecom.net CNAME .
+pidoh.mapledns.net CNAME .
+*.pidoh.mapledns.net CNAME .
 dns.marbledfennec.net CNAME .
 *.dns.marbledfennec.net CNAME .
 dns.mfud.net CNAME .
@@ -4779,8 +4777,6 @@ hkg.hytec.org CNAME .
 *.hkg.hytec.org CNAME .
 ur.hytec.org CNAME .
 *.ur.hytec.org CNAME .
-adguard.johnnypatras.org CNAME .
-*.adguard.johnnypatras.org CNAME .
 josephfamily.org CNAME .
 *.josephfamily.org CNAME .
 joshberg.org CNAME .
@@ -5851,8 +5847,6 @@ doh.us.moe.tips CNAME .
 *.doh.us.moe.tips CNAME .
 duyyen.tk CNAME .
 *.duyyen.tk CNAME .
-dns.kapoww.tk CNAME .
-*.dns.kapoww.tk CNAME .
 guard.magic-pics.tk CNAME .
 *.guard.magic-pics.tk CNAME .
 adguard.neelyha.tk CNAME .

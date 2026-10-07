@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791325260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791360780 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Oct 2026 22:21 UTC
-; Version: 2026.1006.2221.03
+; Last modified: 07 Oct 2026 08:13 UTC
+; Version: 2026.1007.0813.42
 ; Syntax: RPZ
-; Number of entries: 19802
+; Number of entries: 19796
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4719,8 +4719,6 @@ kutt.inarix.com CNAME .
 *.kutt.inarix.com CNAME .
 incises.com CNAME .
 *.incises.com CNAME .
-inddrive.com CNAME .
-*.inddrive.com CNAME .
 indexure.com CNAME .
 *.indexure.com CNAME .
 indvix.com CNAME .
@@ -4791,8 +4789,6 @@ isuif.com CNAME .
 *.isuif.com CNAME .
 isurt.com CNAME .
 *.isurt.com CNAME .
-iszify.com CNAME .
-*.iszify.com CNAME .
 linkbio.it.com CNAME .
 *.linkbio.it.com CNAME .
 kutt.itarian.com CNAME .
@@ -11871,8 +11867,6 @@ hig.kr CNAME .
 *.hig.kr CNAME .
 hoy.kr CNAME .
 *.hoy.kr CNAME .
-jangup.kr CNAME .
-*.jangup.kr CNAME .
 kro.kr CNAME .
 *.kro.kr CNAME .
 letz.kr CNAME .
