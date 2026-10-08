@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791367320 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791451740 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Oct 2026 10:02 UTC
-; Version: 2026.1007.1002.17
+; Last modified: 08 Oct 2026 09:29 UTC
+; Version: 2026.1008.0929.29
 ; Syntax: RPZ
-; Number of entries: 6590
+; Number of entries: 6578
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3151,8 +3151,6 @@ flat.loisy.it CNAME .
 *.flat.loisy.it CNAME .
 nas-fusion.loisy.it CNAME .
 *.nas-fusion.loisy.it CNAME .
-dns.mcexp.it CNAME .
-*.dns.mcexp.it CNAME .
 dns.neeb.it CNAME .
 *.dns.neeb.it CNAME .
 doh.luigi.nexific.it CNAME .
@@ -5563,8 +5561,6 @@ kondrcloud.ru CNAME .
 *.kondrcloud.ru CNAME .
 kopcm.ru CNAME .
 *.kopcm.ru CNAME .
-landerbrauver.ru CNAME .
-*.landerbrauver.ru CNAME .
 malanser.ru CNAME .
 *.malanser.ru CNAME .
 dns.msxnet.ru CNAME .
@@ -5799,8 +5795,6 @@ egorovna.su CNAME .
 *.egorovna.su CNAME .
 home34.su CNAME .
 *.home34.su CNAME .
-sers.lirlab.su CNAME .
-*.sers.lirlab.su CNAME .
 reniac.su CNAME .
 *.reniac.su CNAME .
 nl.dns.shx.su CNAME .
@@ -5847,8 +5841,6 @@ doh.us.moe.tips CNAME .
 *.doh.us.moe.tips CNAME .
 duyyen.tk CNAME .
 *.duyyen.tk CNAME .
-guard.magic-pics.tk CNAME .
-*.guard.magic-pics.tk CNAME .
 adguard.neelyha.tk CNAME .
 *.adguard.neelyha.tk CNAME .
 dns.readlook.tk CNAME .
@@ -6185,8 +6177,6 @@ doh.aipps.vip CNAME .
 *.doh.aipps.vip CNAME .
 dns.horcrux.vip CNAME .
 *.dns.horcrux.vip CNAME .
-dt.marss.vip CNAME .
-*.dt.marss.vip CNAME .
 dns.mtoo.vip CNAME .
 *.dns.mtoo.vip CNAME .
 dns.nicolas.vip CNAME .
@@ -6495,8 +6485,6 @@ dns.kerekes.xyz CNAME .
 *.dns.kerekes.xyz CNAME .
 adguard.kitakitsune.xyz CNAME .
 *.adguard.kitakitsune.xyz CNAME .
-ko-18948-tr.xyz CNAME .
-*.ko-18948-tr.xyz CNAME .
 kx-97795-tr.xyz CNAME .
 *.kx-97795-tr.xyz CNAME .
 tr.league1.xyz CNAME .
