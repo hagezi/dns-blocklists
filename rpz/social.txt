@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790373420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791582780 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks - blocks access to social networks!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Sep 2026 21:57 UTC
-; Version: 2026.0925.2157.19
+; Last modified: 09 Oct 2026 21:53 UTC
+; Version: 2026.1009.2153.05
 ; Syntax: RPZ
-; Number of entries: 1798
+; Number of entries: 1808
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -1055,6 +1055,8 @@ toplayerserver.com CNAME .
 *.toplayerserver.com CNAME .
 truthsocial.com CNAME .
 *.truthsocial.com CNAME .
+tiktokcdn-eu.com.ttdns3.com CNAME .
+*.tiktokcdn-eu.com.ttdns3.com CNAME .
 ttlivecdn.com CNAME .
 *.ttlivecdn.com CNAME .
 tumblr.com CNAME .
@@ -1343,6 +1345,12 @@ discordapp.net CNAME .
 *.discordapp.net CNAME .
 dotfacebook.net CNAME .
 *.dotfacebook.net CNAME .
+tiktokv.com.edgesuite.net CNAME .
+*.tiktokv.com.edgesuite.net CNAME .
+tiktokv.eu.edgesuite.net CNAME .
+*.tiktokv.eu.edgesuite.net CNAME .
+tiktokv.us.edgesuite.net CNAME .
+*.tiktokv.us.edgesuite.net CNAME .
 cs1404.wpc.epsiloncdn.net CNAME .
 *.cs1404.wpc.epsiloncdn.net CNAME .
 cs767.wpc.epsiloncdn.net CNAME .
@@ -1737,6 +1745,8 @@ bigbeans.solutions CNAME .
 *.bigbeans.solutions CNAME .
 discord.store CNAME .
 *.discord.store CNAME .
+tiktok.tps.dv.tech CNAME .
+*.tiktok.tps.dv.tech CNAME .
 toot.funami.tech CNAME .
 *.toot.funami.tech CNAME .
 likeimo.tech CNAME .

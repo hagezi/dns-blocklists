@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791536940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791581880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 09:09 UTC
-; Version: 2026.1009.0909.22
+; Last modified: 09 Oct 2026 21:38 UTC
+; Version: 2026.1009.2138.27
 ; Syntax: RPZ
-; Number of entries: 6566
+; Number of entries: 6562
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -6035,8 +6035,6 @@ adguard-server.pp.ua CNAME .
 *.2.alpo.pp.ua CNAME .
 angry.pp.ua CNAME .
 *.angry.pp.ua CNAME .
-gauss.pp.ua CNAME .
-*.gauss.pp.ua CNAME .
 gruppo.pp.ua CNAME .
 *.gruppo.pp.ua CNAME .
 guard.pp.ua CNAME .
@@ -6053,8 +6051,6 @@ reskah.pp.ua CNAME .
 *.reskah.pp.ua CNAME .
 sundalandia.pp.ua CNAME .
 *.sundalandia.pp.ua CNAME .
-syre.pp.ua CNAME .
-*.syre.pp.ua CNAME .
 virga.pp.ua CNAME .
 *.virga.pp.ua CNAME .
 dns.xxxxxxxx.pp.ua CNAME .

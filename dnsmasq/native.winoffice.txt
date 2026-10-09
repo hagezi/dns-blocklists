@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 04 Oct 2026 19:51 UTC
-# Version: 2026.1004.1951.54
+# Last modified: 09 Oct 2026 21:57 UTC
+# Version: 2026.1009.2157.53
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 381
+# Number of entries: 383
 #
 local=/c-bingapis-com.dual-a-0034.a-msedge.net/
 local=/measure.office.com.akamaized.net/
@@ -333,6 +333,7 @@ local=/ism-telemetry.trafficmanager.net/
 local=/legacywatson.trafficmanager.net/
 local=/office-events-data.trafficmanager.net/
 local=/oms-analytics.trafficmanager.net/
+local=/partnerfraudevents.trafficmanager.net/
 local=/pixel-sync.trafficmanager.net/
 local=/self-events-data.trafficmanager.net/
 local=/ssp-prod-eastus-nonmutt.trafficmanager.net/
@@ -377,6 +378,7 @@ local=/kg-legacy-analytics.servicebus.windows.net/
 local=/licensingtelemetry-prod.servicebus.windows.net/
 local=/nexxtv-events.servicebus.windows.net/
 local=/ppm-licensingtelemetry.servicebus.windows.net/
+local=/prd-qlik-telemetry.servicebus.windows.net/
 local=/prod-eh-v1-analytics.servicebus.windows.net/
 local=/prod-eventhub-analytics.servicebus.windows.net/
 local=/production-jobactivity-analytics.servicebus.windows.net/

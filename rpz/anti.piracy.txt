@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791536220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791582120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 08:57 UTC
-; Version: 2026.1009.0857.44
+; Last modified: 09 Oct 2026 21:42 UTC
+; Version: 2026.1009.2142.02
 ; Syntax: RPZ
-; Number of entries: 109558
+; Number of entries: 109548
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -5542,6 +5542,8 @@ hdmovie2.careers CNAME .
 *.200pelisflix.casa CNAME .
 altadefinizionegratis.casa CNAME .
 *.altadefinizionegratis.casa CNAME .
+altadefinizionew.casa CNAME .
+*.altadefinizionew.casa CNAME .
 cb01web.casa CNAME .
 *.cb01web.casa CNAME .
 cinepulse.casa CNAME .
@@ -17222,8 +17224,6 @@ powerstress.com CNAME .
 *.powerstress.com CNAME .
 powerstresser.com CNAME .
 *.powerstresser.com CNAME .
-pqham.com CNAME .
-*.pqham.com CNAME .
 prefiles.com CNAME .
 *.prefiles.com CNAME .
 premilkyway.com CNAME .
@@ -24440,8 +24440,6 @@ noclass.fun CNAME .
 *.noclass.fun CNAME .
 nomat.fun CNAME .
 *.nomat.fun CNAME .
-pelisflix200.fun CNAME .
-*.pelisflix200.fun CNAME .
 piratbit.fun CNAME .
 *.piratbit.fun CNAME .
 piratebayproxy.fun CNAME .
@@ -51334,8 +51332,6 @@ motchilltv.love CNAME .
 *.motchilltv.love CNAME .
 newhdmovie2.love CNAME .
 *.newhdmovie2.love CNAME .
-peace-and.love CNAME .
-*.peace-and.love CNAME .
 skymovieshd.love CNAME .
 *.skymovieshd.love CNAME .
 soap2day.love CNAME .
@@ -59590,16 +59586,12 @@ online123movies.online CNAME .
 *.online123movies.online CNAME .
 parkiizony-otdykha-lordfilm.online CNAME .
 *.parkiizony-otdykha-lordfilm.online CNAME .
-pchelovod-lordfilm.online CNAME .
-*.pchelovod-lordfilm.online CNAME .
 pelisflix200.online CNAME .
 *.pelisflix200.online CNAME .
 pelisflixoficial.online CNAME .
 *.pelisflixoficial.online CNAME .
 pelisplus.online CNAME .
 *.pelisplus.online CNAME .
-pervyy-mstitel-lordfilm.online CNAME .
-*.pervyy-mstitel-lordfilm.online CNAME .
 pirate-bay.online CNAME .
 *.pirate-bay.online CNAME .
 piratebayuganda.online CNAME .
@@ -59610,8 +59602,6 @@ pirlotvhd.online CNAME .
 *.pirlotvhd.online CNAME .
 pkuedu.online CNAME .
 *.pkuedu.online CNAME .
-plohie-parni-lordfilm.online CNAME .
-*.plohie-parni-lordfilm.online CNAME .
 prmovies.online CNAME .
 *.prmovies.online CNAME .
 protonmovies.online CNAME .
@@ -61708,8 +61698,6 @@ piratebay.org CNAME .
 *.piratebay.org CNAME .
 piratebay-proxy.org CNAME .
 *.piratebay-proxy.org CNAME .
-piratebay2.org CNAME .
-*.piratebay2.org CNAME .
 piratebayproxy1.org CNAME .
 *.piratebayproxy1.org CNAME .
 piratebays.org CNAME .
@@ -94564,6 +94552,8 @@ mycima.run CNAME .
 *.mycima.run CNAME .
 myflixer.run CNAME .
 *.myflixer.run CNAME .
+oxtorrent.run CNAME .
+*.oxtorrent.run CNAME .
 pelisflix200.run CNAME .
 *.pelisflix200.run CNAME .
 soap2day.run CNAME .

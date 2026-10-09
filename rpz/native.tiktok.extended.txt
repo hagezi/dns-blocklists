@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791114420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791583260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Oct 2026 11:47 UTC
-; Version: 2026.1004.1147.21
+; Last modified: 09 Oct 2026 22:01 UTC
+; Version: 2026.1009.2201.32
 ; Syntax: RPZ
-; Number of entries: 1238
+; Number of entries: 1226
 ;
 h4g3z1-native-tiktok-extended.web.app CNAME .
 *.h4g3z1-native-tiktok-extended.web.app CNAME .
@@ -994,20 +994,8 @@ mssdk.tiktokw.eu CNAME .
 *.mssdk.tiktokw.eu CNAME .
 mssdk16-normal-useastred.tiktokw.eu CNAME .
 *.mssdk16-normal-useastred.tiktokw.eu CNAME .
-mon16-normal-no1a.tiktokv.eu.numericable.fr CNAME .
-*.mon16-normal-no1a.tiktokv.eu.numericable.fr CNAME .
 ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
-mon-i18n.tiktokv.com.dvaitas.lt CNAME .
-*.mon-i18n.tiktokv.com.dvaitas.lt CNAME .
-mon16-normal-no1a.tiktokv.eu.dvaitas.lt CNAME .
-*.mon16-normal-no1a.tiktokv.eu.dvaitas.lt CNAME .
-mon16-normal-useastred.tiktokv.eu.dvaitas.lt CNAME .
-*.mon16-normal-useastred.tiktokv.eu.dvaitas.lt CNAME .
-mcs-ie2.tiktokw.eu.dvaitas.lt CNAME .
-*.mcs-ie2.tiktokw.eu.dvaitas.lt CNAME .
-mcs16-normal-no1a.tiktokw.eu.dvaitas.lt CNAME .
-*.mcs16-normal-no1a.tiktokw.eu.dvaitas.lt CNAME .
 analytics.us.tiktok.com.bytedance.akadns.net CNAME .
 *.analytics.us.tiktok.com.bytedance.akadns.net CNAME .
 p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net CNAME .

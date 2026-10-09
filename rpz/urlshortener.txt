@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791531960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791554760 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 07:46 UTC
-; Version: 2026.1009.0746.29
+; Last modified: 09 Oct 2026 14:06 UTC
+; Version: 2026.1009.1406.47
 ; Syntax: RPZ
-; Number of entries: 19736
+; Number of entries: 19730
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2035,8 +2035,6 @@ olinks.click CNAME .
 *.olinks.click CNAME .
 only-fans.click CNAME .
 *.only-fans.click CNAME .
-paksa.click CNAME .
-*.paksa.click CNAME .
 pinball.click CNAME .
 *.pinball.click CNAME .
 proof.click CNAME .
@@ -5715,8 +5713,6 @@ ouiasso.com CNAME .
 *.ouiasso.com CNAME .
 oukisj.com CNAME .
 *.oukisj.com CNAME .
-owalska.com CNAME .
-*.owalska.com CNAME .
 p-url.com CNAME .
 *.p-url.com CNAME .
 paburl.com CNAME .
@@ -5757,8 +5753,6 @@ pathslab.com CNAME .
 *.pathslab.com CNAME .
 yxe3d.paulchavady.com CNAME .
 *.yxe3d.paulchavady.com CNAME .
-pavleka.com CNAME .
-*.pavleka.com CNAME .
 payfca.com CNAME .
 *.payfca.com CNAME .
 go.paykassma.com CNAME .
