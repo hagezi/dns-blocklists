@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791446640 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791531960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 08 Oct 2026 08:04 UTC
-; Version: 2026.1008.0804.06
+; Last modified: 09 Oct 2026 07:46 UTC
+; Version: 2026.1009.0746.29
 ; Syntax: RPZ
-; Number of entries: 19762
+; Number of entries: 19736
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -393,8 +393,6 @@ nimbli.app CNAME .
 *.nimbli.app CNAME .
 onebio.app CNAME .
 *.onebio.app CNAME .
-orek.app CNAME .
-*.orek.app CNAME .
 osls.app CNAME .
 *.osls.app CNAME .
 pc24.app CNAME .
@@ -2369,8 +2367,6 @@ cplink.co CNAME .
 *.cplink.co CNAME .
 crdrv.co CNAME .
 *.crdrv.co CNAME .
-cs.co CNAME .
-*.cs.co CNAME .
 cu7.co CNAME .
 *.cu7.co CNAME .
 cutle.co CNAME .
@@ -5517,8 +5513,6 @@ mybiotree.com CNAME .
 *.mybiotree.com CNAME .
 mybiourl.com CNAME .
 *.mybiourl.com CNAME .
-mylinkbio.com CNAME .
-*.mylinkbio.com CNAME .
 mylinkbr.com CNAME .
 *.mylinkbr.com CNAME .
 mylinksentry.com CNAME .
@@ -5567,8 +5561,6 @@ narrowurl.com CNAME .
 *.narrowurl.com CNAME .
 on.natgeo.com CNAME .
 *.on.natgeo.com CNAME .
-nawalaku.com CNAME .
-*.nawalaku.com CNAME .
 on.nba.com CNAME .
 *.on.nba.com CNAME .
 nbc4dc.com CNAME .
@@ -5627,8 +5619,6 @@ nkxe.com CNAME .
 *.nkxe.com CNAME .
 s.noerr.com CNAME .
 *.s.noerr.com CNAME .
-nogfan.com CNAME .
-*.nogfan.com CNAME .
 norvuu.com CNAME .
 *.norvuu.com CNAME .
 noticiasactuales2026.com CNAME .
@@ -5675,8 +5665,6 @@ nynko.com CNAME .
 *.nynko.com CNAME .
 obblink.com CNAME .
 *.obblink.com CNAME .
-ocurto.com CNAME .
-*.ocurto.com CNAME .
 odinurl.com CNAME .
 *.odinurl.com CNAME .
 oinla.com CNAME .
@@ -5685,14 +5673,10 @@ oiolink.com CNAME .
 *.oiolink.com CNAME .
 ok2.com CNAME .
 *.ok2.com CNAME .
-okebio.com CNAME .
-*.okebio.com CNAME .
 okniu.com CNAME .
 *.okniu.com CNAME .
 oknovx.com CNAME .
 *.oknovx.com CNAME .
-olbika.com CNAME .
-*.olbika.com CNAME .
 oldmutualsa.com CNAME .
 *.oldmutualsa.com CNAME .
 oljxgv.com CNAME .
@@ -9993,8 +9977,6 @@ mclink.in CNAME .
 *.mclink.in CNAME .
 me9.in CNAME .
 *.me9.in CNAME .
-microurl.in CNAME .
-*.microurl.in CNAME .
 migly.in CNAME .
 *.migly.in CNAME .
 mini-url.in CNAME .
@@ -10019,8 +10001,6 @@ mypin.in CNAME .
 *.mypin.in CNAME .
 myurl.in CNAME .
 *.myurl.in CNAME .
-nanourl.in CNAME .
-*.nanourl.in CNAME .
 nexturl.in CNAME .
 *.nexturl.in CNAME .
 npliv.in CNAME .
@@ -10873,8 +10853,6 @@ microlinkfy.io CNAME .
 *.microlinkfy.io CNAME .
 microlinks.io CNAME .
 *.microlinks.io CNAME .
-microurls.io CNAME .
-*.microurls.io CNAME .
 milc.io CNAME .
 *.milc.io CNAME .
 minilink.io CNAME .
@@ -17531,8 +17509,6 @@ maha77.site CNAME .
 *.maha77.site CNAME .
 mst.site CNAME .
 *.mst.site CNAME .
-nawawinews.site CNAME .
-*.nawawinews.site CNAME .
 owly.site CNAME .
 *.owly.site CNAME .
 promo-visits.site CNAME .
@@ -19675,8 +19651,6 @@ mylnks.xyz CNAME .
 *.mylnks.xyz CNAME .
 n7s.xyz CNAME .
 *.n7s.xyz CNAME .
-nakama420.xyz CNAME .
-*.nakama420.xyz CNAME .
 newswrap.xyz CNAME .
 *.newswrap.xyz CNAME .
 opli.xyz CNAME .

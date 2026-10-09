@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791451740 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791536940 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 08 Oct 2026 09:29 UTC
-; Version: 2026.1008.0929.29
+; Last modified: 09 Oct 2026 09:09 UTC
+; Version: 2026.1009.0909.22
 ; Syntax: RPZ
-; Number of entries: 6578
+; Number of entries: 6566
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1451,8 +1451,6 @@ andybunn.onthewifi.com CNAME .
 *.andybunn.onthewifi.com CNAME .
 hknat.ooguy.com CNAME .
 *.hknat.ooguy.com CNAME .
-hk2.ooroot.com CNAME .
-*.hk2.ooroot.com CNAME .
 jp2.ooroot.com CNAME .
 *.jp2.ooroot.com CNAME .
 kr1.ooroot.com CNAME .
@@ -2797,8 +2795,6 @@ dns.lista.my.id CNAME .
 *.dns.lista.my.id CNAME .
 dns.mikrotikrumahan.my.id CNAME .
 *.dns.mikrotikrumahan.my.id CNAME .
-c1.msocportal.my.id CNAME .
-*.c1.msocportal.my.id CNAME .
 math.netlab.my.id CNAME .
 *.math.netlab.my.id CNAME .
 doh.oco-lae.my.id CNAME .
@@ -3967,8 +3963,6 @@ dns.moondip.net CNAME .
 *.dns.moondip.net CNAME .
 dns.moonwx.net CNAME .
 *.dns.moonwx.net CNAME .
-dns.moraru.net CNAME .
-*.dns.moraru.net CNAME .
 dns.mullvad.net CNAME .
 *.dns.mullvad.net CNAME .
 doh.mullvad.net CNAME .
@@ -5579,8 +5573,6 @@ rockstars.netphoenix.ru CNAME .
 *.rockstars.netphoenix.ru CNAME .
 dns.omee4.ru CNAME .
 *.dns.omee4.ru CNAME .
-adguard.oms-ctr.ru CNAME .
-*.adguard.oms-ctr.ru CNAME .
 dns.pastorov.ru CNAME .
 *.dns.pastorov.ru CNAME .
 wg.pastorov.ru CNAME .
@@ -5841,8 +5833,6 @@ doh.us.moe.tips CNAME .
 *.doh.us.moe.tips CNAME .
 duyyen.tk CNAME .
 *.duyyen.tk CNAME .
-adguard.neelyha.tk CNAME .
-*.adguard.neelyha.tk CNAME .
 dns.readlook.tk CNAME .
 *.dns.readlook.tk CNAME .
 ag.teqilla.tk CNAME .
@@ -6131,8 +6121,6 @@ dns.millernetwork.uk CNAME .
 *.dns.millernetwork.uk CNAME .
 dns.aa.net.uk CNAME .
 *.dns.aa.net.uk CNAME .
-teslacoils.org.uk CNAME .
-*.teslacoils.org.uk CNAME .
 doh.plaawan.uk CNAME .
 *.doh.plaawan.uk CNAME .
 zetland.rm-ni.uk CNAME .

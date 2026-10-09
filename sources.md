@@ -62,6 +62,7 @@ https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easypriva
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_mining.txt
 https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
+https://raw.githubusercontent.com/kalabic/dns-blocklists-share/refs/heads/main/share/ad-shield.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets//master/filters/ubol-filters.txt
@@ -202,6 +203,8 @@ The main input for the Threat Intelligence Feeds (TIF) lists.
 ```
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/02_mal.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
+https://gitlab.com/phishdestroy/destroylist/-/raw/main/dns/content_active.txt
+https://gitlab.com/phishdestroy/destroylist/-/raw/main/list.txt
 https://hole.cert.pl/domains/v2/domains.txt
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv
@@ -219,7 +222,6 @@ https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains
 https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains
 https://raw.githubusercontent.com/chainapsis/phishing-block-list/refs/heads/main/block-list.txt
 https://raw.githubusercontent.com/iam-py-test/my_filters_001/refs/heads/main/Alternative%20list%20formats/antimalware_domains_nopups.txt
-https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 https://siberguvenlik.gov.tr/zararli-baglantilar
 https://www.kushari.org/downloads/mal.txt

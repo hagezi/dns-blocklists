@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791413280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791533820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Oct 2026 22:48 UTC
-; Version: 2026.1007.2248.27
+; Last modified: 09 Oct 2026 08:17 UTC
+; Version: 2026.1009.0817.17
 ; Syntax: RPZ
-; Number of entries: 2150
+; Number of entries: 2154
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -132,8 +132,6 @@ eu3.biz CNAME .
 *.eu3.biz CNAME .
 freeblog.biz CNAME .
 *.freeblog.biz CNAME .
-igg.biz CNAME .
-*.igg.biz CNAME .
 kilu.biz CNAME .
 *.kilu.biz CNAME .
 laden.biz CNAME .
@@ -248,8 +246,6 @@ vidcloud.co CNAME .
 *.000worldwide.com CNAME .
 00author.com CNAME .
 *.00author.com CNAME .
-00freeweb.com CNAME .
-*.00freeweb.com CNAME .
 00go.com CNAME .
 *.00go.com CNAME .
 00it.com CNAME .
@@ -366,6 +362,8 @@ cixx6.com CNAME .
 *.cixx6.com CNAME .
 clipser.com CNAME .
 *.clipser.com CNAME .
+cloudwaysapps.com CNAME .
+*.cloudwaysapps.com CNAME .
 comxa.com CNAME .
 *.comxa.com CNAME .
 conohawing.com CNAME .
@@ -376,6 +374,8 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
+sitebeat.crazydomains.com CNAME .
+*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 ctempurl.com CNAME .
@@ -568,6 +568,8 @@ lovestoblog.com CNAME .
 *.lovestoblog.com CNAME .
 luzzati.com CNAME .
 *.luzzati.com CNAME .
+m-pages.com CNAME .
+*.m-pages.com CNAME .
 maddsites.com CNAME .
 *.maddsites.com CNAME .
 maminforum.com CNAME .
@@ -594,12 +596,16 @@ my5353.com CNAME .
 *.my5353.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
+myclickfunnels.com CNAME .
+*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
 *.myftpupload.com CNAME .
 myfunnelish.com CNAME .
 *.myfunnelish.com CNAME .
+myportfolio.com CNAME .
+*.myportfolio.com CNAME .
 mypressonline.com CNAME .
 *.mypressonline.com CNAME .
 mystrikingly.com CNAME .
@@ -656,8 +662,6 @@ securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
 *.seite.com CNAME .
-sendspace.com CNAME .
-*.sendspace.com CNAME .
 sharkserve.com CNAME .
 *.sharkserve.com CNAME .
 sitepalace.com CNAME .
@@ -712,6 +716,8 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
+w3spaces.com CNAME .
+*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -1986,8 +1992,6 @@ in.run CNAME .
 *.in.run CNAME .
 pancake.run CNAME .
 *.pancake.run CNAME .
-plasmic.run CNAME .
-*.plasmic.run CNAME .
 vn.run CNAME .
 *.vn.run CNAME .
 blogspot.se CNAME .
