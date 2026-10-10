@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791581880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791623460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 21:38 UTC
-; Version: 2026.1009.2138.27
+; Last modified: 10 Oct 2026 09:11 UTC
+; Version: 2026.1010.0911.38
 ; Syntax: RPZ
-; Number of entries: 6562
+; Number of entries: 6552
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1613,8 +1613,6 @@ udns.weixin.qq.com CNAME .
 *.udns.weixin.qq.com CNAME .
 r1bnc.com CNAME .
 *.r1bnc.com CNAME .
-fi.r5acq.com CNAME .
-*.fi.r5acq.com CNAME .
 dns.api.rackspacecloud.com CNAME .
 *.dns.api.rackspacecloud.com CNAME .
 dns.ramansarda.com CNAME .
@@ -2661,8 +2659,6 @@ adhome.maige.fun CNAME .
 *.adhome.maige.fun CNAME .
 pcgo.fun CNAME .
 *.pcgo.fun CNAME .
-dns.rayarksb.fun CNAME .
-*.dns.rayarksb.fun CNAME .
 dns.zky666.fun CNAME .
 *.dns.zky666.fun CNAME .
 ams.core.access.zznet.fun CNAME .
@@ -3515,8 +3511,6 @@ cloud.securifi.com.my CNAME .
 *.cloud.securifi.com.my CNAME .
 domain.name CNAME .
 *.domain.name CNAME .
-searxng.rcxpony.name CNAME .
-*.searxng.rcxpony.name CNAME .
 dns.therifleman.name CNAME .
 *.dns.therifleman.name CNAME .
 bh.wael.name CNAME .
@@ -4127,8 +4121,6 @@ resolver.r0cket.net CNAME .
 *.resolver.r0cket.net CNAME .
 ginnungagap.rabenhain.net CNAME .
 *.ginnungagap.rabenhain.net CNAME .
-agh.realwap.net CNAME .
-*.agh.realwap.net CNAME .
 richardo.net CNAME .
 *.richardo.net CNAME .
 adguard.rjscho.net CNAME .
@@ -5587,8 +5579,6 @@ dns.polarwinds.ru CNAME .
 *.dns.polarwinds.ru CNAME .
 test.privatenode.ru CNAME .
 *.test.privatenode.ru CNAME .
-owa.pvmedia.ru CNAME .
-*.owa.pvmedia.ru CNAME .
 qstam.ru CNAME .
 *.qstam.ru CNAME .
 dns.reolinks.ru CNAME .

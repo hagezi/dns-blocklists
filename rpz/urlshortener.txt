@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791554760 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791618240 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 14:06 UTC
-; Version: 2026.1009.1406.47
+; Last modified: 10 Oct 2026 07:44 UTC
+; Version: 2026.1010.0744.28
 ; Syntax: RPZ
-; Number of entries: 19730
+; Number of entries: 19718
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -409,8 +409,6 @@ pyt.app CNAME .
 *.pyt.app CNAME .
 qrlinky.app CNAME .
 *.qrlinky.app CNAME .
-qrls.app CNAME .
-*.qrls.app CNAME .
 redirectly.app CNAME .
 *.redirectly.app CNAME .
 rejoindre.app CNAME .
@@ -5197,8 +5195,6 @@ linply.com CNAME .
 *.linply.com CNAME .
 linqry.com CNAME .
 *.linqry.com CNAME .
-lintlink.com CNAME .
-*.lintlink.com CNAME .
 linxonly.com CNAME .
 *.linxonly.com CNAME .
 lisar.lisaraeswan.com CNAME .
@@ -5901,8 +5897,6 @@ jobs.qjobsindia.com CNAME .
 *.jobs.qjobsindia.com CNAME .
 qkvlk.com CNAME .
 *.qkvlk.com CNAME .
-qlicly.com CNAME .
-*.qlicly.com CNAME .
 qlixelapp.com CNAME .
 *.qlixelapp.com CNAME .
 qnvpne.com CNAME .
@@ -5923,8 +5917,6 @@ qr4pro.com CNAME .
 *.qr4pro.com CNAME .
 qraus.com CNAME .
 *.qraus.com CNAME .
-qrbiolink.com CNAME .
-*.qrbiolink.com CNAME .
 qrcaard.com CNAME .
 *.qrcaard.com CNAME .
 qrcin.com CNAME .
@@ -5983,8 +5975,6 @@ quiturl.com CNAME .
 *.quiturl.com CNAME .
 qulixe.com CNAME .
 *.qulixe.com CNAME .
-quowski.com CNAME .
-*.quowski.com CNAME .
 quurls.com CNAME .
 *.quurls.com CNAME .
 qzr2.com CNAME .
@@ -8869,8 +8859,6 @@ plots.fr CNAME .
 *.plots.fr CNAME .
 qrtag.fr CNAME .
 *.qrtag.fr CNAME .
-redir.fr CNAME .
-*.redir.fr CNAME .
 relink.fr CNAME .
 *.relink.fr CNAME .
 rwz.fr CNAME .
