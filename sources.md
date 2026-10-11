@@ -145,7 +145,6 @@ https://raw.githubusercontent.com/omerdduran/turk-adfilter/main/turk-adfilter.tx
 https://raw.githubusercontent.com/remad0/TurkHosts404/refs/heads/main/dns-blocklists/adblock.txt
 https://raw.githubusercontent.com/symbuzzer/Turkish-Ad-Hosts/main/hosts
 https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt
-https://raw.githubusercontent.com/tofukko/filter/master/Adblock_Plus_list.txt
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/ads/ads.txt
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/combined/combined.txt
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/privacy/privacy.txt

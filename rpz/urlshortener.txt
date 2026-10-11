@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791704820 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791726060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Oct 2026 07:47 UTC
-; Version: 2026.1011.0747.22
+; Last modified: 11 Oct 2026 13:41 UTC
+; Version: 2026.1011.1341.55
 ; Syntax: RPZ
-; Number of entries: 19672
+; Number of entries: 19666
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -6775,8 +6775,6 @@ terijoss.com CNAME .
 *.terijoss.com CNAME .
 texas88register.com CNAME .
 *.texas88register.com CNAME .
-texmlink.com CNAME .
-*.texmlink.com CNAME .
 textmydeals.com CNAME .
 *.textmydeals.com CNAME .
 tfushort.com CNAME .
@@ -6811,8 +6809,6 @@ jitlinks.therichonline.com CNAME .
 *.jitlinks.therichonline.com CNAME .
 theshortener.com CNAME .
 *.theshortener.com CNAME .
-thesimstitute.com CNAME .
-*.thesimstitute.com CNAME .
 thetinyurls.com CNAME .
 *.thetinyurls.com CNAME .
 theuitly.com CNAME .
@@ -6833,8 +6829,6 @@ thryt.com CNAME .
 *.thryt.com CNAME .
 thunderhoodielinks.com CNAME .
 *.thunderhoodielinks.com CNAME .
-thursik.com CNAME .
-*.thursik.com CNAME .
 thutool.com CNAME .
 *.thutool.com CNAME .
 tiaam.com CNAME .
