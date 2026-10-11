@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791585780 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791706800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 22:43 UTC
-; Version: 2026.1009.2243.16
+; Last modified: 11 Oct 2026 08:20 UTC
+; Version: 2026.1011.0820.05
 ; Syntax: RPZ
 ; Number of entries: 2466
 ;
@@ -832,8 +832,6 @@ socialsmp.com CNAME .
 *.socialsmp.com CNAME .
 solidwebhost.com CNAME .
 *.solidwebhost.com CNAME .
-sophiashantidaniel.com CNAME .
-*.sophiashantidaniel.com CNAME .
 spruz.com CNAME .
 *.spruz.com CNAME .
 stormloader.com CNAME .
@@ -1686,6 +1684,8 @@ eu.ki CNAME .
 *.0pe.kr CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
+dothome.co.kr CNAME .
+*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791623460 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791710160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 10 Oct 2026 09:11 UTC
-; Version: 2026.1010.0911.38
+; Last modified: 11 Oct 2026 09:16 UTC
+; Version: 2026.1011.0916.37
 ; Syntax: RPZ
-; Number of entries: 6552
+; Number of entries: 6544
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -415,8 +415,6 @@ sudo.rm-rf.cloud CNAME .
 *.sudo.rm-rf.cloud CNAME .
 dns.roedel.cloud CNAME .
 *.dns.roedel.cloud CNAME .
-dns.satellite226.cloud CNAME .
-*.dns.satellite226.cloud CNAME .
 dns.stud.cloud CNAME .
 *.dns.stud.cloud CNAME .
 guard.thefather.cloud CNAME .
@@ -4351,8 +4349,6 @@ adguard.rowdyengeesje.nl CNAME .
 *.adguard.rowdyengeesje.nl CNAME .
 sabzipolobamahi.nl CNAME .
 *.sabzipolobamahi.nl CNAME .
-dns1.schooldns.nl CNAME .
-*.dns1.schooldns.nl CNAME .
 doh.sidnlabs.nl CNAME .
 *.doh.sidnlabs.nl CNAME .
 dns.sstomp.nl CNAME .
@@ -5595,8 +5591,6 @@ penetrator.shurakenas.ru CNAME .
 *.penetrator.shurakenas.ru CNAME .
 villi.shurakenas.ru CNAME .
 *.villi.shurakenas.ru CNAME .
-signsservers.ru CNAME .
-*.signsservers.ru CNAME .
 smirnovfamily.ru CNAME .
 *.smirnovfamily.ru CNAME .
 ag.snrka.ru CNAME .
@@ -6157,8 +6151,6 @@ dns.nicolas.vip CNAME .
 *.dns.nicolas.vip CNAME .
 qingmo.vip CNAME .
 *.qingmo.vip CNAME .
-squidmall.vip CNAME .
-*.squidmall.vip CNAME .
 adb.aiec.vn CNAME .
 *.adb.aiec.vn CNAME .
 agh.amber.edu.vn CNAME .

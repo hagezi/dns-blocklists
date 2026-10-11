@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791618240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791704820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 10 Oct 2026 07:44 UTC
-; Version: 2026.1010.0744.28
+; Last modified: 11 Oct 2026 07:47 UTC
+; Version: 2026.1011.0747.22
 ; Syntax: RPZ
-; Number of entries: 19718
+; Number of entries: 19672
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -437,8 +437,6 @@ shorterlink.app CNAME .
 *.shorterlink.app CNAME .
 shortlnk.app CNAME .
 *.shortlnk.app CNAME .
-shortmyurl.app CNAME .
-*.shortmyurl.app CNAME .
 shortner.app CNAME .
 *.shortner.app CNAME .
 shortshare.app CNAME .
@@ -1085,16 +1083,12 @@ sayhi.bio CNAME .
 *.sayhi.bio CNAME .
 seez.bio CNAME .
 *.seez.bio CNAME .
-shorte.bio CNAME .
-*.shorte.bio CNAME .
 shortlab.bio CNAME .
 *.shortlab.bio CNAME .
 shorty.bio CNAME .
 *.shorty.bio CNAME .
 stick.bio CNAME .
 *.stick.bio CNAME .
-t2mm.bio CNAME .
-*.t2mm.bio CNAME .
 tapto.bio CNAME .
 *.tapto.bio CNAME .
 urlin.bio CNAME .
@@ -2817,10 +2811,6 @@ snar.co CNAME .
 *.snar.co CNAME .
 sniplink.co CNAME .
 *.sniplink.co CNAME .
-sniplnk.co CNAME .
-*.sniplnk.co CNAME .
-snipy.co CNAME .
-*.snipy.co CNAME .
 snyk.co CNAME .
 *.snyk.co CNAME .
 soopr.co CNAME .
@@ -6397,8 +6387,6 @@ shortswitch.com CNAME .
 *.shortswitch.com CNAME .
 shorturl.com CNAME .
 *.shorturl.com CNAME .
-shorturl4me.com CNAME .
-*.shorturl4me.com CNAME .
 shorturl88.com CNAME .
 *.shorturl88.com CNAME .
 shorturlapp.com CNAME .
@@ -6587,8 +6575,6 @@ snipurl.com CNAME .
 *.snipurl.com CNAME .
 snipzr.com CNAME .
 *.snipzr.com CNAME .
-snizova.com CNAME .
-*.snizova.com CNAME .
 snplink.com CNAME .
 *.snplink.com CNAME .
 snurl.com CNAME .
@@ -6691,8 +6677,6 @@ link.streamloots.com CNAME .
 *.link.streamloots.com CNAME .
 strikersoftsolutions.com CNAME .
 *.strikersoftsolutions.com CNAME .
-strywon.com CNAME .
-*.strywon.com CNAME .
 sturly.com CNAME .
 *.sturly.com CNAME .
 suakhoacamlam.com CNAME .
@@ -6713,8 +6697,6 @@ vip.superpopdrop.com CNAME .
 *.vip.superpopdrop.com CNAME .
 supurlman.com CNAME .
 *.supurlman.com CNAME .
-surayafans.com CNAME .
-*.surayafans.com CNAME .
 surlgo.com CNAME .
 *.surlgo.com CNAME .
 surveyscst.com CNAME .
@@ -6737,8 +6719,6 @@ sydkings.com CNAME .
 *.sydkings.com CNAME .
 goto.synapse.com CNAME .
 *.goto.synapse.com CNAME .
-sysclicks.com CNAME .
-*.sysclicks.com CNAME .
 syurl.com CNAME .
 *.syurl.com CNAME .
 t-iny.com CNAME .
@@ -8211,8 +8191,6 @@ shrinkme.dev CNAME .
 *.shrinkme.dev CNAME .
 snipp.dev CNAME .
 *.snipp.dev CNAME .
-snipurl.dev CNAME .
-*.snipurl.dev CNAME .
 static-lib.dev CNAME .
 *.static-lib.dev CNAME .
 switchlabs.dev CNAME .
@@ -9497,8 +9475,6 @@ sesoft.id CNAME .
 *.sesoft.id CNAME .
 u.seva.id CNAME .
 *.u.seva.id CNAME .
-shlink.id CNAME .
-*.shlink.id CNAME .
 shortin.id CNAME .
 *.shortin.id CNAME .
 shortlinkurl.id CNAME .
@@ -10045,8 +10021,6 @@ safly.in CNAME .
 *.safly.in CNAME .
 scts.in CNAME .
 *.scts.in CNAME .
-sd7.in CNAME .
-*.sd7.in CNAME .
 senc.in CNAME .
 *.senc.in CNAME .
 shlink.in CNAME .
@@ -10091,8 +10065,6 @@ sngkt.in CNAME .
 *.sngkt.in CNAME .
 socx.in CNAME .
 *.socx.in CNAME .
-solink.in CNAME .
-*.solink.in CNAME .
 sribu.in CNAME .
 *.sribu.in CNAME .
 srink.in CNAME .
@@ -11029,8 +11001,6 @@ shrinkme.io CNAME .
 *.shrinkme.io CNAME .
 shrinkr.io CNAME .
 *.shrinkr.io CNAME .
-shrten.io CNAME .
-*.shrten.io CNAME .
 shrtn.io CNAME .
 *.shrtn.io CNAME .
 shrturl.io CNAME .
@@ -11075,8 +11045,6 @@ stulink.io CNAME .
 *.stulink.io CNAME .
 sual.io CNAME .
 *.sual.io CNAME .
-superurl.io CNAME .
-*.superurl.io CNAME .
 switchy.io CNAME .
 *.switchy.io CNAME .
 t2m.io CNAME .
@@ -11649,8 +11617,6 @@ splk.it CNAME .
 *.splk.it CNAME .
 sprk.it CNAME .
 *.sprk.it CNAME .
-sqrl.it CNAME .
-*.sqrl.it CNAME .
 taap.it CNAME .
 *.taap.it CNAME .
 tibly.it CNAME .
@@ -12779,8 +12745,6 @@ seif.link CNAME .
 *.seif.link CNAME .
 seocantik.link CNAME .
 *.seocantik.link CNAME .
-seolegend.link CNAME .
-*.seolegend.link CNAME .
 shareease.link CNAME .
 *.shareease.link CNAME .
 shareyou.link CNAME .
@@ -13141,8 +13105,6 @@ shortmaro.live CNAME .
 *.shortmaro.live CNAME .
 shrtxb4d.live CNAME .
 *.shrtxb4d.live CNAME .
-slimeteam.live CNAME .
-*.slimeteam.live CNAME .
 stor.live CNAME .
 *.stor.live CNAME .
 tdv-adm.live CNAME .
@@ -17037,8 +16999,6 @@ roge.rs CNAME .
 *.roge.rs CNAME .
 seedsta.rs CNAME .
 *.seedsta.rs CNAME .
-serverpa.rs CNAME .
-*.serverpa.rs CNAME .
 skr.rs CNAME .
 *.skr.rs CNAME .
 sn.rs CNAME .
@@ -17503,8 +17463,6 @@ rj99.site CNAME .
 *.rj99.site CNAME .
 rtfo.site CNAME .
 *.rtfo.site CNAME .
-sdfq3cf.site CNAME .
-*.sdfq3cf.site CNAME .
 sdr168.site CNAME .
 *.sdr168.site CNAME .
 shlinks.site CNAME .
@@ -17887,8 +17845,6 @@ sharem.tech CNAME .
 *.sharem.tech CNAME .
 simpleurl.tech CNAME .
 *.simpleurl.tech CNAME .
-snipix.tech CNAME .
-*.snipix.tech CNAME .
 techwizards.tech CNAME .
 *.techwizards.tech CNAME .
 vndr.tech CNAME .
@@ -18251,8 +18207,6 @@ rroll.to CNAME .
 *.rroll.to CNAME .
 rzr.to CNAME .
 *.rzr.to CNAME .
-safely.to CNAME .
-*.safely.to CNAME .
 sail.to CNAME .
 *.sail.to CNAME .
 sazi.to CNAME .
