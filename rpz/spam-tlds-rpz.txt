@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791580620 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791762000 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,10 +12,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Oct 2026 21:17 UTC
-; Version: 2026.1009.2117.46
+; Last modified: 11 Oct 2026 23:40 UTC
+; Version: 2026.1011.2340.47
 ; Syntax: RPZ
-; Number of latin TLDs: 130/294
+; Number of latin TLDs: 128/294
 ;
 *.actor CNAME .
 *.apartments CNAME .
@@ -56,7 +56,6 @@ $TTL 3600
 *.esq CNAME .
 *.exposed CNAME .
 *.faith CNAME .
-*.family CNAME .
 *.fans CNAME .
 *.financial CNAME .
 *.fishing CNAME .
@@ -110,7 +109,6 @@ $TTL 3600
 *.ren CNAME .
 *.repair CNAME .
 *.review CNAME .
-*.reviews CNAME .
 *.rich CNAME .
 *.rodeo CNAME .
 *.ryukyu CNAME .

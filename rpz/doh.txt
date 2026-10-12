@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791731340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791795720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Oct 2026 15:09 UTC
-; Version: 2026.1011.1509.53
+; Last modified: 12 Oct 2026 09:02 UTC
+; Version: 2026.1012.0902.00
 ; Syntax: RPZ
-; Number of entries: 6540
+; Number of entries: 6536
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -423,8 +423,6 @@ dns.thore.cloud CNAME .
 *.dns.thore.cloud CNAME .
 adguard.ulbricht.cloud CNAME .
 *.adguard.ulbricht.cloud CNAME .
-tls.vietguards.cloud CNAME .
-*.tls.vietguards.cloud CNAME .
 quadrogramma.vps.webdock.cloud CNAME .
 *.quadrogramma.vps.webdock.cloud CNAME .
 dns.wibenson.cloud CNAME .
@@ -2487,8 +2485,6 @@ totoland.eu CNAME .
 *.totoland.eu CNAME .
 dns.server2.tschoerner.eu CNAME .
 *.dns.server2.tschoerner.eu CNAME .
-v1.ufamax.eu CNAME .
-*.v1.ufamax.eu CNAME .
 unasw.eu CNAME .
 *.unasw.eu CNAME .
 wallpap.eu CNAME .
