@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791706800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791879300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Oct 2026 08:20 UTC
-; Version: 2026.1011.0820.05
+; Last modified: 13 Oct 2026 08:15 UTC
+; Version: 2026.1013.0815.59
 ; Syntax: RPZ
-; Number of entries: 2466
+; Number of entries: 2470
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -682,6 +682,8 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
+jimdofree.com CNAME .
+*.jimdofree.com CNAME .
 just-allen.com CNAME .
 *.just-allen.com CNAME .
 justicewasgreen.com CNAME .
@@ -2146,6 +2148,8 @@ my-board.org CNAME .
 *.my-board.org CNAME .
 mygamesonline.org CNAME .
 *.mygamesonline.org CNAME .
+mywebcommunity.org CNAME .
+*.mywebcommunity.org CNAME .
 neocities.org CNAME .
 *.neocities.org CNAME .
 netfast.org CNAME .

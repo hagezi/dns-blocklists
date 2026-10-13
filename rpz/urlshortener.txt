@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791790800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1791842580 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Oct 2026 07:40 UTC
-; Version: 2026.1012.0740.51
+; Last modified: 12 Oct 2026 22:03 UTC
+; Version: 2026.1012.2203.38
 ; Syntax: RPZ
-; Number of entries: 19614
+; Number of entries: 19594
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1815,8 +1815,6 @@ whts.cc CNAME .
 *.whts.cc CNAME .
 wiwir.cc CNAME .
 *.wiwir.cc CNAME .
-app.workdog.cc CNAME .
-*.app.workdog.cc CNAME .
 xn--ugt.cc CNAME .
 *.xn--ugt.cc CNAME .
 xxxdwz.cc CNAME .
@@ -3201,6 +3199,8 @@ aiecj2.com CNAME .
 *.aiecj2.com CNAME .
 aighy.com CNAME .
 *.aighy.com CNAME .
+urls.aikeeda.com CNAME .
+*.urls.aikeeda.com CNAME .
 aimetath.com CNAME .
 *.aimetath.com CNAME .
 aimqr.com CNAME .
@@ -7635,8 +7635,6 @@ yrawf.com CNAME .
 *.yrawf.com CNAME .
 yrkus.com CNAME .
 *.yrkus.com CNAME .
-yshorten.com CNAME .
-*.yshorten.com CNAME .
 yukibio.com CNAME .
 *.yukibio.com CNAME .
 d.yunzhuyun.com CNAME .
@@ -7659,8 +7657,6 @@ zaplinkz.com CNAME .
 *.zaplinkz.com CNAME .
 zapurls.com CNAME .
 *.zapurls.com CNAME .
-zarnecka.com CNAME .
-*.zarnecka.com CNAME .
 s.zazuko.com CNAME .
 *.s.zazuko.com CNAME .
 zbitly.com CNAME .
@@ -8081,8 +8077,6 @@ wbze.de CNAME .
 *.wbze.de CNAME .
 ws-link.de CNAME .
 *.ws-link.de CNAME .
-wyyw.de CNAME .
-*.wyyw.de CNAME .
 yiii.de CNAME .
 *.yiii.de CNAME .
 ykm.de CNAME .
@@ -10315,8 +10309,6 @@ webinfos.info CNAME .
 *.webinfos.info CNAME .
 wez.info CNAME .
 *.wez.info CNAME .
-xbig.info CNAME .
-*.xbig.info CNAME .
 yourls.info CNAME .
 *.yourls.info CNAME .
 zurl.info CNAME .
@@ -10457,8 +10449,6 @@ ytubl.ink CNAME .
 *.ytubl.ink CNAME .
 zat.ink CNAME .
 *.zat.ink CNAME .
-zom.ink CNAME .
-*.zom.ink CNAME .
 0ln.io CNAME .
 *.0ln.io CNAME .
 10xtools.io CNAME .
@@ -14385,8 +14375,6 @@ zapurl.me CNAME .
 *.zapurl.me CNAME .
 zctz.me CNAME .
 *.zctz.me CNAME .
-zipy.me CNAME .
-*.zipy.me CNAME .
 zjuw.me CNAME .
 *.zjuw.me CNAME .
 zkrat.me CNAME .
@@ -16363,8 +16351,6 @@ short.pk CNAME .
 *.short.pk CNAME .
 surl.pk CNAME .
 *.surl.pk CNAME .
-xurl.pk CNAME .
-*.xurl.pk CNAME .
 128.pl CNAME .
 *.128.pl CNAME .
 1o.pl CNAME .
@@ -18255,8 +18241,6 @@ zoho.to CNAME .
 *.zoho.to CNAME .
 zopen.to CNAME .
 *.zopen.to CNAME .
-zyp.to CNAME .
-*.zyp.to CNAME .
 aki.today CNAME .
 *.aki.today CNAME .
 learnit.today CNAME .
@@ -19051,8 +19035,6 @@ whstlr.us CNAME .
 *.whstlr.us CNAME .
 wigb.us CNAME .
 *.wigb.us CNAME .
-wlink.us CNAME .
-*.wlink.us CNAME .
 x89.us CNAME .
 *.x89.us CNAME .
 xcrl.us CNAME .
@@ -19263,8 +19245,6 @@ loginsaja.website CNAME .
 *.loginsaja.website CNAME .
 shortened.website CNAME .
 *.shortened.website CNAME .
-yourls.website CNAME .
-*.yourls.website CNAME .
 03.wf CNAME .
 *.03.wf CNAME .
 fff.wf CNAME .
