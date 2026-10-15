@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792009920 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792053780 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 14 Oct 2026 20:32 UTC
-; Version: 2026.1014.2032.45
+; Last modified: 15 Oct 2026 08:43 UTC
+; Version: 2026.1015.0843.06
 ; Syntax: RPZ
-; Number of entries: 2156
+; Number of entries: 2134
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -310,8 +310,6 @@ atwebpages.com CNAME .
 *.atwebpages.com CNAME .
 axifile.com CNAME .
 *.axifile.com CNAME .
-b12sites.com CNAME .
-*.b12sites.com CNAME .
 bakoweb.com CNAME .
 *.bakoweb.com CNAME .
 bayfiles.com CNAME .
@@ -364,8 +362,6 @@ cixx6.com CNAME .
 *.cixx6.com CNAME .
 clipser.com CNAME .
 *.clipser.com CNAME .
-cloudwaysapps.com CNAME .
-*.cloudwaysapps.com CNAME .
 comxa.com CNAME .
 *.comxa.com CNAME .
 conohawing.com CNAME .
@@ -376,8 +372,6 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
-sitebeat.crazydomains.com CNAME .
-*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 ctempurl.com CNAME .
@@ -548,8 +542,6 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
-jimdofree.com CNAME .
-*.jimdofree.com CNAME .
 kesug.com CNAME .
 *.kesug.com CNAME .
 kiluweb.com CNAME .
@@ -572,8 +564,6 @@ lovestoblog.com CNAME .
 *.lovestoblog.com CNAME .
 luzzati.com CNAME .
 *.luzzati.com CNAME .
-m-pages.com CNAME .
-*.m-pages.com CNAME .
 maddsites.com CNAME .
 *.maddsites.com CNAME .
 maminforum.com CNAME .
@@ -600,16 +590,12 @@ my5353.com CNAME .
 *.my5353.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
-myclickfunnels.com CNAME .
-*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
 *.myftpupload.com CNAME .
 myfunnelish.com CNAME .
 *.myfunnelish.com CNAME .
-myportfolio.com CNAME .
-*.myportfolio.com CNAME .
 mypressonline.com CNAME .
 *.mypressonline.com CNAME .
 mystrikingly.com CNAME .
@@ -718,16 +704,10 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
-w3spaces.com CNAME .
-*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
 *.webaccess-email.com CNAME .
-webador.com CNAME .
-*.webador.com CNAME .
-webcindario.com CNAME .
-*.webcindario.com CNAME .
 webobo.com CNAME .
 *.webobo.com CNAME .
 webspawner.com CNAME .
@@ -1148,8 +1128,6 @@ gamer.gd CNAME .
 *.gamer.gd CNAME .
 page.gd CNAME .
 *.page.gd CNAME .
-rf.gd CNAME .
-*.rf.gd CNAME .
 work.gd CNAME .
 *.work.gd CNAME .
 24.gg CNAME .

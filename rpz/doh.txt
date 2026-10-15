@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791847440 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792057140 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Oct 2026 23:24 UTC
-; Version: 2026.1012.2324.59
+; Last modified: 15 Oct 2026 09:39 UTC
+; Version: 2026.1015.0939.46
 ; Syntax: RPZ
-; Number of entries: 6532
+; Number of entries: 6544
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2633,6 +2633,8 @@ dns.zarchbox.fr CNAME .
 *.dns.zarchbox.fr CNAME .
 318341906.fun CNAME .
 *.318341906.fun CNAME .
+adfiltro.fun CNAME .
+*.adfiltro.fun CNAME .
 dns.auapi.fun CNAME .
 *.dns.auapi.fun CNAME .
 axaxa.fun CNAME .
@@ -4367,6 +4369,8 @@ adg.tshost.no CNAME .
 *.adg.tshost.no CNAME .
 dns.rkjha.com.np CNAME .
 *.dns.rkjha.com.np CNAME .
+anycast.censurfridns.nu CNAME .
+*.anycast.censurfridns.nu CNAME .
 exns1.exalto.nu CNAME .
 *.exns1.exalto.nu CNAME .
 dns.huth.nu CNAME .
@@ -4417,6 +4421,8 @@ adguard.vape.ong CNAME .
 *.adguard.vape.ong CNAME .
 dns.abdullahabas.online CNAME .
 *.dns.abdullahabas.online CNAME .
+alleesph.online CNAME .
+*.alleesph.online CNAME .
 dns.apigw.online CNAME .
 *.dns.apigw.online CNAME .
 dns-sehat.apigw.online CNAME .
@@ -5731,8 +5737,12 @@ b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space CNAME .
 *.b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space CNAME .
 addns.jpr.space CNAME .
 *.addns.jpr.space CNAME .
+adguard.neon0404.space CNAME .
+*.adguard.neon0404.space CNAME .
 pygos.space CNAME .
 *.pygos.space CNAME .
+adg.rueiliu.space CNAME .
+*.adg.rueiliu.space CNAME .
 adguard.vegann.space CNAME .
 *.adguard.vegann.space CNAME .
 adguard.wifri.space CNAME .
@@ -6491,6 +6501,8 @@ dns.sainternet.xyz CNAME .
 *.dns.sainternet.xyz CNAME .
 adguard.servernation.xyz CNAME .
 *.adguard.servernation.xyz CNAME .
+ag.ssrahul96.xyz CNAME .
+*.ag.ssrahul96.xyz CNAME .
 doh.sublime9.xyz CNAME .
 *.doh.sublime9.xyz CNAME .
 thakkali.teej.xyz CNAME .
