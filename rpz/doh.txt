@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792057140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792107120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Oct 2026 09:39 UTC
-; Version: 2026.1015.0939.46
+; Last modified: 15 Oct 2026 23:32 UTC
+; Version: 2026.1015.2332.39
 ; Syntax: RPZ
-; Number of entries: 6544
+; Number of entries: 6564
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -379,6 +379,8 @@ dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
 dns-secondary.cloudnx.cloud CNAME .
 *.dns-secondary.cloudnx.cloud CNAME .
+doh.cnetwork.cloud CNAME .
+*.doh.cnetwork.cloud CNAME .
 adguard.dessoi.cloud CNAME .
 *.adguard.dessoi.cloud CNAME .
 adguard.dsns.cloud CNAME .
@@ -809,6 +811,8 @@ dns.chunghwamc.com CNAME .
 *.dns.chunghwamc.com CNAME .
 oraclejp2.chungyu.com CNAME .
 *.oraclejp2.chungyu.com CNAME .
+doh.cippapp.com CNAME .
+*.doh.cippapp.com CNAME .
 dns.citrahost.com CNAME .
 *.dns.citrahost.com CNAME .
 midns.clicinternet.com CNAME .
@@ -2971,6 +2975,8 @@ adguard.nasaud.info CNAME .
 *.adguard.nasaud.info CNAME .
 xpen.ns01.info CNAME .
 *.xpen.ns01.info CNAME .
+dns.olpploiopkuyhiopsfrt.info CNAME .
+*.dns.olpploiopkuyhiopsfrt.info CNAME .
 adguard.onlyfriends.info CNAME .
 *.adguard.onlyfriends.info CNAME .
 agh.printk.info CNAME .
@@ -3251,6 +3257,8 @@ toaster.lol CNAME .
 *.toaster.lol CNAME .
 adguard.ygd.lol CNAME .
 *.adguard.ygd.lol CNAME .
+dns.zui.lol CNAME .
+*.dns.zui.lol CNAME .
 beacon.fengli.love CNAME .
 *.beacon.fengli.love CNAME .
 doh.domreg.lt CNAME .
@@ -3555,6 +3563,12 @@ dns.airns.net CNAME .
 *.dns.airns.net CNAME .
 adguard.ajinga.net CNAME .
 *.adguard.ajinga.net CNAME .
+dnses.alekberg.net CNAME .
+*.dnses.alekberg.net CNAME .
+dnsnl.alekberg.net CNAME .
+*.dnsnl.alekberg.net CNAME .
+dnsse.alekberg.net CNAME .
+*.dnsse.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
 doh.amonsul.net CNAME .
@@ -5633,6 +5647,8 @@ vladpro.ru CNAME .
 *.vladpro.ru CNAME .
 waydnes.ru CNAME .
 *.waydnes.ru CNAME .
+dns.x8net.ru CNAME .
+*.dns.x8net.ru CNAME .
 xbox-dns.ru CNAME .
 *.xbox-dns.ru CNAME .
 dns.xcapenet.ru CNAME .
@@ -5703,6 +5719,8 @@ khome.site CNAME .
 *.khome.site CNAME .
 dns.l337.site CNAME .
 *.dns.l337.site CNAME .
+dns.labnekotest.site CNAME .
+*.dns.labnekotest.site CNAME .
 doh.mochou.site CNAME .
 *.doh.mochou.site CNAME .
 s1.s2.shahramv1.site CNAME .
@@ -5937,6 +5955,8 @@ kr.tomgirl.top CNAME .
 *.kr.tomgirl.top CNAME .
 us44nas.top CNAME .
 *.us44nas.top CNAME .
+dns.wahr.top CNAME .
+*.dns.wahr.top CNAME .
 bwh.why4free.top CNAME .
 *.bwh.why4free.top CNAME .
 wiqi.top CNAME .
