@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792103940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792141380 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Oct 2026 22:39 UTC
-; Version: 2026.1015.2239.58
+; Last modified: 16 Oct 2026 09:03 UTC
+; Version: 2026.1016.0903.33
 ; Syntax: RPZ
-; Number of entries: 2144
+; Number of entries: 2148
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -312,6 +312,8 @@ atwebpages.com CNAME .
 *.atwebpages.com CNAME .
 axifile.com CNAME .
 *.axifile.com CNAME .
+b12sites.com CNAME .
+*.b12sites.com CNAME .
 bakoweb.com CNAME .
 *.bakoweb.com CNAME .
 bayfiles.com CNAME .
@@ -1996,6 +1998,8 @@ nokojp.shop CNAME .
 *.nokojp.shop CNAME .
 pizzakeep.shop CNAME .
 *.pizzakeep.shop CNAME .
+shohu.shop CNAME .
+*.shohu.shop CNAME .
 yuichi.shop CNAME .
 *.yuichi.shop CNAME .
 4x.si CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792057020 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792144740 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Oct 2026 09:37 UTC
-; Version: 2026.1015.0937.44
+; Last modified: 16 Oct 2026 09:59 UTC
+; Version: 2026.1016.0959.51
 ; Syntax: RPZ
-; Number of entries: 3074
+; Number of entries: 3082
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1256,6 +1256,8 @@ routemehome.com CNAME .
 *.routemehome.com CNAME .
 rundis.com CNAME .
 *.rundis.com CNAME .
+russkoeumea.com CNAME .
+*.russkoeumea.com CNAME .
 rwbcode.com CNAME .
 *.rwbcode.com CNAME .
 ryointernational.com CNAME .
@@ -1858,6 +1860,8 @@ home.kg CNAME .
 *.home.kg CNAME .
 kyrgyzstan.kg CNAME .
 *.kyrgyzstan.kg CNAME .
+surak.kz CNAME .
+*.surak.kz CNAME .
 allez.la CNAME .
 *.allez.la CNAME .
 project.li CNAME .
@@ -2384,6 +2388,8 @@ mine.nu CNAME .
 *.mine.nu CNAME .
 remotecam.nu CNAME .
 *.remotecam.nu CNAME .
+rr.nu CNAME .
+*.rr.nu CNAME .
 cloudns.nz CNAME .
 *.cloudns.nz CNAME .
 3322.org CNAME .
@@ -2714,6 +2720,8 @@ spdns.org CNAME .
 *.spdns.org CNAME .
 ssl443.org CNAME .
 *.ssl443.org CNAME .
+stroyexpert.org CNAME .
+*.stroyexpert.org CNAME .
 stuff-4-sale.org CNAME .
 *.stuff-4-sale.org CNAME .
 stuns.org CNAME .

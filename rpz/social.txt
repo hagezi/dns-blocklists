@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792102740 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792138080 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks - blocks access to social networks!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Oct 2026 22:19 UTC
-; Version: 2026.1015.2219.40
+; Last modified: 16 Oct 2026 08:08 UTC
+; Version: 2026.1016.0808.21
 ; Syntax: RPZ
-; Number of entries: 16490
+; Number of entries: 16508
 ;
 4erd.ac CNAME .
 *.4erd.ac CNAME .
@@ -979,8 +979,6 @@ cafe.coffee-break.cc CNAME .
 *.cafe.coffee-break.cc CNAME .
 mastodon.coffee-break.cc CNAME .
 *.mastodon.coffee-break.cc CNAME .
-lemmy.devr.cc CNAME .
-*.lemmy.devr.cc CNAME .
 digitaldarkage.cc CNAME .
 *.digitaldarkage.cc CNAME .
 facebook.cc CNAME .
@@ -4059,6 +4057,8 @@ lemmy.theknopps.com CNAME .
 *.lemmy.theknopps.com CNAME .
 social.theokadas.com CNAME .
 *.social.theokadas.com CNAME .
+shitter.thepixora.com CNAME .
+*.shitter.thepixora.com CNAME .
 lemmy.thewooskeys.com CNAME .
 *.lemmy.thewooskeys.com CNAME .
 kbin.thicknahalf.com CNAME .
@@ -4071,6 +4071,8 @@ social.threefoldeight.com CNAME .
 *.social.threefoldeight.com CNAME .
 mst.thumped.com CNAME .
 *.mst.thumped.com CNAME .
+nitter.tiekoetter.com CNAME .
+*.nitter.tiekoetter.com CNAME .
 tiktok.com CNAME .
 *.tiktok.com CNAME .
 tiktokcdn.com CNAME .
@@ -7219,6 +7221,10 @@ mastodon.spotek.io CNAME .
 *.mastodon.spotek.io CNAME .
 mastodon.studiocms.io CNAME .
 *.mastodon.studiocms.io CNAME .
+bsky-relay.c.theo.io CNAME .
+*.bsky-relay.c.theo.io CNAME .
+firehose3d.theo.io CNAME .
+*.firehose3d.theo.io CNAME .
 toot.io CNAME .
 *.toot.io CNAME .
 videos.tuist.io CNAME .
@@ -8713,6 +8719,8 @@ lemmy.monster CNAME .
 *.lemmy.monster CNAME .
 lolicon.monster CNAME .
 *.lolicon.monster CNAME .
+nitter.meowing.monster CNAME .
+*.nitter.meowing.monster CNAME .
 mogeko.monster CNAME .
 *.mogeko.monster CNAME .
 orphaned.monster CNAME .
@@ -10443,6 +10451,8 @@ tube.fsx.one CNAME .
 *.tube.fsx.one CNAME .
 hns.one CNAME .
 *.hns.one CNAME .
+nitter.kareem.one CNAME .
+*.nitter.kareem.one CNAME .
 mi.kyanos.one CNAME .
 *.mi.kyanos.one CNAME .
 larkspur.one CNAME .
@@ -11889,6 +11899,8 @@ infosec.place CNAME .
 *.infosec.place CNAME .
 nautilus.place CNAME .
 *.nautilus.place CNAME .
+ottawa.place CNAME .
+*.ottawa.place CNAME .
 pigeon.place CNAME .
 *.pigeon.place CNAME .
 purble.place CNAME .
@@ -15469,6 +15481,8 @@ facebookmail.tv CNAME .
 *.facebookmail.tv CNAME .
 fediverse.tv CNAME .
 *.fediverse.tv CNAME .
+firesky.tv CNAME .
+*.firesky.tv CNAME .
 friprogramvarusyndikatet.tv CNAME .
 *.friprogramvarusyndikatet.tv CNAME .
 garr.tv CNAME .
@@ -15563,6 +15577,8 @@ mn.statyvka.org.ua CNAME .
 *.mn.statyvka.org.ua CNAME .
 tube.statyvka.org.ua CNAME .
 *.tube.statyvka.org.ua CNAME .
+nitter.pp.ua CNAME .
+*.nitter.pp.ua CNAME .
 toots.pp.ua CNAME .
 *.toots.pp.ua CNAME .
 peertube.22f.uk CNAME .
@@ -15687,6 +15703,8 @@ things.uk CNAME .
 *.things.uk CNAME .
 whitespashe.uk CNAME .
 *.whitespashe.uk CNAME .
+xcopy.uk CNAME .
+*.xcopy.uk CNAME .
 bocchi.yorozu.uk CNAME .
 *.bocchi.yorozu.uk CNAME .
 social.reutlingen.university CNAME .
