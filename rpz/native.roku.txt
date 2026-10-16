@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790541240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792188540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Roku Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Sep 2026 20:34 UTC
-; Version: 2026.0927.2034.34
+; Last modified: 16 Oct 2026 22:09 UTC
+; Version: 2026.1016.2209.35
 ; Syntax: RPZ
-; Number of entries: 146
+; Number of entries: 114
 ;
 h4g3z1-native-roku.web.app CNAME .
 *.h4g3z1-native-roku.web.app CNAME .
@@ -72,30 +72,6 @@ logs.qa.ap.int.roku.com CNAME .
 *.logs.qa.ap.int.roku.com CNAME .
 ad.usw2.qa.ap.int.roku.com CNAME .
 *.ad.usw2.qa.ap.int.roku.com CNAME .
-ad.prod.rpay.int.roku.com CNAME .
-*.ad.prod.rpay.int.roku.com CNAME .
-ad-bl.prod.rpay.int.roku.com CNAME .
-*.ad-bl.prod.rpay.int.roku.com CNAME .
-ad-eng.prod.rpay.int.roku.com CNAME .
-*.ad-eng.prod.rpay.int.roku.com CNAME .
-ad-eng-pci.prod.rpay.int.roku.com CNAME .
-*.ad-eng-pci.prod.rpay.int.roku.com CNAME .
-ad-eng-pci-bl.prod.rpay.int.roku.com CNAME .
-*.ad-eng-pci-bl.prod.rpay.int.roku.com CNAME .
-ad-eng-bl.use1.prod.rpay.int.roku.com CNAME .
-*.ad-eng-bl.use1.prod.rpay.int.roku.com CNAME .
-ad-eng-pci-bl.use1.prod.rpay.int.roku.com CNAME .
-*.ad-eng-pci-bl.use1.prod.rpay.int.roku.com CNAME .
-ad-eng-bl.usw2.prod.rpay.int.roku.com CNAME .
-*.ad-eng-bl.usw2.prod.rpay.int.roku.com CNAME .
-ad-eng-pci-bl.usw2.prod.rpay.int.roku.com CNAME .
-*.ad-eng-pci-bl.usw2.prod.rpay.int.roku.com CNAME .
-ad.staging.rpay.int.roku.com CNAME .
-*.ad.staging.rpay.int.roku.com CNAME .
-ad-eng.staging.rpay.int.roku.com CNAME .
-*.ad-eng.staging.rpay.int.roku.com CNAME .
-ad-bl.usw2.staging.rpay.int.roku.com CNAME .
-*.ad-bl.usw2.staging.rpay.int.roku.com CNAME .
 logs.roku.com CNAME .
 *.logs.roku.com CNAME .
 blog-advertising.msc.roku.com CNAME .
@@ -116,14 +92,6 @@ advertising-v3.us-east-1.msc.roku.com CNAME .
 *.advertising-v3.us-east-1.msc.roku.com CNAME .
 blog-advertising-v2.us-east-1.msc.roku.com CNAME .
 *.blog-advertising-v2.us-east-1.msc.roku.com CNAME .
-ad-eng-pci-bl.geoproximity.rpay.roku.com CNAME .
-*.ad-eng-pci-bl.geoproximity.rpay.roku.com CNAME .
-ad-bl.geoproximity.staging.rpay.roku.com CNAME .
-*.ad-bl.geoproximity.staging.rpay.roku.com CNAME .
-ad-eng-bl.geoproximity.staging.rpay.roku.com CNAME .
-*.ad-eng-bl.geoproximity.staging.rpay.roku.com CNAME .
-ad-eng-pci-bl.geoproximity.staging.rpay.roku.com CNAME .
-*.ad-eng-pci-bl.geoproximity.staging.rpay.roku.com CNAME .
 assets.sr.roku.com CNAME .
 *.assets.sr.roku.com CNAME .
 item-tracking.dev.sr.roku.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791583200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792188300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 22:00 UTC
-; Version: 2026.1009.2200.19
+; Last modified: 16 Oct 2026 22:05 UTC
+; Version: 2026.1016.2205.52
 ; Syntax: RPZ
-; Number of entries: 894
+; Number of entries: 874
 ;
 h4g3z1-native-tiktok.web.app CNAME .
 *.h4g3z1-native-tiktok.web.app CNAME .
@@ -276,8 +276,6 @@ mcs-i18n.tiktok.com CNAME .
 *.mcs-i18n.tiktok.com CNAME .
 mcs-va.tiktok.com CNAME .
 *.mcs-va.tiktok.com CNAME .
-mssdk-i18n.tiktok.com CNAME .
-*.mssdk-i18n.tiktok.com CNAME .
 ads.us.tiktok.com CNAME .
 *.ads.us.tiktok.com CNAME .
 ads-ttp2.us.tiktok.com CNAME .
@@ -292,8 +290,6 @@ mcs.us.tiktok.com CNAME .
 *.mcs.us.tiktok.com CNAME .
 mcs-ttp2.us.tiktok.com CNAME .
 *.mcs-ttp2.us.tiktok.com CNAME .
-mssdk.us.tiktok.com CNAME .
-*.mssdk.us.tiktok.com CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
@@ -456,16 +452,6 @@ mon-va.tiktokv.com CNAME .
 *.mon-va.tiktokv.com CNAME .
 monbk.tiktokv.com CNAME .
 *.monbk.tiktokv.com CNAME .
-mssdk-i18n.tiktokv.com CNAME .
-*.mssdk-i18n.tiktokv.com CNAME .
-mssdk-phx.tiktokv.com CNAME .
-*.mssdk-phx.tiktokv.com CNAME .
-mssdk-ru.tiktokv.com CNAME .
-*.mssdk-ru.tiktokv.com CNAME .
-mssdk-sg.tiktokv.com CNAME .
-*.mssdk-sg.tiktokv.com CNAME .
-mssdk-va-useast2a.tiktokv.com CNAME .
-*.mssdk-va-useast2a.tiktokv.com CNAME .
 rtc-logger.tiktokv.com CNAME .
 *.rtc-logger.tiktokv.com CNAME .
 rtc-logger-i18n.tiktokv.com CNAME .
@@ -618,8 +604,6 @@ mcs.us.tiktokv.com CNAME .
 *.mcs.us.tiktokv.com CNAME .
 mon.us.tiktokv.com CNAME .
 *.mon.us.tiktokv.com CNAME .
-mssdk.us.tiktokv.com CNAME .
-*.mssdk.us.tiktokv.com CNAME .
 rtc-logger.us.tiktokv.com CNAME .
 *.rtc-logger.us.tiktokv.com CNAME .
 rtc-logger-ttp2.us.tiktokv.com CNAME .
@@ -752,8 +736,6 @@ mcs-ie.tiktokw.eu CNAME .
 *.mcs-ie.tiktokw.eu CNAME .
 mcs-ie2.tiktokw.eu CNAME .
 *.mcs-ie2.tiktokw.eu CNAME .
-mssdk.tiktokw.eu CNAME .
-*.mssdk.tiktokw.eu CNAME .
 ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
 analytics.us.tiktok.com.bytedance.akadns.net CNAME .
@@ -906,5 +888,3 @@ location.tiktokw.us CNAME .
 *.location.tiktokw.us CNAME .
 mcs.tiktokw.us CNAME .
 *.mcs.tiktokw.us CNAME .
-mssdk.tiktokw.us CNAME .
-*.mssdk.tiktokw.us CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791583440 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792188600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 22:04 UTC
-; Version: 2026.1009.2204.41
+; Last modified: 16 Oct 2026 22:10 UTC
+; Version: 2026.1016.2210.24
 ; Syntax: RPZ
-; Number of entries: 482
+; Number of entries: 488
 ;
 h4g3z1-native-vivo.web.app CNAME .
 *.h4g3z1-native-vivo.web.app CNAME .
@@ -122,6 +122,8 @@ asia-vpushort-stsdk.vivoglobal.com CNAME .
 *.asia-vpushort-stsdk.vivoglobal.com CNAME .
 br-p.vivoglobal.com CNAME .
 *.br-p.vivoglobal.com CNAME .
+cl-vcode-api.vivoglobal.com CNAME .
+*.cl-vcode-api.vivoglobal.com CNAME .
 cn-zh-ort-stsdk.vivoglobal.com CNAME .
 *.cn-zh-ort-stsdk.vivoglobal.com CNAME .
 cn-zh-prt-stsdk.vivoglobal.com CNAME .
@@ -306,6 +308,8 @@ kz-pnrt-stsdk.vivoglobal.com CNAME .
 *.kz-pnrt-stsdk.vivoglobal.com CNAME .
 kz-prt-stsdk.vivoglobal.com CNAME .
 *.kz-prt-stsdk.vivoglobal.com CNAME .
+kz-romsp-unifyconfig.vivoglobal.com CNAME .
+*.kz-romsp-unifyconfig.vivoglobal.com CNAME .
 kz-st-exappupgrade.vivoglobal.com CNAME .
 *.kz-st-exappupgrade.vivoglobal.com CNAME .
 kz-st-sl.vivoglobal.com CNAME .
@@ -316,6 +320,8 @@ kz-stsdk.vivoglobal.com CNAME .
 *.kz-stsdk.vivoglobal.com CNAME .
 kz-timesync.vivoglobal.com CNAME .
 *.kz-timesync.vivoglobal.com CNAME .
+kz-vcode-api.vivoglobal.com CNAME .
+*.kz-vcode-api.vivoglobal.com CNAME .
 kz-vcode-od.vivoglobal.com CNAME .
 *.kz-vcode-od.vivoglobal.com CNAME .
 kz-vcode-or.vivoglobal.com CNAME .
