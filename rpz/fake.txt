@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792139280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792159620 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 08:28 UTC
-; Version: 2026.1016.0828.41
+; Last modified: 16 Oct 2026 14:07 UTC
+; Version: 2026.1016.1407.15
 ; Syntax: RPZ
-; Number of entries: 34796
+; Number of entries: 34804
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -70,6 +70,8 @@ h4g3z1-fake.web.app CNAME .
 *.h4g3z1-fake.web.app CNAME .
 ledgerliveapps.web.app CNAME .
 *.ledgerliveapps.web.app CNAME .
+zyskoro.app CNAME .
+*.zyskoro.app CNAME .
 carboar.ar CNAME .
 *.carboar.ar CNAME .
 1euro.at CNAME .
@@ -10454,6 +10456,8 @@ iglangeh.com CNAME .
 *.iglangeh.com CNAME .
 igm-financial.com CNAME .
 *.igm-financial.com CNAME .
+igm-markets.com CNAME .
+*.igm-markets.com CNAME .
 igmholdings.com CNAME .
 *.igmholdings.com CNAME .
 ignitionmodelcars.com CNAME .
@@ -21248,6 +21252,8 @@ zweirad-handel.com CNAME .
 *.zweirad-handel.com CNAME .
 zwergspitzpomeranian.com CNAME .
 *.zwergspitzpomeranian.com CNAME .
+zycrian.com CNAME .
+*.zycrian.com CNAME .
 zyphorbit-at.com CNAME .
 *.zyphorbit-at.com CNAME .
 zyronpaneele.com CNAME .
@@ -30280,6 +30286,8 @@ zaradum.de CNAME .
 *.zaradum.de CNAME .
 zarah-boutique.de CNAME .
 *.zarah-boutique.de CNAME .
+zaralove.de CNAME .
+*.zaralove.de CNAME .
 zarana.de CNAME .
 *.zarana.de CNAME .
 zarbi.de CNAME .

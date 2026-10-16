@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792141380 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792161720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 09:03 UTC
-; Version: 2026.1016.0903.33
+; Last modified: 16 Oct 2026 14:42 UTC
+; Version: 2026.1016.1442.17
 ; Syntax: RPZ
-; Number of entries: 2148
+; Number of entries: 2162
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -546,6 +546,8 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
+jimdofree.com CNAME .
+*.jimdofree.com CNAME .
 kesug.com CNAME .
 *.kesug.com CNAME .
 kiluweb.com CNAME .
@@ -594,6 +596,8 @@ my5353.com CNAME .
 *.my5353.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
+myclickfunnels.com CNAME .
+*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
@@ -712,6 +716,8 @@ webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
 *.webaccess-email.com CNAME .
+webcindario.com CNAME .
+*.webcindario.com CNAME .
 webobo.com CNAME .
 *.webobo.com CNAME .
 webspawner.com CNAME .
@@ -1132,6 +1138,8 @@ gamer.gd CNAME .
 *.gamer.gd CNAME .
 page.gd CNAME .
 *.page.gd CNAME .
+rf.gd CNAME .
+*.rf.gd CNAME .
 work.gd CNAME .
 *.work.gd CNAME .
 24.gg CNAME .
@@ -1436,6 +1444,8 @@ blogspot.it CNAME .
 *.8.je CNAME .
 9.je CNAME .
 *.9.je CNAME .
+xo.je CNAME .
+*.xo.je CNAME .
 blogspot.jp CNAME .
 *.blogspot.jp CNAME .
 blogspot.co.ke CNAME .
@@ -1456,6 +1466,8 @@ de.ki CNAME .
 *.de.ki CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
+dothome.co.kr CNAME .
+*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .
@@ -1782,6 +1794,8 @@ zabc.net CNAME .
 *.zabc.net CNAME .
 aeza.network CNAME .
 *.aeza.network CNAME .
+free.nf CNAME .
+*.free.nf CNAME .
 us.nf CNAME .
 *.us.nf CNAME .
 blogspot.com.ng CNAME .

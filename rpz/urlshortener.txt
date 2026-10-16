@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792139460 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792159740 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 08:31 UTC
-; Version: 2026.1016.0831.38
+; Last modified: 16 Oct 2026 14:09 UTC
+; Version: 2026.1016.1409.36
 ; Syntax: RPZ
-; Number of entries: 19794
+; Number of entries: 19806
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1111,6 +1111,8 @@ yurl.bio CNAME .
 *.yurl.bio CNAME .
 zqq.bio CNAME .
 *.zqq.bio CNAME .
+zulu.bio CNAME .
+*.zulu.bio CNAME .
 ad7.biz CNAME .
 *.ad7.biz CNAME .
 anmeld.biz CNAME .
@@ -7627,6 +7629,8 @@ wssurl.com CNAME .
 *.wssurl.com CNAME .
 wtfurl.com CNAME .
 *.wtfurl.com CNAME .
+wuniw.com CNAME .
+*.wuniw.com CNAME .
 wurlz.com CNAME .
 *.wurlz.com CNAME .
 wwdurl.com CNAME .
@@ -11209,6 +11213,8 @@ wraply.io CNAME .
 *.wraply.io CNAME .
 wun.io CNAME .
 *.wun.io CNAME .
+wurl.io CNAME .
+*.wurl.io CNAME .
 xdomain.io CNAME .
 *.xdomain.io CNAME .
 xshort.io CNAME .
@@ -13021,6 +13027,8 @@ zhort.link CNAME .
 *.zhort.link CNAME .
 zik.link CNAME .
 *.zik.link CNAME .
+zip.link CNAME .
+*.zip.link CNAME .
 zipurl.link CNAME .
 *.zipurl.link CNAME .
 zotter.link CNAME .
@@ -14479,6 +14487,8 @@ wwy.me CNAME .
 *.wwy.me CNAME .
 x-d.me CNAME .
 *.x-d.me CNAME .
+x-i.me CNAME .
+*.x-i.me CNAME .
 x2y.me CNAME .
 *.x2y.me CNAME .
 xdu.me CNAME .
@@ -19779,6 +19789,8 @@ url.yousufraissi.xyz CNAME .
 *.url.yousufraissi.xyz CNAME .
 zeroshort.xyz CNAME .
 *.zeroshort.xyz CNAME .
+zonearcad.xyz CNAME .
+*.zonearcad.xyz CNAME .
 lkdg.yoga CNAME .
 *.lkdg.yoga CNAME .
 flu.yt CNAME .

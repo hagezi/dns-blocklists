@@ -135,7 +135,7 @@ A few lists don't follow this pattern, and a few come with extra technical requi
 
 **Lists that don't use the five standard formats**
 
-- **Most Abused TLDs** relies on exclusion rules that work differently from tool to tool. It ships as AdGuard, uBlock Origin, AdBlock, Wildcard Domains, and RPZ variants, with an aggressive/allowlist pair for the AdBlock and Wildcard formats, an aggressive variant for RPZ, and a ControlD folder.
+- **Most Abused TLDs** relies on exclusion rules that work differently from tool to tool. It ships as AdGuard, uBlock Origin, Adblock, Wildcard Domains, and RPZ variants, with an aggressive/allowlist pair for the Adblock format, a block/allowlist pair for Wildcard Domains, an aggressive variant for RPZ, and a ControlD folder.
 - **NRD/DGA** lists only come as Adblock and plain domain lists.
 - **DNS Rebind Protection** only works with AdGuard, AdGuard Home, and AdGuard DNS.
 - **DoH IPs** and **TIF IPs** are IP-level lists rather than domain lists.
@@ -168,7 +168,7 @@ A few lists in this collection sound similar or get recommended together, but th
 **Mini variants aren't a universal category, each one is a size-optimized cut of exactly one specific list:**
 
 - [Light](README.md#light) is the size-optimized version of **Normal**, it just isn't named "Normal Mini". Like the other size-optimized cuts, it only carries domains that also appear on the Top 1M/10M lists, which is why the [Fake](README.md#fake) list doesn't survive into it.
-- [Pro Mini](README.md#promini), [Pro++ Mini](README.md#proplusmini), and [Ultimate Mini](README.md#ultimatemini) are each a cut of that exact tier only, limited to domains that also appear on the Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, or DomCop Top 1M/10M lists.
+- [Pro Mini](README.md#promini), [Pro++ Mini](README.md#proplusmini), and [Ultimate Mini](README.md#ultimatemini) are each a cut of that exact tier only, limited to domains that also appear on the Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, or NetAPI Top 1M/10M lists.
 - [TIF Mini](README.md#tifmini) is a cut of **TIF Medium**, not the full TIF list directly.
 - [Gambling Mini](README.md#gamblingmini) is a cut of **Gambling Medium**, not the full Gambling list directly.
 - Light has no further mini version of its own, it's already the leanest tier in the Multi family.
@@ -287,7 +287,7 @@ Not every DNS provider offers every list. The services in this matrix let you pi
 Service availability, pricing, and plan limits can change. Check each provider's site for current details.
 
 > [!NOTE]
-> A few other free services bundle these lists with fixed presets instead of letting you pick individual versions: [HaGeZi DNS](https://github.com/hagezi/dns-servers) (EU resolvers running Pro + TIF), [DNSBUNKER.org](https://dnsbunker.org/) (Pro + TIF), [Public RDNS](https://public-rdns.com/) (aggressive, family-safe preset), [RobinGroppe.de](https://www.robingroppe.de/serverzeug/dns-server) (TIF only), and [OpenBLD.net](https://openbld.net/docs/get-started/third-party-filters/hagezi/) (Pro + TIF). Heads up: RethinkDNS only updates its copies once a week, so expect a bit of a lag compared to the source repository.
+> A few other free services bundle these lists with fixed presets instead of letting you pick individual versions: [HaGeZi DNS](https://github.com/hagezi/dns-servers) (EU resolvers running Pro + TIF, plus one TIF-only endpoint), [DNSBUNKER.org](https://dnsbunker.org/) (Pro + TIF), [Public RDNS](https://public-rdns.com/) (aggressive, family-safe preset), [RobinGroppe.de](https://www.robingroppe.de/serverzeug/dns-server) (TIF only), and [OpenBLD.net](https://openbld.net/docs/get-started/third-party-filters/hagezi/) (Pro + TIF). Heads up: RethinkDNS only updates its copies once a week, so expect a bit of a lag compared to the source repository.
 
 **[Back to top](#table-of-contents)**
 
@@ -504,8 +504,8 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 |:---|:---|
 | C2 server (command-and-control server) | A server attackers use to remotely control malware already running on infected devices. Threat Intelligence Feeds specifically target the domains these servers rely on. |
 | CAPTCHA | The "prove you're human" challenge some sites show before letting you through. Blocking location and IP trackers can make sites less certain about a visitor, which sometimes triggers extra CAPTCHAs, a known Ultimate side effect, see [section 2](#whatshouldiuse). |
-| Cisco Umbrella Top 1M | A ranking of the top 1 million most-visited domains, published by Cisco. It does double duty here: it's one of the seven ranking sources the build uses, and it's the basis for the roughly 10,000-page set the lists were tested against while they were developed, checking that pages, navigation, images, and videos still work correctly. That was a benchmark run, not something that repeats with every build. |
-| Cloudflare Radar / Netcraft / SpamHaus | Three threat-intelligence sources whose combined data feeds the Most Abused TLDs list: Cloudflare Radar tracks internet traffic and abuse trends, Netcraft specializes in phishing and fraud detection, and SpamHaus maintains reputation blocklists for spam and malware sources. Not to be confused with the plain "Cloudflare" domain ranking listed under "Top 1M list". |
+| Cisco Umbrella Top 1M | A ranking of the top 1 million most-visited domains, published by Cisco. It does double duty here: it's one of the eight ranking sources the build uses, and it's the basis for the roughly 10,000-page set the lists were tested against while they were developed, checking that pages, navigation, images, and videos still work correctly. That was a benchmark run, not something that repeats with every build. |
+| Cloudflare Radar / Netcraft / SpamHaus | Three threat-intelligence sources whose combined data feeds the Most Abused TLDs list: Cloudflare Radar tracks internet traffic and abuse trends, Netcraft specializes in phishing and fraud detection, and SpamHaus maintains reputation blocklists for spam and malware sources. Not to be confused with the "Cloudflare" entry under "Top 1M list": Cloudflare publishes that popularity ranking through Radar too, but it is a separate dataset and isn't used for the TLD list. |
 | CMP (Consent Management Platform/Provider) | The tech behind cookie consent pop-ups on websites, letting visitors choose what data a site can collect about them. Common examples include OneTrust, Cookiebot, and Usercentrics. |
 | CNAME cloaking | A trick where a tracker is reached through a harmless looking subdomain of the site you're visiting, which then points on to the tracker's real domain via a CNAME record. It's designed to look first-party so it slips past blocking that only checks the name you actually requested. The Blocklist Lookup follows these chains for you, see [section 12](#listlookup). |
 | ControlD | A free and paid online DNS resolver service offering Light, Normal, Pro, Pro++, Ultimate, and TIF without your own DNS server. Some categories are covered by ControlD's own native lists instead, and a few lists ship as importable ControlD folders, see [section 9](#availablelists). |
@@ -617,7 +617,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 |:---|:---|
 | Phishing | Scam attempts where fake websites or messages try to trick you into handing over passwords, banking details, or other sensitive info. |
 | Pi-hole | A popular, free, open-source tool for running your own DNS server at home that blocks ads and trackers network-wide, commonly installed on a Raspberry Pi. |
-| Preset DNS services | Free resolvers that ship these lists as a fixed combination rather than letting you pick individual versions: HaGeZi DNS and DNSBUNKER.org (Pro + TIF), OpenBLD.net (Pro + TIF), Public RDNS (aggressive, family-safe) and RobinGroppe.de (TIF only), see [section 9](#availablelists). |
+| Preset DNS services | Free resolvers that ship these lists as a fixed combination rather than letting you pick individual versions: HaGeZi DNS (Pro + TIF, plus one TIF-only endpoint), DNSBUNKER.org and OpenBLD.net (Pro + TIF), Public RDNS (aggressive, family-safe), and RobinGroppe.de (TIF only), see [section 9](#availablelists). |
 
 ### <a name="gl-q"></a>Q
 
@@ -654,7 +654,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | Telemetry / analytics | Usage and diagnostic data an app, site, or device sends back to its maker in the background. Closely related to metrics, and blocked from the Light tier upwards. |
 | TIF (Threat Intelligence Feeds) | A list built from security research sources that tracks domains actively known to be involved in malware, phishing, command-and-control servers, or other live threats. Worth adding on top of any tier, since none of the tiers include the full feed, see [section 2](#whatshouldiuse). Some TIF domains do get carried into the regular tiers during the build, which is why those tiers already cover part of the feed, see [section 11](#sources). |
 | TLD (Top-Level Domain) | The last segment of a domain name, like .com, .net, or a country code like .de. Some TLDs, like .top, .shop, or .gdn, get abused for spam or scams way more often than others. |
-| Top 1M list / Top 10M list | Rankings of the one million (or ten million) most-visited domains on the internet, used to identify domains with broad, observed use. Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, and DomCop each publish their own, and all seven feed into this project's build. Top 1M and Top 10M are usually named together as one combined ranking signal, see [section 11](#sources). |
+| Top 1M list / Top 10M list | Rankings of the one million (or ten million) most-visited domains on the internet, used to identify domains with broad, observed use. Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, and NetAPI each publish their own, and all eight feed into this project's build. Top 1M and Top 10M are usually named together as one combined ranking signal, see [section 11](#sources). The download links are in [Sources](sources.md#domain-rankings-and-reputation-data). |
 | Tor | An anonymity network that routes traffic through several relays, which also routes it around your DNS filtering. That's why it's covered by the Bypass Full list alongside VPN and proxy services. |
 | Tracker | Any domain whose job is to watch what you do, whether it belongs to an ad network, an analytics provider, or a device manufacturer. Blocking them is the main privacy purpose of these lists, and how far that blocking goes is what separates the tiers. |
 | Tranco | A research-oriented ranking of the top million websites, built by averaging several other popularity rankings over a 30-day period, making it more stable and harder to manipulate than a single-source ranking. |

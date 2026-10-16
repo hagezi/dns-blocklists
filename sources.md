@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 https://raw.githubusercontent.com/kalabic/dns-blocklists-share/refs/heads/main/share/ad-shield.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
-https://raw.githubusercontent.com/uBlockOrigin/uAssets//master/filters/ubol-filters.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubol-filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
@@ -205,6 +205,7 @@ https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
 https://gitlab.com/phishdestroy/destroylist/-/raw/main/dns/content_active.txt
 https://gitlab.com/phishdestroy/destroylist/-/raw/main/list.txt
 https://hole.cert.pl/domains/v2/domains.txt
+https://netapi.com/zf-api/f/compromised/domains/live/
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv
 https://raw.githubusercontent.com/DNSBunker/CTI/refs/heads/main/domains.txt
@@ -332,8 +333,25 @@ https://raw.githubusercontent.com/hectorm/hmirror/refs/heads/master/data/moliner
 
 ### Domain rankings and reputation data
 
-Not blocklists, but datasets the build uses to decide what belongs in a list. They're named here so the picture is complete, without download links, since most are subscription or research datasets rather than plain files.
+Not blocklists, but datasets the build uses to decide what belongs in a list.
 
-- **Top 1M/10M rankings** (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop) are the main selection signal for the Multi tiers and the basis for every size-optimized variant. They also make it possible to turn a wildcard or regular-expression rule into concrete domains safely, see the [FAQ](FAQ.md#sources).
+**Top 1M/10M rankings** are the main selection signal for the Multi tiers and the basis for every size-optimized variant. They also make it possible to turn a wildcard or regular-expression rule into concrete domains safely, see the [FAQ](FAQ.md#sources). These eight are used:
+
+| Ranking | Download |
+|:--------|:---------|
+| Umbrella | [top-1m.csv.zip](http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip) |
+| Cloudflare | [Cloudflare Radar top 1M](https://radar.cloudflare.com/charts/LargerTopDomainsTable/attachment?top=1000000) |
+| Tranco | [top-1m.csv.zip](https://tranco-list.eu/top-1m.csv.zip) |
+| Chrome | [current.csv.gz](https://raw.githubusercontent.com/zakird/crux-top-lists/main/data/global/current.csv.gz) |
+| BuiltWith | [builtwith-top1m.zip](https://builtwith.com/dl/builtwith-top1m.zip) |
+| Majestic | [majestic_million.csv](https://downloads.majestic.com/majestic_million.csv) |
+| DomCop | [top10milliondomains.csv.zip](https://openpagerank.keywordseverywhere.com/downloads/top10milliondomains.csv.zip) |
+| NetAPI | [netapi_top1mln.csv](https://netapi.com/netapi_top1mln.csv) |
+
+> [!NOTE]
+> The NetAPI ranking is published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Credit: [NetAPI Top 1 Million Websites](https://netapi.com/top-1-mln-websites/).
+
+The rest of this section isn't linked, since it's reputation data or a one-off benchmark set rather than a plain download:
+
 - Reputation data from **Cloudflare Radar, Netcraft, and SpamHaus** decides which top-level domains end up on the Most Abused TLDs list.
 - **whotracks.me** and the Cisco Umbrella ranking provide the roughly 10,000-page set the lists were tested against while they were developed, to check that normal browsing still works. That's a benchmark run, not a step in the regular build.
