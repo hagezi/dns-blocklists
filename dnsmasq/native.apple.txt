@@ -5,21 +5,23 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 02 Oct 2026 22:03 UTC
-# Version: 2026.1002.2203.56
+# Last modified: 17 Oct 2026 18:53 UTC
+# Version: 2026.1017.1853.28
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 106
+# Number of entries: 110
 #
 local=/cstat.g.aaplimg.com/
 local=/diagassets.g.aaplimg.com/
 local=/cdn-xp-ingest-ab.v.aaplimg.com/
 local=/iphonesubmissions.v.aaplimg.com/
+local=/prod-app-analytics-event-gateway.v.aaplimg.com/
 local=/prod-event-relay-api.v.aaplimg.com/
 local=/prod-event-relay-books-api.v.aaplimg.com/
 local=/prod-event-relay-notes-api.v.aaplimg.com/
 local=/prod-event-relay-sports-api.v.aaplimg.com/
 local=/prod-event-relay-stocks-api.v.aaplimg.com/
 local=/prod-event-relay-weather-api.v.aaplimg.com/
+local=/prod-iwork-events.v.aaplimg.com/
 local=/prod-news-notification-events.v.aaplimg.com/
 local=/securemetrics.v.aaplimg.com/
 local=/securemetrics-cn.v.aaplimg.com/
@@ -36,6 +38,7 @@ local=/partiality.itunes-apple.com.akadns.net/
 local=/searchads.lb-apple.com.akadns.net/
 local=/iad-apple.com.akadns.net/
 local=/aios-otel-collector.g.apple.com/
+local=/app-events.infoapps.apple.com/
 local=/partiality.itunes.apple.com/
 local=/msc-dct-prod.msc.apple.com/
 local=/fbs.smoot.apple.com/
@@ -54,6 +57,7 @@ local=/diagnostics.apple.com/
 local=/dz1dt3wqswdezgx4j2ryem5iad.apple.com/
 local=/experiments.apple.com/
 local=/flirfvysba2opz0zmzqs5iuiad.apple.com/
+local=/freeform-events.apple.com/
 local=/graffiti-tags.apple.com/
 local=/iad.apple.com/
 local=/iadcontent.apple.com/
