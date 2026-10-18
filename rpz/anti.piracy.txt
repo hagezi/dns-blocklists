@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792280040 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792315680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Oct 2026 23:34 UTC
-; Version: 2026.1017.2334.53
+; Last modified: 18 Oct 2026 09:28 UTC
+; Version: 2026.1018.0928.42
 ; Syntax: RPZ
-; Number of entries: 112774
+; Number of entries: 112780
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -452,6 +452,8 @@ netmirrorapkz.app CNAME .
 *.netmirrorapkz.app CNAME .
 newhdmovie2.app CNAME .
 *.newhdmovie2.app CNAME .
+nexanime.app CNAME .
+*.nexanime.app CNAME .
 novatv.app CNAME .
 *.novatv.app CNAME .
 olamovies.app CNAME .
@@ -21878,6 +21880,8 @@ youngatheart.com CNAME .
 *.youngatheart.com CNAME .
 youpornbook.com CNAME .
 *.youpornbook.com CNAME .
+youranimebox.com CNAME .
+*.youranimebox.com CNAME .
 youranimerank.com CNAME .
 *.youranimerank.com CNAME .
 yourbittorrent.com CNAME .
@@ -42368,6 +42372,8 @@ frenchstreamtv.live CNAME .
 *.frenchstreamtv.live CNAME .
 fullmoviez.live CNAME .
 *.fullmoviez.live CNAME .
+futbollibree.live CNAME .
+*.futbollibree.live CNAME .
 futbollibres.live CNAME .
 *.futbollibres.live CNAME .
 futplayhd.live CNAME .
