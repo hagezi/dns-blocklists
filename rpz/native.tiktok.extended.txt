@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791583260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792402020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Oct 2026 22:01 UTC
-; Version: 2026.1009.2201.32
+; Last modified: 19 Oct 2026 09:27 UTC
+; Version: 2026.1019.0927.44
 ; Syntax: RPZ
-; Number of entries: 1226
+; Number of entries: 1248
 ;
 h4g3z1-native-tiktok-extended.web.app CNAME .
 *.h4g3z1-native-tiktok-extended.web.app CNAME .
@@ -164,6 +164,14 @@ tnc-va.capcutapi.com CNAME .
 *.tnc-va.capcutapi.com CNAME .
 tnc-va-us-looki.capcutapi.com CNAME .
 *.tnc-va-us-looki.capcutapi.com CNAME .
+p16-ttam-sg.ibyteimg.com CNAME .
+*.p16-ttam-sg.ibyteimg.com CNAME .
+p16-ttam-va.ibyteimg.com CNAME .
+*.p16-ttam-va.ibyteimg.com CNAME .
+p19-ttam-sg.ibyteimg.com CNAME .
+*.p19-ttam-sg.ibyteimg.com CNAME .
+p19-ttam-va.ibyteimg.com CNAME .
+*.p19-ttam-va.ibyteimg.com CNAME .
 abtest-ch.snssdk.com CNAME .
 *.abtest-ch.snssdk.com CNAME .
 analytics.snssdk.com CNAME .
@@ -314,10 +322,18 @@ mssdk.us.tiktok.com CNAME .
 *.mssdk.us.tiktok.com CNAME .
 p16-tiktok-ads-sg.tiktokcdn.com CNAME .
 *.p16-tiktok-ads-sg.tiktokcdn.com CNAME .
+p16-ttam-va.tiktokcdn.com CNAME .
+*.p16-ttam-va.tiktokcdn.com CNAME .
+p19-ttam-va.tiktokcdn.com CNAME .
+*.p19-ttam-va.tiktokcdn.com CNAME .
 sf16-ads-format-sign.tiktokcdn.com CNAME .
 *.sf16-ads-format-sign.tiktokcdn.com CNAME .
 sf19-ads-format-sign.tiktokcdn.com CNAME .
 *.sf19-ads-format-sign.tiktokcdn.com CNAME .
+p16-ttam.tiktokcdn-us.com CNAME .
+*.p16-ttam.tiktokcdn-us.com CNAME .
+p19-ttam.tiktokcdn-us.com CNAME .
+*.p19-ttam.tiktokcdn-us.com CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
@@ -780,6 +796,12 @@ tnc31-platform-useast2a.tiktokv.com CNAME .
 *.tnc31-platform-useast2a.tiktokv.com CNAME .
 tnc58-platform-ycru.tiktokv.com CNAME .
 *.tnc58-platform-ycru.tiktokv.com CNAME .
+ugattribution-i18n.tiktokv.com CNAME .
+*.ugattribution-i18n.tiktokv.com CNAME .
+ugattribution-ru.tiktokv.com CNAME .
+*.ugattribution-ru.tiktokv.com CNAME .
+ugattribution-sg.tiktokv.com CNAME .
+*.ugattribution-sg.tiktokv.com CNAME .
 location.us.tiktokv.com CNAME .
 *.location.us.tiktokv.com CNAME .
 location-ttp2.us.tiktokv.com CNAME .

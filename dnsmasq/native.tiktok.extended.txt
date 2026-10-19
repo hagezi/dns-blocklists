@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 09 Oct 2026 22:01 UTC
-# Version: 2026.1009.2201.32
+# Last modified: 19 Oct 2026 09:27 UTC
+# Version: 2026.1019.0927.44
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 613
+# Number of entries: 624
 #
 local=/analytics.us.tiktok.com.bytedance.akadns.net/
 local=/p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net/
@@ -170,6 +170,10 @@ local=/analytics-ipv6.tiktokw.us.edgesuite.net/
 local=/analytics16-normal-useast5.tiktokw.us.edgesuite.net/
 local=/analytics16-normal-useast8.tiktokw.us.edgesuite.net/
 local=/mcs.tiktokw.us.edgesuite.net/
+local=/p16-ttam-sg.ibyteimg.com/
+local=/p16-ttam-va.ibyteimg.com/
+local=/p19-ttam-sg.ibyteimg.com/
+local=/p19-ttam-va.ibyteimg.com/
 local=/abtest-ch.snssdk.com/
 local=/analytics.snssdk.com/
 local=/applog.snssdk.com/
@@ -250,8 +254,12 @@ local=/mssdk-va.tiktok.com/
 local=/ad-union-i18n-api.tos-sg.tiktok-row.org/
 local=/mcs.tiktok-row.net/
 local=/p16-tiktok-ads-sg.tiktokcdn.com/
+local=/p16-ttam-va.tiktokcdn.com/
+local=/p19-ttam-va.tiktokcdn.com/
 local=/sf16-ads-format-sign.tiktokcdn.com/
 local=/sf19-ads-format-sign.tiktokcdn.com/
+local=/p16-ttam.tiktokcdn-us.com/
+local=/p19-ttam.tiktokcdn-us.com/
 local=/sf16-telemetry-proxy-oci.tiktokcdn-us.com/
 local=/location.us.tiktokv.com/
 local=/location-ttp2.us.tiktokv.com/
@@ -569,6 +577,9 @@ local=/tnc31-platform-alisg.tiktokv.com/
 local=/tnc31-platform-useast1a.tiktokv.com/
 local=/tnc31-platform-useast2a.tiktokv.com/
 local=/tnc58-platform-ycru.tiktokv.com/
+local=/ugattribution-i18n.tiktokv.com/
+local=/ugattribution-ru.tiktokv.com/
+local=/ugattribution-sg.tiktokv.com/
 local=/xlog.tiktokv.com/
 local=/xlog-ru.tiktokv.com/
 local=/xlog-va.tiktokv.com/
