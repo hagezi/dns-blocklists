@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792187880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792421340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks - blocks access to social networks!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 21:58 UTC
-; Version: 2026.1016.2158.54
+; Last modified: 19 Oct 2026 14:49 UTC
+; Version: 2026.1019.1449.26
 ; Syntax: RPZ
-; Number of entries: 16490
+; Number of entries: 16494
 ;
 4erd.ac CNAME .
 *.4erd.ac CNAME .
@@ -4051,6 +4051,8 @@ mstdn.thndl.com CNAME .
 *.mstdn.thndl.com CNAME .
 toot.thoughtworks.com CNAME .
 *.toot.thoughtworks.com CNAME .
+threads.com CNAME .
+*.threads.com CNAME .
 social.threefoldeight.com CNAME .
 *.social.threefoldeight.com CNAME .
 mst.thumped.com CNAME .
@@ -9855,6 +9857,8 @@ mk.therwi.net CNAME .
 *.mk.therwi.net CNAME .
 social.thetaits.net CNAME .
 *.social.thetaits.net CNAME .
+threads.net CNAME .
+*.threads.net CNAME .
 yuzzzkey.tiekayo.net CNAME .
 *.yuzzzkey.tiekayo.net CNAME .
 peertube.tiennot.net CNAME .

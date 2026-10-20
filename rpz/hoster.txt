@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792399620 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792485060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Oct 2026 08:47 UTC
-; Version: 2026.1019.0847.50
+; Last modified: 20 Oct 2026 08:31 UTC
+; Version: 2026.1020.0831.58
 ; Syntax: RPZ
-; Number of entries: 2164
+; Number of entries: 2170
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -376,6 +376,8 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
+sitebeat.crazydomains.com CNAME .
+*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 ctempurl.com CNAME .
@@ -1890,6 +1892,8 @@ urest.org CNAME .
 *.urest.org CNAME .
 v0r.org CNAME .
 *.v0r.org CNAME .
+yi.org CNAME .
+*.yi.org CNAME .
 glide.page CNAME .
 *.glide.page CNAME .
 mmm.page CNAME .
@@ -2026,6 +2030,8 @@ dik.si CNAME .
 *.dik.si CNAME .
 company.site CNAME .
 *.company.site CNAME .
+studio.site CNAME .
+*.studio.site CNAME .
 temporary.site CNAME .
 *.temporary.site CNAME .
 temporary-demo.site CNAME .
