@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792488420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792509720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Oct 2026 09:27 UTC
-; Version: 2026.1020.0927.49
+; Last modified: 20 Oct 2026 15:22 UTC
+; Version: 2026.1020.1522.49
 ; Syntax: RPZ
-; Number of entries: 113284
+; Number of entries: 113290
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -83976,10 +83976,14 @@ netffllux-lordfilms.ru CNAME .
 *.netffllux-lordfilms.ru CNAME .
 netfliiks-lordserially.ru CNAME .
 *.netfliiks-lordserially.ru CNAME .
+netflix-lordfilm.ru CNAME .
+*.netflix-lordfilm.ru CNAME .
 netflix-lordfilm-online.ru CNAME .
 *.netflix-lordfilm-online.ru CNAME .
 netflixe-lordfilm.ru CNAME .
 *.netflixe-lordfilm.ru CNAME .
+netflixmovies-lordfilm.ru CNAME .
+*.netflixmovies-lordfilm.ru CNAME .
 netplayz.ru CNAME .
 *.netplayz.ru CNAME .
 nettffllux-lordfilms.ru CNAME .
@@ -99446,6 +99450,8 @@ yesmovies.show CNAME .
 *.yesmovies.show CNAME .
 123movies.si CNAME .
 *.123movies.si CNAME .
+9anime.si CNAME .
+*.9anime.si CNAME .
 animepace.si CNAME .
 *.animepace.si CNAME .
 coflix.si CNAME .

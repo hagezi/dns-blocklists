@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792490040 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792510680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Oct 2026 09:54 UTC
-; Version: 2026.1020.0954.35
+; Last modified: 20 Oct 2026 15:38 UTC
+; Version: 2026.1020.1538.09
 ; Syntax: RPZ
-; Number of entries: 32578
+; Number of entries: 32580
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -12721,6 +12721,8 @@ shoresilo.com CNAME .
 *.shoresilo.com CNAME .
 shoretoad.com CNAME .
 *.shoretoad.com CNAME .
+shorevpn.com CNAME .
+*.shorevpn.com CNAME .
 shorevulture.com CNAME .
 *.shorevulture.com CNAME .
 adguard.shoupperuser.com CNAME .
