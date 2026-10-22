@@ -15,6 +15,7 @@ The grouping below is a rough guide to what each source mainly contributes. Plen
 Broad ad and tracker lists that aren't tied to one country or language. These are the backbone of the Multi tiers.
 
 ```
+https://codeberg.org/rasping532/rasping532-filters/raw/branch/main/privacy/exact-domain-block.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/01_ad.txt
 https://easylist-downloads.adblockplus.org/easylist.txt
 https://easylist-downloads.adblockplus.org/easyprivacy.txt
@@ -65,7 +66,6 @@ https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 https://raw.githubusercontent.com/kalabic/dns-blocklists-share/refs/heads/main/share/ad-shield.txt
 https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubol-filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
@@ -76,6 +76,7 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-20
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubol-filters.txt
 https://secure.fanboy.co.nz/fanboy-agegate.txt
 ```
 
@@ -327,6 +328,7 @@ Sources that cover several categories at once or don't map cleanly onto one of t
 ```
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://big.oisd.nl
+https://codeberg.org/rasping532/rasping532-filters/raw/branch/main/get-paid-to-tasks/exact-domain-block.txt
 https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt
 https://raw.githubusercontent.com/hectorm/hmirror/refs/heads/master/data/molinero.dev/list.txt
 ```

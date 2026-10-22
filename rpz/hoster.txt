@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792485060 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792657680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Oct 2026 08:31 UTC
-; Version: 2026.1020.0831.58
+; Last modified: 22 Oct 2026 08:28 UTC
+; Version: 2026.1022.0828.53
 ; Syntax: RPZ
-; Number of entries: 2170
+; Number of entries: 2176
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -560,6 +560,8 @@ launchaco.com CNAME .
 *.launchaco.com CNAME .
 leechall.com CNAME .
 *.leechall.com CNAME .
+liftmyresume.com CNAME .
+*.liftmyresume.com CNAME .
 lihi1.com CNAME .
 *.lihi1.com CNAME .
 list-mgmt.com CNAME .
@@ -606,6 +608,8 @@ myftpupload.com CNAME .
 *.myftpupload.com CNAME .
 myfunnelish.com CNAME .
 *.myfunnelish.com CNAME .
+myportfolio.com CNAME .
+*.myportfolio.com CNAME .
 mypressonline.com CNAME .
 *.mypressonline.com CNAME .
 mystrikingly.com CNAME .
@@ -1964,6 +1968,8 @@ corolain.ru CNAME .
 *.corolain.ru CNAME .
 hop.ru CNAME .
 *.hop.ru CNAME .
+justns.ru CNAME .
+*.justns.ru CNAME .
 logomebel.ru CNAME .
 *.logomebel.ru CNAME .
 nethouse.ru CNAME .
