@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792657680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792708500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Oct 2026 08:28 UTC
-; Version: 2026.1022.0828.53
+; Last modified: 22 Oct 2026 22:35 UTC
+; Version: 2026.1022.2235.02
 ; Syntax: RPZ
-; Number of entries: 2176
+; Number of entries: 2182
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -574,6 +574,8 @@ lovestoblog.com CNAME .
 *.lovestoblog.com CNAME .
 luzzati.com CNAME .
 *.luzzati.com CNAME .
+m-pages.com CNAME .
+*.m-pages.com CNAME .
 maddsites.com CNAME .
 *.maddsites.com CNAME .
 maminforum.com CNAME .
@@ -712,6 +714,8 @@ usafreespace.com CNAME .
 *.usafreespace.com CNAME .
 usclargo.com CNAME .
 *.usclargo.com CNAME .
+usrfiles.com CNAME .
+*.usrfiles.com CNAME .
 vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
@@ -1054,6 +1058,8 @@ zx9.de CNAME .
 *.zx9.de CNAME .
 edgeone.dev CNAME .
 *.edgeone.dev CNAME .
+hashnode.dev CNAME .
+*.hashnode.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
 chat.dj CNAME .
