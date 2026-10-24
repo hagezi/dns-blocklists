@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792708500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792795200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Oct 2026 22:35 UTC
-; Version: 2026.1022.2235.02
+; Last modified: 23 Oct 2026 22:40 UTC
+; Version: 2026.1023.2240.20
 ; Syntax: RPZ
-; Number of entries: 2182
+; Number of entries: 2178
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -380,8 +380,6 @@ sitebeat.crazydomains.com CNAME .
 *.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
-ctempurl.com CNAME .
-*.ctempurl.com CNAME .
 cutedrive.com CNAME .
 *.cutedrive.com CNAME .
 cyberbree.com CNAME .
@@ -1672,8 +1670,6 @@ sitey.me CNAME .
 *.sitey.me CNAME .
 social-networking.me CNAME .
 *.social-networking.me CNAME .
-testingnow.me CNAME .
-*.testingnow.me CNAME .
 ukit.me CNAME .
 *.ukit.me CNAME .
 unesa.me CNAME .

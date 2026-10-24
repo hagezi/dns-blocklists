@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792188120 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792792680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 22:02 UTC
-; Version: 2026.1016.2202.25
+; Last modified: 23 Oct 2026 21:58 UTC
+; Version: 2026.1023.2158.06
 ; Syntax: RPZ
 ; Number of entries: 736
 ;
@@ -568,8 +568,8 @@ assoc-amazon.de CNAME .
 *.assoc-amazon.de CNAME .
 advertising.amazon.dev CNAME .
 *.advertising.amazon.dev CNAME .
-api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
-*.api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+*.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
 metrics.eu-south-2.iris.apx.amazon.dev CNAME .
 *.metrics.eu-south-2.iris.apx.amazon.dev CNAME .
 metrics.eu-west-1.iris.apx.amazon.dev CNAME .
