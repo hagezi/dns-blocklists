@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792835100 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792969020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Oct 2026 09:45 UTC
-; Version: 2026.1024.0945.45
+; Last modified: 25 Oct 2026 22:57 UTC
+; Version: 2026.1025.2257.11
 ; Syntax: RPZ
-; Number of entries: 6568
+; Number of entries: 6554
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1225,8 +1225,6 @@ dns.juancamos.com CNAME .
 *.dns.juancamos.com CNAME .
 dns.jupitrdns.com CNAME .
 *.dns.jupitrdns.com CNAME .
-jp01.just-a-web.com CNAME .
-*.jp01.just-a-web.com CNAME .
 sgs02.just-a-web.com CNAME .
 *.sgs02.just-a-web.com CNAME .
 ad.justincounts.com CNAME .
@@ -2227,8 +2225,6 @@ eka.dilli.dev CNAME .
 *.eka.dilli.dev CNAME .
 f4ckdns.dl4mt.dev CNAME .
 *.f4ckdns.dl4mt.dev CNAME .
-adguard.duongphuckhanh.dev CNAME .
-*.adguard.duongphuckhanh.dev CNAME .
 dns.edison42.dev CNAME .
 *.dns.edison42.dev CNAME .
 ejaysss.dev CNAME .
@@ -2635,8 +2631,6 @@ com.you-seen.fr CNAME .
 *.com.you-seen.fr CNAME .
 dns.zarchbox.fr CNAME .
 *.dns.zarchbox.fr CNAME .
-318341906.fun CNAME .
-*.318341906.fun CNAME .
 adfiltro.fun CNAME .
 *.adfiltro.fun CNAME .
 dns.auapi.fun CNAME .
@@ -5047,8 +5041,6 @@ cdn.refined.pro CNAME .
 *.cdn.refined.pro CNAME .
 adguard.app.sabino.pro CNAME .
 *.adguard.app.sabino.pro CNAME .
-tr.skrsteam.pro CNAME .
-*.tr.skrsteam.pro CNAME .
 doh.xcom.pro CNAME .
 *.doh.xcom.pro CNAME .
 xiaoxie.pro CNAME .
@@ -5423,8 +5415,6 @@ adghome.ru CNAME .
 *.adghome.ru CNAME .
 admir21.ru CNAME .
 *.admir21.ru CNAME .
-alon93rus.ru CNAME .
-*.alon93rus.ru CNAME .
 link.altapo.ru CNAME .
 *.link.altapo.ru CNAME .
 dns.amigo-mgn.ru CNAME .
@@ -6079,8 +6069,6 @@ adguard.discounthost.co.uk CNAME .
 *.adguard.discounthost.co.uk CNAME .
 dns.gayanalysing.co.uk CNAME .
 *.dns.gayanalysing.co.uk CNAME .
-dns.hashemlabs.co.uk CNAME .
-*.dns.hashemlabs.co.uk CNAME .
 guard.lumusimc.co.uk CNAME .
 *.guard.lumusimc.co.uk CNAME .
 dns.neilzone.co.uk CNAME .
@@ -6409,8 +6397,6 @@ adguard.altgr.xyz CNAME .
 *.adguard.altgr.xyz CNAME .
 andrewnw.xyz CNAME .
 *.andrewnw.xyz CNAME .
-andy123123.xyz CNAME .
-*.andy123123.xyz CNAME .
 filter.badbotdev.xyz CNAME .
 *.filter.badbotdev.xyz CNAME .
 safe-guard.badbotdev.xyz CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792791480 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792964160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Oct 2026 21:38 UTC
-; Version: 2026.1023.2138.32
+; Last modified: 25 Oct 2026 21:36 UTC
+; Version: 2026.1025.2136.01
 ; Syntax: RPZ
-; Number of entries: 19838
+; Number of entries: 19844
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4061,6 +4061,8 @@ djo924.com CNAME .
 *.djo924.com CNAME .
 djurl.com CNAME .
 *.djurl.com CNAME .
+dl-rms.com CNAME .
+*.dl-rms.com CNAME .
 dmprd.com CNAME .
 *.dmprd.com CNAME .
 dmvrenew.com CNAME .
@@ -4081,6 +4083,8 @@ domainul.com CNAME .
 *.domainul.com CNAME .
 doonor.com CNAME .
 *.doonor.com CNAME .
+doshopify.com CNAME .
+*.doshopify.com CNAME .
 dostupevent.com CNAME .
 *.dostupevent.com CNAME .
 dotalink.com CNAME .
@@ -13917,6 +13921,8 @@ hrbl.me CNAME .
 *.hrbl.me CNAME .
 hurl.me CNAME .
 *.hurl.me CNAME .
+ib4.me CNAME .
+*.ib4.me CNAME .
 ichini.me CNAME .
 *.ichini.me CNAME .
 ictv.me CNAME .
