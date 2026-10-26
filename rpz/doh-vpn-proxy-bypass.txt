@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793009220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793033160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 26 Oct 2026 10:07 UTC
-; Version: 2026.1026.1007.25
+; Last modified: 26 Oct 2026 16:46 UTC
+; Version: 2026.1026.1646.42
 ; Syntax: RPZ
-; Number of entries: 32524
+; Number of entries: 32520
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -18109,8 +18109,6 @@ lurk.info CNAME .
 *.lurk.info CNAME .
 ir.lv223.info CNAME .
 *.ir.lv223.info CNAME .
-code.magli200.info CNAME .
-*.code.magli200.info CNAME .
 web3.magli200.info CNAME .
 *.web3.magli200.info CNAME .
 mailproxy.info CNAME .
@@ -30477,8 +30475,6 @@ vasle.goooalir.co.uk CNAME .
 *.vasle.goooalir.co.uk CNAME .
 for.you.goooalir.co.uk CNAME .
 *.for.you.goooalir.co.uk CNAME .
-code.graduat.co.uk CNAME .
-*.code.graduat.co.uk CNAME .
 web3.graduat.co.uk CNAME .
 *.web3.graduat.co.uk CNAME .
 ir.groundfloorsolutions.co.uk CNAME .

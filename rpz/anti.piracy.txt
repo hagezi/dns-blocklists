@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793008500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793032440 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 26 Oct 2026 09:55 UTC
-; Version: 2026.1026.0955.44
+; Last modified: 26 Oct 2026 16:34 UTC
+; Version: 2026.1026.1634.57
 ; Syntax: RPZ
-; Number of entries: 114928
+; Number of entries: 114926
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -112590,8 +112590,6 @@ fmovies-new.xyz CNAME .
 *.fmovies-new.xyz CNAME .
 fmovies-ru.xyz CNAME .
 *.fmovies-ru.xyz CNAME .
-fmovies-to.xyz CNAME .
-*.fmovies-to.xyz CNAME .
 fmovies1.xyz CNAME .
 *.fmovies1.xyz CNAME .
 fmovies123.xyz CNAME .
