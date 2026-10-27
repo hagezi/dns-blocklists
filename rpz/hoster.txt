@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792795200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793093460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Oct 2026 22:40 UTC
-; Version: 2026.1023.2240.20
+; Last modified: 27 Oct 2026 09:31 UTC
+; Version: 2026.1027.0931.37
 ; Syntax: RPZ
-; Number of entries: 2178
+; Number of entries: 2176
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -572,8 +572,6 @@ lovestoblog.com CNAME .
 *.lovestoblog.com CNAME .
 luzzati.com CNAME .
 *.luzzati.com CNAME .
-m-pages.com CNAME .
-*.m-pages.com CNAME .
 maddsites.com CNAME .
 *.maddsites.com CNAME .
 maminforum.com CNAME .
@@ -712,8 +710,6 @@ usafreespace.com CNAME .
 *.usafreespace.com CNAME .
 usclargo.com CNAME .
 *.usclargo.com CNAME .
-usrfiles.com CNAME .
-*.usrfiles.com CNAME .
 vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
@@ -1702,6 +1698,8 @@ cableonline.com.mx CNAME .
 *.cableonline.com.mx CNAME .
 blogspot.my CNAME .
 *.blogspot.my CNAME .
+domain.name CNAME .
+*.domain.name CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .
