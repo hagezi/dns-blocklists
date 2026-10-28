@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793181720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793204280 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 28 Oct 2026 10:02 UTC
-; Version: 2026.1028.1002.49
+; Last modified: 28 Oct 2026 16:18 UTC
+; Version: 2026.1028.1618.00
 ; Syntax: RPZ
-; Number of entries: 115310
+; Number of entries: 115312
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -11508,6 +11508,8 @@ anime7u.com CNAME .
 *.anime7u.com CNAME .
 animeblix.com CNAME .
 *.animeblix.com CNAME .
+animebourse.com CNAME .
+*.animebourse.com CNAME .
 animebw.com CNAME .
 *.animebw.com CNAME .
 animechiby.com CNAME .

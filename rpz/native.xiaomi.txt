@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790541420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793195220 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Sep 2026 20:37 UTC
-; Version: 2026.0927.2037.15
+; Last modified: 28 Oct 2026 13:47 UTC
+; Version: 2026.1028.1347.26
 ; Syntax: RPZ
-; Number of entries: 690
+; Number of entries: 700
 ;
 h4g3z1-native-xiaomi.web.app CNAME .
 *.h4g3z1-native-xiaomi.web.app CNAME .
@@ -324,6 +324,8 @@ extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
 *.extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
 ad.eu.xiaomi.com CNAME .
 *.ad.eu.xiaomi.com CNAME .
+sdkconfig.eu.xiaomi.com CNAME .
+*.sdkconfig.eu.xiaomi.com CNAME .
 cdn.exp.xiaomi.com CNAME .
 *.cdn.exp.xiaomi.com CNAME .
 data.game.xiaomi.com CNAME .
@@ -384,6 +386,8 @@ controller.india.xiaomi.com CNAME .
 *.controller.india.xiaomi.com CNAME .
 mistat.india.xiaomi.com CNAME .
 *.mistat.india.xiaomi.com CNAME .
+sdkconfig.india.xiaomi.com CNAME .
+*.sdkconfig.india.xiaomi.com CNAME .
 sys.tv.india.xiaomi.com CNAME .
 *.sys.tv.india.xiaomi.com CNAME .
 api.installer.xiaomi.com CNAME .
@@ -396,6 +400,8 @@ globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
+sdkconfig.intl.xiaomi.com CNAME .
+*.sdkconfig.intl.xiaomi.com CNAME .
 in-miuilog.sms.intl.xiaomi.com CNAME .
 *.in-miuilog.sms.intl.xiaomi.com CNAME .
 sys.intl.xiaomi.com CNAME .
@@ -588,6 +594,10 @@ ad.rus.xiaomi.com CNAME .
 *.ad.rus.xiaomi.com CNAME .
 mistat.rus.xiaomi.com CNAME .
 *.mistat.rus.xiaomi.com CNAME .
+sdkconfig.rus.xiaomi.com CNAME .
+*.sdkconfig.rus.xiaomi.com CNAME .
+sdkconfig.xiaomi.com CNAME .
+*.sdkconfig.xiaomi.com CNAME .
 api.miui.security.xiaomi.com CNAME .
 *.api.miui.security.xiaomi.com CNAME .
 ssp.xiaomi.com CNAME .

@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 27 Sep 2026 20:37 UTC
-# Version: 2026.0927.2037.15
+# Last modified: 28 Oct 2026 13:47 UTC
+# Version: 2026.1028.1347.26
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 345
+# Number of entries: 350
 #
 local=/traffic-media.co.uk/
 local=/mistat.india.xiaomi.com.edgesuite.net/
@@ -188,6 +188,7 @@ local=/extranet.ap-southeast-1.miui-l7-feedback.qkou0akepj.elb.xiaomi.com/
 local=/extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com/
 local=/extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com/
 local=/ad.eu.xiaomi.com/
+local=/sdkconfig.eu.xiaomi.com/
 local=/cdn.exp.xiaomi.com/
 local=/lxcdn.dl.files.xiaomi.net/
 local=/wl.voip.game.xiaomi.com/
@@ -218,6 +219,7 @@ local=/sys.tv.india.xiaomi.com/
 local=/ad.india.xiaomi.com/
 local=/controller.india.xiaomi.com/
 local=/mistat.india.xiaomi.com/
+local=/sdkconfig.india.xiaomi.com/
 local=/api.installer.xiaomi.com/
 local=/globalvideo.cdn.pandora.intl.xiaomi.com/
 local=/ruvideo.cdn.pandora.intl.xiaomi.com/
@@ -227,6 +229,7 @@ local=/h5-ru.video.intl.xiaomi.com/
 local=/ru.video.intl.xiaomi.com/
 local=/ad.intl.xiaomi.com/
 local=/mistat.intl.xiaomi.com/
+local=/sdkconfig.intl.xiaomi.com/
 local=/sys.intl.xiaomi.com/
 local=/secure.report.iss.xiaomi.com/
 local=/xadx.file.market.xiaomi.com/
@@ -323,6 +326,7 @@ local=/staging-analyze.pt.xiaomi.com/
 local=/sec.resource.xiaomi.net/
 local=/ad.rus.xiaomi.com/
 local=/mistat.rus.xiaomi.com/
+local=/sdkconfig.rus.xiaomi.com/
 local=/mlog.search.xiaomi.net/
 local=/api.miui.security.xiaomi.com/
 local=/sec-cdn.static.xiaomi.net/
@@ -348,6 +352,7 @@ local=/mibi.xiaomi.com/
 local=/mistat.xiaomi.com/
 local=/preload.xiaomi.com/
 local=/qiye.xiaomi.com/
+local=/sdkconfig.xiaomi.com/
 local=/ssp.xiaomi.com/
 local=/stat.xiaomi.com/
 local=/userid.xiaomi.com/
