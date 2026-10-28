@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793093460 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793178720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Oct 2026 09:31 UTC
-; Version: 2026.1027.0931.37
+; Last modified: 28 Oct 2026 09:12 UTC
+; Version: 2026.1028.0912.03
 ; Syntax: RPZ
-; Number of entries: 2176
+; Number of entries: 2164
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -376,8 +376,6 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
-sitebeat.crazydomains.com CNAME .
-*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 cutedrive.com CNAME .
@@ -598,8 +596,6 @@ my5353.com CNAME .
 *.my5353.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
-myclickfunnels.com CNAME .
-*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
@@ -720,8 +716,6 @@ webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
 *.webaccess-email.com CNAME .
-webcindario.com CNAME .
-*.webcindario.com CNAME .
 webobo.com CNAME .
 *.webobo.com CNAME .
 webspawner.com CNAME .
@@ -1450,8 +1444,6 @@ blogspot.it CNAME .
 *.8.je CNAME .
 9.je CNAME .
 *.9.je CNAME .
-xo.je CNAME .
-*.xo.je CNAME .
 blogspot.jp CNAME .
 *.blogspot.jp CNAME .
 blogspot.co.ke CNAME .
@@ -1472,8 +1464,6 @@ de.ki CNAME .
 *.de.ki CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
-dothome.co.kr CNAME .
-*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .
@@ -1802,8 +1792,6 @@ zabc.net CNAME .
 *.zabc.net CNAME .
 aeza.network CNAME .
 *.aeza.network CNAME .
-free.nf CNAME .
-*.free.nf CNAME .
 us.nf CNAME .
 *.us.nf CNAME .
 blogspot.com.ng CNAME .
