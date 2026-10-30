@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793178720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793352180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 28 Oct 2026 09:12 UTC
-; Version: 2026.1028.0912.03
+; Last modified: 30 Oct 2026 09:23 UTC
+; Version: 2026.1030.0923.26
 ; Syntax: RPZ
-; Number of entries: 2164
+; Number of entries: 2148
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -376,6 +376,8 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
+sitebeat.crazydomains.com CNAME .
+*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 cutedrive.com CNAME .
@@ -556,8 +558,6 @@ launchaco.com CNAME .
 *.launchaco.com CNAME .
 leechall.com CNAME .
 *.leechall.com CNAME .
-liftmyresume.com CNAME .
-*.liftmyresume.com CNAME .
 lihi1.com CNAME .
 *.lihi1.com CNAME .
 list-mgmt.com CNAME .
@@ -610,8 +610,6 @@ mystrikingly.com CNAME .
 *.mystrikingly.com CNAME .
 mytempdir.com CNAME .
 *.mytempdir.com CNAME .
-nexmicrosystems.com CNAME .
-*.nexmicrosystems.com CNAME .
 qr.nikastic.com CNAME .
 *.qr.nikastic.com CNAME .
 nofeeshost.com CNAME .
@@ -678,8 +676,6 @@ teamzonesports.com CNAME .
 *.teamzonesports.com CNAME .
 tempisite.com CNAME .
 *.tempisite.com CNAME .
-the-finance-world.com CNAME .
-*.the-finance-world.com CNAME .
 top8.com CNAME .
 *.top8.com CNAME .
 ftp.totallyanonymous.com CNAME .
@@ -712,6 +708,8 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
+w3spaces.com CNAME .
+*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -728,8 +726,6 @@ weeblysite.com CNAME .
 *.weeblysite.com CNAME .
 wikiupload.com CNAME .
 *.wikiupload.com CNAME .
-worldsoffinance.com CNAME .
-*.worldsoffinance.com CNAME .
 wtcsites.com CNAME .
 *.wtcsites.com CNAME .
 wy5532.com CNAME .
@@ -1688,8 +1684,6 @@ cableonline.com.mx CNAME .
 *.cableonline.com.mx CNAME .
 blogspot.my CNAME .
 *.blogspot.my CNAME .
-domain.name CNAME .
-*.domain.name CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .
@@ -1884,8 +1878,6 @@ urest.org CNAME .
 *.urest.org CNAME .
 v0r.org CNAME .
 *.v0r.org CNAME .
-yi.org CNAME .
-*.yi.org CNAME .
 glide.page CNAME .
 *.glide.page CNAME .
 mmm.page CNAME .
@@ -1930,8 +1922,6 @@ webnode.com.pt CNAME .
 *.webnode.com.pt CNAME .
 hostfree.pw CNAME .
 *.hostfree.pw CNAME .
-mybb.pw CNAME .
-*.mybb.pw CNAME .
 psce.pw CNAME .
 *.psce.pw CNAME .
 verifypass.pw CNAME .
@@ -1956,8 +1946,6 @@ corolain.ru CNAME .
 *.corolain.ru CNAME .
 hop.ru CNAME .
 *.hop.ru CNAME .
-justns.ru CNAME .
-*.justns.ru CNAME .
 logomebel.ru CNAME .
 *.logomebel.ru CNAME .
 nethouse.ru CNAME .
@@ -2024,14 +2012,10 @@ dik.si CNAME .
 *.dik.si CNAME .
 company.site CNAME .
 *.company.site CNAME .
-studio.site CNAME .
-*.studio.site CNAME .
 temporary.site CNAME .
 *.temporary.site CNAME .
 temporary-demo.site CNAME .
 *.temporary-demo.site CNAME .
-tiiny.site CNAME .
-*.tiiny.site CNAME .
 turbo.site CNAME .
 *.turbo.site CNAME .
 wapka.site CNAME .

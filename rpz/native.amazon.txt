@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792792680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793273700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Oct 2026 21:58 UTC
-; Version: 2026.1023.2158.06
+; Last modified: 29 Oct 2026 11:35 UTC
+; Version: 2026.1029.1135.53
 ; Syntax: RPZ
-; Number of entries: 736
+; Number of entries: 738
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -576,8 +576,8 @@ metrics.eu-west-1.iris.apx.amazon.dev CNAME .
 *.metrics.eu-west-1.iris.apx.amazon.dev CNAME .
 metrics.us-east-1.iris.apx.amazon.dev CNAME .
 *.metrics.us-east-1.iris.apx.amazon.dev CNAME .
-api.metrics.us-west-2.iris.apx.amazon.dev CNAME .
-*.api.metrics.us-west-2.iris.apx.amazon.dev CNAME .
+metrics.us-west-2.iris.apx.amazon.dev CNAME .
+*.metrics.us-west-2.iris.apx.amazon.dev CNAME .
 events.app-performance.music.amazon.dev CNAME .
 *.events.app-performance.music.amazon.dev CNAME .
 trace.app-performance.music.amazon.dev CNAME .
@@ -590,6 +590,8 @@ adserver.pubtech.amazon.dev CNAME .
 *.adserver.pubtech.amazon.dev CNAME .
 bugsnag.shopbop.amazon.dev CNAME .
 *.bugsnag.shopbop.amazon.dev CNAME .
+report.diagnostic.networking.aws.dev CNAME .
+*.report.diagnostic.networking.aws.dev CNAME .
 advertising.amazon.eg CNAME .
 *.advertising.amazon.eg CNAME .
 fls-eu.amazon.eg CNAME .

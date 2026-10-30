@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792144740 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793355540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 09:59 UTC
-; Version: 2026.1016.0959.51
+; Last modified: 30 Oct 2026 10:19 UTC
+; Version: 2026.1030.1019.31
 ; Syntax: RPZ
-; Number of entries: 3082
+; Number of entries: 3072
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1520,8 +1520,6 @@ ath.cx CNAME .
 *.ath.cx CNAME .
 cloudns.cx CNAME .
 *.cloudns.cx CNAME .
-dyns.cx CNAME .
-*.dyns.cx CNAME .
 it.cx CNAME .
 *.it.cx CNAME .
 metadns.cx CNAME .
@@ -2404,8 +2402,6 @@ allisons.org CNAME .
 *.allisons.org CNAME .
 allowed.org CNAME .
 *.allowed.org CNAME .
-annaffiare.org CNAME .
-*.annaffiare.org CNAME .
 auraria.org CNAME .
 *.auraria.org CNAME .
 authorizeddns.org CNAME .
@@ -2744,8 +2740,6 @@ tscng.org CNAME .
 *.tscng.org CNAME .
 ufcfan.org CNAME .
 *.ufcfan.org CNAME .
-vicinanza.org CNAME .
-*.vicinanza.org CNAME .
 webhop.org CNAME .
 *.webhop.org CNAME .
 webredirect.org CNAME .
@@ -2844,8 +2838,6 @@ dynnamn.ru CNAME .
 *.dynnamn.ru CNAME .
 gerastar.ru CNAME .
 *.gerastar.ru CNAME .
-guardz.ru CNAME .
-*.guardz.ru CNAME .
 hldns.ru CNAME .
 *.hldns.ru CNAME .
 ipnodns.ru CNAME .
@@ -2890,8 +2882,6 @@ z86.ru CNAME .
 *.z86.ru CNAME .
 dynamix.run CNAME .
 *.dynamix.run CNAME .
-divx.se CNAME .
-*.divx.se CNAME .
 spelar.se CNAME .
 *.spelar.se CNAME .
 ftp.sh CNAME .
