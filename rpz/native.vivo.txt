@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792188600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793401800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 22:10 UTC
-; Version: 2026.1016.2210.24
+; Last modified: 30 Oct 2026 23:10 UTC
+; Version: 2026.1030.2310.29
 ; Syntax: RPZ
-; Number of entries: 488
+; Number of entries: 494
 ;
 h4g3z1-native-vivo.web.app CNAME .
 *.h4g3z1-native-vivo.web.app CNAME .
@@ -184,6 +184,8 @@ err-up.vivoglobal.com CNAME .
 *.err-up.vivoglobal.com CNAME .
 eu-album-api.vivoglobal.com CNAME .
 *.eu-album-api.vivoglobal.com CNAME .
+eu-api-stsdk.vivoglobal.com CNAME .
+*.eu-api-stsdk.vivoglobal.com CNAME .
 eu-cota.vivoglobal.com CNAME .
 *.eu-cota.vivoglobal.com CNAME .
 eu-domaincfg.vivoglobal.com CNAME .
@@ -234,6 +236,8 @@ in-adsjssdk.vivoglobal.com CNAME .
 *.in-adsjssdk.vivoglobal.com CNAME .
 in-analyzer-appstore.vivoglobal.com CNAME .
 *.in-analyzer-appstore.vivoglobal.com CNAME .
+in-api-stsdk.vivoglobal.com CNAME .
+*.in-api-stsdk.vivoglobal.com CNAME .
 in-apponrt-stsdk.vivoglobal.com CNAME .
 *.in-apponrt-stsdk.vivoglobal.com CNAME .
 in-apport-stsdk.vivoglobal.com CNAME .
@@ -264,6 +268,8 @@ in-monitor-stsdk.vivoglobal.com CNAME .
 *.in-monitor-stsdk.vivoglobal.com CNAME .
 in-news-abroad-backstage-interface.vivoglobal.com CNAME .
 *.in-news-abroad-backstage-interface.vivoglobal.com CNAME .
+in-nrt-stsdk.vivoglobal.com CNAME .
+*.in-nrt-stsdk.vivoglobal.com CNAME .
 in-onrt-stsdk.vivoglobal.com CNAME .
 *.in-onrt-stsdk.vivoglobal.com CNAME .
 in-ort-stsdk.vivoglobal.com CNAME .

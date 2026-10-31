@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792792440 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793400960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks - blocks access to social networks!
@@ -10,15 +10,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Oct 2026 21:54 UTC
-; Version: 2026.1023.2154.38
+; Last modified: 30 Oct 2026 22:56 UTC
+; Version: 2026.1030.2256.37
 ; Syntax: RPZ
-; Number of entries: 16302
+; Number of entries: 16332
 ;
 4erd.ac CNAME .
 *.4erd.ac CNAME .
-social.merk.ac CNAME .
-*.social.merk.ac CNAME .
 mstdn.res.ac CNAME .
 *.mstdn.res.ac CNAME .
 activitypub.academy CNAME .
@@ -33,6 +31,8 @@ social.troll.academy CNAME .
 *.social.troll.academy CNAME .
 baraza.africa CNAME .
 *.baraza.africa CNAME .
+furville.drinkanddrive.africa CNAME .
+*.furville.drinkanddrive.africa CNAME .
 mastodon.africa CNAME .
 *.mastodon.africa CNAME .
 nithecs.africa CNAME .
@@ -67,8 +67,6 @@ kopiti.am CNAME .
 *.kopiti.am CNAME .
 me.memories.am CNAME .
 *.me.memories.am CNAME .
-outcast.am CNAME .
-*.outcast.am CNAME .
 gay.amsterdam CNAME .
 *.gay.amsterdam CNAME .
 hidamari.apartments CNAME .
@@ -147,8 +145,6 @@ anubeloredelana.art CNAME .
 *.anubeloredelana.art CNAME .
 pixelfed.apobangpo.art CNAME .
 *.pixelfed.apobangpo.art CNAME .
-wired.bluemarch.art CNAME .
-*.wired.bluemarch.art CNAME .
 brioco.art CNAME .
 *.brioco.art CNAME .
 ish.charcolle.art CNAME .
@@ -163,6 +159,8 @@ fuzzy.art CNAME .
 *.fuzzy.art CNAME .
 guerrill.art CNAME .
 *.guerrill.art CNAME .
+makes.hoof-paw.art CNAME .
+*.makes.hoof-paw.art CNAME .
 indulgent.art CNAME .
 *.indulgent.art CNAME .
 historiette.lokipropagand.art CNAME .
@@ -209,6 +207,8 @@ pinterest.co.at CNAME .
 *.pinterest.co.at CNAME .
 pixel.cyano.at CNAME .
 *.pixel.cyano.at CNAME .
+tube.cyano.at CNAME .
+*.tube.cyano.at CNAME .
 social.devteams.at CNAME .
 *.social.devteams.at CNAME .
 mastodon.ditm.at CNAME .
@@ -263,14 +263,14 @@ soc.schuerz.at CNAME .
 *.soc.schuerz.at CNAME .
 social.smekal.at CNAME .
 *.social.smekal.at CNAME .
-social.tonfabrik.at CNAME .
-*.social.tonfabrik.at CNAME .
 mastodon.vaporghost.at CNAME .
 *.mastodon.vaporghost.at CNAME .
 mastodon.wurzelmann.at CNAME .
 *.mastodon.wurzelmann.at CNAME .
 ababil.au CNAME .
 *.ababil.au CNAME .
+aisocial.au CNAME .
+*.aisocial.au CNAME .
 mrsjumbo.ucc.asn.au CNAME .
 *.mrsjumbo.ucc.asn.au CNAME .
 lemmy.bleh.au CNAME .
@@ -303,8 +303,6 @@ mastodon.lanham.id.au CNAME .
 *.mastodon.lanham.id.au CNAME .
 mastodon.longlandclan.id.au CNAME .
 *.mastodon.longlandclan.id.au CNAME .
-lemmy.patton.id.au CNAME .
-*.lemmy.patton.id.au CNAME .
 fedi.topaz.id.au CNAME .
 *.fedi.topaz.id.au CNAME .
 makerspace.au CNAME .
@@ -423,8 +421,6 @@ mastodon.beer CNAME .
 *.mastodon.beer CNAME .
 mstdn.beer CNAME .
 *.mstdn.beer CNAME .
-s.collectives.berlin CNAME .
-*.s.collectives.berlin CNAME .
 mastodon.berlin CNAME .
 *.mastodon.berlin CNAME .
 toot.berlin CNAME .
@@ -483,8 +479,12 @@ friendica.hagew.blog CNAME .
 *.friendica.hagew.blog CNAME .
 social.inhae.blog CNAME .
 *.social.inhae.blog CNAME .
+misskey.kencir.blog CNAME .
+*.misskey.kencir.blog CNAME .
 mustard.blog CNAME .
 *.mustard.blog CNAME .
+pysio.blog CNAME .
+*.pysio.blog CNAME .
 scoutodon.blog CNAME .
 *.scoutodon.blog CNAME .
 macro.shitpost.blog CNAME .
@@ -549,8 +549,6 @@ tatu.boo CNAME .
 *.tatu.boo CNAME .
 wubba.boo CNAME .
 *.wubba.boo CNAME .
-artsocial.boston CNAME .
-*.artsocial.boston CNAME .
 better.boston CNAME .
 *.better.boston CNAME .
 mast.boston CNAME .
@@ -563,6 +561,8 @@ mylittle.boutique CNAME .
 *.mylittle.boutique CNAME .
 bimbo.blog.br CNAME .
 *.bimbo.blog.br CNAME .
+lemmy.anhanga.com.br CNAME .
+*.lemmy.anhanga.com.br CNAME .
 masto.donte.com.br CNAME .
 *.masto.donte.com.br CNAME .
 hub.fm32.com.br CNAME .
@@ -635,6 +635,8 @@ masto.binaryworks.ca CNAME .
 *.masto.binaryworks.ca CNAME .
 cosocial.ca CNAME .
 *.cosocial.ca CNAME .
+miku.dewm.ca CNAME .
+*.miku.dewm.ca CNAME .
 toot.diglet.ca CNAME .
 *.toot.diglet.ca CNAME .
 l.dongxi.ca CNAME .
@@ -677,8 +679,6 @@ write.naln1.ca CNAME .
 *.write.naln1.ca CNAME .
 o3o.ca CNAME .
 *.o3o.ca CNAME .
-pataterie.ca CNAME .
-*.pataterie.ca CNAME .
 piefed.ca CNAME .
 *.piefed.ca CNAME .
 pinterest.ca CNAME .
@@ -695,6 +695,8 @@ rainyme.ca CNAME .
 *.rainyme.ca CNAME .
 pixelfed.regularjessi.ca CNAME .
 *.pixelfed.regularjessi.ca CNAME .
+social.seanmcgregor.ca CNAME .
+*.social.seanmcgregor.ca CNAME .
 securitycafe.ca CNAME .
 *.securitycafe.ca CNAME .
 social.sineware.ca CNAME .
@@ -753,14 +755,14 @@ fireplace.cafe CNAME .
 *.fireplace.cafe CNAME .
 friends.cafe CNAME .
 *.friends.cafe CNAME .
+fullyfunctional.cafe CNAME .
+*.fullyfunctional.cafe CNAME .
 functional.cafe CNAME .
 *.functional.cafe CNAME .
 grants.cafe CNAME .
 *.grants.cafe CNAME .
 gulp.cafe CNAME .
 *.gulp.cafe CNAME .
-hatoya.cafe CNAME .
-*.hatoya.cafe CNAME .
 mastodon.illumos.cafe CNAME .
 *.mastodon.illumos.cafe CNAME .
 the.kenphused.cafe CNAME .
@@ -779,8 +781,6 @@ medic.cafe CNAME .
 *.medic.cafe CNAME .
 midnight.cafe CNAME .
 *.midnight.cafe CNAME .
-milker.cafe CNAME .
-*.milker.cafe CNAME .
 miruku.cafe CNAME .
 *.miruku.cafe CNAME .
 misky.moonbunny.cafe CNAME .
@@ -799,12 +799,12 @@ pari.cafe CNAME .
 *.pari.cafe CNAME .
 pc.cafe CNAME .
 *.pc.cafe CNAME .
-philosophy.cafe CNAME .
-*.philosophy.cafe CNAME .
 pixelfed.cafe CNAME .
 *.pixelfed.cafe CNAME .
 pogs.cafe CNAME .
 *.pogs.cafe CNAME .
+pupy.cafe CNAME .
+*.pupy.cafe CNAME .
 rpgmaker.cafe CNAME .
 *.rpgmaker.cafe CNAME .
 selfhosted.cafe CNAME .
@@ -821,8 +821,8 @@ troet.cafe CNAME .
 *.troet.cafe CNAME .
 vocalounge.cafe CNAME .
 *.vocalounge.cafe CNAME .
-vozer.cafe CNAME .
-*.vozer.cafe CNAME .
+lemmy.walker.cafe CNAME .
+*.lemmy.walker.cafe CNAME .
 wigs.cafe CNAME .
 *.wigs.cafe CNAME .
 yukari.cafe CNAME .
@@ -869,6 +869,8 @@ blob.cat CNAME .
 *.blob.cat CNAME .
 misskey.canpavon.cat CNAME .
 *.misskey.canpavon.cat CNAME .
+masto.casually.cat CNAME .
+*.masto.casually.cat CNAME .
 peertube.casually.cat CNAME .
 *.peertube.casually.cat CNAME .
 collapse.cat CNAME .
@@ -877,6 +879,8 @@ estrogen.cat CNAME .
 *.estrogen.cat CNAME .
 katzenleben.fritz.cat CNAME .
 *.katzenleben.fritz.cat CNAME .
+bloc.in4matics.cat CNAME .
+*.bloc.in4matics.cat CNAME .
 is-a.cat CNAME .
 *.is-a.cat CNAME .
 videos.laguixeta.cat CNAME .
@@ -1001,10 +1005,10 @@ occm.cc CNAME .
 *.occm.cc CNAME .
 misskey.ogamen.cc CNAME .
 *.misskey.ogamen.cc CNAME .
+social.onnenai.cc CNAME .
+*.social.onnenai.cc CNAME .
 misskey.oshiire.cc CNAME .
 *.misskey.oshiire.cc CNAME .
-wacha.punks.cc CNAME .
-*.wacha.punks.cc CNAME .
 reactor.cc CNAME .
 *.reactor.cc CNAME .
 l.roofo.cc CNAME .
@@ -1021,6 +1025,8 @@ mi.soda-w-luna.cc CNAME .
 *.mi.soda-w-luna.cc CNAME .
 somerpluvo.cc CNAME .
 *.somerpluvo.cc CNAME .
+a.sukazyo.cc CNAME .
+*.a.sukazyo.cc CNAME .
 tickler.cc CNAME .
 *.tickler.cc CNAME .
 tooting.cc CNAME .
@@ -1057,12 +1063,12 @@ social.epfl.ch CNAME .
 *.social.epfl.ch CNAME .
 existiert.ch CNAME .
 *.existiert.ch CNAME .
+lemmy.fait.ch CNAME .
+*.lemmy.fait.ch CNAME .
 fbwat.ch CNAME .
 *.fbwat.ch CNAME .
 freedomofspee.ch CNAME .
 *.freedomofspee.ch CNAME .
-peertube.gaialabs.ch CNAME .
-*.peertube.gaialabs.ch CNAME .
 666.glitchwit.ch CNAME .
 *.666.glitchwit.ch CNAME .
 lemmy.hogru.ch CNAME .
@@ -1173,8 +1179,6 @@ douban.city CNAME .
 *.douban.city CNAME .
 estradiol.city CNAME .
 *.estradiol.city CNAME .
-groove.city CNAME .
-*.groove.city CNAME .
 ikebukuro.city CNAME .
 *.ikebukuro.city CNAME .
 inne.city CNAME .
@@ -1199,8 +1203,6 @@ possum.city CNAME .
 *.possum.city CNAME .
 quokka.city CNAME .
 *.quokka.city CNAME .
-oc.scenthelta.city CNAME .
-*.oc.scenthelta.city CNAME .
 old.sharlayan.city CNAME .
 *.old.sharlayan.city CNAME .
 slutty.city CNAME .
@@ -1235,8 +1237,6 @@ astro.clinic CNAME .
 *.astro.clinic CNAME .
 42.101010.cloud CNAME .
 *.42.101010.cloud CNAME .
-tube.area404.cloud CNAME .
-*.tube.area404.cloud CNAME .
 weague.awful.cloud CNAME .
 *.weague.awful.cloud CNAME .
 social.baradoz.cloud CNAME .
@@ -1281,6 +1281,8 @@ peer.madiator.cloud CNAME .
 *.peer.madiator.cloud CNAME .
 social.masked.cloud CNAME .
 *.social.masked.cloud CNAME .
+mastodon.cloud CNAME .
+*.mastodon.cloud CNAME .
 meshed.cloud CNAME .
 *.meshed.cloud CNAME .
 mi-k.cloud CNAME .
@@ -1429,6 +1431,8 @@ gatorcountry.club CNAME .
 *.gatorcountry.club CNAME .
 gayretard.club CNAME .
 *.gayretard.club CNAME .
+gayrobot.club CNAME .
+*.gayrobot.club CNAME .
 misskey.gothloli.club CNAME .
 *.misskey.gothloli.club CNAME .
 mk.gregorius.club CNAME .
@@ -1455,8 +1459,6 @@ lemmy.jacaranda.club CNAME .
 *.lemmy.jacaranda.club CNAME .
 jawns.club CNAME .
 *.jawns.club CNAME .
-mastodon.keks.club CNAME .
-*.mastodon.keks.club CNAME .
 kemonodon.club CNAME .
 *.kemonodon.club CNAME .
 dev2.kitten-machine.club CNAME .
@@ -1519,8 +1521,6 @@ pocketpixels.club CNAME .
 *.pocketpixels.club CNAME .
 pornanime.club CNAME .
 *.pornanime.club CNAME .
-propulse.club CNAME .
-*.propulse.club CNAME .
 ravenation.club CNAME .
 *.ravenation.club CNAME .
 friends.ravergram.club CNAME .
@@ -1597,8 +1597,6 @@ voidposter.club CNAME .
 *.voidposter.club CNAME .
 waff.club CNAME .
 *.waff.club CNAME .
-misskey.yancya.club CNAME .
-*.misskey.yancya.club CNAME .
 miss.yunpon.club CNAME .
 *.miss.yunpon.club CNAME .
 misskey.yunpon.club CNAME .
@@ -1671,16 +1669,14 @@ podvibes.co CNAME .
 *.podvibes.co CNAME .
 social.raytec.co CNAME .
 *.social.raytec.co CNAME .
+rdrama.co CNAME .
+*.rdrama.co CNAME .
 rogersfam.co CNAME .
 *.rogersfam.co CNAME .
 snapkit.co CNAME .
 *.snapkit.co CNAME .
-so1.co CNAME .
-*.so1.co CNAME .
 t.co CNAME .
 *.t.co CNAME .
-social.tedium.co CNAME .
-*.social.tedium.co CNAME .
 tnku.co CNAME .
 *.tnku.co CNAME .
 tootr.co CNAME .
@@ -1689,8 +1685,6 @@ twitter.co CNAME .
 *.twitter.co CNAME .
 social.ugoday.co CNAME .
 *.social.ugoday.co CNAME .
-vfeed.co CNAME .
-*.vfeed.co CNAME .
 vine.co CNAME .
 *.vine.co CNAME .
 mastodon.wakoma.co CNAME .
@@ -1883,6 +1877,8 @@ birdbutt.com CNAME .
 *.birdbutt.com CNAME .
 bitcointv.com CNAME .
 *.bitcointv.com CNAME .
+lemmy.bitsofsimplicity.com CNAME .
+*.lemmy.bitsofsimplicity.com CNAME .
 bizographics.com CNAME .
 *.bizographics.com CNAME .
 ikaskey.bktsk.com CNAME .
@@ -1933,6 +1929,8 @@ buyingfacebooklikes.com CNAME .
 *.buyingfacebooklikes.com CNAME .
 mastodon.buzhangjiuzhou.com CNAME .
 *.mastodon.buzhangjiuzhou.com CNAME .
+byongari.com CNAME .
+*.byongari.com CNAME .
 bytedapm.com CNAME .
 *.bytedapm.com CNAME .
 ttlivecdn.com.c.bytefcdn-oversea.com CNAME .
@@ -1971,8 +1969,6 @@ mastodon.ccqjv.com CNAME .
 *.mastodon.ccqjv.com CNAME .
 cdninstagram.com CNAME .
 *.cdninstagram.com CNAME .
-mastodon.cedar-republic.com CNAME .
-*.mastodon.cedar-republic.com CNAME .
 celebgramme.com CNAME .
 *.celebgramme.com CNAME .
 lemmy.ch3n2k.com CNAME .
@@ -2025,6 +2021,8 @@ social.coabai.com CNAME .
 *.social.coabai.com CNAME .
 mastodon.cocamserverguild.com CNAME .
 *.mastodon.cocamserverguild.com CNAME .
+peertube.cocamserverguild.com CNAME .
+*.peertube.cocamserverguild.com CNAME .
 toots.codeenigma.com CNAME .
 *.toots.codeenigma.com CNAME .
 mastodon.codingfield.com CNAME .
@@ -2051,8 +2049,6 @@ masto.comversive.com CNAME .
 *.masto.comversive.com CNAME .
 connectified.com CNAME .
 *.connectified.com CNAME .
-lemmy.conorab.com CNAME .
-*.lemmy.conorab.com CNAME .
 social.consoledated.com CNAME .
 *.social.consoledated.com CNAME .
 cooltwitter.com CNAME .
@@ -2159,8 +2155,6 @@ discordsays.com CNAME .
 *.discordsays.com CNAME .
 discordstatus.com CNAME .
 *.discordstatus.com CNAME .
-takahe.staging.django-cast.com CNAME .
-*.takahe.staging.django-cast.com CNAME .
 dlfacebook.com CNAME .
 *.dlfacebook.com CNAME .
 x.doanhtu.com CNAME .
@@ -2231,12 +2225,14 @@ lemmy.entroversal.com CNAME .
 *.lemmy.entroversal.com CNAME .
 eostagram.com CNAME .
 *.eostagram.com CNAME .
-eozygodon.com CNAME .
-*.eozygodon.com CNAME .
 misskey.erenoa.com CNAME .
 *.misskey.erenoa.com CNAME .
+friendica.eskimo.com CNAME .
+*.friendica.eskimo.com CNAME .
 hubzilla.eskimo.com CNAME .
 *.hubzilla.eskimo.com CNAME .
+mastodon.eskimo.com CNAME .
+*.mastodon.eskimo.com CNAME .
 pixelfed.eskimo.com CNAME .
 *.pixelfed.eskimo.com CNAME .
 mastodon.esmevane.com CNAME .
@@ -2253,6 +2249,8 @@ videos.evoludata.com CNAME .
 *.videos.evoludata.com CNAME .
 toot.ewsandor.com CNAME .
 *.toot.ewsandor.com CNAME .
+misskey.exmonji.com CNAME .
+*.misskey.exmonji.com CNAME .
 expresswifi.com CNAME .
 *.expresswifi.com CNAME .
 f8.com CNAME .
@@ -2759,8 +2757,6 @@ fescebook.com CNAME .
 *.fescebook.com CNAME .
 fesebook.com CNAME .
 *.fesebook.com CNAME .
-fetistodon.com CNAME .
-*.fetistodon.com CNAME .
 ffacebook.com CNAME .
 *.ffacebook.com CNAME .
 ffxiv-mastodon.com CNAME .
@@ -2769,8 +2765,6 @@ fgacebook.com CNAME .
 *.fgacebook.com CNAME .
 ficeboock.com CNAME .
 *.ficeboock.com CNAME .
-fillskey.com CNAME .
-*.fillskey.com CNAME .
 social.firehawk-systems.com CNAME .
 *.social.firehawk-systems.com CNAME .
 video.firehawk-systems.com CNAME .
@@ -2787,8 +2781,6 @@ mastodon.fooddrinklife.com CNAME .
 *.mastodon.fooddrinklife.com CNAME .
 forestodon.com CNAME .
 *.forestodon.com CNAME .
-play.foromedios.com CNAME .
-*.play.foromedios.com CNAME .
 social.fort1nd.com CNAME .
 *.social.fort1nd.com CNAME .
 forum-lucifer.com CNAME .
@@ -2885,8 +2877,6 @@ social.gerotintin.com CNAME .
 *.social.gerotintin.com CNAME .
 gfacecbook.com CNAME .
 *.gfacecbook.com CNAME .
-t.gfscs.com CNAME .
-*.t.gfscs.com CNAME .
 gingadon.com CNAME .
 *.gingadon.com CNAME .
 misskey.gingarenpo.com CNAME .
@@ -3003,8 +2993,6 @@ huoshanzhibo.com CNAME .
 *.huoshanzhibo.com CNAME .
 mastodon.hypnoguys.com CNAME .
 *.mastodon.hypnoguys.com CNAME .
-iamgc.com CNAME .
-*.iamgc.com CNAME .
 ibbtown.com CNAME .
 *.ibbtown.com CNAME .
 p16-tiktok-dm-sticker-euttp-sign-useast2a.ibyteimg.com CNAME .
@@ -3165,14 +3153,14 @@ jasonames.com CNAME .
 *.jasonames.com CNAME .
 mastodon.jatlarge.com CNAME .
 *.mastodon.jatlarge.com CNAME .
+lem.jaybit.com CNAME .
+*.lem.jaybit.com CNAME .
 social.jazzbutcher.com CNAME .
 *.social.jazzbutcher.com CNAME .
 jazztodon.com CNAME .
 *.jazztodon.com CNAME .
 blog.jesseyoungblood.com CNAME .
 *.blog.jesseyoungblood.com CNAME .
-jforo.com CNAME .
-*.jforo.com CNAME .
 social.jigmedatse.com CNAME .
 *.social.jigmedatse.com CNAME .
 video2.jigmedatse.com CNAME .
@@ -3183,16 +3171,8 @@ mast.john1126.com CNAME .
 *.mast.john1126.com CNAME .
 journodon.com CNAME .
 *.journodon.com CNAME .
-jpmstdn.com CNAME .
-*.jpmstdn.com CNAME .
 mastodon.jwsoat.com CNAME .
 *.mastodon.jwsoat.com CNAME .
-lemmy.k2pk.com CNAME .
-*.lemmy.k2pk.com CNAME .
-social.k2pk.com CNAME .
-*.social.k2pk.com CNAME .
-video.k2pk.com CNAME .
-*.video.k2pk.com CNAME .
 kadaiyare.com CNAME .
 *.kadaiyare.com CNAME .
 kagamirrorrr.com CNAME .
@@ -3261,8 +3241,6 @@ kusso-yotta.com CNAME .
 *.kusso-yotta.com CNAME .
 misskey.kyoupro.com CNAME .
 *.misskey.kyoupro.com CNAME .
-threads.kyzune.com CNAME .
-*.threads.kyzune.com CNAME .
 masto.labrafox.com CNAME .
 *.masto.labrafox.com CNAME .
 peertube.lagbag.com CNAME .
@@ -3281,8 +3259,6 @@ leaseysocial.com CNAME .
 *.leaseysocial.com CNAME .
 lemmyland.com CNAME .
 *.lemmyland.com CNAME .
-lemmynsfw.com CNAME .
-*.lemmynsfw.com CNAME .
 sns.lemondouble.com CNAME .
 *.sns.lemondouble.com CNAME .
 lepoulsdumonde.com CNAME .
@@ -3357,6 +3333,8 @@ looky.com CNAME .
 *.looky.com CNAME .
 social.ludepress.com CNAME .
 *.social.ludepress.com CNAME .
+lemmy.lundgrensjostrom.com CNAME .
+*.lemmy.lundgrensjostrom.com CNAME .
 lux-nightclub.com CNAME .
 *.lux-nightclub.com CNAME .
 mastodon.macneilmediagroup.com CNAME .
@@ -3379,8 +3357,6 @@ social.manventurs.com CNAME .
 *.social.manventurs.com CNAME .
 social.mapolist.com CNAME .
 *.social.mapolist.com CNAME .
-mastodon.marc-aurele.com CNAME .
-*.mastodon.marc-aurele.com CNAME .
 markzuckerberg.com CNAME .
 *.markzuckerberg.com CNAME .
 social.massalabs.com CNAME .
@@ -3403,8 +3379,8 @@ team.matechan.com CNAME .
 *.team.matechan.com CNAME .
 matthewbogart.com CNAME .
 *.matthewbogart.com CNAME .
-lemmy.mebitek.com CNAME .
-*.lemmy.mebitek.com CNAME .
+mcseekeri.com CNAME .
+*.mcseekeri.com CNAME .
 mech-misskey.com CNAME .
 *.mech-misskey.com CNAME .
 social.medusmedia.com CNAME .
@@ -3439,14 +3415,14 @@ misskey-ateliermarja.com CNAME .
 *.misskey-ateliermarja.com CNAME .
 misskey-dabansky.com CNAME .
 *.misskey-dabansky.com CNAME .
-misskey-otoge.com CNAME .
-*.misskey-otoge.com CNAME .
 mi.miteiqwq.com CNAME .
 *.mi.miteiqwq.com CNAME .
 mivatter.com CNAME .
 *.mivatter.com CNAME .
 mizstadon.com CNAME .
 *.mizstadon.com CNAME .
+fedibots.mldkyt.com CNAME .
+*.fedibots.mldkyt.com CNAME .
 soc.mldkyt.com CNAME .
 *.soc.mldkyt.com CNAME .
 misskey.mn841.com CNAME .
@@ -3499,6 +3475,8 @@ arkcast.mycreationhaven.com CNAME .
 *.arkcast.mycreationhaven.com CNAME .
 myfbfans.com CNAME .
 *.myfbfans.com CNAME .
+social.mygem88.com CNAME .
+*.social.mygem88.com CNAME .
 cirno9.mynetgear.com CNAME .
 *.cirno9.mynetgear.com CNAME .
 mysportgallery.com CNAME .
@@ -3595,8 +3573,6 @@ m.okaprog.com CNAME .
 *.m.okaprog.com CNAME .
 lemmy.okr765.com CNAME .
 *.lemmy.okr765.com CNAME .
-ol2ol.com CNAME .
-*.ol2ol.com CNAME .
 omgwars.com CNAME .
 *.omgwars.com CNAME .
 omikossey.com CNAME .
@@ -3623,6 +3599,8 @@ mastodon.opencollective.com CNAME .
 *.mastodon.opencollective.com CNAME .
 opengraphprotocol.com CNAME .
 *.opengraphprotocol.com CNAME .
+eva.openjw.com CNAME .
+*.eva.openjw.com CNAME .
 opensimsocial.com CNAME .
 *.opensimsocial.com CNAME .
 lemmy.openvuture.com CNAME .
@@ -3679,8 +3657,6 @@ pixelateddimensions.com CNAME .
 *.pixelateddimensions.com CNAME .
 pixelfed.com CNAME .
 *.pixelfed.com CNAME .
-pixfed.com CNAME .
-*.pixfed.com CNAME .
 shogi.pkkis.com CNAME .
 *.shogi.pkkis.com CNAME .
 place-of-refuge.com CNAME .
@@ -3769,8 +3745,6 @@ social.rkowl.com CNAME .
 *.social.rkowl.com CNAME .
 rlidea.com CNAME .
 *.rlidea.com CNAME .
-mi.rnana.com CNAME .
-*.mi.rnana.com CNAME .
 lemmy.rochegmr.com CNAME .
 *.lemmy.rochegmr.com CNAME .
 rockosbasilisk.com CNAME .
@@ -3793,6 +3767,8 @@ rustedneuron.com CNAME .
 *.rustedneuron.com CNAME .
 pages.sadmansk.com CNAME .
 *.pages.sadmansk.com CNAME .
+mastodon.samfira.com CNAME .
+*.mastodon.samfira.com CNAME .
 blog.samsterby.com CNAME .
 *.blog.samsterby.com CNAME .
 vid.samtripoli.com CNAME .
@@ -3893,8 +3869,6 @@ spatlo.com CNAME .
 *.spatlo.com CNAME .
 speacqua.com CNAME .
 *.speacqua.com CNAME .
-special-l.com CNAME .
-*.special-l.com CNAME .
 mastodon.spesh.com CNAME .
 *.mastodon.spesh.com CNAME .
 spgrn.com CNAME .
@@ -3955,14 +3929,14 @@ sylvesfamily.com CNAME .
 *.sylvesfamily.com CNAME .
 synthpub.com CNAME .
 *.synthpub.com CNAME .
-social.system-ai-x.com CNAME .
-*.social.system-ai-x.com CNAME .
 video.taboulisme.com CNAME .
 *.video.taboulisme.com CNAME .
 misskey.takashi-tkg.com CNAME .
 *.misskey.takashi-tkg.com CNAME .
 takusuki.com CNAME .
 *.takusuki.com CNAME .
+tanukitunes.com CNAME .
+*.tanukitunes.com CNAME .
 tardigram.com CNAME .
 *.tardigram.com CNAME .
 lemmy.tauata.com CNAME .
@@ -3971,8 +3945,6 @@ wayfarer.teacrumbs.com CNAME .
 *.wayfarer.teacrumbs.com CNAME .
 teamfmradio.com CNAME .
 *.teamfmradio.com CNAME .
-techniclip.com CNAME .
-*.techniclip.com CNAME .
 techtoots.com CNAME .
 *.techtoots.com CNAME .
 tellapart.com CNAME .
@@ -4035,6 +4007,8 @@ tiktokv.com CNAME .
 *.tiktokv.com CNAME .
 tilvids.com CNAME .
 *.tilvids.com CNAME .
+timeyak.com CNAME .
+*.timeyak.com CNAME .
 peertube.tinksic.com CNAME .
 *.peertube.tinksic.com CNAME .
 lemmy.tjadin.com CNAME .
@@ -4049,6 +4023,8 @@ tombraidersocial.com CNAME .
 *.tombraidersocial.com CNAME .
 tomkahe.com CNAME .
 *.tomkahe.com CNAME .
+akkoma.tomkrizan.com CNAME .
+*.akkoma.tomkrizan.com CNAME .
 mstdn.tomokiwakimoto.com CNAME .
 *.mstdn.tomokiwakimoto.com CNAME .
 topic-master.com CNAME .
@@ -4077,8 +4053,6 @@ lemmy.tserts.com CNAME .
 *.lemmy.tserts.com CNAME .
 tiktokcdn-eu.com.ttdns3.com CNAME .
 *.tiktokcdn-eu.com.ttdns3.com CNAME .
-f.ttec-connect.com CNAME .
-*.f.ttec-connect.com CNAME .
 ttlivecdn.com CNAME .
 *.ttlivecdn.com CNAME .
 mastodon.tucsonsentinel.com CNAME .
@@ -4143,8 +4117,6 @@ universeodon.com CNAME .
 *.universeodon.com CNAME .
 m.universetoday.com CNAME .
 *.m.universetoday.com CNAME .
-unknownportal.com CNAME .
-*.unknownportal.com CNAME .
 mastodon.unmadegaming.com CNAME .
 *.mastodon.unmadegaming.com CNAME .
 social.unturf.com CNAME .
@@ -4241,8 +4213,6 @@ m.wulingate.com CNAME .
 *.m.wulingate.com CNAME .
 social-md.wunderground.com CNAME .
 *.social-md.wunderground.com CNAME .
-wundersphere.com CNAME .
-*.wundersphere.com CNAME .
 www-facebook.com CNAME .
 *.www-facebook.com CNAME .
 wwwfacebok.com CNAME .
@@ -4347,8 +4317,6 @@ ladies.community CNAME .
 *.ladies.community CNAME .
 linux.community CNAME .
 *.linux.community CNAME .
-lemmy.masto.community CNAME .
-*.lemmy.masto.community CNAME .
 newsmast.community CNAME .
 *.newsmast.community CNAME .
 nfl.community CNAME .
@@ -4361,8 +4329,6 @@ sfw.community CNAME .
 *.sfw.community CNAME .
 shark.community CNAME .
 *.shark.community CNAME .
-solarcene.community CNAME .
-*.solarcene.community CNAME .
 spoonie.community CNAME .
 *.spoonie.community CNAME .
 sub.community CNAME .
@@ -4475,18 +4441,20 @@ misskey.takeko.cyou CNAME .
 *.misskey.takeko.cyou CNAME .
 pixelfed.takeko.cyou CNAME .
 *.pixelfed.takeko.cyou CNAME .
+fedinet.waltuh.cyou CNAME .
+*.fedinet.waltuh.cyou CNAME .
 pen.waltuh.cyou CNAME .
 *.pen.waltuh.cyou CNAME .
 mastodon.1984.cz CNAME .
 *.mastodon.1984.cz CNAME .
 peertube.arch-linux.cz CNAME .
 *.peertube.arch-linux.cz CNAME .
+beer-net.cz CNAME .
+*.beer-net.cz CNAME .
 cztwitter.cz CNAME .
 *.cztwitter.cz CNAME .
 f.cz CNAME .
 *.f.cz CNAME .
-hosekjan.cz CNAME .
-*.hosekjan.cz CNAME .
 kompost.cz CNAME .
 *.kompost.cz CNAME .
 mastodon.macsnet.cz CNAME .
@@ -4495,8 +4463,6 @@ mamutovo.cz CNAME .
 *.mamutovo.cz CNAME .
 mastodonczech.cz CNAME .
 *.mastodonczech.cz CNAME .
-social.meyer.cz CNAME .
-*.social.meyer.cz CNAME .
 friendica.namestaci.cz CNAME .
 *.friendica.namestaci.cz CNAME .
 nastub.cz CNAME .
@@ -4551,6 +4517,8 @@ lemmy.umucat.day CNAME .
 *.lemmy.umucat.day CNAME .
 mastodon.24bit48khz.de CNAME .
 *.mastodon.24bit48khz.de CNAME .
+friendica.a-zwenkau.de CNAME .
+*.friendica.a-zwenkau.de CNAME .
 social.abraum.de CNAME .
 *.social.abraum.de CNAME .
 video.abraum.de CNAME .
@@ -4625,16 +4593,18 @@ social.bund.de CNAME .
 *.social.bund.de CNAME .
 troet.burg-halle.de CNAME .
 *.troet.burg-halle.de CNAME .
-social.caserio.de CNAME .
-*.social.caserio.de CNAME .
 is-a.catinsi.de CNAME .
 *.is-a.catinsi.de CNAME .
 video.chbmeyer.de CNAME .
 *.video.chbmeyer.de CNAME .
+chillcorner.de CNAME .
+*.chillcorner.de CNAME .
 chirpi.de CNAME .
 *.chirpi.de CNAME .
 social.colectif.de CNAME .
 *.social.colectif.de CNAME .
+mst-staging.collocall.de CNAME .
+*.mst-staging.collocall.de CNAME .
 social.computertruhe.de CNAME .
 *.social.computertruhe.de CNAME .
 mastodon.cyperpunk.de CNAME .
@@ -4645,6 +4615,8 @@ friendica.daniel-siepmann.de CNAME .
 *.friendica.daniel-siepmann.de CNAME .
 social.darc.de CNAME .
 *.social.darc.de CNAME .
+pie.dasneuland.de CNAME .
+*.pie.dasneuland.de CNAME .
 lemmy.deadca.de CNAME .
 *.lemmy.deadca.de CNAME .
 deadinsi.de CNAME .
@@ -4677,6 +4649,8 @@ m.efg-ober-ramstadt.de CNAME .
 *.m.efg-ober-ramstadt.de CNAME .
 tube.eggmoe.de CNAME .
 *.tube.eggmoe.de CNAME .
+pub.ehrengruppe.de CNAME .
+*.pub.ehrengruppe.de CNAME .
 ein-hub-von-vielen.de CNAME .
 *.ein-hub-von-vielen.de CNAME .
 einfache-email.de CNAME .
@@ -4701,6 +4675,8 @@ social.fabulr.de CNAME .
 *.social.fabulr.de CNAME .
 mastodon.faktorzehn.de CNAME .
 *.mastodon.faktorzehn.de CNAME .
+peertube.familie-berner.de CNAME .
+*.peertube.familie-berner.de CNAME .
 pixelfed.familie-berner.de CNAME .
 *.pixelfed.familie-berner.de CNAME .
 mastodon.fediblue.de CNAME .
@@ -4847,6 +4823,8 @@ peertube.lernetholenia.de CNAME .
 *.peertube.lernetholenia.de CNAME .
 leselog.de CNAME .
 *.leselog.de CNAME .
+librepoop.de CNAME .
+*.librepoop.de CNAME .
 akko.lightnovel-dungeon.de CNAME .
 *.akko.lightnovel-dungeon.de CNAME .
 mastodon.bv.linksjugend-solid.de CNAME .
@@ -4957,8 +4935,6 @@ social.postomo.de CNAME .
 *.social.postomo.de CNAME .
 lm.preferlinux.de CNAME .
 *.lm.preferlinux.de CNAME .
-mastodon.pt-manor.de CNAME .
-*.mastodon.pt-manor.de CNAME .
 punkstodon.de CNAME .
 *.punkstodon.de CNAME .
 social.purrucker.de CNAME .
@@ -5143,6 +5119,8 @@ tube.xy-space.de CNAME .
 *.tube.xy-space.de CNAME .
 troet.yavin3.de CNAME .
 *.troet.yavin3.de CNAME .
+write.zemestan.de CNAME .
+*.write.zemestan.de CNAME .
 zerschnurrt.de CNAME .
 *.zerschnurrt.de CNAME .
 discord.design CNAME .
@@ -5191,6 +5169,8 @@ mi.bokukoha.dev CNAME .
 *.mi.bokukoha.dev CNAME .
 mstdn-srv1.social.boorloo.dev CNAME .
 *.mstdn-srv1.social.boorloo.dev CNAME .
+lemmy.browntown.dev CNAME .
+*.lemmy.browntown.dev CNAME .
 chatsubo.cbrpnk.dev CNAME .
 *.chatsubo.cbrpnk.dev CNAME .
 misskey.chilitreat.dev CNAME .
@@ -5233,6 +5213,8 @@ blog.heartade.dev CNAME .
 *.blog.heartade.dev CNAME .
 misskey.hikalium.dev CNAME .
 *.misskey.hikalium.dev CNAME .
+pff.o.hina.dev CNAME .
+*.pff.o.hina.dev CNAME .
 mi13.ijs01140.dev CNAME .
 *.mi13.ijs01140.dev CNAME .
 imsim.dev CNAME .
@@ -5251,6 +5233,8 @@ mbin.level5.dev CNAME .
 *.mbin.level5.dev CNAME .
 social.lfx.dev CNAME .
 *.social.lfx.dev CNAME .
+misskey.millegliese581.dev CNAME .
+*.misskey.millegliese581.dev CNAME .
 soapbox.minaduki.dev CNAME .
 *.soapbox.minaduki.dev CNAME .
 mk-juice.dev CNAME .
@@ -5287,6 +5271,8 @@ misskey.otnc.dev CNAME .
 *.misskey.otnc.dev CNAME .
 devmi1.oyasumi.dev CNAME .
 *.devmi1.oyasumi.dev CNAME .
+esc.ozar.dev CNAME .
+*.esc.ozar.dev CNAME .
 misskey.peruki.dev CNAME .
 *.misskey.peruki.dev CNAME .
 misskey.pokete.dev CNAME .
@@ -5295,8 +5281,6 @@ populus-social.dev CNAME .
 *.populus-social.dev CNAME .
 programming.dev CNAME .
 *.programming.dev CNAME .
-blog.progressiv.dev CNAME .
-*.blog.progressiv.dev CNAME .
 mi.rerac.dev CNAME .
 *.mi.rerac.dev CNAME .
 tachyon.rintyuu.dev CNAME .
@@ -5447,6 +5431,8 @@ arti.stic.earth CNAME .
 *.arti.stic.earth CNAME .
 toot.earth CNAME .
 *.toot.earth CNAME .
+mastodon.wesense.earth CNAME .
+*.mastodon.wesense.earth CNAME .
 pinterest.com.ec CNAME .
 *.pinterest.com.ec CNAME .
 pinterest.ec CNAME .
@@ -5459,10 +5445,6 @@ social.kit.edu CNAME .
 *.social.kit.edu CNAME .
 wi2-fediverse.win.kit.edu CNAME .
 *.wi2-fediverse.win.kit.edu CNAME .
-peertube.mit.edu CNAME .
-*.peertube.mit.edu CNAME .
-micro.blogs.princeton.edu CNAME .
-*.micro.blogs.princeton.edu CNAME .
 social.cs.swarthmore.edu CNAME .
 *.social.cs.swarthmore.edu CNAME .
 social.iris.upc.edu CNAME .
@@ -5471,6 +5453,8 @@ veterinary.education CNAME .
 *.veterinary.education CNAME .
 0.0n.ee CNAME .
 *.0.0n.ee CNAME .
+cremebrul.ee CNAME .
+*.cremebrul.ee CNAME .
 lin.ee CNAME .
 *.lin.ee CNAME .
 mastodon.ee CNAME .
@@ -5487,6 +5471,8 @@ mastodon.energy CNAME .
 *.mastodon.energy CNAME .
 furry.engineer CNAME .
 *.furry.engineer CNAME .
+social.blahaj.engineering CNAME .
+*.social.blahaj.engineering CNAME .
 social.cute.engineering CNAME .
 *.social.cute.engineering CNAME .
 pinterest.engineering CNAME .
@@ -5495,6 +5481,8 @@ femboy.enterprises CNAME .
 *.femboy.enterprises CNAME .
 kill-corporations.enterprises CNAME .
 *.kill-corporations.enterprises CNAME .
+peertube.bgzashtita.es CNAME .
+*.peertube.bgzashtita.es CNAME .
 blobfox.es CNAME .
 *.blobfox.es CNAME .
 mastodon.bofhers.es CNAME .
@@ -5517,8 +5505,6 @@ djtv.es CNAME .
 *.djtv.es CNAME .
 ferrovipath.es CNAME .
 *.ferrovipath.es CNAME .
-hoov.es CNAME .
-*.hoov.es CNAME .
 photo.ivanamat.es CNAME .
 *.photo.ivanamat.es CNAME .
 masto.es CNAME .
@@ -5557,18 +5543,12 @@ creemoseducacioninclusiva.uma.es CNAME .
 *.creemoseducacioninclusiva.uma.es CNAME .
 mst.universoalterno.es CNAME .
 *.mst.universoalterno.es CNAME .
-mastodon.usal.es CNAME .
-*.mastodon.usal.es CNAME .
 videos-libr.es CNAME .
 *.videos-libr.es CNAME .
 wuffi.es CNAME .
 *.wuffi.es CNAME .
 rb.2snc.eu CNAME .
 *.rb.2snc.eu CNAME .
-shout.3xd.eu CNAME .
-*.shout.3xd.eu CNAME .
-tube.3xd.eu CNAME .
-*.tube.3xd.eu CNAME .
 supervolcano.angryshark.eu CNAME .
 *.supervolcano.angryshark.eu CNAME .
 misskey.anjara.eu CNAME .
@@ -5593,14 +5573,14 @@ social.doghub.eu CNAME .
 *.social.doghub.eu CNAME .
 downonthestreet.eu CNAME .
 *.downonthestreet.eu CNAME .
-pixelfed.dypres.eu CNAME .
-*.pixelfed.dypres.eu CNAME .
 espertubo.eu CNAME .
 *.espertubo.eu CNAME .
 curia.social-network.europa.eu CNAME .
 *.curia.social-network.europa.eu CNAME .
 ec.social-network.europa.eu CNAME .
 *.ec.social-network.europa.eu CNAME .
+peertube.european-pirates.eu CNAME .
+*.peertube.european-pirates.eu CNAME .
 owo.ff15.eu CNAME .
 *.owo.ff15.eu CNAME .
 fotofestival.eu CNAME .
@@ -5611,6 +5591,8 @@ peertube.gegeweb.eu CNAME .
 *.peertube.gegeweb.eu CNAME .
 toot.gnous.eu CNAME .
 *.toot.gnous.eu CNAME .
+video.greenmycity.eu CNAME .
+*.video.greenmycity.eu CNAME .
 gregtech.eu CNAME .
 *.gregtech.eu CNAME .
 photos.grossermensch.eu CNAME .
@@ -5635,6 +5617,8 @@ mastodon.infodocs.eu CNAME .
 *.mastodon.infodocs.eu CNAME .
 mastodon.iriseden.eu CNAME .
 *.mastodon.iriseden.eu CNAME .
+peertube.iriseden.eu CNAME .
+*.peertube.iriseden.eu CNAME .
 johnmastodon.eu CNAME .
 *.johnmastodon.eu CNAME .
 social.kendoo.eu CNAME .
@@ -5655,6 +5639,8 @@ m6n.eu CNAME .
 *.m6n.eu CNAME .
 videos.maitregeek.eu CNAME .
 *.videos.maitregeek.eu CNAME .
+fedi.mandarynki.eu CNAME .
+*.fedi.mandarynki.eu CNAME .
 mastox.eu CNAME .
 *.mastox.eu CNAME .
 publish.ministryofinternet.eu CNAME .
@@ -5707,8 +5693,6 @@ peertube.sensin.eu CNAME .
 *.peertube.sensin.eu CNAME .
 tooter.sftn.eu CNAME .
 *.tooter.sftn.eu CNAME .
-techlover.eu CNAME .
-*.techlover.eu CNAME .
 m.tgl.eu CNAME .
 *.m.tgl.eu CNAME .
 tiktokv.eu CNAME .
@@ -5717,6 +5701,8 @@ tiktokw.eu CNAME .
 *.tiktokw.eu CNAME .
 todon.eu CNAME .
 *.todon.eu CNAME .
+lemmy.toldi.eu CNAME .
+*.lemmy.toldi.eu CNAME .
 trains-official.eu CNAME .
 *.trains-official.eu CNAME .
 trouth.eu CNAME .
@@ -5725,6 +5711,8 @@ mastodon.tymoon.eu CNAME .
 *.mastodon.tymoon.eu CNAME .
 lemmy.unryzer.eu CNAME .
 *.lemmy.unryzer.eu CNAME .
+sharkey.vhack.eu CNAME .
+*.sharkey.vhack.eu CNAME .
 votemap.eu CNAME .
 *.votemap.eu CNAME .
 social.w7f.eu CNAME .
@@ -5811,8 +5799,6 @@ adultswim.fan CNAME .
 *.adultswim.fan CNAME .
 bog.fan CNAME .
 *.bog.fan CNAME .
-wyrm.cutepenguin.fans CNAME .
-*.wyrm.cutepenguin.fans CNAME .
 social.pupsplus.fans CNAME .
 *.social.pupsplus.fans CNAME .
 thegayagenda.fans CNAME .
@@ -5825,8 +5811,6 @@ social.frog.fashion CNAME .
 *.social.frog.fashion CNAME .
 masto.ahlcode.fi CNAME .
 *.masto.ahlcode.fi CNAME .
-social.criminallycute.fi CNAME .
-*.social.criminallycute.fi CNAME .
 mastodon.ellipsis.fi CNAME .
 *.mastodon.ellipsis.fi CNAME .
 energydon.fi CNAME .
@@ -5863,6 +5847,8 @@ blog.vurpo.fi CNAME .
 *.blog.vurpo.fi CNAME .
 fedi.xamk.fi CNAME .
 *.fedi.xamk.fi CNAME .
+lemmy.fedi.zutto.fi CNAME .
+*.lemmy.fedi.zutto.fi CNAME .
 mastodon.puffer.fish CNAME .
 *.mastodon.puffer.fish CNAME .
 fedi.swedish.fish CNAME .
@@ -5871,8 +5857,6 @@ zeppelin.flights CNAME .
 *.zeppelin.flights CNAME .
 misskey.flowers CNAME .
 *.misskey.flowers CNAME .
-social.detektor.fm CNAME .
-*.social.detektor.fm CNAME .
 douban.fm CNAME .
 *.douban.fm CNAME .
 don.kenmo.fm CNAME .
@@ -5909,8 +5893,6 @@ toot.foundation CNAME .
 *.toot.foundation CNAME .
 yakumo.foundation CNAME .
 *.yakumo.foundation CNAME .
-pixelfed.abhd.fr CNAME .
-*.pixelfed.abhd.fr CNAME .
 video.ados.accoord.fr CNAME .
 *.video.ados.accoord.fr CNAME .
 blog.adjoly.fr CNAME .
@@ -5943,8 +5925,6 @@ bla.calut.fr CNAME .
 *.bla.calut.fr CNAME .
 video.cnnumerique.fr CNAME .
 *.video.cnnumerique.fr CNAME .
-m.coolhost.fr CNAME .
-*.m.coolhost.fr CNAME .
 lemmy.coupou.fr CNAME .
 *.lemmy.coupou.fr CNAME .
 pixelfed.coupou.fr CNAME .
@@ -5963,6 +5943,8 @@ pixfed.dead-brain.fr CNAME .
 *.pixfed.dead-brain.fr CNAME .
 diaspodon.fr CNAME .
 *.diaspodon.fr CNAME .
+tube.distrilab.fr CNAME .
+*.tube.distrilab.fr CNAME .
 tube-action-educative.apps.education.fr CNAME .
 *.tube-action-educative.apps.education.fr CNAME .
 tube-arts-lettres-sciences-humaines.apps.education.fr CNAME .
@@ -5983,10 +5965,6 @@ tube-maternelle.apps.education.fr CNAME .
 *.tube-maternelle.apps.education.fr CNAME .
 tube-numerique-educatif.apps.education.fr CNAME .
 *.tube-numerique-educatif.apps.education.fr CNAME .
-tube-sciences-technologies.apps.education.fr CNAME .
-*.tube-sciences-technologies.apps.education.fr CNAME .
-peertube.ekosystems.fr CNAME .
-*.peertube.ekosystems.fr CNAME .
 tube.elemac.fr CNAME .
 *.tube.elemac.fr CNAME .
 social.emikzam.fr CNAME .
@@ -6081,8 +6059,6 @@ peertube.libretic.fr CNAME .
 *.peertube.libretic.fr CNAME .
 mastodon.logilab.fr CNAME .
 *.mastodon.logilab.fr CNAME .
-peertube.logilab.fr CNAME .
-*.peertube.logilab.fr CNAME .
 video.lqdn.fr CNAME .
 *.video.lqdn.fr CNAME .
 ludosphere.fr CNAME .
@@ -6091,12 +6067,12 @@ peertube.lyceeconnecte.fr CNAME .
 *.peertube.lyceeconnecte.fr CNAME .
 mamot.fr CNAME .
 *.mamot.fr CNAME .
+lemmy.mariusdavid.fr CNAME .
+*.lemmy.mariusdavid.fr CNAME .
 peertube.marud.fr CNAME .
 *.peertube.marud.fr CNAME .
 social.marud.fr CNAME .
 *.social.marud.fr CNAME .
-mastodon.fr CNAME .
-*.mastodon.fr CNAME .
 mastoot.fr CNAME .
 *.mastoot.fr CNAME .
 mastouille.fr CNAME .
@@ -6111,8 +6087,14 @@ mastodon.mesnumeriques.fr CNAME .
 *.mastodon.mesnumeriques.fr CNAME .
 peertube.mesnumeriques.fr CNAME .
 *.peertube.mesnumeriques.fr CNAME .
+pixelfed.mesnumeriques.fr CNAME .
+*.pixelfed.mesnumeriques.fr CNAME .
 mastodon.mim-libre.fr CNAME .
 *.mastodon.mim-libre.fr CNAME .
+social.mobile-adenum.fr CNAME .
+*.social.mobile-adenum.fr CNAME .
+video.mobile-adenum.fr CNAME .
+*.video.mobile-adenum.fr CNAME .
 mstdn.fr CNAME .
 *.mstdn.fr CNAME .
 naopix.fr CNAME .
@@ -6123,6 +6105,8 @@ m.nintendojo.fr CNAME .
 *.m.nintendojo.fr CNAME .
 tarte.nuage-libre.fr CNAME .
 *.tarte.nuage-libre.fr CNAME .
+syrteplay.obspm.fr CNAME .
+*.syrteplay.obspm.fr CNAME .
 peertube.openstreetmap.fr CNAME .
 *.peertube.openstreetmap.fr CNAME .
 video.passageenseine.fr CNAME .
@@ -6183,20 +6167,16 @@ social.taker.fr CNAME .
 *.social.taker.fr CNAME .
 tube.taker.fr CNAME .
 *.tube.taker.fr CNAME .
-timeperiods.fr CNAME .
-*.timeperiods.fr CNAME .
 oc.todon.fr CNAME .
 *.oc.todon.fr CNAME .
 mastodon.tudgwal.fr CNAME .
 *.mastodon.tudgwal.fr CNAME .
 tuit.fr CNAME .
 *.tuit.fr CNAME .
-tvn7flix.fr CNAME .
-*.tvn7flix.fr CNAME .
+pixelfed.tyb0.fr CNAME .
+*.pixelfed.tyb0.fr CNAME .
 mastodon.underworld.fr CNAME .
 *.mastodon.underworld.fr CNAME .
-write.underworld.fr CNAME .
-*.write.underworld.fr CNAME .
 videotheque.uness.fr CNAME .
 *.videotheque.uness.fr CNAME .
 pad.venzano.fr CNAME .
@@ -6209,6 +6189,8 @@ calckey.warrows.fr CNAME .
 *.calckey.warrows.fr CNAME .
 peertube.we-keys.fr CNAME .
 *.peertube.we-keys.fr CNAME .
+video.barcelo.ynh.fr CNAME .
+*.video.barcelo.ynh.fr CNAME .
 pix.darfweb.ynh.fr CNAME .
 *.pix.darfweb.ynh.fr CNAME .
 writefreely.shultz.ynh.fr CNAME .
@@ -6253,6 +6235,8 @@ catsocial.fyi CNAME .
 *.catsocial.fyi CNAME .
 ffa.fyi CNAME .
 *.ffa.fyi CNAME .
+isawthat.fyi CNAME .
+*.isawthat.fyi CNAME .
 mstdn.justpost.fyi CNAME .
 *.mstdn.justpost.fyi CNAME .
 moplemmy.fyi CNAME .
@@ -6309,6 +6293,8 @@ academy.garden CNAME .
 *.academy.garden CNAME .
 alpaka.garden CNAME .
 *.alpaka.garden CNAME .
+fedi.catto.garden CNAME .
+*.fedi.catto.garden CNAME .
 social.cms.garden CNAME .
 *.social.cms.garden CNAME .
 fandom.garden CNAME .
@@ -6335,6 +6321,8 @@ lemmy.nocturnal.garden CNAME .
 *.lemmy.nocturnal.garden CNAME .
 mastodon.octofriends.garden CNAME .
 *.mastodon.octofriends.garden CNAME .
+video.octofriends.garden CNAME .
+*.video.octofriends.garden CNAME .
 social.ordinal.garden CNAME .
 *.social.ordinal.garden CNAME .
 otter.garden CNAME .
@@ -6363,8 +6351,6 @@ social.beeps.gay CNAME .
 *.social.beeps.gay CNAME .
 critters.gay CNAME .
 *.critters.gay CNAME .
-cyberpunk.gay CNAME .
-*.cyberpunk.gay CNAME .
 postin.dumbgeon.gay CNAME .
 *.postin.dumbgeon.gay CNAME .
 social.exs.gay CNAME .
@@ -6397,10 +6383,14 @@ toot.ale.gd CNAME .
 *.toot.ale.gd CNAME .
 dis.gd CNAME .
 *.dis.gd CNAME .
+btc.gdn CNAME .
+*.btc.gdn CNAME .
 social.possums.gdn CNAME .
 *.social.possums.gdn CNAME .
 social.applied-langua.ge CNAME .
 *.social.applied-langua.ge CNAME .
+mastodon.zeus.gent CNAME .
+*.mastodon.zeus.gent CNAME .
 discord.gg CNAME .
 *.discord.gg CNAME .
 fb.gg CNAME .
@@ -6549,6 +6539,8 @@ cryptid.house CNAME .
 *.cryptid.house CNAME .
 juju.house CNAME .
 *.juju.house CNAME .
+lemmy.lakes.house CNAME .
+*.lemmy.lakes.house CNAME .
 ozlabs.house CNAME .
 *.ozlabs.house CNAME .
 stonebird.house CNAME .
@@ -6633,6 +6625,8 @@ lemdro.id CNAME .
 *.lemdro.id CNAME .
 mk.luxic.my.id CNAME .
 *.mk.luxic.my.id CNAME .
+snac.ufal.my.id CNAME .
+*.snac.ufal.my.id CNAME .
 pinterest.id CNAME .
 *.pinterest.id CNAME .
 social.zkd.id CNAME .
@@ -6661,8 +6655,6 @@ buzzing.im CNAME .
 *.buzzing.im CNAME .
 c.im CNAME .
 *.c.im CNAME .
-channels.im CNAME .
-*.channels.im CNAME .
 m.cmx.im CNAME .
 *.m.cmx.im CNAME .
 lighthouse.co.im CNAME .
@@ -6677,8 +6669,6 @@ hed.im CNAME .
 *.hed.im CNAME .
 klezmor.im CNAME .
 *.klezmor.im CNAME .
-b.koa.im CNAME .
-*.b.koa.im CNAME .
 re.lire.im CNAME .
 *.re.lire.im CNAME .
 m-i.im CNAME .
@@ -6689,14 +6679,12 @@ m.monika.im CNAME .
 *.m.monika.im CNAME .
 muenster.im CNAME .
 *.muenster.im CNAME .
-theater.im CNAME .
-*.theater.im CNAME .
+news.piaf.im CNAME .
+*.news.piaf.im CNAME .
 tooot.im CNAME .
 *.tooot.im CNAME .
 pl.ugh.im CNAME .
 *.pl.ugh.im CNAME .
-vive.im CNAME .
-*.vive.im CNAME .
 media.zat.im CNAME .
 *.media.zat.im CNAME .
 zmi.im CNAME .
@@ -6737,6 +6725,8 @@ pinterest.in CNAME .
 *.pinterest.in CNAME .
 sharlayan.in CNAME .
 *.sharlayan.in CNAME .
+solutionpoint.in CNAME .
+*.solutionpoint.in CNAME .
 toot.techbeat.in CNAME .
 *.toot.techbeat.in CNAME .
 social.thej.in CNAME .
@@ -6803,6 +6793,10 @@ msk.i-red.info CNAME .
 *.msk.i-red.info CNAME .
 msk.ilnk.info CNAME .
 *.msk.ilnk.info CNAME .
+social.jrruethe.info CNAME .
+*.social.jrruethe.info CNAME .
+mstdn.kemono-friends.info CNAME .
+*.mstdn.kemono-friends.info CNAME .
 sns.kianting.info CNAME .
 *.sns.kianting.info CNAME .
 blog.kicou.info CNAME .
@@ -6827,8 +6821,6 @@ pokemon.mastportal.info CNAME .
 *.pokemon.mastportal.info CNAME .
 mastodon.merkel.info CNAME .
 *.mastodon.merkel.info CNAME .
-miwkey.miwpayou0808.info CNAME .
-*.miwkey.miwpayou0808.info CNAME .
 mi.nanako-net.info CNAME .
 *.mi.nanako-net.info CNAME .
 nayukana.info CNAME .
@@ -6871,6 +6863,8 @@ szmer.info CNAME .
 *.szmer.info CNAME .
 teqpot.info CNAME .
 *.teqpot.info CNAME .
+mastodon.vhome.info CNAME .
+*.mastodon.vhome.info CNAME .
 social.vixenlabs.info CNAME .
 *.social.vixenlabs.info CNAME .
 mstdn.yakitamago.info CNAME .
@@ -6985,14 +6979,14 @@ daedal.io CNAME .
 *.daedal.io CNAME .
 lemmy.nx.dedyn.io CNAME .
 *.lemmy.nx.dedyn.io CNAME .
-devblogs.io CNAME .
-*.devblogs.io CNAME .
 discordapp.io CNAME .
 *.discordapp.io CNAME .
 lemmy.electricmonk.io CNAME .
 *.lemmy.electricmonk.io CNAME .
 mastodon.experienceadvisors.io CNAME .
 *.mastodon.experienceadvisors.io CNAME .
+cantinho.falnes.io CNAME .
+*.cantinho.falnes.io CNAME .
 fbidb.io CNAME .
 *.fbidb.io CNAME .
 com3065-a26.fedihost.io CNAME .
@@ -7011,6 +7005,8 @@ h4.io CNAME .
 *.h4.io CNAME .
 hachyderm.io CNAME .
 *.hachyderm.io CNAME .
+lemmy.halis.io CNAME .
+*.lemmy.halis.io CNAME .
 shizuku.hawawa.io CNAME .
 *.shizuku.hawawa.io CNAME .
 networked-media.itp.io CNAME .
@@ -7049,6 +7045,8 @@ social.nerdhouse.io CNAME .
 *.social.nerdhouse.io CNAME .
 pixelfed.homelab.officebot.io CNAME .
 *.pixelfed.homelab.officebot.io CNAME .
+lemmy.onlylans.io CNAME .
+*.lemmy.onlylans.io CNAME .
 patchwork.io CNAME .
 *.patchwork.io CNAME .
 pisskey.io CNAME .
@@ -7087,6 +7085,8 @@ misskey.turretlabs.io CNAME .
 *.misskey.turretlabs.io CNAME .
 social.uitsmijter.io CNAME .
 *.social.uitsmijter.io CNAME .
+unifed.io CNAME .
+*.unifed.io CNAME .
 wildroot.io CNAME .
 *.wildroot.io CNAME .
 worldkey.io CNAME .
@@ -7133,6 +7133,8 @@ tube.rsi.cnr.it CNAME .
 *.tube.rsi.cnr.it CNAME .
 video.cnr.it CNAME .
 *.video.cnr.it CNAME .
+mastodon.devnet-local.it CNAME .
+*.mastodon.devnet-local.it CNAME .
 hubzilla.diaspo.it CNAME .
 *.hubzilla.diaspo.it CNAME .
 fido.ebash.it CNAME .
@@ -7213,8 +7215,6 @@ fedi.flauschhaufen.jetzt CNAME .
 *.fedi.flauschhaufen.jetzt CNAME .
 problematisch.jetzt CNAME .
 *.problematisch.jetzt CNAME .
-toot.team.jetzt CNAME .
-*.toot.team.jetzt CNAME .
 divas.joburg CNAME .
 *.divas.joburg CNAME .
 itabashi.0j0.jp CNAME .
@@ -7253,8 +7253,8 @@ mastodon.cosmicanimal.jp CNAME .
 *.mastodon.cosmicanimal.jp CNAME .
 msd.ctrl-alt-delete.jp CNAME .
 *.msd.ctrl-alt-delete.jp CNAME .
-mastodon.demo2.jp CNAME .
-*.mastodon.demo2.jp CNAME .
+myamisskey.ddo.jp CNAME .
+*.myamisskey.ddo.jp CNAME .
 dtp-mstdn.jp CNAME .
 *.dtp-mstdn.jp CNAME .
 mirin.eyrin.jp CNAME .
@@ -7295,10 +7295,6 @@ mastodon2.juggler.jp CNAME .
 *.mastodon2.juggler.jp CNAME .
 mk.kakun.jp CNAME .
 *.mk.kakun.jp CNAME .
-mt.shc.kanagawa.jp CNAME .
-*.mt.shc.kanagawa.jp CNAME .
-pr.shc.kanagawa.jp CNAME .
-*.pr.shc.kanagawa.jp CNAME .
 misskey.kcs1959.jp CNAME .
 *.misskey.kcs1959.jp CNAME .
 mstdn.klamath.jp CNAME .
@@ -7415,8 +7411,6 @@ mi1.sha0.jp CNAME .
 *.mi1.sha0.jp CNAME .
 misskey.sigma-project.jp CNAME .
 *.misskey.sigma-project.jp CNAME .
-mk.skima.jp CNAME .
-*.mk.skima.jp CNAME .
 snowdon.jp CNAME .
 *.snowdon.jp CNAME .
 mastodon.snthtns.jp CNAME .
@@ -7427,8 +7421,6 @@ ma.strangeworld.jp CNAME .
 *.ma.strangeworld.jp CNAME .
 supixi.jp CNAME .
 *.supixi.jp CNAME .
-misskey.suzuri.jp CNAME .
-*.misskey.suzuri.jp CNAME .
 misskey.sweshelo.jp CNAME .
 *.misskey.sweshelo.jp CNAME .
 mk.takejohn.jp CNAME .
@@ -7447,6 +7439,8 @@ mstdn.wildtree.jp CNAME .
 *.mstdn.wildtree.jp CNAME .
 xissmie.xfolio.jp CNAME .
 *.xissmie.xfolio.jp CNAME .
+4ckun.xsns.jp CNAME .
+*.4ckun.xsns.jp CNAME .
 8823home.xsns.jp CNAME .
 *.8823home.xsns.jp CNAME .
 akabeko.xsns.jp CNAME .
@@ -7563,10 +7557,10 @@ yumisskey.xsns.jp CNAME .
 *.yumisskey.xsns.jp CNAME .
 yuuk1.jp CNAME .
 *.yuuk1.jp CNAME .
+loquendotv.zsh.jp CNAME .
+*.loquendotv.zsh.jp CNAME .
 clar.ke CNAME .
 *.clar.ke CNAME .
-moecloud.us.kg CNAME .
-*.moecloud.us.kg CNAME .
 pleroma.oleg.kim CNAME .
 *.pleroma.oleg.kim CNAME .
 mastodon.kitchen CNAME .
@@ -7661,8 +7655,6 @@ kmc-misskey.wuhu1s.land CNAME .
 *.kmc-misskey.wuhu1s.land CNAME .
 fedi.lat CNAME .
 *.fedi.lat CNAME .
-maid.lat CNAME .
-*.maid.lat CNAME .
 mast.lat CNAME .
 *.mast.lat CNAME .
 rednomono.lat CNAME .
@@ -7681,6 +7673,8 @@ mi-tempura.n8.lc CNAME .
 *.mi-tempura.n8.lc CNAME .
 onlycasino.legal CNAME .
 *.onlycasino.legal CNAME .
+tube.p2p.legal CNAME .
+*.tube.p2p.legal CNAME .
 asso.lgbt CNAME .
 *.asso.lgbt CNAME .
 fluff.avery.lgbt CNAME .
@@ -7749,6 +7743,8 @@ blackqueer.life CNAME .
 *.blackqueer.life CNAME .
 social.crabs.life CNAME .
 *.social.crabs.life CNAME .
+watch.goodluckgabe.life CNAME .
+*.watch.goodluckgabe.life CNAME .
 jubi.life CNAME .
 *.jubi.life CNAME .
 kbin.life CNAME .
@@ -7763,6 +7759,8 @@ omunchu.life CNAME .
 *.omunchu.life CNAME .
 paneworld.life CNAME .
 *.paneworld.life CNAME .
+pr0mised.life CNAME .
+*.pr0mised.life CNAME .
 preciouslittle.life CNAME .
 *.preciouslittle.life CNAME .
 rodent.life CNAME .
@@ -7847,6 +7845,8 @@ mastodon.retro-os.live CNAME .
 *.mastodon.retro-os.live CNAME .
 miss.studio-nosa.live CNAME .
 *.miss.studio-nosa.live CNAME .
+store.tadreb.live CNAME .
+*.store.tadreb.live CNAME .
 social.bkd.lol CNAME .
 *.social.bkd.lol CNAME .
 masto.cazzo.lol CNAME .
@@ -7921,8 +7921,6 @@ pub.odekake.love CNAME .
 *.pub.odekake.love CNAME .
 misskey.resonite.love CNAME .
 *.misskey.resonite.love CNAME .
-suketan.love CNAME .
-*.suketan.love CNAME .
 transmom.love CNAME .
 *.transmom.love CNAME .
 video.tsundere.love CNAME .
@@ -7941,8 +7939,6 @@ group.lt CNAME .
 *.group.lt CNAME .
 mstd.katalik.lt CNAME .
 *.mstd.katalik.lt CNAME .
-lemmy.lt CNAME .
-*.lemmy.lt CNAME .
 lou.lt CNAME .
 *.lou.lt CNAME .
 mast.lt CNAME .
@@ -8113,6 +8109,8 @@ misskey.joji-ani.me CNAME .
 *.misskey.joji-ani.me CNAME .
 misskey.kasu.me CNAME .
 *.misskey.kasu.me CNAME .
+kasukabe-leon.me CNAME .
+*.kasukabe-leon.me CNAME .
 cab.kemomi.me CNAME .
 *.cab.kemomi.me CNAME .
 mstdn.fedi.kirigiri.me CNAME .
@@ -8179,8 +8177,6 @@ peertube.fourangrydachshunds.nohost.me CNAME .
 *.peertube.fourangrydachshunds.nohost.me CNAME .
 blog.palermo.nohost.me CNAME .
 *.blog.palermo.nohost.me CNAME .
-theunderstory.podmoodle.nohost.me CNAME .
-*.theunderstory.podmoodle.nohost.me CNAME .
 don.nzws.me CNAME .
 *.don.nzws.me CNAME .
 ogp.me CNAME .
@@ -8217,8 +8213,6 @@ please-dominate.me CNAME .
 *.please-dominate.me CNAME .
 plshug.me CNAME .
 *.plshug.me CNAME .
-masto.pogmom.me CNAME .
-*.masto.pogmom.me CNAME .
 pounced-on.me CNAME .
 *.pounced-on.me CNAME .
 mstdn.poyo.me CNAME .
@@ -8229,6 +8223,8 @@ hive.qratedspace.me CNAME .
 *.hive.qratedspace.me CNAME .
 rstats.me CNAME .
 *.rstats.me CNAME .
+lemmy.sador.me CNAME .
+*.lemmy.sador.me CNAME .
 lemmy.scam-mail.me CNAME .
 *.lemmy.scam-mail.me CNAME .
 lemmy.secnd.me CNAME .
@@ -8291,8 +8287,6 @@ misskey.yukineko.me CNAME .
 *.misskey.yukineko.me CNAME .
 cho.yukiya.me CNAME .
 *.cho.yukiya.me CNAME .
-blog.zahari.me CNAME .
-*.blog.zahari.me CNAME .
 lemmy.zmartin.me CNAME .
 *.lemmy.zmartin.me CNAME .
 peertube.1312.media CNAME .
@@ -8473,6 +8467,8 @@ s.mysw.moe CNAME .
 *.s.mysw.moe CNAME .
 nijimiss.moe CNAME .
 *.nijimiss.moe CNAME .
+nyanpuppu.moe CNAME .
+*.nyanpuppu.moe CNAME .
 player.ojamajo.moe CNAME .
 *.player.ojamajo.moe CNAME .
 paella.moe CNAME .
@@ -8539,8 +8535,6 @@ mastobot.ping.moi CNAME .
 *.mastobot.ping.moi CNAME .
 billys.mom CNAME .
 *.billys.mom CNAME .
-kittyy.mom CNAME .
-*.kittyy.mom CNAME .
 blueviolet.monster CNAME .
 *.blueviolet.monster CNAME .
 social.chatty.monster CNAME .
@@ -8567,6 +8561,8 @@ program-theia.monster CNAME .
 *.program-theia.monster CNAME .
 blog.rollenspiel.monster CNAME .
 *.blog.rollenspiel.monster CNAME .
+bookwyrm.rollenspiel.monster CNAME .
+*.bookwyrm.rollenspiel.monster CNAME .
 friendica.rollenspiel.monster CNAME .
 *.friendica.rollenspiel.monster CNAME .
 sas.monster CNAME .
@@ -8689,8 +8685,6 @@ apertatube.net CNAME .
 *.apertatube.net CNAME .
 tube4.apolut.net CNAME .
 *.tube4.apolut.net CNAME .
-aquatan.net CNAME .
-*.aquatan.net CNAME .
 masto.archous.net CNAME .
 *.masto.archous.net CNAME .
 social.arnaus.net CNAME .
@@ -8709,6 +8703,8 @@ peertube.aukfood.net CNAME .
 *.peertube.aukfood.net CNAME .
 misskey.ayutsuki.net CNAME .
 *.misskey.ayutsuki.net CNAME .
+xxx-stg.azyobuzi.net CNAME .
+*.xxx-stg.azyobuzi.net CNAME .
 babblebox.net CNAME .
 *.babblebox.net CNAME .
 social.badabam.net CNAME .
@@ -8733,6 +8729,8 @@ blackshuck.net CNAME .
 *.blackshuck.net CNAME .
 mi.blindalley.net CNAME .
 *.mi.blindalley.net CNAME .
+blindgaming.net CNAME .
+*.blindgaming.net CNAME .
 bluearchitough.net CNAME .
 *.bluearchitough.net CNAME .
 tube.blueben.net CNAME .
@@ -8801,6 +8799,8 @@ lemmy.curiana.net CNAME .
 *.lemmy.curiana.net CNAME .
 l.cypherworld.net CNAME .
 *.l.cypherworld.net CNAME .
+mastodon.czleteron.net CNAME .
+*.mastodon.czleteron.net CNAME .
 m.d3bu.net CNAME .
 *.m.d3bu.net CNAME .
 mi.dabiden.net CNAME .
@@ -8855,8 +8855,6 @@ peertube.dsmouse.net CNAME .
 *.peertube.dsmouse.net CNAME .
 social.dsmouse.net CNAME .
 *.social.dsmouse.net CNAME .
-tube.dsocialize.net CNAME .
-*.tube.dsocialize.net CNAME .
 dullsters.net CNAME .
 *.dullsters.net CNAME .
 masto.e-tuna.net CNAME .
@@ -9039,8 +9037,6 @@ mi.ghz00.net CNAME .
 *.mi.ghz00.net CNAME .
 giersig.net CNAME .
 *.giersig.net CNAME .
-social.gigglez.net CNAME .
-*.social.gigglez.net CNAME .
 social.globalpirates.net CNAME .
 *.social.globalpirates.net CNAME .
 mammut.gogreenit.net CNAME .
@@ -9221,8 +9217,6 @@ kopitalk.net CNAME .
 *.kopitalk.net CNAME .
 m.krbonne.net CNAME .
 *.m.krbonne.net CNAME .
-kuboneka.net CNAME .
-*.kuboneka.net CNAME .
 kufeldt.net CNAME .
 *.kufeldt.net CNAME .
 mstdn.kurame.net CNAME .
@@ -9231,8 +9225,6 @@ pleroma.kwe-private.net CNAME .
 *.pleroma.kwe-private.net CNAME .
 e21.kyent.net CNAME .
 *.e21.kyent.net CNAME .
-kyspace.net CNAME .
-*.kyspace.net CNAME .
 l-0005.l-dc-msedge.net CNAME .
 *.l-0005.l-dc-msedge.net CNAME .
 l-0005.l-msedge.net CNAME .
@@ -9243,8 +9235,6 @@ social.la10cy.net CNAME .
 *.social.la10cy.net CNAME .
 lacommu.net CNAME .
 *.lacommu.net CNAME .
-misskey.lag129.net CNAME .
-*.misskey.lag129.net CNAME .
 misskey.lazywildcat.net CNAME .
 *.misskey.lazywildcat.net CNAME .
 pixelfed.lebeaunuage.net CNAME .
@@ -9277,6 +9267,8 @@ live-theater.net CNAME .
 *.live-theater.net CNAME .
 login-account.net CNAME .
 *.login-account.net CNAME .
+loquendotv.net CNAME .
+*.loquendotv.net CNAME .
 mastodon.lothlorien.net CNAME .
 *.mastodon.lothlorien.net CNAME .
 mastodon.lovetux.net CNAME .
@@ -9291,8 +9283,6 @@ mastodon.macstories.net CNAME .
 *.mastodon.macstories.net CNAME .
 makertube.net CNAME .
 *.makertube.net CNAME .
-makervine.net CNAME .
-*.makervine.net CNAME .
 mastodon.malbela.net CNAME .
 *.mastodon.malbela.net CNAME .
 mi.maple-tree.net CNAME .
@@ -9353,8 +9343,6 @@ social.mrtoto.net CNAME .
 *.social.mrtoto.net CNAME .
 freeski.msnis.net CNAME .
 *.freeski.msnis.net CNAME .
-mspsocial.net CNAME .
-*.mspsocial.net CNAME .
 social.multiverset.net CNAME .
 *.social.multiverset.net CNAME .
 mstdn.murasama.net CNAME .
@@ -9381,8 +9369,6 @@ post.naskya.net CNAME .
 *.post.naskya.net CNAME .
 nbabot.net CNAME .
 *.nbabot.net CNAME .
-nekomiya.net CNAME .
-*.nekomiya.net CNAME .
 mastodon.neometropolis.net CNAME .
 *.mastodon.neometropolis.net CNAME .
 social.nerd.net CNAME .
@@ -9395,8 +9381,12 @@ m.neutral-human.net CNAME .
 *.m.neutral-human.net CNAME .
 social.ng1n.net CNAME .
 *.social.ng1n.net CNAME .
+mastodon.nicochristmann.net CNAME .
+*.mastodon.nicochristmann.net CNAME .
 misskey.nicovrc.net CNAME .
 *.misskey.nicovrc.net CNAME .
+lemmy.nikore.net CNAME .
+*.lemmy.nikore.net CNAME .
 nonexiste.net CNAME .
 *.nonexiste.net CNAME .
 social.noparking.net CNAME .
@@ -9475,8 +9465,6 @@ pandapla.net CNAME .
 *.pandapla.net CNAME .
 mastodon.parleur.net CNAME .
 *.mastodon.parleur.net CNAME .
-videos.parleur.net CNAME .
-*.videos.parleur.net CNAME .
 pleroma.pch.net CNAME .
 *.pleroma.pch.net CNAME .
 social.penguinability.net CNAME .
@@ -9505,8 +9493,6 @@ pixelfed.pirate-hour.net CNAME .
 *.pixelfed.pirate-hour.net CNAME .
 plesiosaur.net CNAME .
 *.plesiosaur.net CNAME .
-plustodon.net CNAME .
-*.plustodon.net CNAME .
 pobierz.net CNAME .
 *.pobierz.net CNAME .
 pravdasocial.net CNAME .
@@ -9549,8 +9535,6 @@ mastodon.raumfahrer.net CNAME .
 *.mastodon.raumfahrer.net CNAME .
 tube.rdan.net CNAME .
 *.tube.rdan.net CNAME .
-mi.re22.net CNAME .
-*.mi.re22.net CNAME .
 clips.regenpfeifer.net CNAME .
 *.clips.regenpfeifer.net CNAME .
 pics.regenpfeifer.net CNAME .
@@ -9591,6 +9575,8 @@ misskey.sakuzyo.net CNAME .
 *.misskey.sakuzyo.net CNAME .
 salmonjerky.net CNAME .
 *.salmonjerky.net CNAME .
+samstodon.net CNAME .
+*.samstodon.net CNAME .
 funkwhale.samtherapy.net CNAME .
 *.funkwhale.samtherapy.net CNAME .
 mastodon.sandwich.net CNAME .
@@ -9683,6 +9669,8 @@ tube.systerserver.net CNAME .
 *.tube.systerserver.net CNAME .
 tacobelllabs.net CNAME .
 *.tacobelllabs.net CNAME .
+mstdn.taiha.net CNAME .
+*.mstdn.taiha.net CNAME .
 mi.takaion.net CNAME .
 *.mi.takaion.net CNAME .
 mstdn.takuya-a.net CNAME .
@@ -9739,14 +9727,10 @@ tiksi.net CNAME .
 *.tiksi.net CNAME .
 tiktokcdn-eu.net CNAME .
 *.tiktokcdn-eu.net CNAME .
-misskey.tlfoxhuman.net CNAME .
-*.misskey.tlfoxhuman.net CNAME .
 toasskey.net CNAME .
 *.toasskey.net CNAME .
 misskey.tobitti.net CNAME .
 *.misskey.tobitti.net CNAME .
-mastodon.tod.net CNAME .
-*.mastodon.tod.net CNAME .
 torikago-suki.net CNAME .
 *.torikago-suki.net CNAME .
 mastodon.transneptune.net CNAME .
@@ -9767,8 +9751,6 @@ twttr.net CNAME .
 *.twttr.net CNAME .
 u-stella.net CNAME .
 *.u-stella.net CNAME .
-ufasofilmebi.net CNAME .
-*.ufasofilmebi.net CNAME .
 uksocial.net CNAME .
 *.uksocial.net CNAME .
 mi.ul0829.net CNAME .
@@ -9845,8 +9827,8 @@ wp-social.net CNAME .
 *.wp-social.net CNAME .
 peertube.wtfayla.net CNAME .
 *.peertube.wtfayla.net CNAME .
-wyrdsweb.net CNAME .
-*.wyrdsweb.net CNAME .
+anarkey.xennippon.net CNAME .
+*.anarkey.xennippon.net CNAME .
 mastodon.xethos.net CNAME .
 *.mastodon.xethos.net CNAME .
 fedi.xirion.net CNAME .
@@ -9931,8 +9913,6 @@ lemmy.pootis.network CNAME .
 *.lemmy.pootis.network CNAME .
 mk.shrimpia.network CNAME .
 *.mk.shrimpia.network CNAME .
-tube.sloth.network CNAME .
-*.tube.sloth.network CNAME .
 sociale.network CNAME .
 *.sociale.network CNAME .
 mstdn.starnix.network CNAME .
@@ -9987,12 +9967,18 @@ awawi.nexus CNAME .
 *.awawi.nexus CNAME .
 fox.nexus CNAME .
 *.fox.nexus CNAME .
+microblog.infinito.nexus CNAME .
+*.microblog.infinito.nexus CNAME .
+video.infinito.nexus CNAME .
+*.video.infinito.nexus CNAME .
 kvarkki.nexus CNAME .
 *.kvarkki.nexus CNAME .
 lemmy.nexus CNAME .
 *.lemmy.nexus CNAME .
 toots.niark.nexus CNAME .
 *.toots.niark.nexus CNAME .
+shark.protogen.nexus CNAME .
+*.shark.protogen.nexus CNAME .
 torment.nexus CNAME .
 *.torment.nexus CNAME .
 zoonosis.nexus CNAME .
@@ -10031,8 +10017,6 @@ mastodon.bit.nl CNAME .
 *.mastodon.bit.nl CNAME .
 mastodon.chasalin.nl CNAME .
 *.mastodon.chasalin.nl CNAME .
-mastodon.clusterfucks.nl CNAME .
-*.mastodon.clusterfucks.nl CNAME .
 social.codefor.nl CNAME .
 *.social.codefor.nl CNAME .
 mastodon.cultuurpers.nl CNAME .
@@ -10067,6 +10051,8 @@ facebook.nl CNAME .
 *.facebook.nl CNAME .
 feddit.nl CNAME .
 *.feddit.nl CNAME .
+fotofed.nl CNAME .
+*.fotofed.nl CNAME .
 social.framerframed.nl CNAME .
 *.social.framerframed.nl CNAME .
 social.ftm.nl CNAME .
@@ -10145,8 +10131,6 @@ vacatureforum.nl CNAME .
 *.vacatureforum.nl CNAME .
 social.vasilis.nl CNAME .
 *.social.vasilis.nl CNAME .
-lemmy.vigenere.nl CNAME .
-*.lemmy.vigenere.nl CNAME .
 vitaulium.nl CNAME .
 *.vitaulium.nl CNAME .
 video.wakkeren.nl CNAME .
@@ -10253,6 +10237,8 @@ social.memes.nz CNAME .
 *.social.memes.nz CNAME .
 moo.nz CNAME .
 *.moo.nz CNAME .
+mastodon.nzoss.nz CNAME .
+*.mastodon.nzoss.nz CNAME .
 piefed.nz CNAME .
 *.piefed.nz CNAME .
 pinterest.nz CNAME .
@@ -10315,6 +10301,8 @@ lemmy.mrm.one CNAME .
 *.lemmy.mrm.one CNAME .
 nep.one CNAME .
 *.nep.one CNAME .
+netsphere.one CNAME .
+*.netsphere.one CNAME .
 nya.one CNAME .
 *.nya.one CNAME .
 watch.otherwise.one CNAME .
@@ -10343,6 +10331,8 @@ uneune.one CNAME .
 *.uneune.one CNAME .
 mkultra.x27.one CNAME .
 *.mkultra.x27.one CNAME .
+zoinks.one CNAME .
+*.zoinks.one CNAME .
 blog.gaza.onl CNAME .
 *.blog.gaza.onl CNAME .
 loci.onl CNAME .
@@ -10353,6 +10343,8 @@ posting.onl CNAME .
 *.posting.onl CNAME .
 slashine.onl CNAME .
 *.slashine.onl CNAME .
+social.32mx.online CNAME .
+*.social.32mx.online CNAME .
 misskey.accordi.online CNAME .
 *.misskey.accordi.online CNAME .
 afternoonauthor.online CNAME .
@@ -10367,14 +10359,10 @@ beppo.online CNAME .
 *.beppo.online CNAME .
 bostonmusic.online CNAME .
 *.bostonmusic.online CNAME .
-blog.brightspark.online CNAME .
-*.blog.brightspark.online CNAME .
 celestialscribe.online CNAME .
 *.celestialscribe.online CNAME .
 hydaelyn.coerthansnowstorm.online CNAME .
 *.hydaelyn.coerthansnowstorm.online CNAME .
-crazylab.online CNAME .
-*.crazylab.online CNAME .
 crazypeople.online CNAME .
 *.crazypeople.online CNAME .
 cville.online CNAME .
@@ -10449,8 +10437,8 @@ rafale.misskey.online CNAME .
 *.rafale.misskey.online CNAME .
 monads.online CNAME .
 *.monads.online CNAME .
-motube.online CNAME .
-*.motube.online CNAME .
+dev.motube.online CNAME .
+*.dev.motube.online CNAME .
 mypocketpals.online CNAME .
 *.mypocketpals.online CNAME .
 nekomimisskey.online CNAME .
@@ -10463,8 +10451,6 @@ vid.northbound.online CNAME .
 *.vid.northbound.online CNAME .
 mastodon.ozioso.online CNAME .
 *.mastodon.ozioso.online CNAME .
-staging.patchwork.online CNAME .
-*.staging.patchwork.online CNAME .
 patriot.online CNAME .
 *.patriot.online CNAME .
 social.pearqueendom.online CNAME .
@@ -10561,10 +10547,16 @@ social.anartist.org CNAME .
 *.social.anartist.org CNAME .
 video.anartist.org CNAME .
 *.video.anartist.org CNAME .
+antifat32.org CNAME .
+*.antifat32.org CNAME .
 raptube.antipub.org CNAME .
 *.raptube.antipub.org CNAME .
+video.antopie.org CNAME .
+*.video.antopie.org CNAME .
 social.dcomms.colnodo.apc.org CNAME .
 *.social.dcomms.colnodo.apc.org CNAME .
+social.colnodo.apc.org CNAME .
+*.social.colnodo.apc.org CNAME .
 mastodon.archive.org CNAME .
 *.mastodon.archive.org CNAME .
 mast.areplan.org CNAME .
@@ -10661,6 +10653,8 @@ fedi.copyleft.org CNAME .
 *.fedi.copyleft.org CNAME .
 social.cpress.org CNAME .
 *.social.cpress.org CNAME .
+tube.crapaud-fou.org CNAME .
+*.tube.crapaud-fou.org CNAME .
 crypto-only.org CNAME .
 *.crypto-only.org CNAME .
 social.cyber-pi.org CNAME .
@@ -10701,20 +10695,14 @@ dimebagofknowledge.org CNAME .
 *.dimebagofknowledge.org CNAME .
 x.discut.org CNAME .
 *.x.discut.org CNAME .
-fe.disroot.org CNAME .
-*.fe.disroot.org CNAME .
 scribe.disroot.org CNAME .
 *.scribe.disroot.org CNAME .
 fediverse.distantfuture.org CNAME .
 *.fediverse.distantfuture.org CNAME .
-dontnobodygiveashitjason.org CNAME .
-*.dontnobodygiveashitjason.org CNAME .
 masto.dopiaza.org CNAME .
 *.masto.dopiaza.org CNAME .
 akkoma.0pt.dpdns.org CNAME .
 *.akkoma.0pt.dpdns.org CNAME .
-taicang.dpdns.org CNAME .
-*.taicang.dpdns.org CNAME .
 draftjs.org CNAME .
 *.draftjs.org CNAME .
 dragonchat.org CNAME .
@@ -10723,6 +10711,8 @@ duuckzz.duckdns.org CNAME .
 *.duuckzz.duckdns.org CNAME .
 funkwhale.duckdns.org CNAME .
 *.funkwhale.duckdns.org CNAME .
+video.genky.duckdns.org CNAME .
+*.video.genky.duckdns.org CNAME .
 sekai-biyori.duckdns.org CNAME .
 *.sekai-biyori.duckdns.org CNAME .
 social.duniter.org CNAME .
@@ -10765,6 +10755,8 @@ fed.identify.eu.org CNAME .
 *.fed.identify.eu.org CNAME .
 kiwi.soda.jp.eu.org CNAME .
 *.kiwi.soda.jp.eu.org CNAME .
+shiyi.lu.eu.org CNAME .
+*.shiyi.lu.eu.org CNAME .
 lust4love.eu.org CNAME .
 *.lust4love.eu.org CNAME .
 mast.eu.org CNAME .
@@ -10773,6 +10765,8 @@ petlover.eu.org CNAME .
 *.petlover.eu.org CNAME .
 ramen-fsm.eu.org CNAME .
 *.ramen-fsm.eu.org CNAME .
+liminalgici.spacc.eu.org CNAME .
+*.liminalgici.spacc.eu.org CNAME .
 hoihoi.superboi.eu.org CNAME .
 *.hoihoi.superboi.eu.org CNAME .
 mastodon.evilgeniuschronicles.org CNAME .
@@ -10859,8 +10853,6 @@ splodge.fluff.org CNAME .
 *.splodge.fluff.org CNAME .
 fo0bar.org CNAME .
 *.fo0bar.org CNAME .
-mastodon.forume.org CNAME .
-*.mastodon.forume.org CNAME .
 social.fossdle.org CNAME .
 *.social.fossdle.org CNAME .
 video.fosshq.org CNAME .
@@ -11025,6 +11017,8 @@ kompektiva.org CNAME .
 *.kompektiva.org CNAME .
 kotikone.org CNAME .
 *.kotikone.org CNAME .
+toot.kotocoop.org CNAME .
+*.toot.kotocoop.org CNAME .
 krabb.org CNAME .
 *.krabb.org CNAME .
 masto.krashboyz.org CNAME .
@@ -11077,8 +11071,6 @@ luzeed.org CNAME .
 *.luzeed.org CNAME .
 video.macver.org CNAME .
 *.video.macver.org CNAME .
-social.maschinendeck.org CNAME .
-*.social.maschinendeck.org CNAME .
 mastocomm.org CNAME .
 *.mastocomm.org CNAME .
 mastodon-swiss.org CNAME .
@@ -11123,6 +11115,8 @@ misp-community.org CNAME .
 *.misp-community.org CNAME .
 mistyreverie.org CNAME .
 *.mistyreverie.org CNAME .
+mlemapp.org CNAME .
+*.mlemapp.org CNAME .
 lm.mlfh.org CNAME .
 *.lm.mlfh.org CNAME .
 masto.mtcrew.org CNAME .
@@ -11225,8 +11219,10 @@ social.paladyn.org CNAME .
 *.social.paladyn.org CNAME .
 paperbay.org CNAME .
 *.paperbay.org CNAME .
-mastodon.partipirate.org CNAME .
-*.mastodon.partipirate.org CNAME .
+lemmy.paulstevens.org CNAME .
+*.lemmy.paulstevens.org CNAME .
+fedi.pavluk.org CNAME .
+*.fedi.pavluk.org CNAME .
 peacepharm.org CNAME .
 *.peacepharm.org CNAME .
 social.periodismoindependiente.org CNAME .
@@ -11237,6 +11233,8 @@ ribbit.pitools.org CNAME .
 *.ribbit.pitools.org CNAME .
 pixelfed.org CNAME .
 *.pixelfed.org CNAME .
+pixey.org CNAME .
+*.pixey.org CNAME .
 peertube.plataformess.org CNAME .
 *.peertube.plataformess.org CNAME .
 guild.pmdcollab.org CNAME .
@@ -11327,6 +11325,8 @@ mi.shellgei.org CNAME .
 *.mi.shellgei.org CNAME .
 alerts.shilohnewark.org CNAME .
 *.alerts.shilohnewark.org CNAME .
+lemmy.shutes.org CNAME .
+*.lemmy.shutes.org CNAME .
 social.sigsoft.org CNAME .
 *.social.sigsoft.org CNAME .
 peertube.sinistraverso.org CNAME .
@@ -11363,6 +11363,8 @@ surlaterre.org CNAME .
 *.surlaterre.org CNAME .
 mast.swfindercore.org CNAME .
 *.mast.swfindercore.org CNAME .
+lemmy.syltburk.org CNAME .
+*.lemmy.syltburk.org CNAME .
 social.synacek.org CNAME .
 *.social.synacek.org CNAME .
 toaster.syntaxes.org CNAME .
@@ -11387,8 +11389,6 @@ lemmy.tespia.org CNAME .
 *.lemmy.tespia.org CNAME .
 videos.testimonia.org CNAME .
 *.videos.testimonia.org CNAME .
-mastodon.tgjb.org CNAME .
-*.mastodon.tgjb.org CNAME .
 thebrainbin.org CNAME .
 *.thebrainbin.org CNAME .
 fedi.thechangebook.org CNAME .
@@ -11421,6 +11421,8 @@ trashbrain.org CNAME .
 *.trashbrain.org CNAME .
 blog.troch.org CNAME .
 *.blog.troch.org CNAME .
+lm.tros.org CNAME .
+*.lm.tros.org CNAME .
 vid.ttwsyfree.org CNAME .
 *.vid.ttwsyfree.org CNAME .
 tubedu.org CNAME .
@@ -11439,12 +11441,16 @@ peertube.un-ihe.org CNAME .
 *.peertube.un-ihe.org CNAME .
 social.undrground.org CNAME .
 *.social.undrground.org CNAME .
+lemmy.uninsane.org CNAME .
+*.lemmy.uninsane.org CNAME .
 mastodon.unknownrealm.org CNAME .
 *.mastodon.unknownrealm.org CNAME .
 blog.ut0pia.org CNAME .
 *.blog.ut0pia.org CNAME .
 utsukta.org CNAME .
 *.utsukta.org CNAME .
+m.v-mem.org CNAME .
+*.m.v-mem.org CNAME .
 vargar.org CNAME .
 *.vargar.org CNAME .
 veedeo.org CNAME .
@@ -11473,8 +11479,6 @@ social.wisepoint.org CNAME .
 *.social.wisepoint.org CNAME .
 wistodon.org CNAME .
 *.wistodon.org CNAME .
-xyzyx.org CNAME .
-*.xyzyx.org CNAME .
 mstdn.y-zu.org CNAME .
 *.mstdn.y-zu.org CNAME .
 misskey.y2e.org CNAME .
@@ -11497,6 +11501,8 @@ lemmy.fedi.ovh CNAME .
 *.lemmy.fedi.ovh CNAME .
 social.ixcat.ovh CNAME .
 *.social.ixcat.ovh CNAME .
+lez.ovh CNAME .
+*.lez.ovh CNAME .
 social.nerdnet.ovh CNAME .
 *.social.nerdnet.ovh CNAME .
 masto.neuille.ovh CNAME .
@@ -11507,6 +11513,8 @@ u2be.ovh CNAME .
 *.u2be.ovh CNAME .
 advena.page CNAME .
 *.advena.page CNAME .
+atsuchan.page CNAME .
+*.atsuchan.page CNAME .
 c64.page CNAME .
 *.c64.page CNAME .
 cerulean.page CNAME .
@@ -11545,6 +11553,8 @@ tutut.delire.party CNAME .
 *.tutut.delire.party CNAME .
 wf.dranik.party CNAME .
 *.wf.dranik.party CNAME .
+misskey.fumbledice.party CNAME .
+*.misskey.fumbledice.party CNAME .
 hamfam.party CNAME .
 *.hamfam.party CNAME .
 hub.homelabindia.party CNAME .
@@ -11585,12 +11595,16 @@ sns.copi.pe CNAME .
 *.sns.copi.pe CNAME .
 pinterest.pe CNAME .
 *.pinterest.pe CNAME .
+social.winter.pe CNAME .
+*.social.winter.pe CNAME .
 sk.a-catgirl.pet CNAME .
 *.sk.a-catgirl.pet CNAME .
 evy.pet CNAME .
 *.evy.pet CNAME .
 lea.pet CNAME .
 *.lea.pet CNAME .
+sk.meowing.pet CNAME .
+*.sk.meowing.pet CNAME .
 peertube.lyclpg.itereva.pf CNAME .
 *.peertube.lyclpg.itereva.pf CNAME .
 hom.ph CNAME .
@@ -11611,16 +11625,20 @@ momou.photo CNAME .
 *.momou.photo CNAME .
 paw.photo CNAME .
 *.paw.photo CNAME .
+social.photography CNAME .
+*.social.photography CNAME .
 is.this.photography CNAME .
 *.is.this.photography CNAME .
 bolha.photos CNAME .
 *.bolha.photos CNAME .
 faf.photos CNAME .
 *.faf.photos CNAME .
+federated.photos CNAME .
+*.federated.photos CNAME .
 justsome.photos CNAME .
 *.justsome.photos CNAME .
-loveinfocus.photos CNAME .
-*.loveinfocus.photos CNAME .
+mediocre.photos CNAME .
+*.mediocre.photos CNAME .
 mountains.photos CNAME .
 *.mountains.photos CNAME .
 pixelfed.photos CNAME .
@@ -11653,8 +11671,8 @@ breeze.pictures CNAME .
 *.breeze.pictures CNAME .
 mk.fumo.pictures CNAME .
 *.mk.fumo.pictures CNAME .
-seattle.pink CNAME .
-*.seattle.pink CNAME .
+tristagram.pictures CNAME .
+*.tristagram.pictures CNAME .
 blue.yuv.pink CNAME .
 *.blue.yuv.pink CNAME .
 blogs.linux.pizza CNAME .
@@ -11671,8 +11689,6 @@ lemmy.trippy.pizza CNAME .
 *.0x3c.pl CNAME .
 101010.pl CNAME .
 *.101010.pl CNAME .
-73-110.pl CNAME .
-*.73-110.pl CNAME .
 social.chatik.pl CNAME .
 *.social.chatik.pl CNAME .
 mastodon.com.pl CNAME .
@@ -11701,6 +11717,8 @@ social.partiarazem.pl CNAME .
 *.social.partiarazem.pl CNAME .
 vids.stary.pc.pl CNAME .
 *.vids.stary.pc.pl CNAME .
+pixelfed.pl CNAME .
+*.pixelfed.pl CNAME .
 tech.pr0n.pl CNAME .
 *.tech.pr0n.pl CNAME .
 social.teb.sex.pl CNAME .
@@ -11735,8 +11753,6 @@ social.security.plumbing CNAME .
 *.social.security.plumbing CNAME .
 estrogen.plus CNAME .
 *.estrogen.plus CNAME .
-hivemind.plus CNAME .
-*.hivemind.plus CNAME .
 mstdn.plus CNAME .
 *.mstdn.plus CNAME .
 pxlfd.plus CNAME .
@@ -11791,10 +11807,14 @@ social.particle-summary.pt CNAME .
 *.social.particle-summary.pt CNAME .
 pinterest.pt CNAME .
 *.pinterest.pt CNAME .
+lemmy.toot.pt CNAME .
+*.lemmy.toot.pt CNAME .
 viste.pt CNAME .
 *.viste.pt CNAME .
 europe.pub CNAME .
 *.europe.pub CNAME .
+hedgehog.pub CNAME .
+*.hedgehog.pub CNAME .
 infosec.pub CNAME .
 *.infosec.pub CNAME .
 kono.pub CNAME .
@@ -11825,8 +11845,6 @@ iyasaretai.pw CNAME .
 *.iyasaretai.pw CNAME .
 lemmy.jaypg.pw CNAME .
 *.lemmy.jaypg.pw CNAME .
-ak.pastura.pw CNAME .
-*.ak.pastura.pw CNAME .
 videos.shmalls.pw CNAME .
 *.videos.shmalls.pw CNAME .
 peertube.vapronva.pw CNAME .
@@ -11901,6 +11919,8 @@ mastodon.unwi.re CNAME .
 *.mastodon.unwi.re CNAME .
 utveckla.re CNAME .
 *.utveckla.re CNAME .
+mi.1588.red CNAME .
+*.mi.1588.red CNAME .
 8bit.red CNAME .
 *.8bit.red CNAME .
 akasa.red CNAME .
@@ -11909,8 +11929,6 @@ social.asturias.red CNAME .
 *.social.asturias.red CNAME .
 lemmy.flicke.red CNAME .
 *.lemmy.flicke.red CNAME .
-greenish.red CNAME .
-*.greenish.red CNAME .
 ap.ketsuben.red CNAME .
 *.ap.ketsuben.red CNAME .
 social.nekoea.red CNAME .
@@ -11931,8 +11949,8 @@ shadows.rest CNAME .
 *.shadows.rest CNAME .
 bolha.review CNAME .
 *.bolha.review CNAME .
-abyssal.rip CNAME .
-*.abyssal.rip CNAME .
+after1ife.rip CNAME .
+*.after1ife.rip CNAME .
 asphodel.rip CNAME .
 *.asphodel.rip CNAME .
 belfry.rip CNAME .
@@ -11993,8 +12011,6 @@ this.mouse.rocks CNAME .
 *.this.mouse.rocks CNAME .
 social.pmj.rocks CNAME .
 *.social.pmj.rocks CNAME .
-fw.ponychord.rocks CNAME .
-*.fw.ponychord.rocks CNAME .
 reclaim.rocks CNAME .
 *.reclaim.rocks CNAME .
 social.team-prism.rocks CNAME .
@@ -12009,8 +12025,6 @@ loli.rodeo CNAME .
 *.loli.rodeo CNAME .
 bots.robots.rodeo CNAME .
 *.bots.robots.rodeo CNAME .
-socialnetworks.rodeo CNAME .
-*.socialnetworks.rodeo CNAME .
 starlite.rodeo CNAME .
 *.starlite.rodeo CNAME .
 m.campfi.rs CNAME .
@@ -12037,10 +12051,10 @@ twt.rs CNAME .
 *.twt.rs CNAME .
 ukraine.rs CNAME .
 *.ukraine.rs CNAME .
-music.0x73.ru CNAME .
-*.music.0x73.ru CNAME .
 22x22.ru CNAME .
 *.22x22.ru CNAME .
+3zi.ru CNAME .
+*.3zi.ru CNAME .
 alexme.ru CNAME .
 *.alexme.ru CNAME .
 anekdot.ru CNAME .
@@ -12133,8 +12147,6 @@ torchmc.ru CNAME .
 *.torchmc.ru CNAME .
 mastodon.totmin.ru CNAME .
 *.mastodon.totmin.ru CNAME .
-vedimak.ru CNAME .
-*.vedimak.ru CNAME .
 vk.ru CNAME .
 *.vk.ru CNAME .
 vkontakte.ru CNAME .
@@ -12241,6 +12253,8 @@ pixelfedsweden.se CNAME .
 *.pixelfedsweden.se CNAME .
 social.podsnack.se CNAME .
 *.social.podsnack.se CNAME .
+rightbay.se CNAME .
+*.rightbay.se CNAME .
 skrivel.se CNAME .
 *.skrivel.se CNAME .
 sociall.se CNAME .
@@ -12315,6 +12329,8 @@ lemmy.linuxuserspace.show CNAME .
 *.lemmy.linuxuserspace.show CNAME .
 misskey.04.si CNAME .
 *.misskey.04.si CNAME .
+test-aoba.4i.si CNAME .
+*.test-aoba.4i.si CNAME .
 nukers-misskey.hpc-densi.f5.si CNAME .
 *.nukers-misskey.hpc-densi.f5.si CNAME .
 misskey.kohakuserver.f5.si CNAME .
@@ -12325,12 +12341,12 @@ mastodon.midnight-club.f5.si CNAME .
 *.mastodon.midnight-club.f5.si CNAME .
 momosuki.f5.si CNAME .
 *.momosuki.f5.si CNAME .
+misskey.scn-adm1n.f5.si CNAME .
+*.misskey.scn-adm1n.f5.si CNAME .
 m.shibshib.f5.si CNAME .
 *.m.shibshib.f5.si CNAME .
 sns.wamom.f5.si CNAME .
 *.sns.wamom.f5.si CNAME .
-kino.kompot.si CNAME .
-*.kino.kompot.si CNAME .
 lajna.si CNAME .
 *.lajna.si CNAME .
 video.na-prostem.si CNAME .
@@ -12375,6 +12391,8 @@ social.mastodon.site CNAME .
 *.social.mastodon.site CNAME .
 mstdn-jp.site CNAME .
 *.mstdn-jp.site CNAME .
+video.mysticalvoid.site CNAME .
+*.video.mysticalvoid.site CNAME .
 misskey.neka.site CNAME .
 *.misskey.neka.site CNAME .
 netalk.site CNAME .
@@ -12395,12 +12413,16 @@ mi.taichan.site CNAME .
 *.mi.taichan.site CNAME .
 tanoshii.site CNAME .
 *.tanoshii.site CNAME .
+skyblog.tausendblum.site CNAME .
+*.skyblog.tausendblum.site CNAME .
 temeritas.site CNAME .
 *.temeritas.site CNAME .
 twoot.site CNAME .
 *.twoot.site CNAME .
 viditube.site CNAME .
 *.viditube.site CNAME .
+alt-f4.sk CNAME .
+*.alt-f4.sk CNAME .
 glimpster.sk CNAME .
 *.glimpster.sk CNAME .
 mastodon.sk CNAME .
@@ -12551,6 +12573,8 @@ babyhollywood.social CNAME .
 *.babyhollywood.social CNAME .
 mastodon.bachgau.social CNAME .
 *.mastodon.bachgau.social CNAME .
+pixelfed.bachgau.social CNAME .
+*.pixelfed.bachgau.social CNAME .
 baconworks.social CNAME .
 *.baconworks.social CNAME .
 badatbeing.social CNAME .
@@ -12609,6 +12633,8 @@ beyondwatts.social CNAME .
 *.beyondwatts.social CNAME .
 bigrat.social CNAME .
 *.bigrat.social CNAME .
+bihar.social CNAME .
+*.bihar.social CNAME .
 bikersgo.social CNAME .
 *.bikersgo.social CNAME .
 bildung.social CNAME .
@@ -12685,8 +12711,6 @@ bvb.social CNAME .
 *.bvb.social CNAME .
 bytepark.social CNAME .
 *.bytepark.social CNAME .
-bzh.social CNAME .
-*.bzh.social CNAME .
 c3d2.social CNAME .
 *.c3d2.social CNAME .
 c64.social CNAME .
@@ -12711,6 +12735,8 @@ cascarilla.social CNAME .
 *.cascarilla.social CNAME .
 catalan.social CNAME .
 *.catalan.social CNAME .
+catswords.social CNAME .
+*.catswords.social CNAME .
 cccwi.social CNAME .
 *.cccwi.social CNAME .
 mastodon.cde.social CNAME .
@@ -12765,6 +12791,8 @@ computerclub.social CNAME .
 *.computerclub.social CNAME .
 computermuseum.social CNAME .
 *.computermuseum.social CNAME .
+confessional.social CNAME .
+*.confessional.social CNAME .
 copland.social CNAME .
 *.copland.social CNAME .
 coplus.social CNAME .
@@ -12911,8 +12939,6 @@ domum.social CNAME .
 *.domum.social CNAME .
 donphan.social CNAME .
 *.donphan.social CNAME .
-dopamine.social CNAME .
-*.dopamine.social CNAME .
 dordrecht.social CNAME .
 *.dordrecht.social CNAME .
 dotnet.social CNAME .
@@ -12925,8 +12951,6 @@ lemmy.duckpond.social CNAME .
 *.lemmy.duckpond.social CNAME .
 dudo.social CNAME .
 *.dudo.social CNAME .
-duisburg.social CNAME .
-*.duisburg.social CNAME .
 java.duke.social CNAME .
 *.java.duke.social CNAME .
 dumpster.social CNAME .
@@ -12957,8 +12981,6 @@ edmontonian.social CNAME .
 *.edmontonian.social CNAME .
 eduresearch.social CNAME .
 *.eduresearch.social CNAME .
-eggware.social CNAME .
-*.eggware.social CNAME .
 eimsbuettel.social CNAME .
 *.eimsbuettel.social CNAME .
 einbeck.social CNAME .
@@ -13109,8 +13131,6 @@ freiewaehler.social CNAME .
 *.freiewaehler.social CNAME .
 freifunk.social CNAME .
 *.freifunk.social CNAME .
-friendhole.social CNAME .
-*.friendhole.social CNAME .
 friendsofdesoto.social CNAME .
 *.friendsofdesoto.social CNAME .
 front-end.social CNAME .
@@ -13179,14 +13199,10 @@ glasgow.social CNAME .
 *.glasgow.social CNAME .
 mastodon.glitchy.social CNAME .
 *.mastodon.glitchy.social CNAME .
-globalskywatch.social CNAME .
-*.globalskywatch.social CNAME .
 gloria.social CNAME .
 *.gloria.social CNAME .
 gmajna.social CNAME .
 *.gmajna.social CNAME .
-gmtu.social CNAME .
-*.gmtu.social CNAME .
 gnulinux.social CNAME .
 *.gnulinux.social CNAME .
 goingdark.social CNAME .
@@ -13197,14 +13213,14 @@ graeber.social CNAME .
 *.graeber.social CNAME .
 grafana.social CNAME .
 *.grafana.social CNAME .
+gram.social CNAME .
+*.gram.social CNAME .
 grapheneos.social CNAME .
 *.grapheneos.social CNAME .
 graphics.social CNAME .
 *.graphics.social CNAME .
 graz.social CNAME .
 *.graz.social CNAME .
-greennet.social CNAME .
-*.greennet.social CNAME .
 greenpeace.social CNAME .
 *.greenpeace.social CNAME .
 growers.social CNAME .
@@ -13233,6 +13249,8 @@ hardly.social CNAME .
 *.hardly.social CNAME .
 harz.social CNAME .
 *.harz.social CNAME .
+haxe.social CNAME .
+*.haxe.social CNAME .
 haylandt.social CNAME .
 *.haylandt.social CNAME .
 haze.social CNAME .
@@ -13541,6 +13559,8 @@ mazanec.social CNAME .
 *.mazanec.social CNAME .
 mazaska.social CNAME .
 *.mazaska.social CNAME .
+lemmy.mbl.social CNAME .
+*.lemmy.mbl.social CNAME .
 meadowlark.social CNAME .
 *.meadowlark.social CNAME .
 medialibre.social CNAME .
@@ -13623,8 +13643,6 @@ muso.social CNAME .
 *.muso.social CNAME .
 myna.social CNAME .
 *.myna.social CNAME .
-friendica.myportal.social CNAME .
-*.friendica.myportal.social CNAME .
 n7.social CNAME .
 *.n7.social CNAME .
 nabu.social CNAME .
@@ -13701,8 +13719,6 @@ not-very.social CNAME .
 *.not-very.social CNAME .
 notacult.social CNAME .
 *.notacult.social CNAME .
-pixels.notfeeling.social CNAME .
-*.pixels.notfeeling.social CNAME .
 noventech.social CNAME .
 *.noventech.social CNAME .
 nrc.social CNAME .
@@ -13727,8 +13743,8 @@ nycr.social CNAME .
 *.nycr.social CNAME .
 oak.social CNAME .
 *.oak.social CNAME .
-obeya.social CNAME .
-*.obeya.social CNAME .
+oceanplayground.social CNAME .
+*.oceanplayground.social CNAME .
 ocw.social CNAME .
 *.ocw.social CNAME .
 oddprocess.social CNAME .
@@ -13751,6 +13767,8 @@ omani.social CNAME .
 *.omani.social CNAME .
 onlyarts.social CNAME .
 *.onlyarts.social CNAME .
+ooe.social CNAME .
+*.ooe.social CNAME .
 oozuze.social CNAME .
 *.oozuze.social CNAME .
 opalstack.social CNAME .
@@ -13779,6 +13797,8 @@ osna.social CNAME .
 *.osna.social CNAME .
 osten.social CNAME .
 *.osten.social CNAME .
+oulipo.social CNAME .
+*.oulipo.social CNAME .
 oursky.social CNAME .
 *.oursky.social CNAME .
 outre.social CNAME .
@@ -13845,6 +13865,8 @@ pkm.social CNAME .
 *.pkm.social CNAME .
 planetearth.social CNAME .
 *.planetearth.social CNAME .
+lemmy.pleasestopfaxing.social CNAME .
+*.lemmy.pleasestopfaxing.social CNAME .
 plock.social CNAME .
 *.plock.social CNAME .
 ploen.social CNAME .
@@ -13865,10 +13887,6 @@ podcasts.social CNAME .
 *.podcasts.social CNAME .
 pol.social CNAME .
 *.pol.social CNAME .
-friends.polli.social CNAME .
-*.friends.polli.social CNAME .
-pixel.polli.social CNAME .
-*.pixel.polli.social CNAME .
 polsci.social CNAME .
 *.polsci.social CNAME .
 pone.social CNAME .
@@ -13921,16 +13939,14 @@ queef.social CNAME .
 *.queef.social CNAME .
 queerspirituality.social CNAME .
 *.queerspirituality.social CNAME .
-quietcar.social CNAME .
-*.quietcar.social CNAME .
-rack.social CNAME .
-*.rack.social CNAME .
 racoon.social CNAME .
 *.racoon.social CNAME .
 radikal.social CNAME .
 *.radikal.social CNAME .
 raphus.social CNAME .
 *.raphus.social CNAME .
+ratingen.social CNAME .
+*.ratingen.social CNAME .
 recht.social CNAME .
 *.recht.social CNAME .
 recluse.social CNAME .
@@ -13939,8 +13955,6 @@ recsys.social CNAME .
 *.recsys.social CNAME .
 redwombat.social CNAME .
 *.redwombat.social CNAME .
-toot.reformed.social CNAME .
-*.toot.reformed.social CNAME .
 regenerate.social CNAME .
 *.regenerate.social CNAME .
 relayfm.social CNAME .
@@ -13977,6 +13991,8 @@ rfj.social CNAME .
 *.rfj.social CNAME .
 rheinhessen.social CNAME .
 *.rheinhessen.social CNAME .
+rheinland.social CNAME .
+*.rheinland.social CNAME .
 rheinneckar.social CNAME .
 *.rheinneckar.social CNAME .
 ribeiro.social CNAME .
@@ -14011,6 +14027,8 @@ samenet.social CNAME .
 *.samenet.social CNAME .
 sangha.social CNAME .
 *.sangha.social CNAME .
+sappho.social CNAME .
+*.sappho.social CNAME .
 sardegna.social CNAME .
 *.sardegna.social CNAME .
 saturation.social CNAME .
@@ -14037,6 +14055,8 @@ schoolahead.social CNAME .
 *.schoolahead.social CNAME .
 tube.schule.social CNAME .
 *.tube.schule.social CNAME .
+schuppentier.social CNAME .
+*.schuppentier.social CNAME .
 schwarm.social CNAME .
 *.schwarm.social CNAME .
 science.social CNAME .
@@ -14049,6 +14069,8 @@ scipost.social CNAME .
 *.scipost.social CNAME .
 screencastsonline.social CNAME .
 *.screencastsonline.social CNAME .
+scrim.social CNAME .
+*.scrim.social CNAME .
 sculpin.social CNAME .
 *.sculpin.social CNAME .
 scz.social CNAME .
@@ -14071,8 +14093,6 @@ seocommunity.social CNAME .
 *.seocommunity.social CNAME .
 serenityos.social CNAME .
 *.serenityos.social CNAME .
-sexworkers.social CNAME .
-*.sexworkers.social CNAME .
 sfba.social CNAME .
 *.sfba.social CNAME .
 shakedown.social CNAME .
@@ -14097,10 +14117,14 @@ skyhaven.social CNAME .
 *.skyhaven.social CNAME .
 sled.social CNAME .
 *.sled.social CNAME .
+slop.social CNAME .
+*.slop.social CNAME .
 smartcity.social CNAME .
 *.smartcity.social CNAME .
 smolhaj.social CNAME .
 *.smolhaj.social CNAME .
+snack.social CNAME .
+*.snack.social CNAME .
 snailedit.social CNAME .
 *.snailedit.social CNAME .
 snapp.social CNAME .
@@ -14281,10 +14305,14 @@ ticos.social CNAME .
 *.ticos.social CNAME .
 tiflo.social CNAME .
 *.tiflo.social CNAME .
+tkohhh.social CNAME .
+*.tkohhh.social CNAME .
 toad.social CNAME .
 *.toad.social CNAME .
 toki.social CNAME .
 *.toki.social CNAME .
+tokonatsu.social CNAME .
+*.tokonatsu.social CNAME .
 tokoyo.social CNAME .
 *.tokoyo.social CNAME .
 toon.social CNAME .
@@ -14299,8 +14327,6 @@ transfem.social CNAME .
 *.transfem.social CNAME .
 transfur.social CNAME .
 *.transfur.social CNAME .
-transzh.social CNAME .
-*.transzh.social CNAME .
 trees.social CNAME .
 *.trees.social CNAME .
 trekkies.social CNAME .
@@ -14387,8 +14413,6 @@ urusai.social CNAME .
 *.urusai.social CNAME .
 uwu.social CNAME .
 *.uwu.social CNAME .
-v2br.social CNAME .
-*.v2br.social CNAME .
 varese.social CNAME .
 *.varese.social CNAME .
 veganism.social CNAME .
@@ -14421,6 +14445,8 @@ webworker.social CNAME .
 *.webworker.social CNAME .
 wehavecookies.social CNAME .
 *.wehavecookies.social CNAME .
+were.social CNAME .
+*.were.social CNAME .
 weremember.social CNAME .
 *.weremember.social CNAME .
 weserbergland.social CNAME .
@@ -14487,8 +14513,6 @@ youth.social CNAME .
 *.youth.social CNAME .
 hai.z0ne.social CNAME .
 *.hai.z0ne.social CNAME .
-synthehai.z0ne.social CNAME .
-*.synthehai.z0ne.social CNAME .
 zdf.social CNAME .
 *.zdf.social CNAME .
 zebras.social CNAME .
@@ -14517,6 +14541,8 @@ homo.1919810.space CNAME .
 *.homo.1919810.space CNAME .
 discuss.aethelgard.space CNAME .
 *.discuss.aethelgard.space CNAME .
+alicorn.space CNAME .
+*.alicorn.space CNAME .
 alovely.space CNAME .
 *.alovely.space CNAME .
 anarchism.space CNAME .
@@ -14577,8 +14603,6 @@ dragonscave.space CNAME .
 *.dragonscave.space CNAME .
 duk.space CNAME .
 *.duk.space CNAME .
-eepy.space CNAME .
-*.eepy.space CNAME .
 embracing.space CNAME .
 *.embracing.space CNAME .
 lemmy.encryptionin.space CNAME .
@@ -14593,6 +14617,8 @@ finndom.space CNAME .
 *.finndom.space CNAME .
 frameperfect.space CNAME .
 *.frameperfect.space CNAME .
+freaksonly.space CNAME .
+*.freaksonly.space CNAME .
 fuckaas.space CNAME .
 *.fuckaas.space CNAME .
 fwoof.space CNAME .
@@ -14619,10 +14645,10 @@ hispagatos.space CNAME .
 *.hispagatos.space CNAME .
 lemmy.hkserv.space CNAME .
 *.lemmy.hkserv.space CNAME .
-hunni.space CNAME .
-*.hunni.space CNAME .
 hydrate.space CNAME .
 *.hydrate.space CNAME .
+hydrocube.space CNAME .
+*.hydrocube.space CNAME .
 social.iamforum.space CNAME .
 *.social.iamforum.space CNAME .
 idtech.space CNAME .
@@ -14657,6 +14683,8 @@ social.knot.space CNAME .
 *.social.knot.space CNAME .
 lemmy.lama-corp.space CNAME .
 *.lemmy.lama-corp.space CNAME .
+lastfree.space CNAME .
+*.lastfree.space CNAME .
 layer8.space CNAME .
 *.layer8.space CNAME .
 leminal.space CNAME .
@@ -14695,6 +14723,10 @@ myhm.space CNAME .
 *.myhm.space CNAME .
 nba.space CNAME .
 *.nba.space CNAME .
+lemmy.neko-in.space CNAME .
+*.lemmy.neko-in.space CNAME .
+misskey.no707.space CNAME .
+*.misskey.no707.space CNAME .
 norrebro.space CNAME .
 *.norrebro.space CNAME .
 oldbytes.space CNAME .
@@ -14709,6 +14741,8 @@ social.pawsitiv.space CNAME .
 *.social.pawsitiv.space CNAME .
 piraten.space CNAME .
 *.piraten.space CNAME .
+polyam.space CNAME .
+*.polyam.space CNAME .
 potate.space CNAME .
 *.potate.space CNAME .
 pouet.space CNAME .
@@ -14755,8 +14789,6 @@ softnoise.space CNAME .
 *.softnoise.space CNAME .
 spacey.space CNAME .
 *.spacey.space CNAME .
-starcities.space CNAME .
-*.starcities.space CNAME .
 f.starshard.space CNAME .
 *.f.starshard.space CNAME .
 stereophonic.space CNAME .
@@ -14785,6 +14817,8 @@ zelk.space CNAME .
 *.zelk.space CNAME .
 mastodon.adju.st CNAME .
 *.mastodon.adju.st CNAME .
+social.blazma.st CNAME .
+*.social.blazma.st CNAME .
 ice.ch3.st CNAME .
 *.ice.ch3.st CNAME .
 chi.st CNAME .
@@ -14857,8 +14891,6 @@ mstdn.forfun.su CNAME .
 *.mstdn.forfun.su CNAME .
 fosstodon.su CNAME .
 *.fosstodon.su CNAME .
-idealists.su CNAME .
-*.idealists.su CNAME .
 kommunity.su CNAME .
 *.kommunity.su CNAME .
 tube.kx-home.su CNAME .
@@ -14911,8 +14943,6 @@ tardis.team CNAME .
 *.tardis.team CNAME .
 write.bauxite.tech CNAME .
 *.write.bauxite.tech CNAME .
-lemmy.bigbertha.tech CNAME .
-*.lemmy.bigbertha.tech CNAME .
 mastodon.brol.tech CNAME .
 *.mastodon.brol.tech CNAME .
 mastodon.chrisedwards.tech CNAME .
@@ -14961,20 +14991,22 @@ poptalk.scrubbles.tech CNAME .
 *.poptalk.scrubbles.tech CNAME .
 skunkhollow.tech CNAME .
 *.skunkhollow.tech CNAME .
+tams.tech CNAME .
+*.tams.tech CNAME .
 thetare.tech CNAME .
 *.thetare.tech CNAME .
 ublog.tech CNAME .
 *.ublog.tech CNAME .
 social.vates.tech CNAME .
 *.social.vates.tech CNAME .
-vyizis.tech CNAME .
-*.vyizis.tech CNAME .
 woof.tech CNAME .
 *.woof.tech CNAME .
 catgirls.technology CNAME .
 *.catgirls.technology CNAME .
 social.ninefives.technology CNAME .
 *.social.ninefives.technology CNAME .
+social.technology CNAME .
+*.social.technology CNAME .
 hamradio.tel CNAME .
 *.hamradio.tel CNAME .
 mice.tel CNAME .
@@ -15049,8 +15081,6 @@ mastodon.tokyo CNAME .
 *.mastodon.tokyo CNAME .
 meganekeesu.tokyo CNAME .
 *.meganekeesu.tokyo CNAME .
-misskey.tokyo CNAME .
-*.misskey.tokyo CNAME .
 fedi.munir.tokyo CNAME .
 *.fedi.munir.tokyo CNAME .
 mustardon.tokyo CNAME .
@@ -15071,8 +15101,6 @@ mas.wrong.tools CNAME .
 *.0fff.top CNAME .
 200hub.top CNAME .
 *.200hub.top CNAME .
-funkwhale.agapimou.top CNAME .
-*.funkwhale.agapimou.top CNAME .
 alien.top CNAME .
 *.alien.top CNAME .
 social.arisnet.top CNAME .
@@ -15101,8 +15129,6 @@ retirenow.top CNAME .
 *.retirenow.top CNAME .
 salmon-skin-roll-official.top CNAME .
 *.salmon-skin-roll-official.top CNAME .
-corner.si-on.top CNAME .
-*.corner.si-on.top CNAME .
 smallsocialnetworkforfriends.top CNAME .
 *.smallsocialnetworkforfriends.top CNAME .
 misskey.ssskkk.top CNAME .
@@ -15117,8 +15143,6 @@ gock.virag.top CNAME .
 *.gock.virag.top CNAME .
 misskey.xeiu.top CNAME .
 *.misskey.xeiu.top CNAME .
-xiapopisland.top CNAME .
-*.xiapopisland.top CNAME .
 misskey.ymdr.top CNAME .
 *.misskey.ymdr.top CNAME .
 awoo.town CNAME .
@@ -15321,8 +15345,6 @@ periscope.tv CNAME .
 *.periscope.tv CNAME .
 phpc.tv CNAME .
 *.phpc.tv CNAME .
-pon.tv CNAME .
-*.pon.tv CNAME .
 pressa.tv CNAME .
 *.pressa.tv CNAME .
 vid.pretok.tv CNAME .
@@ -15345,6 +15367,8 @@ m.chino.tw CNAME .
 *.m.chino.tw CNAME .
 linefriends.com.tw CNAME .
 *.linefriends.com.tw CNAME .
+pbs.idv.tw CNAME .
+*.pbs.idv.tw CNAME .
 klog.tw CNAME .
 *.klog.tw CNAME .
 linetv.tw CNAME .
@@ -15361,6 +15385,8 @@ social.zeroplex.tw CNAME .
 *.social.zeroplex.tw CNAME .
 filmly.co.ua CNAME .
 *.filmly.co.ua CNAME .
+lemmit.nyc.what.if.ua CNAME .
+*.lemmit.nyc.what.if.ua CNAME .
 peertube.in.ua CNAME .
 *.peertube.in.ua CNAME .
 social.kyiv.dcomm.net.ua CNAME .
@@ -15393,6 +15419,8 @@ mastodon.gisvold.co.uk CNAME .
 *.mastodon.gisvold.co.uk CNAME .
 intahnet.co.uk CNAME .
 *.intahnet.co.uk CNAME .
+blog.jifish.co.uk CNAME .
+*.blog.jifish.co.uk CNAME .
 toot.jimmygulp.co.uk CNAME .
 *.toot.jimmygulp.co.uk CNAME .
 konvergo.co.uk CNAME .
@@ -15487,8 +15515,6 @@ rebel-lion.uk CNAME .
 *.rebel-lion.uk CNAME .
 misskey.shinamonlifelog.uk CNAME .
 *.misskey.shinamonlifelog.uk CNAME .
-lem.sstestasb.uk CNAME .
-*.lem.sstestasb.uk CNAME .
 mk.tenpest-moon.uk CNAME .
 *.mk.tenpest-moon.uk CNAME .
 things.uk CNAME .
@@ -15513,8 +15539,6 @@ social.thelab.uno CNAME .
 *.social.thelab.uno CNAME .
 vivere.uno CNAME .
 *.vivere.uno CNAME .
-blog.artificial-ryan.us CNAME .
-*.blog.artificial-ryan.us CNAME .
 misskey.artificial-ryan.us CNAME .
 *.misskey.artificial-ryan.us CNAME .
 blog.avner.us CNAME .
@@ -15657,6 +15681,10 @@ gayweeb.vip CNAME .
 *.gayweeb.vip CNAME .
 video.liberta.vip CNAME .
 *.video.liberta.vip CNAME .
+piefed.linenoise.vip CNAME .
+*.piefed.linenoise.vip CNAME .
+misskey.vip CNAME .
+*.misskey.vip CNAME .
 piefed.zeromedia.vip CNAME .
 *.piefed.zeromedia.vip CNAME .
 zohup.vip CNAME .
@@ -15829,6 +15857,8 @@ entomophagy.world CNAME .
 *.entomophagy.world CNAME .
 exitmusic.world CNAME .
 *.exitmusic.world CNAME .
+friendica.world CNAME .
+*.friendica.world CNAME .
 cal.gaooo.world CNAME .
 *.cal.gaooo.world CNAME .
 community.goodcommons.world CNAME .
@@ -15851,6 +15881,8 @@ oomfie.world CNAME .
 *.oomfie.world CNAME .
 m.otta.world CNAME .
 *.m.otta.world CNAME .
+photofed.world CNAME .
+*.photofed.world CNAME .
 piefed.world CNAME .
 *.piefed.world CNAME .
 sharkey.world CNAME .
@@ -15961,6 +15993,8 @@ lemmy.14042003.xyz CNAME .
 *.39383844.xyz CNAME .
 mstdn.3naly.xyz CNAME .
 *.mstdn.3naly.xyz CNAME .
+peertube.agentn86.xyz CNAME .
+*.peertube.agentn86.xyz CNAME .
 social.alteria.xyz CNAME .
 *.social.alteria.xyz CNAME .
 anyehua.xyz CNAME .
@@ -16043,6 +16077,8 @@ peertube.gravitywell.xyz CNAME .
 *.peertube.gravitywell.xyz CNAME .
 pie.gravitywell.xyz CNAME .
 *.pie.gravitywell.xyz CNAME .
+lemmy.halfbro.xyz CNAME .
+*.lemmy.halfbro.xyz CNAME .
 blog.hllcn.xyz CNAME .
 *.blog.hllcn.xyz CNAME .
 lemmy.homenook.xyz CNAME .
@@ -16061,8 +16097,6 @@ mastodon.lanofthedead.xyz CNAME .
 *.mastodon.lanofthedead.xyz CNAME .
 odin.lanofthedead.xyz CNAME .
 *.odin.lanofthedead.xyz CNAME .
-social.lukepreston.xyz CNAME .
-*.social.lukepreston.xyz CNAME .
 videos.lukesmith.xyz CNAME .
 *.videos.lukesmith.xyz CNAME .
 writeas.madjo.xyz CNAME .
@@ -16173,8 +16207,6 @@ spinster.xyz CNAME .
 *.spinster.xyz CNAME .
 lemmy.starlightkel.xyz CNAME .
 *.lemmy.starlightkel.xyz CNAME .
-steloj.xyz CNAME .
-*.steloj.xyz CNAME .
 syzito.xyz CNAME .
 *.syzito.xyz CNAME .
 ski.takoyaki.xyz CNAME .
@@ -16195,14 +16227,12 @@ ekho.violaine.xyz CNAME .
 *.ekho.violaine.xyz CNAME .
 tale.violaine.xyz CNAME .
 *.tale.violaine.xyz CNAME .
-test1.vrc-instance.xyz CNAME .
-*.test1.vrc-instance.xyz CNAME .
 wandzeitung.xyz CNAME .
 *.wandzeitung.xyz CNAME .
 soc.webair.xyz CNAME .
 *.soc.webair.xyz CNAME .
-whemic.xyz CNAME .
-*.whemic.xyz CNAME .
+whocare.xyz CNAME .
+*.whocare.xyz CNAME .
 piefed.wjs018.xyz CNAME .
 *.piefed.wjs018.xyz CNAME .
 wobbl.xyz CNAME .
@@ -16223,8 +16253,6 @@ mastodon.monoceros.co.za CNAME .
 *.mastodon.monoceros.co.za CNAME .
 social.oevents.co.za CNAME .
 *.social.oevents.co.za CNAME .
-pixelfed.co.za CNAME .
-*.pixelfed.co.za CNAME .
 cuties.zip CNAME .
 *.cuties.zip CNAME .
 misskey.gourry.zip CNAME .
@@ -16255,8 +16283,6 @@ correlation.zone CNAME .
 *.correlation.zone CNAME .
 dalek.zone CNAME .
 *.dalek.zone CNAME .
-diode.zone CNAME .
-*.diode.zone CNAME .
 telex.disinfo.zone CNAME .
 *.telex.disinfo.zone CNAME .
 linkage.ds8.zone CNAME .
@@ -16269,6 +16295,8 @@ freeradical.zone CNAME .
 *.freeradical.zone CNAME .
 frikiverse.zone CNAME .
 *.frikiverse.zone CNAME .
+blog.froth.zone CNAME .
+*.blog.froth.zone CNAME .
 tube.froth.zone CNAME .
 *.tube.froth.zone CNAME .
 greenhill.zone CNAME .
@@ -16315,5 +16343,7 @@ ursal.zone CNAME .
 *.ursal.zone CNAME .
 vixen.zone CNAME .
 *.vixen.zone CNAME .
+xcloud.zone CNAME .
+*.xcloud.zone CNAME .
 xoxo.zone CNAME .
 *.xoxo.zone CNAME .
