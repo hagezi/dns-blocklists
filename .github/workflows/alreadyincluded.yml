@@ -1,0 +1,18 @@
+name: alreadyincluded
+on:
+  issues:
+    types:
+      - labeled
+jobs:
+  add-comment:
+    if: github.event.label.name == 'already included'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          close-reason: completed
+          comment: The domain(s) in this issue are already blocked in the relevant list(s). Please check existing lists before submitting a report to avoid duplicate work!

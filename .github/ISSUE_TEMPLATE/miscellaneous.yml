@@ -1,0 +1,24 @@
+name: Miscellaneous
+description: Other concerns.
+labels: ["question"]
+assignees: 
+  - hagezi
+body:
+
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern/Question
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      description: Violation of these terms will result in immediate user blocking.
+      options:
+        - label: I confirm that the request does not contain any sexually explicit material or private/sensitive information.
+          required: true
+        - label: I confirm that the request does not contain any clickable links to malware, phishing, scams, or similar malicious content. Any potentially harmful URLs have been deliberately masked (e.g., by replacing “.” with “[.]”) to prevent accidental access. I have reviewed all included links and taken appropriate precautions to ensure user safety.
+          required: true
