@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793355540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793616300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 30 Oct 2026 10:19 UTC
-; Version: 2026.1030.1019.31
+; Last modified: 02 Nov 2026 10:45 UTC
+; Version: 2026.1102.1045.50
 ; Syntax: RPZ
-; Number of entries: 3072
+; Number of entries: 3068
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -312,8 +312,6 @@ aneisa.com CNAME .
 *.aneisa.com CNAME .
 angelcamddns.com CNAME .
 *.angelcamddns.com CNAME .
-antongorbunov.com CNAME .
-*.antongorbunov.com CNAME .
 anyitsolution.com CNAME .
 *.anyitsolution.com CNAME .
 apptechservices.com CNAME .
@@ -2410,8 +2408,6 @@ awiki.org CNAME .
 *.awiki.org CNAME .
 bagus.org CNAME .
 *.bagus.org CNAME .
-barbaforte.org CNAME .
-*.barbaforte.org CNAME .
 birdriver.org CNAME .
 *.birdriver.org CNAME .
 blacknapkins.org CNAME .

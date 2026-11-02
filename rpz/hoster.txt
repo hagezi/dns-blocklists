@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793352180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793576580 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 30 Oct 2026 09:23 UTC
-; Version: 2026.1030.0923.26
+; Last modified: 01 Nov 2026 23:43 UTC
+; Version: 2026.1101.2343.42
 ; Syntax: RPZ
 ; Number of entries: 2148
 ;
@@ -376,8 +376,6 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
-sitebeat.crazydomains.com CNAME .
-*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 cutedrive.com CNAME .
@@ -708,8 +706,6 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 vuzelia.com CNAME .
 *.vuzelia.com CNAME .
-w3spaces.com CNAME .
-*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -1460,6 +1456,8 @@ de.ki CNAME .
 *.de.ki CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
+dothome.co.kr CNAME .
+*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .
@@ -1684,6 +1682,8 @@ cableonline.com.mx CNAME .
 *.cableonline.com.mx CNAME .
 blogspot.my CNAME .
 *.blogspot.my CNAME .
+domain.name CNAME .
+*.domain.name CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .

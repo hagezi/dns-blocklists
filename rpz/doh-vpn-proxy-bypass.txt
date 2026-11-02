@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793528940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793616420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Nov 2026 10:29 UTC
-; Version: 2026.1101.1029.51
+; Last modified: 02 Nov 2026 10:47 UTC
+; Version: 2026.1102.1047.51
 ; Syntax: RPZ
-; Number of entries: 33016
+; Number of entries: 33112
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -51,6 +51,8 @@ myvpn.ai CNAME .
 *.myvpn.ai CNAME .
 nodepay.ai CNAME .
 *.nodepay.ai CNAME .
+dns.reveliq.ai CNAME .
+*.dns.reveliq.ai CNAME .
 riftvpn.ai CNAME .
 *.riftvpn.ai CNAME .
 iei---trumpet.rinet.ai CNAME .
@@ -123,8 +125,6 @@ dns.bad-taste.app CNAME .
 *.dns.bad-taste.app CNAME .
 bebra.app CNAME .
 *.bebra.app CNAME .
-bebravpn.app CNAME .
-*.bebravpn.app CNAME .
 bensvpn.app CNAME .
 *.bensvpn.app CNAME .
 biubiuvpn.app CNAME .
@@ -325,6 +325,8 @@ pulyavpn.app CNAME .
 *.pulyavpn.app CNAME .
 purejsq.app CNAME .
 *.purejsq.app CNAME .
+dns.pwhs.app CNAME .
+*.dns.pwhs.app CNAME .
 quantvpn.app CNAME .
 *.quantvpn.app CNAME .
 rapidvpn.app CNAME .
@@ -365,8 +367,6 @@ dns.streamvine.app CNAME .
 *.dns.streamvine.app CNAME .
 surfshark.app CNAME .
 *.surfshark.app CNAME .
-relay.surfvpn.app CNAME .
-*.relay.surfvpn.app CNAME .
 telegram.telbet.app CNAME .
 *.telegram.telbet.app CNAME .
 telex.app CNAME .
@@ -717,6 +717,8 @@ endis.bar CNAME .
 *.endis.bar CNAME .
 webtoppings.bar CNAME .
 *.webtoppings.bar CNAME .
+dns.rewire.bd CNAME .
+*.dns.rewire.bd CNAME .
 bebra.be CNAME .
 *.bebra.be CNAME .
 dns.belnet.be CNAME .
@@ -919,8 +921,6 @@ ednovas.blog CNAME .
 *.ednovas.blog CNAME .
 googlecloud365.blog CNAME .
 *.googlecloud365.blog CNAME .
-gram.blog CNAME .
-*.gram.blog CNAME .
 herovpn.blog CNAME .
 *.herovpn.blog CNAME .
 horizonvpn.blog CNAME .
@@ -995,6 +995,8 @@ dns.oceanprint.com.br CNAME .
 *.dns.oceanprint.com.br CNAME .
 media.music.orienta.com.br CNAME .
 *.media.music.orienta.com.br CNAME .
+adguard.raynathus.com.br CNAME .
+*.adguard.raynathus.com.br CNAME .
 skynetinternet.com.br CNAME .
 *.skynetinternet.com.br CNAME .
 dns.snaketech.com.br CNAME .
@@ -1117,6 +1119,8 @@ psiphon.ca CNAME .
 *.psiphon.ca CNAME .
 router.sapib.ca CNAME .
 *.router.sapib.ca CNAME .
+yavin.securahost.ca CNAME .
+*.yavin.securahost.ca CNAME .
 dns.shaw.ca CNAME .
 *.dns.shaw.ca CNAME .
 dns.tapawan.ca CNAME .
@@ -1175,8 +1179,6 @@ arbvpesj.cc CNAME .
 *.arbvpesj.cc CNAME .
 dns.articrevised.cc CNAME .
 *.dns.articrevised.cc CNAME .
-aryuyjun.cc CNAME .
-*.aryuyjun.cc CNAME .
 ashnet.cc CNAME .
 *.ashnet.cc CNAME .
 dnstx.axhy.cc CNAME .
@@ -1193,8 +1195,6 @@ www-proxy.bdplab.cc CNAME .
 *.www-proxy.bdplab.cc CNAME .
 bebra.cc CNAME .
 *.bebra.cc CNAME .
-bhlzibih.cc CNAME .
-*.bhlzibih.cc CNAME .
 dns.bibitos.cc CNAME .
 *.dns.bibitos.cc CNAME .
 bigmoney.cc CNAME .
@@ -1367,6 +1367,8 @@ earthscience.cc CNAME .
 *.earthscience.cc CNAME .
 eofvpn.cc CNAME .
 *.eofvpn.cc CNAME .
+epdns.cc CNAME .
+*.epdns.cc CNAME .
 erwan.cc CNAME .
 *.erwan.cc CNAME .
 fbaffa01.cc CNAME .
@@ -1913,8 +1915,10 @@ connecte-ru.click CNAME .
 *.connecte-ru.click CNAME .
 contentboost.click CNAME .
 *.contentboost.click CNAME .
-tomide93.copperwren.click CNAME .
-*.tomide93.copperwren.click CNAME .
+mirima84.copperwren.click CNAME .
+*.mirima84.copperwren.click CNAME .
+dns.dns-vanhuynh.click CNAME .
+*.dns.dns-vanhuynh.click CNAME .
 dog-auto-one.click CNAME .
 *.dog-auto-one.click CNAME .
 dog-auto-two.click CNAME .
@@ -1953,8 +1957,6 @@ luminalos.click CNAME .
 *.luminalos.click CNAME .
 lvchavpn.click CNAME .
 *.lvchavpn.click CNAME .
-77.mishutkin.click CNAME .
-*.77.mishutkin.click CNAME .
 naruzhu.click CNAME .
 *.naruzhu.click CNAME .
 audiobooks.netlibrary.click CNAME .
@@ -1971,8 +1973,10 @@ ptkdfjnflmpalkfpkehjgopmjldhjhgb.click CNAME .
 *.ptkdfjnflmpalkfpkehjgopmjldhjhgb.click CNAME .
 quickcache.click CNAME .
 *.quickcache.click CNAME .
-polo57.quietfjord.click CNAME .
-*.polo57.quietfjord.click CNAME .
+legato86.quietfjord.click CNAME .
+*.legato86.quietfjord.click CNAME .
+surima18.quietfjord.click CNAME .
+*.surima18.quietfjord.click CNAME .
 rapidcdn.click CNAME .
 *.rapidcdn.click CNAME .
 rusnet-android.click CNAME .
@@ -2029,6 +2033,8 @@ zzzzz.click CNAME .
 *.zzzzz.click CNAME .
 dns.audet.cloud CNAME .
 *.dns.audet.cloud CNAME .
+austim.cloud CNAME .
+*.austim.cloud CNAME .
 friend.bedro.cloud CNAME .
 *.friend.bedro.cloud CNAME .
 justhost.bedro.cloud CNAME .
@@ -3091,6 +3097,8 @@ dns.aaronplayzgaming.com CNAME .
 *.dns.aaronplayzgaming.com CNAME .
 abcproxy.com CNAME .
 *.abcproxy.com CNAME .
+aguard.abcvoltarioltd.com CNAME .
+*.aguard.abcvoltarioltd.com CNAME .
 dns.abhimankolte.com CNAME .
 *.dns.abhimankolte.com CNAME .
 abkgu39v.com CNAME .
@@ -3575,6 +3583,8 @@ advancedvpn.com CNAME .
 *.advancedvpn.com CNAME .
 adventureize.com CNAME .
 *.adventureize.com CNAME .
+dns.aebas.com CNAME .
+*.dns.aebas.com CNAME .
 aecd74796f0ff8d20255d3286ec5cd89bf989b12.com CNAME .
 *.aecd74796f0ff8d20255d3286ec5cd89bf989b12.com CNAME .
 adguard.aenth.com CNAME .
@@ -3587,8 +3597,6 @@ subscribe.vcsa.aeroantenna.com CNAME .
 *.subscribe.vcsa.aeroantenna.com CNAME .
 dns2.afastserver.com CNAME .
 *.dns2.afastserver.com CNAME .
-affntowl.com CNAME .
-*.affntowl.com CNAME .
 owo.rawr.africa.com CNAME .
 *.owo.rawr.africa.com CNAME .
 research.africa.com CNAME .
@@ -3691,8 +3699,6 @@ alltheproxies.com CNAME .
 *.alltheproxies.com CNAME .
 adguard.almanasports.com CNAME .
 *.adguard.almanasports.com CNAME .
-almptxto.com CNAME .
-*.almptxto.com CNAME .
 alohabrowser.com CNAME .
 *.alohabrowser.com CNAME .
 alohaprofile.com CNAME .
@@ -3915,10 +3921,6 @@ iron-dot-cobalt-antenna-219709.appspot.com CNAME .
 *.iron-dot-cobalt-antenna-219709.appspot.com CNAME .
 vpn.appsverse.com CNAME .
 *.vpn.appsverse.com CNAME .
-appxiazai9.com CNAME .
-*.appxiazai9.com CNAME .
-aptutorfinder.com CNAME .
-*.aptutorfinder.com CNAME .
 aqxors6l.com CNAME .
 *.aqxors6l.com CNAME .
 arapurayil.com CNAME .
@@ -4597,8 +4599,6 @@ bingojiasu.com CNAME .
 *.bingojiasu.com CNAME .
 bipzefv7.com CNAME .
 *.bipzefv7.com CNAME .
-bitaqwlx.com CNAME .
-*.bitaqwlx.com CNAME .
 vbox.bitead.com CNAME .
 *.vbox.bitead.com CNAME .
 tips.bitesmagazine.com CNAME .
@@ -4613,8 +4613,6 @@ bitterflux.com CNAME .
 *.bitterflux.com CNAME .
 bitxlszroot.com CNAME .
 *.bitxlszroot.com CNAME .
-biuspggy.com CNAME .
-*.biuspggy.com CNAME .
 bixberry.com CNAME .
 *.bixberry.com CNAME .
 bixlimp.com CNAME .
@@ -4653,6 +4651,8 @@ blackvpn.com CNAME .
 *.blackvpn.com CNAME .
 bladeevoke.com CNAME .
 *.bladeevoke.com CNAME .
+nick.bladeforge.com CNAME .
+*.nick.bladeforge.com CNAME .
 blahdns.com CNAME .
 *.blahdns.com CNAME .
 blanccdn.com CNAME .
@@ -5545,6 +5545,8 @@ dagljcdy.com CNAME .
 *.dagljcdy.com CNAME .
 know.orbit.daibe.com CNAME .
 *.know.orbit.daibe.com CNAME .
+dns.dailydebian.com CNAME .
+*.dns.dailydebian.com CNAME .
 daishujiasuapp.com CNAME .
 *.daishujiasuapp.com CNAME .
 dajichang.com CNAME .
@@ -5601,6 +5603,8 @@ dcacwkw.com CNAME .
 *.dcacwkw.com CNAME .
 agh.dchoe.com CNAME .
 *.agh.dchoe.com CNAME .
+agh2.dchoe.com CNAME .
+*.agh2.dchoe.com CNAME .
 corancy.ddnsfree.com CNAME .
 *.corancy.ddnsfree.com CNAME .
 funmathgames.ddnsfree.com CNAME .
@@ -9435,6 +9439,8 @@ kk98njtt.com CNAME .
 *.kk98njtt.com CNAME .
 klimydkx.com CNAME .
 *.klimydkx.com CNAME .
+rally.kllevr.com CNAME .
+*.rally.kllevr.com CNAME .
 klvpn-app.com CNAME .
 *.klvpn-app.com CNAME .
 klvpn-pc.com CNAME .
@@ -10155,6 +10161,8 @@ mirror4.es-mad-1.linodeobjects.com CNAME .
 *.mirror4.es-mad-1.linodeobjects.com CNAME .
 stream-as.jp-osa-1.linodeobjects.com CNAME .
 *.stream-as.jp-osa-1.linodeobjects.com CNAME .
+45-33-113-218.ip.linodeusercontent.com CNAME .
+*.45-33-113-218.ip.linodeusercontent.com CNAME .
 linuxcross.com CNAME .
 *.linuxcross.com CNAME .
 lionssh.com CNAME .
@@ -11219,6 +11227,8 @@ nolagvpn.com CNAME .
 *.nolagvpn.com CNAME .
 files.nomanei.com CNAME .
 *.files.nomanei.com CNAME .
+d.nonf1.com CNAME .
+*.d.nonf1.com CNAME .
 agh.nonocan.com CNAME .
 *.agh.nonocan.com CNAME .
 noodlevpn.com CNAME .
@@ -12061,6 +12071,8 @@ proxyoutlet.com CNAME .
 *.proxyoutlet.com CNAME .
 proxyrack.com CNAME .
 *.proxyrack.com CNAME .
+proxyrepublic.com CNAME .
+*.proxyrepublic.com CNAME .
 proxyrise.com CNAME .
 *.proxyrise.com CNAME .
 proxyscope.com CNAME .
@@ -12179,6 +12191,8 @@ pzjgyywf.com CNAME .
 *.pzjgyywf.com CNAME .
 q1oen10j.com CNAME .
 *.q1oen10j.com CNAME .
+oracle.q66z.com CNAME .
+*.oracle.q66z.com CNAME .
 q6b2logs.com CNAME .
 *.q6b2logs.com CNAME .
 qasfmp.com CNAME .
@@ -13597,6 +13611,8 @@ union.theworkpc.com CNAME .
 *.union.theworkpc.com CNAME .
 wg.thienhv.com CNAME .
 *.wg.thienhv.com CNAME .
+dns.thinkbluedata.com CNAME .
+*.dns.thinkbluedata.com CNAME .
 graph.train.thinkgarden.com CNAME .
 *.graph.train.thinkgarden.com CNAME .
 thordata.com CNAME .
@@ -13669,6 +13685,8 @@ d.toairs.com CNAME .
 *.d.toairs.com CNAME .
 togppqls.com CNAME .
 *.togppqls.com CNAME .
+dns.tonic3.com CNAME .
+*.dns.tonic3.com CNAME .
 tonvpn.com CNAME .
 *.tonvpn.com CNAME .
 toolcio.com CNAME .
@@ -14655,6 +14673,8 @@ whitewhalejiasu.com CNAME .
 *.whitewhalejiasu.com CNAME .
 whyproxy.com CNAME .
 *.whyproxy.com CNAME .
+dmithk.whzxc.com CNAME .
+*.dmithk.whzxc.com CNAME .
 wicrypt.com CNAME .
 *.wicrypt.com CNAME .
 widenjewel.com CNAME .
@@ -14883,6 +14903,8 @@ xkvtuqep.com CNAME .
 *.xkvtuqep.com CNAME .
 xlhtmuoy.com CNAME .
 *.xlhtmuoy.com CNAME .
+xlmhzs.com CNAME .
+*.xlmhzs.com CNAME .
 xmfvpn.com CNAME .
 *.xmfvpn.com CNAME .
 xmgjsd.com CNAME .
@@ -15699,6 +15721,8 @@ dnsforge.de CNAME .
 *.dnsforge.de CNAME .
 dns.dnshome.de CNAME .
 *.dns.dnshome.de CNAME .
+myfreedns.dogsmedia.de CNAME .
+*.myfreedns.dogsmedia.de CNAME .
 dns.dremaxx.de CNAME .
 *.dns.dremaxx.de CNAME .
 duii.de CNAME .
@@ -15893,6 +15917,8 @@ dns.peb-schmidt.de CNAME .
 *.dns.peb-schmidt.de CNAME .
 fuchur.pentament.de CNAME .
 *.fuchur.pentament.de CNAME .
+adgh-fj73eq29hrgf37278.peterge.de CNAME .
+*.adgh-fj73eq29hrgf37278.peterge.de CNAME .
 adguard.peterge.de CNAME .
 *.adguard.peterge.de CNAME .
 adguard.pggns.de CNAME .
@@ -16043,6 +16069,8 @@ home.azagra.dev CNAME .
 *.home.azagra.dev CNAME .
 dns.azcom.dev CNAME .
 *.dns.azcom.dev CNAME .
+dns.barunlabs.dev CNAME .
+*.dns.barunlabs.dev CNAME .
 bazooki-infra.dev CNAME .
 *.bazooki-infra.dev CNAME .
 womginx.ps.binary-person.dev CNAME .
@@ -16551,6 +16579,8 @@ doh3.almir1904.eu CNAME .
 *.doh3.almir1904.eu CNAME .
 apigoogle.eu CNAME .
 *.apigoogle.eu CNAME .
+iki.at9.eu CNAME .
+*.iki.at9.eu CNAME .
 oci02.at9.eu CNAME .
 *.oci02.at9.eu CNAME .
 home.basthorst.eu CNAME .
@@ -16693,12 +16723,16 @@ dns.wdnts.eu CNAME .
 *.dns.wdnts.eu CNAME .
 wtools.eu CNAME .
 *.wtools.eu CNAME .
+dns.xlhome.eu CNAME .
+*.dns.xlhome.eu CNAME .
 biba.ydns.eu CNAME .
 *.biba.ydns.eu CNAME .
 emmett.ydns.eu CNAME .
 *.emmett.ydns.eu CNAME .
 endis.ydns.eu CNAME .
 *.endis.ydns.eu CNAME .
+multeng.ydns.eu CNAME .
+*.multeng.ydns.eu CNAME .
 poobungus.ydns.eu CNAME .
 *.poobungus.ydns.eu CNAME .
 rammer3-haihu-bynyanko.ydns.eu CNAME .
@@ -16741,6 +16775,8 @@ teacher4biology.fit CNAME .
 *.teacher4biology.fit CNAME .
 void.radio.fm CNAME .
 *.void.radio.fm CNAME .
+dns.shiza.foo CNAME .
+*.dns.shiza.foo CNAME .
 unblocked.foo CNAME .
 *.unblocked.foo CNAME .
 unblockit.foo CNAME .
@@ -16863,6 +16899,8 @@ dns.k3nny.fr CNAME .
 *.dns.k3nny.fr CNAME .
 dns.kebree.fr CNAME .
 *.dns.kebree.fr CNAME .
+dns.koeberle.fr CNAME .
+*.dns.koeberle.fr CNAME .
 doh.lacontrevoie.fr CNAME .
 *.doh.lacontrevoie.fr CNAME .
 le-mesle.fr CNAME .
@@ -17135,8 +17173,6 @@ ns.data.haus CNAME .
 *.12vpn.help CNAME .
 1clickvpn.help CNAME .
 *.1clickvpn.help CNAME .
-7vpn.help CNAME .
-*.7vpn.help CNAME .
 adsvpn.help CNAME .
 *.adsvpn.help CNAME .
 airplanevpn.help CNAME .
@@ -17613,6 +17649,8 @@ bebra.id CNAME .
 *.bebra.id CNAME .
 woc.beelstb.biz.id CNAME .
 *.woc.beelstb.biz.id CNAME .
+ytta.localhostaddr.biz.id CNAME .
+*.ytta.localhostaddr.biz.id CNAME .
 akashiro.co.id CNAME .
 *.akashiro.co.id CNAME .
 adguard.cell.co.id CNAME .
@@ -17653,6 +17691,8 @@ dns.marasov.id CNAME .
 *.dns.marasov.id CNAME .
 doh.moorecloud.id CNAME .
 *.doh.moorecloud.id CNAME .
+doh.achmadbagoes.my.id CNAME .
+*.doh.achmadbagoes.my.id CNAME .
 d.apemlegit.my.id CNAME .
 *.d.apemlegit.my.id CNAME .
 be2aja.my.id CNAME .
@@ -17663,6 +17703,8 @@ croxyproxy.my.id CNAME .
 *.croxyproxy.my.id CNAME .
 dnsadguard.destaafif.my.id CNAME .
 *.dnsadguard.destaafif.my.id CNAME .
+edns.my.id CNAME .
+*.edns.my.id CNAME .
 dns.fadhilyori.my.id CNAME .
 *.dns.fadhilyori.my.id CNAME .
 dns.freddys.my.id CNAME .
@@ -17699,6 +17741,8 @@ agh3.server.my.id CNAME .
 *.agh3.server.my.id CNAME .
 dns1.server.my.id CNAME .
 *.dns1.server.my.id CNAME .
+doh.spairum.my.id CNAME .
+*.doh.spairum.my.id CNAME .
 dns.velyn.my.id CNAME .
 *.dns.velyn.my.id CNAME .
 dns.vmath.my.id CNAME .
@@ -17989,6 +18033,8 @@ anonymousvpn.info CNAME .
 *.anonymousvpn.info CNAME .
 aoxlink.info CNAME .
 *.aoxlink.info CNAME .
+appstoff.info CNAME .
+*.appstoff.info CNAME .
 archivebase.info CNAME .
 *.archivebase.info CNAME .
 ir.ataman.info CNAME .
@@ -18001,14 +18047,8 @@ atlaswyxd3.info CNAME .
 *.atlaswyxd3.info CNAME .
 avovpnbot.info CNAME .
 *.avovpnbot.info CNAME .
-pooran.ir.awedsj.info CNAME .
-*.pooran.ir.awedsj.info CNAME .
 adguard.baltes.info CNAME .
 *.adguard.baltes.info CNAME .
-strait-of-hormuz.ir.bcsadwtgd.info CNAME .
-*.strait-of-hormuz.ir.bcsadwtgd.info CNAME .
-zero.ir.bcsadwtgd.info CNAME .
-*.zero.ir.bcsadwtgd.info CNAME .
 bebra-vpn.info CNAME .
 *.bebra-vpn.info CNAME .
 bebravpndownload.info CNAME .
@@ -18131,8 +18171,6 @@ gowork.info CNAME .
 *.gowork.info CNAME .
 gov.grasic.info CNAME .
 *.gov.grasic.info CNAME .
-ir.grasic.info CNAME .
-*.ir.grasic.info CNAME .
 ir-ir.grasic.info CNAME .
 *.ir-ir.grasic.info CNAME .
 greenpass.info CNAME .
@@ -18193,12 +18231,6 @@ hxp.info CNAME .
 *.hxp.info CNAME .
 hxs.info CNAME .
 *.hxs.info CNAME .
-ariobarzanes.ir.igakwvwa.info CNAME .
-*.ariobarzanes.ir.igakwvwa.info CNAME .
-rostam.ir.igakwvwa.info CNAME .
-*.rostam.ir.igakwvwa.info CNAME .
-sorena.ir.igakwvwa.info CNAME .
-*.sorena.ir.igakwvwa.info CNAME .
 interncloud.info CNAME .
 *.interncloud.info CNAME .
 ipspeed.info CNAME .
@@ -18221,8 +18253,6 @@ doh.kekew.info CNAME .
 *.doh.kekew.info CNAME .
 doh3.kekew.info CNAME .
 *.doh3.kekew.info CNAME .
-see.ketab.info CNAME .
-*.see.ketab.info CNAME .
 kilabit.info CNAME .
 *.kilabit.info CNAME .
 lorc17-dns.komeho.info CNAME .
@@ -18369,12 +18399,6 @@ fame.saalaad.info CNAME .
 *.fame.saalaad.info CNAME .
 selsby.info CNAME .
 *.selsby.info CNAME .
-server1.server-space52.info CNAME .
-*.server1.server-space52.info CNAME .
-server2.server-space52.info CNAME .
-*.server2.server-space52.info CNAME .
-web.server-space52.info CNAME .
-*.web.server-space52.info CNAME .
 shanhuyun.info CNAME .
 *.shanhuyun.info CNAME .
 ir-ir.simpleelegance-us.info CNAME .
@@ -18695,8 +18719,12 @@ curd.io CNAME .
 *.curd.io CNAME .
 dailyvpn.io CNAME .
 *.dailyvpn.io CNAME .
+andychan-dns.dedyn.io CNAME .
+*.andychan-dns.dedyn.io CNAME .
 c9.dedyn.io CNAME .
 *.c9.dedyn.io CNAME .
+dns1.dedyn.io CNAME .
+*.dns1.dedyn.io CNAME .
 frank-web.dedyn.io CNAME .
 *.frank-web.dedyn.io CNAME .
 k03.dedyn.io CNAME .
@@ -19301,8 +19329,6 @@ hotac.ir CNAME .
 *.hotac.ir CNAME .
 hibf6.ir.lpfss.co.uk.i9l9.ir CNAME .
 *.hibf6.ir.lpfss.co.uk.i9l9.ir CNAME .
-tig.ofok.tui.frt.7fg7.88n.jananeman.ir CNAME .
-*.tig.ofok.tui.frt.7fg7.88n.jananeman.ir CNAME .
 isaco.ir.jnxu.ir CNAME .
 *.isaco.ir.jnxu.ir CNAME .
 jodaeimanam.ir CNAME .
@@ -19891,8 +19917,6 @@ void.mcfly.lol CNAME .
 *.void.mcfly.lol CNAME .
 mexi.lol CNAME .
 *.mexi.lol CNAME .
-mtproxygram.lol CNAME .
-*.mtproxygram.lol CNAME .
 nashvps.lol CNAME .
 *.nashvps.lol CNAME .
 dns.ntr.lol CNAME .
@@ -20051,12 +20075,14 @@ secure.anudeep.me CNAME .
 *.secure.anudeep.me CNAME .
 anyone.me CNAME .
 *.anyone.me CNAME .
-dns.axto.me CNAME .
-*.dns.axto.me CNAME .
+axto.me CNAME .
+*.axto.me CNAME .
 dns.b612.me CNAME .
 *.dns.b612.me CNAME .
 baolixiong.me CNAME .
 *.baolixiong.me CNAME .
+dns.bartar.me CNAME .
+*.dns.bartar.me CNAME .
 aaron.listens.to.mango.phonk.bine.me CNAME .
 *.aaron.listens.to.mango.phonk.bine.me CNAME .
 bluemood.me CNAME .
@@ -20199,6 +20225,8 @@ huojian.me CNAME .
 *.huojian.me CNAME .
 iportal.me CNAME .
 *.iportal.me CNAME .
+dns.jaimeherrera.me CNAME .
+*.dns.jaimeherrera.me CNAME .
 jkdns.me CNAME .
 *.jkdns.me CNAME .
 dns.johndave.me CNAME .
@@ -20239,6 +20267,8 @@ monetrix.me CNAME .
 *.monetrix.me CNAME .
 mozy.me CNAME .
 *.mozy.me CNAME .
+dns.my-softwares.me CNAME .
+*.dns.my-softwares.me CNAME .
 adguard-home.myddns.me CNAME .
 *.adguard-home.myddns.me CNAME .
 net-vpn.me CNAME .
@@ -20569,12 +20599,8 @@ adguard4.ota.moe CNAME .
 *.1svpn.mom CNAME .
 5-vpn.mom CNAME .
 *.5-vpn.mom CNAME .
-aivpn.mom CNAME .
-*.aivpn.mom CNAME .
 auu.mom CNAME .
 *.auu.mom CNAME .
-bearvps.mom CNAME .
-*.bearvps.mom CNAME .
 bebra.mom CNAME .
 *.bebra.mom CNAME .
 bebravpn.mom CNAME .
@@ -23009,6 +23035,8 @@ jarvis5.ddns.net CNAME .
 *.jarvis5.ddns.net CNAME .
 jit.ddns.net CNAME .
 *.jit.ddns.net CNAME .
+kilo.ddns.net CNAME .
+*.kilo.ddns.net CNAME .
 kwas24izynek74.ddns.net CNAME .
 *.kwas24izynek74.ddns.net CNAME .
 leochen-dns.ddns.net CNAME .
@@ -24159,6 +24187,8 @@ us-kan-w-f-1.nashkan.net CNAME .
 *.us-kan-w-f-1.nashkan.net CNAME .
 us-kan-w-p-1.nashkan.net CNAME .
 *.us-kan-w-p-1.nashkan.net CNAME .
+us-lax-w-f-1.nashkan.net CNAME .
+*.us-lax-w-f-1.nashkan.net CNAME .
 us-nyc-w-f-1.nashkan.net CNAME .
 *.us-nyc-w-f-1.nashkan.net CNAME .
 us-nyc-w-p-1.nashkan.net CNAME .
@@ -25007,6 +25037,8 @@ privacy.network CNAME .
 *.privacy.network CNAME .
 proxyshare.network CNAME .
 *.proxyshare.network CNAME .
+388024.vm.spacecore.network CNAME .
+*.388024.vm.spacecore.network CNAME .
 spide.network CNAME .
 *.spide.network CNAME .
 streamr.network CNAME .
@@ -25121,6 +25153,8 @@ rwkdwpwsyv48.mikopono.nl CNAME .
 *.rwkdwpwsyv48.mikopono.nl CNAME .
 nothingtohide.nl CNAME .
 *.nothingtohide.nl CNAME .
+adf-118.neta.otrofda.nl CNAME .
+*.adf-118.neta.otrofda.nl CNAME .
 dns.pccoach.nl CNAME .
 *.dns.pccoach.nl CNAME .
 adguard.rdekuyper.nl CNAME .
@@ -25151,6 +25185,8 @@ vpnhellings.nl CNAME .
 *.vpnhellings.nl CNAME .
 dns.anon.no CNAME .
 *.dns.anon.no CNAME .
+dns.limitlessas.no CNAME .
+*.dns.limitlessas.no CNAME .
 doh.serverhost.no CNAME .
 *.doh.serverhost.no CNAME .
 adg.tshost.no CNAME .
@@ -25317,18 +25353,8 @@ vapor.onl CNAME .
 *.49032ur98u3892h84h8h243t.online CNAME .
 55aktnolkvuoctxitm.online CNAME .
 *.55aktnolkvuoctxitm.online CNAME .
-7wxp6uc6lszvj.online CNAME .
-*.7wxp6uc6lszvj.online CNAME .
-89yq10wlfdf.online CNAME .
-*.89yq10wlfdf.online CNAME .
-8locuezmc1dm219uo.online CNAME .
-*.8locuezmc1dm219uo.online CNAME .
 8mvnbml4uxmm.online CNAME .
 *.8mvnbml4uxmm.online CNAME .
-9ilvg7rfx2r79tq4.online CNAME .
-*.9ilvg7rfx2r79tq4.online CNAME .
-a1vmlfqbzrl8wh.online CNAME .
-*.a1vmlfqbzrl8wh.online CNAME .
 dns.abdullahabas.online CNAME .
 *.dns.abdullahabas.online CNAME .
 actipw3.online CNAME .
@@ -25345,14 +25371,10 @@ dns.apigw.online CNAME .
 *.dns.apigw.online CNAME .
 dns-sehat.apigw.online CNAME .
 *.dns-sehat.apigw.online CNAME .
-arywlunqlwvxxtoxgvm.online CNAME .
-*.arywlunqlwvxxtoxgvm.online CNAME .
 asdsajs120sm.online CNAME .
 *.asdsajs120sm.online CNAME .
 askdasjas.online CNAME .
 *.askdasjas.online CNAME .
-at5w361xq.online CNAME .
-*.at5w361xq.online CNAME .
 atozd.online CNAME .
 *.atozd.online CNAME .
 avpn.online CNAME .
@@ -25369,8 +25391,6 @@ bestvpnonline.online CNAME .
 *.bestvpnonline.online CNAME .
 biolicious.online CNAME .
 *.biolicious.online CNAME .
-biyx13mg.online CNAME .
-*.biyx13mg.online CNAME .
 blancvpn.online CNAME .
 *.blancvpn.online CNAME .
 blankvpn.online CNAME .
@@ -25393,6 +25413,8 @@ chatgptspro.online CNAME .
 *.chatgptspro.online CNAME .
 classroomip.online CNAME .
 *.classroomip.online CNAME .
+adguard.cloudycloudface.online CNAME .
+*.adguard.cloudycloudface.online CNAME .
 cordkit.online CNAME .
 *.cordkit.online CNAME .
 deepcores.online CNAME .
@@ -25401,6 +25423,8 @@ vm.delfini.online CNAME .
 *.vm.delfini.online CNAME .
 djc5yls6yrtdmo69.online CNAME .
 *.djc5yls6yrtdmo69.online CNAME .
+pub.am.dns24.online CNAME .
+*.pub.am.dns24.online CNAME .
 dns4eu.online CNAME .
 *.dns4eu.online CNAME .
 ducknuld.online CNAME .
@@ -25427,6 +25451,8 @@ stufy.englishpapers.online CNAME .
 *.stufy.englishpapers.online CNAME .
 sutausfjsajfas.englishpapers.online CNAME .
 *.sutausfjsajfas.englishpapers.online CNAME .
+s2.eniqx.online CNAME .
+*.s2.eniqx.online CNAME .
 evavpn.online CNAME .
 *.evavpn.online CNAME .
 evaworld.online CNAME .
@@ -25517,6 +25543,8 @@ morivpn.online CNAME .
 *.morivpn.online CNAME .
 dns.muzmx.online CNAME .
 *.dns.muzmx.online CNAME .
+dns.mydas.online CNAME .
+*.dns.mydas.online CNAME .
 myhalo.online CNAME .
 *.myhalo.online CNAME .
 dns.mymachinepanda.online CNAME .
@@ -26503,12 +26531,16 @@ adg-home.duckdns.org CNAME .
 *.adg-home.duckdns.org CNAME .
 adgrm.duckdns.org CNAME .
 *.adgrm.duckdns.org CNAME .
+adguard-acros.duckdns.org CNAME .
+*.adguard-acros.duckdns.org CNAME .
 adguard098.duckdns.org CNAME .
 *.adguard098.duckdns.org CNAME .
 adguard113.duckdns.org CNAME .
 *.adguard113.duckdns.org CNAME .
 adguardcalpena.duckdns.org CNAME .
 *.adguardcalpena.duckdns.org CNAME .
+adrubik.duckdns.org CNAME .
+*.adrubik.duckdns.org CNAME .
 aesop8824.duckdns.org CNAME .
 *.aesop8824.duckdns.org CNAME .
 dns.akuma-labs.duckdns.org CNAME .
@@ -26535,6 +26567,8 @@ cdzopi.duckdns.org CNAME .
 *.cdzopi.duckdns.org CNAME .
 chynik.duckdns.org CNAME .
 *.chynik.duckdns.org CNAME .
+dabeeyow.duckdns.org CNAME .
+*.dabeeyow.duckdns.org CNAME .
 defnotballs.duckdns.org CNAME .
 *.defnotballs.duckdns.org CNAME .
 derekcastle.duckdns.org CNAME .
@@ -26555,12 +26589,18 @@ e5v4.duckdns.org CNAME .
 *.e5v4.duckdns.org CNAME .
 eccotestt.duckdns.org CNAME .
 *.eccotestt.duckdns.org CNAME .
+echoisles20.duckdns.org CNAME .
+*.echoisles20.duckdns.org CNAME .
 ehsduckday.duckdns.org CNAME .
 *.ehsduckday.duckdns.org CNAME .
+etovsezloy.duckdns.org CNAME .
+*.etovsezloy.duckdns.org CNAME .
 eweyo.duckdns.org CNAME .
 *.eweyo.duckdns.org CNAME .
 gamdns.duckdns.org CNAME .
 *.gamdns.duckdns.org CNAME .
+gatepro.duckdns.org CNAME .
+*.gatepro.duckdns.org CNAME .
 gcpddns.duckdns.org CNAME .
 *.gcpddns.duckdns.org CNAME .
 genielee.duckdns.org CNAME .
@@ -26617,14 +26657,22 @@ lightsped.duckdns.org CNAME .
 *.lightsped.duckdns.org CNAME .
 mathgamesarefun.duckdns.org CNAME .
 *.mathgamesarefun.duckdns.org CNAME .
+maximroot.duckdns.org CNAME .
+*.maximroot.duckdns.org CNAME .
 mipelinusa.duckdns.org CNAME .
 *.mipelinusa.duckdns.org CNAME .
 morgenegg.duckdns.org CNAME .
 *.morgenegg.duckdns.org CNAME .
 murzmdns.duckdns.org CNAME .
 *.murzmdns.duckdns.org CNAME .
+mycactus.duckdns.org CNAME .
+*.mycactus.duckdns.org CNAME .
 mycloud-dns.duckdns.org CNAME .
 *.mycloud-dns.duckdns.org CNAME .
+mynikdns.duckdns.org CNAME .
+*.mynikdns.duckdns.org CNAME .
+myplanet22.duckdns.org CNAME .
+*.myplanet22.duckdns.org CNAME .
 myvps69hrw.duckdns.org CNAME .
 *.myvps69hrw.duckdns.org CNAME .
 namdn.duckdns.org CNAME .
@@ -26647,6 +26695,8 @@ osu.duckdns.org CNAME .
 *.osu.duckdns.org CNAME .
 pablo-smartdns.duckdns.org CNAME .
 *.pablo-smartdns.duckdns.org CNAME .
+patrique.duckdns.org CNAME .
+*.patrique.duckdns.org CNAME .
 pitchforkwaydns.duckdns.org CNAME .
 *.pitchforkwaydns.duckdns.org CNAME .
 proxy-creator-shadow-browser-1.duckdns.org CNAME .
@@ -26691,6 +26741,8 @@ ts653d.duckdns.org CNAME .
 *.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
+tudat1001.duckdns.org CNAME .
+*.tudat1001.duckdns.org CNAME .
 tungdnsne.duckdns.org CNAME .
 *.tungdnsne.duckdns.org CNAME .
 tupah421.duckdns.org CNAME .
@@ -26699,6 +26751,8 @@ uhomelab.duckdns.org CNAME .
 *.uhomelab.duckdns.org CNAME .
 unixfox.duckdns.org CNAME .
 *.unixfox.duckdns.org CNAME .
+vdskn.duckdns.org CNAME .
+*.vdskn.duckdns.org CNAME .
 wanttolearndns3.duckdns.org CNAME .
 *.wanttolearndns3.duckdns.org CNAME .
 welovemath123.duckdns.org CNAME .
@@ -26827,6 +26881,14 @@ dns.wantfreedom.eu.org CNAME .
 *.dns.wantfreedom.eu.org CNAME .
 yanggan.eu.org CNAME .
 *.yanggan.eu.org CNAME .
+pan.yuhui.eu.org CNAME .
+*.pan.yuhui.eu.org CNAME .
+t.yuhui.eu.org CNAME .
+*.t.yuhui.eu.org CNAME .
+v.yuhui.eu.org CNAME .
+*.v.yuhui.eu.org CNAME .
+www.yuhui.eu.org CNAME .
+*.www.yuhui.eu.org CNAME .
 evavpn.org CNAME .
 *.evavpn.org CNAME .
 explosionlearning.org CNAME .
@@ -26971,6 +27033,8 @@ gumm.org CNAME .
 *.gumm.org CNAME .
 h-vpn.org CNAME .
 *.h-vpn.org CNAME .
+us.h133r.org CNAME .
+*.us.h133r.org CNAME .
 haita.org CNAME .
 *.haita.org CNAME .
 hartfordps.org CNAME .
@@ -27065,6 +27129,8 @@ fleshpanopticon.agguiopz.ip-dynamic.org CNAME .
 *.fleshpanopticon.agguiopz.ip-dynamic.org CNAME .
 ineedmoreips.agguiopz.ip-dynamic.org CNAME .
 *.ineedmoreips.agguiopz.ip-dynamic.org CNAME .
+serv0.ingener002.ip-dynamic.org CNAME .
+*.serv0.ingener002.ip-dynamic.org CNAME .
 iqia.org CNAME .
 *.iqia.org CNAME .
 iscsihost.org CNAME .
@@ -27193,6 +27259,8 @@ motor-cycle-part.org CNAME .
 *.motor-cycle-part.org CNAME .
 vpn.mozilla.org CNAME .
 *.vpn.mozilla.org CNAME .
+dns.mstolik.org CNAME .
+*.dns.mstolik.org CNAME .
 mtviewbaptist.org CNAME .
 *.mtviewbaptist.org CNAME .
 adguard.myddns.org CNAME .
@@ -27335,6 +27403,8 @@ prairievistamiddle.org CNAME .
 *.prairievistamiddle.org CNAME .
 office.pramanik.org CNAME .
 *.office.pramanik.org CNAME .
+freewhitelists.privatedns.org CNAME .
+*.freewhitelists.privatedns.org CNAME .
 privoxy.org CNAME .
 *.privoxy.org CNAME .
 proportiongrass.org CNAME .
@@ -27573,6 +27643,8 @@ dns1.techeasy.org CNAME .
 *.dns1.techeasy.org CNAME .
 books.quiz.teeman.org CNAME .
 *.books.quiz.teeman.org CNAME .
+nidns.tehnopron.org CNAME .
+*.nidns.tehnopron.org CNAME .
 telegramnn.org CNAME .
 *.telegramnn.org CNAME .
 test.texasmath.org CNAME .
@@ -28475,8 +28547,6 @@ tunnel.70x4.ru CNAME .
 *.tunnel.70x4.ru CNAME .
 78e281a9.ru CNAME .
 *.78e281a9.ru CNAME .
-hopethishelps.7geo7.ru CNAME .
-*.hopethishelps.7geo7.ru CNAME .
 de-passage.9273082020.ru CNAME .
 *.de-passage.9273082020.ru CNAME .
 dns.abppro.ru CNAME .
@@ -28523,6 +28593,8 @@ aridia.ru CNAME .
 *.aridia.ru CNAME .
 askordom.ru CNAME .
 *.askordom.ru CNAME .
+dns.dns.asovarenko.ru CNAME .
+*.dns.dns.asovarenko.ru CNAME .
 aurevia.ru CNAME .
 *.aurevia.ru CNAME .
 avo-vpn.ru CNAME .
@@ -28565,10 +28637,16 @@ boltrena.ru CNAME .
 *.boltrena.ru CNAME .
 brafnex.ru CNAME .
 *.brafnex.ru CNAME .
+service.broe.ru CNAME .
+*.service.broe.ru CNAME .
 calvexon.ru CNAME .
 *.calvexon.ru CNAME .
 dns.ch295.ru CNAME .
 *.dns.ch295.ru CNAME .
+caelum.flammigerum.churkabes.ru CNAME .
+*.caelum.flammigerum.churkabes.ru CNAME .
+yandex.cloud.cifra-dn.ru CNAME .
+*.yandex.cloud.cifra-dn.ru CNAME .
 sw1.cloud-test.ru CNAME .
 *.sw1.cloud-test.ru CNAME .
 vbox.cq6.ru CNAME .
@@ -28581,6 +28659,8 @@ dark-proxy.ru CNAME .
 *.dark-proxy.ru CNAME .
 dd34.ru CNAME .
 *.dd34.ru CNAME .
+dd44ru5ogao8vagvww.ru CNAME .
+*.dd44ru5ogao8vagvww.ru CNAME .
 ded-ios.ru CNAME .
 *.ded-ios.ru CNAME .
 dedavpn.ru CNAME .
@@ -28727,6 +28807,8 @@ dns.iamninja.ru CNAME .
 *.dns.iamninja.ru CNAME .
 sec.iamninja.ru CNAME .
 *.sec.iamninja.ru CNAME .
+dns.ice-dns.ru CNAME .
+*.dns.ice-dns.ru CNAME .
 dns.intromail.ru CNAME .
 *.dns.intromail.ru CNAME .
 dns1.it-sbs.ru CNAME .
@@ -28777,6 +28859,8 @@ lumaay.ru CNAME .
 *.lumaay.ru CNAME .
 lunqaro.ru CNAME .
 *.lunqaro.ru CNAME .
+mak-na.ru CNAME .
+*.mak-na.ru CNAME .
 malanser.ru CNAME .
 *.malanser.ru CNAME .
 maybeeasyxz.ru CNAME .
@@ -28789,6 +28873,8 @@ moscownews24.ru CNAME .
 *.moscownews24.ru CNAME .
 dns.msxnet.ru CNAME .
 *.dns.msxnet.ru CNAME .
+triton.musor-tko.ru CNAME .
+*.triton.musor-tko.ru CNAME .
 mutabor-sec.ru CNAME .
 *.mutabor-sec.ru CNAME .
 muxyuji.ru CNAME .
@@ -28947,6 +29033,8 @@ dns-se.qwerti-tarantino.ru CNAME .
 *.dns-se.qwerti-tarantino.ru CNAME .
 dns.radiofisik.ru CNAME .
 *.dns.radiofisik.ru CNAME .
+1.rdnls.ru CNAME .
+*.1.rdnls.ru CNAME .
 realityvpn.ru CNAME .
 *.realityvpn.ru CNAME .
 dns.reolinks.ru CNAME .
@@ -29009,6 +29097,8 @@ dns1.tardishost.ru CNAME .
 *.dns1.tardishost.ru CNAME .
 nl.tcpu.ru CNAME .
 *.nl.tcpu.ru CNAME .
+agh.techsakh.ru CNAME .
+*.agh.techsakh.ru CNAME .
 crm.techsphere.ru CNAME .
 *.crm.techsphere.ru CNAME .
 tenclubamst.ru CNAME .
@@ -29039,6 +29129,8 @@ adguard.tver-tech.ru CNAME .
 *.adguard.tver-tech.ru CNAME .
 tvnews7.ru CNAME .
 *.tvnews7.ru CNAME .
+dns.ulearning.ru CNAME .
+*.dns.ulearning.ru CNAME .
 rb750gr3.ulfhednar.ru CNAME .
 *.rb750gr3.ulfhednar.ru CNAME .
 google.unicoridor.ru CNAME .
@@ -29203,8 +29295,6 @@ shanhai.sbs CNAME .
 *.shanhai.sbs CNAME .
 ssnet.sbs CNAME .
 *.ssnet.sbs CNAME .
-raga77.tidalbirch.sbs CNAME .
-*.raga77.tidalbirch.sbs CNAME .
 zoogvpn.sbs CNAME .
 *.zoogvpn.sbs CNAME .
 vanyavpn.sc CNAME .
@@ -29235,6 +29325,8 @@ vpntunnel.se CNAME .
 *.vpntunnel.se CNAME .
 ayucloud.services CNAME .
 *.ayucloud.services CNAME .
+ccdns.services CNAME .
+*.ccdns.services CNAME .
 hide.services CNAME .
 *.hide.services CNAME .
 adguard.netmasc.services CNAME .
@@ -29297,8 +29389,6 @@ vpn.sh CNAME .
 *.9sskdjs.shop CNAME .
 adfgawidhioawjd.shop CNAME .
 *.adfgawidhioawjd.shop CNAME .
-aicx99.shop CNAME .
-*.aicx99.shop CNAME .
 an-online.shop CNAME .
 *.an-online.shop CNAME .
 ayucloud.shop CNAME .
@@ -29671,6 +29761,8 @@ daydreaming.is-a.software CNAME .
 *.daydreaming.is-a.software CNAME .
 outerspace.is-a.software CNAME .
 *.outerspace.is-a.software CNAME .
+dns.karrie.software CNAME .
+*.dns.karrie.software CNAME .
 arashi.solutions CNAME .
 *.arashi.solutions CNAME .
 dns.cloudtrust.solutions CNAME .
@@ -29689,8 +29781,6 @@ unblocked.soy CNAME .
 *.15151istrash.space CNAME .
 1f76a2ba920d.space CNAME .
 *.1f76a2ba920d.space CNAME .
-activitysforscience.space CNAME .
-*.activitysforscience.space CNAME .
 aivpn.space CNAME .
 *.aivpn.space CNAME .
 interesting.allintime.space CNAME .
@@ -29943,6 +30033,8 @@ smartcamp.su CNAME .
 *.smartcamp.su CNAME .
 stun.su CNAME .
 *.stun.su CNAME .
+twoncorgi.su CNAME .
+*.twoncorgi.su CNAME .
 ztv.su CNAME .
 *.ztv.su CNAME .
 unblocked.surf CNAME .
@@ -29993,6 +30085,8 @@ papervpn.tech CNAME .
 *.papervpn.tech CNAME .
 dns.parsly.tech CNAME .
 *.dns.parsly.tech CNAME .
+fast.proxynet.tech CNAME .
+*.fast.proxynet.tech CNAME .
 qqmcfw.tech CNAME .
 *.qqmcfw.tech CNAME .
 dns.romain.tech CNAME .
@@ -30149,12 +30243,12 @@ adh.51st.top CNAME .
 *.935a0c6f55dc46d2dcf2522c4d8bd546.top CNAME .
 98kjc.top CNAME .
 *.98kjc.top CNAME .
-9b1c27beccb631169b1533c65cca8246.top CNAME .
-*.9b1c27beccb631169b1533c65cca8246.top CNAME .
 9yuan.top CNAME .
 *.9yuan.top CNAME .
 a9a3ac50c2373ac7ff8f6116e562cb44.top CNAME .
 *.a9a3ac50c2373ac7ff8f6116e562cb44.top CNAME .
+dns.acezy.top CNAME .
+*.dns.acezy.top CNAME .
 adf407b1b5cdc2dc40e20364cbeb7966.top CNAME .
 *.adf407b1b5cdc2dc40e20364cbeb7966.top CNAME .
 adfreedns.top CNAME .
@@ -30445,6 +30539,8 @@ dns.lsho.top CNAME .
 *.dns.lsho.top CNAME .
 doh.lujiacai.top CNAME .
 *.doh.lujiacai.top CNAME .
+maxlichuan.top CNAME .
+*.maxlichuan.top CNAME .
 mdss01-88ubci03.top CNAME .
 *.mdss01-88ubci03.top CNAME .
 mdss02-m5yj3rrr.top CNAME .
@@ -30637,6 +30733,8 @@ xianyuwangluo.top CNAME .
 *.xianyuwangluo.top CNAME .
 agh.xinfeng16m.top CNAME .
 *.agh.xinfeng16m.top CNAME .
+dns.ycode.top CNAME .
+*.dns.ycode.top CNAME .
 yep.top CNAME .
 *.yep.top CNAME .
 dns.yingroad.top CNAME .
@@ -30785,12 +30883,16 @@ dns.airmaxcloud.uk CNAME .
 *.dns.airmaxcloud.uk CNAME .
 annual2025.uk CNAME .
 *.annual2025.uk CNAME .
+bfesedv.uk CNAME .
+*.bfesedv.uk CNAME .
 adguard.camn.uk CNAME .
 *.adguard.camn.uk CNAME .
 catnet.uk CNAME .
 *.catnet.uk CNAME .
 10bestvpn.co.uk CNAME .
 *.10bestvpn.co.uk CNAME .
+3etare.co.uk CNAME .
+*.3etare.co.uk CNAME .
 ru7.0f.be.l.dyn.ir.xy.n.com.a7.fo.8kmc.co.uk CNAME .
 *.ru7.0f.be.l.dyn.ir.xy.n.com.a7.fo.8kmc.co.uk CNAME .
 5ti.do.ru7.lq.v.8v.ir.ir.ir.pd.8kmc.co.uk CNAME .
@@ -30831,14 +30933,10 @@ we.antony-gordon.co.uk CNAME .
 *.we.antony-gordon.co.uk CNAME .
 ir.barhousefarm.co.uk CNAME .
 *.ir.barhousefarm.co.uk CNAME .
-noon.begir.co.uk CNAME .
-*.noon.begir.co.uk CNAME .
-panir.begir.co.uk CNAME .
-*.panir.begir.co.uk CNAME .
-amoo.bingi.co.uk CNAME .
-*.amoo.bingi.co.uk CNAME .
 binhexsolutions.co.uk CNAME .
 *.binhexsolutions.co.uk CNAME .
+bo0ji.co.uk CNAME .
+*.bo0ji.co.uk CNAME .
 burgerip.co.uk CNAME .
 *.burgerip.co.uk CNAME .
 buystoryapp.co.uk CNAME .
@@ -30851,14 +30949,14 @@ great.cipservice.co.uk CNAME .
 *.great.cipservice.co.uk CNAME .
 clearvpn.co.uk CNAME .
 *.clearvpn.co.uk CNAME .
+ir.closcloud.co.uk CNAME .
+*.ir.closcloud.co.uk CNAME .
 ddelay.co.uk CNAME .
 *.ddelay.co.uk CNAME .
-dingi3.co.uk CNAME .
-*.dingi3.co.uk CNAME .
-ir.dinocol.co.uk CNAME .
-*.ir.dinocol.co.uk CNAME .
 adguard.discounthost.co.uk CNAME .
 *.adguard.discounthost.co.uk CNAME .
+im.dumaniltd.co.uk CNAME .
+*.im.dumaniltd.co.uk CNAME .
 exiscos.co.uk CNAME .
 *.exiscos.co.uk CNAME .
 dns.gayanalysing.co.uk CNAME .
@@ -30877,38 +30975,14 @@ run.golgoli2.co.uk CNAME .
 *.run.golgoli2.co.uk CNAME .
 shoes.golgoli2.co.uk CNAME .
 *.shoes.golgoli2.co.uk CNAME .
-ava.goooalir.co.uk CNAME .
-*.ava.goooalir.co.uk CNAME .
 azadi.goooalir.co.uk CNAME .
 *.azadi.goooalir.co.uk CNAME .
-baran.goooalir.co.uk CNAME .
-*.baran.goooalir.co.uk CNAME .
-behtarin.goooalir.co.uk CNAME .
-*.behtarin.goooalir.co.uk CNAME .
-cr777.goooalir.co.uk CNAME .
-*.cr777.goooalir.co.uk CNAME .
 for-iran.goooalir.co.uk CNAME .
 *.for-iran.goooalir.co.uk CNAME .
-from.goooalir.co.uk CNAME .
-*.from.goooalir.co.uk CNAME .
-joje.goooalir.co.uk CNAME .
-*.joje.goooalir.co.uk CNAME .
-leomessi.goooalir.co.uk CNAME .
-*.leomessi.goooalir.co.uk CNAME .
-meshki.goooalir.co.uk CNAME .
-*.meshki.goooalir.co.uk CNAME .
 nab.goooalir.co.uk CNAME .
 *.nab.goooalir.co.uk CNAME .
-napoli.goooalir.co.uk CNAME .
-*.napoli.goooalir.co.uk CNAME .
-narooo.goooalir.co.uk CNAME .
-*.narooo.goooalir.co.uk CNAME .
-nigan.goooalir.co.uk CNAME .
-*.nigan.goooalir.co.uk CNAME .
 paydar.goooalir.co.uk CNAME .
 *.paydar.goooalir.co.uk CNAME .
-sefid.goooalir.co.uk CNAME .
-*.sefid.goooalir.co.uk CNAME .
 soh5.goooalir.co.uk CNAME .
 *.soh5.goooalir.co.uk CNAME .
 soheil.goooalir.co.uk CNAME .
@@ -30925,6 +30999,12 @@ old.graduat.co.uk CNAME .
 *.old.graduat.co.uk CNAME .
 white.graduat.co.uk CNAME .
 *.white.graduat.co.uk CNAME .
+ccc.horizon555.co.uk CNAME .
+*.ccc.horizon555.co.uk CNAME .
+one.horizon555.co.uk CNAME .
+*.one.horizon555.co.uk CNAME .
+support.infinityhalo.co.uk CNAME .
+*.support.infinityhalo.co.uk CNAME .
 jhndoes.co.uk CNAME .
 *.jhndoes.co.uk CNAME .
 lamnia.co.uk CNAME .
@@ -30933,18 +31013,20 @@ guard.lumusimc.co.uk CNAME .
 *.guard.lumusimc.co.uk CNAME .
 craft.malavanann.co.uk CNAME .
 *.craft.malavanann.co.uk CNAME .
-jadide.mamadali.co.uk CNAME .
-*.jadide.mamadali.co.uk CNAME .
 api.mangoseason5.co.uk CNAME .
 *.api.mangoseason5.co.uk CNAME .
 ir.mediaad.co.uk CNAME .
 *.ir.mediaad.co.uk CNAME .
 org.mediaad.co.uk CNAME .
 *.org.mediaad.co.uk CNAME .
-bastani.mikhay.co.uk CNAME .
-*.bastani.mikhay.co.uk CNAME .
-pofak.mikhay.co.uk CNAME .
-*.pofak.mikhay.co.uk CNAME .
+ssh.meow0.co.uk CNAME .
+*.ssh.meow0.co.uk CNAME .
+kabab.mikhay.co.uk CNAME .
+*.kabab.mikhay.co.uk CNAME .
+lavashak.mikhay.co.uk CNAME .
+*.lavashak.mikhay.co.uk CNAME .
+new7.mizanmizanesgh.co.uk CNAME .
+*.new7.mizanmizanesgh.co.uk CNAME .
 ir.mohearn.co.uk CNAME .
 *.ir.mohearn.co.uk CNAME .
 puot.mozitop.co.uk CNAME .
@@ -30955,8 +31037,6 @@ my-private-network.co.uk CNAME .
 *.my-private-network.co.uk CNAME .
 new.nakoskoskesh.co.uk CNAME .
 *.new.nakoskoskesh.co.uk CNAME .
-dokhtar.nanaz.co.uk CNAME .
-*.dokhtar.nanaz.co.uk CNAME .
 you.nasakhamia.co.uk CNAME .
 *.you.nasakhamia.co.uk CNAME .
 dns.neilzone.co.uk CNAME .
@@ -30965,6 +31045,8 @@ ninjaproxy.co.uk CNAME .
 *.ninjaproxy.co.uk CNAME .
 noblocc.co.uk CNAME .
 *.noblocc.co.uk CNAME .
+nocloudnew.co.uk CNAME .
+*.nocloudnew.co.uk CNAME .
 nordvpn.co.uk CNAME .
 *.nordvpn.co.uk CNAME .
 home.norvrandt.co.uk CNAME .
@@ -30981,40 +31063,38 @@ onlineproxy.co.uk CNAME .
 *.onlineproxy.co.uk CNAME .
 petros-es.co.uk CNAME .
 *.petros-es.co.uk CNAME .
-refiq.poolaki.co.uk CNAME .
-*.refiq.poolaki.co.uk CNAME .
-porsorate.co.uk CNAME .
-*.porsorate.co.uk CNAME .
 proxay.co.uk CNAME .
 *.proxay.co.uk CNAME .
 proxify.co.uk CNAME .
 *.proxify.co.uk CNAME .
 rmdns26.co.uk CNAME .
 *.rmdns26.co.uk CNAME .
-rootssh2.co.uk CNAME .
-*.rootssh2.co.uk CNAME .
 royaclinic.co.uk CNAME .
 *.royaclinic.co.uk CNAME .
 nice.rozinalpoku.co.uk CNAME .
 *.nice.rozinalpoku.co.uk CNAME .
 rudmoain.co.uk CNAME .
 *.rudmoain.co.uk CNAME .
+honar.saheledarya.co.uk CNAME .
+*.honar.saheledarya.co.uk CNAME .
+mofid.saheledarya.co.uk CNAME .
+*.mofid.saheledarya.co.uk CNAME .
 ketri.samavar.co.uk CNAME .
 *.ketri.samavar.co.uk CNAME .
 dns.scxrdev.co.uk CNAME .
 *.dns.scxrdev.co.uk CNAME .
 isaco.ir.setado.co.uk CNAME .
 *.isaco.ir.setado.co.uk CNAME .
-reyhoon.shambelile.co.uk CNAME .
-*.reyhoon.shambelile.co.uk CNAME .
+severjadid.co.uk CNAME .
+*.severjadid.co.uk CNAME .
+ir.shentaichiacademy.co.uk CNAME .
+*.ir.shentaichiacademy.co.uk CNAME .
 my.soft98.co.uk CNAME .
 *.my.soft98.co.uk CNAME .
 dns.speed-benz.co.uk CNAME .
 *.dns.speed-benz.co.uk CNAME .
 premium.speed-benz.co.uk CNAME .
 *.premium.speed-benz.co.uk CNAME .
-ir.strawberrybarn.co.uk CNAME .
-*.ir.strawberrybarn.co.uk CNAME .
 suodbo.co.uk CNAME .
 *.suodbo.co.uk CNAME .
 surfshark.co.uk CNAME .
@@ -31059,8 +31139,6 @@ waterthetree.co.uk CNAME .
 *.waterthetree.co.uk CNAME .
 windler.co.uk CNAME .
 *.windler.co.uk CNAME .
-qadim.zhigool.co.uk CNAME .
-*.qadim.zhigool.co.uk CNAME .
 cokezero.uk CNAME .
 *.cokezero.uk CNAME .
 default2024.uk CNAME .
@@ -31133,6 +31211,8 @@ dnsprivacy.org.uk CNAME .
 *.dnsprivacy.org.uk CNAME .
 doh.plaawan.uk CNAME .
 *.doh.plaawan.uk CNAME .
+qucloud.uk CNAME .
+*.qucloud.uk CNAME .
 redvpn.uk CNAME .
 *.redvpn.uk CNAME .
 rfnprotection.uk CNAME .
@@ -31615,6 +31695,8 @@ allorigins.win CNAME .
 *.allorigins.win CNAME .
 webdav.cubecloud.win CNAME .
 *.webdav.cubecloud.win CNAME .
+adguard.devel.win CNAME .
+*.adguard.devel.win CNAME .
 dns.dotnet.win CNAME .
 *.dns.dotnet.win CNAME .
 fasti.win CNAME .
@@ -31867,6 +31949,8 @@ sg.101818.xyz CNAME .
 *.108023.xyz CNAME .
 112112789.xyz CNAME .
 *.112112789.xyz CNAME .
+dns.12032002.xyz CNAME .
+*.dns.12032002.xyz CNAME .
 123000123.xyz CNAME .
 *.123000123.xyz CNAME .
 12312300.xyz CNAME .
@@ -31885,6 +31969,8 @@ usxui.13142233.xyz CNAME .
 *.usxui.13142233.xyz CNAME .
 zhk.13142233.xyz CNAME .
 *.zhk.13142233.xyz CNAME .
+adguard.134514.xyz CNAME .
+*.adguard.134514.xyz CNAME .
 dns.141664.xyz CNAME .
 *.dns.141664.xyz CNAME .
 14921004.xyz CNAME .
@@ -31937,6 +32023,8 @@ dns.320888.xyz CNAME .
 *.dns.320888.xyz CNAME .
 dnstw.3300000.xyz CNAME .
 *.dnstw.3300000.xyz CNAME .
+dns.331376.xyz CNAME .
+*.dns.331376.xyz CNAME .
 dns.333551.xyz CNAME .
 *.dns.333551.xyz CNAME .
 dns.354688.xyz CNAME .
@@ -32097,8 +32185,8 @@ beherb.xyz CNAME .
 *.beherb.xyz CNAME .
 belldream.xyz CNAME .
 *.belldream.xyz CNAME .
-mami99.birchquay.xyz CNAME .
-*.mami99.birchquay.xyz CNAME .
+male61.birchquay.xyz CNAME .
+*.male61.birchquay.xyz CNAME .
 blockmesh.xyz CNAME .
 *.blockmesh.xyz CNAME .
 bluedns.xyz CNAME .
@@ -32181,6 +32269,8 @@ dudeforum.xyz CNAME .
 *.dudeforum.xyz CNAME .
 dummygummy.xyz CNAME .
 *.dummygummy.xyz CNAME .
+echooff.xyz CNAME .
+*.echooff.xyz CNAME .
 edgeaccelerator.xyz CNAME .
 *.edgeaccelerator.xyz CNAME .
 edgecache.xyz CNAME .
@@ -32213,8 +32303,8 @@ feherb.xyz CNAME .
 *.feherb.xyz CNAME .
 feiji659.xyz CNAME .
 *.feiji659.xyz CNAME .
-tolo60.fernlark.xyz CNAME .
-*.tolo60.fernlark.xyz CNAME .
+visu18.fernlark.xyz CNAME .
+*.visu18.fernlark.xyz CNAME .
 fifaworldcupfreelivewatchtemporary.xyz CNAME .
 *.fifaworldcupfreelivewatchtemporary.xyz CNAME .
 finishthought.xyz CNAME .
@@ -32231,6 +32321,10 @@ proxy.forkbomb.xyz CNAME .
 *.proxy.forkbomb.xyz CNAME .
 fotiaoqiang.xyz CNAME .
 *.fotiaoqiang.xyz CNAME .
+nepo53.foxglade.xyz CNAME .
+*.nepo53.foxglade.xyz CNAME .
+suto32.foxglade.xyz CNAME .
+*.suto32.foxglade.xyz CNAME .
 agent.frankutils.xyz CNAME .
 *.agent.frankutils.xyz CNAME .
 free-vpn.xyz CNAME .
@@ -32327,6 +32421,8 @@ hijy.xyz CNAME .
 *.hijy.xyz CNAME .
 hl-jsq.xyz CNAME .
 *.hl-jsq.xyz CNAME .
+dns.hocit.xyz CNAME .
+*.dns.hocit.xyz CNAME .
 holidayphoto.xyz CNAME .
 *.holidayphoto.xyz CNAME .
 ht-123.xyz CNAME .
@@ -32423,8 +32519,10 @@ kaz.lamplifesteal.xyz CNAME .
 *.kaz.lamplifesteal.xyz CNAME .
 adguard.landropunk.xyz CNAME .
 *.adguard.landropunk.xyz CNAME .
-gavi72.larchmere.xyz CNAME .
-*.gavi72.larchmere.xyz CNAME .
+lolo89.larchmere.xyz CNAME .
+*.lolo89.larchmere.xyz CNAME .
+riny51.larchmere.xyz CNAME .
+*.riny51.larchmere.xyz CNAME .
 lasbg4.xyz CNAME .
 *.lasbg4.xyz CNAME .
 tr.league1.xyz CNAME .
@@ -32489,6 +32587,8 @@ mochiss2.xyz CNAME .
 *.mochiss2.xyz CNAME .
 mochiss3.xyz CNAME .
 *.mochiss3.xyz CNAME .
+neka57.mossharbor.xyz CNAME .
+*.neka57.mossharbor.xyz CNAME .
 mtpro.xyz CNAME .
 *.mtpro.xyz CNAME .
 mvipcloud.xyz CNAME .
@@ -32637,8 +32737,6 @@ qolfgv.xyz CNAME .
 *.qolfgv.xyz CNAME .
 quentaviro.xyz CNAME .
 *.quentaviro.xyz CNAME .
-lezoka78.quillmarsh.xyz CNAME .
-*.lezoka78.quillmarsh.xyz CNAME .
 quivano.xyz CNAME .
 *.quivano.xyz CNAME .
 raabta.xyz CNAME .
@@ -32681,8 +32779,6 @@ s4m.xyz CNAME .
 *.s4m.xyz CNAME .
 dns.sainternet.xyz CNAME .
 *.dns.sainternet.xyz CNAME .
-pokany41.saltfern.xyz CNAME .
-*.pokany41.saltfern.xyz CNAME .
 sbknvp.xyz CNAME .
 *.sbknvp.xyz CNAME .
 sd2ffdsd43i.xyz CNAME .

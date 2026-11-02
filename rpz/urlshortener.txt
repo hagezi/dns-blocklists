@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793523720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793610900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Nov 2026 09:02 UTC
-; Version: 2026.1101.0902.46
+; Last modified: 02 Nov 2026 09:15 UTC
+; Version: 2026.1102.0915.51
 ; Syntax: RPZ
-; Number of entries: 19746
+; Number of entries: 19710
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1275,8 +1275,6 @@ s.bw CNAME .
 *.s.bw CNAME .
 blck.by CNAME .
 *.blck.by CNAME .
-blur.by CNAME .
-*.blur.by CNAME .
 cayim.by CNAME .
 *.cayim.by CNAME .
 cut.by CNAME .
@@ -3255,8 +3253,6 @@ alien-traffic.com CNAME .
 *.alien-traffic.com CNAME .
 alientraffic.com CNAME .
 *.alientraffic.com CNAME .
-aliexpi.com CNAME .
-*.aliexpi.com CNAME .
 alishort.com CNAME .
 *.alishort.com CNAME .
 s.alkapida.com CNAME .
@@ -3315,8 +3311,6 @@ annabelparr.com CNAME .
 *.annabelparr.com CNAME .
 annoyingnightmareedit.com CNAME .
 *.annoyingnightmareedit.com CNAME .
-anonshort.com CNAME .
-*.anonshort.com CNAME .
 anonymiz.com CNAME .
 *.anonymiz.com CNAME .
 antonellapouncedcrewels.com CNAME .
@@ -3373,8 +3367,6 @@ atmilb.com CNAME .
 *.atmilb.com CNAME .
 atmlb.com CNAME .
 *.atmlb.com CNAME .
-atropinestatuarylandleaper.com CNAME .
-*.atropinestatuarylandleaper.com CNAME .
 attlinks.com CNAME .
 *.attlinks.com CNAME .
 attolink.com CNAME .
@@ -3413,16 +3405,12 @@ baggyrepackingrocky.com CNAME .
 *.baggyrepackingrocky.com CNAME .
 bagneed.com CNAME .
 *.bagneed.com CNAME .
-baileybelladonna.com CNAME .
-*.baileybelladonna.com CNAME .
 it.baltgroup.com CNAME .
 *.it.baltgroup.com CNAME .
 banaccroblox.com CNAME .
 *.banaccroblox.com CNAME .
 bannercho.com CNAME .
 *.bannercho.com CNAME .
-baoyung.com CNAME .
-*.baoyung.com CNAME .
 barkodi.com CNAME .
 *.barkodi.com CNAME .
 barsoocm.com CNAME .
@@ -3451,8 +3439,6 @@ bebuiltllc.com CNAME .
 *.bebuiltllc.com CNAME .
 bee1s.com CNAME .
 *.bee1s.com CNAME .
-beelnk.com CNAME .
-*.beelnk.com CNAME .
 beepurl.com CNAME .
 *.beepurl.com CNAME .
 beeurls.com CNAME .
@@ -9387,8 +9373,6 @@ amzn.id CNAME .
 *.amzn.id CNAME .
 bca.id CNAME .
 *.bca.id CNAME .
-aje.biz.id CNAME .
-*.aje.biz.id CNAME .
 come.biz.id CNAME .
 *.come.biz.id CNAME .
 dnl.biz.id CNAME .
@@ -9727,8 +9711,6 @@ biolnk.in CNAME .
 *.biolnk.in CNAME .
 bisadimasuk.in CNAME .
 *.bisadimasuk.in CNAME .
-bitley.in CNAME .
-*.bitley.in CNAME .
 biturl.in CNAME .
 *.biturl.in CNAME .
 bitw.in CNAME .
@@ -10395,8 +10377,6 @@ cliq.ing CNAME .
 *.8n.ink CNAME .
 add-l.ink CNAME .
 *.add-l.ink CNAME .
-agll.ink CNAME .
-*.agll.ink CNAME .
 ase.ink CNAME .
 *.ase.ink CNAME .
 ata.ink CNAME .
@@ -10575,8 +10555,6 @@ beree.io CNAME .
 *.beree.io CNAME .
 beshort.io CNAME .
 *.beshort.io CNAME .
-betaloop.io CNAME .
-*.betaloop.io CNAME .
 betterlinks.io CNAME .
 *.betterlinks.io CNAME .
 bhrt.io CNAME .
@@ -12327,8 +12305,6 @@ berani.link CNAME .
 *.berani.link CNAME .
 bez.link CNAME .
 *.bez.link CNAME .
-biggiris.link CNAME .
-*.biggiris.link CNAME .
 bio.link CNAME .
 *.bio.link CNAME .
 biolinks.link CNAME .
@@ -13559,8 +13535,6 @@ acort.me CNAME .
 *.acort.me CNAME .
 ad0.me CNAME .
 *.ad0.me CNAME .
-adsclick.me CNAME .
-*.adsclick.me CNAME .
 aegyo.me CNAME .
 *.aegyo.me CNAME .
 agoz.me CNAME .
@@ -17883,8 +17857,6 @@ victoryworship.team CNAME .
 *.victoryworship.team CNAME .
 1xfn.tech CNAME .
 *.1xfn.tech CNAME .
-allinonetool.tech CNAME .
-*.allinonetool.tech CNAME .
 b2g.tech CNAME .
 *.b2g.tech CNAME .
 enbl.tech CNAME .
@@ -18631,8 +18603,6 @@ xfin.tv CNAME .
 *.4fun.tw CNAME .
 8591.tw CNAME .
 *.8591.tw CNAME .
-aptg.tw CNAME .
-*.aptg.tw CNAME .
 b51.tw CNAME .
 *.b51.tw CNAME .
 bfy.tw CNAME .
@@ -18865,10 +18835,6 @@ arurl.us CNAME .
 *.arurl.us CNAME .
 axoni.us CNAME .
 *.axoni.us CNAME .
-url-api.babayev.us CNAME .
-*.url-api.babayev.us CNAME .
-urlshortener.babayev.us CNAME .
-*.urlshortener.babayev.us CNAME .
 baid.us CNAME .
 *.baid.us CNAME .
 beeb.us CNAME .
@@ -19581,8 +19547,6 @@ barujago.xyz CNAME .
 *.barujago.xyz CNAME .
 bemygirlplease.xyz CNAME .
 *.bemygirlplease.xyz CNAME .
-bestbet1000.xyz CNAME .
-*.bestbet1000.xyz CNAME .
 bolagroup.xyz CNAME .
 *.bolagroup.xyz CNAME .
 casinoaktif.xyz CNAME .
