@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793616360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793702460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 02 Nov 2026 10:46 UTC
-; Version: 2026.1102.1046.46
+; Last modified: 03 Nov 2026 10:41 UTC
+; Version: 2026.1103.1041.53
 ; Syntax: RPZ
-; Number of entries: 7194
+; Number of entries: 7192
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -71,8 +71,6 @@ h4g3z1-doh.web.app CNAME .
 *.h4g3z1-doh.web.app CNAME .
 wiqi.app CNAME .
 *.wiqi.app CNAME .
-dns2.gregoret.com.ar CNAME .
-*.dns2.gregoret.com.ar CNAME .
 adguardcloud.iasm.com.ar CNAME .
 *.adguardcloud.iasm.com.ar CNAME .
 dns.redhosting.com.ar CNAME .
@@ -773,6 +771,8 @@ bancuh.com CNAME .
 *.bancuh.com CNAME .
 httpdns.bcelive.com CNAME .
 *.httpdns.bcelive.com CNAME .
+beatquantum.com CNAME .
+*.beatquantum.com CNAME .
 antivirus.bebasid.com CNAME .
 *.antivirus.bebasid.com CNAME .
 dns.bebasid.com CNAME .
@@ -6673,8 +6673,6 @@ dns.nzxti5.co.uk CNAME .
 *.dns.nzxti5.co.uk CNAME .
 rmdns26.co.uk CNAME .
 *.rmdns26.co.uk CNAME .
-dns.scxrdev.co.uk CNAME .
-*.dns.scxrdev.co.uk CNAME .
 dns1.understandingcyber.co.uk CNAME .
 *.dns1.understandingcyber.co.uk CNAME .
 dns.unknown-universe.co.uk CNAME .

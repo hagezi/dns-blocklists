@@ -85,6 +85,10 @@ https://secure.fanboy.co.nz/fanboy-agegate.txt
 Country and language specific lists. They're what makes the Multi tiers work outside the English-speaking web without you having to add a regional list yourself.
 
 ```
+https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt
+https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt
+https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/filter.txt
+https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt
 https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/chinese-filter.txt
 https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter.txt
 https://codeberg.org/KhodeKiaa/PersianBlocker/raw/branch/main/PersianBlocker.txt

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793576580 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793698680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Nov 2026 23:43 UTC
-; Version: 2026.1101.2343.42
+; Last modified: 03 Nov 2026 09:38 UTC
+; Version: 2026.1103.0938.14
 ; Syntax: RPZ
 ; Number of entries: 2148
 ;
@@ -1400,6 +1400,8 @@ mylinkinb.io CNAME .
 *.mylinkinb.io CNAME .
 nicepage.io CNAME .
 *.nicepage.io CNAME .
+nip.io CNAME .
+*.nip.io CNAME .
 psee.io CNAME .
 *.psee.io CNAME .
 qrsu.io CNAME .
@@ -1682,8 +1684,6 @@ cableonline.com.mx CNAME .
 *.cableonline.com.mx CNAME .
 blogspot.my CNAME .
 *.blogspot.my CNAME .
-domain.name CNAME .
-*.domain.name CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .
