@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793789220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793811180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Nov 2026 10:47 UTC
-; Version: 2026.1104.1047.49
+; Last modified: 04 Nov 2026 16:53 UTC
+; Version: 2026.1104.1653.53
 ; Syntax: RPZ
-; Number of entries: 7172
+; Number of entries: 7176
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3383,6 +3383,8 @@ galileo.math.unipd.it CNAME .
 *.galileo.math.unipd.it CNAME .
 dns1-secure.wifire.it CNAME .
 *.dns1-secure.wifire.it CNAME .
+dns.moklav.co.jp CNAME .
+*.dns.moklav.co.jp CNAME .
 iij.jp CNAME .
 *.iij.jp CNAME .
 tngch.mydns.jp CNAME .
@@ -5933,6 +5935,8 @@ dns.farshmc.ru CNAME .
 *.dns.farshmc.ru CNAME .
 dns.fidbonteam.ru CNAME .
 *.dns.fidbonteam.ru CNAME .
+doh.fullhosting.ru CNAME .
+*.doh.fullhosting.ru CNAME .
 funtikspb.ru CNAME .
 *.funtikspb.ru CNAME .
 wp-test.fvds.ru CNAME .

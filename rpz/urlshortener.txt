@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793783160 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793805360 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Nov 2026 09:06 UTC
-; Version: 2026.1104.0906.01
+; Last modified: 04 Nov 2026 15:16 UTC
+; Version: 2026.1104.1516.59
 ; Syntax: RPZ
-; Number of entries: 19678
+; Number of entries: 19674
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1127,8 +1127,6 @@ credicard.biz CNAME .
 *.credicard.biz CNAME .
 g02.biz CNAME .
 *.g02.biz CNAME .
-gacora.biz CNAME .
-*.gacora.biz CNAME .
 ibm.biz CNAME .
 *.ibm.biz CNAME .
 jvfnz.biz CNAME .
@@ -4367,8 +4365,6 @@ gamegta.com CNAME .
 *.gamegta.com CNAME .
 gamerzchoices.com CNAME .
 *.gamerzchoices.com CNAME .
-gardenkeeper-management-tools.com CNAME .
-*.gardenkeeper-management-tools.com CNAME .
 garudeya.com CNAME .
 *.garudeya.com CNAME .
 garyvee.com CNAME .
