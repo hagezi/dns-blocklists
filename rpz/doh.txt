@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793702460 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793789220 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Nov 2026 10:41 UTC
-; Version: 2026.1103.1041.53
+; Last modified: 04 Nov 2026 10:47 UTC
+; Version: 2026.1104.1047.49
 ; Syntax: RPZ
-; Number of entries: 7192
+; Number of entries: 7172
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -399,8 +399,6 @@ connect-with.click CNAME .
 *.connect-with.click CNAME .
 dns.dns-vanhuynh.click CNAME .
 *.dns.dns-vanhuynh.click CNAME .
-farewellkou.click CNAME .
-*.farewellkou.click CNAME .
 agh.feblab.click CNAME .
 *.agh.feblab.click CNAME .
 dns2.iranet.click CNAME .
@@ -1083,8 +1081,6 @@ dns.easyhns.com CNAME .
 *.dns.easyhns.com CNAME .
 dns.edc-pws.com CNAME .
 *.dns.edc-pws.com CNAME .
-dns.edgeburnmedia.com CNAME .
-*.dns.edgeburnmedia.com CNAME .
 edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
 dns.efficientdocuments.com CNAME .
@@ -4053,8 +4049,6 @@ ccadguard.dynu.net CNAME .
 *.ccadguard.dynu.net CNAME .
 adguard.ekhozie.dynu.net CNAME .
 *.adguard.ekhozie.dynu.net CNAME .
-flyloadguard.dynu.net CNAME .
-*.flyloadguard.dynu.net CNAME .
 quangdo92.dynu.net CNAME .
 *.quangdo92.dynu.net CNAME .
 gustamadh.dynv6.net CNAME .
@@ -4745,8 +4739,6 @@ vm.delfini.online CNAME .
 *.vm.delfini.online CNAME .
 pub.am.dns24.online CNAME .
 *.pub.am.dns24.online CNAME .
-dns4eu.online CNAME .
-*.dns4eu.online CNAME .
 ducknuld.online CNAME .
 *.ducknuld.online CNAME .
 s2.eniqx.online CNAME .
@@ -5031,8 +5023,6 @@ thaibksri.duckdns.org CNAME .
 *.thaibksri.duckdns.org CNAME .
 theadblocksg.duckdns.org CNAME .
 *.theadblocksg.duckdns.org CNAME .
-ts653d.duckdns.org CNAME .
-*.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
 tudat1001.duckdns.org CNAME .
@@ -5511,8 +5501,6 @@ atl01.dnscry.pt CNAME .
 *.atl01.dnscry.pt CNAME .
 bei01.dnscry.pt CNAME .
 *.bei01.dnscry.pt CNAME .
-bkk01.dnscry.pt CNAME .
-*.bkk01.dnscry.pt CNAME .
 blr01.dnscry.pt CNAME .
 *.blr01.dnscry.pt CNAME .
 bne01.dnscry.pt CNAME .
@@ -5597,8 +5585,6 @@ ist01.dnscry.pt CNAME .
 *.ist01.dnscry.pt CNAME .
 jax01.dnscry.pt CNAME .
 *.jax01.dnscry.pt CNAME .
-jen01.dnscry.pt CNAME .
-*.jen01.dnscry.pt CNAME .
 jhb01.dnscry.pt CNAME .
 *.jhb01.dnscry.pt CNAME .
 jkt01.dnscry.pt CNAME .
@@ -6257,8 +6243,6 @@ callies-online.site CNAME .
 *.callies-online.site CNAME .
 cats.charlesaibyvirtuals.site CNAME .
 *.cats.charlesaibyvirtuals.site CNAME .
-fimoshinckaya-federation.site CNAME .
-*.fimoshinckaya-federation.site CNAME .
 khome.site CNAME .
 *.khome.site CNAME .
 dns.l337.site CNAME .
@@ -6331,8 +6315,6 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 dns.arvilx.store CNAME .
 *.dns.arvilx.store CNAME .
-crypto2049.store CNAME .
-*.crypto2049.store CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
 minilla.store CNAME .
@@ -6435,8 +6417,6 @@ changesmart2024.top CNAME .
 *.changesmart2024.top CNAME .
 dns.chromeina.top CNAME .
 *.dns.chromeina.top CNAME .
-dltuykfgp.top CNAME .
-*.dltuykfgp.top CNAME .
 dnssilo.top CNAME .
 *.dnssilo.top CNAME .
 dns.doserver.top CNAME .

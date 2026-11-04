@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793698680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793784960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Nov 2026 09:38 UTC
-; Version: 2026.1103.0938.14
+; Last modified: 04 Nov 2026 09:36 UTC
+; Version: 2026.1104.0936.23
 ; Syntax: RPZ
 ; Number of entries: 2148
 ;
@@ -146,6 +146,8 @@ blogspot.com.br CNAME .
 *.blogspot.com.br CNAME .
 encurtador.com.br CNAME .
 *.encurtador.com.br CNAME .
+meusitehostgator.com.br CNAME .
+*.meusitehostgator.com.br CNAME .
 vpn.net.br CNAME .
 *.vpn.net.br CNAME .
 blogspot.com.by CNAME .
@@ -436,8 +438,6 @@ familylobby.com CNAME .
 *.familylobby.com CNAME .
 fat-fly.com CNAME .
 *.fat-fly.com CNAME .
-fb-business.com CNAME .
-*.fb-business.com CNAME .
 ferreracademy.com CNAME .
 *.ferreracademy.com CNAME .
 fileave.com CNAME .
@@ -618,6 +618,8 @@ o-f.com CNAME .
 *.o-f.com CNAME .
 officialsitebuilder.com CNAME .
 *.officialsitebuilder.com CNAME .
+onaiappbuilder.com CNAME .
+*.onaiappbuilder.com CNAME .
 onmbl.com CNAME .
 *.onmbl.com CNAME .
 opent2.com CNAME .
@@ -1718,8 +1720,6 @@ eu5.net CNAME .
 *.eu5.net CNAME .
 filebin.net CNAME .
 *.filebin.net CNAME .
-flashbuilder.net CNAME .
-*.flashbuilder.net CNAME .
 freakshare.net CNAME .
 *.freakshare.net CNAME .
 freeasphost.net CNAME .
