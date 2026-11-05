@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793811180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793878500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Nov 2026 16:53 UTC
-; Version: 2026.1104.1653.53
+; Last modified: 05 Nov 2026 11:35 UTC
+; Version: 2026.1105.1135.15
 ; Syntax: RPZ
-; Number of entries: 7176
+; Number of entries: 7168
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3455,8 +3455,6 @@ dns-free.link CNAME .
 *.dns-free.link CNAME .
 eth.link CNAME .
 *.eth.link CNAME .
-dns.getnoclip.link CNAME .
-*.dns.getnoclip.link CNAME .
 guidetoworld.link CNAME .
 *.guidetoworld.link CNAME .
 intertop.link CNAME .
@@ -4703,8 +4701,6 @@ hkname.freecdn.one CNAME .
 *.hkname.freecdn.one CNAME .
 dns.hakim.one CNAME .
 *.dns.hakim.one CNAME .
-dns.hoian.one CNAME .
-*.dns.hoian.one CNAME .
 ag.iyn.one CNAME .
 *.ag.iyn.one CNAME .
 dns.karl.one CNAME .
@@ -6197,8 +6193,6 @@ online.zotio.ru CNAME .
 *.online.zotio.ru CNAME .
 your-dns.run CNAME .
 *.your-dns.run CNAME .
-dns.hqdns.sarl CNAME .
-*.dns.hqdns.sarl CNAME .
 dns.sb CNAME .
 *.dns.sb CNAME .
 doh.sb CNAME .
@@ -6673,8 +6667,6 @@ v.dnscrypt.uk CNAME .
 *.v.dnscrypt.uk CNAME .
 dns.goshawk22.uk CNAME .
 *.dns.goshawk22.uk CNAME .
-admin.homedns.uk CNAME .
-*.admin.homedns.uk CNAME .
 dns.hwtwco.uk CNAME .
 *.dns.hwtwco.uk CNAME .
 dns.jerry-lee.uk CNAME .
