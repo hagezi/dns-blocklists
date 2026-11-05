@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793878500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793898180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 11:35 UTC
-; Version: 2026.1105.1135.15
+; Last modified: 05 Nov 2026 17:03 UTC
+; Version: 2026.1105.1703.20
 ; Syntax: RPZ
-; Number of entries: 7168
+; Number of entries: 7170
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -243,8 +243,6 @@ dns.edgeworkssystems.ca CNAME .
 *.dns.edgeworkssystems.ca CNAME .
 ag.ff0x.ca CNAME .
 *.ag.ff0x.ca CNAME .
-adguard.jfchenier.ca CNAME .
-*.adguard.jfchenier.ca CNAME .
 doh.nukys.ca CNAME .
 *.doh.nukys.ca CNAME .
 router.sapib.ca CNAME .
@@ -3217,6 +3215,10 @@ dns2.bortus.io CNAME .
 *.dns2.bortus.io CNAME .
 dns4.bortus.io CNAME .
 *.dns4.bortus.io CNAME .
+dns.cleardns.io CNAME .
+*.dns.cleardns.io CNAME .
+dot.cleardns.io CNAME .
+*.dot.cleardns.io CNAME .
 a5135324.csie.io CNAME .
 *.a5135324.csie.io CNAME .
 andychan-dns.dedyn.io CNAME .

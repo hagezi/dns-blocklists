@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793784960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793894640 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 04 Nov 2026 09:36 UTC
-; Version: 2026.1104.0936.23
+; Last modified: 05 Nov 2026 16:04 UTC
+; Version: 2026.1105.1604.07
 ; Syntax: RPZ
-; Number of entries: 2148
+; Number of entries: 2136
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -132,8 +132,6 @@ eu3.biz CNAME .
 *.eu3.biz CNAME .
 freeblog.biz CNAME .
 *.freeblog.biz CNAME .
-igg.biz CNAME .
-*.igg.biz CNAME .
 kilu.biz CNAME .
 *.kilu.biz CNAME .
 laden.biz CNAME .
@@ -500,8 +498,6 @@ homemarker.com CNAME .
 *.homemarker.com CNAME .
 hostedforfree.com CNAME .
 *.hostedforfree.com CNAME .
-hostingersite.com CNAME .
-*.hostingersite.com CNAME .
 hostingsiteforfree.com CNAME .
 *.hostingsiteforfree.com CNAME .
 hotfile.com CNAME .
@@ -706,8 +702,6 @@ vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
 *.vdxh.com CNAME .
-vuzelia.com CNAME .
-*.vuzelia.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -1132,8 +1126,6 @@ gamer.gd CNAME .
 *.gamer.gd CNAME .
 page.gd CNAME .
 *.page.gd CNAME .
-rf.gd CNAME .
-*.rf.gd CNAME .
 work.gd CNAME .
 *.work.gd CNAME .
 24.gg CNAME .
@@ -1818,8 +1810,6 @@ trim.one CNAME .
 *.trim.one CNAME .
 webpages.one CNAME .
 *.webpages.one CNAME .
-22web.org CNAME .
-*.22web.org CNAME .
 betrunken.org CNAME .
 *.betrunken.org CNAME .
 blogspot.org CNAME .
@@ -1860,8 +1850,6 @@ linkcyb.org CNAME .
 *.linkcyb.org CNAME .
 my-board.org CNAME .
 *.my-board.org CNAME .
-neocities.org CNAME .
-*.neocities.org CNAME .
 netfast.org CNAME .
 *.netfast.org CNAME .
 rumahweb.org CNAME .

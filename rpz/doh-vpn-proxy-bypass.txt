@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793878680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793898240 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 11:38 UTC
-; Version: 2026.1105.1138.26
+; Last modified: 05 Nov 2026 17:04 UTC
+; Version: 2026.1105.1704.39
 ; Syntax: RPZ
-; Number of entries: 32898
+; Number of entries: 32896
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -1075,8 +1075,6 @@ despite.icantec.ca CNAME .
 *.despite.icantec.ca CNAME .
 edu.icantec.ca CNAME .
 *.edu.icantec.ca CNAME .
-adguard.jfchenier.ca CNAME .
-*.adguard.jfchenier.ca CNAME .
 adamz2eso.l5.ca CNAME .
 *.adamz2eso.l5.ca CNAME .
 docs.google.l5.ca CNAME .
@@ -3595,6 +3593,8 @@ ahcek.com CNAME .
 *.ahcek.com CNAME .
 dns.ahmgam.com CNAME .
 *.dns.ahmgam.com CNAME .
+ahproxy.com CNAME .
+*.ahproxy.com CNAME .
 router.ahzol.com CNAME .
 *.router.ahzol.com CNAME .
 aibuddytech.com CNAME .
@@ -9071,8 +9071,6 @@ joinmassive.com CNAME .
 *.joinmassive.com CNAME .
 joinyongjiumianfeijichang.com CNAME .
 *.joinyongjiumianfeijichang.com CNAME .
-joldoojv.com CNAME .
-*.joldoojv.com CNAME .
 joltcobalt.com CNAME .
 *.joltcobalt.com CNAME .
 joltedpixel.com CNAME .
@@ -9295,8 +9293,6 @@ kineticmason.com CNAME .
 *.kineticmason.com CNAME .
 kk98njtt.com CNAME .
 *.kk98njtt.com CNAME .
-klimydkx.com CNAME .
-*.klimydkx.com CNAME .
 rally.kllevr.com CNAME .
 *.rally.kllevr.com CNAME .
 klvpn-app.com CNAME .
@@ -18603,6 +18599,10 @@ cashraven.io CNAME .
 *.cashraven.io CNAME .
 chuansuo.io CNAME .
 *.chuansuo.io CNAME .
+dns.cleardns.io CNAME .
+*.dns.cleardns.io CNAME .
+dot.cleardns.io CNAME .
+*.dot.cleardns.io CNAME .
 coproxy.io CNAME .
 *.coproxy.io CNAME .
 corsproxy.io CNAME .
@@ -25371,8 +25371,6 @@ js72dh.online CNAME .
 *.js72dh.online CNAME .
 kjantiddosvpn.online CNAME .
 *.kjantiddosvpn.online CNAME .
-kk89hecrq.online CNAME .
-*.kk89hecrq.online CNAME .
 kmntc3ty8boq.online CNAME .
 *.kmntc3ty8boq.online CNAME .
 lavortai.online CNAME .
