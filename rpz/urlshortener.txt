@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793892720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793920320 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 15:32 UTC
-; Version: 2026.1105.1532.09
+; Last modified: 05 Nov 2026 23:12 UTC
+; Version: 2026.1105.2312.18
 ; Syntax: RPZ
-; Number of entries: 19630
+; Number of entries: 19612
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1039,8 +1039,6 @@ la.bio CNAME .
 *.la.bio CNAME .
 lihat.bio CNAME .
 *.lihat.bio CNAME .
-linkda.bio CNAME .
-*.linkda.bio CNAME .
 linkdel.bio CNAME .
 *.linkdel.bio CNAME .
 linkpara.bio CNAME .
@@ -2167,8 +2165,6 @@ iqiyi.cn CNAME .
 *.iqiyi.cn CNAME .
 kfurl.cn CNAME .
 *.kfurl.cn CNAME .
-liurl.cn CNAME .
-*.liurl.cn CNAME .
 n7i.cn CNAME .
 *.n7i.cn CNAME .
 ock.cn CNAME .
@@ -4867,8 +4863,6 @@ go.koloua.com CNAME .
 *.go.koloua.com CNAME .
 kontentino.com CNAME .
 *.kontentino.com CNAME .
-koreanbiolink.com CNAME .
-*.koreanbiolink.com CNAME .
 go.kotelov.com CNAME .
 *.go.kotelov.com CNAME .
 kpfvjc.com CNAME .
@@ -5123,8 +5117,6 @@ linksimplify.com CNAME .
 *.linksimplify.com CNAME .
 linkslave.com CNAME .
 *.linkslave.com CNAME .
-linksminify.com CNAME .
-*.linksminify.com CNAME .
 linksnapro.com CNAME .
 *.linksnapro.com CNAME .
 linkstracer.com CNAME .
@@ -10707,12 +10699,8 @@ linkqr.io CNAME .
 *.linkqr.io CNAME .
 linkshortener.io CNAME .
 *.linkshortener.io CNAME .
-linksimple.io CNAME .
-*.linksimple.io CNAME .
 linkslice.io CNAME .
 *.linkslice.io CNAME .
-linkslim.io CNAME .
-*.linkslim.io CNAME .
 linksplit.io CNAME .
 *.linksplit.io CNAME .
 linksqueeze.io CNAME .
@@ -11661,8 +11649,6 @@ bt.ke CNAME .
 *.bt.ke CNAME .
 crwdstr.ke CNAME .
 *.crwdstr.ke CNAME .
-liy.ke CNAME .
-*.liy.ke CNAME .
 lnk.ke CNAME .
 *.lnk.ke CNAME .
 qt.ke CNAME .
@@ -14573,8 +14559,6 @@ hyser.mx CNAME .
 *.hyser.mx CNAME .
 ira.mx CNAME .
 *.ira.mx CNAME .
-linkti.mx CNAME .
-*.linkti.mx CNAME .
 tmm.mx CNAME .
 *.tmm.mx CNAME .
 tulink.mx CNAME .
@@ -15967,8 +15951,6 @@ linkjp.org CNAME .
 *.linkjp.org CNAME .
 linkshrink.org CNAME .
 *.linkshrink.org CNAME .
-linkvip88.org CNAME .
-*.linkvip88.org CNAME .
 go.ltdo.org CNAME .
 *.go.ltdo.org CNAME .
 news.ltdo.org CNAME .
@@ -15987,6 +15969,8 @@ machess.org CNAME .
 *.machess.org CNAME .
 magaus.org CNAME .
 *.magaus.org CNAME .
+masklink.org CNAME .
+*.masklink.org CNAME .
 matei.org CNAME .
 *.matei.org CNAME .
 mattlamadvisory.org CNAME .
@@ -18687,8 +18671,6 @@ link4u.uk CNAME .
 *.link4u.uk CNAME .
 linkr.uk CNAME .
 *.linkr.uk CNAME .
-linkshort.uk CNAME .
-*.linkshort.uk CNAME .
 lk1.uk CNAME .
 *.lk1.uk CNAME .
 masy.uk CNAME .
