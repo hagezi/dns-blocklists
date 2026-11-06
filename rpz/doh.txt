@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793898180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793963160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 17:03 UTC
-; Version: 2026.1105.1703.20
+; Last modified: 06 Nov 2026 11:06 UTC
+; Version: 2026.1106.1106.06
 ; Syntax: RPZ
-; Number of entries: 7170
+; Number of entries: 7164
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1439,8 +1439,6 @@ dns.mipauns.com CNAME .
 *.dns.mipauns.com CNAME .
 httpdns.browser.miui.com CNAME .
 *.httpdns.browser.miui.com CNAME .
-dns.miyun1.com CNAME .
-*.dns.miyun1.com CNAME .
 doh.mmmalia.com CNAME .
 *.doh.mmmalia.com CNAME .
 dnstls.mobik.com CNAME .
@@ -1451,8 +1449,6 @@ dns.mochalka.com CNAME .
 *.dns.mochalka.com CNAME .
 dns.moonssif.com CNAME .
 *.dns.moonssif.com CNAME .
-akunamatata8888.mooo.com CNAME .
-*.akunamatata8888.mooo.com CNAME .
 disinformer.mooo.com CNAME .
 *.disinformer.mooo.com CNAME .
 e23a.mooo.com CNAME .
@@ -6235,8 +6231,6 @@ moamao.shop CNAME .
 *.moamao.shop CNAME .
 paradise-human.shop CNAME .
 *.paradise-human.shop CNAME .
-adguard.marto.si CNAME .
-*.adguard.marto.si CNAME .
 hk2.1833015459.site CNAME .
 *.hk2.1833015459.site CNAME .
 callies-online.site CNAME .

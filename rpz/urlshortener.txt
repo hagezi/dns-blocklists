@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793920320 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793956500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 23:12 UTC
-; Version: 2026.1105.2312.18
+; Last modified: 06 Nov 2026 09:15 UTC
+; Version: 2026.1106.0915.55
 ; Syntax: RPZ
-; Number of entries: 19612
+; Number of entries: 19588
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -373,8 +373,6 @@ linkutama.app CNAME .
 *.linkutama.app CNAME .
 maxurl.app CNAME .
 *.maxurl.app CNAME .
-meowlink.app CNAME .
-*.meowlink.app CNAME .
 go-admin.momen.app CNAME .
 *.go-admin.momen.app CNAME .
 mr-link.app CNAME .
@@ -2091,8 +2089,6 @@ cindora.club CNAME .
 *.cindora.club CNAME .
 maoruan.club CNAME .
 *.maoruan.club CNAME .
-match-heaven.club CNAME .
-*.match-heaven.club CNAME .
 oplink.club CNAME .
 *.oplink.club CNAME .
 sms.club CNAME .
@@ -2591,8 +2587,6 @@ ludigi.co CNAME .
 *.ludigi.co CNAME .
 lzd.co CNAME .
 *.lzd.co CNAME .
-magaus.co CNAME .
-*.magaus.co CNAME .
 maxvan.co CNAME .
 *.maxvan.co CNAME .
 mbayaq.co CNAME .
@@ -5273,8 +5267,6 @@ kutt.mariodian.com CNAME .
 *.kutt.mariodian.com CNAME .
 marketclan.com CNAME .
 *.marketclan.com CNAME .
-herramientas.marketingcubano.com CNAME .
-*.herramientas.marketingcubano.com CNAME .
 marketinghelperpro.com CNAME .
 *.marketinghelperpro.com CNAME .
 marktive.com CNAME .
@@ -5337,8 +5329,6 @@ melchiorbrenneman.com CNAME .
 *.melchiorbrenneman.com CNAME .
 melissahotdeals.com CNAME .
 *.melissahotdeals.com CNAME .
-meraihcuan.com CNAME .
-*.meraihcuan.com CNAME .
 merourl.com CNAME .
 *.merourl.com CNAME .
 urlshorty.metaapps.com CNAME .
@@ -9361,8 +9351,6 @@ s.klinikpintar.id CNAME .
 *.s.klinikpintar.id CNAME .
 linkable.id CNAME .
 *.linkable.id CNAME .
-minilink.id CNAME .
-*.minilink.id CNAME .
 mitchi.id CNAME .
 *.mitchi.id CNAME .
 monly.id CNAME .
@@ -9889,8 +9877,6 @@ minl.in CNAME .
 *.minl.in CNAME .
 moonlinks.in CNAME .
 *.moonlinks.in CNAME .
-mrlink.in CNAME .
-*.mrlink.in CNAME .
 msfy.in CNAME .
 *.msfy.in CNAME .
 my-link.in CNAME .
@@ -13925,8 +13911,6 @@ m2g.me CNAME .
 *.m2g.me CNAME .
 mamikale.me CNAME .
 *.mamikale.me CNAME .
-mantapkalee.me CNAME .
-*.mantapkalee.me CNAME .
 marinecorp.me CNAME .
 *.marinecorp.me CNAME .
 mby.me CNAME .
@@ -15049,8 +15033,6 @@ loomvo.net CNAME .
 *.loomvo.net CNAME .
 lynkat.net CNAME .
 *.lynkat.net CNAME .
-magaus.net CNAME .
-*.magaus.net CNAME .
 mdl29.net CNAME .
 *.mdl29.net CNAME .
 meelink.net CNAME .
@@ -15967,10 +15949,6 @@ machb.org CNAME .
 *.machb.org CNAME .
 machess.org CNAME .
 *.machess.org CNAME .
-magaus.org CNAME .
-*.magaus.org CNAME .
-masklink.org CNAME .
-*.masklink.org CNAME .
 matei.org CNAME .
 *.matei.org CNAME .
 mattlamadvisory.org CNAME .
@@ -19507,8 +19485,6 @@ linkol.xyz CNAME .
 *.linkol.xyz CNAME .
 lompat.xyz CNAME .
 *.lompat.xyz CNAME .
-magaus.xyz CNAME .
-*.magaus.xyz CNAME .
 maicowa.xyz CNAME .
 *.maicowa.xyz CNAME .
 adlinkfly.mightyscripts.xyz CNAME .
