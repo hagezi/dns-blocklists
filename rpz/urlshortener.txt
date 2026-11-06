@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793956500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793977860 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 09:15 UTC
-; Version: 2026.1106.0915.55
+; Last modified: 06 Nov 2026 15:11 UTC
+; Version: 2026.1106.1511.30
 ; Syntax: RPZ
-; Number of entries: 19588
+; Number of entries: 19586
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -12541,8 +12541,6 @@ natsbee.link CNAME .
 *.natsbee.link CNAME .
 nhabio.link CNAME .
 *.nhabio.link CNAME .
-nils.link CNAME .
-*.nils.link CNAME .
 nin.link CNAME .
 *.nin.link CNAME .
 nkisa.link CNAME .
@@ -15949,6 +15947,8 @@ machb.org CNAME .
 *.machb.org CNAME .
 machess.org CNAME .
 *.machess.org CNAME .
+masklink.org CNAME .
+*.masklink.org CNAME .
 matei.org CNAME .
 *.matei.org CNAME .
 mattlamadvisory.org CNAME .
@@ -15979,8 +15979,6 @@ bio.mytsi.org CNAME .
 *.bio.mytsi.org CNAME .
 nanourl.org CNAME .
 *.nanourl.org CNAME .
-nashcapernaum.org CNAME .
-*.nashcapernaum.org CNAME .
 netizen303.org CNAME .
 *.netizen303.org CNAME .
 ngers.org CNAME .

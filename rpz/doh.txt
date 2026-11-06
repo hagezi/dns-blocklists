@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793963160 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793983380 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 11:06 UTC
-; Version: 2026.1106.1106.06
+; Last modified: 06 Nov 2026 16:43 UTC
+; Version: 2026.1106.1643.14
 ; Syntax: RPZ
-; Number of entries: 7164
+; Number of entries: 7160
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -4759,8 +4759,6 @@ dns.mydas.online CNAME .
 *.dns.mydas.online CNAME .
 dns.mymachinepanda.online CNAME .
 *.dns.mymachinepanda.online CNAME .
-n8nmegapixar.online CNAME .
-*.n8nmegapixar.online CNAME .
 okado.online CNAME .
 *.okado.online CNAME .
 pdnssrvagh.online CNAME .
@@ -5231,8 +5229,6 @@ nelsonleung.org CNAME .
 *.nelsonleung.org CNAME .
 dns.neutopia.org CNAME .
 *.dns.neutopia.org CNAME .
-dns.ninhs.org CNAME .
-*.dns.ninhs.org CNAME .
 daemonhunt.no-ip.org CNAME .
 *.daemonhunt.no-ip.org CNAME .
 adguard.nocnik.org CNAME .

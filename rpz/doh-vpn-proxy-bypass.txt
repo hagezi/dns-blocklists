@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793963220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793983500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 11:07 UTC
-; Version: 2026.1106.1107.18
+; Last modified: 06 Nov 2026 16:45 UTC
+; Version: 2026.1106.1645.48
 ; Syntax: RPZ
-; Number of entries: 32768
+; Number of entries: 32736
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -2475,8 +2475,6 @@ route.netshi.cn CNAME .
 *.route.netshi.cn CNAME .
 ngrspm.cn CNAME .
 *.ngrspm.cn CNAME .
-nodun.cn CNAME .
-*.nodun.cn CNAME .
 kuailianworld.org.cn CNAME .
 *.kuailianworld.org.cn CNAME .
 pgwwr.cn CNAME .
@@ -10777,8 +10775,6 @@ mysudo.com CNAME .
 *.mysudo.com CNAME .
 mytunneling.com CNAME .
 *.mytunneling.com CNAME .
-myvginhu.com CNAME .
-*.myvginhu.com CNAME .
 myvpn.com CNAME .
 *.myvpn.com CNAME .
 myvpn5.com CNAME .
@@ -10793,8 +10789,6 @@ mzegtmks.com CNAME .
 *.mzegtmks.com CNAME .
 dns.mzjtechnology.com CNAME .
 *.dns.mzjtechnology.com CNAME .
-n-kuailian.com CNAME .
-*.n-kuailian.com CNAME .
 dns.n4x2.com CNAME .
 *.dns.n4x2.com CNAME .
 n7vh8i2u.com CNAME .
@@ -10813,8 +10807,6 @@ naiyunjc.com CNAME .
 *.naiyunjc.com CNAME .
 nanoproxy.com CNAME .
 *.nanoproxy.com CNAME .
-naokdfxw.com CNAME .
-*.naokdfxw.com CNAME .
 waguri.nappod.com CNAME .
 *.waguri.nappod.com CNAME .
 napps-1.com CNAME .
@@ -10881,16 +10873,10 @@ tuffled-getit-pleaselaugh.newlifesanctuarychurch.com CNAME .
 *.tuffled-getit-pleaselaugh.newlifesanctuarychurch.com CNAME .
 newlockdoor.com CNAME .
 *.newlockdoor.com CNAME .
-electricalwizards.newpowergroup.com CNAME .
-*.electricalwizards.newpowergroup.com CNAME .
 newtpeak.com CNAME .
 *.newtpeak.com CNAME .
 newwaggish.com CNAME .
 *.newwaggish.com CNAME .
-nexaclouda.com CNAME .
-*.nexaclouda.com CNAME .
-nexacloudb.com CNAME .
-*.nexacloudb.com CNAME .
 nexitallyeb.com CNAME .
 *.nexitallyeb.com CNAME .
 nexitallyig.com CNAME .
@@ -10939,8 +10925,6 @@ classroom.learn.nitrojade.com CNAME .
 *.classroom.learn.nitrojade.com CNAME .
 zatoga.nitrojade.com CNAME .
 *.zatoga.nitrojade.com CNAME .
-nkalpwdp.com CNAME .
-*.nkalpwdp.com CNAME .
 nkfkhcfe.com CNAME .
 *.nkfkhcfe.com CNAME .
 nkqts9j4.com CNAME .
@@ -11089,8 +11073,6 @@ nttconnections.com CNAME .
 *.nttconnections.com CNAME .
 ntyrqg.com CNAME .
 *.ntyrqg.com CNAME .
-nucleusvpn.com CNAME .
-*.nucleusvpn.com CNAME .
 nucnhwsx.com CNAME .
 *.nucnhwsx.com CNAME .
 nuia4jjw.com CNAME .
@@ -11107,12 +11089,8 @@ dns.numerus.com CNAME .
 *.dns.numerus.com CNAME .
 nutelk.com CNAME .
 *.nutelk.com CNAME .
-nutlskyp.com CNAME .
-*.nutlskyp.com CNAME .
 vpn.nvidia.com CNAME .
 *.vpn.nvidia.com CNAME .
-nvjbodnn.com CNAME .
-*.nvjbodnn.com CNAME .
 nvkqztrla.com CNAME .
 *.nvkqztrla.com CNAME .
 nvxkv8qt.com CNAME .
@@ -12911,8 +12889,6 @@ us1-browse.startpage.com CNAME .
 *.us1-browse.startpage.com CNAME .
 us2-browse.startpage.com CNAME .
 *.us2-browse.startpage.com CNAME .
-us3-browse.startpage.com CNAME .
-*.us3-browse.startpage.com CNAME .
 starvpn.com CNAME .
 *.starvpn.com CNAME .
 starvpnapp.com CNAME .
@@ -25277,8 +25253,6 @@ myhalo.online CNAME .
 *.myhalo.online CNAME .
 dns.mymachinepanda.online CNAME .
 *.dns.mymachinepanda.online CNAME .
-n8nmegapixar.online CNAME .
-*.n8nmegapixar.online CNAME .
 nettunnel.online CNAME .
 *.nettunnel.online CNAME .
 newlenta24.online CNAME .
@@ -27005,8 +26979,6 @@ newhavenps.org CNAME .
 *.newhavenps.org CNAME .
 newyorkps.org CNAME .
 *.newyorkps.org CNAME .
-dns.ninhs.org CNAME .
-*.dns.ninhs.org CNAME .
 nkn.org CNAME .
 *.nkn.org CNAME .
 vpn.nnip.org CNAME .
@@ -28601,8 +28573,6 @@ dns.naskell.ru CNAME .
 *.dns.naskell.ru CNAME .
 nearabird.ru CNAME .
 *.nearabird.ru CNAME .
-net-work-private.ru CNAME .
-*.net-work-private.ru CNAME .
 bobr.netphoenix.ru CNAME .
 *.bobr.netphoenix.ru CNAME .
 rockstars.netphoenix.ru CNAME .
@@ -32255,8 +32225,6 @@ mysolod.xyz CNAME .
 *.mysolod.xyz CNAME .
 naiunet.xyz CNAME .
 *.naiunet.xyz CNAME .
-nebulaservices.xyz CNAME .
-*.nebulaservices.xyz CNAME .
 nerbix.xyz CNAME .
 *.nerbix.xyz CNAME .
 netprov.xyz CNAME .

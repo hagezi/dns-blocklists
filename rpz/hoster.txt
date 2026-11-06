@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793922540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793980020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 23:49 UTC
-; Version: 2026.1105.2349.38
+; Last modified: 06 Nov 2026 15:47 UTC
+; Version: 2026.1106.1547.50
 ; Syntax: RPZ
-; Number of entries: 2138
+; Number of entries: 2148
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -348,6 +348,8 @@ byethost14.com CNAME .
 *.byethost14.com CNAME .
 byethost18.com CNAME .
 *.byethost18.com CNAME .
+byethost33.com CNAME .
+*.byethost33.com CNAME .
 byethost4.com CNAME .
 *.byethost4.com CNAME .
 byethost5.com CNAME .
@@ -376,6 +378,8 @@ coolfreepages.com CNAME .
 *.128-199-7-137.cprapid.com CNAME .
 3-89-181-9.cprapid.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
+sitebeat.crazydomains.com CNAME .
+*.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
 cutedrive.com CNAME .
@@ -590,6 +594,8 @@ my5353.com CNAME .
 *.my5353.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
+myclickfunnels.com CNAME .
+*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
@@ -702,6 +708,8 @@ vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
 *.vdxh.com CNAME .
+w3spaces.com CNAME .
+*.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
@@ -1452,12 +1460,12 @@ de.ki CNAME .
 *.de.ki CNAME .
 blogspot.kr CNAME .
 *.blogspot.kr CNAME .
-dothome.co.kr CNAME .
-*.dothome.co.kr CNAME .
 me2.kr CNAME .
 *.me2.kr CNAME .
 n-e.kr CNAME .
 *.n-e.kr CNAME .
+o-r.kr CNAME .
+*.o-r.kr CNAME .
 qry.kr CNAME .
 *.qry.kr CNAME .
 r-e.kr CNAME .
@@ -1934,6 +1942,8 @@ corolain.ru CNAME .
 *.corolain.ru CNAME .
 hop.ru CNAME .
 *.hop.ru CNAME .
+justns.ru CNAME .
+*.justns.ru CNAME .
 logomebel.ru CNAME .
 *.logomebel.ru CNAME .
 nethouse.ru CNAME .

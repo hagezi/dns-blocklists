@@ -20,6 +20,8 @@ https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/01_ad.txt
 https://easylist-downloads.adblockplus.org/easylist.txt
 https://easylist-downloads.adblockplus.org/easyprivacy.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
 https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/specific.txt
@@ -27,6 +29,8 @@ https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilte
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adback-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adkeeper-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domains.txt
