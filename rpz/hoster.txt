@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794026880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794041640 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Nov 2026 04:48 UTC
-; Version: 2026.1107.0448.02
+; Last modified: 07 Nov 2026 08:54 UTC
+; Version: 2026.1107.0854.48
 ; Syntax: RPZ
-; Number of entries: 2214
+; Number of entries: 2216
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -244,6 +244,8 @@ synergize.co CNAME .
 *.synergize.co CNAME .
 vidcloud.co CNAME .
 *.vidcloud.co CNAME .
+wapka.co CNAME .
+*.wapka.co CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
 000webhost.com CNAME .

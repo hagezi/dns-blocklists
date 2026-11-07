@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794024780 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794039660 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Nov 2026 04:13 UTC
-; Version: 2026.1107.0413.18
+; Last modified: 07 Nov 2026 08:21 UTC
+; Version: 2026.1107.0821.32
 ; Syntax: RPZ
-; Number of entries: 19566
+; Number of entries: 19554
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2693,8 +2693,6 @@ pygy.co CNAME .
 *.pygy.co CNAME .
 pzdls.co CNAME .
 *.pzdls.co CNAME .
-qikli.co CNAME .
-*.qikli.co CNAME .
 qqc.co CNAME .
 *.qqc.co CNAME .
 qrdb.co CNAME .
@@ -2707,8 +2705,6 @@ qvc.co CNAME .
 *.qvc.co CNAME .
 r-7.co CNAME .
 *.r-7.co CNAME .
-r-txt.co CNAME .
-*.r-txt.co CNAME .
 ranvz.co CNAME .
 *.ranvz.co CNAME .
 rblx.co CNAME .
@@ -5907,8 +5903,6 @@ qrpol.com CNAME .
 *.qrpol.com CNAME .
 qrtli.com CNAME .
 *.qrtli.com CNAME .
-qrump.com CNAME .
-*.qrump.com CNAME .
 qrybaan.com CNAME .
 *.qrybaan.com CNAME .
 quainator.com CNAME .
@@ -5929,8 +5923,6 @@ quurls.com CNAME .
 *.quurls.com CNAME .
 qzr2.com CNAME .
 *.qzr2.com CNAME .
-r-txt.com CNAME .
-*.r-txt.com CNAME .
 raceclip.com CNAME .
 *.raceclip.com CNAME .
 toweraws.cs.rackspace.com CNAME .
@@ -14015,8 +14007,6 @@ qrcc.me CNAME .
 *.qrcc.me CNAME .
 qrisni.me CNAME .
 *.qrisni.me CNAME .
-qthq.me CNAME .
-*.qthq.me CNAME .
 quickcard-smartbusinesscard.me CNAME .
 *.quickcard-smartbusinesscard.me CNAME .
 qutt.me CNAME .
@@ -14029,8 +14019,6 @@ rabetak.me CNAME .
 *.rabetak.me CNAME .
 rb6.me CNAME .
 *.rb6.me CNAME .
-rdre.me CNAME .
-*.rdre.me CNAME .
 rdz.me CNAME .
 *.rdz.me CNAME .
 redir.me CNAME .
@@ -15933,6 +15921,8 @@ machb.org CNAME .
 *.machb.org CNAME .
 machess.org CNAME .
 *.machess.org CNAME .
+masklink.org CNAME .
+*.masklink.org CNAME .
 matei.org CNAME .
 *.matei.org CNAME .
 mattlamadvisory.org CNAME .
@@ -16023,8 +16013,6 @@ qrgenerator.org CNAME .
 *.qrgenerator.org CNAME .
 qrto.org CNAME .
 *.qrto.org CNAME .
-r-txt.org CNAME .
-*.r-txt.org CNAME .
 r0e.org CNAME .
 *.r0e.org CNAME .
 links.rbsoft.org CNAME .
