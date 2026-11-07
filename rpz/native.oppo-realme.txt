@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794006180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794075420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 23:03 UTC
-; Version: 2026.1106.2303.15
+; Last modified: 07 Nov 2026 18:17 UTC
+; Version: 2026.1107.1817.55
 ; Syntax: RPZ
-; Number of entries: 984
+; Number of entries: 990
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -256,6 +256,8 @@ moa-upload-online-in.coloros.com CNAME .
 *.moa-upload-online-in.coloros.com CNAME .
 finosfin.com CNAME .
 *.finosfin.com CNAME .
+i-insurance.finzfin.com CNAME .
+*.i-insurance.finzfin.com CNAME .
 appconf-ocs-eu.heytapdl.com CNAME .
 *.appconf-ocs-eu.heytapdl.com CNAME .
 appconf-ocs-in.heytapdl.com CNAME .
@@ -516,6 +518,8 @@ iot-earbuds-cn.heytapmobi.com CNAME .
 *.iot-earbuds-cn.heytapmobi.com CNAME .
 mdp-usertrace-cn.heytapmobi.com CNAME .
 *.mdp-usertrace-cn.heytapmobi.com CNAME .
+obus-conf-cn.heytapmobi.com CNAME .
+*.obus-conf-cn.heytapmobi.com CNAME .
 obus-config-cn.heytapmobi.com CNAME .
 *.obus-config-cn.heytapmobi.com CNAME .
 obus-dc10-cn.heytapmobi.com CNAME .
@@ -564,6 +568,8 @@ id.push.heytapmobi.com CNAME .
 *.id.push.heytapmobi.com CNAME .
 userprofile.push.heytapmobi.com CNAME .
 *.userprofile.push.heytapmobi.com CNAME .
+push-ads-cn.heytapmobi.com CNAME .
+*.push-ads-cn.heytapmobi.com CNAME .
 api-id.theme.heytapmobi.com CNAME .
 *.api-id.theme.heytapmobi.com CNAME .
 ums-telemetry-cn.heytapmobi.com CNAME .
