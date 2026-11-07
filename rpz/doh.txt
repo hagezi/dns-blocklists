@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794004440 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794029940 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 22:34 UTC
-; Version: 2026.1106.2234.36
+; Last modified: 07 Nov 2026 05:39 UTC
+; Version: 2026.1107.0539.49
 ; Syntax: RPZ
-; Number of entries: 7158
+; Number of entries: 7152
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -6595,8 +6595,6 @@ dnscloud.pp.ua CNAME .
 *.dnscloud.pp.ua CNAME .
 gruppo.pp.ua CNAME .
 *.gruppo.pp.ua CNAME .
-guard.pp.ua CNAME .
-*.guard.pp.ua CNAME .
 dns.ha-dvin.pp.ua CNAME .
 *.dns.ha-dvin.pp.ua CNAME .
 dns.korzhyk.pp.ua CNAME .
@@ -7097,12 +7095,8 @@ pepetio.xyz CNAME .
 *.pepetio.xyz CNAME .
 pingbi.xyz CNAME .
 *.pingbi.xyz CNAME .
-pm1239-bd.xyz CNAME .
-*.pm1239-bd.xyz CNAME .
 pm7051-br.xyz CNAME .
 *.pm7051-br.xyz CNAME .
-pm9352-bd.xyz CNAME .
-*.pm9352-bd.xyz CNAME .
 adguard.pmoebi.xyz CNAME .
 *.adguard.pmoebi.xyz CNAME .
 dns.propheci.xyz CNAME .

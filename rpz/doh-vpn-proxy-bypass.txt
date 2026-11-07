@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794004500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794030000 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 22:35 UTC
-; Version: 2026.1106.2235.33
+; Last modified: 07 Nov 2026 05:40 UTC
+; Version: 2026.1107.0540.49
 ; Syntax: RPZ
-; Number of entries: 32788
+; Number of entries: 32774
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -1539,8 +1539,6 @@ doh.plop.cc CNAME .
 *.doh.plop.cc CNAME .
 pointed.cc CNAME .
 *.pointed.cc CNAME .
-pwriuja.potmix.cc CNAME .
-*.pwriuja.potmix.cc CNAME .
 ppv2.cc CNAME .
 *.ppv2.cc CNAME .
 prjsq.cc CNAME .
@@ -17003,8 +17001,6 @@ pipstervpn.help CNAME .
 *.pipstervpn.help CNAME .
 planet-vpn.help CNAME .
 *.planet-vpn.help CNAME .
-platovpn.help CNAME .
-*.platovpn.help CNAME .
 playingvpn.help CNAME .
 *.playingvpn.help CNAME .
 potatovpn.help CNAME .
@@ -20049,8 +20045,6 @@ paopaoyun.me CNAME .
 *.paopaoyun.me CNAME .
 dns.pizzari.me CNAME .
 *.dns.pizzari.me CNAME .
-pkrreaperr.me CNAME .
-*.pkrreaperr.me CNAME .
 privateproxy.me CNAME .
 *.privateproxy.me CNAME .
 vpn-api.proton.me CNAME .
@@ -20395,8 +20389,6 @@ mtproxy.mom CNAME .
 *.mtproxy.mom CNAME .
 nashvpn.mom CNAME .
 *.nashvpn.mom CNAME .
-play-vpn.mom CNAME .
-*.play-vpn.mom CNAME .
 red-vpn.mom CNAME .
 *.red-vpn.mom CNAME .
 securly.mom CNAME .
@@ -30511,8 +30503,6 @@ dnscloud.pp.ua CNAME .
 *.dnscloud.pp.ua CNAME .
 gruppo.pp.ua CNAME .
 *.gruppo.pp.ua CNAME .
-guard.pp.ua CNAME .
-*.guard.pp.ua CNAME .
 dns.ha-dvin.pp.ua CNAME .
 *.dns.ha-dvin.pp.ua CNAME .
 dns.korzhyk.pp.ua CNAME .
@@ -32357,12 +32347,8 @@ pingbi.xyz CNAME .
 *.pingbi.xyz CNAME .
 planetvpn-cdn.xyz CNAME .
 *.planetvpn-cdn.xyz CNAME .
-pm1239-bd.xyz CNAME .
-*.pm1239-bd.xyz CNAME .
 pm7051-br.xyz CNAME .
 *.pm7051-br.xyz CNAME .
-pm9352-bd.xyz CNAME .
-*.pm9352-bd.xyz CNAME .
 adguard.pmoebi.xyz CNAME .
 *.adguard.pmoebi.xyz CNAME .
 portbj.xyz CNAME .
