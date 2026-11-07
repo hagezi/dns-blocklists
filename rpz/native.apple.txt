@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792263180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794005460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Oct 2026 18:53 UTC
-; Version: 2026.1017.1853.28
+; Last modified: 06 Nov 2026 22:51 UTC
+; Version: 2026.1106.2251.26
 ; Syntax: RPZ
-; Number of entries: 220
+; Number of entries: 208
 ;
 h4g3z1-native-apple.web.app CNAME .
 *.h4g3z1-native-apple.web.app CNAME .
@@ -70,8 +70,6 @@ advertising.apple.com CNAME .
 *.advertising.apple.com CNAME .
 advp.apple.com CNAME .
 *.advp.apple.com CNAME .
-analytics-events.apple.com CNAME .
-*.analytics-events.apple.com CNAME .
 api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
 books-analytics-events.apple.com CNAME .
@@ -88,12 +86,8 @@ diagassets.apple.com CNAME .
 *.diagassets.apple.com CNAME .
 diagnostics.apple.com CNAME .
 *.diagnostics.apple.com CNAME .
-dz1dt3wqswdezgx4j2ryem5iad.apple.com CNAME .
-*.dz1dt3wqswdezgx4j2ryem5iad.apple.com CNAME .
 experiments.apple.com CNAME .
 *.experiments.apple.com CNAME .
-flirfvysba2opz0zmzqs5iuiad.apple.com CNAME .
-*.flirfvysba2opz0zmzqs5iuiad.apple.com CNAME .
 freeform-events.apple.com CNAME .
 *.freeform-events.apple.com CNAME .
 aios-otel-collector.g.apple.com CNAME .
@@ -130,8 +124,6 @@ metrics.apple.com CNAME .
 *.metrics.apple.com CNAME .
 msc-dct-prod.msc.apple.com CNAME .
 *.msc-dct-prod.msc.apple.com CNAME .
-news-analytics-events.apple.com CNAME .
-*.news-analytics-events.apple.com CNAME .
 news-app-events.apple.com CNAME .
 *.news-app-events.apple.com CNAME .
 news-events.apple.com CNAME .
@@ -148,8 +140,6 @@ performance-partners.apple.com CNAME .
 *.performance-partners.apple.com CNAME .
 phonesubmissions.apple.com CNAME .
 *.phonesubmissions.apple.com CNAME .
-podcasts-analytics-events.apple.com CNAME .
-*.podcasts-analytics-events.apple.com CNAME .
 prd-usw2-requestattribution-iad.apple.com CNAME .
 *.prd-usw2-requestattribution-iad.apple.com CNAME .
 proxy-skadnetwork.apple.com CNAME .
@@ -168,8 +158,6 @@ stocks-analytics-events.apple.com CNAME .
 *.stocks-analytics-events.apple.com CNAME .
 supportmetrics.apple.com CNAME .
 *.supportmetrics.apple.com CNAME .
-tv-analytics-events.apple.com CNAME .
-*.tv-analytics-events.apple.com CNAME .
 weather-analytics-events.apple.com CNAME .
 *.weather-analytics-events.apple.com CNAME .
 xp.apple.com CNAME .

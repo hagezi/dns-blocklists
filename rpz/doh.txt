@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793983380 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794004440 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 16:43 UTC
-; Version: 2026.1106.1643.14
+; Last modified: 06 Nov 2026 22:34 UTC
+; Version: 2026.1106.2234.36
 ; Syntax: RPZ
-; Number of entries: 7160
+; Number of entries: 7158
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1619,8 +1619,6 @@ dns.p55k.com CNAME .
 *.dns.p55k.com CNAME .
 dns.pacificmonster.com CNAME .
 *.dns.pacificmonster.com CNAME .
-adguard.pancybertronics.com CNAME .
-*.adguard.pancybertronics.com CNAME .
 pashagame456.com CNAME .
 *.pashagame456.com CNAME .
 doh.gcp.pathofgrace.com CNAME .

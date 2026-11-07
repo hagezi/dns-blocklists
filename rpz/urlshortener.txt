@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793977860 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794004560 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 15:11 UTC
-; Version: 2026.1106.1511.30
+; Last modified: 06 Nov 2026 22:36 UTC
+; Version: 2026.1106.2236.40
 ; Syntax: RPZ
-; Number of entries: 19586
+; Number of entries: 19568
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1063,8 +1063,6 @@ noni.bio CNAME .
 *.noni.bio CNAME .
 pascol.bio CNAME .
 *.pascol.bio CNAME .
-pawl.bio CNAME .
-*.pawl.bio CNAME .
 pops.bio CNAME .
 *.pops.bio CNAME .
 qlink.bio CNAME .
@@ -5725,8 +5723,6 @@ safelink.pengembangsebelah.com CNAME .
 *.safelink.pengembangsebelah.com CNAME .
 penjagaudara.com CNAME .
 *.penjagaudara.com CNAME .
-peoplenotpersons.com CNAME .
-*.peoplenotpersons.com CNAME .
 perrinator.com CNAME .
 *.perrinator.com CNAME .
 persocheck.com CNAME .
@@ -8913,8 +8909,6 @@ sh.oo.gd CNAME .
 *.sh.oo.gd CNAME .
 ou.gd CNAME .
 *.ou.gd CNAME .
-pic.gd CNAME .
-*.pic.gd CNAME .
 ski.gd CNAME .
 *.ski.gd CNAME .
 soo.gd CNAME .
@@ -12579,14 +12573,10 @@ packt.link CNAME .
 *.packt.link CNAME .
 page.link CNAME .
 *.page.link CNAME .
-page1healthcare.link CNAME .
-*.page1healthcare.link CNAME .
 pchome.link CNAME .
 *.pchome.link CNAME .
 peek.link CNAME .
 *.peek.link CNAME .
-pekcamke.link CNAME .
-*.pekcamke.link CNAME .
 pellz.link CNAME .
 *.pellz.link CNAME .
 peppy.link CNAME .
@@ -12999,8 +12989,6 @@ goto.onestream.live CNAME .
 *.goto.onestream.live CNAME .
 oneurl.live CNAME .
 *.oneurl.live CNAME .
-pairedinparadise.live CNAME .
-*.pairedinparadise.live CNAME .
 pandastyle.live CNAME .
 *.pandastyle.live CNAME .
 pointpay.live CNAME .
@@ -15075,8 +15063,6 @@ nowlinks.net CNAME .
 *.nowlinks.net CNAME .
 nullx.net CNAME .
 *.nullx.net CNAME .
-o-yes.net CNAME .
-*.o-yes.net CNAME .
 o9.net CNAME .
 *.o9.net CNAME .
 okshort.net CNAME .
@@ -15999,8 +15985,6 @@ oisux.org CNAME .
 *.oisux.org CNAME .
 tiny.oldsouth.org CNAME .
 *.tiny.oldsouth.org CNAME .
-onemlibirbilgi.org CNAME .
-*.onemlibirbilgi.org CNAME .
 onetimepass.org CNAME .
 *.onetimepass.org CNAME .
 otw-news.org CNAME .
@@ -17365,8 +17349,6 @@ maha77.site CNAME .
 *.maha77.site CNAME .
 mst.site CNAME .
 *.mst.site CNAME .
-owly.site CNAME .
-*.owly.site CNAME .
 play-app.site CNAME .
 *.play-app.site CNAME .
 promo-visits.site CNAME .

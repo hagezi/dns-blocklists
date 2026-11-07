@@ -5,8 +5,8 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 28 Oct 2026 14:42 UTC
-# Version: 2026.1028.1442.11
+# Last modified: 06 Nov 2026 22:57 UTC
+# Version: 2026.1106.2257.42
 # Syntax: DNSMasq v2.86 or newer
 # Number of entries: 764
 #
@@ -129,6 +129,7 @@ local=/xlog.capcutapi.us/
 local=/xlog-va.capcutapi.com/
 local=/frontier.capcutw.us/
 local=/frontier-us-ttp2.capcutw.us/
+local=/log9-normal-c-useast1a.tiktokv.com.ecdnx.com/
 local=/analytics.tiktok.com.edgekey.net/
 local=/analytics-attribution-va.tiktok.com.edgekey.net/
 local=/analytics-exp-i18n.tiktok.com.edgekey.net/
@@ -199,6 +200,13 @@ local=/p16-ttam-sg.ibyteimg.com/
 local=/p16-ttam-va.ibyteimg.com/
 local=/p19-ttam-sg.ibyteimg.com/
 local=/p19-ttam-va.ibyteimg.com/
+local=/log16-normal-alisg.tiktokv.com.kp45.ru/
+local=/log22-normal-alisg.tiktokv.com.kp45.ru/
+local=/mon16-normal-alisg.tiktokv.com.kp45.ru/
+local=/rtlog16-normal-alisg.tiktokv.com.kp45.ru/
+local=/rtlog22-normal-alisg.tiktokv.com.kp45.ru/
+local=/log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com/
+local=/log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com/
 local=/abtest-ch.snssdk.com/
 local=/analytics.snssdk.com/
 local=/applog.snssdk.com/
@@ -279,7 +287,6 @@ local=/mssdk-i18n.tiktok.com/
 local=/mssdk-quic-sg.tiktok.com/
 local=/mssdk-sg.tiktok.com/
 local=/mssdk-va.tiktok.com/
-local=/ad-union-i18n-api.tos-sg.tiktok-row.org/
 local=/mcs.tiktok-row.net/
 local=/p16-tiktok-ads-sg.tiktokcdn.com/
 local=/p16-ttam-va.tiktokcdn.com/
@@ -325,12 +332,10 @@ local=/ad.tiktokv.com/
 local=/ad.tiktokv.eu/
 local=/ad.tiktokv.us/
 local=/ad-format.tiktokv.eu/
-local=/ad-format.tiktokv.us/
 local=/ad-format-i18n.tiktokv.com/
 local=/ad-format-ie.tiktokv.eu/
 local=/ad-format-ru.tiktokv.com/
 local=/ad-format-sg.tiktokv.com/
-local=/ad-format-ttp2.tiktokv.eu/
 local=/ad-format-ttp2.tiktokv.us/
 local=/ad-format16-normal-useastred.tiktokv.eu/
 local=/ad-instantpage.tiktokv.eu/
@@ -382,12 +387,9 @@ local=/live-video-log16-normal-useast5.tiktokv.us/
 local=/live-video-log16-normal-useastred.tiktokv.eu/
 local=/location.tiktokv.com/
 local=/location.tiktokv.eu/
-local=/location.tiktokv.us/
 local=/location-i18n.tiktokv.com/
 local=/location-ie.tiktokv.eu/
-local=/location-ru.tiktokv.com/
 local=/location-sg.tiktokv.com/
-local=/location-ttp2.tiktokv.eu/
 local=/location-ttp2.tiktokv.us/
 local=/location-v6.tiktokv.com/
 local=/location-v6.tiktokv.eu/
@@ -399,7 +401,6 @@ local=/location-v6-ttp2.tiktokv.eu/
 local=/location-v6-ttp2.tiktokv.us/
 local=/location-v6-va.tiktokv.com/
 local=/location-va.tiktokv.com/
-local=/location16-normal-useastred.tiktokv.eu/
 local=/locationv16-normal-useastred.tiktokv.eu/
 local=/log.tiktokv.com/
 local=/log.tiktokv.eu/
@@ -594,7 +595,6 @@ local=/rtc-logger.tiktokv.com/
 local=/rtc-logger.tiktokv.eu/
 local=/rtc-logger.tiktokv.us/
 local=/rtc-logger-i18n.tiktokv.com/
-local=/rtc-logger-ie.tiktokv.eu/
 local=/rtc-logger-ttp2.tiktokv.eu/
 local=/rtc-logger-ttp2.tiktokv.us/
 local=/rtc-logger-va.tiktokv.com/

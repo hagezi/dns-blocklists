@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 30 Oct 2026 23:10 UTC
-# Version: 2026.1030.2310.29
+# Last modified: 06 Nov 2026 23:01 UTC
+# Version: 2026.1106.2301.32
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 247
+# Number of entries: 243
 #
 local=/vhs.wwstat.com.eo.unicomcdn.com.cn/
 local=/az.appstore.vivo.com.cn/
@@ -67,9 +67,6 @@ local=/asia-vpushonrt-stsdk.vivoglobal.com/
 local=/asia-vpushort-stsdk.vivoglobal.com/
 local=/br-p.vivoglobal.com/
 local=/cl-vcode-api.vivoglobal.com/
-local=/cn-zh-ort-stsdk.vivoglobal.com/
-local=/cn-zh-prt-stsdk.vivoglobal.com/
-local=/cn-zh-stsdk.vivoglobal.com/
 local=/cname-ali-asia-stsdk.vivoglobal.com/
 local=/cname-asia-comonrt-stsdk.vivoglobal.com/
 local=/cname-asia-st-exappupgrade.vivoglobal.com/
@@ -101,12 +98,12 @@ local=/eu-api-stsdk.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
+local=/eu-nrt-stsdk.vivoglobal.com/
 local=/eu-onrt-stsdk.vivoglobal.com/
 local=/eu-ort-stsdk.vivoglobal.com/
 local=/eu-p.vivoglobal.com/
 local=/eu-pnrt-stsdk.vivoglobal.com/
 local=/eu-romsp-unifyconfig.vivoglobal.com/
-local=/eu-st-exappupgrade.vivoglobal.com/
 local=/eu-st-sl.vivoglobal.com/
 local=/eu-stsdk.vivoglobal.com/
 local=/eu-timesync.vivoglobal.com/
@@ -122,7 +119,6 @@ local=/in-ad-mkt-vivofs.vivoglobal.com/
 local=/in-adlog.vivoglobal.com/
 local=/in-adreq.vivoglobal.com/
 local=/in-adsjssdk.vivoglobal.com/
-local=/in-analyzer-appstore.vivoglobal.com/
 local=/in-api-stsdk.vivoglobal.com/
 local=/in-apponrt-stsdk.vivoglobal.com/
 local=/in-apport-stsdk.vivoglobal.com/
@@ -152,7 +148,6 @@ local=/in-vcode-od.vivoglobal.com/
 local=/in-vcode-or.vivoglobal.com/
 local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
-local=/kz-album-api.vivoglobal.com/
 local=/kz-cname-sin01-bigdata.vivoglobal.com/
 local=/kz-cota.vivoglobal.com/
 local=/kz-err-up.vivoglobal.com/
@@ -229,6 +224,7 @@ local=/tr-onrt-stsdk.vivoglobal.com/
 local=/tr-ort-stsdk.vivoglobal.com/
 local=/tr-p.vivoglobal.com/
 local=/tr-pnrt-stsdk.vivoglobal.com/
+local=/tr-prt-stsdk.vivoglobal.com/
 local=/tr-romsp-unifyconfig.vivoglobal.com/
 local=/tr-st-sl.vivoglobal.com/
 local=/tr-st-sysupgrade.vivoglobal.com/

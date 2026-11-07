@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 28 Oct 2026 14:40 UTC
-! Version: 2026.1028.1440.34
+! Last modified: 06 Nov 2026 22:56 UTC
+! Version: 2026.1106.2256.24
 ! Syntax: AdBlock
-! Number of entries: 550
+! Number of entries: 545
 !
 ||analytics.us.tiktok.com.bytedance.akadns.net^
 ||analytics.us.tiktok.com.bytewlb.akadns.net^
@@ -94,12 +94,8 @@
 ||mon32-normal-sg.capcutapi.com^
 ||mssdk.capcutapi.us^
 ||mssdk-sg.capcutapi.com^
-||mssdk16-normal.capcutapi.com^
-||mssdk16-normal-sg.capcutapi.com^
 ||mssdk16-normal-us-ttp.capcutapi.us^
 ||mssdk16-normal-us-ttp2.capcutapi.us^
-||mssdk32-normal.capcutapi.com^
-||mssdk32-normal-sg.capcutapi.com^
 ||pc-mon-boot.capcutapi.com^
 ||pc-mon-normal-sg.capcutapi.com^
 ||pc-mon-v2-boot.capcutapi.com^
@@ -118,6 +114,7 @@
 ||xlog-va.capcutapi.com^
 ||frontier.capcutw.us^
 ||frontier-us-ttp2.capcutw.us^
+||log9-normal-c-useast1a.tiktokv.com.ecdnx.com^
 ||analytics.tiktok.com.edgekey.net^
 ||analytics-attribution-va.tiktok.com.edgekey.net^
 ||analytics-exp-i18n.tiktok.com.edgekey.net^
@@ -147,6 +144,11 @@
 ||analytics-ipv6.tiktokw.us.edgesuite.net^
 ||analytics16-normal-useast5.tiktokw.us.edgesuite.net^
 ||analytics16-normal-useast8.tiktokw.us.edgesuite.net^
+||log22-normal-alisg.tiktokv.com.kp45.ru^
+||rtlog16-normal-alisg.tiktokv.com.kp45.ru^
+||rtlog22-normal-alisg.tiktokv.com.kp45.ru^
+||log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com^
+||log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com^
 ||abtest-ch.snssdk.com^
 ||analytics.snssdk.com^
 ||applog.snssdk.com^
@@ -250,12 +252,10 @@
 ||ad.tiktokv.eu^
 ||ad.tiktokv.us^
 ||ad-format.tiktokv.eu^
-||ad-format.tiktokv.us^
 ||ad-format-i18n.tiktokv.com^
 ||ad-format-ie.tiktokv.eu^
 ||ad-format-ru.tiktokv.com^
 ||ad-format-sg.tiktokv.com^
-||ad-format-ttp2.tiktokv.eu^
 ||ad-format-ttp2.tiktokv.us^
 ||ad-format16-normal-useastred.tiktokv.eu^
 ||ad-instantpage.tiktokv.eu^
@@ -276,12 +276,9 @@
 ||live-video-log16-normal-useastred.tiktokv.eu^
 ||location.tiktokv.com^
 ||location.tiktokv.eu^
-||location.tiktokv.us^
 ||location-i18n.tiktokv.com^
 ||location-ie.tiktokv.eu^
-||location-ru.tiktokv.com^
 ||location-sg.tiktokv.com^
-||location-ttp2.tiktokv.eu^
 ||location-ttp2.tiktokv.us^
 ||location-v6.tiktokv.com^
 ||location-v6.tiktokv.eu^
@@ -293,7 +290,6 @@
 ||location-v6-ttp2.tiktokv.us^
 ||location-v6-va.tiktokv.com^
 ||location-va.tiktokv.com^
-||location16-normal-useastred.tiktokv.eu^
 ||locationv16-normal-useastred.tiktokv.eu^
 ||log.tiktokv.com^
 ||log.tiktokv.eu^
@@ -405,7 +401,6 @@
 ||rtc-logger.tiktokv.eu^
 ||rtc-logger.tiktokv.us^
 ||rtc-logger-i18n.tiktokv.com^
-||rtc-logger-ie.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.us^
 ||rtc-logger-va.tiktokv.com^

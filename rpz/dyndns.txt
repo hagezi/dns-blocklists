@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793702400 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794000720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 03 Nov 2026 10:40 UTC
-; Version: 2026.1103.1040.51
+; Last modified: 06 Nov 2026 21:32 UTC
+; Version: 2026.1106.2132.24
 ; Syntax: RPZ
-; Number of entries: 3066
+; Number of entries: 3038
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -498,8 +498,6 @@ drayddns.com CNAME .
 *.drayddns.com CNAME .
 dsmtp.com CNAME .
 *.dsmtp.com CNAME .
-dsmynas.com CNAME .
-*.dsmynas.com CNAME .
 dtdns.com CNAME .
 *.dtdns.com CNAME .
 dumb1.com CNAME .
@@ -610,8 +608,6 @@ ezua.com CNAME .
 *.ezua.com CNAME .
 falcongreen.com CNAME .
 *.falcongreen.com CNAME .
-familyds.com CNAME .
-*.familyds.com CNAME .
 faqserv.com CNAME .
 *.faqserv.com CNAME .
 fartit.com CNAME .
@@ -1808,6 +1804,8 @@ dedyn.io CNAME .
 *.dedyn.io CNAME .
 myaddr.io CNAME .
 *.myaddr.io CNAME .
+nip.io CNAME .
+*.nip.io CNAME .
 sly.io CNAME .
 *.sly.io CNAME .
 spr.io CNAME .
@@ -1860,8 +1858,6 @@ allez.la CNAME .
 *.allez.la CNAME .
 project.li CNAME .
 *.project.li CNAME .
-keenetic.link CNAME .
-*.keenetic.link CNAME .
 ax.lt CNAME .
 *.ax.lt CNAME .
 gw.lt CNAME .
@@ -1880,12 +1876,8 @@ changeip.me CNAME .
 *.changeip.me CNAME .
 ddns.me CNAME .
 *.ddns.me CNAME .
-diskstation.me CNAME .
-*.diskstation.me CNAME .
 dnsfor.me CNAME .
 *.dnsfor.me CNAME .
-dscloud.me CNAME .
-*.dscloud.me CNAME .
 flick2.me CNAME .
 *.flick2.me CNAME .
 flyme2.me CNAME .
@@ -1900,16 +1892,12 @@ host2.me CNAME .
 *.host2.me CNAME .
 hostdns.me CNAME .
 *.hostdns.me CNAME .
-i234.me CNAME .
-*.i234.me CNAME .
 letsgo2.me CNAME .
 *.letsgo2.me CNAME .
 loginto.me CNAME .
 *.loginto.me CNAME .
 myddns.me CNAME .
 *.myddns.me CNAME .
-myds.me CNAME .
-*.myds.me CNAME .
 net2me.me CNAME .
 *.net2me.me CNAME .
 netea.me CNAME .
@@ -1938,8 +1926,6 @@ celltrak.mobi CNAME .
 *.celltrak.mobi CNAME .
 ddns.mobi CNAME .
 *.ddns.mobi CNAME .
-dscloud.mobi CNAME .
-*.dscloud.mobi CNAME .
 onionsallyear.mobi CNAME .
 *.onionsallyear.mobi CNAME .
 pride.moe CNAME .
@@ -1964,8 +1950,6 @@ her.name CNAME .
 *.her.name CNAME .
 his.name CNAME .
 *.his.name CNAME .
-keenetic.name CNAME .
-*.keenetic.name CNAME .
 n-e-t.name CNAME .
 *.n-e-t.name CNAME .
 no-domain.name CNAME .
@@ -2066,8 +2050,6 @@ dontexist.net CNAME .
 *.dontexist.net CNAME .
 dropfiles.net CNAME .
 *.dropfiles.net CNAME .
-dsmynas.net CNAME .
-*.dsmynas.net CNAME .
 dtdns.net CNAME .
 *.dtdns.net CNAME .
 dubya.net CNAME .
@@ -2118,8 +2100,6 @@ f-parts.net CNAME .
 *.f-parts.net CNAME .
 f3322.net CNAME .
 *.f3322.net CNAME .
-familyds.net CNAME .
-*.familyds.net CNAME .
 farted.net CNAME .
 *.farted.net CNAME .
 feste-ip.net CNAME .
@@ -2234,8 +2214,6 @@ mypsx.net CNAME .
 *.mypsx.net CNAME .
 mysecuritycamera.net CNAME .
 *.mysecuritycamera.net CNAME .
-mysynology.net CNAME .
-*.mysynology.net CNAME .
 nerdcamp.net CNAME .
 *.nerdcamp.net CNAME .
 nhlfan.net CNAME .
@@ -2474,8 +2452,6 @@ doomdns.org CNAME .
 *.doomdns.org CNAME .
 drunkensailor.org CNAME .
 *.drunkensailor.org CNAME .
-dsmynas.org CNAME .
-*.dsmynas.org CNAME .
 dtdns.org CNAME .
 *.dtdns.org CNAME .
 duckdns.org CNAME .
@@ -2520,8 +2496,6 @@ f3322.org CNAME .
 *.f3322.org CNAME .
 fairuse.org CNAME .
 *.fairuse.org CNAME .
-familyds.org CNAME .
-*.familyds.org CNAME .
 fatdiary.org CNAME .
 *.fatdiary.org CNAME .
 flnet.org CNAME .
@@ -2770,8 +2744,6 @@ dyndns.pro CNAME .
 *.dyndns.pro CNAME .
 hmao.pro CNAME .
 *.hmao.pro CNAME .
-keenetic.pro CNAME .
-*.keenetic.pro CNAME .
 netcraze.pro CNAME .
 *.netcraze.pro CNAME .
 netcabo.pt CNAME .

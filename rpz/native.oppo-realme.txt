@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793401860 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794006180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 30 Oct 2026 23:11 UTC
-; Version: 2026.1030.2311.45
+; Last modified: 06 Nov 2026 23:03 UTC
+; Version: 2026.1106.2303.15
 ; Syntax: RPZ
-; Number of entries: 980
+; Number of entries: 984
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -604,6 +604,8 @@ adx-u-ru.heytapmobile.com CNAME .
 *.adx-u-ru.heytapmobile.com CNAME .
 adx-u-sg.heytapmobile.com CNAME .
 *.adx-u-sg.heytapmobile.com CNAME .
+adx-union-sg.heytapmobile.com CNAME .
+*.adx-union-sg.heytapmobile.com CNAME .
 adxh3-op-sg.heytapmobile.com CNAME .
 *.adxh3-op-sg.heytapmobile.com CNAME .
 adxu-bigo-sg.heytapmobile.com CNAME .
@@ -868,6 +870,8 @@ cloudconf-app-za.heytapmobile.com CNAME .
 *.cloudconf-app-za.heytapmobile.com CNAME .
 adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com CNAME .
 *.adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com CNAME .
+adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com CNAME .
+*.adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com CNAME .
 conf-in-dc.heytapmobile.com CNAME .
 *.conf-in-dc.heytapmobile.com CNAME .
 u-id.cpc.heytapmobile.com CNAME .
