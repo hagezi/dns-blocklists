@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794092700 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794126000 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Nov 2026 23:05 UTC
-; Version: 2026.1107.2305.30
+; Last modified: 08 Nov 2026 08:20 UTC
+; Version: 2026.1108.0820.32
 ; Syntax: RPZ
-; Number of entries: 19524
+; Number of entries: 19508
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1743,8 +1743,6 @@ tiky.cc CNAME .
 *.tiky.cc CNAME .
 tini.cc CNAME .
 *.tini.cc CNAME .
-tinky.cc CNAME .
-*.tinky.cc CNAME .
 tinly.cc CNAME .
 *.tinly.cc CNAME .
 tiny.cc CNAME .
@@ -6751,8 +6749,6 @@ thelinkmaster.com CNAME .
 *.thelinkmaster.com CNAME .
 themestub.com CNAME .
 *.themestub.com CNAME .
-theposhed.com CNAME .
-*.theposhed.com CNAME .
 jitlinks.therichonline.com CNAME .
 *.jitlinks.therichonline.com CNAME .
 theshortener.com CNAME .
@@ -9259,8 +9255,6 @@ puhli.icu CNAME .
 *.puhli.icu CNAME .
 skrbtfb.icu CNAME .
 *.skrbtfb.icu CNAME .
-terp.icu CNAME .
-*.terp.icu CNAME .
 url302x.icu CNAME .
 *.url302x.icu CNAME .
 uurl.icu CNAME .
@@ -14157,8 +14151,6 @@ tinysrc.me CNAME .
 *.tinysrc.me CNAME .
 tinyto.me CNAME .
 *.tinyto.me CNAME .
-tinyy.me CNAME .
-*.tinyy.me CNAME .
 tkpd.me CNAME .
 *.tkpd.me CNAME .
 tllg.me CNAME .
@@ -16049,8 +16041,6 @@ srrvd.org CNAME .
 *.srrvd.org CNAME .
 y.stadtfabrikanten.org CNAME .
 *.y.stadtfabrikanten.org CNAME .
-stella-ella.org CNAME .
-*.stella-ella.org CNAME .
 stwrt.org CNAME .
 *.stwrt.org CNAME .
 syhrr.org CNAME .
@@ -16765,8 +16755,6 @@ url.reisen CNAME .
 *.url.reisen CNAME .
 shorten.rest CNAME .
 *.shorten.rest CNAME .
-tinyurl.rest CNAME .
-*.tinyurl.rest CNAME .
 urlshort.rest CNAME .
 *.urlshort.rest CNAME .
 c6.rip CNAME .
@@ -17445,8 +17433,6 @@ shortorigin.so CNAME .
 *.shortorigin.so CNAME .
 tik.so CNAME .
 *.tik.so CNAME .
-tny.so CNAME .
-*.tny.so CNAME .
 vet.so CNAME .
 *.vet.so CNAME .
 wee.so CNAME .
@@ -17707,8 +17693,6 @@ sharem.tech CNAME .
 *.sharem.tech CNAME .
 simpleurl.tech CNAME .
 *.simpleurl.tech CNAME .
-techwizards.tech CNAME .
-*.techwizards.tech CNAME .
 vndr.tech CNAME .
 *.vndr.tech CNAME .
 aka.tf CNAME .

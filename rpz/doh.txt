@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794097560 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794130980 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 08 Nov 2026 00:26 UTC
-; Version: 2026.1108.0026.53
+; Last modified: 08 Nov 2026 09:43 UTC
+; Version: 2026.1108.0943.41
 ; Syntax: RPZ
-; Number of entries: 7144
+; Number of entries: 7142
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -93,8 +93,6 @@ dns2.sarak.as CNAME .
 *.dns2.sarak.as CNAME .
 dns.liaozuheng.asia CNAME .
 *.dns.liaozuheng.asia CNAME .
-tlz.asia CNAME .
-*.tlz.asia CNAME .
 tetra.aeins.at CNAME .
 *.tetra.aeins.at CNAME .
 rfree1.blue-shield.at CNAME .
@@ -3663,8 +3661,6 @@ chlaebi.synology.me CNAME .
 *.chlaebi.synology.me CNAME .
 hockaday.synology.me CNAME .
 *.hockaday.synology.me CNAME .
-hsulun2000.synology.me CNAME .
-*.hsulun2000.synology.me CNAME .
 ibksturm.synology.me CNAME .
 *.ibksturm.synology.me CNAME .
 ihctw.synology.me CNAME .
@@ -6527,6 +6523,8 @@ adguard.doranpierst.com.tr CNAME .
 *.adguard.doranpierst.com.tr CNAME .
 dns.polatarasan.com.tr CNAME .
 *.dns.polatarasan.com.tr CNAME .
+dns.sktr.com.tr CNAME .
+*.dns.sktr.com.tr CNAME .
 dns-one.lins.co.tt CNAME .
 *.dns-one.lins.co.tt CNAME .
 dns-three.lins.co.tt CNAME .
