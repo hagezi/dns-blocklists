@@ -326,6 +326,7 @@ Feeds the Anti Piracy list.
 
 ```
 https://raw.githubusercontent.com/cbuijs/ut1/master/warez/domains
+https://raw.githubusercontent.com/pedro-nsy/nsy-dns-blocklist/main/lists/piracy-streaming.txt
 ```
 
 ### Other

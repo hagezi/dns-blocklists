@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794063960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794092700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Nov 2026 15:06 UTC
-; Version: 2026.1107.1506.11
+; Last modified: 07 Nov 2026 23:05 UTC
+; Version: 2026.1107.2305.30
 ; Syntax: RPZ
-; Number of entries: 19546
+; Number of entries: 19524
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1181,8 +1181,6 @@ ultra.bo CNAME .
 *.ultra.bo CNAME .
 wozencraft.boats CNAME .
 *.wozencraft.boats CNAME .
-shorturl.bond CNAME .
-*.shorturl.bond CNAME .
 eventogo.app.br CNAME .
 *.eventogo.app.br CNAME .
 redirect.app.br CNAME .
@@ -2763,8 +2761,6 @@ shortlk.co CNAME .
 *.shortlk.co CNAME .
 shortlnk.co CNAME .
 *.shortlnk.co CNAME .
-shortmylink.co CNAME .
-*.shortmylink.co CNAME .
 shortturl.co CNAME .
 *.shortturl.co CNAME .
 shrt.co CNAME .
@@ -6389,14 +6385,10 @@ shrinkl.com CNAME .
 *.shrinkl.com CNAME .
 shrinklinx.com CNAME .
 *.shrinklinx.com CNAME .
-shrinkmyurl.com CNAME .
-*.shrinkmyurl.com CNAME .
 shrinkrl.com CNAME .
 *.shrinkrl.com CNAME .
 shrinkster.com CNAME .
 *.shrinkster.com CNAME .
-shrinkuri.com CNAME .
-*.shrinkuri.com CNAME .
 shrinqly.com CNAME .
 *.shrinqly.com CNAME .
 shrten.com CNAME .
@@ -6495,8 +6487,6 @@ smnbnt.com CNAME .
 *.smnbnt.com CNAME .
 smoner.com CNAME .
 *.smoner.com CNAME .
-sms-my.com CNAME .
-*.sms-my.com CNAME .
 smtvj.com CNAME .
 *.smtvj.com CNAME .
 snapbtg.com CNAME .
@@ -9975,8 +9965,6 @@ smilytech.in CNAME .
 *.smilytech.in CNAME .
 app.smler.in CNAME .
 *.app.smler.in CNAME .
-sngkt.in CNAME .
-*.sngkt.in CNAME .
 socx.in CNAME .
 *.socx.in CNAME .
 sribu.in CNAME .
@@ -10871,8 +10859,6 @@ shct.io CNAME .
 *.shct.io CNAME .
 shlink.io CNAME .
 *.shlink.io CNAME .
-shln.io CNAME .
-*.shln.io CNAME .
 shme.io CNAME .
 *.shme.io CNAME .
 shoort.io CNAME .
@@ -12647,8 +12633,6 @@ shortbio.link CNAME .
 *.shortbio.link CNAME .
 shortest.link CNAME .
 *.shortest.link CNAME .
-shortfree.link CNAME .
-*.shortfree.link CNAME .
 shortin.link CNAME .
 *.shortin.link CNAME .
 shortino.link CNAME .
@@ -15915,8 +15899,6 @@ machb.org CNAME .
 *.machb.org CNAME .
 machess.org CNAME .
 *.machess.org CNAME .
-masklink.org CNAME .
-*.masklink.org CNAME .
 matei.org CNAME .
 *.matei.org CNAME .
 mattlamadvisory.org CNAME .
@@ -17503,8 +17485,6 @@ linkbio.space CNAME .
 *.linkbio.space CNAME .
 onlyads.space CNAME .
 *.onlyads.space CNAME .
-shrinkme.space CNAME .
-*.shrinkme.space CNAME .
 mou.sr CNAME .
 *.mou.sr CNAME .
 spn.sr CNAME .
@@ -18105,8 +18085,6 @@ seer.to CNAME .
 *.seer.to CNAME .
 short.to CNAME .
 *.short.to CNAME .
-shortearn.to CNAME .
-*.shortearn.to CNAME .
 shout.to CNAME .
 *.shout.to CNAME .
 skye.to CNAME .
