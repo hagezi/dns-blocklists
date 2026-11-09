@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791771120 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794250800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Oct 2026 02:12 UTC
-; Version: 2026.1012.0212.07
+; Last modified: 09 Nov 2026 19:00 UTC
+; Version: 2026.1109.1900.38
 ; Syntax: RPZ
-; Number of entries: 270
+; Number of entries: 292
 ;
 h4g3z1-native-huawei.web.app CNAME .
 *.h4g3z1-native-huawei.web.app CNAME .
@@ -158,8 +158,6 @@ hisearch-drru.dt.dbankcloud.com CNAME .
 *.hisearch-drru.dt.dbankcloud.com CNAME .
 metrics-dra.dt.dbankcloud.com CNAME .
 *.metrics-dra.dt.dbankcloud.com CNAME .
-metrics-drcn.dt.dbankcloud.com CNAME .
-*.metrics-drcn.dt.dbankcloud.com CNAME .
 grs.dbankcloud.com CNAME .
 *.grs.dbankcloud.com CNAME .
 logservice1.dbankcloud.com CNAME .
@@ -208,6 +206,22 @@ logservice-dra.platform.hicloud.com CNAME .
 *.logservice-dra.platform.hicloud.com CNAME .
 logservice-dre.platform.hicloud.com CNAME .
 *.logservice-dre.platform.hicloud.com CNAME .
+grayr.abx.ipd.hihonor.com CNAME .
+*.grayr.abx.ipd.hihonor.com CNAME .
+apm.yun.hihonor.com CNAME .
+*.apm.yun.hihonor.com CNAME .
+apm-ap.yun.hihonor.com CNAME .
+*.apm-ap.yun.hihonor.com CNAME .
+apm-eu.yun.hihonor.com CNAME .
+*.apm-eu.yun.hihonor.com CNAME .
+apm-fr.yun.hihonor.com CNAME .
+*.apm-fr.yun.hihonor.com CNAME .
+apm-ru.yun.hihonor.com CNAME .
+*.apm-ru.yun.hihonor.com CNAME .
+apm-sg.yun.hihonor.com CNAME .
+*.apm-sg.yun.hihonor.com CNAME .
+rms-behavior-collect-drcn.hihonorcdn.com CNAME .
+*.rms-behavior-collect-drcn.hihonorcdn.com CNAME .
 dt.hihonorcloud.com CNAME .
 *.dt.hihonorcloud.com CNAME .
 grs.hihonorcloud.com CNAME .
@@ -234,6 +248,14 @@ log-dre.platform.hihonorcloud.com CNAME .
 *.log-dre.platform.hihonorcloud.com CNAME .
 log-drru.platform.hihonorcloud.com CNAME .
 *.log-drru.platform.hihonorcloud.com CNAME .
+remoteconfig-dra.platform.hihonorcloud.com CNAME .
+*.remoteconfig-dra.platform.hihonorcloud.com CNAME .
+remoteconfig-drcn.platform.hihonorcloud.com CNAME .
+*.remoteconfig-drcn.platform.hihonorcloud.com CNAME .
+remoteconfig-dre.platform.hihonorcloud.com CNAME .
+*.remoteconfig-dre.platform.hihonorcloud.com CNAME .
+remoteconfig-uat-drcn.platform.hihonorcloud.com CNAME .
+*.remoteconfig-uat-drcn.platform.hihonorcloud.com CNAME .
 tracking-data.platform.hihonorcloud.com CNAME .
 *.tracking-data.platform.hihonorcloud.com CNAME .
 tracking-data-drru.platform.hihonorcloud.com CNAME .
@@ -266,6 +288,8 @@ nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
 *.nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
 nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
 *.nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+hihonor.api.useinsider.com CNAME .
+*.hihonor.api.useinsider.com CNAME .
 logservice.vmall.com CNAME .
 *.logservice.vmall.com CNAME .
 grs.dbankcloud.eu CNAME .
@@ -276,8 +300,6 @@ dt.dbankcloud.ru CNAME .
 *.dt.dbankcloud.ru CNAME .
 connect-drru.hispace.dbankcloud.ru CNAME .
 *.connect-drru.hispace.dbankcloud.ru CNAME .
-ad-drcn.media.dbankcloud.ru CNAME .
-*.ad-drcn.media.dbankcloud.ru CNAME .
 grs.platform.dbankcloud.ru CNAME .
 *.grs.platform.dbankcloud.ru CNAME .
 ads-drru.cloud.huawei.ru CNAME .

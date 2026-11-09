@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794239040 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794267600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 15:44 UTC
-; Version: 2026.1109.1544.21
+; Last modified: 09 Nov 2026 23:40 UTC
+; Version: 2026.1109.2340.33
 ; Syntax: RPZ
-; Number of entries: 121500
+; Number of entries: 121502
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -81010,6 +81010,8 @@ dom-drakona-serial-lordfilm.ru CNAME .
 *.dom-drakona-serial-lordfilm.ru CNAME .
 dom-drakona-series-lordfilm.ru CNAME .
 *.dom-drakona-series-lordfilm.ru CNAME .
+dom-drakona-smotret-lordfilm.ru CNAME .
+*.dom-drakona-smotret-lordfilm.ru CNAME .
 dom-drakona-smotret-lordfilm2.ru CNAME .
 *.dom-drakona-smotret-lordfilm2.ru CNAME .
 dom-drakona-smotret-lordfilm3.ru CNAME .

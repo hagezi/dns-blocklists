@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 12 Oct 2026 02:12 UTC
-# Version: 2026.1012.0212.07
+# Last modified: 09 Nov 2026 19:00 UTC
+# Version: 2026.1109.1900.38
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 135
+# Number of entries: 146
 #
 *.browsercfg-drcn.cloud.dbankcloud.cn
 *.ubacollect-drcn.cloud.dbankcloud.cn
@@ -24,7 +24,6 @@
 *.metrics-dra.dt.dbankcloud.cn
 *.metrics-dra.dt.dbankcloud.com
 *.metrics-drcn.dt.dbankcloud.cn
-*.metrics-drcn.dt.dbankcloud.com
 *.metrics-dre.dt.dbankcloud.cn
 *.metrics1-drcn.dt.dbankcloud.cn
 *.connect-drru.hispace.dbankcloud.cn
@@ -32,7 +31,6 @@
 *.connect-dra.map.dbankcloud.com
 *.connect-dre.map.dbankcloud.com
 *.ad-drcn.media.dbankcloud.cn
-*.ad-drcn.media.dbankcloud.ru
 *.adx-dra.op.dbankcloud.com
 *.adx-drcn.op.dbankcloud.cn
 *.adx-dre.op.dbankcloud.com
@@ -111,6 +109,14 @@
 *.logbak.hicloud.com
 *.logservice.hicloud.com
 *.logservice1.hicloud.com
+*.grayr.abx.ipd.hihonor.com
+*.apm.yun.hihonor.com
+*.apm-ap.yun.hihonor.com
+*.apm-eu.yun.hihonor.com
+*.apm-fr.yun.hihonor.com
+*.apm-ru.yun.hihonor.com
+*.apm-sg.yun.hihonor.com
+*.rms-behavior-collect-drcn.hihonorcdn.com
 *.honorsearch-dra.hiboard.hihonorcloud.com
 *.honorsearch-drcn.hiboard.hihonorcloud.com
 *.honorsearch-dre.hiboard.hihonorcloud.com
@@ -122,6 +128,10 @@
 *.log-drcn.platform.hihonorcloud.com
 *.log-dre.platform.hihonorcloud.com
 *.log-drru.platform.hihonorcloud.com
+*.remoteconfig-dra.platform.hihonorcloud.com
+*.remoteconfig-drcn.platform.hihonorcloud.com
+*.remoteconfig-dre.platform.hihonorcloud.com
+*.remoteconfig-uat-drcn.platform.hihonorcloud.com
 *.tracking-data.platform.hihonorcloud.com
 *.tracking-data-drru.platform.hihonorcloud.com
 *.dt.hihonorcloud.com
@@ -143,5 +153,6 @@
 *.nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com
 *.nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru
 *.logserver.nzxcloud.cn
+*.hihonor.api.useinsider.com
 *.logservice.vmall.com
 *.h4g3z1-native-huawei.web.app

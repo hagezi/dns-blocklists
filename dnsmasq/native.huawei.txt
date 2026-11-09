@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 12 Oct 2026 02:12 UTC
-# Version: 2026.1012.0212.07
+# Last modified: 09 Nov 2026 19:00 UTC
+# Version: 2026.1109.1900.38
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 135
+# Number of entries: 146
 #
 local=/browsercfg-drcn.cloud.dbankcloud.cn/
 local=/ubacollect-drcn.cloud.dbankcloud.cn/
@@ -24,7 +24,6 @@ local=/metrics.dt.dbankcloud.cn/
 local=/metrics-dra.dt.dbankcloud.cn/
 local=/metrics-dra.dt.dbankcloud.com/
 local=/metrics-drcn.dt.dbankcloud.cn/
-local=/metrics-drcn.dt.dbankcloud.com/
 local=/metrics-dre.dt.dbankcloud.cn/
 local=/metrics1-drcn.dt.dbankcloud.cn/
 local=/connect-drru.hispace.dbankcloud.cn/
@@ -32,7 +31,6 @@ local=/connect-drru.hispace.dbankcloud.ru/
 local=/connect-dra.map.dbankcloud.com/
 local=/connect-dre.map.dbankcloud.com/
 local=/ad-drcn.media.dbankcloud.cn/
-local=/ad-drcn.media.dbankcloud.ru/
 local=/adx-dra.op.dbankcloud.com/
 local=/adx-drcn.op.dbankcloud.cn/
 local=/adx-dre.op.dbankcloud.com/
@@ -111,6 +109,14 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice1.hicloud.com/
+local=/grayr.abx.ipd.hihonor.com/
+local=/apm.yun.hihonor.com/
+local=/apm-ap.yun.hihonor.com/
+local=/apm-eu.yun.hihonor.com/
+local=/apm-fr.yun.hihonor.com/
+local=/apm-ru.yun.hihonor.com/
+local=/apm-sg.yun.hihonor.com/
+local=/rms-behavior-collect-drcn.hihonorcdn.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
 local=/honorsearch-drcn.hiboard.hihonorcloud.com/
 local=/honorsearch-dre.hiboard.hihonorcloud.com/
@@ -122,6 +128,10 @@ local=/log-dra.platform.hihonorcloud.com/
 local=/log-drcn.platform.hihonorcloud.com/
 local=/log-dre.platform.hihonorcloud.com/
 local=/log-drru.platform.hihonorcloud.com/
+local=/remoteconfig-dra.platform.hihonorcloud.com/
+local=/remoteconfig-drcn.platform.hihonorcloud.com/
+local=/remoteconfig-dre.platform.hihonorcloud.com/
+local=/remoteconfig-uat-drcn.platform.hihonorcloud.com/
 local=/tracking-data.platform.hihonorcloud.com/
 local=/tracking-data-drru.platform.hihonorcloud.com/
 local=/dt.hihonorcloud.com/
@@ -143,5 +153,6 @@ local=/nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com/
 local=/nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com/
 local=/nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru/
 local=/logserver.nzxcloud.cn/
+local=/hihonor.api.useinsider.com/
 local=/logservice.vmall.com/
 local=/h4g3z1-native-huawei.web.app/

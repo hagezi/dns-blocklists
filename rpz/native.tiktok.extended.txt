@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794005820 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794251400 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 22:57 UTC
-; Version: 2026.1106.2257.42
+; Last modified: 09 Nov 2026 19:10 UTC
+; Version: 2026.1109.1910.48
 ; Syntax: RPZ
-; Number of entries: 1528
+; Number of entries: 1656
 ;
 h4g3z1-native-tiktok-extended.web.app CNAME .
 *.h4g3z1-native-tiktok-extended.web.app CNAME .
@@ -380,14 +380,20 @@ p19-tiktok-ads-sg.tiktokcdn.com CNAME .
 *.p19-tiktok-ads-sg.tiktokcdn.com CNAME .
 p19-ttam-va.tiktokcdn.com CNAME .
 *.p19-ttam-va.tiktokcdn.com CNAME .
+sf-ssp.tiktokcdn.com CNAME .
+*.sf-ssp.tiktokcdn.com CNAME .
 sf16-ads-format-sign.tiktokcdn.com CNAME .
 *.sf16-ads-format-sign.tiktokcdn.com CNAME .
 sf19-ads-format-sign.tiktokcdn.com CNAME .
 *.sf19-ads-format-sign.tiktokcdn.com CNAME .
+sf-ssp.tiktokcdn-eu.com CNAME .
+*.sf-ssp.tiktokcdn-eu.com CNAME .
 p16-ttam.tiktokcdn-us.com CNAME .
 *.p16-ttam.tiktokcdn-us.com CNAME .
 p19-ttam.tiktokcdn-us.com CNAME .
 *.p19-ttam.tiktokcdn-us.com CNAME .
+sf-ssp.tiktokcdn-us.com CNAME .
+*.sf-ssp.tiktokcdn-us.com CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
@@ -452,6 +458,32 @@ frontier32-normal-useast1a.tiktokv.com CNAME .
 *.frontier32-normal-useast1a.tiktokv.com CNAME .
 frontier32-normal-useast2a.tiktokv.com CNAME .
 *.frontier32-normal-useast2a.tiktokv.com CNAME .
+libra-boot.tiktokv.com CNAME .
+*.libra-boot.tiktokv.com CNAME .
+libra-ru.tiktokv.com CNAME .
+*.libra-ru.tiktokv.com CNAME .
+libra-sg.tiktokv.com CNAME .
+*.libra-sg.tiktokv.com CNAME .
+libra-va.tiktokv.com CNAME .
+*.libra-va.tiktokv.com CNAME .
+libra16-normal.tiktokv.com CNAME .
+*.libra16-normal.tiktokv.com CNAME .
+libra16-normal-alisg.tiktokv.com CNAME .
+*.libra16-normal-alisg.tiktokv.com CNAME .
+libra16-normal-useast1a.tiktokv.com CNAME .
+*.libra16-normal-useast1a.tiktokv.com CNAME .
+libra16-normal-useast2a.tiktokv.com CNAME .
+*.libra16-normal-useast2a.tiktokv.com CNAME .
+libra19-normal-alisg.tiktokv.com CNAME .
+*.libra19-normal-alisg.tiktokv.com CNAME .
+libra22-normal-alisg.tiktokv.com CNAME .
+*.libra22-normal-alisg.tiktokv.com CNAME .
+libra22-normal-useast1a.tiktokv.com CNAME .
+*.libra22-normal-useast1a.tiktokv.com CNAME .
+libra31-normal-alisg.tiktokv.com CNAME .
+*.libra31-normal-alisg.tiktokv.com CNAME .
+libra32-normal-alisg.tiktokv.com CNAME .
+*.libra32-normal-alisg.tiktokv.com CNAME .
 live-video-log16-normal-alisg.tiktokv.com CNAME .
 *.live-video-log16-normal-alisg.tiktokv.com CNAME .
 live-video-log16-normal-useast1a.tiktokv.com CNAME .
@@ -604,6 +636,8 @@ log32-normal-zr-alisg.tiktokv.com CNAME .
 *.log32-normal-zr-alisg.tiktokv.com CNAME .
 log32-normal-zr-useast1a.tiktokv.com CNAME .
 *.log32-normal-zr-useast1a.tiktokv.com CNAME .
+log53-normal-c-useast1a.tiktokv.com CNAME .
+*.log53-normal-c-useast1a.tiktokv.com CNAME .
 log58-normal.tiktokv.com CNAME .
 *.log58-normal.tiktokv.com CNAME .
 log58-normal-alisg.tiktokv.com CNAME .
@@ -618,6 +652,10 @@ log58-normal-useast2a.tiktokv.com CNAME .
 *.log58-normal-useast2a.tiktokv.com CNAME .
 log58-normal-ycru.tiktokv.com CNAME .
 *.log58-normal-ycru.tiktokv.com CNAME .
+log61-normal-c-alisg.tiktokv.com CNAME .
+*.log61-normal-c-alisg.tiktokv.com CNAME .
+log61-normal-c-useast1a.tiktokv.com CNAME .
+*.log61-normal-c-useast1a.tiktokv.com CNAME .
 log77-normal-c-alisg.tiktokv.com CNAME .
 *.log77-normal-c-alisg.tiktokv.com CNAME .
 log77-normal-c-useast1a.tiktokv.com CNAME .
@@ -774,6 +812,10 @@ mssdk22-normal-zr-alisg.tiktokv.com CNAME .
 *.mssdk22-normal-zr-alisg.tiktokv.com CNAME .
 mssdk22-normal-zr-useast1a.tiktokv.com CNAME .
 *.mssdk22-normal-zr-useast1a.tiktokv.com CNAME .
+mssdk23-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk23-normal-zr-alisg.tiktokv.com CNAME .
+mssdk23-normal-zr-useast1a.tiktokv.com CNAME .
+*.mssdk23-normal-zr-useast1a.tiktokv.com CNAME .
 mssdk24-normal.tiktokv.com CNAME .
 *.mssdk24-normal.tiktokv.com CNAME .
 mssdk24-normal-alisg.tiktokv.com CNAME .
@@ -790,6 +832,22 @@ mssdk32-normal-zr-alisg.tiktokv.com CNAME .
 *.mssdk32-normal-zr-alisg.tiktokv.com CNAME .
 mssdk32-normal-zr-useast1a.tiktokv.com CNAME .
 *.mssdk32-normal-zr-useast1a.tiktokv.com CNAME .
+oec16-normal.tiktokv.com CNAME .
+*.oec16-normal.tiktokv.com CNAME .
+oec16-normal-alisg.tiktokv.com CNAME .
+*.oec16-normal-alisg.tiktokv.com CNAME .
+oec16-normal-gquic-alisg.tiktokv.com CNAME .
+*.oec16-normal-gquic-alisg.tiktokv.com CNAME .
+oec16-normal-useast2a.tiktokv.com CNAME .
+*.oec16-normal-useast2a.tiktokv.com CNAME .
+oec16-normal-ycru.tiktokv.com CNAME .
+*.oec16-normal-ycru.tiktokv.com CNAME .
+oec19-normal-alisg.tiktokv.com CNAME .
+*.oec19-normal-alisg.tiktokv.com CNAME .
+oec22-normal.tiktokv.com CNAME .
+*.oec22-normal.tiktokv.com CNAME .
+oec22-normal-alisg.tiktokv.com CNAME .
+*.oec22-normal-alisg.tiktokv.com CNAME .
 rtc-logger.tiktokv.com CNAME .
 *.rtc-logger.tiktokv.com CNAME .
 rtc-logger-i18n.tiktokv.com CNAME .
@@ -1074,10 +1132,18 @@ mcs-sg.tiktok.com.ttdns2.com CNAME .
 *.mcs-sg.tiktok.com.ttdns2.com CNAME .
 mcs-va.tiktok.com.ttdns2.com CNAME .
 *.mcs-va.tiktok.com.ttdns2.com CNAME .
+sf-ssp.tiktokcdn.com.ttdns2.com CNAME .
+*.sf-ssp.tiktokcdn.com.ttdns2.com CNAME .
+libra-sg.tiktokv.com.ttdns2.com CNAME .
+*.libra-sg.tiktokv.com.ttdns2.com CNAME .
+libra-va.tiktokv.com.ttdns2.com CNAME .
+*.libra-va.tiktokv.com.ttdns2.com CNAME .
 mcs-va.tiktokv.com.ttdns2.com CNAME .
 *.mcs-va.tiktokv.com.ttdns2.com CNAME .
 mcs-va-useast2a.tiktokv.com.ttdns2.com CNAME .
 *.mcs-va-useast2a.tiktokv.com.ttdns2.com CNAME .
+sf-ssp.tiktokcdn-eu.com.ttdns3.com CNAME .
+*.sf-ssp.tiktokcdn-eu.com.ttdns3.com CNAME .
 frontier.tiktokv-eu.com.ttdns3.com CNAME .
 *.frontier.tiktokv-eu.com.ttdns3.com CNAME .
 ad-instantpage-ttp2.tiktokv.eu.ttdns3.com CNAME .
@@ -1120,6 +1186,14 @@ frontier23-normal-useast2a.tiktokv.eu CNAME .
 *.frontier23-normal-useast2a.tiktokv.eu CNAME .
 frontier32-normal-ie.tiktokv.eu CNAME .
 *.frontier32-normal-ie.tiktokv.eu CNAME .
+libra16-normal-no1a.tiktokv.eu CNAME .
+*.libra16-normal-no1a.tiktokv.eu CNAME .
+libra16-normal-useastred.tiktokv.eu CNAME .
+*.libra16-normal-useastred.tiktokv.eu CNAME .
+libra32-normal-no1a.tiktokv.eu CNAME .
+*.libra32-normal-no1a.tiktokv.eu CNAME .
+libra32-normal-useastred.tiktokv.eu CNAME .
+*.libra32-normal-useastred.tiktokv.eu CNAME .
 live-video-log16-normal-useast2a.tiktokv.eu CNAME .
 *.live-video-log16-normal-useast2a.tiktokv.eu CNAME .
 live-video-log16-normal-useastred.tiktokv.eu CNAME .
@@ -1174,6 +1248,14 @@ mon32-normal-no1a.tiktokv.eu CNAME .
 *.mon32-normal-no1a.tiktokv.eu CNAME .
 mon32-normal-useastred.tiktokv.eu CNAME .
 *.mon32-normal-useastred.tiktokv.eu CNAME .
+oec16-normal-no1a.tiktokv.eu CNAME .
+*.oec16-normal-no1a.tiktokv.eu CNAME .
+oec16-normal-useastred.tiktokv.eu CNAME .
+*.oec16-normal-useastred.tiktokv.eu CNAME .
+oec32-normal-no1a.tiktokv.eu CNAME .
+*.oec32-normal-no1a.tiktokv.eu CNAME .
+oec32-normal-useastred.tiktokv.eu CNAME .
+*.oec32-normal-useastred.tiktokv.eu CNAME .
 rtc-logger.tiktokv.eu CNAME .
 *.rtc-logger.tiktokv.eu CNAME .
 rtc-logger-ttp2.tiktokv.eu CNAME .
@@ -1296,6 +1378,14 @@ ad-instantpage-sg.tiktokv.com.edgekey.net CNAME .
 *.ad-instantpage-sg.tiktokv.com.edgekey.net CNAME .
 frontier-ru.tiktokv.com.edgekey.net CNAME .
 *.frontier-ru.tiktokv.com.edgekey.net CNAME .
+libra-boot.tiktokv.com.edgekey.net CNAME .
+*.libra-boot.tiktokv.com.edgekey.net CNAME .
+libra-sg.tiktokv.com.edgekey.net CNAME .
+*.libra-sg.tiktokv.com.edgekey.net CNAME .
+libra-va.tiktokv.com.edgekey.net CNAME .
+*.libra-va.tiktokv.com.edgekey.net CNAME .
+libra16-normal-alisg.tiktokv.com.edgekey.net CNAME .
+*.libra16-normal-alisg.tiktokv.com.edgekey.net CNAME .
 mcs-sg.tiktokv.com.edgekey.net CNAME .
 *.mcs-sg.tiktokv.com.edgekey.net CNAME .
 mcs-va.tiktokv.com.edgekey.net CNAME .
@@ -1344,10 +1434,20 @@ mcs-ttp2.us.tiktok.com.edgesuite.net CNAME .
 *.mcs-ttp2.us.tiktok.com.edgesuite.net CNAME .
 p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net CNAME .
 *.p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net CNAME .
+sf-ssp.tiktokcdn.com.edgesuite.net CNAME .
+*.sf-ssp.tiktokcdn.com.edgesuite.net CNAME .
 sf16-ads-format-sign.tiktokcdn.com.edgesuite.net CNAME .
 *.sf16-ads-format-sign.tiktokcdn.com.edgesuite.net CNAME .
+sf-ssp.tiktokcdn-eu.com.edgesuite.net CNAME .
+*.sf-ssp.tiktokcdn-eu.com.edgesuite.net CNAME .
+sf-ssp.tiktokcdn-us.com.edgesuite.net CNAME .
+*.sf-ssp.tiktokcdn-us.com.edgesuite.net CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
+oec16-normal-alisg.tiktokv.com.edgesuite.net CNAME .
+*.oec16-normal-alisg.tiktokv.com.edgesuite.net CNAME .
+oec16-normal-ycru.tiktokv.com.edgesuite.net CNAME .
+*.oec16-normal-ycru.tiktokv.com.edgesuite.net CNAME .
 mcs.us.tiktokv.com.edgesuite.net CNAME .
 *.mcs.us.tiktokv.com.edgesuite.net CNAME .
 frontier.tiktokv-eu.com.edgesuite.net CNAME .
@@ -1360,6 +1460,14 @@ frontier16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
 *.frontier16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
 frontier16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
 *.frontier16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
+libra16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+*.libra16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+libra16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
+*.libra16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
+oec16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+*.oec16-normal-no1a.tiktokv.eu.edgesuite.net CNAME .
+oec16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
+*.oec16-normal-useastred.tiktokv.eu.edgesuite.net CNAME .
 analytics-exp-ttp2.tiktokw.eu.edgesuite.net CNAME .
 *.analytics-exp-ttp2.tiktokw.eu.edgesuite.net CNAME .
 analytics-exp16-normal-useastred.tiktokw.eu.edgesuite.net CNAME .
@@ -1394,10 +1502,18 @@ frontier.tiktokv.us.edgesuite.net CNAME .
 *.frontier.tiktokv.us.edgesuite.net CNAME .
 frontier-ttp2.tiktokv.us.edgesuite.net CNAME .
 *.frontier-ttp2.tiktokv.us.edgesuite.net CNAME .
+libra16-normal-useast5.tiktokv.us.edgesuite.net CNAME .
+*.libra16-normal-useast5.tiktokv.us.edgesuite.net CNAME .
+libra16-normal-useast8.tiktokv.us.edgesuite.net CNAME .
+*.libra16-normal-useast8.tiktokv.us.edgesuite.net CNAME .
 mcs.tiktokv.us.edgesuite.net CNAME .
 *.mcs.tiktokv.us.edgesuite.net CNAME .
 mcs-ttp2.tiktokv.us.edgesuite.net CNAME .
 *.mcs-ttp2.tiktokv.us.edgesuite.net CNAME .
+oec16-normal-useast5.tiktokv.us.edgesuite.net CNAME .
+*.oec16-normal-useast5.tiktokv.us.edgesuite.net CNAME .
+oec16-normal-useast8.tiktokv.us.edgesuite.net CNAME .
+*.oec16-normal-useast8.tiktokv.us.edgesuite.net CNAME .
 analytics-ipv6.tiktokw.us.edgesuite.net CNAME .
 *.analytics-ipv6.tiktokw.us.edgesuite.net CNAME .
 analytics16-normal-useast5.tiktokw.us.edgesuite.net CNAME .
@@ -1470,6 +1586,10 @@ frontier.tiktokv.us CNAME .
 *.frontier.tiktokv.us CNAME .
 frontier-ttp2.tiktokv.us CNAME .
 *.frontier-ttp2.tiktokv.us CNAME .
+libra16-normal-useast5.tiktokv.us CNAME .
+*.libra16-normal-useast5.tiktokv.us CNAME .
+libra16-normal-useast8.tiktokv.us CNAME .
+*.libra16-normal-useast8.tiktokv.us CNAME .
 live-video-log16-normal-useast5.tiktokv.us CNAME .
 *.live-video-log16-normal-useast5.tiktokv.us CNAME .
 location-ttp2.tiktokv.us CNAME .
@@ -1502,6 +1622,14 @@ mon16-normal-useast5.tiktokv.us CNAME .
 *.mon16-normal-useast5.tiktokv.us CNAME .
 mon16-normal-useast8.tiktokv.us CNAME .
 *.mon16-normal-useast8.tiktokv.us CNAME .
+oec16-normal-useast5.tiktokv.us CNAME .
+*.oec16-normal-useast5.tiktokv.us CNAME .
+oec16-normal-useast8.tiktokv.us CNAME .
+*.oec16-normal-useast8.tiktokv.us CNAME .
+oec19-normal-useast5.tiktokv.us CNAME .
+*.oec19-normal-useast5.tiktokv.us CNAME .
+oec19-normal-useast8.tiktokv.us CNAME .
+*.oec19-normal-useast8.tiktokv.us CNAME .
 rtc-logger.tiktokv.us CNAME .
 *.rtc-logger.tiktokv.us CNAME .
 rtc-logger-ttp2.tiktokv.us CNAME .

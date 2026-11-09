@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 06 Nov 2026 22:57 UTC
-# Version: 2026.1106.2257.42
+# Last modified: 09 Nov 2026 19:10 UTC
+# Version: 2026.1109.1910.48
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 764
+# Number of entries: 828
 #
 *.analytics.us.tiktok.com.bytedance.akadns.net
 *.p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net
@@ -141,6 +141,10 @@
 *.mcs-va.tiktok.com.edgekey.net
 *.ad-instantpage-sg.tiktokv.com.edgekey.net
 *.frontier-ru.tiktokv.com.edgekey.net
+*.libra-boot.tiktokv.com.edgekey.net
+*.libra-sg.tiktokv.com.edgekey.net
+*.libra-va.tiktokv.com.edgekey.net
+*.libra16-normal-alisg.tiktokv.com.edgekey.net
 *.mcs-sg.tiktokv.com.edgekey.net
 *.mcs-va.tiktokv.com.edgekey.net
 *.mcs-va-useast2a.tiktokv.com.edgekey.net
@@ -165,14 +169,23 @@
 *.analytics16-normal.tiktok.com.edgesuite.net
 *.analytics16-normal-alisg.tiktok.com.edgesuite.net
 *.p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net
+*.sf-ssp.tiktokcdn.com.edgesuite.net
 *.sf16-ads-format-sign.tiktokcdn.com.edgesuite.net
+*.sf-ssp.tiktokcdn-eu.com.edgesuite.net
+*.sf-ssp.tiktokcdn-us.com.edgesuite.net
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net
 *.mcs.us.tiktokv.com.edgesuite.net
+*.oec16-normal-alisg.tiktokv.com.edgesuite.net
+*.oec16-normal-ycru.tiktokv.com.edgesuite.net
 *.frontier.tiktokv-eu.com.edgesuite.net
 *.ad-instantpage-ttp2.tiktokv.eu.edgesuite.net
 *.adinstantpage16-normal-useastred.tiktokv.eu.edgesuite.net
 *.frontier16-normal-no1a.tiktokv.eu.edgesuite.net
 *.frontier16-normal-useastred.tiktokv.eu.edgesuite.net
+*.libra16-normal-no1a.tiktokv.eu.edgesuite.net
+*.libra16-normal-useastred.tiktokv.eu.edgesuite.net
+*.oec16-normal-no1a.tiktokv.eu.edgesuite.net
+*.oec16-normal-useastred.tiktokv.eu.edgesuite.net
 *.analytics-exp-ttp2.tiktokw.eu.edgesuite.net
 *.analytics-exp16-normal-useastred.tiktokw.eu.edgesuite.net
 *.analytics-ttp2.tiktokw.eu.edgesuite.net
@@ -190,8 +203,12 @@
 *.ad-instantpage-ttp2.tiktokv.us.edgesuite.net
 *.frontier.tiktokv.us.edgesuite.net
 *.frontier-ttp2.tiktokv.us.edgesuite.net
+*.libra16-normal-useast5.tiktokv.us.edgesuite.net
+*.libra16-normal-useast8.tiktokv.us.edgesuite.net
 *.mcs.tiktokv.us.edgesuite.net
 *.mcs-ttp2.tiktokv.us.edgesuite.net
+*.oec16-normal-useast5.tiktokv.us.edgesuite.net
+*.oec16-normal-useast8.tiktokv.us.edgesuite.net
 *.analytics-ipv6.tiktokw.us.edgesuite.net
 *.analytics16-normal-useast5.tiktokw.us.edgesuite.net
 *.analytics16-normal-useast8.tiktokw.us.edgesuite.net
@@ -292,10 +309,13 @@
 *.p16-ttam-va.tiktokcdn.com
 *.p19-tiktok-ads-sg.tiktokcdn.com
 *.p19-ttam-va.tiktokcdn.com
+*.sf-ssp.tiktokcdn.com
 *.sf16-ads-format-sign.tiktokcdn.com
 *.sf19-ads-format-sign.tiktokcdn.com
+*.sf-ssp.tiktokcdn-eu.com
 *.p16-ttam.tiktokcdn-us.com
 *.p19-ttam.tiktokcdn-us.com
+*.sf-ssp.tiktokcdn-us.com
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com
 *.ad-format.us.tiktokv.com
 *.ad-format-ttp2.us.tiktokv.com
@@ -379,6 +399,25 @@
 *.frontier32-normal-ie.tiktokv.eu
 *.frontier32-normal-useast1a.tiktokv.com
 *.frontier32-normal-useast2a.tiktokv.com
+*.libra-boot.tiktokv.com
+*.libra-ru.tiktokv.com
+*.libra-sg.tiktokv.com
+*.libra-va.tiktokv.com
+*.libra16-normal.tiktokv.com
+*.libra16-normal-alisg.tiktokv.com
+*.libra16-normal-no1a.tiktokv.eu
+*.libra16-normal-useast1a.tiktokv.com
+*.libra16-normal-useast2a.tiktokv.com
+*.libra16-normal-useast5.tiktokv.us
+*.libra16-normal-useast8.tiktokv.us
+*.libra16-normal-useastred.tiktokv.eu
+*.libra19-normal-alisg.tiktokv.com
+*.libra22-normal-alisg.tiktokv.com
+*.libra22-normal-useast1a.tiktokv.com
+*.libra31-normal-alisg.tiktokv.com
+*.libra32-normal-alisg.tiktokv.com
+*.libra32-normal-no1a.tiktokv.eu
+*.libra32-normal-useastred.tiktokv.eu
 *.live-video-log16-normal-alisg.tiktokv.com
 *.live-video-log16-normal-useast1a.tiktokv.com
 *.live-video-log16-normal-useast2a.tiktokv.com
@@ -486,6 +525,7 @@
 *.log32-normal-zr.tiktokv.com
 *.log32-normal-zr-alisg.tiktokv.com
 *.log32-normal-zr-useast1a.tiktokv.com
+*.log53-normal-c-useast1a.tiktokv.com
 *.log58-normal.tiktokv.com
 *.log58-normal-alisg.tiktokv.com
 *.log58-normal-c-alisg.tiktokv.com
@@ -493,6 +533,8 @@
 *.log58-normal-useast1a.tiktokv.com
 *.log58-normal-useast2a.tiktokv.com
 *.log58-normal-ycru.tiktokv.com
+*.log61-normal-c-alisg.tiktokv.com
+*.log61-normal-c-useast1a.tiktokv.com
 *.log77-normal-c-alisg.tiktokv.com
 *.log77-normal-c-useast1a.tiktokv.com
 *.log9-normal-c-useast1a.tiktokv.com
@@ -583,6 +625,8 @@
 *.mssdk22-normal-zr.tiktokv.com
 *.mssdk22-normal-zr-alisg.tiktokv.com
 *.mssdk22-normal-zr-useast1a.tiktokv.com
+*.mssdk23-normal-zr-alisg.tiktokv.com
+*.mssdk23-normal-zr-useast1a.tiktokv.com
 *.mssdk24-normal.tiktokv.com
 *.mssdk24-normal-alisg.tiktokv.com
 *.mssdk24-normal-useast1a.tiktokv.com
@@ -591,6 +635,22 @@
 *.mssdk31-normal-zr-useast1a.tiktokv.com
 *.mssdk32-normal-zr-alisg.tiktokv.com
 *.mssdk32-normal-zr-useast1a.tiktokv.com
+*.oec16-normal.tiktokv.com
+*.oec16-normal-alisg.tiktokv.com
+*.oec16-normal-gquic-alisg.tiktokv.com
+*.oec16-normal-no1a.tiktokv.eu
+*.oec16-normal-useast2a.tiktokv.com
+*.oec16-normal-useast5.tiktokv.us
+*.oec16-normal-useast8.tiktokv.us
+*.oec16-normal-useastred.tiktokv.eu
+*.oec16-normal-ycru.tiktokv.com
+*.oec19-normal-alisg.tiktokv.com
+*.oec19-normal-useast5.tiktokv.us
+*.oec19-normal-useast8.tiktokv.us
+*.oec22-normal.tiktokv.com
+*.oec22-normal-alisg.tiktokv.com
+*.oec32-normal-no1a.tiktokv.eu
+*.oec32-normal-useastred.tiktokv.eu
 *.rtc-logger.tiktokv.com
 *.rtc-logger.tiktokv.eu
 *.rtc-logger.tiktokv.us
@@ -764,8 +824,12 @@
 *.analytics-v6.tiktok.com.ttdns2.com
 *.mcs-sg.tiktok.com.ttdns2.com
 *.mcs-va.tiktok.com.ttdns2.com
+*.sf-ssp.tiktokcdn.com.ttdns2.com
+*.libra-sg.tiktokv.com.ttdns2.com
+*.libra-va.tiktokv.com.ttdns2.com
 *.mcs-va.tiktokv.com.ttdns2.com
 *.mcs-va-useast2a.tiktokv.com.ttdns2.com
+*.sf-ssp.tiktokcdn-eu.com.ttdns3.com
 *.frontier.tiktokv-eu.com.ttdns3.com
 *.ad-instantpage-ttp2.tiktokv.eu.ttdns3.com
 *.analytics-ie.tiktokw.eu.ttdns3.com
