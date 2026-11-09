@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794000720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794215400 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 21:32 UTC
-; Version: 2026.1106.2132.24
+; Last modified: 09 Nov 2026 09:10 UTC
+; Version: 2026.1109.0910.05
 ; Syntax: RPZ
-; Number of entries: 3038
+; Number of entries: 3034
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -54,8 +54,6 @@ spectrumnet.bg CNAME .
 *.spectrumnet.bg CNAME .
 ssitech.bg CNAME .
 *.ssitech.bg CNAME .
-bigmoney.biz CNAME .
-*.bigmoney.biz CNAME .
 changeip.biz CNAME .
 *.changeip.biz CNAME .
 chavo.biz CNAME .
@@ -98,8 +96,6 @@ gr8domain.biz CNAME .
 *.gr8domain.biz CNAME .
 gr8name.biz CNAME .
 *.gr8name.biz CNAME .
-iownyour.biz CNAME .
-*.iownyour.biz CNAME .
 madhacker.biz CNAME .
 *.madhacker.biz CNAME .
 mmafan.biz CNAME .
@@ -146,6 +142,8 @@ mine.bz CNAME .
 *.mine.bz CNAME .
 mydns.bz CNAME .
 *.mydns.bz CNAME .
+compy.ca CNAME .
+*.compy.ca CNAME .
 homenode.ca CNAME .
 *.homenode.ca CNAME .
 jcor.ca CNAME .
@@ -228,8 +226,6 @@ ucvradio.cl CNAME .
 *.ucvradio.cl CNAME .
 yao.cl CNAME .
 *.yao.cl CNAME .
-4cloud.click CNAME .
-*.4cloud.click CNAME .
 urown.cloud CNAME .
 *.urown.cloud CNAME .
 dnspod.cn CNAME .
@@ -252,8 +248,6 @@ ipq.co CNAME .
 *.ipq.co CNAME .
 mypi.co CNAME .
 *.mypi.co CNAME .
-n4t.co CNAME .
-*.n4t.co CNAME .
 0000000000000000000000.com CNAME .
 *.0000000000000000000000.com CNAME .
 001www.com CNAME .
@@ -354,6 +348,8 @@ blogsyte.com CNAME .
 *.blogsyte.com CNAME .
 bloodforthebloodgod.com CNAME .
 *.bloodforthebloodgod.com CNAME .
+bouncers4rent.com CNAME .
+*.bouncers4rent.com CNAME .
 brajkovic.com CNAME .
 *.brajkovic.com CNAME .
 brawlcustommusic.com CNAME .
@@ -430,8 +426,6 @@ ddnsguru.com CNAME .
 *.ddnsguru.com CNAME .
 ddnsking.com CNAME .
 *.ddnsking.com CNAME .
-ddnslive.com CNAME .
-*.ddnslive.com CNAME .
 demosoftonline.com CNAME .
 *.demosoftonline.com CNAME .
 dh3.com CNAME .
@@ -606,6 +600,8 @@ ez-dns.com CNAME .
 *.ez-dns.com CNAME .
 ezua.com CNAME .
 *.ezua.com CNAME .
+fagdns.com CNAME .
+*.fagdns.com CNAME .
 falcongreen.com CNAME .
 *.falcongreen.com CNAME .
 faqserv.com CNAME .
@@ -1512,6 +1508,8 @@ ath.cx CNAME .
 *.ath.cx CNAME .
 cloudns.cx CNAME .
 *.cloudns.cx CNAME .
+dyns.cx CNAME .
+*.dyns.cx CNAME .
 it.cx CNAME .
 *.it.cx CNAME .
 metadns.cx CNAME .
@@ -2174,6 +2172,8 @@ jedimasters.net CNAME .
 *.jedimasters.net CNAME .
 keine-panik.net CNAME .
 *.keine-panik.net CNAME .
+kfco.net CNAME .
+*.kfco.net CNAME .
 kicks-ass.net CNAME .
 *.kicks-ass.net CNAME .
 landomain.net CNAME .
@@ -2682,8 +2682,6 @@ solfa.org CNAME .
 *.solfa.org CNAME .
 spdns.org CNAME .
 *.spdns.org CNAME .
-ssl443.org CNAME .
-*.ssl443.org CNAME .
 stroyexpert.org CNAME .
 *.stroyexpert.org CNAME .
 stuff-4-sale.org CNAME .
@@ -2908,8 +2906,6 @@ dyn.addr.tools CNAME .
 *.dyn.addr.tools CNAME .
 myaddr.tools CNAME .
 *.myaddr.tools CNAME .
-ntdll.top CNAME .
-*.ntdll.top CNAME .
 better-than.tv CNAME .
 *.better-than.tv CNAME .
 cybertv.tv CNAME .
@@ -2970,8 +2966,6 @@ limit.org.uk CNAME .
 *.4twenty.us CNAME .
 atlantatruckdrivingschool.us CNAME .
 *.atlantatruckdrivingschool.us CNAME .
-authorizeddns.us CNAME .
-*.authorizeddns.us CNAME .
 b33r.us CNAME .
 *.b33r.us CNAME .
 bloom.us CNAME .
@@ -3046,6 +3040,8 @@ dyndns.ws CNAME .
 *.dyndns.ws CNAME .
 mypets.ws CNAME .
 *.mypets.ws CNAME .
+blogsite.xyz CNAME .
+*.blogsite.xyz CNAME .
 crafting.xyz CNAME .
 *.crafting.xyz CNAME .
 zapto.xyz CNAME .
