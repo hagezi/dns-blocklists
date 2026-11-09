@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794085980 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794223860 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 07 Nov 2026 21:13 UTC
-; Version: 2026.1107.2113.37
+; Last modified: 09 Nov 2026 11:31 UTC
+; Version: 2026.1109.1131.40
 ; Syntax: RPZ
-; Number of entries: 992
+; Number of entries: 978
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -32,10 +32,6 @@ classify-app-sg.allawnos.com CNAME .
 *.classify-app-sg.allawnos.com CNAME .
 classify-app-us.allawnos.com CNAME .
 *.classify-app-us.allawnos.com CNAME .
-conn-service-eu-01.allawnos.com CNAME .
-*.conn-service-eu-01.allawnos.com CNAME .
-conn-service-eu-02.allawnos.com CNAME .
-*.conn-service-eu-02.allawnos.com CNAME .
 conn-service-eu-03.allawnos.com CNAME .
 *.conn-service-eu-03.allawnos.com CNAME .
 conn-service-eu-04.allawnos.com CNAME .
@@ -46,8 +42,6 @@ conn-service-eu-07.allawnos.com CNAME .
 *.conn-service-eu-07.allawnos.com CNAME .
 conn-service-eu-08.allawnos.com CNAME .
 *.conn-service-eu-08.allawnos.com CNAME .
-conn-service-in-01.allawnos.com CNAME .
-*.conn-service-in-01.allawnos.com CNAME .
 conn-service-in-03.allawnos.com CNAME .
 *.conn-service-in-03.allawnos.com CNAME .
 conn-service-in-04.allawnos.com CNAME .
@@ -190,8 +184,6 @@ zen-core-sg.allawnos.com CNAME .
 *.zen-core-sg.allawnos.com CNAME .
 zen-core-us.allawnos.com CNAME .
 *.zen-core-us.allawnos.com CNAME .
-conn-service-cn-01.allawntech.com CNAME .
-*.conn-service-cn-01.allawntech.com CNAME .
 conn-service-cn-03.allawntech.com CNAME .
 *.conn-service-cn-03.allawntech.com CNAME .
 conn-service-cn-04.allawntech.com CNAME .
@@ -204,10 +196,6 @@ conn-service-cn-08.allawntech.com CNAME .
 *.conn-service-cn-08.allawntech.com CNAME .
 conn-service-gl-01.allawntech.com CNAME .
 *.conn-service-gl-01.allawntech.com CNAME .
-conn-service-gl-03.allawntech.com CNAME .
-*.conn-service-gl-03.allawntech.com CNAME .
-conn-service-gl-04.allawntech.com CNAME .
-*.conn-service-gl-04.allawntech.com CNAME .
 smartcard.apps.coloros.com CNAME .
 *.smartcard.apps.coloros.com CNAME .
 smartcardf.apps.coloros.com CNAME .
@@ -674,16 +662,10 @@ browser-sdk-in.heytapmobile.com CNAME .
 *.browser-sdk-in.heytapmobile.com CNAME .
 browser-sdk-ru.heytapmobile.com CNAME .
 *.browser-sdk-ru.heytapmobile.com CNAME .
-browserfiles.heytapmobile.com CNAME .
-*.browserfiles.heytapmobile.com CNAME .
 bsp-di-in.heytapmobile.com CNAME .
 *.bsp-di-in.heytapmobile.com CNAME .
-api-gl.cdo.heytapmobile.com CNAME .
-*.api-gl.cdo.heytapmobile.com CNAME .
-api-id.cdo.heytapmobile.com CNAME .
-*.api-id.cdo.heytapmobile.com CNAME .
-api-in.cdo.heytapmobile.com CNAME .
-*.api-in.cdo.heytapmobile.com CNAME .
+cdo.heytapmobile.com CNAME .
+*.cdo.heytapmobile.com CNAME .
 cldata-ads-fr.heytapmobile.com CNAME .
 *.cldata-ads-fr.heytapmobile.com CNAME .
 cldata-ads-ru.heytapmobile.com CNAME .
@@ -894,6 +876,8 @@ dragate-in-dc.heytapmobile.com CNAME .
 *.dragate-in-dc.heytapmobile.com CNAME .
 api-id.game.heytapmobile.com CNAME .
 *.api-id.game.heytapmobile.com CNAME .
+jscatch-sg-frontend.heytapmobile.com CNAME .
+*.jscatch-sg-frontend.heytapmobile.com CNAME .
 mdp-usertrace-in.heytapmobile.com CNAME .
 *.mdp-usertrace-in.heytapmobile.com CNAME .
 mdp-usertrace-sg.heytapmobile.com CNAME .
@@ -906,6 +890,10 @@ obus-conf-sg.heytapmobile.com CNAME .
 *.obus-conf-sg.heytapmobile.com CNAME .
 obus-conf-us.heytapmobile.com CNAME .
 *.obus-conf-us.heytapmobile.com CNAME .
+obus-config-in.heytapmobile.com CNAME .
+*.obus-config-in.heytapmobile.com CNAME .
+obus-config-sg.heytapmobile.com CNAME .
+*.obus-config-sg.heytapmobile.com CNAME .
 obus-dc-eu.heytapmobile.com CNAME .
 *.obus-dc-eu.heytapmobile.com CNAME .
 obus-dc-ru.heytapmobile.com CNAME .
@@ -934,6 +922,10 @@ obus-dctech-sg.heytapmobile.com CNAME .
 *.obus-dctech-sg.heytapmobile.com CNAME .
 obus-dcyitai-sg.heytapmobile.com CNAME .
 *.obus-dcyitai-sg.heytapmobile.com CNAME .
+obus-hid-in.heytapmobile.com CNAME .
+*.obus-hid-in.heytapmobile.com CNAME .
+obus-hid-sg.heytapmobile.com CNAME .
+*.obus-hid-sg.heytapmobile.com CNAME .
 obus-jssdk-fr.heytapmobile.com CNAME .
 *.obus-jssdk-fr.heytapmobile.com CNAME .
 obus-jssdk-in.heytapmobile.com CNAME .
@@ -944,18 +936,16 @@ obus-jssdk-us.heytapmobile.com CNAME .
 *.obus-jssdk-us.heytapmobile.com CNAME .
 omes-sec.heytapmobile.com CNAME .
 *.omes-sec.heytapmobile.com CNAME .
-report-in.opay.heytapmobile.com CNAME .
-*.report-in.opay.heytapmobile.com CNAME .
-report-sg.opay.heytapmobile.com CNAME .
-*.report-sg.opay.heytapmobile.com CNAME .
+opay.heytapmobile.com CNAME .
+*.opay.heytapmobile.com CNAME .
 api-id.play.heytapmobile.com CNAME .
 *.api-id.play.heytapmobile.com CNAME .
 push.heytapmobile.com CNAME .
 *.push.heytapmobile.com CNAME .
 push-dc-us.heytapmobile.com CNAME .
 *.push-dc-us.heytapmobile.com CNAME .
-bsf.sc.heytapmobile.com CNAME .
-*.bsf.sc.heytapmobile.com CNAME .
+sc.heytapmobile.com CNAME .
+*.sc.heytapmobile.com CNAME .
 slb-apisnd-in.heytapmobile.com CNAME .
 *.slb-apisnd-in.heytapmobile.com CNAME .
 sms-ads-in.heytapmobile.com CNAME .
@@ -966,12 +956,8 @@ stgdata-ads-fr.heytapmobile.com CNAME .
 *.stgdata-ads-fr.heytapmobile.com CNAME .
 api-id.theme.heytapmobile.com CNAME .
 *.api-id.theme.heytapmobile.com CNAME .
-report-eu.uc.heytapmobile.com CNAME .
-*.report-eu.uc.heytapmobile.com CNAME .
-report-in.uc.heytapmobile.com CNAME .
-*.report-in.uc.heytapmobile.com CNAME .
-report-sg.uc.heytapmobile.com CNAME .
-*.report-sg.uc.heytapmobile.com CNAME .
+uc.heytapmobile.com CNAME .
+*.uc.heytapmobile.com CNAME .
 video-api-fr.heytapmobile.com CNAME .
 *.video-api-fr.heytapmobile.com CNAME .
 video-api-gl.heytapmobile.com CNAME .

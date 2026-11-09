@@ -6,23 +6,20 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 07 Nov 2026 21:13 UTC
-! Version: 2026.1107.2113.37
+! Last modified: 09 Nov 2026 11:31 UTC
+! Version: 2026.1109.1131.40
 ! Syntax: AdBlock
-! Number of entries: 496
+! Number of entries: 489
 !
 ||classify-app-eu.allawnos.com^
 ||classify-app-in.allawnos.com^
 ||classify-app-sg.allawnos.com^
 ||classify-app-us.allawnos.com^
-||conn-service-eu-01.allawnos.com^
-||conn-service-eu-02.allawnos.com^
 ||conn-service-eu-03.allawnos.com^
 ||conn-service-eu-04.allawnos.com^
 ||conn-service-eu-05.allawnos.com^
 ||conn-service-eu-07.allawnos.com^
 ||conn-service-eu-08.allawnos.com^
-||conn-service-in-01.allawnos.com^
 ||conn-service-in-03.allawnos.com^
 ||conn-service-in-04.allawnos.com^
 ||conn-service-in-05.allawnos.com^
@@ -94,15 +91,12 @@
 ||zen-core-in.allawnos.com^
 ||zen-core-sg.allawnos.com^
 ||zen-core-us.allawnos.com^
-||conn-service-cn-01.allawntech.com^
 ||conn-service-cn-03.allawntech.com^
 ||conn-service-cn-04.allawntech.com^
 ||conn-service-cn-05.allawntech.com^
 ||conn-service-cn-07.allawntech.com^
 ||conn-service-cn-08.allawntech.com^
 ||conn-service-gl-01.allawntech.com^
-||conn-service-gl-03.allawntech.com^
-||conn-service-gl-04.allawntech.com^
 ||smartcard.apps.coloros.com^
 ||smartcardf.apps.coloros.com^
 ||smartcardf-eu.apps.coloros.com^
@@ -301,21 +295,12 @@
 ||iflow-sg.browser.heytapmobile.com^
 ||iflow-th.browser.heytapmobile.com^
 ||iflow-vn.browser.heytapmobile.com^
-||api-gl.cdo.heytapmobile.com^
-||api-id.cdo.heytapmobile.com^
-||api-in.cdo.heytapmobile.com^
 ||adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com^
 ||adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com^
 ||u-id.cpc.heytapmobile.com^
 ||api-id.game.heytapmobile.com^
-||report-in.opay.heytapmobile.com^
-||report-sg.opay.heytapmobile.com^
 ||api-id.play.heytapmobile.com^
-||bsf.sc.heytapmobile.com^
 ||api-id.theme.heytapmobile.com^
-||report-eu.uc.heytapmobile.com^
-||report-in.uc.heytapmobile.com^
-||report-sg.uc.heytapmobile.com^
 ||ad-growth-in.heytapmobile.com^
 ||ad-growth-ru.heytapmobile.com^
 ||ad-growth-sg.heytapmobile.com^
@@ -353,8 +338,8 @@
 ||browser-sdk-fr.heytapmobile.com^
 ||browser-sdk-in.heytapmobile.com^
 ||browser-sdk-ru.heytapmobile.com^
-||browserfiles.heytapmobile.com^
 ||bsp-di-in.heytapmobile.com^
+||cdo.heytapmobile.com^
 ||cldata-ads-fr.heytapmobile.com^
 ||cldata-ads-ru.heytapmobile.com^
 ||cloudconf-app-ae.heytapmobile.com^
@@ -456,12 +441,15 @@
 ||dc-dragate-sg.heytapmobile.com^
 ||dc-stat-in.heytapmobile.com^
 ||dragate-in-dc.heytapmobile.com^
+||jscatch-sg-frontend.heytapmobile.com^
 ||mdp-usertrace-in.heytapmobile.com^
 ||mdp-usertrace-sg.heytapmobile.com^
 ||obus-conf-fr.heytapmobile.com^
 ||obus-conf-in.heytapmobile.com^
 ||obus-conf-sg.heytapmobile.com^
 ||obus-conf-us.heytapmobile.com^
+||obus-config-in.heytapmobile.com^
+||obus-config-sg.heytapmobile.com^
 ||obus-dc-eu.heytapmobile.com^
 ||obus-dc-ru.heytapmobile.com^
 ||obus-dc-us.heytapmobile.com^
@@ -476,17 +464,22 @@
 ||obus-dctech-in.heytapmobile.com^
 ||obus-dctech-sg.heytapmobile.com^
 ||obus-dcyitai-sg.heytapmobile.com^
+||obus-hid-in.heytapmobile.com^
+||obus-hid-sg.heytapmobile.com^
 ||obus-jssdk-fr.heytapmobile.com^
 ||obus-jssdk-in.heytapmobile.com^
 ||obus-jssdk-sg.heytapmobile.com^
 ||obus-jssdk-us.heytapmobile.com^
 ||omes-sec.heytapmobile.com^
+||opay.heytapmobile.com^
 ||push.heytapmobile.com^
 ||push-dc-us.heytapmobile.com^
+||sc.heytapmobile.com^
 ||slb-apisnd-in.heytapmobile.com^
 ||sms-ads-in.heytapmobile.com^
 ||sms-ads-ru.heytapmobile.com^
 ||stgdata-ads-fr.heytapmobile.com^
+||uc.heytapmobile.com^
 ||video-api-fr.heytapmobile.com^
 ||video-api-gl.heytapmobile.com^
 ||video-api-in.heytapmobile.com^

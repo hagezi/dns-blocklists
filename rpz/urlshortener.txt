@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794211620 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794235860 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 08:07 UTC
-; Version: 2026.1109.0807.05
+; Last modified: 09 Nov 2026 14:51 UTC
+; Version: 2026.1109.1451.37
 ; Syntax: RPZ
-; Number of entries: 19554
+; Number of entries: 19556
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -16295,6 +16295,8 @@ zi.pe CNAME .
 *.zi.pe CNAME .
 zip.pe CNAME .
 *.zip.pe CNAME .
+belink.ph CNAME .
+*.belink.ph CNAME .
 mpfi.com.ph CNAME .
 *.mpfi.com.ph CNAME .
 used.com.ph CNAME .
