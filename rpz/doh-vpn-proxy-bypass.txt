@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794267840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794300420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 23:44 UTC
-; Version: 2026.1109.2344.14
+; Last modified: 10 Nov 2026 08:47 UTC
+; Version: 2026.1110.0847.35
 ; Syntax: RPZ
-; Number of entries: 32840
+; Number of entries: 32848
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -7479,6 +7479,8 @@ frayquantum.com CNAME .
 *.frayquantum.com CNAME .
 fraytether.com CNAME .
 *.fraytether.com CNAME .
+free-planet-vpn.com CNAME .
+*.free-planet-vpn.com CNAME .
 free-proxyserver.com CNAME .
 *.free-proxyserver.com CNAME .
 free-proxysite.com CNAME .
@@ -9203,6 +9205,8 @@ adguard.kalyanmudumby.com CNAME .
 *.adguard.kalyanmudumby.com CNAME .
 dns.kamilszczepanski.com CNAME .
 *.dns.kamilszczepanski.com CNAME .
+karatasvpn.com CNAME .
+*.karatasvpn.com CNAME .
 katakanachart.com CNAME .
 *.katakanachart.com CNAME .
 katonetwork.com CNAME .
@@ -11717,6 +11721,8 @@ proxfree.com CNAME .
 *.proxfree.com CNAME .
 proxidize.com CNAME .
 *.proxidize.com CNAME .
+proxiesplayproduction.com CNAME .
+*.proxiesplayproduction.com CNAME .
 proxify.com CNAME .
 *.proxify.com CNAME .
 proxiware.com CNAME .
@@ -14023,6 +14029,8 @@ vpnapplication.com CNAME .
 *.vpnapplication.com CNAME .
 vpnarea.com CNAME .
 *.vpnarea.com CNAME .
+vpnark.com CNAME .
+*.vpnark.com CNAME .
 vpnbaron.com CNAME .
 *.vpnbaron.com CNAME .
 vpnbenben.com CNAME .
