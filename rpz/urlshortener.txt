@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794351180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794383880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 10 Nov 2026 22:53 UTC
-; Version: 2026.1110.2253.44
+; Last modified: 11 Nov 2026 07:58 UTC
+; Version: 2026.1111.0758.12
 ; Syntax: RPZ
-; Number of entries: 19578
+; Number of entries: 19566
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1229,8 +1229,6 @@ links.luckreceptivo.com.br CNAME .
 *.links.luckreceptivo.com.br CNAME .
 conteudo.megasoft.com.br CNAME .
 *.conteudo.megasoft.com.br CNAME .
-nabio.com.br CNAME .
-*.nabio.com.br CNAME .
 shortlinks.com.br CNAME .
 *.shortlinks.com.br CNAME .
 solinks.com.br CNAME .
@@ -3407,8 +3405,6 @@ bdfwpro.com CNAME .
 *.bdfwpro.com CNAME .
 beautyfitnesshealth.com CNAME .
 *.beautyfitnesshealth.com CNAME .
-bebuiltllc.com CNAME .
-*.bebuiltllc.com CNAME .
 bee1s.com CNAME .
 *.bee1s.com CNAME .
 beepurl.com CNAME .
@@ -6845,8 +6841,6 @@ tinlr.com CNAME .
 *.tinlr.com CNAME .
 tinlyy.com CNAME .
 *.tinlyy.com CNAME .
-tiny-l.com CNAME .
-*.tiny-l.com CNAME .
 tiny-links.com CNAME .
 *.tiny-links.com CNAME .
 tiny123.com CNAME .
@@ -15349,8 +15343,6 @@ webrc.net CNAME .
 *.webrc.net CNAME .
 go.whyd.net CNAME .
 *.go.whyd.net CNAME .
-wounofoarausooy.net CNAME .
-*.wounofoarausooy.net CNAME .
 wslat.net CNAME .
 *.wslat.net CNAME .
 wurlie.net CNAME .
@@ -15791,8 +15783,6 @@ acus.org CNAME .
 *.acus.org CNAME .
 dbf.adalaj.org CNAME .
 *.dbf.adalaj.org CNAME .
-agentassistcrm.org CNAME .
-*.agentassistcrm.org CNAME .
 albn.org CNAME .
 *.albn.org CNAME .
 alterxyz.org CNAME .
@@ -16315,8 +16305,6 @@ zi.pe CNAME .
 *.zi.pe CNAME .
 zip.pe CNAME .
 *.zip.pe CNAME .
-belink.ph CNAME .
-*.belink.ph CNAME .
 mpfi.com.ph CNAME .
 *.mpfi.com.ph CNAME .
 used.com.ph CNAME .

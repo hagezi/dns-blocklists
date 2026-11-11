@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794355020 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794387240 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 10 Nov 2026 23:57 UTC
-; Version: 2026.1110.2357.55
+; Last modified: 11 Nov 2026 08:54 UTC
+; Version: 2026.1111.0854.06
 ; Syntax: RPZ
-; Number of entries: 32876
+; Number of entries: 32836
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -3485,12 +3485,6 @@ adguard-vpn.com CNAME .
 *.adguard-vpn.com CNAME .
 adguardaaron.com CNAME .
 *.adguardaaron.com CNAME .
-dns.adguarddns.com CNAME .
-*.dns.adguarddns.com CNAME .
-family.adguarddns.com CNAME .
-*.family.adguarddns.com CNAME .
-unfiltered.adguarddns.com CNAME .
-*.unfiltered.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 adresseip.com CNAME .
@@ -5473,8 +5467,6 @@ datapointhq.com CNAME .
 *.datapointhq.com CNAME .
 dns.david888.com CNAME .
 *.dns.david888.com CNAME .
-daviddoesntmogaastik.com CNAME .
-*.daviddoesntmogaastik.com CNAME .
 rammer.davispetsitter.com CNAME .
 *.rammer.davispetsitter.com CNAME .
 dawninternet.com CNAME .
@@ -9281,10 +9273,6 @@ kfwjq7a3.com CNAME .
 *.kfwjq7a3.com CNAME .
 kgkt5w6.com CNAME .
 *.kgkt5w6.com CNAME .
-45543.khsonthespot.com CNAME .
-*.45543.khsonthespot.com CNAME .
-wildcard.khsonthespot.com CNAME .
-*.wildcard.khsonthespot.com CNAME .
 kickassproxy.com CNAME .
 *.kickassproxy.com CNAME .
 kideqf.com CNAME .
@@ -9921,8 +9909,6 @@ leidian123.com CNAME .
 *.leidian123.com CNAME .
 leidian88.com CNAME .
 *.leidian88.com CNAME .
-leitingjc.com CNAME .
-*.leitingjc.com CNAME .
 leitingvpn1.com CNAME .
 *.leitingvpn1.com CNAME .
 leoygiuj.com CNAME .
@@ -10327,6 +10313,8 @@ mendozasdelivery.com CNAME .
 *.mendozasdelivery.com CNAME .
 mer6y5.com CNAME .
 *.mer6y5.com CNAME .
+metalproxy.com CNAME .
+*.metalproxy.com CNAME .
 learn.logic.metaure.com CNAME .
 *.learn.logic.metaure.com CNAME .
 mgyfyvyo.com CNAME .
@@ -11875,6 +11863,8 @@ proxysneak.com CNAME .
 *.proxysneak.com CNAME .
 proxysocks5.com CNAME .
 *.proxysocks5.com CNAME .
+proxystride.com CNAME .
+*.proxystride.com CNAME .
 proxysupply.com CNAME .
 *.proxysupply.com CNAME .
 proxytitan.com CNAME .
@@ -12415,6 +12405,8 @@ dns.sct-pro.com CNAME .
 *.dns.sct-pro.com CNAME .
 scugoge.com CNAME .
 *.scugoge.com CNAME .
+sdlcproxy.com CNAME .
+*.sdlcproxy.com CNAME .
 facts.teach.sdm-tv.com CNAME .
 *.facts.teach.sdm-tv.com CNAME .
 sdwkhwt4.com CNAME .
@@ -20473,8 +20465,6 @@ mehmetgayalo.southern.com.my CNAME .
 *.mehmetgayalo.southern.com.my CNAME .
 glock.my CNAME .
 *.glock.my CNAME .
-hitray.my CNAME .
-*.hitray.my CNAME .
 hyperbea.my CNAME .
 *.hyperbea.my CNAME .
 my52.my CNAME .
@@ -27183,32 +27173,6 @@ dns1.saferbfc.org CNAME .
 *.dns1.saferbfc.org CNAME .
 dns2.saferbfc.org CNAME .
 *.dns2.saferbfc.org CNAME .
-admin.sailforeducation.org CNAME .
-*.admin.sailforeducation.org CNAME .
-api.sailforeducation.org CNAME .
-*.api.sailforeducation.org CNAME .
-app.sailforeducation.org CNAME .
-*.app.sailforeducation.org CNAME .
-asdfghjkl.sailforeducation.org CNAME .
-*.asdfghjkl.sailforeducation.org CNAME .
-autodiscover.sailforeducation.org CNAME .
-*.autodiscover.sailforeducation.org CNAME .
-correo.sailforeducation.org CNAME .
-*.correo.sailforeducation.org CNAME .
-demo.sailforeducation.org CNAME .
-*.demo.sailforeducation.org CNAME .
-dev.sailforeducation.org CNAME .
-*.dev.sailforeducation.org CNAME .
-fajtbuyh.sailforeducation.org CNAME .
-*.fajtbuyh.sailforeducation.org CNAME .
-mail.sailforeducation.org CNAME .
-*.mail.sailforeducation.org CNAME .
-poczta.sailforeducation.org CNAME .
-*.poczta.sailforeducation.org CNAME .
-staging.sailforeducation.org CNAME .
-*.staging.sailforeducation.org CNAME .
-wmhctvlu.sailforeducation.org CNAME .
-*.wmhctvlu.sailforeducation.org CNAME .
 backend.development.sanluix.org CNAME .
 *.backend.development.sanluix.org CNAME .
 database.development.sanluix.org CNAME .
@@ -28569,10 +28533,6 @@ krym-toury.ru CNAME .
 *.krym-toury.ru CNAME .
 lagomvpn.ru CNAME .
 *.lagomvpn.ru CNAME .
-edmentum-reading.lbry.ru CNAME .
-*.edmentum-reading.lbry.ru CNAME .
-mathworkforreal.lbry.ru CNAME .
-*.mathworkforreal.lbry.ru CNAME .
 lumaay.ru CNAME .
 *.lumaay.ru CNAME .
 lunqaro.ru CNAME .
