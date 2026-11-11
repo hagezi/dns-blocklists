@@ -170,6 +170,7 @@ Feeds the Pop-Up Ads list, which is also bundled into the Multi tiers at varying
 
 ```
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/adguard_popup_filter.txt
+https://codeberg.org/jcoscia/evasive-ads-blocklist/raw/branch/main/adcash.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/05_popup.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/popads-domains.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers_popup.txt
