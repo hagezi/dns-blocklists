@@ -8,8 +8,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 09 Nov 2026 00:27 UTC
-! Version: 2026.1109.0027.44
+! Last modified: 10 Nov 2026 23:58 UTC
+! Version: 2026.1110.2358.20
 ! Syntax: AdGuard
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -101,7 +101,7 @@
 ||*.expert^$denyallow=bahn.expert|booking.expert|malware.expert
 ||*.exposed^
 ||*.faith^
-||*.family^$denyallow=hns.family
+||*.family^$denyallow=gensa.family|hns.family
 ||*.fan^$denyallow=ktr.fan|os.fan
 ||*.fans^
 ||*.fashion^$denyallow=haal.fashion

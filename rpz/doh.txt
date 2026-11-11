@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794267840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794355020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 23:44 UTC
-; Version: 2026.1109.2344.03
+; Last modified: 10 Nov 2026 23:57 UTC
+; Version: 2026.1110.2357.37
 ; Syntax: RPZ
-; Number of entries: 7136
+; Number of entries: 7140
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2487,6 +2487,8 @@ ahoj.email CNAME .
 *.ahoj.email CNAME .
 dns.bcel.email CNAME .
 *.dns.bcel.email CNAME .
+dns.jucker.engineering CNAME .
+*.dns.jucker.engineering CNAME .
 prdot.cldsrv.es CNAME .
 *.prdot.cldsrv.es CNAME .
 dns.esnube.es CNAME .
@@ -4973,6 +4975,8 @@ nqh-dns.duckdns.org CNAME .
 *.nqh-dns.duckdns.org CNAME .
 o--o.duckdns.org CNAME .
 *.o--o.duckdns.org CNAME .
+osefcorp.duckdns.org CNAME .
+*.osefcorp.duckdns.org CNAME .
 osu.duckdns.org CNAME .
 *.osu.duckdns.org CNAME .
 pablo-smartdns.duckdns.org CNAME .
