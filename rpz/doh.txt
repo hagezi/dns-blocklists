@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794387180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794441180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Nov 2026 08:53 UTC
-; Version: 2026.1111.0853.51
+; Last modified: 11 Nov 2026 23:53 UTC
+; Version: 2026.1111.2353.39
 ; Syntax: RPZ
-; Number of entries: 7134
+; Number of entries: 7140
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -221,6 +221,8 @@ dflexy.house.nom.br CNAME .
 *.dflexy.house.nom.br CNAME .
 dns-br.leonardo.tec.br CNAME .
 *.dns-br.leonardo.tec.br CNAME .
+mabuktogel.business CNAME .
+*.mabuktogel.business CNAME .
 doh.buzz CNAME .
 *.doh.buzz CNAME .
 doh.datahata.by CNAME .
@@ -2069,6 +2071,8 @@ dns.hub.com.de CNAME .
 *.dns.hub.com.de CNAME .
 adguard.crestfallen.de CNAME .
 *.adguard.crestfallen.de CNAME .
+dns.csa-rz.de CNAME .
+*.dns.csa-rz.de CNAME .
 dns.csaonline.de CNAME .
 *.dns.csaonline.de CNAME .
 nextcloud.d-alahmad.de CNAME .
@@ -5463,6 +5467,8 @@ doh.xcom.pro CNAME .
 *.doh.xcom.pro CNAME .
 xiaoxie.pro CNAME .
 *.xiaoxie.pro CNAME .
+mabuktogel.properties CNAME .
+*.mabuktogel.properties CNAME .
 abe01.dnscry.pt CNAME .
 *.abe01.dnscry.pt CNAME .
 abn01.dnscry.pt CNAME .
