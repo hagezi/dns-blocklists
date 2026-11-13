@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794004320 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794608220 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 22:32 UTC
-; Version: 2026.1106.2232.49
+; Last modified: 13 Nov 2026 22:17 UTC
+; Version: 2026.1113.2217.42
 ; Syntax: RPZ
-; Number of entries: 400
+; Number of entries: 404
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -24,8 +24,6 @@ search.st8.at CNAME .
 *.search.st8.at CNAME .
 searx.com.au CNAME .
 *.searx.com.au CNAME .
-searx.bar CNAME .
-*.searx.bar CNAME .
 search.ipsys.bf CNAME .
 *.search.ipsys.bf CNAME .
 searxng.biz CNAME .
@@ -276,6 +274,8 @@ searx.nakhan.net CNAME .
 *.searx.nakhan.net CNAME .
 search.nebulacentre.net CNAME .
 *.search.nebulacentre.net CNAME .
+whoogle.privacydev.net CNAME .
+*.whoogle.privacydev.net CNAME .
 searx.zdechov.net CNAME .
 *.searx.zdechov.net CNAME .
 librex.nohost.network CNAME .
@@ -356,6 +356,10 @@ searx.monicz.pl CNAME .
 *.searx.monicz.pl CNAME .
 searx.deepak.pro CNAME .
 *.searx.deepak.pro CNAME .
+jsearch.pw CNAME .
+*.jsearch.pw CNAME .
+unmonito.red CNAME .
+*.unmonito.red CNAME .
 go.mail.ru CNAME .
 *.go.mail.ru CNAME .
 nova.rambler.ru CNAME .

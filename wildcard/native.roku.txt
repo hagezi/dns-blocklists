@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 16 Oct 2026 22:09 UTC
-# Version: 2026.1016.2209.35
+# Last modified: 13 Nov 2026 19:28 UTC
+# Version: 2026.1113.1928.19
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 57
+# Number of entries: 64
 #
 *.roku.adsmeasurement.com
 *.adeng-identity-prod3.bdp.roku.com
@@ -18,19 +18,25 @@
 *.adi-airflow.bdp.roku.com
 *.ads.beta.roku.com
 *.samples.voice.cti.roku.com
+*.ads.z.data.roku.com
+*.adx.z.data.roku.com
 *.ravm-staging.data.roku.com
 *.ads-cf-us-east-1.dev.delivery.roku.com
 *.ads-aka-us-east-1.delivery.roku.com
 *.ads-aka-us-west-2.delivery.roku.com
 *.ads-cf-us-east-1.delivery.roku.com
+*.ads-cf-us-east-2.delivery.roku.com
 *.ads-cf-us-west-2.delivery.roku.com
 *.ads-us-east-1.delivery.roku.com
 *.ads-us-east-2.delivery.roku.com
 *.ads-us-west-2.delivery.roku.com
 *.ads.gcp.roku.com
+*.logs.prod.ap.int.roku.com
 *.ad.usw2.qa.ap.int.roku.com
 *.ad.qa.ap.int.roku.com
 *.logs.qa.ap.int.roku.com
+*.ad-eng.prod.rpay.int.roku.com
+*.ad-eng.staging.rpay.int.roku.com
 *.advertising.qa.us-east-1.dev.msc.roku.com
 *.advertising-qa.us-east-1.dev.msc.roku.com
 *.advertising-v3-qa.us-east-1.dev.msc.roku.com
@@ -50,6 +56,7 @@
 *.logs.sr.roku.com
 *.traces.sr.roku.com
 *.userdata.sr.roku.com
+*.giga.logs.staging.roku.com
 *.ads.staging.roku.com
 *.wwwimg.staging.roku.com
 *.pixel.staging.web.roku.com

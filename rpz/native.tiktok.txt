@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794005760 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794608940 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 22:56 UTC
-; Version: 2026.1106.2256.24
+; Last modified: 13 Nov 2026 22:29 UTC
+; Version: 2026.1113.2229.23
 ; Syntax: RPZ
-; Number of entries: 1090
+; Number of entries: 1094
 ;
 h4g3z1-native-tiktok.web.app CNAME .
 *.h4g3z1-native-tiktok.web.app CNAME .
@@ -264,10 +264,8 @@ ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
 ads-ru.tiktok.com CNAME .
 *.ads-ru.tiktok.com CNAME .
-url4077.ads-service.tiktok.com CNAME .
-*.url4077.ads-service.tiktok.com CNAME .
-url7108.ads-service.tiktok.com CNAME .
-*.url7108.ads-service.tiktok.com CNAME .
+ads-service.tiktok.com CNAME .
+*.ads-service.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 ads-useast2a.tiktok.com CNAME .
@@ -480,6 +478,8 @@ log32-normal-zr-alisg.tiktokv.com CNAME .
 *.log32-normal-zr-alisg.tiktokv.com CNAME .
 log32-normal-zr-useast1a.tiktokv.com CNAME .
 *.log32-normal-zr-useast1a.tiktokv.com CNAME .
+log53-normal-c-useast1a.tiktokv.com CNAME .
+*.log53-normal-c-useast1a.tiktokv.com CNAME .
 log58-normal.tiktokv.com CNAME .
 *.log58-normal.tiktokv.com CNAME .
 log58-normal-alisg.tiktokv.com CNAME .
@@ -494,6 +494,10 @@ log58-normal-useast2a.tiktokv.com CNAME .
 *.log58-normal-useast2a.tiktokv.com CNAME .
 log58-normal-ycru.tiktokv.com CNAME .
 *.log58-normal-ycru.tiktokv.com CNAME .
+log61-normal-c-alisg.tiktokv.com CNAME .
+*.log61-normal-c-alisg.tiktokv.com CNAME .
+log61-normal-c-useast1a.tiktokv.com CNAME .
+*.log61-normal-c-useast1a.tiktokv.com CNAME .
 log77-normal-c-alisg.tiktokv.com CNAME .
 *.log77-normal-c-alisg.tiktokv.com CNAME .
 log77-normal-c-useast1a.tiktokv.com CNAME .

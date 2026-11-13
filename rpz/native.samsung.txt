@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793163840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794609060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Samsung Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 28 Oct 2026 05:04 UTC
-; Version: 2026.1028.0504.46
+; Last modified: 13 Nov 2026 22:31 UTC
+; Version: 2026.1113.2231.22
 ; Syntax: RPZ
 ; Number of entries: 402
 ;
@@ -192,14 +192,14 @@ analytics.samsungknox.com CNAME .
 *.analytics.samsungknox.com CNAME .
 analytics-stg.samsungknox.com CNAME .
 *.analytics-stg.samsungknox.com CNAME .
-api-analytics.samsungknox.com CNAME .
-*.api-analytics.samsungknox.com CNAME .
 api-analytics-qa.samsungknox.com CNAME .
 *.api-analytics-qa.samsungknox.com CNAME .
 b2banalytics.samsungknox.com CNAME .
 *.b2banalytics.samsungknox.com CNAME .
 nmetrics.samsungmobile.com CNAME .
 *.nmetrics.samsungmobile.com CNAME .
+gld.samsungosp.com CNAME .
+*.gld.samsungosp.com CNAME .
 stats.samsungpass.com CNAME .
 *.stats.samsungpass.com CNAME .
 osb.samsungqbe.com CNAME .

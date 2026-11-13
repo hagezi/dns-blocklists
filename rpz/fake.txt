@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794556560 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794581400 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 07:56 UTC
-; Version: 2026.1113.0756.12
+; Last modified: 13 Nov 2026 14:50 UTC
+; Version: 2026.1113.1450.10
 ; Syntax: RPZ
-; Number of entries: 37706
+; Number of entries: 37704
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -20390,8 +20390,6 @@ toystik.com CNAME .
 *.toystik.com CNAME .
 tpcinvest.com CNAME .
 *.tpcinvest.com CNAME .
-tr-brokers.com CNAME .
-*.tr-brokers.com CNAME .
 tracksmithdeutschland.com CNAME .
 *.tracksmithdeutschland.com CNAME .
 tradabank.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794542940 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794598200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 04:09 UTC
-; Version: 2026.1113.0409.17
+; Last modified: 13 Nov 2026 19:30 UTC
+; Version: 2026.1113.1930.20
 ; Syntax: RPZ
-; Number of entries: 804
+; Number of entries: 820
 ;
 h4g3z1-native-xiaomi.web.app CNAME .
 *.h4g3z1-native-xiaomi.web.app CNAME .
@@ -354,6 +354,8 @@ global-ad-extranet-pri-azpn.alb.xiaomi.com CNAME .
 *.global-ad-extranet-pri-azpn.alb.xiaomi.com CNAME .
 global-ad-intl-pri-alisgp.alb.xiaomi.com CNAME .
 *.global-ad-intl-pri-alisgp.alb.xiaomi.com CNAME .
+global-ad-pri-alisgp.alb.xiaomi.com CNAME .
+*.global-ad-pri-alisgp.alb.xiaomi.com CNAME .
 awssgp0-files.fds.api.xiaomi.com CNAME .
 *.awssgp0-files.fds.api.xiaomi.com CNAME .
 cdn.fds.api.xiaomi.com CNAME .
@@ -490,12 +492,30 @@ globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
-feedback.pt.intl.xiaomi.com CNAME .
-*.feedback.pt.intl.xiaomi.com CNAME .
 sdkconfig.intl.xiaomi.com CNAME .
 *.sdkconfig.intl.xiaomi.com CNAME .
+br-miuilog.sms.intl.xiaomi.com CNAME .
+*.br-miuilog.sms.intl.xiaomi.com CNAME .
+id-miuilog.sms.intl.xiaomi.com CNAME .
+*.id-miuilog.sms.intl.xiaomi.com CNAME .
 in-miuilog.sms.intl.xiaomi.com CNAME .
 *.in-miuilog.sms.intl.xiaomi.com CNAME .
+mm-miuilog.sms.intl.xiaomi.com CNAME .
+*.mm-miuilog.sms.intl.xiaomi.com CNAME .
+mx-miuilog.sms.intl.xiaomi.com CNAME .
+*.mx-miuilog.sms.intl.xiaomi.com CNAME .
+my-miuilog.sms.intl.xiaomi.com CNAME .
+*.my-miuilog.sms.intl.xiaomi.com CNAME .
+ph-miuilog.sms.intl.xiaomi.com CNAME .
+*.ph-miuilog.sms.intl.xiaomi.com CNAME .
+ru-miuilog.sms.intl.xiaomi.com CNAME .
+*.ru-miuilog.sms.intl.xiaomi.com CNAME .
+th-miuilog.sms.intl.xiaomi.com CNAME .
+*.th-miuilog.sms.intl.xiaomi.com CNAME .
+tr-miuilog.sms.intl.xiaomi.com CNAME .
+*.tr-miuilog.sms.intl.xiaomi.com CNAME .
+vn-miuilog.sms.intl.xiaomi.com CNAME .
+*.vn-miuilog.sms.intl.xiaomi.com CNAME .
 sys.intl.xiaomi.com CNAME .
 *.sys.intl.xiaomi.com CNAME .
 video.intl.xiaomi.com CNAME .
@@ -664,8 +684,6 @@ bugreport.pt.xiaomi.com CNAME .
 *.bugreport.pt.xiaomi.com CNAME .
 cdn-exp-sg-recommend.pt.xiaomi.com CNAME .
 *.cdn-exp-sg-recommend.pt.xiaomi.com CNAME .
-feedback.pt.xiaomi.com CNAME .
-*.feedback.pt.xiaomi.com CNAME .
 tj1.staging.ins.pt.xiaomi.com CNAME .
 *.tj1.staging.ins.pt.xiaomi.com CNAME .
 log.pt.xiaomi.com CNAME .
@@ -696,8 +714,6 @@ ad.rus.xiaomi.com CNAME .
 *.ad.rus.xiaomi.com CNAME .
 mistat.rus.xiaomi.com CNAME .
 *.mistat.rus.xiaomi.com CNAME .
-feedback.pt.rus.xiaomi.com CNAME .
-*.feedback.pt.rus.xiaomi.com CNAME .
 sdkconfig.rus.xiaomi.com CNAME .
 *.sdkconfig.rus.xiaomi.com CNAME .
 sdkconfig.xiaomi.com CNAME .

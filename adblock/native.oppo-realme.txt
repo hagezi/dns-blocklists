@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 13 Nov 2026 03:57 UTC
-! Version: 2026.1113.0357.38
+! Last modified: 13 Nov 2026 19:25 UTC
+! Version: 2026.1113.1925.03
 ! Syntax: AdBlock
-! Number of entries: 491
+! Number of entries: 522
 !
 ||classify-app-eu.allawnos.com^
 ||classify-app-in.allawnos.com^
@@ -36,6 +36,7 @@
 ||crypto-dsf-sg.allawnos.com^
 ||crypto-dsf-us.allawnos.com^
 ||eap-log-in.allawnos.com^
+||eap-log-ru.allawnos.com^
 ||eap-log-sg.allawnos.com^
 ||featureinfo-service-sg.allawnos.com^
 ||fourier-videoclip-eu.allawnos.com^
@@ -125,6 +126,20 @@
 ||storedl3f.nearme.com.cn^
 ||storedl4f.nearme.com.cn^
 ||storedl5f.nearme.com.cn^
+||br.ekatox.com^
+||g-api-eu.ekatox.com^
+||g-api-in.ekatox.com^
+||g-api-ru.ekatox.com^
+||hg-br.ekatox.com^
+||hg-eu.ekatox.com^
+||hg-id.ekatox.com^
+||hg-sa.ekatox.com^
+||hg-sg.ekatox.com^
+||hg-us.ekatox.com^
+||id.ekatox.com^
+||ru.ekatox.com^
+||sg.ekatox.com^
+||us.ekatox.com^
 ||i-insurance.finzfin.com^
 ||appconf-ocs-eu.heytapdl.com^
 ||appconf-ocs-in.heytapdl.com^
@@ -299,6 +314,8 @@
 ||adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com^
 ||adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com^
 ||u-id.cpc.heytapmobile.com^
+||u-th.cpc.heytapmobile.com^
+||u-vn.cpc.heytapmobile.com^
 ||api-id.game.heytapmobile.com^
 ||api-id.play.heytapmobile.com^
 ||api-id.theme.heytapmobile.com^
@@ -321,8 +338,10 @@
 ||adx-u-ru.heytapmobile.com^
 ||adx-u-sg.heytapmobile.com^
 ||adx-union-sg.heytapmobile.com^
+||adx-union-us.heytapmobile.com^
 ||adxh3-op-sg.heytapmobile.com^
 ||adxu-bigo-sg.heytapmobile.com^
+||bdapi-ads-in.heytapmobile.com^
 ||bdapi-ads-sg.heytapmobile.com^
 ||browser-api-br.heytapmobile.com^
 ||browser-api-fr.heytapmobile.com^
@@ -341,6 +360,7 @@
 ||browser-sdk-in.heytapmobile.com^
 ||browser-sdk-ru.heytapmobile.com^
 ||bsp-di-in.heytapmobile.com^
+||bsp-di-us.heytapmobile.com^
 ||cdo.heytapmobile.com^
 ||cldata-ads-fr.heytapmobile.com^
 ||cldata-ads-ru.heytapmobile.com^
@@ -441,19 +461,24 @@
 ||conf-in-dc.heytapmobile.com^
 ||dc.heytapmobile.com^
 ||dc-dragate-sg.heytapmobile.com^
+||dc-stat-eu.heytapmobile.com^
 ||dc-stat-in.heytapmobile.com^
 ||dragate-in-dc.heytapmobile.com^
+||jscatch-in-frontend.heytapmobile.com^
 ||jscatch-sg-frontend.heytapmobile.com^
 ||mdp-usertrace-in.heytapmobile.com^
 ||mdp-usertrace-sg.heytapmobile.com^
 ||obus-conf-fr.heytapmobile.com^
 ||obus-conf-in.heytapmobile.com^
+||obus-conf-ru.heytapmobile.com^
 ||obus-conf-sg.heytapmobile.com^
 ||obus-conf-us.heytapmobile.com^
 ||obus-config-in.heytapmobile.com^
 ||obus-config-sg.heytapmobile.com^
 ||obus-dc-eu.heytapmobile.com^
+||obus-dc-in.heytapmobile.com^
 ||obus-dc-ru.heytapmobile.com^
+||obus-dc-sg.heytapmobile.com^
 ||obus-dc-us.heytapmobile.com^
 ||obus-dc121100-sg.heytapmobile.com^
 ||obus-dc2-in.heytapmobile.com^
@@ -463,6 +488,7 @@
 ||obus-dc20142-sg.heytapmobile.com^
 ||obus-dc20305-in.heytapmobile.com^
 ||obus-dc20305-sg.heytapmobile.com^
+||obus-dctech-fr.heytapmobile.com^
 ||obus-dctech-in.heytapmobile.com^
 ||obus-dctech-sg.heytapmobile.com^
 ||obus-dcyitai-sg.heytapmobile.com^
@@ -470,6 +496,7 @@
 ||obus-hid-sg.heytapmobile.com^
 ||obus-jssdk-fr.heytapmobile.com^
 ||obus-jssdk-in.heytapmobile.com^
+||obus-jssdk-ru.heytapmobile.com^
 ||obus-jssdk-sg.heytapmobile.com^
 ||obus-jssdk-us.heytapmobile.com^
 ||omes-sec.heytapmobile.com^
@@ -486,6 +513,7 @@
 ||video-api-gl.heytapmobile.com^
 ||video-api-in.heytapmobile.com^
 ||video-api-ru.heytapmobile.com^
+||uc-track-ru.oneplus.com^
 ||dragate.dc.oppomobile.com^
 ||dragate-br.dc.oppomobile.com^
 ||dragate-sg.dc.oppomobile.com^
@@ -497,6 +525,9 @@
 ||dhfs-th.oppomobile.com^
 ||dhfs-vn.oppomobile.com^
 ||dhfsf.oppomobile.com^
+||adx-ads.realmemobile.com^
+||adx-in-ads.realmemobile.com^
+||data-ads.realmemobile.com^
 ||sea-log-rcv.vansound.com^
 ||h4g3z1-native-oppo-realme.web.app^
 ||finosfin.com^

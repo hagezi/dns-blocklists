@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794250800 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794598020 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 19:00 UTC
-; Version: 2026.1109.1900.38
+; Last modified: 13 Nov 2026 19:27 UTC
+; Version: 2026.1113.1927.19
 ; Syntax: RPZ
-; Number of entries: 292
+; Number of entries: 296
 ;
 h4g3z1-native-huawei.web.app CNAME .
 *.h4g3z1-native-huawei.web.app CNAME .
@@ -34,6 +34,8 @@ metrics-dre.data.dbankcloud.cn CNAME .
 *.metrics-dre.data.dbankcloud.cn CNAME .
 metrics1.data.dbankcloud.cn CNAME .
 *.metrics1.data.dbankcloud.cn CNAME .
+metrics6.data.dbankcloud.cn CNAME .
+*.metrics6.data.dbankcloud.cn CNAME .
 datacollector-dra.dt.dbankcloud.cn CNAME .
 *.datacollector-dra.dt.dbankcloud.cn CNAME .
 datacollector-dre.dt.dbankcloud.cn CNAME .
@@ -54,6 +56,8 @@ connect-drru.hispace.dbankcloud.cn CNAME .
 *.connect-drru.hispace.dbankcloud.cn CNAME .
 ad-drcn.media.dbankcloud.cn CNAME .
 *.ad-drcn.media.dbankcloud.cn CNAME .
+ug-drcn.media.dbankcloud.cn CNAME .
+*.ug-drcn.media.dbankcloud.cn CNAME .
 adx-drcn.op.dbankcloud.cn CNAME .
 *.adx-drcn.op.dbankcloud.cn CNAME .
 events-drcn.op.dbankcloud.cn CNAME .

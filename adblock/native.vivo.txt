@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 06 Nov 2026 23:01 UTC
-! Version: 2026.1106.2301.32
+! Last modified: 13 Nov 2026 19:28 UTC
+! Version: 2026.1113.1928.45
 ! Syntax: AdBlock
-! Number of entries: 243
+! Number of entries: 303
 !
 ||vhs.wwstat.com.eo.unicomcdn.com.cn^
 ||az.appstore.vivo.com.cn^
@@ -31,6 +31,7 @@
 ||ads-api.vivo.com^
 ||err.up.vivoglobal.com^
 ||alliance-adreq-asia.vivoglobal.com^
+||alliance-adreq-in.vivoglobal.com^
 ||asia-abeacdataonrt-stsdk.vivoglobal.com^
 ||asia-abeacdataort-stsdk.vivoglobal.com^
 ||asia-ad-mkt-vivofs.vivoglobal.com^
@@ -38,6 +39,7 @@
 ||asia-adsjssdk.vivoglobal.com^
 ||asia-album-api.vivoglobal.com^
 ||asia-analyzer-appstore.vivoglobal.com^
+||asia-api-stsdk.vivoglobal.com^
 ||asia-commonitor-stsdk.vivoglobal.com^
 ||asia-comonrt-stsdk.vivoglobal.com^
 ||asia-comort-stsdk.vivoglobal.com^
@@ -49,6 +51,7 @@
 ||asia-exstsdk.vivoglobal.com^
 ||asia-monitor-stsdk.vivoglobal.com^
 ||asia-news-abroad-backstage-interface.vivoglobal.com^
+||asia-nrt-stsdk.vivoglobal.com^
 ||asia-onrt-stsdk.vivoglobal.com^
 ||asia-ort-stsdk.vivoglobal.com^
 ||asia-os-config-appstore.vivoglobal.com^
@@ -56,6 +59,7 @@
 ||asia-pnrt-stsdk.vivoglobal.com^
 ||asia-prt-stsdk.vivoglobal.com^
 ||asia-romsp-unifyconfig.vivoglobal.com^
+||asia-rt-stsdk.vivoglobal.com^
 ||asia-st-exappupgrade.vivoglobal.com^
 ||asia-st-sl.vivoglobal.com^
 ||asia-stsdk.vivoglobal.com^
@@ -66,7 +70,22 @@
 ||asia-vcode-or.vivoglobal.com^
 ||asia-vpushonrt-stsdk.vivoglobal.com^
 ||asia-vpushort-stsdk.vivoglobal.com^
+||au-analyzer-appstore.vivoglobal.com^
+||au-err-up.vivoglobal.com^
+||au-nrt-stsdk.vivoglobal.com^
+||au-ort-stsdk.vivoglobal.com^
+||au-pnrt-stsdk.vivoglobal.com^
 ||br-p.vivoglobal.com^
+||cl-api-stsdk.vivoglobal.com^
+||cl-err-up.vivoglobal.com^
+||cl-monitor-stsdk.vivoglobal.com^
+||cl-nrt-stsdk.vivoglobal.com^
+||cl-onrt-stsdk.vivoglobal.com^
+||cl-ort-stsdk.vivoglobal.com^
+||cl-pnrt-stsdk.vivoglobal.com^
+||cl-prt-stsdk.vivoglobal.com^
+||cl-st-sl.vivoglobal.com^
+||cl-stsdk.vivoglobal.com^
 ||cl-vcode-api.vivoglobal.com^
 ||cname-ali-asia-stsdk.vivoglobal.com^
 ||cname-asia-comonrt-stsdk.vivoglobal.com^
@@ -79,11 +98,15 @@
 ||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-album-api.vivoglobal.com^
+||co-api-stsdk.vivoglobal.com^
 ||co-cota.vivoglobal.com^
 ||co-domaincfg.vivoglobal.com^
+||co-monitor-stsdk.vivoglobal.com^
+||co-nrt-stsdk.vivoglobal.com^
 ||co-onrt-stsdk.vivoglobal.com^
 ||co-ort-stsdk.vivoglobal.com^
 ||co-pnrt-stsdk.vivoglobal.com^
+||co-prt-stsdk.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
 ||co-stsdk.vivoglobal.com^
@@ -96,14 +119,17 @@
 ||err-up.vivoglobal.com^
 ||eu-album-api.vivoglobal.com^
 ||eu-api-stsdk.vivoglobal.com^
+||eu-cfg-stsdk.vivoglobal.com^
 ||eu-cota.vivoglobal.com^
 ||eu-domaincfg.vivoglobal.com^
 ||eu-errup.vivoglobal.com^
+||eu-monitor-stsdk.vivoglobal.com^
 ||eu-nrt-stsdk.vivoglobal.com^
 ||eu-onrt-stsdk.vivoglobal.com^
 ||eu-ort-stsdk.vivoglobal.com^
 ||eu-p.vivoglobal.com^
 ||eu-pnrt-stsdk.vivoglobal.com^
+||eu-prt-stsdk.vivoglobal.com^
 ||eu-romsp-unifyconfig.vivoglobal.com^
 ||eu-st-sl.vivoglobal.com^
 ||eu-stsdk.vivoglobal.com^
@@ -116,10 +142,16 @@
 ||ex-romsp-unifyconfig.vivoglobal.com^
 ||id-analyzer-appstore.vivoglobal.com^
 ||id-third-appstore.vivoglobal.com^
+||il-api-stsdk.vivoglobal.com^
+||il-onrt-stsdk.vivoglobal.com^
+||il-pnrt-stsdk.vivoglobal.com^
+||il-prt-stsdk.vivoglobal.com^
+||il-st-sl.vivoglobal.com^
 ||in-ad-mkt-vivofs.vivoglobal.com^
 ||in-adlog.vivoglobal.com^
 ||in-adreq.vivoglobal.com^
 ||in-adsjssdk.vivoglobal.com^
+||in-analyzer-appstore.vivoglobal.com^
 ||in-api-stsdk.vivoglobal.com^
 ||in-apponrt-stsdk.vivoglobal.com^
 ||in-apport-stsdk.vivoglobal.com^
@@ -149,6 +181,8 @@
 ||in-vcode-or.vivoglobal.com^
 ||in-vpushonrt-stsdk.vivoglobal.com^
 ||in-vpushort-stsdk.vivoglobal.com^
+||kz-analyzer-appstore.vivoglobal.com^
+||kz-api-stsdk.vivoglobal.com^
 ||kz-cname-sin01-bigdata.vivoglobal.com^
 ||kz-cota.vivoglobal.com^
 ||kz-err-up.vivoglobal.com^
@@ -169,9 +203,11 @@
 ||kz-vcode-or.vivoglobal.com^
 ||monitor-stsdk.vivoglobal.com^
 ||mx-album-api.vivoglobal.com^
+||mx-api-stsdk.vivoglobal.com^
 ||mx-cota.vivoglobal.com^
 ||mx-domaincfg.vivoglobal.com^
 ||mx-err-up.vivoglobal.com^
+||mx-nrt-stsdk.vivoglobal.com^
 ||mx-onrt-stsdk.vivoglobal.com^
 ||mx-ort-stsdk.vivoglobal.com^
 ||mx-p.vivoglobal.com^
@@ -185,20 +221,38 @@
 ||mx-vcode-or.vivoglobal.com^
 ||onrt-stsdk.vivoglobal.com^
 ||ort-stsdk.vivoglobal.com^
+||pe-api-stsdk.vivoglobal.com^
+||pe-err-up.vivoglobal.com^
+||pe-monitor-stsdk.vivoglobal.com^
+||pe-nrt-stsdk.vivoglobal.com^
+||pe-onrt-stsdk.vivoglobal.com^
+||pe-pnrt-stsdk.vivoglobal.com^
+||pe-prt-stsdk.vivoglobal.com^
+||pe-st-sl.vivoglobal.com^
+||pe-stsdk.vivoglobal.com^
 ||pnrt-stsdk.vivoglobal.com^
 ||prt-stsdk.vivoglobal.com^
 ||ro-up.vivoglobal.com^
 ||ru-album-api.vivoglobal.com^
 ||ru-analyzer-appstore.vivoglobal.com^
+||ru-api-stsdk.vivoglobal.com^
+||ru-apponrt-stsdk.vivoglobal.com^
+||ru-apport-stsdk.vivoglobal.com^
+||ru-apppnrt-stsdk.vivoglobal.com^
 ||ru-commonitor-stsdk.vivoglobal.com^
 ||ru-comonrt-stsdk.vivoglobal.com^
 ||ru-comort-stsdk.vivoglobal.com^
 ||ru-compnrt-stsdk.vivoglobal.com^
 ||ru-comprt-stsdk.vivoglobal.com^
 ||ru-cota.vivoglobal.com^
+||ru-ctdbonrt-stsdk.vivoglobal.com^
+||ru-ctdbort-stsdk.vivoglobal.com^
+||ru-ctdbpnrt-stsdk.vivoglobal.com^
+||ru-ctdbprt-stsdk.vivoglobal.com^
 ||ru-err-up.vivoglobal.com^
 ||ru-exstsdk.vivoglobal.com^
 ||ru-monitor-stsdk.vivoglobal.com^
+||ru-nrt-stsdk.vivoglobal.com^
 ||ru-onrt-stsdk.vivoglobal.com^
 ||ru-ort-stsdk.vivoglobal.com^
 ||ru-os-config-appstore.vivoglobal.com^
@@ -215,12 +269,15 @@
 ||ru-vcode-od.vivoglobal.com^
 ||ru-vcode-or.vivoglobal.com^
 ||sg-cfg-stsdk.vivoglobal.com^
+||st-sl.vivoglobal.com^
 ||stsdk.vivoglobal.com^
 ||tr-album-api.vivoglobal.com^
+||tr-api-stsdk.vivoglobal.com^
 ||tr-cota.vivoglobal.com^
 ||tr-domaincfg.vivoglobal.com^
 ||tr-err-up.vivoglobal.com^
 ||tr-gdpr-vgc-datacenter.vivoglobal.com^
+||tr-monitor-stsdk.vivoglobal.com^
 ||tr-onrt-stsdk.vivoglobal.com^
 ||tr-ort-stsdk.vivoglobal.com^
 ||tr-p.vivoglobal.com^
@@ -236,6 +293,9 @@
 ||tr-vcode-od.vivoglobal.com^
 ||tr-vcode-or.vivoglobal.com^
 ||tr-weather.vivoglobal.com^
+||uk-monitor-stsdk.vivoglobal.com^
+||uk-nrt-stsdk.vivoglobal.com^
+||uk-prt-stsdk.vivoglobal.com^
 ||uk-timesync.vivoglobal.com^
 ||xn-ex-adreq-asa-c5b.vivoglobal.com^
 ||za-p.vivoglobal.com^

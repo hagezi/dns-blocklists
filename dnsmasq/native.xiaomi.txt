@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 13 Nov 2026 04:09 UTC
-# Version: 2026.1113.0409.17
+# Last modified: 13 Nov 2026 19:30 UTC
+# Version: 2026.1113.1930.20
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 402
+# Number of entries: 410
 #
 local=/traffic-media.co.uk/
 local=/mistat.india.xiaomi.com.edgesuite.net/
@@ -204,6 +204,7 @@ local=/bigdata-lbs-pri-c3.alb.xiaomi.com/
 local=/global-ad-extranet-pri-azams.alb.xiaomi.com/
 local=/global-ad-extranet-pri-azpn.alb.xiaomi.com/
 local=/global-ad-intl-pri-alisgp.alb.xiaomi.com/
+local=/global-ad-pri-alisgp.alb.xiaomi.com/
 local=/awssgp0-files.fds.api.xiaomi.com/
 local=/cdn.fds.api.xiaomi.com/
 local=/awsusor0-cdn.fds-ssl.api.xiaomi.com/
@@ -268,8 +269,17 @@ local=/sdkconfig.india.xiaomi.com/
 local=/api.installer.xiaomi.com/
 local=/globalvideo.cdn.pandora.intl.xiaomi.com/
 local=/ruvideo.cdn.pandora.intl.xiaomi.com/
-local=/feedback.pt.intl.xiaomi.com/
+local=/br-miuilog.sms.intl.xiaomi.com/
+local=/id-miuilog.sms.intl.xiaomi.com/
 local=/in-miuilog.sms.intl.xiaomi.com/
+local=/mm-miuilog.sms.intl.xiaomi.com/
+local=/mx-miuilog.sms.intl.xiaomi.com/
+local=/my-miuilog.sms.intl.xiaomi.com/
+local=/ph-miuilog.sms.intl.xiaomi.com/
+local=/ru-miuilog.sms.intl.xiaomi.com/
+local=/th-miuilog.sms.intl.xiaomi.com/
+local=/tr-miuilog.sms.intl.xiaomi.com/
+local=/vn-miuilog.sms.intl.xiaomi.com/
 local=/sec-cdn.static.intl.xiaomi.net/
 local=/ad.intl.xiaomi.com/
 local=/mistat.intl.xiaomi.com/
@@ -370,12 +380,10 @@ local=/mibi.stat.pt.xiaomi.com/
 local=/staging.stat.pt.xiaomi.com/
 local=/bugreport.pt.xiaomi.com/
 local=/cdn-exp-sg-recommend.pt.xiaomi.com/
-local=/feedback.pt.xiaomi.com/
 local=/log.pt.xiaomi.com/
 local=/sentry.pt.xiaomi.com/
 local=/staging-analyze.pt.xiaomi.com/
 local=/sec.resource.xiaomi.net/
-local=/feedback.pt.rus.xiaomi.com/
 local=/ad.rus.xiaomi.com/
 local=/mistat.rus.xiaomi.com/
 local=/sdkconfig.rus.xiaomi.com/

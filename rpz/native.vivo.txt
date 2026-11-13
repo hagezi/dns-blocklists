@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794006060 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794598080 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 23:01 UTC
-; Version: 2026.1106.2301.32
+; Last modified: 13 Nov 2026 19:28 UTC
+; Version: 2026.1113.1928.45
 ; Syntax: RPZ
-; Number of entries: 486
+; Number of entries: 606
 ;
 h4g3z1-native-vivo.web.app CNAME .
 *.h4g3z1-native-vivo.web.app CNAME .
@@ -50,6 +50,8 @@ ads-api.vivo.com CNAME .
 *.ads-api.vivo.com CNAME .
 alliance-adreq-asia.vivoglobal.com CNAME .
 *.alliance-adreq-asia.vivoglobal.com CNAME .
+alliance-adreq-in.vivoglobal.com CNAME .
+*.alliance-adreq-in.vivoglobal.com CNAME .
 asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 *.asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 asia-abeacdataort-stsdk.vivoglobal.com CNAME .
@@ -64,6 +66,8 @@ asia-album-api.vivoglobal.com CNAME .
 *.asia-album-api.vivoglobal.com CNAME .
 asia-analyzer-appstore.vivoglobal.com CNAME .
 *.asia-analyzer-appstore.vivoglobal.com CNAME .
+asia-api-stsdk.vivoglobal.com CNAME .
+*.asia-api-stsdk.vivoglobal.com CNAME .
 asia-commonitor-stsdk.vivoglobal.com CNAME .
 *.asia-commonitor-stsdk.vivoglobal.com CNAME .
 asia-comonrt-stsdk.vivoglobal.com CNAME .
@@ -86,6 +90,8 @@ asia-monitor-stsdk.vivoglobal.com CNAME .
 *.asia-monitor-stsdk.vivoglobal.com CNAME .
 asia-news-abroad-backstage-interface.vivoglobal.com CNAME .
 *.asia-news-abroad-backstage-interface.vivoglobal.com CNAME .
+asia-nrt-stsdk.vivoglobal.com CNAME .
+*.asia-nrt-stsdk.vivoglobal.com CNAME .
 asia-onrt-stsdk.vivoglobal.com CNAME .
 *.asia-onrt-stsdk.vivoglobal.com CNAME .
 asia-ort-stsdk.vivoglobal.com CNAME .
@@ -100,6 +106,8 @@ asia-prt-stsdk.vivoglobal.com CNAME .
 *.asia-prt-stsdk.vivoglobal.com CNAME .
 asia-romsp-unifyconfig.vivoglobal.com CNAME .
 *.asia-romsp-unifyconfig.vivoglobal.com CNAME .
+asia-rt-stsdk.vivoglobal.com CNAME .
+*.asia-rt-stsdk.vivoglobal.com CNAME .
 asia-st-exappupgrade.vivoglobal.com CNAME .
 *.asia-st-exappupgrade.vivoglobal.com CNAME .
 asia-st-sl.vivoglobal.com CNAME .
@@ -120,8 +128,38 @@ asia-vpushonrt-stsdk.vivoglobal.com CNAME .
 *.asia-vpushonrt-stsdk.vivoglobal.com CNAME .
 asia-vpushort-stsdk.vivoglobal.com CNAME .
 *.asia-vpushort-stsdk.vivoglobal.com CNAME .
+au-analyzer-appstore.vivoglobal.com CNAME .
+*.au-analyzer-appstore.vivoglobal.com CNAME .
+au-err-up.vivoglobal.com CNAME .
+*.au-err-up.vivoglobal.com CNAME .
+au-nrt-stsdk.vivoglobal.com CNAME .
+*.au-nrt-stsdk.vivoglobal.com CNAME .
+au-ort-stsdk.vivoglobal.com CNAME .
+*.au-ort-stsdk.vivoglobal.com CNAME .
+au-pnrt-stsdk.vivoglobal.com CNAME .
+*.au-pnrt-stsdk.vivoglobal.com CNAME .
 br-p.vivoglobal.com CNAME .
 *.br-p.vivoglobal.com CNAME .
+cl-api-stsdk.vivoglobal.com CNAME .
+*.cl-api-stsdk.vivoglobal.com CNAME .
+cl-err-up.vivoglobal.com CNAME .
+*.cl-err-up.vivoglobal.com CNAME .
+cl-monitor-stsdk.vivoglobal.com CNAME .
+*.cl-monitor-stsdk.vivoglobal.com CNAME .
+cl-nrt-stsdk.vivoglobal.com CNAME .
+*.cl-nrt-stsdk.vivoglobal.com CNAME .
+cl-onrt-stsdk.vivoglobal.com CNAME .
+*.cl-onrt-stsdk.vivoglobal.com CNAME .
+cl-ort-stsdk.vivoglobal.com CNAME .
+*.cl-ort-stsdk.vivoglobal.com CNAME .
+cl-pnrt-stsdk.vivoglobal.com CNAME .
+*.cl-pnrt-stsdk.vivoglobal.com CNAME .
+cl-prt-stsdk.vivoglobal.com CNAME .
+*.cl-prt-stsdk.vivoglobal.com CNAME .
+cl-st-sl.vivoglobal.com CNAME .
+*.cl-st-sl.vivoglobal.com CNAME .
+cl-stsdk.vivoglobal.com CNAME .
+*.cl-stsdk.vivoglobal.com CNAME .
 cl-vcode-api.vivoglobal.com CNAME .
 *.cl-vcode-api.vivoglobal.com CNAME .
 cname-ali-asia-stsdk.vivoglobal.com CNAME .
@@ -146,16 +184,24 @@ cname-sin01-stsdk09.vivoglobal.com CNAME .
 *.cname-sin01-stsdk09.vivoglobal.com CNAME .
 co-album-api.vivoglobal.com CNAME .
 *.co-album-api.vivoglobal.com CNAME .
+co-api-stsdk.vivoglobal.com CNAME .
+*.co-api-stsdk.vivoglobal.com CNAME .
 co-cota.vivoglobal.com CNAME .
 *.co-cota.vivoglobal.com CNAME .
 co-domaincfg.vivoglobal.com CNAME .
 *.co-domaincfg.vivoglobal.com CNAME .
+co-monitor-stsdk.vivoglobal.com CNAME .
+*.co-monitor-stsdk.vivoglobal.com CNAME .
+co-nrt-stsdk.vivoglobal.com CNAME .
+*.co-nrt-stsdk.vivoglobal.com CNAME .
 co-onrt-stsdk.vivoglobal.com CNAME .
 *.co-onrt-stsdk.vivoglobal.com CNAME .
 co-ort-stsdk.vivoglobal.com CNAME .
 *.co-ort-stsdk.vivoglobal.com CNAME .
 co-pnrt-stsdk.vivoglobal.com CNAME .
 *.co-pnrt-stsdk.vivoglobal.com CNAME .
+co-prt-stsdk.vivoglobal.com CNAME .
+*.co-prt-stsdk.vivoglobal.com CNAME .
 co-romsp-unifyconfig.vivoglobal.com CNAME .
 *.co-romsp-unifyconfig.vivoglobal.com CNAME .
 co-st-sl.vivoglobal.com CNAME .
@@ -180,12 +226,16 @@ eu-album-api.vivoglobal.com CNAME .
 *.eu-album-api.vivoglobal.com CNAME .
 eu-api-stsdk.vivoglobal.com CNAME .
 *.eu-api-stsdk.vivoglobal.com CNAME .
+eu-cfg-stsdk.vivoglobal.com CNAME .
+*.eu-cfg-stsdk.vivoglobal.com CNAME .
 eu-cota.vivoglobal.com CNAME .
 *.eu-cota.vivoglobal.com CNAME .
 eu-domaincfg.vivoglobal.com CNAME .
 *.eu-domaincfg.vivoglobal.com CNAME .
 eu-errup.vivoglobal.com CNAME .
 *.eu-errup.vivoglobal.com CNAME .
+eu-monitor-stsdk.vivoglobal.com CNAME .
+*.eu-monitor-stsdk.vivoglobal.com CNAME .
 eu-nrt-stsdk.vivoglobal.com CNAME .
 *.eu-nrt-stsdk.vivoglobal.com CNAME .
 eu-onrt-stsdk.vivoglobal.com CNAME .
@@ -196,6 +246,8 @@ eu-p.vivoglobal.com CNAME .
 *.eu-p.vivoglobal.com CNAME .
 eu-pnrt-stsdk.vivoglobal.com CNAME .
 *.eu-pnrt-stsdk.vivoglobal.com CNAME .
+eu-prt-stsdk.vivoglobal.com CNAME .
+*.eu-prt-stsdk.vivoglobal.com CNAME .
 eu-romsp-unifyconfig.vivoglobal.com CNAME .
 *.eu-romsp-unifyconfig.vivoglobal.com CNAME .
 eu-st-sl.vivoglobal.com CNAME .
@@ -220,6 +272,16 @@ id-analyzer-appstore.vivoglobal.com CNAME .
 *.id-analyzer-appstore.vivoglobal.com CNAME .
 id-third-appstore.vivoglobal.com CNAME .
 *.id-third-appstore.vivoglobal.com CNAME .
+il-api-stsdk.vivoglobal.com CNAME .
+*.il-api-stsdk.vivoglobal.com CNAME .
+il-onrt-stsdk.vivoglobal.com CNAME .
+*.il-onrt-stsdk.vivoglobal.com CNAME .
+il-pnrt-stsdk.vivoglobal.com CNAME .
+*.il-pnrt-stsdk.vivoglobal.com CNAME .
+il-prt-stsdk.vivoglobal.com CNAME .
+*.il-prt-stsdk.vivoglobal.com CNAME .
+il-st-sl.vivoglobal.com CNAME .
+*.il-st-sl.vivoglobal.com CNAME .
 in-ad-mkt-vivofs.vivoglobal.com CNAME .
 *.in-ad-mkt-vivofs.vivoglobal.com CNAME .
 in-adlog.vivoglobal.com CNAME .
@@ -228,6 +290,8 @@ in-adreq.vivoglobal.com CNAME .
 *.in-adreq.vivoglobal.com CNAME .
 in-adsjssdk.vivoglobal.com CNAME .
 *.in-adsjssdk.vivoglobal.com CNAME .
+in-analyzer-appstore.vivoglobal.com CNAME .
+*.in-analyzer-appstore.vivoglobal.com CNAME .
 in-api-stsdk.vivoglobal.com CNAME .
 *.in-api-stsdk.vivoglobal.com CNAME .
 in-apponrt-stsdk.vivoglobal.com CNAME .
@@ -286,6 +350,10 @@ in-vpushonrt-stsdk.vivoglobal.com CNAME .
 *.in-vpushonrt-stsdk.vivoglobal.com CNAME .
 in-vpushort-stsdk.vivoglobal.com CNAME .
 *.in-vpushort-stsdk.vivoglobal.com CNAME .
+kz-analyzer-appstore.vivoglobal.com CNAME .
+*.kz-analyzer-appstore.vivoglobal.com CNAME .
+kz-api-stsdk.vivoglobal.com CNAME .
+*.kz-api-stsdk.vivoglobal.com CNAME .
 kz-cname-sin01-bigdata.vivoglobal.com CNAME .
 *.kz-cname-sin01-bigdata.vivoglobal.com CNAME .
 kz-cota.vivoglobal.com CNAME .
@@ -326,12 +394,16 @@ monitor-stsdk.vivoglobal.com CNAME .
 *.monitor-stsdk.vivoglobal.com CNAME .
 mx-album-api.vivoglobal.com CNAME .
 *.mx-album-api.vivoglobal.com CNAME .
+mx-api-stsdk.vivoglobal.com CNAME .
+*.mx-api-stsdk.vivoglobal.com CNAME .
 mx-cota.vivoglobal.com CNAME .
 *.mx-cota.vivoglobal.com CNAME .
 mx-domaincfg.vivoglobal.com CNAME .
 *.mx-domaincfg.vivoglobal.com CNAME .
 mx-err-up.vivoglobal.com CNAME .
 *.mx-err-up.vivoglobal.com CNAME .
+mx-nrt-stsdk.vivoglobal.com CNAME .
+*.mx-nrt-stsdk.vivoglobal.com CNAME .
 mx-onrt-stsdk.vivoglobal.com CNAME .
 *.mx-onrt-stsdk.vivoglobal.com CNAME .
 mx-ort-stsdk.vivoglobal.com CNAME .
@@ -358,6 +430,24 @@ onrt-stsdk.vivoglobal.com CNAME .
 *.onrt-stsdk.vivoglobal.com CNAME .
 ort-stsdk.vivoglobal.com CNAME .
 *.ort-stsdk.vivoglobal.com CNAME .
+pe-api-stsdk.vivoglobal.com CNAME .
+*.pe-api-stsdk.vivoglobal.com CNAME .
+pe-err-up.vivoglobal.com CNAME .
+*.pe-err-up.vivoglobal.com CNAME .
+pe-monitor-stsdk.vivoglobal.com CNAME .
+*.pe-monitor-stsdk.vivoglobal.com CNAME .
+pe-nrt-stsdk.vivoglobal.com CNAME .
+*.pe-nrt-stsdk.vivoglobal.com CNAME .
+pe-onrt-stsdk.vivoglobal.com CNAME .
+*.pe-onrt-stsdk.vivoglobal.com CNAME .
+pe-pnrt-stsdk.vivoglobal.com CNAME .
+*.pe-pnrt-stsdk.vivoglobal.com CNAME .
+pe-prt-stsdk.vivoglobal.com CNAME .
+*.pe-prt-stsdk.vivoglobal.com CNAME .
+pe-st-sl.vivoglobal.com CNAME .
+*.pe-st-sl.vivoglobal.com CNAME .
+pe-stsdk.vivoglobal.com CNAME .
+*.pe-stsdk.vivoglobal.com CNAME .
 pnrt-stsdk.vivoglobal.com CNAME .
 *.pnrt-stsdk.vivoglobal.com CNAME .
 prt-stsdk.vivoglobal.com CNAME .
@@ -368,6 +458,14 @@ ru-album-api.vivoglobal.com CNAME .
 *.ru-album-api.vivoglobal.com CNAME .
 ru-analyzer-appstore.vivoglobal.com CNAME .
 *.ru-analyzer-appstore.vivoglobal.com CNAME .
+ru-api-stsdk.vivoglobal.com CNAME .
+*.ru-api-stsdk.vivoglobal.com CNAME .
+ru-apponrt-stsdk.vivoglobal.com CNAME .
+*.ru-apponrt-stsdk.vivoglobal.com CNAME .
+ru-apport-stsdk.vivoglobal.com CNAME .
+*.ru-apport-stsdk.vivoglobal.com CNAME .
+ru-apppnrt-stsdk.vivoglobal.com CNAME .
+*.ru-apppnrt-stsdk.vivoglobal.com CNAME .
 ru-commonitor-stsdk.vivoglobal.com CNAME .
 *.ru-commonitor-stsdk.vivoglobal.com CNAME .
 ru-comonrt-stsdk.vivoglobal.com CNAME .
@@ -380,12 +478,22 @@ ru-comprt-stsdk.vivoglobal.com CNAME .
 *.ru-comprt-stsdk.vivoglobal.com CNAME .
 ru-cota.vivoglobal.com CNAME .
 *.ru-cota.vivoglobal.com CNAME .
+ru-ctdbonrt-stsdk.vivoglobal.com CNAME .
+*.ru-ctdbonrt-stsdk.vivoglobal.com CNAME .
+ru-ctdbort-stsdk.vivoglobal.com CNAME .
+*.ru-ctdbort-stsdk.vivoglobal.com CNAME .
+ru-ctdbpnrt-stsdk.vivoglobal.com CNAME .
+*.ru-ctdbpnrt-stsdk.vivoglobal.com CNAME .
+ru-ctdbprt-stsdk.vivoglobal.com CNAME .
+*.ru-ctdbprt-stsdk.vivoglobal.com CNAME .
 ru-err-up.vivoglobal.com CNAME .
 *.ru-err-up.vivoglobal.com CNAME .
 ru-exstsdk.vivoglobal.com CNAME .
 *.ru-exstsdk.vivoglobal.com CNAME .
 ru-monitor-stsdk.vivoglobal.com CNAME .
 *.ru-monitor-stsdk.vivoglobal.com CNAME .
+ru-nrt-stsdk.vivoglobal.com CNAME .
+*.ru-nrt-stsdk.vivoglobal.com CNAME .
 ru-onrt-stsdk.vivoglobal.com CNAME .
 *.ru-onrt-stsdk.vivoglobal.com CNAME .
 ru-ort-stsdk.vivoglobal.com CNAME .
@@ -418,10 +526,14 @@ ru-vcode-or.vivoglobal.com CNAME .
 *.ru-vcode-or.vivoglobal.com CNAME .
 sg-cfg-stsdk.vivoglobal.com CNAME .
 *.sg-cfg-stsdk.vivoglobal.com CNAME .
+st-sl.vivoglobal.com CNAME .
+*.st-sl.vivoglobal.com CNAME .
 stsdk.vivoglobal.com CNAME .
 *.stsdk.vivoglobal.com CNAME .
 tr-album-api.vivoglobal.com CNAME .
 *.tr-album-api.vivoglobal.com CNAME .
+tr-api-stsdk.vivoglobal.com CNAME .
+*.tr-api-stsdk.vivoglobal.com CNAME .
 tr-cota.vivoglobal.com CNAME .
 *.tr-cota.vivoglobal.com CNAME .
 tr-domaincfg.vivoglobal.com CNAME .
@@ -430,6 +542,8 @@ tr-err-up.vivoglobal.com CNAME .
 *.tr-err-up.vivoglobal.com CNAME .
 tr-gdpr-vgc-datacenter.vivoglobal.com CNAME .
 *.tr-gdpr-vgc-datacenter.vivoglobal.com CNAME .
+tr-monitor-stsdk.vivoglobal.com CNAME .
+*.tr-monitor-stsdk.vivoglobal.com CNAME .
 tr-onrt-stsdk.vivoglobal.com CNAME .
 *.tr-onrt-stsdk.vivoglobal.com CNAME .
 tr-ort-stsdk.vivoglobal.com CNAME .
@@ -460,6 +574,12 @@ tr-vcode-or.vivoglobal.com CNAME .
 *.tr-vcode-or.vivoglobal.com CNAME .
 tr-weather.vivoglobal.com CNAME .
 *.tr-weather.vivoglobal.com CNAME .
+uk-monitor-stsdk.vivoglobal.com CNAME .
+*.uk-monitor-stsdk.vivoglobal.com CNAME .
+uk-nrt-stsdk.vivoglobal.com CNAME .
+*.uk-nrt-stsdk.vivoglobal.com CNAME .
+uk-prt-stsdk.vivoglobal.com CNAME .
+*.uk-prt-stsdk.vivoglobal.com CNAME .
 uk-timesync.vivoglobal.com CNAME .
 *.uk-timesync.vivoglobal.com CNAME .
 err.up.vivoglobal.com CNAME .

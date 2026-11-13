@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794542220 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794597900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 03:57 UTC
-; Version: 2026.1113.0357.38
+; Last modified: 13 Nov 2026 19:25 UTC
+; Version: 2026.1113.1925.03
 ; Syntax: RPZ
-; Number of entries: 982
+; Number of entries: 1044
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -74,6 +74,8 @@ crypto-dsf-us.allawnos.com CNAME .
 *.crypto-dsf-us.allawnos.com CNAME .
 eap-log-in.allawnos.com CNAME .
 *.eap-log-in.allawnos.com CNAME .
+eap-log-ru.allawnos.com CNAME .
+*.eap-log-ru.allawnos.com CNAME .
 eap-log-sg.allawnos.com CNAME .
 *.eap-log-sg.allawnos.com CNAME .
 featureinfo-service-sg.allawnos.com CNAME .
@@ -244,6 +246,34 @@ moa-upload-online.coloros.com CNAME .
 *.moa-upload-online.coloros.com CNAME .
 moa-upload-online-in.coloros.com CNAME .
 *.moa-upload-online-in.coloros.com CNAME .
+br.ekatox.com CNAME .
+*.br.ekatox.com CNAME .
+g-api-eu.ekatox.com CNAME .
+*.g-api-eu.ekatox.com CNAME .
+g-api-in.ekatox.com CNAME .
+*.g-api-in.ekatox.com CNAME .
+g-api-ru.ekatox.com CNAME .
+*.g-api-ru.ekatox.com CNAME .
+hg-br.ekatox.com CNAME .
+*.hg-br.ekatox.com CNAME .
+hg-eu.ekatox.com CNAME .
+*.hg-eu.ekatox.com CNAME .
+hg-id.ekatox.com CNAME .
+*.hg-id.ekatox.com CNAME .
+hg-sa.ekatox.com CNAME .
+*.hg-sa.ekatox.com CNAME .
+hg-sg.ekatox.com CNAME .
+*.hg-sg.ekatox.com CNAME .
+hg-us.ekatox.com CNAME .
+*.hg-us.ekatox.com CNAME .
+id.ekatox.com CNAME .
+*.id.ekatox.com CNAME .
+ru.ekatox.com CNAME .
+*.ru.ekatox.com CNAME .
+sg.ekatox.com CNAME .
+*.sg.ekatox.com CNAME .
+us.ekatox.com CNAME .
+*.us.ekatox.com CNAME .
 finosfin.com CNAME .
 *.finosfin.com CNAME .
 i-insurance.finzfin.com CNAME .
@@ -604,10 +634,14 @@ adx-u-sg.heytapmobile.com CNAME .
 *.adx-u-sg.heytapmobile.com CNAME .
 adx-union-sg.heytapmobile.com CNAME .
 *.adx-union-sg.heytapmobile.com CNAME .
+adx-union-us.heytapmobile.com CNAME .
+*.adx-union-us.heytapmobile.com CNAME .
 adxh3-op-sg.heytapmobile.com CNAME .
 *.adxh3-op-sg.heytapmobile.com CNAME .
 adxu-bigo-sg.heytapmobile.com CNAME .
 *.adxu-bigo-sg.heytapmobile.com CNAME .
+bdapi-ads-in.heytapmobile.com CNAME .
+*.bdapi-ads-in.heytapmobile.com CNAME .
 bdapi-ads-sg.heytapmobile.com CNAME .
 *.bdapi-ads-sg.heytapmobile.com CNAME .
 cloudi-in.browser.heytapmobile.com CNAME .
@@ -668,6 +702,8 @@ browser-sdk-ru.heytapmobile.com CNAME .
 *.browser-sdk-ru.heytapmobile.com CNAME .
 bsp-di-in.heytapmobile.com CNAME .
 *.bsp-di-in.heytapmobile.com CNAME .
+bsp-di-us.heytapmobile.com CNAME .
+*.bsp-di-us.heytapmobile.com CNAME .
 cdo.heytapmobile.com CNAME .
 *.cdo.heytapmobile.com CNAME .
 cldata-ads-fr.heytapmobile.com CNAME .
@@ -870,16 +906,24 @@ conf-in-dc.heytapmobile.com CNAME .
 *.conf-in-dc.heytapmobile.com CNAME .
 u-id.cpc.heytapmobile.com CNAME .
 *.u-id.cpc.heytapmobile.com CNAME .
+u-th.cpc.heytapmobile.com CNAME .
+*.u-th.cpc.heytapmobile.com CNAME .
+u-vn.cpc.heytapmobile.com CNAME .
+*.u-vn.cpc.heytapmobile.com CNAME .
 dc.heytapmobile.com CNAME .
 *.dc.heytapmobile.com CNAME .
 dc-dragate-sg.heytapmobile.com CNAME .
 *.dc-dragate-sg.heytapmobile.com CNAME .
+dc-stat-eu.heytapmobile.com CNAME .
+*.dc-stat-eu.heytapmobile.com CNAME .
 dc-stat-in.heytapmobile.com CNAME .
 *.dc-stat-in.heytapmobile.com CNAME .
 dragate-in-dc.heytapmobile.com CNAME .
 *.dragate-in-dc.heytapmobile.com CNAME .
 api-id.game.heytapmobile.com CNAME .
 *.api-id.game.heytapmobile.com CNAME .
+jscatch-in-frontend.heytapmobile.com CNAME .
+*.jscatch-in-frontend.heytapmobile.com CNAME .
 jscatch-sg-frontend.heytapmobile.com CNAME .
 *.jscatch-sg-frontend.heytapmobile.com CNAME .
 mdp-usertrace-in.heytapmobile.com CNAME .
@@ -890,6 +934,8 @@ obus-conf-fr.heytapmobile.com CNAME .
 *.obus-conf-fr.heytapmobile.com CNAME .
 obus-conf-in.heytapmobile.com CNAME .
 *.obus-conf-in.heytapmobile.com CNAME .
+obus-conf-ru.heytapmobile.com CNAME .
+*.obus-conf-ru.heytapmobile.com CNAME .
 obus-conf-sg.heytapmobile.com CNAME .
 *.obus-conf-sg.heytapmobile.com CNAME .
 obus-conf-us.heytapmobile.com CNAME .
@@ -900,8 +946,12 @@ obus-config-sg.heytapmobile.com CNAME .
 *.obus-config-sg.heytapmobile.com CNAME .
 obus-dc-eu.heytapmobile.com CNAME .
 *.obus-dc-eu.heytapmobile.com CNAME .
+obus-dc-in.heytapmobile.com CNAME .
+*.obus-dc-in.heytapmobile.com CNAME .
 obus-dc-ru.heytapmobile.com CNAME .
 *.obus-dc-ru.heytapmobile.com CNAME .
+obus-dc-sg.heytapmobile.com CNAME .
+*.obus-dc-sg.heytapmobile.com CNAME .
 obus-dc-us.heytapmobile.com CNAME .
 *.obus-dc-us.heytapmobile.com CNAME .
 obus-dc121100-sg.heytapmobile.com CNAME .
@@ -920,6 +970,8 @@ obus-dc20305-in.heytapmobile.com CNAME .
 *.obus-dc20305-in.heytapmobile.com CNAME .
 obus-dc20305-sg.heytapmobile.com CNAME .
 *.obus-dc20305-sg.heytapmobile.com CNAME .
+obus-dctech-fr.heytapmobile.com CNAME .
+*.obus-dctech-fr.heytapmobile.com CNAME .
 obus-dctech-in.heytapmobile.com CNAME .
 *.obus-dctech-in.heytapmobile.com CNAME .
 obus-dctech-sg.heytapmobile.com CNAME .
@@ -934,6 +986,8 @@ obus-jssdk-fr.heytapmobile.com CNAME .
 *.obus-jssdk-fr.heytapmobile.com CNAME .
 obus-jssdk-in.heytapmobile.com CNAME .
 *.obus-jssdk-in.heytapmobile.com CNAME .
+obus-jssdk-ru.heytapmobile.com CNAME .
+*.obus-jssdk-ru.heytapmobile.com CNAME .
 obus-jssdk-sg.heytapmobile.com CNAME .
 *.obus-jssdk-sg.heytapmobile.com CNAME .
 obus-jssdk-us.heytapmobile.com CNAME .
@@ -972,6 +1026,8 @@ video-api-ru.heytapmobile.com CNAME .
 *.video-api-ru.heytapmobile.com CNAME .
 hizonetech.com CNAME .
 *.hizonetech.com CNAME .
+uc-track-ru.oneplus.com CNAME .
+*.uc-track-ru.oneplus.com CNAME .
 ads.oppomobile.com CNAME .
 *.ads.oppomobile.com CNAME .
 adsfs.oppomobile.com CNAME .
@@ -994,5 +1050,11 @@ dhfs-vn.oppomobile.com CNAME .
 *.dhfs-vn.oppomobile.com CNAME .
 dhfsf.oppomobile.com CNAME .
 *.dhfsf.oppomobile.com CNAME .
+adx-ads.realmemobile.com CNAME .
+*.adx-ads.realmemobile.com CNAME .
+adx-in-ads.realmemobile.com CNAME .
+*.adx-in-ads.realmemobile.com CNAME .
+data-ads.realmemobile.com CNAME .
+*.data-ads.realmemobile.com CNAME .
 sea-log-rcv.vansound.com CNAME .
 *.sea-log-rcv.vansound.com CNAME .

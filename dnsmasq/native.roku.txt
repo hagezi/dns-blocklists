@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 16 Oct 2026 22:09 UTC
-# Version: 2026.1016.2209.35
+# Last modified: 13 Nov 2026 19:28 UTC
+# Version: 2026.1113.1928.19
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 57
+# Number of entries: 64
 #
 local=/roku.adsmeasurement.com/
 local=/adeng-identity-prod3.bdp.roku.com/
@@ -18,19 +18,25 @@ local=/adeng-looker-dev-1003.bdp.roku.com/
 local=/adi-airflow.bdp.roku.com/
 local=/ads.beta.roku.com/
 local=/samples.voice.cti.roku.com/
+local=/ads.z.data.roku.com/
+local=/adx.z.data.roku.com/
 local=/ravm-staging.data.roku.com/
 local=/ads-cf-us-east-1.dev.delivery.roku.com/
 local=/ads-aka-us-east-1.delivery.roku.com/
 local=/ads-aka-us-west-2.delivery.roku.com/
 local=/ads-cf-us-east-1.delivery.roku.com/
+local=/ads-cf-us-east-2.delivery.roku.com/
 local=/ads-cf-us-west-2.delivery.roku.com/
 local=/ads-us-east-1.delivery.roku.com/
 local=/ads-us-east-2.delivery.roku.com/
 local=/ads-us-west-2.delivery.roku.com/
 local=/ads.gcp.roku.com/
+local=/logs.prod.ap.int.roku.com/
 local=/ad.usw2.qa.ap.int.roku.com/
 local=/ad.qa.ap.int.roku.com/
 local=/logs.qa.ap.int.roku.com/
+local=/ad-eng.prod.rpay.int.roku.com/
+local=/ad-eng.staging.rpay.int.roku.com/
 local=/advertising.qa.us-east-1.dev.msc.roku.com/
 local=/advertising-qa.us-east-1.dev.msc.roku.com/
 local=/advertising-v3-qa.us-east-1.dev.msc.roku.com/
@@ -50,6 +56,7 @@ local=/assets.sr.roku.com/
 local=/logs.sr.roku.com/
 local=/traces.sr.roku.com/
 local=/userdata.sr.roku.com/
+local=/giga.logs.staging.roku.com/
 local=/ads.staging.roku.com/
 local=/wwwimg.staging.roku.com/
 local=/pixel.staging.web.roku.com/
