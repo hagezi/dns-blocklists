@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 06 Nov 2026 23:04 UTC
-# Version: 2026.1106.2304.47
+# Last modified: 13 Nov 2026 04:09 UTC
+# Version: 2026.1113.0409.17
 # Syntax: Domains Wildcard (without subdomains)
-# Number of entries: 349
+# Number of entries: 402
 #
 *.traffic-media.co.uk
 *.mistat.india.xiaomi.com.edgesuite.net
@@ -38,11 +38,50 @@
 *.ad.intl.xiaomi.com.ksyna.net
 *.mistat.intl.xiaomi.com.ksyna.net
 *.mistat.rus.xiaomi.com.ksyna.net
+*.ad.intl.xiaomi.com.mgslb.com
 *.video.kts.g.mi.com
 *.d.g.mi.com
 *.migc.g.mi.com
 *.mis.g.mi.com
+*.at.tv.global.mi.com
+*.au.tv.global.mi.com
+*.be.tv.global.mi.com
+*.br.tv.global.mi.com
+*.by.tv.global.mi.com
+*.ca.tv.global.mi.com
+*.ch.tv.global.mi.com
+*.cl.tv.global.mi.com
+*.cr.tv.global.mi.com
+*.de.tv.global.mi.com
+*.eg.tv.global.mi.com
+*.es.tv.global.mi.com
+*.fr.tv.global.mi.com
+*.gb.tv.global.mi.com
+*.gr.tv.global.mi.com
+*.hk.tv.global.mi.com
+*.hr.tv.global.mi.com
+*.hu.tv.global.mi.com
+*.id.tv.global.mi.com
 *.in.tv.global.mi.com
+*.iq.tv.global.mi.com
+*.it.tv.global.mi.com
+*.mm.tv.global.mi.com
+*.mx.tv.global.mi.com
+*.my.tv.global.mi.com
+*.nl.tv.global.mi.com
+*.pk.tv.global.mi.com
+*.pl.tv.global.mi.com
+*.pt.tv.global.mi.com
+*.ru.tv.global.mi.com
+*.sa.tv.global.mi.com
+*.se.tv.global.mi.com
+*.sk.tv.global.mi.com
+*.th.tv.global.mi.com
+*.tr.tv.global.mi.com
+*.ua.tv.global.mi.com
+*.us.tv.global.mi.com
+*.vn.tv.global.mi.com
+*.za.tv.global.mi.com
 *.a.hl.mi.com
 *.idm.iot.mi.com
 *.api.jr.mi.com
@@ -51,6 +90,7 @@
 *.a.union.mi.com
 *.stat.youpin.mi.com
 *.ad.mi.com
+*.ads.mi.com
 *.e.mi.com
 *.pandora.mi.com
 *.resolver.gslb.mi-idc.com
@@ -99,12 +139,14 @@
 *.ip-info.ff.avast.sec.miui.com
 *.streamback.ff.avast.sec.miui.com
 *.cse.avlyun.sec.miui.com
+*.log-abroad.avlyun.sec.miui.com
 *.logupdate.avlyun.sec.miui.com
 *.update.avlyun.sec.miui.com
 *.auth.be.sec.miui.com
 *.protect.dev.sec.miui.com
 *.srv.greenguard.sec.miui.com
 *.app.greengurad.sec.miui.com
+*.info.analysis.kp.sec.miui.com
 *.r.sg.sec.miui.com
 *.adv.sec.miui.com
 *.api.sec.miui.com
@@ -141,6 +183,7 @@
 *.browser.miui.com
 *.events.miui.com
 *.feedback.miui.com
+*.huangye.miui.com
 *.hybrid.miui.com
 *.india.miui.com
 *.inf.miui.com
@@ -154,6 +197,7 @@
 *.tracking.miui.com
 *.h4g3z1-native-xiaomi.web.app
 *.api.ads.xiaomi.com
+*.monitor.pt.ai.xiaomi.com
 *.tracker.ai.xiaomi.com
 *.tracker-preview.ai.xiaomi.com
 *.bigdata-lbs-pri-c3.alb.xiaomi.com
@@ -180,20 +224,22 @@
 *.extranet.ap-southeast-1.miui-l7-feedback.d6ocem01vo.elb.xiaomi.com
 *.intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com
 *.extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com
+*.extranet.ap-south-1.miui-l7-feedback.gualne84bg.elb.xiaomi.com
 *.extranet.c4.miui-l7-feedback.izsagsovue.elb.xiaomi.com
 *.extranet.c3.bigdata-l7-trackservice.nbnpzmfyom.elb.xiaomi.com
 *.extranet.c4.miui-l7-feedback.q2fo3bs76f.elb.xiaomi.com
 *.extranet.ap-southeast-1.miui-l7-feedback.qkou0akepj.elb.xiaomi.com
 *.extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com
 *.extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com
+*.extranet.ap-south-1.miui-l7-feedback.y5qvxdjy6g.elb.xiaomi.com
 *.ad.eu.xiaomi.com
 *.sdkconfig.eu.xiaomi.com
 *.cdn.exp.xiaomi.com
 *.lxcdn.dl.files.xiaomi.net
-*.wl.voip.game.xiaomi.com
 *.data.game.xiaomi.com
 *.notice.game.xiaomi.com
 *.static.game.xiaomi.com
+*.voip.game.xiaomi.com
 *.wap.game.xiaomi.com
 *.idmb.app.chat.global.xiaomi.net
 *.resolver.msg.global.xiaomi.net
@@ -222,14 +268,14 @@
 *.api.installer.xiaomi.com
 *.globalvideo.cdn.pandora.intl.xiaomi.com
 *.ruvideo.cdn.pandora.intl.xiaomi.com
+*.feedback.pt.intl.xiaomi.com
 *.in-miuilog.sms.intl.xiaomi.com
 *.sec-cdn.static.intl.xiaomi.net
-*.h5-ru.video.intl.xiaomi.com
-*.ru.video.intl.xiaomi.com
 *.ad.intl.xiaomi.com
 *.mistat.intl.xiaomi.com
 *.sdkconfig.intl.xiaomi.com
 *.sys.intl.xiaomi.com
+*.video.intl.xiaomi.com
 *.secure.report.iss.xiaomi.com
 *.xadx.file.market.xiaomi.com
 *.a.market.xiaomi.com
@@ -256,8 +302,11 @@
 *.image.cdn.mvideo.xiaomi.com
 *.staging.appapi.n.xiaomi.com
 *.dev.staging.api.developer.n.xiaomi.com
+*.dev.market.n.xiaomi.com
+*.staging.market.n.xiaomi.com
 *.api.account.preview.n.xiaomi.net
 *.micloudevents.preview.n.xiaomi.com
+*.dev.api.zhuti.n.xiaomi.com
 *.staging.api.zhuti.n.xiaomi.com
 *.logs.n.xiaomi.com
 *.mon.n.xiaomi.com
@@ -265,7 +314,6 @@
 *.11-c3.bigdata.ctc.neo.xiaomi.com
 *.5-c3.bigdata.ctc.neo.xiaomi.com
 *.tj1.staging.nfcpay.xiaomi.com
-*.ad.cdn.pandora.xiaomi.com
 *.appstore.cdn.pandora.xiaomi.com
 *.gallery.cdn.pandora.xiaomi.com
 *.image.cdn.pandora.xiaomi.com
@@ -276,6 +324,7 @@
 *.ptmi.gitv.pandora.xiaomi.com
 *.live.miphone.pandora.xiaomi.com
 *.pull.mitv.pandora.xiaomi.com
+*.dvb.pre.pandora.xiaomi.com
 *.media.pre.pandora.xiaomi.com
 *.bsp.sasdc.pandora.xiaomi.com
 *.3rdupgrade.pandora.xiaomi.com
@@ -317,12 +366,16 @@
 *.monitor.scf.pt.xiaomi.com
 *.tj1.scf.pt.xiaomi.com
 *.tj1-new.scf.pt.xiaomi.com
+*.mibi.stat.pt.xiaomi.com
 *.staging.stat.pt.xiaomi.com
 *.bugreport.pt.xiaomi.com
 *.cdn-exp-sg-recommend.pt.xiaomi.com
+*.feedback.pt.xiaomi.com
 *.log.pt.xiaomi.com
+*.sentry.pt.xiaomi.com
 *.staging-analyze.pt.xiaomi.com
 *.sec.resource.xiaomi.net
+*.feedback.pt.rus.xiaomi.com
 *.ad.rus.xiaomi.com
 *.mistat.rus.xiaomi.com
 *.sdkconfig.rus.xiaomi.com

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794441180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794498360 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 11 Nov 2026 23:53 UTC
-; Version: 2026.1111.2353.39
+; Last modified: 12 Nov 2026 15:46 UTC
+; Version: 2026.1112.1546.44
 ; Syntax: RPZ
-; Number of entries: 7140
+; Number of entries: 7142
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -351,8 +351,12 @@ dns.chenu.ch CNAME .
 *.dns.chenu.ch CNAME .
 c.cicitt.ch CNAME .
 *.c.cicitt.ch CNAME .
-digitale-gesellschaft.ch CNAME .
-*.digitale-gesellschaft.ch CNAME .
+dns.digitale-gesellschaft.ch CNAME .
+*.dns.digitale-gesellschaft.ch CNAME .
+dns1.digitale-gesellschaft.ch CNAME .
+*.dns1.digitale-gesellschaft.ch CNAME .
+dns2.digitale-gesellschaft.ch CNAME .
+*.dns2.digitale-gesellschaft.ch CNAME .
 doh.immerda.ch CNAME .
 *.doh.immerda.ch CNAME .
 adg.jabertechnologies.ch CNAME .
@@ -4087,8 +4091,6 @@ faradns2.net CNAME .
 *.2.dnscrypt-cert.ffmuc.net CNAME .
 doh.ffmuc.net CNAME .
 *.doh.ffmuc.net CNAME .
-dot.ffmuc.net CNAME .
-*.dot.ffmuc.net CNAME .
 dns.flightspace.net CNAME .
 *.dns.flightspace.net CNAME .
 dns01.flm9.net CNAME .

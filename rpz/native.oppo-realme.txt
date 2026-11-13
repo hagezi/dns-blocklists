@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794223860 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794542220 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 09 Nov 2026 11:31 UTC
-; Version: 2026.1109.1131.40
+; Last modified: 13 Nov 2026 03:57 UTC
+; Version: 2026.1113.0357.38
 ; Syntax: RPZ
-; Number of entries: 978
+; Number of entries: 982
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -212,8 +212,10 @@ conn4.coloros.com CNAME .
 *.conn4.coloros.com CNAME .
 conn5.coloros.com CNAME .
 *.conn5.coloros.com CNAME .
-foreign.coloros.com CNAME .
-*.foreign.coloros.com CNAME .
+ota.foreign.coloros.com CNAME .
+*.ota.foreign.coloros.com CNAME .
+rus.foreign.coloros.com CNAME .
+*.rus.foreign.coloros.com CNAME .
 guif.coloros.com CNAME .
 *.guif.coloros.com CNAME .
 guif-eu.coloros.com CNAME .
@@ -638,6 +640,8 @@ browser-api-fr.heytapmobile.com CNAME .
 *.browser-api-fr.heytapmobile.com CNAME .
 browser-api-gl.heytapmobile.com CNAME .
 *.browser-api-gl.heytapmobile.com CNAME .
+browser-api-gl-01.heytapmobile.com CNAME .
+*.browser-api-gl-01.heytapmobile.com CNAME .
 browser-api-id.heytapmobile.com CNAME .
 *.browser-api-id.heytapmobile.com CNAME .
 browser-api-in.heytapmobile.com CNAME .

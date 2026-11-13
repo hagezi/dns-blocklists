@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794006240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794542940 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 06 Nov 2026 23:04 UTC
-; Version: 2026.1106.2304.47
+; Last modified: 13 Nov 2026 04:09 UTC
+; Version: 2026.1113.0409.17
 ; Syntax: RPZ
-; Number of entries: 698
+; Number of entries: 804
 ;
 h4g3z1-native-xiaomi.web.app CNAME .
 *.h4g3z1-native-xiaomi.web.app CNAME .
@@ -22,8 +22,12 @@ mistat.xiaomi.com.download.ks-cdn.com CNAME .
 *.mistat.xiaomi.com.download.ks-cdn.com CNAME .
 kuyun.com CNAME .
 *.kuyun.com CNAME .
+ad.intl.xiaomi.com.mgslb.com CNAME .
+*.ad.intl.xiaomi.com.mgslb.com CNAME .
 ad.mi.com CNAME .
 *.ad.mi.com CNAME .
+ads.mi.com CNAME .
+*.ads.mi.com CNAME .
 e.mi.com CNAME .
 *.e.mi.com CNAME .
 d.g.mi.com CNAME .
@@ -34,8 +38,84 @@ migc.g.mi.com CNAME .
 *.migc.g.mi.com CNAME .
 mis.g.mi.com CNAME .
 *.mis.g.mi.com CNAME .
+at.tv.global.mi.com CNAME .
+*.at.tv.global.mi.com CNAME .
+au.tv.global.mi.com CNAME .
+*.au.tv.global.mi.com CNAME .
+be.tv.global.mi.com CNAME .
+*.be.tv.global.mi.com CNAME .
+br.tv.global.mi.com CNAME .
+*.br.tv.global.mi.com CNAME .
+by.tv.global.mi.com CNAME .
+*.by.tv.global.mi.com CNAME .
+ca.tv.global.mi.com CNAME .
+*.ca.tv.global.mi.com CNAME .
+ch.tv.global.mi.com CNAME .
+*.ch.tv.global.mi.com CNAME .
+cl.tv.global.mi.com CNAME .
+*.cl.tv.global.mi.com CNAME .
+cr.tv.global.mi.com CNAME .
+*.cr.tv.global.mi.com CNAME .
+de.tv.global.mi.com CNAME .
+*.de.tv.global.mi.com CNAME .
+eg.tv.global.mi.com CNAME .
+*.eg.tv.global.mi.com CNAME .
+es.tv.global.mi.com CNAME .
+*.es.tv.global.mi.com CNAME .
+fr.tv.global.mi.com CNAME .
+*.fr.tv.global.mi.com CNAME .
+gb.tv.global.mi.com CNAME .
+*.gb.tv.global.mi.com CNAME .
+gr.tv.global.mi.com CNAME .
+*.gr.tv.global.mi.com CNAME .
+hk.tv.global.mi.com CNAME .
+*.hk.tv.global.mi.com CNAME .
+hr.tv.global.mi.com CNAME .
+*.hr.tv.global.mi.com CNAME .
+hu.tv.global.mi.com CNAME .
+*.hu.tv.global.mi.com CNAME .
+id.tv.global.mi.com CNAME .
+*.id.tv.global.mi.com CNAME .
 in.tv.global.mi.com CNAME .
 *.in.tv.global.mi.com CNAME .
+iq.tv.global.mi.com CNAME .
+*.iq.tv.global.mi.com CNAME .
+it.tv.global.mi.com CNAME .
+*.it.tv.global.mi.com CNAME .
+mm.tv.global.mi.com CNAME .
+*.mm.tv.global.mi.com CNAME .
+mx.tv.global.mi.com CNAME .
+*.mx.tv.global.mi.com CNAME .
+my.tv.global.mi.com CNAME .
+*.my.tv.global.mi.com CNAME .
+nl.tv.global.mi.com CNAME .
+*.nl.tv.global.mi.com CNAME .
+pk.tv.global.mi.com CNAME .
+*.pk.tv.global.mi.com CNAME .
+pl.tv.global.mi.com CNAME .
+*.pl.tv.global.mi.com CNAME .
+pt.tv.global.mi.com CNAME .
+*.pt.tv.global.mi.com CNAME .
+ru.tv.global.mi.com CNAME .
+*.ru.tv.global.mi.com CNAME .
+sa.tv.global.mi.com CNAME .
+*.sa.tv.global.mi.com CNAME .
+se.tv.global.mi.com CNAME .
+*.se.tv.global.mi.com CNAME .
+sk.tv.global.mi.com CNAME .
+*.sk.tv.global.mi.com CNAME .
+th.tv.global.mi.com CNAME .
+*.th.tv.global.mi.com CNAME .
+tr.tv.global.mi.com CNAME .
+*.tr.tv.global.mi.com CNAME .
+ua.tv.global.mi.com CNAME .
+*.ua.tv.global.mi.com CNAME .
+us.tv.global.mi.com CNAME .
+*.us.tv.global.mi.com CNAME .
+vn.tv.global.mi.com CNAME .
+*.vn.tv.global.mi.com CNAME .
+za.tv.global.mi.com CNAME .
+*.za.tv.global.mi.com CNAME .
 a.hl.mi.com CNAME .
 *.a.hl.mi.com CNAME .
 idm.iot.mi.com CNAME .
@@ -72,6 +152,8 @@ feedback.miui.com CNAME .
 *.feedback.miui.com CNAME .
 cdn1.static.home.miui.com CNAME .
 *.cdn1.static.home.miui.com CNAME .
+huangye.miui.com CNAME .
+*.huangye.miui.com CNAME .
 hybrid.miui.com CNAME .
 *.hybrid.miui.com CNAME .
 india.miui.com CNAME .
@@ -174,6 +256,8 @@ streamback.ff.avast.sec.miui.com CNAME .
 *.streamback.ff.avast.sec.miui.com CNAME .
 cse.avlyun.sec.miui.com CNAME .
 *.cse.avlyun.sec.miui.com CNAME .
+log-abroad.avlyun.sec.miui.com CNAME .
+*.log-abroad.avlyun.sec.miui.com CNAME .
 logupdate.avlyun.sec.miui.com CNAME .
 *.logupdate.avlyun.sec.miui.com CNAME .
 update.avlyun.sec.miui.com CNAME .
@@ -202,6 +286,8 @@ srv.greenguard.sec.miui.com CNAME .
 *.srv.greenguard.sec.miui.com CNAME .
 app.greengurad.sec.miui.com CNAME .
 *.app.greengurad.sec.miui.com CNAME .
+info.analysis.kp.sec.miui.com CNAME .
+*.info.analysis.kp.sec.miui.com CNAME .
 mazu.sec.miui.com CNAME .
 *.mazu.sec.miui.com CNAME .
 nav.sec.miui.com CNAME .
@@ -254,6 +340,8 @@ ad.xiaomi.com CNAME .
 *.ad.xiaomi.com CNAME .
 api.ads.xiaomi.com CNAME .
 *.api.ads.xiaomi.com CNAME .
+monitor.pt.ai.xiaomi.com CNAME .
+*.monitor.pt.ai.xiaomi.com CNAME .
 tracker.ai.xiaomi.com CNAME .
 *.tracker.ai.xiaomi.com CNAME .
 tracker-preview.ai.xiaomi.com CNAME .
@@ -308,6 +396,8 @@ intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com CNAME .
 *.intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com CNAME .
 extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com CNAME .
 *.extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com CNAME .
+extranet.ap-south-1.miui-l7-feedback.gualne84bg.elb.xiaomi.com CNAME .
+*.extranet.ap-south-1.miui-l7-feedback.gualne84bg.elb.xiaomi.com CNAME .
 extranet.c4.miui-l7-feedback.izsagsovue.elb.xiaomi.com CNAME .
 *.extranet.c4.miui-l7-feedback.izsagsovue.elb.xiaomi.com CNAME .
 extranet.c3.bigdata-l7-trackservice.nbnpzmfyom.elb.xiaomi.com CNAME .
@@ -320,6 +410,8 @@ extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 *.extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
 *.extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
+extranet.ap-south-1.miui-l7-feedback.y5qvxdjy6g.elb.xiaomi.com CNAME .
+*.extranet.ap-south-1.miui-l7-feedback.y5qvxdjy6g.elb.xiaomi.com CNAME .
 ad.eu.xiaomi.com CNAME .
 *.ad.eu.xiaomi.com CNAME .
 sdkconfig.eu.xiaomi.com CNAME .
@@ -332,8 +424,8 @@ notice.game.xiaomi.com CNAME .
 *.notice.game.xiaomi.com CNAME .
 static.game.xiaomi.com CNAME .
 *.static.game.xiaomi.com CNAME .
-wl.voip.game.xiaomi.com CNAME .
-*.wl.voip.game.xiaomi.com CNAME .
+voip.game.xiaomi.com CNAME .
+*.voip.game.xiaomi.com CNAME .
 wap.game.xiaomi.com CNAME .
 *.wap.game.xiaomi.com CNAME .
 api.xmpush.global.xiaomi.com CNAME .
@@ -398,16 +490,16 @@ globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.globalvideo.cdn.pandora.intl.xiaomi.com CNAME .
 ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
 *.ruvideo.cdn.pandora.intl.xiaomi.com CNAME .
+feedback.pt.intl.xiaomi.com CNAME .
+*.feedback.pt.intl.xiaomi.com CNAME .
 sdkconfig.intl.xiaomi.com CNAME .
 *.sdkconfig.intl.xiaomi.com CNAME .
 in-miuilog.sms.intl.xiaomi.com CNAME .
 *.in-miuilog.sms.intl.xiaomi.com CNAME .
 sys.intl.xiaomi.com CNAME .
 *.sys.intl.xiaomi.com CNAME .
-h5-ru.video.intl.xiaomi.com CNAME .
-*.h5-ru.video.intl.xiaomi.com CNAME .
-ru.video.intl.xiaomi.com CNAME .
-*.ru.video.intl.xiaomi.com CNAME .
+video.intl.xiaomi.com CNAME .
+*.video.intl.xiaomi.com CNAME .
 secure.report.iss.xiaomi.com CNAME .
 *.secure.report.iss.xiaomi.com CNAME .
 a.market.xiaomi.com CNAME .
@@ -456,12 +548,18 @@ dev.staging.api.developer.n.xiaomi.com CNAME .
 *.dev.staging.api.developer.n.xiaomi.com CNAME .
 logs.n.xiaomi.com CNAME .
 *.logs.n.xiaomi.com CNAME .
+dev.market.n.xiaomi.com CNAME .
+*.dev.market.n.xiaomi.com CNAME .
+staging.market.n.xiaomi.com CNAME .
+*.staging.market.n.xiaomi.com CNAME .
 mon.n.xiaomi.com CNAME .
 *.mon.n.xiaomi.com CNAME .
 micloudevents.preview.n.xiaomi.com CNAME .
 *.micloudevents.preview.n.xiaomi.com CNAME .
 report.n.xiaomi.com CNAME .
 *.report.n.xiaomi.com CNAME .
+dev.api.zhuti.n.xiaomi.com CNAME .
+*.dev.api.zhuti.n.xiaomi.com CNAME .
 staging.api.zhuti.n.xiaomi.com CNAME .
 *.staging.api.zhuti.n.xiaomi.com CNAME .
 11-c3.bigdata.ctc.neo.xiaomi.com CNAME .
@@ -484,8 +582,6 @@ c3-bgp.pandora.xiaomi.com CNAME .
 *.c3-bgp.pandora.xiaomi.com CNAME .
 c3mini.pandora.xiaomi.com CNAME .
 *.c3mini.pandora.xiaomi.com CNAME .
-ad.cdn.pandora.xiaomi.com CNAME .
-*.ad.cdn.pandora.xiaomi.com CNAME .
 appstore.cdn.pandora.xiaomi.com CNAME .
 *.appstore.cdn.pandora.xiaomi.com CNAME .
 gallery.cdn.pandora.xiaomi.com CNAME .
@@ -532,6 +628,8 @@ netcheck.pandora.xiaomi.com CNAME .
 *.netcheck.pandora.xiaomi.com CNAME .
 ottl7-l2.pandora.xiaomi.com CNAME .
 *.ottl7-l2.pandora.xiaomi.com CNAME .
+dvb.pre.pandora.xiaomi.com CNAME .
+*.dvb.pre.pandora.xiaomi.com CNAME .
 media.pre.pandora.xiaomi.com CNAME .
 *.media.pre.pandora.xiaomi.com CNAME .
 redirect.pandora.xiaomi.com CNAME .
@@ -566,6 +664,8 @@ bugreport.pt.xiaomi.com CNAME .
 *.bugreport.pt.xiaomi.com CNAME .
 cdn-exp-sg-recommend.pt.xiaomi.com CNAME .
 *.cdn-exp-sg-recommend.pt.xiaomi.com CNAME .
+feedback.pt.xiaomi.com CNAME .
+*.feedback.pt.xiaomi.com CNAME .
 tj1.staging.ins.pt.xiaomi.com CNAME .
 *.tj1.staging.ins.pt.xiaomi.com CNAME .
 log.pt.xiaomi.com CNAME .
@@ -582,8 +682,12 @@ tj1.scf.pt.xiaomi.com CNAME .
 *.tj1.scf.pt.xiaomi.com CNAME .
 tj1-new.scf.pt.xiaomi.com CNAME .
 *.tj1-new.scf.pt.xiaomi.com CNAME .
+sentry.pt.xiaomi.com CNAME .
+*.sentry.pt.xiaomi.com CNAME .
 staging-analyze.pt.xiaomi.com CNAME .
 *.staging-analyze.pt.xiaomi.com CNAME .
+mibi.stat.pt.xiaomi.com CNAME .
+*.mibi.stat.pt.xiaomi.com CNAME .
 staging.stat.pt.xiaomi.com CNAME .
 *.staging.stat.pt.xiaomi.com CNAME .
 qiye.xiaomi.com CNAME .
@@ -592,6 +696,8 @@ ad.rus.xiaomi.com CNAME .
 *.ad.rus.xiaomi.com CNAME .
 mistat.rus.xiaomi.com CNAME .
 *.mistat.rus.xiaomi.com CNAME .
+feedback.pt.rus.xiaomi.com CNAME .
+*.feedback.pt.rus.xiaomi.com CNAME .
 sdkconfig.rus.xiaomi.com CNAME .
 *.sdkconfig.rus.xiaomi.com CNAME .
 sdkconfig.xiaomi.com CNAME .

@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 09 Nov 2026 11:31 UTC
-# Version: 2026.1109.1131.40
+# Last modified: 13 Nov 2026 03:57 UTC
+# Version: 2026.1113.0357.38
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 489
+# Number of entries: 491
 #
 local=/classify-app-eu.allawnos.com/
 local=/classify-app-in.allawnos.com/
@@ -99,12 +99,13 @@ local=/conn-service-gl-01.allawntech.com/
 local=/smartcard.apps.coloros.com/
 local=/smartcardf.apps.coloros.com/
 local=/smartcardf-eu.apps.coloros.com/
+local=/ota.foreign.coloros.com/
+local=/rus.foreign.coloros.com/
 local=/conn1.coloros.com/
 local=/conn2.coloros.com/
 local=/conn3.coloros.com/
 local=/conn4.coloros.com/
 local=/conn5.coloros.com/
-local=/foreign.coloros.com/
 local=/guif.coloros.com/
 local=/guif-eu.coloros.com/
 local=/icota-eu.coloros.com/
@@ -325,6 +326,7 @@ local=/bdapi-ads-sg.heytapmobile.com/
 local=/browser-api-br.heytapmobile.com/
 local=/browser-api-fr.heytapmobile.com/
 local=/browser-api-gl.heytapmobile.com/
+local=/browser-api-gl-01.heytapmobile.com/
 local=/browser-api-id.heytapmobile.com/
 local=/browser-api-in.heytapmobile.com/
 local=/browser-api-my.heytapmobile.com/

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794471240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794557880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Nov 2026 08:14 UTC
-; Version: 2026.1112.0814.26
+; Last modified: 13 Nov 2026 08:18 UTC
+; Version: 2026.1113.0818.34
 ; Syntax: RPZ
-; Number of entries: 2198
+; Number of entries: 2190
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -54,10 +54,6 @@ ngrok-free.app CNAME .
 *.ngrok-free.app CNAME .
 on-fleek.app CNAME .
 *.on-fleek.app CNAME .
-pory.app CNAME .
-*.pory.app CNAME .
-softr.app CNAME .
-*.softr.app CNAME .
 staticrun.app CNAME .
 *.staticrun.app CNAME .
 teleporthq.app CNAME .
@@ -566,8 +562,6 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
-jimdofree.com CNAME .
-*.jimdofree.com CNAME .
 kesug.com CNAME .
 *.kesug.com CNAME .
 kiluweb.com CNAME .
@@ -620,8 +614,6 @@ myartsonline.com CNAME .
 *.myartsonline.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
-myclickfunnels.com CNAME .
-*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
@@ -1496,8 +1488,6 @@ xx.kg CNAME .
 *.xx.kg CNAME .
 de.ki CNAME .
 *.de.ki CNAME .
-dothome.co.kr CNAME .
-*.dothome.co.kr CNAME .
 kro.kr CNAME .
 *.kro.kr CNAME .
 me2.kr CNAME .
@@ -2038,6 +2028,8 @@ in.run CNAME .
 *.in.run CNAME .
 pancake.run CNAME .
 *.pancake.run CNAME .
+plasmic.run CNAME .
+*.plasmic.run CNAME .
 repl.run CNAME .
 *.repl.run CNAME .
 vn.run CNAME .
