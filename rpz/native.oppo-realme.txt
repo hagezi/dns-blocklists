@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794597900 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794681480 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 19:25 UTC
-; Version: 2026.1113.1925.03
+; Last modified: 14 Nov 2026 18:38 UTC
+; Version: 2026.1114.1838.14
 ; Syntax: RPZ
-; Number of entries: 1044
+; Number of entries: 1060
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -572,6 +572,8 @@ album-cn01a.ocloud.heytapmobi.com CNAME .
 *.album-cn01a.ocloud.heytapmobi.com CNAME .
 album-sg01a.ocloud.heytapmobi.com CNAME .
 *.album-sg01a.ocloud.heytapmobi.com CNAME .
+httpdns.ocloud.heytapmobi.com CNAME .
+*.httpdns.ocloud.heytapmobi.com CNAME .
 i-cn01a.ocloud.heytapmobi.com CNAME .
 *.i-cn01a.ocloud.heytapmobi.com CNAME .
 i-sg01a.ocloud.heytapmobi.com CNAME .
@@ -586,6 +588,8 @@ dcintl.push.heytapmobi.com CNAME .
 *.dcintl.push.heytapmobi.com CNAME .
 device-ups.push.heytapmobi.com CNAME .
 *.device-ups.push.heytapmobi.com CNAME .
+httpdns.push.heytapmobi.com CNAME .
+*.httpdns.push.heytapmobi.com CNAME .
 id.push.heytapmobi.com CNAME .
 *.id.push.heytapmobi.com CNAME .
 userprofile.push.heytapmobi.com CNAME .
@@ -922,6 +926,14 @@ dragate-in-dc.heytapmobile.com CNAME .
 *.dragate-in-dc.heytapmobile.com CNAME .
 api-id.game.heytapmobile.com CNAME .
 *.api-id.game.heytapmobile.com CNAME .
+htms.heytapmobile.com CNAME .
+*.htms.heytapmobile.com CNAME .
+httpdns-euex-push.heytapmobile.com CNAME .
+*.httpdns-euex-push.heytapmobile.com CNAME .
+httpdns-ocloud.heytapmobile.com CNAME .
+*.httpdns-ocloud.heytapmobile.com CNAME .
+httpdns-push.heytapmobile.com CNAME .
+*.httpdns-push.heytapmobile.com CNAME .
 jscatch-in-frontend.heytapmobile.com CNAME .
 *.jscatch-in-frontend.heytapmobile.com CNAME .
 jscatch-sg-frontend.heytapmobile.com CNAME .
@@ -994,6 +1006,8 @@ obus-jssdk-us.heytapmobile.com CNAME .
 *.obus-jssdk-us.heytapmobile.com CNAME .
 omes-sec.heytapmobile.com CNAME .
 *.omes-sec.heytapmobile.com CNAME .
+oop-installer-gl.heytapmobile.com CNAME .
+*.oop-installer-gl.heytapmobile.com CNAME .
 opay.heytapmobile.com CNAME .
 *.opay.heytapmobile.com CNAME .
 api-id.play.heytapmobile.com CNAME .
@@ -1024,6 +1038,8 @@ video-api-in.heytapmobile.com CNAME .
 *.video-api-in.heytapmobile.com CNAME .
 video-api-ru.heytapmobile.com CNAME .
 *.video-api-ru.heytapmobile.com CNAME .
+virusinfo-cloudscan-in.heytapmobile.com CNAME .
+*.virusinfo-cloudscan-in.heytapmobile.com CNAME .
 hizonetech.com CNAME .
 *.hizonetech.com CNAME .
 uc-track-ru.oneplus.com CNAME .
