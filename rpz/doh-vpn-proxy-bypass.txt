@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794608280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794646500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 22:18 UTC
-; Version: 2026.1113.2218.07
+; Last modified: 14 Nov 2026 08:55 UTC
+; Version: 2026.1114.0855.55
 ; Syntax: RPZ
-; Number of entries: 33012
+; Number of entries: 33050
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -2153,6 +2153,8 @@ dns.fsociety.club CNAME .
 *.dns.fsociety.club CNAME .
 g01-cn.club CNAME .
 *.g01-cn.club CNAME .
+diegito.glandelinnia.club CNAME .
+*.diegito.glandelinnia.club CNAME .
 gogoo.club CNAME .
 *.gogoo.club CNAME .
 gtag.club CNAME .
@@ -8105,6 +8107,8 @@ resolver.haringstad.com CNAME .
 *.resolver.haringstad.com CNAME .
 resolver-eu.haringstad.com CNAME .
 *.resolver-eu.haringstad.com CNAME .
+harmonygrandeurproxy.com CNAME .
+*.harmonygrandeurproxy.com CNAME .
 harvest-moon-market.com CNAME .
 *.harvest-moon-market.com CNAME .
 harvestinflate.com CNAME .
@@ -8617,10 +8621,14 @@ i924nv6t.com CNAME .
 *.i924nv6t.com CNAME .
 iajee.com CNAME .
 *.iajee.com CNAME .
+dns.iakovf1.com CNAME .
+*.dns.iakovf1.com CNAME .
 ianmwxbj.com CNAME .
 *.ianmwxbj.com CNAME .
 iapure.com CNAME .
 *.iapure.com CNAME .
+novahistory.ibernoticias.com CNAME .
+*.novahistory.ibernoticias.com CNAME .
 link-five.ibewlocalzero.com CNAME .
 *.link-five.ibewlocalzero.com CNAME .
 link-four.ibewlocalzero.com CNAME .
@@ -9317,6 +9325,8 @@ kk98njtt.com CNAME .
 *.kk98njtt.com CNAME .
 rally.kllevr.com CNAME .
 *.rally.kllevr.com CNAME .
+klpc-letsvpn.com CNAME .
+*.klpc-letsvpn.com CNAME .
 klvpn-app.com CNAME .
 *.klvpn-app.com CNAME .
 klvpn-pc.com CNAME .
@@ -10193,6 +10203,8 @@ mainssh.com CNAME .
 *.mainssh.com CNAME .
 dns.malhuda.com CNAME .
 *.dns.malhuda.com CNAME .
+malinavpn.com CNAME .
+*.malinavpn.com CNAME .
 mallocapp.com CNAME .
 *.mallocapp.com CNAME .
 mallocprivacy.com CNAME .
@@ -12737,6 +12749,10 @@ snowproxy.com CNAME .
 *.snowproxy.com CNAME .
 dove.soapagent.com CNAME .
 *.dove.soapagent.com CNAME .
+dove.soapclient.com CNAME .
+*.dove.soapclient.com CNAME .
+signup.soapclient.com CNAME .
+*.signup.soapclient.com CNAME .
 soax.com CNAME .
 *.soax.com CNAME .
 socketprovpn.com CNAME .
@@ -14249,6 +14265,8 @@ vpnside.com CNAME .
 *.vpnside.com CNAME .
 vpnsites.com CNAME .
 *.vpnsites.com CNAME .
+vpnslotgacor.com CNAME .
+*.vpnslotgacor.com CNAME .
 vpnspa.com CNAME .
 *.vpnspa.com CNAME .
 vpnstunnel.com CNAME .
@@ -15249,6 +15267,8 @@ zrackrmr.com CNAME .
 *.zrackrmr.com CNAME .
 zspeed-cdn.com CNAME .
 *.zspeed-cdn.com CNAME .
+zuravpn.com CNAME .
+*.zuravpn.com CNAME .
 zwyr157wwiu6eior.com CNAME .
 *.zwyr157wwiu6eior.com CNAME .
 zwytzjjz.com CNAME .
@@ -15819,6 +15839,8 @@ ultimatearca.de CNAME .
 *.ultimatearca.de CNAME .
 ines.zfn.uni-bremen.de CNAME .
 *.ines.zfn.uni-bremen.de CNAME .
+v2ny.de CNAME .
+*.v2ny.de CNAME .
 dns.vault81.de CNAME .
 *.dns.vault81.de CNAME .
 yuzu-4.vpn64.de CNAME .
@@ -16477,6 +16499,8 @@ xray.krnl.eu CNAME .
 *.xray.krnl.eu CNAME .
 ns.kubiskap.eu CNAME .
 *.ns.kubiskap.eu CNAME .
+ledns.eu CNAME .
+*.ledns.eu CNAME .
 dnsserver.mailchan.eu CNAME .
 *.dnsserver.mailchan.eu CNAME .
 mfimail.eu CNAME .
@@ -23317,6 +23341,8 @@ us-sj.foxyfy.net CNAME .
 *.us-sj.foxyfy.net CNAME .
 fproxy.net CNAME .
 *.fproxy.net CNAME .
+free-planet-vpn.net CNAME .
+*.free-planet-vpn.net CNAME .
 free-vpn-planet.net CNAME .
 *.free-vpn-planet.net CNAME .
 free-vpnplanet.net CNAME .
@@ -25291,6 +25317,8 @@ gullible.online CNAME .
 *.gullible.online CNAME .
 herkes.online CNAME .
 *.herkes.online CNAME .
+homesetupvpn.online CNAME .
+*.homesetupvpn.online CNAME .
 hsnjx4a.online CNAME .
 *.hsnjx4a.online CNAME .
 ibdwcewgnkujqnzfsxxa.online CNAME .
@@ -25339,6 +25367,8 @@ morivpn.online CNAME .
 *.morivpn.online CNAME .
 dns.muzmx.online CNAME .
 *.dns.muzmx.online CNAME .
+myau-vpn.online CNAME .
+*.myau-vpn.online CNAME .
 dns.mydas.online CNAME .
 *.dns.mydas.online CNAME .
 myhalo.online CNAME .
@@ -28943,6 +28973,8 @@ veltrisia.ru CNAME .
 *.veltrisia.ru CNAME .
 vernikpro.ru CNAME .
 *.vernikpro.ru CNAME .
+vexiro.ru CNAME .
+*.vexiro.ru CNAME .
 vezarys.ru CNAME .
 *.vezarys.ru CNAME .
 dns.vk09.ru CNAME .
@@ -29709,8 +29741,6 @@ bizdomain.store CNAME .
 *.bizdomain.store CNAME .
 calculra.store CNAME .
 *.calculra.store CNAME .
-do-not-block.store CNAME .
-*.do-not-block.store CNAME .
 dobaster1.store CNAME .
 *.dobaster1.store CNAME .
 douyin-update.store CNAME .
@@ -32609,6 +32639,8 @@ proxymtprototg.xyz CNAME .
 *.proxymtprototg.xyz CNAME .
 proxytrue.xyz CNAME .
 *.proxytrue.xyz CNAME .
+proxywebsite.xyz CNAME .
+*.proxywebsite.xyz CNAME .
 punchb.xyz CNAME .
 *.punchb.xyz CNAME .
 pure-jsq.xyz CNAME .
@@ -32861,8 +32893,12 @@ vpnjunkie.xyz CNAME .
 *.vpnjunkie.xyz CNAME .
 vpnmir.xyz CNAME .
 *.vpnmir.xyz CNAME .
+vpnreview.xyz CNAME .
+*.vpnreview.xyz CNAME .
 vpnspeaks.xyz CNAME .
 *.vpnspeaks.xyz CNAME .
+vpntarget.xyz CNAME .
+*.vpntarget.xyz CNAME .
 overcloaked.was-on-decayeds-island.xyz CNAME .
 *.overcloaked.was-on-decayeds-island.xyz CNAME .
 web3vpn.xyz CNAME .
@@ -32913,6 +32949,8 @@ youtu1.xyz CNAME .
 *.youtu1.xyz CNAME .
 adguard.yuki2th.xyz CNAME .
 *.adguard.yuki2th.xyz CNAME .
+zangyovpn.xyz CNAME .
+*.zangyovpn.xyz CNAME .
 zapov2.xyz CNAME .
 *.zapov2.xyz CNAME .
 zavento.xyz CNAME .

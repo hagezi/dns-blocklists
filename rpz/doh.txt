@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794498360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794646500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 12 Nov 2026 15:46 UTC
-; Version: 2026.1112.1546.44
+; Last modified: 14 Nov 2026 08:55 UTC
+; Version: 2026.1114.0855.38
 ; Syntax: RPZ
-; Number of entries: 7142
+; Number of entries: 7146
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1225,6 +1225,8 @@ dns.huyizhou.com CNAME .
 *.dns.huyizhou.com CNAME .
 dns.hyas.com CNAME .
 *.dns.hyas.com CNAME .
+dns.iakovf1.com CNAME .
+*.dns.iakovf1.com CNAME .
 mask.icloud.com CNAME .
 *.mask.icloud.com CNAME .
 mask-canary.icloud.com CNAME .
@@ -2597,6 +2599,8 @@ xray.krnl.eu CNAME .
 *.xray.krnl.eu CNAME .
 ns.kubiskap.eu CNAME .
 *.ns.kubiskap.eu CNAME .
+ledns.eu CNAME .
+*.ledns.eu CNAME .
 dnsserver.mailchan.eu CNAME .
 *.dnsserver.mailchan.eu CNAME .
 mfimail.eu CNAME .

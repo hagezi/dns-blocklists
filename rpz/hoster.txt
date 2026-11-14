@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794557880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794644340 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 08:18 UTC
-; Version: 2026.1113.0818.34
+; Last modified: 14 Nov 2026 08:19 UTC
+; Version: 2026.1114.0819.59
 ; Syntax: RPZ
-; Number of entries: 2190
+; Number of entries: 2198
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -538,6 +538,8 @@ hyperphp.com CNAME .
 *.hyperphp.com CNAME .
 iceiy.com CNAME .
 *.iceiy.com CNAME .
+imageurlhost.com CNAME .
+*.imageurlhost.com CNAME .
 infinityfreeapp.com CNAME .
 *.infinityfreeapp.com CNAME .
 instantfreesite.com CNAME .
@@ -680,6 +682,8 @@ securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
 *.seite.com CNAME .
+serpgold.com CNAME .
+*.serpgold.com CNAME .
 sharkserve.com CNAME .
 *.sharkserve.com CNAME .
 sitepalace.com CNAME .
@@ -714,6 +718,8 @@ twilightparadox.com CNAME .
 *.twilightparadox.com CNAME .
 ubpages.com CNAME .
 *.ubpages.com CNAME .
+ucoz.com CNAME .
+*.ucoz.com CNAME .
 ueuo.com CNAME .
 *.ueuo.com CNAME .
 unaux.com CNAME .
@@ -2034,6 +2040,8 @@ repl.run CNAME .
 *.repl.run CNAME .
 vn.run CNAME .
 *.vn.run CNAME .
+ipfs.best-practice.se CNAME .
+*.ipfs.best-practice.se CNAME .
 rapidshare.se CNAME .
 *.rapidshare.se CNAME .
 download.sh CNAME .

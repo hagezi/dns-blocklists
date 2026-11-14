@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794556620 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794643080 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 07:57 UTC
-; Version: 2026.1113.0757.58
+; Last modified: 14 Nov 2026 07:58 UTC
+; Version: 2026.1114.0758.56
 ; Syntax: RPZ
-; Number of entries: 19568
+; Number of entries: 19588
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1263,6 +1263,8 @@ s.bw CNAME .
 *.s.bw CNAME .
 blck.by CNAME .
 *.blck.by CNAME .
+blur.by CNAME .
+*.blur.by CNAME .
 cayim.by CNAME .
 *.cayim.by CNAME .
 cut.by CNAME .
@@ -2683,6 +2685,8 @@ politi.co CNAME .
 *.politi.co CNAME .
 popfeed.co CNAME .
 *.popfeed.co CNAME .
+potong.co CNAME .
+*.potong.co CNAME .
 prgress.co CNAME .
 *.prgress.co CNAME .
 prjsi.co CNAME .
@@ -3221,6 +3225,8 @@ alien-traffic.com CNAME .
 *.alien-traffic.com CNAME .
 alientraffic.com CNAME .
 *.alientraffic.com CNAME .
+aliexpi.com CNAME .
+*.aliexpi.com CNAME .
 alishort.com CNAME .
 *.alishort.com CNAME .
 s.alkapida.com CNAME .
@@ -5161,6 +5167,8 @@ linply.com CNAME .
 *.linply.com CNAME .
 linqry.com CNAME .
 *.linqry.com CNAME .
+lintlink.com CNAME .
+*.lintlink.com CNAME .
 linxonly.com CNAME .
 *.linxonly.com CNAME .
 lisar.lisaraeswan.com CNAME .
@@ -7437,6 +7445,8 @@ vurlz.com CNAME .
 *.vurlz.com CNAME .
 vytext.com CNAME .
 *.vytext.com CNAME .
+w0of-woof.com CNAME .
+*.w0of-woof.com CNAME .
 w2link.com CNAME .
 *.w2link.com CNAME .
 w3dv.com CNAME .
@@ -9977,6 +9987,8 @@ shortpro.in CNAME .
 *.shortpro.in CNAME .
 shortr.in CNAME .
 *.shortr.in CNAME .
+shotcut.in CNAME .
+*.shotcut.in CNAME .
 shrinkforearn.in CNAME .
 *.shrinkforearn.in CNAME .
 shrinkme.in CNAME .
@@ -15357,6 +15369,8 @@ yoretube.net CNAME .
 *.yoretube.net CNAME .
 yourateus.net CNAME .
 *.yourateus.net CNAME .
+yourls.net CNAME .
+*.yourls.net CNAME .
 z9n.net CNAME .
 *.z9n.net CNAME .
 zapurl.net CNAME .
@@ -19009,6 +19023,8 @@ whstlr.us CNAME .
 *.whstlr.us CNAME .
 wigb.us CNAME .
 *.wigb.us CNAME .
+wlink.us CNAME .
+*.wlink.us CNAME .
 x89.us CNAME .
 *.x89.us CNAME .
 xcrl.us CNAME .
@@ -19389,6 +19405,8 @@ fkjp.5ab.xyz CNAME .
 *.71a.xyz CNAME .
 abbrefy.xyz CNAME .
 *.abbrefy.xyz CNAME .
+akunjpvip.xyz CNAME .
+*.akunjpvip.xyz CNAME .
 alldomainwhois.xyz CNAME .
 *.alldomainwhois.xyz CNAME .
 amritlink.xyz CNAME .
@@ -19451,6 +19469,8 @@ kyshort.xyz CNAME .
 *.kyshort.xyz CNAME .
 l6dh.xyz CNAME .
 *.l6dh.xyz CNAME .
+lillink.xyz CNAME .
+*.lillink.xyz CNAME .
 linkdpx.xyz CNAME .
 *.linkdpx.xyz CNAME .
 linkis.xyz CNAME .
