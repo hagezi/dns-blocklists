@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794700140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794732960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 14 Nov 2026 23:49 UTC
-; Version: 2026.1114.2349.32
+; Last modified: 15 Nov 2026 08:56 UTC
+; Version: 2026.1115.0856.44
 ; Syntax: RPZ
-; Number of entries: 7150
+; Number of entries: 7132
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -165,8 +165,6 @@ ad.tzockt.beer CNAME .
 *.ad.tzockt.beer CNAME .
 dns.schlagheck.berlin CNAME .
 *.dns.schlagheck.berlin CNAME .
-doh.361.best CNAME .
-*.doh.361.best CNAME .
 doh.best CNAME .
 *.doh.best CNAME .
 appart.yoannchappaz.best CNAME .
@@ -305,8 +303,6 @@ bt.luoo.cc CNAME .
 *.bt.luoo.cc CNAME .
 maxfong.cc CNAME .
 *.maxfong.cc CNAME .
-nl-nod2.mineweb.cc CNAME .
-*.nl-nod2.mineweb.cc CNAME .
 dns.mytest.cc CNAME .
 *.dns.mytest.cc CNAME .
 dns.niccoli.cc CNAME .
@@ -1711,8 +1707,6 @@ dns.rayanbab.com CNAME .
 *.dns.rayanbab.com CNAME .
 hk.reaticle.com CNAME .
 *.hk.reaticle.com CNAME .
-adg.rednetline.com CNAME .
-*.adg.rednetline.com CNAME .
 dns.renardyre.com CNAME .
 *.dns.renardyre.com CNAME .
 dns.repinger.com CNAME .
@@ -3111,8 +3105,6 @@ dns.joindns4.in CNAME .
 *.dns.joindns4.in CNAME .
 dns.kapite.in CNAME .
 *.dns.kapite.in CNAME .
-dns.mailcastle.in CNAME .
-*.dns.mailcastle.in CNAME .
 dns.mcnerds.in CNAME .
 *.dns.mcnerds.in CNAME .
 doh.micronets.in CNAME .
@@ -4771,8 +4763,6 @@ pdnssrvagh.online CNAME .
 *.pdnssrvagh.online CNAME .
 petinom.online CNAME .
 *.petinom.online CNAME .
-dns.romareyme.online CNAME .
-*.dns.romareyme.online CNAME .
 dns.sales-kbr.online CNAME .
 *.dns.sales-kbr.online CNAME .
 shadowart.online CNAME .
@@ -5183,8 +5173,6 @@ hkg.hytec.org CNAME .
 *.hkg.hytec.org CNAME .
 ur.hytec.org CNAME .
 *.ur.hytec.org CNAME .
-serv0.ingener002.ip-dynamic.org CNAME .
-*.serv0.ingener002.ip-dynamic.org CNAME .
 josephfamily.org CNAME .
 *.josephfamily.org CNAME .
 joshberg.org CNAME .
@@ -6421,18 +6409,12 @@ ad.fai001.top CNAME .
 *.ad.fai001.top CNAME .
 ychk.ft1991.top CNAME .
 *.ychk.ft1991.top CNAME .
-gibblets.top CNAME .
-*.gibblets.top CNAME .
 gigatapbot.top CNAME .
 *.gigatapbot.top CNAME .
-glacius.top CNAME .
-*.glacius.top CNAME .
 cloud.gqwyq.top CNAME .
 *.cloud.gqwyq.top CNAME .
 dns-us.ibmcloud.top CNAME .
 *.dns-us.ibmcloud.top CNAME .
-imperio.top CNAME .
-*.imperio.top CNAME .
 ai.in3377.top CNAME .
 *.ai.in3377.top CNAME .
 adguardhome.ittoolman.top CNAME .
