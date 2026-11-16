@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794786540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794819600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Nov 2026 23:49 UTC
-; Version: 2026.1115.2349.06
+; Last modified: 16 Nov 2026 09:00 UTC
+; Version: 2026.1116.0900.54
 ; Syntax: RPZ
-; Number of entries: 32902
+; Number of entries: 32916
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -7975,6 +7975,8 @@ gruvpn.com CNAME .
 *.gruvpn.com CNAME .
 gsbdgef.com CNAME .
 *.gsbdgef.com CNAME .
+gscloud-vpn.com CNAME .
+*.gscloud-vpn.com CNAME .
 gsd92gov.com CNAME .
 *.gsd92gov.com CNAME .
 gtfyeca.com CNAME .
@@ -11727,6 +11729,8 @@ adg.proprietarypenguin.com CNAME .
 *.adg.proprietarypenguin.com CNAME .
 dns.proprietarypenguin.com CNAME .
 *.dns.proprietarypenguin.com CNAME .
+prosvetvpn.com CNAME .
+*.prosvetvpn.com CNAME .
 vpn.protondownload.com CNAME .
 *.vpn.protondownload.com CNAME .
 protonvpn.com CNAME .
@@ -12021,6 +12025,8 @@ qodami.com CNAME .
 *.qodami.com CNAME .
 qpadf.com CNAME .
 *.qpadf.com CNAME .
+qproxy.com CNAME .
+*.qproxy.com CNAME .
 dns.qq.com CNAME .
 *.dns.qq.com CNAME .
 httpdns.kg.qq.com CNAME .
@@ -12551,6 +12557,8 @@ shandianjiasu.com CNAME .
 *.shandianjiasu.com CNAME .
 shandianpro.com CNAME .
 *.shandianpro.com CNAME .
+shandiianvpn.com CNAME .
+*.shandiianvpn.com CNAME .
 shanyangvpn.com CNAME .
 *.shanyangvpn.com CNAME .
 shareaha1.com CNAME .
@@ -12633,6 +12641,8 @@ the.simplecharity.com CNAME .
 *.the.simplecharity.com CNAME .
 simplexsolutionsinc.com CNAME .
 *.simplexsolutionsinc.com CNAME .
+singularvpn.com CNAME .
+*.singularvpn.com CNAME .
 sinovpn.com CNAME .
 *.sinovpn.com CNAME .
 sipidwnt.com CNAME .
@@ -12727,8 +12737,6 @@ signup.soapclient.com CNAME .
 *.signup.soapclient.com CNAME .
 soax.com CNAME .
 *.soax.com CNAME .
-socketprovpn.com CNAME .
-*.socketprovpn.com CNAME .
 socksproxychecker.com CNAME .
 *.socksproxychecker.com CNAME .
 softbasalt.com CNAME .
@@ -28437,8 +28445,6 @@ study.gpu74.ru CNAME .
 *.study.gpu74.ru CNAME .
 waves.vseesa.gpu74.ru CNAME .
 *.waves.vseesa.gpu74.ru CNAME .
-graveofhope.ru CNAME .
-*.graveofhope.ru CNAME .
 dns.graybox-dev.ru CNAME .
 *.dns.graybox-dev.ru CNAME .
 adg.grinavto.ru CNAME .
@@ -32739,18 +32745,26 @@ vpncoordinates.xyz CNAME .
 *.vpncoordinates.xyz CNAME .
 vpndivide.xyz CNAME .
 *.vpndivide.xyz CNAME .
+vpngarden.xyz CNAME .
+*.vpngarden.xyz CNAME .
 vpnifyultra.xyz CNAME .
 *.vpnifyultra.xyz CNAME .
 vpnjunkie.xyz CNAME .
 *.vpnjunkie.xyz CNAME .
 vpnmir.xyz CNAME .
 *.vpnmir.xyz CNAME .
+vpnpowered.xyz CNAME .
+*.vpnpowered.xyz CNAME .
 vpnreview.xyz CNAME .
 *.vpnreview.xyz CNAME .
 vpnspeaks.xyz CNAME .
 *.vpnspeaks.xyz CNAME .
+vpnstudio.xyz CNAME .
+*.vpnstudio.xyz CNAME .
 vpntarget.xyz CNAME .
 *.vpntarget.xyz CNAME .
+vpnxstore.xyz CNAME .
+*.vpnxstore.xyz CNAME .
 overcloaked.was-on-decayeds-island.xyz CNAME .
 *.overcloaked.was-on-decayeds-island.xyz CNAME .
 web3vpn.xyz CNAME .

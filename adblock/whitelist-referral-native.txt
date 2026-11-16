@@ -5,10 +5,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 15 Nov 2026 07:45 UTC
-! Version: 2026.1115.0745.39
+! Last modified: 16 Nov 2026 07:49 UTC
+! Version: 2026.1116.0749.50
 ! Syntax: AdBlock
-! Number of entries: 1406
+! Number of entries: 1413
 !
 @@||l.1mp.ru^
 @@||links.2ns.fi^
@@ -102,6 +102,7 @@
 @@||aax-events-cell02-wt.ap-southeast.aps.axp.amazon-adsystem.com^
 @@||aax-events-cell01.eu-west.aps.axp.amazon-adsystem.com^
 @@||aax-events-cell01-cf.eu-west.aps.axp.amazon-adsystem.com^
+@@||aax-events-cell01.us-east.aps.axp.amazon-adsystem.com^
 @@||aax-events-cell01-cf.us-east.aps.axp.amazon-adsystem.com^
 @@||aax-events-cell01-cf.eu-south.ono.axp.amazon-adsystem.com^
 @@||aax-events-cell02-cf.eu-south.ono.axp.amazon-adsystem.com^
@@ -167,7 +168,6 @@
 @@||api-mobile.cleverpush.com^
 @@||static.cleverpush.com^
 @@||static-eu.cleverpush.com^
-@@||static-eu-ovh.cleverpush.com^
 @@||static-mobile.cleverpush.com^
 @@||seu.cleverreach.com^
 @@||seu1.cleverreach.com^
@@ -254,6 +254,7 @@
 @@||m-ax.custobar.com^
 @@||m-b2o72.custobar.com^
 @@||m-bzp7z.custobar.com^
+@@||m-dpsxz.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-gzmk5.custobar.com^
 @@||m-hbr.custobar.com^
@@ -275,7 +276,6 @@
 @@||m-she3s.custobar.com^
 @@||m-so.custobar.com^
 @@||m-stz.custobar.com^
-@@||m-suqr5.custobar.com^
 @@||m-swjb2.custobar.com^
 @@||m-swt.custobar.com^
 @@||m-szy.custobar.com^
@@ -325,7 +325,6 @@
 @@||postsign.docusign.com^
 @@||klclick.dollarshaveclub.com^
 @@||c2827.dotomi.com^
-@@||c2990.dotomi.com^
 @@||cadent-match.dotomi.com^
 @@||casale-match.dotomi.com^
 @@||cj.dotomi.com^
@@ -359,7 +358,6 @@
 @@||suite15.emarsys.net^
 @@||suite16.emarsys.net^
 @@||suite17.emarsys.net^
-@@||suite2-cf.emarsys.net^
 @@||suite20.emarsys.net^
 @@||suite22.emarsys.net^
 @@||suite22-cf.emarsys.net^
@@ -454,7 +452,6 @@
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
 @@||cl.s12.exct.net^
-@@||cl.s13.exct.net^
 @@||cl.s4.exct.net^
 @@||cl.s50.exct.net^
 @@||cl.s51.exct.net^
@@ -462,7 +459,6 @@
 @@||cl.s7.exct.net^
 @@||cl.exct.net^
 @@||click.e.usa.experian.com^
-@@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.mie.exponea.com^
 @@||cdn.network.exponea.com^
@@ -573,9 +569,11 @@
 @@||imp.i146998.net^
 @@||imp.i215020.net^
 @@||imp.i254217.net^
+@@||imp.i255443.net^
 @@||imp.i256749.net^
 @@||imp.i287301.net^
 @@||imp.i305175.net^
+@@||imp.i310051.net^
 @@||imp.i313392.net^
 @@||imp.i319830.net^
 @@||imp.i326929.net^
@@ -665,6 +663,7 @@
 @@||t.mmtrkr.com^
 @@||promo.mobile.de^
 @@||link.mobupps.com^
+@@||api-01.moengage.com^
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
@@ -718,7 +717,6 @@
 @@||app2c.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1c.outreach.io^
-@@||app1e.outreach.io^
 @@||app1f.outreach.io^
 @@||app2a.outreach.io^
 @@||ct.paidmediatrk.com^
@@ -1170,7 +1168,6 @@
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
 @@||mkto-ab020242.com^
-@@||mkto-ab040081.com^
 @@||mkto-ab060134.com^
 @@||mkto-ab060144.com^
 @@||mkto-ab060212.com^
@@ -1188,6 +1185,7 @@
 @@||mkto-ab250055.com^
 @@||mkto-ab250115.com^
 @@||mkto-ab250167.com^
+@@||mkto-ab250199.com^
 @@||mkto-ab290138.com^
 @@||mkto-ab300013.com^
 @@||mkto-ab300154.com^
@@ -1197,9 +1195,9 @@
 @@||mkto-ab340022.com^
 @@||mkto-ab350122.com^
 @@||mkto-ab390033.com^
+@@||mkto-ab390037.com^
 @@||mkto-ab390129.com^
 @@||mkto-ab410098.com^
-@@||mkto-ab410147.com^
 @@||mkto-ab420198.com^
 @@||mkto-ab430045.com^
 @@||mkto-ab430076.com^
@@ -1210,10 +1208,12 @@
 @@||mkto-ab440026.com^
 @@||mkto-ab450015.com^
 @@||mkto-ab460168.com^
+@@||mkto-ab470060.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
+@@||mkto-ab560125.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab570178.com^
 @@||mkto-ab580004.com^
@@ -1246,8 +1246,11 @@
 @@||mkto-lon060196.com^
 @@||mkto-lon070031.com^
 @@||mkto-lon070075.com^
+@@||mkto-lon080010.com^
 @@||mkto-lon080059.com^
 @@||mkto-lon090040.com^
+@@||mkto-lon090058.com^
+@@||mkto-lon090082.com^
 @@||mkto-lon100167.com^
 @@||mkto-m0111.com^
 @@||mkto-mlm10010008.com^
@@ -1255,7 +1258,6 @@
 @@||mkto-mlm10040018.com^
 @@||mkto-nld1010057.com^
 @@||mkto-nld1010079.com^
-@@||mkto-nld1010097.com^
 @@||mkto-nld1010150.com^
 @@||mkto-nld1020025.com^
 @@||mkto-nld1020077.com^
@@ -1264,7 +1266,7 @@
 @@||mkto-nld1020182.com^
 @@||mkto-nld1020221.com^
 @@||mkto-nld1030007.com^
-@@||mkto-nld1040056.com^
+@@||mkto-nld1040165.com^
 @@||mkto-nld1050103.com^
 @@||mkto-nld1050162.com^
 @@||mkto-sj010104.com^
@@ -1272,9 +1274,11 @@
 @@||mkto-sj010203.com^
 @@||mkto-sj040252.com^
 @@||mkto-sj070214.com^
+@@||mkto-sj080048.com^
 @@||mkto-sj090132.com^
 @@||mkto-sj130243.com^
 @@||mkto-sj140007.com^
+@@||mkto-sj140170.com^
 @@||mkto-sj160145.com^
 @@||mkto-sj160226.com^
 @@||mkto-sj170174.com^
@@ -1282,9 +1286,10 @@
 @@||mkto-sj200201.com^
 @@||mkto-sj210111.com^
 @@||mkto-sj210170.com^
+@@||mkto-sj220006.com^
 @@||mkto-sj230010.com^
 @@||mkto-sj240021.com^
-@@||mkto-sj270072.com^
+@@||mkto-sj250033.com^
 @@||mkto-sj270078.com^
 @@||mkto-sj270080.com^
 @@||mkto-sj280085.com^
@@ -1295,6 +1300,8 @@
 @@||mkto-sj320080.com^
 @@||mkto-sj330006.com^
 @@||mkto-sj360142.com^
+@@||mkto-sj380186.com^
+@@||mkto-sj390015.com^
 @@||mkto-sj400023.com^
 @@||mkto-sjg0030.com^
 @@||mkto-sjh0084.com^
