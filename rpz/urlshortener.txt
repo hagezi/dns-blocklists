@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794816120 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794902100 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Nov 2026 08:02 UTC
-; Version: 2026.1116.0802.36
+; Last modified: 17 Nov 2026 07:55 UTC
+; Version: 2026.1117.0755.48
 ; Syntax: RPZ
-; Number of entries: 19524
+; Number of entries: 19540
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -3885,6 +3885,8 @@ cutmyurl.com CNAME .
 *.cutmyurl.com CNAME .
 cutqr.com CNAME .
 *.cutqr.com CNAME .
+cuts-url.com CNAME .
+*.cuts-url.com CNAME .
 cuts2.com CNAME .
 *.cuts2.com CNAME .
 cuttgoo.com CNAME .
@@ -7513,6 +7515,8 @@ wtfurl.com CNAME .
 *.wtfurl.com CNAME .
 wuniw.com CNAME .
 *.wuniw.com CNAME .
+wurlz.com CNAME .
+*.wurlz.com CNAME .
 www-tinyurl.com CNAME .
 *.www-tinyurl.com CNAME .
 x-shrtn.com CNAME .
@@ -7933,6 +7937,8 @@ kuhlinks.de CNAME .
 *.kuhlinks.de CNAME .
 kurzelinks.de CNAME .
 *.kurzelinks.de CNAME .
+lamacchina.de CNAME .
+*.lamacchina.de CNAME .
 lelien.de CNAME .
 *.lelien.de CNAME .
 lin0.de CNAME .
@@ -10309,6 +10315,8 @@ cliq.ing CNAME .
 *.8n.ink CNAME .
 add-l.ink CNAME .
 *.add-l.ink CNAME .
+agll.ink CNAME .
+*.agll.ink CNAME .
 ase.ink CNAME .
 *.ase.ink CNAME .
 ata.ink CNAME .
@@ -12927,6 +12935,8 @@ daftarhoki.live CNAME .
 *.daftarhoki.live CNAME .
 daxlen.live CNAME .
 *.daxlen.live CNAME .
+delta.live CNAME .
+*.delta.live CNAME .
 ellastern.live CNAME .
 *.ellastern.live CNAME .
 euapoio.live CNAME .
@@ -13779,6 +13789,8 @@ itlinks.me CNAME .
 *.itlinks.me CNAME .
 izip.me CNAME .
 *.izip.me CNAME .
+jalanku.me CNAME .
+*.jalanku.me CNAME .
 jali.me CNAME .
 *.jali.me CNAME .
 janji.me CNAME .
@@ -13965,6 +13977,8 @@ okdc.me CNAME .
 *.okdc.me CNAME .
 okurl.me CNAME .
 *.okurl.me CNAME .
+olhe.me CNAME .
+*.olhe.me CNAME .
 olii.me CNAME .
 *.olii.me CNAME .
 oline.me CNAME .
@@ -19205,6 +19219,8 @@ oktobet.win CNAME .
 *.oktobet.win CNAME .
 polamax.win CNAME .
 *.polamax.win CNAME .
+putar.win CNAME .
+*.putar.win CNAME .
 shorturl.win CNAME .
 *.shorturl.win CNAME .
 ss777.win CNAME .
