@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794992640 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795017360 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Nov 2026 09:04 UTC
-; Version: 2026.1118.0904.46
+; Last modified: 18 Nov 2026 15:56 UTC
+; Version: 2026.1118.1556.35
 ; Syntax: RPZ
-; Number of entries: 124762
+; Number of entries: 124766
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -15112,6 +15112,8 @@ tracker.hismz.cn CNAME .
 *.tracker.hismz.cn CNAME .
 tracker.hiyj.cn CNAME .
 *.tracker.hiyj.cn CNAME .
+jshdtv.cn CNAME .
+*.jshdtv.cn CNAME .
 tracker.home.kmzs123.cn CNAME .
 *.tracker.home.kmzs123.cn CNAME .
 tracker.kmzs123.cn CNAME .
@@ -23620,6 +23622,8 @@ my-gamebox.com CNAME .
 *.my-gamebox.com CNAME .
 myabandonware.com CNAME .
 *.myabandonware.com CNAME .
+myanimestory.com CNAME .
+*.myanimestory.com CNAME .
 myanmariptv.com CNAME .
 *.myanmariptv.com CNAME .
 mybabele.com CNAME .
@@ -108530,6 +108534,8 @@ animebam.se CNAME .
 *.animebam.se CNAME .
 audiobookbay.se CNAME .
 *.audiobookbay.se CNAME .
+avxhm.se CNAME .
+*.avxhm.se CNAME .
 bollyflixhd.se CNAME .
 *.bollyflixhd.se CNAME .
 cineby.se CNAME .
@@ -111868,8 +111874,6 @@ nzb.su CNAME .
 *.nzb.su CNAME .
 planete-lolo.su CNAME .
 *.planete-lolo.su CNAME .
-planetsoft.su CNAME .
-*.planetsoft.su CNAME .
 ridomovies.su CNAME .
 *.ridomovies.su CNAME .
 seez.su CNAME .

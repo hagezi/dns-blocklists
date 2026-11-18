@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794957540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795015260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Nov 2026 23:19 UTC
-; Version: 2026.1117.2319.30
+; Last modified: 18 Nov 2026 15:21 UTC
+; Version: 2026.1118.1521.48
 ; Syntax: RPZ
-; Number of entries: 2226
+; Number of entries: 2336
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -50,6 +50,8 @@ created.app CNAME .
 *.created.app CNAME .
 edgeone.app CNAME .
 *.edgeone.app CNAME .
+ic0.app CNAME .
+*.ic0.app CNAME .
 lovable.app CNAME .
 *.lovable.app CNAME .
 ngrok-free.app CNAME .
@@ -204,6 +206,8 @@ us.ci CNAME .
 *.us.ci CNAME .
 cloudns.cl CNAME .
 *.cloudns.cl CNAME .
+gateway.pinata.cloud CNAME .
+*.gateway.pinata.cloud CNAME .
 cloudns.club CNAME .
 *.cloudns.club CNAME .
 radiola.club CNAME .
@@ -234,6 +238,8 @@ bityl.co CNAME .
 *.bityl.co CNAME .
 webnode.com.co CNAME .
 *.webnode.com.co CNAME .
+fleek.co CNAME .
+*.fleek.co CNAME .
 iplogger.co CNAME .
 *.iplogger.co CNAME .
 pagedemo.co CNAME .
@@ -262,6 +268,10 @@ wapka.co CNAME .
 *.000webhostapp.com CNAME .
 00author.com CNAME .
 *.00author.com CNAME .
+00freehost.com CNAME .
+*.00freehost.com CNAME .
+00freeweb.com CNAME .
+*.00freeweb.com CNAME .
 00go.com CNAME .
 *.00go.com CNAME .
 00it.com CNAME .
@@ -278,6 +288,8 @@ wapka.co CNAME .
 *.10001mb.com CNAME .
 10gbfreehost.com CNAME .
 *.10gbfreehost.com CNAME .
+150m.com CNAME .
+*.150m.com CNAME .
 1asphost.com CNAME .
 *.1asphost.com CNAME .
 1freewebspace.com CNAME .
@@ -316,6 +328,8 @@ alavps.com CNAME .
 *.alavps.com CNAME .
 amarillozoo.com CNAME .
 *.amarillozoo.com CNAME .
+angelfire.com CNAME .
+*.angelfire.com CNAME .
 anonfile.com CNAME .
 *.anonfile.com CNAME .
 appbitly.com CNAME .
@@ -374,6 +388,8 @@ byethost7.com CNAME .
 *.byethost7.com CNAME .
 byethost9.com CNAME .
 *.byethost9.com CNAME .
+cabanova.com CNAME .
+*.cabanova.com CNAME .
 cbkgardens.com CNAME .
 *.cbkgardens.com CNAME .
 cf-ipfs.com CNAME .
@@ -386,6 +402,8 @@ clipser.com CNAME .
 *.clipser.com CNAME .
 cloudflare-ipfs.com CNAME .
 *.cloudflare-ipfs.com CNAME .
+cloudwaysapps.com CNAME .
+*.cloudwaysapps.com CNAME .
 comxa.com CNAME .
 *.comxa.com CNAME .
 conohawing.com CNAME .
@@ -410,6 +428,8 @@ daftpage.com CNAME .
 *.daftpage.com CNAME .
 dardarkom.com CNAME .
 *.dardarkom.com CNAME .
+designcarthosting.com CNAME .
+*.designcarthosting.com CNAME .
 digitalzones.com CNAME .
 *.digitalzones.com CNAME .
 dimsolo.com CNAME .
@@ -448,6 +468,8 @@ enterprisedeliveries.com CNAME .
 *.enterprisedeliveries.com CNAME .
 epizy.com CNAME .
 *.epizy.com CNAME .
+event-redeem.com CNAME .
+*.event-redeem.com CNAME .
 events-games.com CNAME .
 *.events-games.com CNAME .
 exactpages.com CNAME .
@@ -462,6 +484,8 @@ familylobby.com CNAME .
 *.familylobby.com CNAME .
 fat-fly.com CNAME .
 *.fat-fly.com CNAME .
+fcpages.com CNAME .
+*.fcpages.com CNAME .
 ferreracademy.com CNAME .
 *.ferreracademy.com CNAME .
 fileave.com CNAME .
@@ -504,10 +528,16 @@ freewebhostmost.com CNAME .
 *.freewebhostmost.com CNAME .
 freewebportal.com CNAME .
 *.freewebportal.com CNAME .
+freewebsitehosting.com CNAME .
+*.freewebsitehosting.com CNAME .
 freightinternationalservices.com CNAME .
 *.freightinternationalservices.com CNAME .
+frewwebs.com CNAME .
+*.frewwebs.com CNAME .
 friendcircles.com CNAME .
 *.friendcircles.com CNAME .
+gearhostpreview.com CNAME .
+*.gearhostpreview.com CNAME .
 genblogger.com CNAME .
 *.genblogger.com CNAME .
 getresponsesite.com CNAME .
@@ -524,12 +554,16 @@ greatnow.com CNAME .
 *.greatnow.com CNAME .
 hanefra7bikiemta.com CNAME .
 *.hanefra7bikiemta.com CNAME .
+hardbin.com CNAME .
+*.hardbin.com CNAME .
 blink.hirebiz.com CNAME .
 *.blink.hirebiz.com CNAME .
 homemarker.com CNAME .
 *.homemarker.com CNAME .
 hostedforfree.com CNAME .
 *.hostedforfree.com CNAME .
+hostingersite.com CNAME .
+*.hostingersite.com CNAME .
 hostingsiteforfree.com CNAME .
 *.hostingsiteforfree.com CNAME .
 hotfile.com CNAME .
@@ -554,6 +588,8 @@ imageurlhost.com CNAME .
 *.imageurlhost.com CNAME .
 infinityfreeapp.com CNAME .
 *.infinityfreeapp.com CNAME .
+inmotionhosting.com CNAME .
+*.inmotionhosting.com CNAME .
 instantfreesite.com CNAME .
 *.instantfreesite.com CNAME .
 invoicenotices.com CNAME .
@@ -576,6 +612,12 @@ janhost.com CNAME .
 *.janhost.com CNAME .
 jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
+jimdofree.com CNAME .
+*.jimdofree.com CNAME .
+jimdosite.com CNAME .
+*.jimdosite.com CNAME .
+joomla.com CNAME .
+*.joomla.com CNAME .
 kesug.com CNAME .
 *.kesug.com CNAME .
 kiluweb.com CNAME .
@@ -628,18 +670,24 @@ myartsonline.com CNAME .
 *.myartsonline.com CNAME .
 myblogvoice.com CNAME .
 *.myblogvoice.com CNAME .
+myclickfunnels.com CNAME .
+*.myclickfunnels.com CNAME .
 myfoolmoon.com CNAME .
 *.myfoolmoon.com CNAME .
 myftpupload.com CNAME .
 *.myftpupload.com CNAME .
 myfunnelish.com CNAME .
 *.myfunnelish.com CNAME .
+myportfolio.com CNAME .
+*.myportfolio.com CNAME .
 mypressonline.com CNAME .
 *.mypressonline.com CNAME .
 mystrikingly.com CNAME .
 *.mystrikingly.com CNAME .
 mytempdir.com CNAME .
 *.mytempdir.com CNAME .
+mywebsitetransfer.com CNAME .
+*.mywebsitetransfer.com CNAME .
 qr.nikastic.com CNAME .
 *.qr.nikastic.com CNAME .
 nofeeshost.com CNAME .
@@ -664,12 +712,16 @@ orgsites.com CNAME .
 *.orgsites.com CNAME .
 own-free-website.com CNAME .
 *.own-free-website.com CNAME .
+p2blogs.com CNAME .
+*.p2blogs.com CNAME .
 parknhost.com CNAME .
 *.parknhost.com CNAME .
 preview-domain.com CNAME .
 *.preview-domain.com CNAME .
 primetap.com CNAME .
 *.primetap.com CNAME .
+profreehost.com CNAME .
+*.profreehost.com CNAME .
 psend.com CNAME .
 *.psend.com CNAME .
 qrcodedynamic.com CNAME .
@@ -706,6 +758,8 @@ somee.com CNAME .
 *.somee.com CNAME .
 spruz.com CNAME .
 *.spruz.com CNAME .
+standardseoservices.com CNAME .
+*.standardseoservices.com CNAME .
 stormpages.com CNAME .
 *.stormpages.com CNAME .
 supload.com CNAME .
@@ -722,6 +776,8 @@ ftp.totallyanonymous.com CNAME .
 *.ftp.totallyanonymous.com CNAME .
 trackfinanceworld.com CNAME .
 *.trackfinanceworld.com CNAME .
+tripod.com CNAME .
+*.tripod.com CNAME .
 trycloudflare.com CNAME .
 *.trycloudflare.com CNAME .
 twilightparadox.com CNAME .
@@ -754,6 +810,8 @@ vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
 *.vdxh.com CNAME .
+via0.com CNAME .
+*.via0.com CNAME .
 w3spaces.com CNAME .
 *.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
@@ -1264,6 +1322,8 @@ i.gp CNAME .
 *.i.gp CNAME .
 id.gp CNAME .
 *.id.gp CNAME .
+il.gp CNAME .
+*.il.gp CNAME .
 in.gp CNAME .
 *.in.gp CNAME .
 ir.gp CNAME .
@@ -1480,16 +1540,24 @@ fwh.is CNAME .
 *.fwh.is CNAME .
 135.it CNAME .
 *.135.it CNAME .
+beepworld.it CNAME .
+*.beepworld.it CNAME .
 2.je CNAME .
 *.2.je CNAME .
 24.je CNAME .
 *.24.je CNAME .
 4.je CNAME .
 *.4.je CNAME .
+7.je CNAME .
+*.7.je CNAME .
 8.je CNAME .
 *.8.je CNAME .
 9.je CNAME .
 *.9.je CNAME .
+xo.je CNAME .
+*.xo.je CNAME .
+mixh.jp CNAME .
+*.mixh.jp CNAME .
 ch.kg CNAME .
 *.ch.kg CNAME .
 gr.kg CNAME .
@@ -1508,6 +1576,8 @@ xx.kg CNAME .
 *.xx.kg CNAME .
 de.ki CNAME .
 *.de.ki CNAME .
+dothome.co.kr CNAME .
+*.dothome.co.kr CNAME .
 kro.kr CNAME .
 *.kro.kr CNAME .
 me2.kr CNAME .
@@ -1578,6 +1648,8 @@ home.lc CNAME .
 *.home.lc CNAME .
 homepage.lc CNAME .
 *.homepage.lc CNAME .
+hot.lc CNAME .
+*.hot.lc CNAME .
 hp.lc CNAME .
 *.hp.lc CNAME .
 infos.lc CNAME .
@@ -1840,6 +1912,8 @@ sylu.net CNAME .
 *.sylu.net CNAME .
 tbns.net CNAME .
 *.tbns.net CNAME .
+thoughtlanes.net CNAME .
+*.thoughtlanes.net CNAME .
 totalh.net CNAME .
 *.totalh.net CNAME .
 tunnelmole.net CNAME .
@@ -1870,6 +1944,8 @@ us.nf CNAME .
 *.us.nf CNAME .
 24.nl CNAME .
 *.24.nl CNAME .
+com.nu CNAME .
+*.com.nu CNAME .
 envy.nu CNAME .
 *.envy.nu CNAME .
 eu.nu CNAME .
@@ -1930,6 +2006,8 @@ inbox24.org CNAME .
 *.inbox24.org CNAME .
 is-great.org CNAME .
 *.is-great.org CNAME .
+ipfs.joaoleitao.org CNAME .
+*.ipfs.joaoleitao.org CNAME .
 kilu.org CNAME .
 *.kilu.org CNAME .
 l4n.org CNAME .
@@ -1942,8 +2020,12 @@ linkcyb.org CNAME .
 *.linkcyb.org CNAME .
 my-board.org CNAME .
 *.my-board.org CNAME .
+mygamesonline.org CNAME .
+*.mygamesonline.org CNAME .
 mywebcommunity.org CNAME .
 *.mywebcommunity.org CNAME .
+neocities.org CNAME .
+*.neocities.org CNAME .
 netfast.org CNAME .
 *.netfast.org CNAME .
 nichesite.org CNAME .
@@ -1962,6 +2044,8 @@ urest.org CNAME .
 *.urest.org CNAME .
 v0r.org CNAME .
 *.v0r.org CNAME .
+website.org CNAME .
+*.website.org CNAME .
 glide.page CNAME .
 *.glide.page CNAME .
 mmm.page CNAME .
@@ -2014,6 +2098,8 @@ cli.re CNAME .
 *.cli.re CNAME .
 fanclub.rocks CNAME .
 *.fanclub.rocks CNAME .
+mybb.rocks CNAME .
+*.mybb.rocks CNAME .
 mycpanel.rs CNAME .
 *.mycpanel.rs CNAME .
 bget.ru CNAME .
@@ -2036,12 +2122,16 @@ qipim.ru CNAME .
 *.qipim.ru CNAME .
 qptr.ru CNAME .
 *.qptr.ru CNAME .
+regruhosting.ru CNAME .
+*.regruhosting.ru CNAME .
 seite.ru CNAME .
 *.seite.ru CNAME .
 swtest.ru CNAME .
 *.swtest.ru CNAME .
 tehno-politen.ru CNAME .
 *.tehno-politen.ru CNAME .
+tmweb.ru CNAME .
+*.tmweb.ru CNAME .
 tw1.ru CNAME .
 *.tw1.ru CNAME .
 ucoz.ru CNAME .
@@ -2092,6 +2182,10 @@ yuichi.shop CNAME .
 *.4x.si CNAME .
 dik.si CNAME .
 *.dik.si CNAME .
+brizy.site CNAME .
+*.brizy.site CNAME .
+business.site CNAME .
+*.business.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
 studio.site CNAME .
@@ -2100,12 +2194,16 @@ temporary.site CNAME .
 *.temporary.site CNAME .
 temporary-demo.site CNAME .
 *.temporary-demo.site CNAME .
+tiiny.site CNAME .
+*.tiiny.site CNAME .
 turbo.site CNAME .
 *.turbo.site CNAME .
 wapka.site CNAME .
 *.wapka.site CNAME .
 webboss.site CNAME .
 *.webboss.site CNAME .
+weblium.site CNAME .
+*.weblium.site CNAME .
 89q.sk CNAME .
 *.89q.sk CNAME .
 fli.so CNAME .
@@ -2118,6 +2216,8 @@ at.st CNAME .
 *.at.st CNAME .
 ch.st CNAME .
 *.ch.st CNAME .
+infos.st CNAME .
+*.infos.st CNAME .
 uk.st CNAME .
 *.uk.st CNAME .
 us.st CNAME .
@@ -2130,6 +2230,8 @@ wapka.store CNAME .
 *.wapka.store CNAME .
 yip.su CNAME .
 *.yip.su CNAME .
+biz.tc CNAME .
+*.biz.tc CNAME .
 bz.tc CNAME .
 *.bz.tc CNAME .
 gt.tc CNAME .
@@ -2178,6 +2280,8 @@ ygrrvlvvgf.top CNAME .
 *.ygrrvlvvgf.top CNAME .
 mobile.web.tr CNAME .
 *.mobile.web.tr CNAME .
+kl.com.ua CNAME .
+*.kl.com.ua CNAME .
 zzz.com.ua CNAME .
 *.zzz.com.ua CNAME .
 pp.ua CNAME .
@@ -2186,16 +2290,22 @@ pp.ua CNAME .
 *.123freehost.co.uk CNAME .
 all.co.uk CNAME .
 *.all.co.uk CNAME .
+atspace.co.uk CNAME .
+*.atspace.co.uk CNAME .
 infy.uk CNAME .
 *.infy.uk CNAME .
 quiztionnaire.uk CNAME .
 *.quiztionnaire.uk CNAME .
 000free.us CNAME .
 *.000free.us CNAME .
+0fees.us CNAME .
+*.0fees.us CNAME .
 10h.us CNAME .
 *.10h.us CNAME .
 1ll.us CNAME .
 *.1ll.us CNAME .
+20m.us CNAME .
+*.20m.us CNAME .
 cloudns.us CNAME .
 *.cloudns.us CNAME .
 f11.us CNAME .
