@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 17 Nov 2026 08:54 UTC
-# Version: 2026.1117.0854.56
+# Last modified: 17 Nov 2026 23:55 UTC
+# Version: 2026.1117.2355.47
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3567
+# Number of entries: 3570
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -172,6 +172,9 @@ local=/dns.adfreedns.org/
 local=/dns.adguard.com/
 local=/dns-family.adguard.com/
 local=/dns-unfiltered.adguard.com/
+local=/dns.adguarddns.com/
+local=/family.adguarddns.com/
+local=/unfiltered.adguarddns.com/
 local=/dns.adnull.com/
 local=/dns.adrianlam.com/
 local=/adguard.adrianofrongillo.ovh/
@@ -2909,7 +2912,6 @@ local=/solution.w10.life/
 local=/dns.w3ctag.org/
 local=/bh.wael.name/
 local=/dns.wael.name/
-local=/dns.wahr.top/
 local=/aqua.is.my.waifu.cz/
 local=/darkness.is.my.waifu.cz/
 local=/megumin.is.my.waifu.cz/
@@ -3209,6 +3211,7 @@ local=/dns.pub/
 local=/dns.sb/
 local=/dns.watch/
 local=/dns-free.link/
+local=/dns0.eu/
 local=/dns4me.net/
 local=/dns8.org/
 local=/dnsdoh.art/

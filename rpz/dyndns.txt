@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794732960 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794959700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 15 Nov 2026 08:56 UTC
-; Version: 2026.1115.0856.35
+; Last modified: 17 Nov 2026 23:55 UTC
+; Version: 2026.1117.2355.37
 ; Syntax: RPZ
-; Number of entries: 3036
+; Number of entries: 3032
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -366,8 +366,6 @@ cbopelousas.com CNAME .
 *.cbopelousas.com CNAME .
 cechire.com CNAME .
 *.cechire.com CNAME .
-celebsplay.com CNAME .
-*.celebsplay.com CNAME .
 centserver.com CNAME .
 *.centserver.com CNAME .
 changeip.com CNAME .
@@ -1104,8 +1102,6 @@ myddns.com CNAME .
 *.myddns.com CNAME .
 myiphost.com CNAME .
 *.myiphost.com CNAME .
-mylftv.com CNAME .
-*.mylftv.com CNAME .
 mylogisoft.com CNAME .
 *.mylogisoft.com CNAME .
 mynetav.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794905640 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794959700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Nov 2026 08:54 UTC
-; Version: 2026.1117.0854.56
+; Last modified: 17 Nov 2026 23:55 UTC
+; Version: 2026.1117.2355.47
 ; Syntax: RPZ
-; Number of entries: 7134
+; Number of entries: 7140
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -653,6 +653,12 @@ adguard-dns.com CNAME .
 *.adguard-dns.com CNAME .
 adguardaaron.com CNAME .
 *.adguardaaron.com CNAME .
+dns.adguarddns.com CNAME .
+*.dns.adguarddns.com CNAME .
+family.adguarddns.com CNAME .
+*.family.adguarddns.com CNAME .
+unfiltered.adguarddns.com CNAME .
+*.unfiltered.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 dns.adrianlam.com CNAME .
@@ -2559,6 +2565,8 @@ dns.xyz.ddnss.eu CNAME .
 *.dns.xyz.ddnss.eu CNAME .
 dns.decky.eu CNAME .
 *.dns.decky.eu CNAME .
+dns0.eu CNAME .
+*.dns0.eu CNAME .
 doh.dns4all.eu CNAME .
 *.doh.dns4all.eu CNAME .
 doh64.dns4all.eu CNAME .
@@ -6483,8 +6491,6 @@ mdns.vseti.top CNAME .
 *.mdns.vseti.top CNAME .
 pdns.vseti.top CNAME .
 *.pdns.vseti.top CNAME .
-dns.wahr.top CNAME .
-*.dns.wahr.top CNAME .
 wankey.top CNAME .
 *.wankey.top CNAME .
 bwh.why4free.top CNAME .

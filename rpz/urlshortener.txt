@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794902100 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794956160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Nov 2026 07:55 UTC
-; Version: 2026.1117.0755.48
+; Last modified: 17 Nov 2026 22:56 UTC
+; Version: 2026.1117.2256.29
 ; Syntax: RPZ
-; Number of entries: 19540
+; Number of entries: 19530
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -895,8 +895,6 @@ vypij.bar CNAME .
 *.233.be CNAME .
 3ra.be CNAME .
 *.3ra.be CNAME .
-s.ggwp.be CNAME .
-*.s.ggwp.be CNAME .
 haur.be CNAME .
 *.haur.be CNAME .
 hoo.be CNAME .
@@ -995,8 +993,6 @@ aduke.bio CNAME .
 *.aduke.bio CNAME .
 applink.bio CNAME .
 *.applink.bio CNAME .
-baba.bio CNAME .
-*.baba.bio CNAME .
 bezt.bio CNAME .
 *.bezt.bio CNAME .
 biofy.bio CNAME .
@@ -1079,8 +1075,6 @@ qlink.bio CNAME .
 *.qlink.bio CNAME .
 redirect.bio CNAME .
 *.redirect.bio CNAME .
-rkt.bio CNAME .
-*.rkt.bio CNAME .
 roketlink.bio CNAME .
 *.roketlink.bio CNAME .
 rolink.bio CNAME .
@@ -2085,8 +2079,6 @@ go.popoway.cloud CNAME .
 *.go.popoway.cloud CNAME .
 provte.cloud CNAME .
 *.provte.cloud CNAME .
-kutt.schantli.cloud CNAME .
-*.kutt.schantli.cloud CNAME .
 vdr.cloud CNAME .
 *.vdr.cloud CNAME .
 17mimei.club CNAME .
@@ -3411,6 +3403,8 @@ beautyfitnesshealth.com CNAME .
 *.beautyfitnesshealth.com CNAME .
 bee1s.com CNAME .
 *.bee1s.com CNAME .
+beelnk.com CNAME .
+*.beelnk.com CNAME .
 beepurl.com CNAME .
 *.beepurl.com CNAME .
 beeurls.com CNAME .
@@ -10561,8 +10555,6 @@ diwi.io CNAME .
 *.diwi.io CNAME .
 doturl.io CNAME .
 *.doturl.io CNAME .
-dsgfs.io CNAME .
-*.dsgfs.io CNAME .
 dsn.io CNAME .
 *.dsn.io CNAME .
 dti.io CNAME .
@@ -10727,6 +10719,8 @@ microlinkfy.io CNAME .
 *.microlinkfy.io CNAME .
 microlinks.io CNAME .
 *.microlinks.io CNAME .
+microurls.io CNAME .
+*.microurls.io CNAME .
 milc.io CNAME .
 *.milc.io CNAME .
 minilink.io CNAME .
@@ -13033,10 +13027,6 @@ unc.live CNAME .
 *.unc.live CNAME .
 urllink.live CNAME .
 *.urllink.live CNAME .
-urlshortenerr.live CNAME .
-*.urlshortenerr.live CNAME .
-videopro.live CNAME .
-*.videopro.live CNAME .
 wishct.live CNAME .
 *.wishct.live CNAME .
 wns-academy.live CNAME .
@@ -14897,6 +14887,8 @@ gettolink.net CNAME .
 *.gettolink.net CNAME .
 geturls.net CNAME .
 *.geturls.net CNAME .
+go-links.net CNAME .
+*.go-links.net CNAME .
 go777.net CNAME .
 *.go777.net CNAME .
 gocps.net CNAME .
@@ -15821,8 +15813,6 @@ cshort.org CNAME .
 *.cshort.org CNAME .
 cup.org CNAME .
 *.cup.org CNAME .
-curriculumsystem.org CNAME .
-*.curriculumsystem.org CNAME .
 go.dave-wood.org CNAME .
 *.go.dave-wood.org CNAME .
 daviesscountyrepublicans.org CNAME .
@@ -18203,6 +18193,8 @@ zoho.to CNAME .
 *.zoho.to CNAME .
 zopen.to CNAME .
 *.zopen.to CNAME .
+zyp.to CNAME .
+*.zyp.to CNAME .
 aki.today CNAME .
 *.aki.today CNAME .
 learnit.today CNAME .
@@ -19179,8 +19171,6 @@ loginsaja.website CNAME .
 *.loginsaja.website CNAME .
 shortened.website CNAME .
 *.shortened.website CNAME .
-yourls.website CNAME .
-*.yourls.website CNAME .
 03.wf CNAME .
 *.03.wf CNAME .
 fff.wf CNAME .
