@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795075560 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795099860 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 08:06 UTC
-; Version: 2026.1119.0806.50
+; Last modified: 19 Nov 2026 14:51 UTC
+; Version: 2026.1119.1451.39
 ; Syntax: RPZ
-; Number of entries: 21468
+; Number of entries: 21470
 ;
 pillarsoflight.ae CNAME .
 *.pillarsoflight.ae CNAME .
@@ -2608,6 +2608,8 @@ bpo-partners.com CNAME .
 *.bpo-partners.com CNAME .
 bralettesstore.com CNAME .
 *.bralettesstore.com CNAME .
+branden-burg.com CNAME .
+*.branden-burg.com CNAME .
 branvoir.com CNAME .
 *.branvoir.com CNAME .
 braucheschnell.com CNAME .
