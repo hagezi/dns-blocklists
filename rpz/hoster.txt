@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795015260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795044180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Nov 2026 15:21 UTC
-; Version: 2026.1118.1521.48
+; Last modified: 18 Nov 2026 23:23 UTC
+; Version: 2026.1118.2323.07
 ; Syntax: RPZ
-; Number of entries: 2336
+; Number of entries: 2338
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -58,6 +58,8 @@ ngrok-free.app CNAME .
 *.ngrok-free.app CNAME .
 on-fleek.app CNAME .
 *.on-fleek.app CNAME .
+pory.app CNAME .
+*.pory.app CNAME .
 staticrun.app CNAME .
 *.staticrun.app CNAME .
 teleporthq.app CNAME .
@@ -236,6 +238,8 @@ iplogger.cn CNAME .
 *.2no.co CNAME .
 bityl.co CNAME .
 *.bityl.co CNAME .
+c4rex.co CNAME .
+*.c4rex.co CNAME .
 webnode.com.co CNAME .
 *.webnode.com.co CNAME .
 fleek.co CNAME .
@@ -468,8 +472,6 @@ enterprisedeliveries.com CNAME .
 *.enterprisedeliveries.com CNAME .
 epizy.com CNAME .
 *.epizy.com CNAME .
-event-redeem.com CNAME .
-*.event-redeem.com CNAME .
 events-games.com CNAME .
 *.events-games.com CNAME .
 exactpages.com CNAME .
@@ -614,8 +616,6 @@ jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
 jimdofree.com CNAME .
 *.jimdofree.com CNAME .
-jimdosite.com CNAME .
-*.jimdosite.com CNAME .
 joomla.com CNAME .
 *.joomla.com CNAME .
 kesug.com CNAME .
@@ -748,6 +748,8 @@ seite.com CNAME .
 *.seite.com CNAME .
 sharkserve.com CNAME .
 *.sharkserve.com CNAME .
+site44.com CNAME .
+*.site44.com CNAME .
 sitepalace.com CNAME .
 *.sitepalace.com CNAME .
 socialsmp.com CNAME .
@@ -758,8 +760,6 @@ somee.com CNAME .
 *.somee.com CNAME .
 spruz.com CNAME .
 *.spruz.com CNAME .
-standardseoservices.com CNAME .
-*.standardseoservices.com CNAME .
 stormpages.com CNAME .
 *.stormpages.com CNAME .
 supload.com CNAME .
@@ -1728,6 +1728,8 @@ shortest.link CNAME .
 *.shortest.link CNAME .
 storacha.link CNAME .
 *.storacha.link CNAME .
+trustless-gateway.link CNAME .
+*.trustless-gateway.link CNAME .
 w3s.link CNAME .
 *.w3s.link CNAME .
 ewp.live CNAME .
