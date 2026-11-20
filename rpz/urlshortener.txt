@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795186500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795213260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 14:55 UTC
-; Version: 2026.1120.1455.33
+; Last modified: 20 Nov 2026 22:21 UTC
+; Version: 2026.1120.2221.34
 ; Syntax: RPZ
-; Number of entries: 19528
+; Number of entries: 19534
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -10141,6 +10141,8 @@ cinecom.info CNAME .
 *.cinecom.info CNAME .
 cookcenter.info CNAME .
 *.cookcenter.info CNAME .
+cotv.info CNAME .
+*.cotv.info CNAME .
 cqma.info CNAME .
 *.cqma.info CNAME .
 dl-protect.info CNAME .
@@ -14347,6 +14349,8 @@ zapurl.me CNAME .
 *.zapurl.me CNAME .
 zctz.me CNAME .
 *.zctz.me CNAME .
+zipy.me CNAME .
+*.zipy.me CNAME .
 zjuw.me CNAME .
 *.zjuw.me CNAME .
 zkrat.me CNAME .
@@ -17223,6 +17227,8 @@ yau.sh CNAME .
 *.yau.sh CNAME .
 4l.shop CNAME .
 *.4l.shop CNAME .
+djarum88.shop CNAME .
+*.djarum88.shop CNAME .
 e6ui.shop CNAME .
 *.e6ui.shop CNAME .
 g2h7.shop CNAME .

@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 13 Nov 2026 22:29 UTC
-! Version: 2026.1113.2229.23
+! Last modified: 20 Nov 2026 22:35 UTC
+! Version: 2026.1120.2235.49
 ! Syntax: AdBlock
-! Number of entries: 547
+! Number of entries: 553
 !
 ||analytics.us.tiktok.com.bytedance.akadns.net^
 ||analytics.us.tiktok.com.bytewlb.akadns.net^
@@ -144,9 +144,6 @@
 ||analytics-ipv6.tiktokw.us.edgesuite.net^
 ||analytics16-normal-useast5.tiktokw.us.edgesuite.net^
 ||analytics16-normal-useast8.tiktokw.us.edgesuite.net^
-||log22-normal-alisg.tiktokv.com.kp45.ru^
-||rtlog16-normal-alisg.tiktokv.com.kp45.ru^
-||rtlog22-normal-alisg.tiktokv.com.kp45.ru^
 ||log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com^
 ||log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com^
 ||abtest-ch.snssdk.com^
@@ -251,6 +248,7 @@
 ||ad.tiktokv.eu^
 ||ad.tiktokv.us^
 ||ad-format.tiktokv.eu^
+||ad-format.tiktokv.us^
 ||ad-format-i18n.tiktokv.com^
 ||ad-format-ie.tiktokv.eu^
 ||ad-format-ru.tiktokv.com^
@@ -277,7 +275,9 @@
 ||location.tiktokv.eu^
 ||location-i18n.tiktokv.com^
 ||location-ie.tiktokv.eu^
+||location-ru.tiktokv.com^
 ||location-sg.tiktokv.com^
+||location-ttp2.tiktokv.eu^
 ||location-ttp2.tiktokv.us^
 ||location-v6.tiktokv.com^
 ||location-v6.tiktokv.eu^
@@ -301,6 +301,9 @@
 ||log-dr16-normal-useast5.tiktokv.us^
 ||log-dr16-normal-useast8.tiktokv.us^
 ||log-dr16-normal-useastred.tiktokv.eu^
+||log-dr19-normal-no1a.tiktokv.eu^
+||log-dr19-normal-useast5.tiktokv.us^
+||log-dr19-normal-useast8.tiktokv.us^
 ||log-i18n.tiktokv.com^
 ||log-phx.tiktokv.com^
 ||log-ru.tiktokv.com^
@@ -403,9 +406,11 @@
 ||rtc-logger.tiktokv.eu^
 ||rtc-logger.tiktokv.us^
 ||rtc-logger-i18n.tiktokv.com^
+||rtc-logger-ie.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.us^
 ||rtc-logger-va.tiktokv.com^
+||rtc-logger16-normal.tiktokv.com^
 ||rtc-logger16-normal-alisg.tiktokv.com^
 ||rtc-logger16-normal-useastred.tiktokv.eu^
 ||rtlog.tiktokv.com^
@@ -531,6 +536,7 @@
 ||ads-ttp2.tiktokw.eu^
 ||ads-ttp2.tiktokw.us^
 ||ads16-normal-useastred.tiktokw.eu^
+||analytics-exp.tiktokw.eu^
 ||analytics-exp-ie.tiktokw.eu^
 ||analytics-exp-ttp2.tiktokw.eu^
 ||analytics-exp16-normal-useastred.tiktokw.eu^

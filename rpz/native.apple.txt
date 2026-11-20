@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794608880 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795213980 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 22:28 UTC
-; Version: 2026.1113.2228.18
+; Last modified: 20 Nov 2026 22:33 UTC
+; Version: 2026.1120.2233.47
 ; Syntax: RPZ
-; Number of entries: 208
+; Number of entries: 210
 ;
 h4g3z1-native-apple.web.app CNAME .
 *.h4g3z1-native-apple.web.app CNAME .
@@ -48,6 +48,8 @@ prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 *.prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 prod-event-relay-weather-api.v.aaplimg.com CNAME .
 *.prod-event-relay-weather-api.v.aaplimg.com CNAME .
+prod-event-relay-web-api.v.aaplimg.com CNAME .
+*.prod-event-relay-web-api.v.aaplimg.com CNAME .
 prod-iwork-events.v.aaplimg.com CNAME .
 *.prod-iwork-events.v.aaplimg.com CNAME .
 prod-news-notification-events.v.aaplimg.com CNAME .
