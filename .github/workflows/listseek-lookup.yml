@@ -20,8 +20,7 @@ jobs:
   lookup:
     if: >-
       github.event_name == 'workflow_dispatch' ||
-      (github.event.issue.state == 'open' &&
-      (github.event.action != 'edited' || github.event.changes.body) &&
+      ((github.event.action != 'edited' || github.event.changes.body) &&
       (contains(github.event.issue.labels.*.name, 'allow') ||
       contains(github.event.issue.labels.*.name, 'deny') ||
       contains(github.event.issue.body, '### Which domain(s)')))
