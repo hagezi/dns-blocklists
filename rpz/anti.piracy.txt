@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795103400 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795132380 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy - blocks piracy sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 15:50 UTC
-; Version: 2026.1119.1550.04
+; Last modified: 19 Nov 2026 23:53 UTC
+; Version: 2026.1119.2353.03
 ; Syntax: RPZ
-; Number of entries: 124866
+; Number of entries: 124870
 ;
 futemax.abogado CNAME .
 *.futemax.abogado CNAME .
@@ -24590,6 +24590,8 @@ prmoviescasino.com CNAME .
 *.prmoviescasino.com CNAME .
 prmoviesnow.com CNAME .
 *.prmoviesnow.com CNAME .
+proanimetric.com CNAME .
+*.proanimetric.com CNAME .
 prodesigntools.com CNAME .
 *.prodesigntools.com CNAME .
 prodigem.com CNAME .
@@ -26264,6 +26266,8 @@ thebtclub.com CNAME .
 *.thebtclub.com CNAME .
 theebooksbay.com CNAME .
 *.theebooksbay.com CNAME .
+thefilmypocket.com CNAME .
+*.thefilmypocket.com CNAME .
 thefrenchstream.com CNAME .
 *.thefrenchstream.com CNAME .
 thehiddenbay.com CNAME .
@@ -50750,6 +50754,8 @@ yesmovies.lifestyle CNAME .
 *.yesmovies.lifestyle CNAME .
 5movierulz.limited CNAME .
 *.5movierulz.limited CNAME .
+futemax.limited CNAME .
+*.futemax.limited CNAME .
 lordfilm.limited CNAME .
 *.lordfilm.limited CNAME .
 liber3.eth.limo CNAME .
@@ -62534,8 +62540,6 @@ larozza.makeup CNAME .
 *.larozza.makeup CNAME .
 losmovies.makeup CNAME .
 *.losmovies.makeup CNAME .
-movierulz.makeup CNAME .
-*.movierulz.makeup CNAME .
 multicanaishd.makeup CNAME .
 *.multicanaishd.makeup CNAME .
 multimovies.makeup CNAME .
