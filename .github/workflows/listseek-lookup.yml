@@ -1,0 +1,41 @@
+name: listseek lookup
+
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: Issue number
+        required: true
+        type: number
+
+permissions: {}
+
+concurrency:
+  group: listseek-lookup-${{ github.event.issue.number || inputs.issue }}
+  cancel-in-progress: true
+
+jobs:
+  lookup:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.state == 'open' &&
+      (github.event.action != 'edited' || github.event.changes.body) &&
+      (contains(github.event.issue.labels.*.name, 'allow') ||
+      contains(github.event.issue.labels.*.name, 'deny') ||
+      contains(github.event.issue.body, '### Which domain(s)')))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: .github/scripts
+          persist-credentials: false
+      - run: node .github/scripts/listseek-lookup.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ inputs.issue }}
