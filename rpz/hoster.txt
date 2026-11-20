@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795101360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795162980 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 15:16 UTC
-; Version: 2026.1119.1516.40
+; Last modified: 20 Nov 2026 08:23 UTC
+; Version: 2026.1120.0823.39
 ; Syntax: RPZ
 ; Number of entries: 2288
 ;
@@ -118,6 +118,8 @@ cloudns.be CNAME .
 *.cloudns.be CNAME .
 shortu.be CNAME .
 *.shortu.be CNAME .
+hormoud.best CNAME .
+*.hormoud.best CNAME .
 keepo.bio CNAME .
 *.keepo.bio CNAME .
 1x.biz CNAME .
@@ -674,8 +676,6 @@ onmbl.com CNAME .
 *.onmbl.com CNAME .
 opent2.com CNAME .
 *.opent2.com CNAME .
-opisial.com CNAME .
-*.opisial.com CNAME .
 orgfree.com CNAME .
 *.orgfree.com CNAME .
 orgsites.com CNAME .
