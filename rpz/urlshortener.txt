@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795075680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795186500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 08:08 UTC
-; Version: 2026.1119.0808.43
+; Last modified: 20 Nov 2026 14:55 UTC
+; Version: 2026.1120.1455.33
 ; Syntax: RPZ
 ; Number of entries: 19528
 ;
@@ -3001,8 +3001,6 @@ has.coffee CNAME .
 *.1url.com CNAME .
 2295.com CNAME .
 *.2295.com CNAME .
-247superhost.com CNAME .
-*.247superhost.com CNAME .
 24sevensocial.com CNAME .
 *.24sevensocial.com CNAME .
 260web.com CNAME .
@@ -14563,6 +14561,8 @@ do.my CNAME .
 *.do.my CNAME .
 esa.my CNAME .
 *.esa.my CNAME .
+gir.my CNAME .
+*.gir.my CNAME .
 goto.my CNAME .
 *.goto.my CNAME .
 grm.my CNAME .

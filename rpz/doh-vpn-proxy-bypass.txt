@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795165980 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795190460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 09:13 UTC
-; Version: 2026.1120.0913.13
+; Last modified: 20 Nov 2026 16:01 UTC
+; Version: 2026.1120.1601.21
 ; Syntax: RPZ
-; Number of entries: 33232
+; Number of entries: 33236
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -2397,6 +2397,8 @@ fnjjn.cn CNAME .
 *.fnjjn.cn CNAME .
 dns.foximao.cn CNAME .
 *.dns.foximao.cn CNAME .
+getmalus.cn CNAME .
+*.getmalus.cn CNAME .
 nas.guyifei.cn CNAME .
 *.nas.guyifei.cn CNAME .
 gzyabio.cn CNAME .
@@ -10047,6 +10049,8 @@ nd.lgprk.com CNAME .
 *.nd.lgprk.com CNAME .
 lhgwneqv.com CNAME .
 *.lhgwneqv.com CNAME .
+t.lifestylethailand.com CNAME .
+*.t.lifestylethailand.com CNAME .
 lightningxvpn.com CNAME .
 *.lightningxvpn.com CNAME .
 likeproxy.com CNAME .

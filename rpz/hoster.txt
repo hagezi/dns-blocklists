@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795162980 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795187940 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,8 +11,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 08:23 UTC
-; Version: 2026.1120.0823.39
+; Last modified: 20 Nov 2026 15:19 UTC
+; Version: 2026.1120.1519.55
 ; Syntax: RPZ
 ; Number of entries: 2288
 ;
@@ -58,6 +58,8 @@ on-fleek.app CNAME .
 *.on-fleek.app CNAME .
 pory.app CNAME .
 *.pory.app CNAME .
+softr.app CNAME .
+*.softr.app CNAME .
 staticrun.app CNAME .
 *.staticrun.app CNAME .
 teleporthq.app CNAME .
@@ -236,6 +238,8 @@ iplogger.cn CNAME .
 *.2no.co CNAME .
 bityl.co CNAME .
 *.bityl.co CNAME .
+c4rex.co CNAME .
+*.c4rex.co CNAME .
 fleek.co CNAME .
 *.fleek.co CNAME .
 iplogger.co CNAME .
@@ -252,6 +256,8 @@ synergize.co CNAME .
 *.synergize.co CNAME .
 vidcloud.co CNAME .
 *.vidcloud.co CNAME .
+000nethost.com CNAME .
+*.000nethost.com CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
 000webhost.com CNAME .
@@ -276,6 +282,8 @@ vidcloud.co CNAME .
 *.10001mb.com CNAME .
 10gbfreehost.com CNAME .
 *.10gbfreehost.com CNAME .
+150m.com CNAME .
+*.150m.com CNAME .
 1asphost.com CNAME .
 *.1asphost.com CNAME .
 1freewebspace.com CNAME .
@@ -304,8 +312,6 @@ vidcloud.co CNAME .
 *.9down.com CNAME .
 9k.com CNAME .
 *.9k.com CNAME .
-9vpsta1.com CNAME .
-*.9vpsta1.com CNAME .
 admarketlocation.com CNAME .
 *.admarketlocation.com CNAME .
 ag0rcgwjv5.com CNAME .
@@ -340,8 +346,6 @@ beplaced.com CNAME .
 *.beplaced.com CNAME .
 bestsharing.com CNAME .
 *.bestsharing.com CNAME .
-bidiurl.com CNAME .
-*.bidiurl.com CNAME .
 billblett.com CNAME .
 *.billblett.com CNAME .
 free.bizhat.com CNAME .
@@ -352,6 +356,8 @@ blltly.com CNAME .
 *.blltly.com CNAME .
 blogcheese.com CNAME .
 *.blogcheese.com CNAME .
+bugs3.com CNAME .
+*.bugs3.com CNAME .
 bulkurlshortener.com CNAME .
 *.bulkurlshortener.com CNAME .
 byethost11.com CNAME .
@@ -406,8 +412,6 @@ sitebeat.crazydomains.com CNAME .
 *.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
-curryfielddistribution.com CNAME .
-*.curryfielddistribution.com CNAME .
 cutedrive.com CNAME .
 *.cutedrive.com CNAME .
 cyberbree.com CNAME .
@@ -508,6 +512,8 @@ freewebhostmost.com CNAME .
 *.freewebhostmost.com CNAME .
 freewebportal.com CNAME .
 *.freewebportal.com CNAME .
+freewebsitehosting.com CNAME .
+*.freewebsitehosting.com CNAME .
 freightinternationalservices.com CNAME .
 *.freightinternationalservices.com CNAME .
 friendcircles.com CNAME .
@@ -590,6 +596,8 @@ jcmemoryscan.com CNAME .
 *.jcmemoryscan.com CNAME .
 jimdofree.com CNAME .
 *.jimdofree.com CNAME .
+jimdosite.com CNAME .
+*.jimdosite.com CNAME .
 joomla.com CNAME .
 *.joomla.com CNAME .
 kesug.com CNAME .
@@ -776,16 +784,14 @@ vastserve.com CNAME .
 *.vastserve.com CNAME .
 vdxh.com CNAME .
 *.vdxh.com CNAME .
-via0.com CNAME .
-*.via0.com CNAME .
-w0of-woof.com CNAME .
-*.w0of-woof.com CNAME .
 w3spaces.com CNAME .
 *.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
 *.webaccess-email.com CNAME .
+webador.com CNAME .
+*.webador.com CNAME .
 webcindario.com CNAME .
 *.webcindario.com CNAME .
 webobo.com CNAME .
@@ -812,6 +818,8 @@ xtreemhost.com CNAME .
 *.xtreemhost.com CNAME .
 yolasite.com CNAME .
 *.yolasite.com CNAME .
+yourdomain.com CNAME .
+*.yourdomain.com CNAME .
 ishg.za.com CNAME .
 *.ishg.za.com CNAME .
 ziddu.com CNAME .
@@ -1040,6 +1048,8 @@ jixx.de CNAME .
 *.jixx.de CNAME .
 kann-helfen.de CNAME .
 *.kann-helfen.de CNAME .
+keepfree.de CNAME .
+*.keepfree.de CNAME .
 klammert.de CNAME .
 *.klammert.de CNAME .
 kurzschliessen.de CNAME .
@@ -1112,8 +1122,6 @@ zustimmen.de CNAME .
 *.zustimmen.de CNAME .
 zx9.de CNAME .
 *.zx9.de CNAME .
-asset-cdn.dev CNAME .
-*.asset-cdn.dev CNAME .
 edgeone.dev CNAME .
 *.edgeone.dev CNAME .
 hashnode.dev CNAME .
@@ -1126,8 +1134,6 @@ eu.orbitor.dev CNAME .
 *.eu.orbitor.dev CNAME .
 latam.orbitor.dev CNAME .
 *.latam.orbitor.dev CNAME .
-wavesnetwork.dev CNAME .
-*.wavesnetwork.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
 chat.dj CNAME .
@@ -1456,6 +1462,8 @@ seite.info CNAME .
 *.seite.info CNAME .
 ipfs.ink CNAME .
 *.ipfs.ink CNAME .
+lnk.ink CNAME .
+*.lnk.ink CNAME .
 42web.io CNAME .
 *.42web.io CNAME .
 4everland.io CNAME .
@@ -1536,8 +1544,6 @@ xx.kg CNAME .
 *.xx.kg CNAME .
 de.ki CNAME .
 *.de.ki CNAME .
-dothome.co.kr CNAME .
-*.dothome.co.kr CNAME .
 kro.kr CNAME .
 *.kro.kr CNAME .
 me2.kr CNAME .
@@ -1802,8 +1808,6 @@ builderall.net CNAME .
 *.builderall.net CNAME .
 creatorlink.net CNAME .
 *.creatorlink.net CNAME .
-crustwebsites.net CNAME .
-*.crustwebsites.net CNAME .
 cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 cwqso.net CNAME .
@@ -1990,8 +1994,6 @@ netfast.org CNAME .
 *.netfast.org CNAME .
 nichesite.org CNAME .
 *.nichesite.org CNAME .
-oundhertobeconsist.org CNAME .
-*.oundhertobeconsist.org CNAME .
 rumahweb.org CNAME .
 *.rumahweb.org CNAME .
 securebankinggroup.org CNAME .
@@ -2006,8 +2008,8 @@ urest.org CNAME .
 *.urest.org CNAME .
 v0r.org CNAME .
 *.v0r.org CNAME .
-yi.org CNAME .
-*.yi.org CNAME .
+website.org CNAME .
+*.website.org CNAME .
 glide.page CNAME .
 *.glide.page CNAME .
 mmm.page CNAME .
@@ -2260,8 +2262,6 @@ cloudns.us CNAME .
 *.cloudns.us CNAME .
 f11.us CNAME .
 *.f11.us CNAME .
-fwb4me.us CNAME .
-*.fwb4me.us CNAME .
 lovelocals.us CNAME .
 *.lovelocals.us CNAME .
 my-place.us CNAME .
