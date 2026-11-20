@@ -4,7 +4,14 @@ labels: ["allow"]
 assignees: 
   - hagezi
 body:
-
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        > Issues without the required details will be ignored.
+        > Read the form carefully and provide all requested details in full.
+        > Do not submit reports with missing information, vague descriptions, or no supporting details.
+    
   - type: checkboxes
     id: prerequisites
     attributes:
