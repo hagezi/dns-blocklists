@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795216260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795249500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 23:11 UTC
-; Version: 2026.1120.2311.21
+; Last modified: 21 Nov 2026 08:25 UTC
+; Version: 2026.1121.0825.49
 ; Syntax: RPZ
-; Number of entries: 2380
+; Number of entries: 2428
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -174,6 +174,8 @@ cloudns.cc CNAME .
 *.cloudns.cc CNAME .
 surfblocked.co.cc CNAME .
 *.surfblocked.co.cc CNAME .
+drrop.cc CNAME .
+*.drrop.cc CNAME .
 flu.cc CNAME .
 *.flu.cc CNAME .
 freehosting.cc CNAME .
@@ -184,6 +186,8 @@ ispot.cc CNAME .
 *.ispot.cc CNAME .
 lihi3.cc CNAME .
 *.lihi3.cc CNAME .
+linklab.cc CNAME .
+*.linklab.cc CNAME .
 nut.cc CNAME .
 *.nut.cc CNAME .
 sryze.cc CNAME .
@@ -198,10 +202,14 @@ topurl.cc CNAME .
 *.topurl.cc CNAME .
 uploadbuzz.cc CNAME .
 *.uploadbuzz.cc CNAME .
+urlty.cc CNAME .
+*.urlty.cc CNAME .
 webn.cc CNAME .
 *.webn.cc CNAME .
 cc.cd CNAME .
 *.cc.cd CNAME .
+sgeiruehou.cfd CNAME .
+*.sgeiruehou.cfd CNAME .
 bitzli.ch CNAME .
 *.bitzli.ch CNAME .
 cloudns.ch CNAME .
@@ -214,6 +222,8 @@ cloudns.cl CNAME .
 *.cloudns.cl CNAME .
 hk6vdj4z.click CNAME .
 *.hk6vdj4z.click CNAME .
+linksc.click CNAME .
+*.linksc.click CNAME .
 olinks.click CNAME .
 *.olinks.click CNAME .
 gateway.pinata.cloud CNAME .
@@ -272,6 +282,8 @@ vidcloud.co CNAME .
 *.vidcloud.co CNAME .
 000nethost.com CNAME .
 *.000nethost.com CNAME .
+000space.com CNAME .
+*.000space.com CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
 000webhost.com CNAME .
@@ -298,6 +310,8 @@ vidcloud.co CNAME .
 *.10gbfreehost.com CNAME .
 150m.com CNAME .
 *.150m.com CNAME .
+16mb.com CNAME .
+*.16mb.com CNAME .
 1asphost.com CNAME .
 *.1asphost.com CNAME .
 1freewebspace.com CNAME .
@@ -326,6 +340,8 @@ vidcloud.co CNAME .
 *.9down.com CNAME .
 9k.com CNAME .
 *.9k.com CNAME .
+9vpsta1.com CNAME .
+*.9vpsta1.com CNAME .
 admarketlocation.com CNAME .
 *.admarketlocation.com CNAME .
 ag0rcgwjv5.com CNAME .
@@ -728,6 +744,8 @@ preview-domain.com CNAME .
 *.preview-domain.com CNAME .
 primetap.com CNAME .
 *.primetap.com CNAME .
+prolink168.com CNAME .
+*.prolink168.com CNAME .
 psend.com CNAME .
 *.psend.com CNAME .
 qrcodedynamic.com CNAME .
@@ -784,6 +802,8 @@ tempisite.com CNAME .
 *.tempisite.com CNAME .
 tinyupload.com CNAME .
 *.tinyupload.com CNAME .
+to24r.com CNAME .
+*.to24r.com CNAME .
 top8.com CNAME .
 *.top8.com CNAME .
 ftp.totallyanonymous.com CNAME .
@@ -812,6 +832,8 @@ uploadjar.com CNAME .
 *.uploadjar.com CNAME .
 upsara.com CNAME .
 *.upsara.com CNAME .
+url666x.com CNAME .
+*.url666x.com CNAME .
 urlyte.com CNAME .
 *.urlyte.com CNAME .
 url.usacomment.com CNAME .
@@ -1190,6 +1212,8 @@ wavesnetwork.dev CNAME .
 *.wavesnetwork.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
+halobet.digital CNAME .
+*.halobet.digital CNAME .
 chat.dj CNAME .
 *.chat.dj CNAME .
 kortlink.dk CNAME .
@@ -1748,6 +1772,8 @@ dweb.link CNAME .
 *.dweb.link CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
+kyb101.link CNAME .
+*.kyb101.link CNAME .
 nftstorage.link CNAME .
 *.nftstorage.link CNAME .
 replug.link CNAME .
@@ -1766,6 +1792,8 @@ facebookid.live CNAME .
 *.facebookid.live CNAME .
 microsoftfiles.live CNAME .
 *.microsoftfiles.live CNAME .
+urllink.live CNAME .
+*.urllink.live CNAME .
 to.lk CNAME .
 *.to.lk CNAME .
 loca.lt CNAME .
@@ -1778,6 +1806,8 @@ me.ly CNAME .
 *.me.ly CNAME .
 online.ly CNAME .
 *.online.ly CNAME .
+unim.ma CNAME .
+*.unim.ma CNAME .
 os.md CNAME .
 *.os.md CNAME .
 078.me CNAME .
@@ -2118,6 +2148,8 @@ imrobpolit.pro CNAME .
 *.imrobpolit.pro CNAME .
 onbit.pro CNAME .
 *.onbit.pro CNAME .
+qty3e.pro CNAME .
+*.qty3e.pro CNAME .
 biz.ps CNAME .
 *.biz.ps CNAME .
 int.ps CNAME .
@@ -2212,6 +2244,8 @@ gakken.shop CNAME .
 *.gakken.shop CNAME .
 nokojp.shop CNAME .
 *.nokojp.shop CNAME .
+onlineweb.shop CNAME .
+*.onlineweb.shop CNAME .
 shohu.shop CNAME .
 *.shohu.shop CNAME .
 u3vw.shop CNAME .
@@ -2222,14 +2256,20 @@ yuichi.shop CNAME .
 *.4x.si CNAME .
 dik.si CNAME .
 *.dik.si CNAME .
+adslinks.site CNAME .
+*.adslinks.site CNAME .
 brizy.site CNAME .
 *.brizy.site CNAME .
 business.site CNAME .
 *.business.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
+earnshort.site CNAME .
+*.earnshort.site CNAME .
 shortslinks.site CNAME .
 *.shortslinks.site CNAME .
+shortsurl.site CNAME .
+*.shortsurl.site CNAME .
 studio.site CNAME .
 *.studio.site CNAME .
 temporary.site CNAME .
@@ -2314,6 +2354,8 @@ moneyash.top CNAME .
 *.moneyash.top CNAME .
 o-link.top CNAME .
 *.o-link.top CNAME .
+ogqu.top CNAME .
+*.ogqu.top CNAME .
 spaceplay.top CNAME .
 *.spaceplay.top CNAME .
 wapka.top CNAME .
@@ -2322,6 +2364,8 @@ ygrrvlvvgf.top CNAME .
 *.ygrrvlvvgf.top CNAME .
 mobile.web.tr CNAME .
 *.mobile.web.tr CNAME .
+b51.tw CNAME .
+*.b51.tw CNAME .
 zzz.com.ua CNAME .
 *.zzz.com.ua CNAME .
 pp.ua CNAME .
@@ -2388,6 +2432,10 @@ twilight.ws CNAME .
 *.twilight.ws CNAME .
 07080900.xyz CNAME .
 *.07080900.xyz CNAME .
+dstly.xyz CNAME .
+*.dstly.xyz CNAME .
+hellokity.xyz CNAME .
+*.hellokity.xyz CNAME .
 adlinkfly.mightyscripts.xyz CNAME .
 *.adlinkfly.mightyscripts.xyz CNAME .
 mightyurl.mightyscripts.xyz CNAME .
