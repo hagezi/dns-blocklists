@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795338360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795391460 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,15 +9,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 09:06 UTC
-; Version: 2026.1122.0906.35
+; Last modified: 22 Nov 2026 23:51 UTC
+; Version: 2026.1122.2351.34
 ; Syntax: RPZ
-; Number of entries: 3034
+; Number of entries: 3016
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
-australia.ai CNAME .
-*.australia.ai CNAME .
 play.ai CNAME .
 *.play.ai CNAME .
 aa.am CNAME .
@@ -736,8 +734,6 @@ g2url.com CNAME .
 *.g2url.com CNAME .
 garmanage.com CNAME .
 *.garmanage.com CNAME .
-garypatel.com CNAME .
-*.garypatel.com CNAME .
 gastright.com CNAME .
 *.gastright.com CNAME .
 geekgalaxy.com CNAME .
@@ -1236,8 +1232,6 @@ robot-armies.com CNAME .
 *.robot-armies.com CNAME .
 rockingwranchinc.com CNAME .
 *.rockingwranchinc.com CNAME .
-routemehome.com CNAME .
-*.routemehome.com CNAME .
 rundis.com CNAME .
 *.rundis.com CNAME .
 russkoeumea.com CNAME .
@@ -1366,8 +1360,6 @@ suroot.com CNAME .
 *.suroot.com CNAME .
 synoserver.com CNAME .
 *.synoserver.com CNAME .
-syntereo.com CNAME .
-*.syntereo.com CNAME .
 sysadminetworks.com CNAME .
 *.sysadminetworks.com CNAME .
 system-ns.com CNAME .
@@ -1452,8 +1444,6 @@ vpntraki.com CNAME .
 *.vpntraki.com CNAME .
 wakingmoon.com CNAME .
 *.wakingmoon.com CNAME .
-warp9computers.com CNAME .
-*.warp9computers.com CNAME .
 westblade.com CNAME .
 *.westblade.com CNAME .
 whyboner.com CNAME .
@@ -2304,8 +2294,6 @@ thenme.net CNAME .
 *.thenme.net CNAME .
 thruhere.net CNAME .
 *.thruhere.net CNAME .
-topsddns.net CNAME .
-*.topsddns.net CNAME .
 trickip.net CNAME .
 *.trickip.net CNAME .
 tunnelbroker.net CNAME .
@@ -2700,8 +2688,6 @@ thenest.org CNAME .
 *.thenest.org CNAME .
 trailsendlodge.org CNAME .
 *.trailsendlodge.org CNAME .
-trickip.org CNAME .
-*.trickip.org CNAME .
 tscng.org CNAME .
 *.tscng.org CNAME .
 ufcfan.org CNAME .
@@ -2960,8 +2946,6 @@ dynamicdns.org.uk CNAME .
 *.dynamicdns.org.uk CNAME .
 limit.org.uk CNAME .
 *.limit.org.uk CNAME .
-0rg.us CNAME .
-*.0rg.us CNAME .
 4twenty.us CNAME .
 *.4twenty.us CNAME .
 atlantatruckdrivingschool.us CNAME .
@@ -3026,8 +3010,6 @@ stuff-4-sale.us CNAME .
 *.stuff-4-sale.us CNAME .
 tobuy.us CNAME .
 *.tobuy.us CNAME .
-wwwhost.us CNAME .
-*.wwwhost.us CNAME .
 hs.vc CNAME .
 *.hs.vc CNAME .
 webs.vc CNAME .

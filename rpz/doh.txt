@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795363200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795391520 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 16:00 UTC
-; Version: 2026.1122.1600.21
+; Last modified: 22 Nov 2026 23:52 UTC
+; Version: 2026.1122.2352.00
 ; Syntax: RPZ
-; Number of entries: 7138
+; Number of entries: 7114
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -715,8 +715,6 @@ ag.apollohct.com CNAME .
 *.ag.apollohct.com CNAME .
 doh.dns.apple.com CNAME .
 *.doh.dns.apple.com CNAME .
-dns.arapurayil.com CNAME .
-*.dns.arapurayil.com CNAME .
 dns.area2.com CNAME .
 *.dns.area2.com CNAME .
 dns-4f92fba5f9.area2.com CNAME .
@@ -1433,8 +1431,6 @@ ss.microbaidu.com CNAME .
 *.ss.microbaidu.com CNAME .
 mikewaddick.com CNAME .
 *.mikewaddick.com CNAME .
-dns.mipauns.com CNAME .
-*.dns.mipauns.com CNAME .
 httpdns.browser.miui.com CNAME .
 *.httpdns.browser.miui.com CNAME .
 dns.miyun1.com CNAME .
@@ -1621,8 +1617,6 @@ dns.pacificmonster.com CNAME .
 *.dns.pacificmonster.com CNAME .
 pashagame456.com CNAME .
 *.pashagame456.com CNAME .
-doh.gcp.pathofgrace.com CNAME .
-*.doh.gcp.pathofgrace.com CNAME .
 dns.paxavemedia.com CNAME .
 *.dns.paxavemedia.com CNAME .
 dns.periactes.com CNAME .
@@ -2615,8 +2609,6 @@ dns.mihalcea.eu CNAME .
 *.dns.mihalcea.eu CNAME .
 mydevpn.eu CNAME .
 *.mydevpn.eu CNAME .
-n0.eu CNAME .
-*.n0.eu CNAME .
 personal-proj-by-me.eu CNAME .
 *.personal-proj-by-me.eu CNAME .
 dns.rhscz.eu CNAME .
@@ -3049,8 +3041,6 @@ panser.web.id CNAME .
 *.panser.web.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
-doh.zephyrus.id CNAME .
-*.doh.zephyrus.id CNAME .
 ag.hostme.co.il CNAME .
 *.ag.hostme.co.il CNAME .
 us.aab.im CNAME .
@@ -5085,8 +5075,6 @@ resolver.dns.eban.eu.org CNAME .
 *.resolver.dns.eban.eu.org CNAME .
 doh.excdn.eu.org CNAME .
 *.doh.excdn.eu.org CNAME .
-futuredns.eu.org CNAME .
-*.futuredns.eu.org CNAME .
 doh.greenwood.eu.org CNAME .
 *.doh.greenwood.eu.org CNAME .
 sweethome.in.eu.org CNAME .
@@ -6019,8 +6007,6 @@ juicysalmon.ru CNAME .
 *.juicysalmon.ru CNAME .
 adguard.k-likhachev.ru CNAME .
 *.adguard.k-likhachev.ru CNAME .
-kocapb.ru CNAME .
-*.kocapb.ru CNAME .
 komo4ek.ru CNAME .
 *.komo4ek.ru CNAME .
 kondrcloud.ru CNAME .
@@ -6115,8 +6101,6 @@ ssh-storage.ru CNAME .
 *.ssh-storage.ru CNAME .
 ag.stepnew.ru CNAME .
 *.ag.stepnew.ru CNAME .
-structoriumwings.ru CNAME .
-*.structoriumwings.ru CNAME .
 dns0.tardishost.ru CNAME .
 *.dns0.tardishost.ru CNAME .
 dns1.tardishost.ru CNAME .
@@ -6909,8 +6893,6 @@ dns.354688.xyz CNAME .
 *.dns.354688.xyz CNAME .
 xjpdns.354688.xyz CNAME .
 *.xjpdns.354688.xyz CNAME .
-3dcosas.xyz CNAME .
-*.3dcosas.xyz CNAME .
 n.5201344.xyz CNAME .
 *.n.5201344.xyz CNAME .
 adguard2.546413.xyz CNAME .
@@ -6983,8 +6965,6 @@ safe-guard.badbotdev.xyz CNAME .
 *.safe-guard.badbotdev.xyz CNAME .
 vps01.bbhc.xyz CNAME .
 *.vps01.bbhc.xyz CNAME .
-bluedns.xyz CNAME .
-*.bluedns.xyz CNAME .
 adguard.chanhome.xyz CNAME .
 *.adguard.chanhome.xyz CNAME .
 alpha.cixy.xyz CNAME .
@@ -7007,8 +6987,6 @@ hole.elbschloss.xyz CNAME .
 *.hole.elbschloss.xyz CNAME .
 adguard.eximpius.xyz CNAME .
 *.adguard.eximpius.xyz CNAME .
-fra1.eyecay.xyz CNAME .
-*.fra1.eyecay.xyz CNAME .
 dns.f97.xyz CNAME .
 *.dns.f97.xyz CNAME .
 agent.frankutils.xyz CNAME .
@@ -7145,8 +7123,6 @@ dns.oliviertv.co.za CNAME .
 *.dns.oliviertv.co.za CNAME .
 pooblet.co.za CNAME .
 *.pooblet.co.za CNAME .
-doh.vpsdns.co.za CNAME .
-*.doh.vpsdns.co.za CNAME .
 paulo.nom.za CNAME .
 *.paulo.nom.za CNAME .
 dns.froth.zone CNAME .
