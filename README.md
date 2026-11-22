@@ -85,7 +85,7 @@ For a full inclusion matrix that also covers the standalone lists, see the [Chea
 | :ledger:[Pro](#pro)                | Balanced            | Low to moderate  | 283999      | Mini: 106231 |
 | :orange_book:[Pro++](#proplus)     | Balanced/Aggressive | Moderate         | 297554  | Mini: 111333 |
 | :closed_book:[Ultimate](#ultimate) | Aggressive          | High             | 327312 | Mini: 118834 |
-| :closed_lock_with_key:[TIF](#tif)  | Threats only        | Low              | 1865695      | Medium: 432499<br>Mini: 247395 |
+| :closed_lock_with_key:[TIF](#tif)  | Threats only        | Low              | 1895500      | Medium: 412890<br>Mini: 207515 |
 
 The first five build on each other, so pick exactly one of them. TIF works differently: it's an add-on covering malware, phishing, and other live threats, and it's worth running alongside any tier. The size-optimized versions are alternatives to their full list, never something you add on top. Entry counts change with every build.
 
@@ -264,7 +264,7 @@ This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blo
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ<br>(split) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 1865695 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt) | :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) |
+| 1895500 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt) | :one: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-1.txt)<br>:two: [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif-2.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, medium version (best for browser/mobile ad blockers)** <a name="tifmedium"></a>
 
@@ -275,7 +275,7 @@ A medium-sized version of the TIF list, built for ad blockers that struggle with
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 432499 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt) |
+| 412890 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, mini version** <a name="tifmini"></a>
 
@@ -283,7 +283,7 @@ A size-optimized version of the TIF Medium list, for ad blockers that even strug
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 247395 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt) |
+| 207515 | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt) |
 
 #### :closed_lock_with_key: **Threat Intelligence Feeds, IPs** <a name="tifips"></a>
 
