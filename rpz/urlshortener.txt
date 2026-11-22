@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795248180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795301700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 21 Nov 2026 08:03 UTC
-; Version: 2026.1121.0803.08
+; Last modified: 21 Nov 2026 22:55 UTC
+; Version: 2026.1121.2255.21
 ; Syntax: RPZ
 ; Number of entries: 19538
 ;
@@ -1371,8 +1371,6 @@ zzb.bz CNAME .
 *.1ql.ca CNAME .
 3ft.ca CNAME .
 *.3ft.ca CNAME .
-alpinehr.ca CNAME .
-*.alpinehr.ca CNAME .
 yourls.irex.aretex.ca CNAME .
 *.yourls.irex.aretex.ca CNAME .
 atu.ca CNAME .
@@ -7545,6 +7543,8 @@ xoxourl.com CNAME .
 *.xoxourl.com CNAME .
 xozap.com CNAME .
 *.xozap.com CNAME .
+xplinks.com CNAME .
+*.xplinks.com CNAME .
 xr.com CNAME .
 *.xr.com CNAME .
 xtglinks.com CNAME .
@@ -8121,8 +8121,6 @@ wavesnetwork.dev CNAME .
 *.wavesnetwork.dev CNAME .
 wp-lib.dev CNAME .
 *.wp-lib.dev CNAME .
-akses.digital CNAME .
-*.akses.digital CNAME .
 ampifire.digital CNAME .
 *.ampifire.digital CNAME .
 augustinus.digital CNAME .
@@ -8745,6 +8743,8 @@ plots.fr CNAME .
 *.plots.fr CNAME .
 qrtag.fr CNAME .
 *.qrtag.fr CNAME .
+redir.fr CNAME .
+*.redir.fr CNAME .
 relink.fr CNAME .
 *.relink.fr CNAME .
 rwz.fr CNAME .
@@ -10293,6 +10293,8 @@ webinfos.info CNAME .
 *.webinfos.info CNAME .
 wez.info CNAME .
 *.wez.info CNAME .
+xbig.info CNAME .
+*.xbig.info CNAME .
 yourls.info CNAME .
 *.yourls.info CNAME .
 zurl.info CNAME .
@@ -12101,6 +12103,8 @@ bose.life CNAME .
 *.bose.life CNAME .
 bravos.life CNAME .
 *.bravos.life CNAME .
+briidge.life CNAME .
+*.briidge.life CNAME .
 conns.life CNAME .
 *.conns.life CNAME .
 decimalegion.life CNAME .
@@ -13385,8 +13389,6 @@ unim.ma CNAME .
 *.unim.ma CNAME .
 yo.ma CNAME .
 *.yo.ma CNAME .
-zi.ma CNAME .
-*.zi.ma CNAME .
 woodmans.market CNAME .
 *.woodmans.market CNAME .
 cga.marketing CNAME .
@@ -18751,8 +18753,6 @@ grlu.us CNAME .
 *.grlu.us CNAME .
 hook2.us CNAME .
 *.hook2.us CNAME .
-idvip.us CNAME .
-*.idvip.us CNAME .
 impl.us CNAME .
 *.impl.us CNAME .
 incab.us CNAME .
@@ -18913,8 +18913,6 @@ tgov.us CNAME .
 *.tgov.us CNAME .
 th8.us CNAME .
 *.th8.us CNAME .
-thesa.us CNAME .
-*.thesa.us CNAME .
 thinkpl.us CNAME .
 *.thinkpl.us CNAME .
 tiny.us CNAME .
@@ -19429,6 +19427,8 @@ linkol.xyz CNAME .
 *.linkol.xyz CNAME .
 lompat.xyz CNAME .
 *.lompat.xyz CNAME .
+magaus.xyz CNAME .
+*.magaus.xyz CNAME .
 maicowa.xyz CNAME .
 *.maicowa.xyz CNAME .
 adlinkfly.mightyscripts.xyz CNAME .
