@@ -123,8 +123,6 @@ body:
           required: true
         - label: I have provided sufficient details to verify the need for unblocking the domain(s), including the steps to reproduce the issue.
           required: true
-        - label: I did not answer truthfully to any of the above checkboxes.
-          required: false
 
   - type: checkboxes
     id: terms
