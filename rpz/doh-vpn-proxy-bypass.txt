@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795338420 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795363200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 09:07 UTC
-; Version: 2026.1122.0907.24
+; Last modified: 22 Nov 2026 16:00 UTC
+; Version: 2026.1122.1600.48
 ; Syntax: RPZ
-; Number of entries: 33454
+; Number of entries: 33440
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -197,8 +197,6 @@ fscloud.app CNAME .
 *.fscloud.app CNAME .
 doh.futa.app CNAME .
 *.doh.futa.app CNAME .
-dns.gearworks.app CNAME .
-*.dns.gearworks.app CNAME .
 geekspeed.app CNAME .
 *.geekspeed.app CNAME .
 getboost.app CNAME .
@@ -9787,8 +9785,6 @@ kuailian-apps.com CNAME .
 *.kuailian-apps.com CNAME .
 kuailian-cn.com CNAME .
 *.kuailian-cn.com CNAME .
-kuailian-hk.com CNAME .
-*.kuailian-hk.com CNAME .
 kuailian-it.com CNAME .
 *.kuailian-it.com CNAME .
 kuailian-k.com CNAME .
@@ -10985,10 +10981,6 @@ networkvpnapp.com CNAME .
 *.networkvpnapp.com CNAME .
 newipnow.com CNAME .
 *.newipnow.com CNAME .
-hours.newlifesanctuarychurch.com CNAME .
-*.hours.newlifesanctuarychurch.com CNAME .
-tuffled-getit-pleaselaugh.newlifesanctuarychurch.com CNAME .
-*.tuffled-getit-pleaselaugh.newlifesanctuarychurch.com CNAME .
 newlockdoor.com CNAME .
 *.newlockdoor.com CNAME .
 newtpeak.com CNAME .
@@ -11573,8 +11565,6 @@ pezishka.com CNAME .
 *.pezishka.com CNAME .
 pf2oxqgk.com CNAME .
 *.pf2oxqgk.com CNAME .
-pfckhora.com CNAME .
-*.pfckhora.com CNAME .
 pfypikij.com CNAME .
 *.pfypikij.com CNAME .
 pgglrz85.com CNAME .
@@ -11759,8 +11749,6 @@ pplsearcher.com CNAME .
 *.pplsearcher.com CNAME .
 pq7hdf.com CNAME .
 *.pq7hdf.com CNAME .
-pqmrbzwq.com CNAME .
-*.pqmrbzwq.com CNAME .
 pr0xy.com CNAME .
 *.pr0xy.com CNAME .
 dns.practicallyunhackable.com CNAME .
@@ -15377,8 +15365,6 @@ zwyr157wwiu6eior.com CNAME .
 *.zwyr157wwiu6eior.com CNAME .
 zwytzjjz.com CNAME .
 *.zwytzjjz.com CNAME .
-zxtwpkso.com CNAME .
-*.zxtwpkso.com CNAME .
 httpdns.zybang.com CNAME .
 *.httpdns.zybang.com CNAME .
 deliquesceplay.zzdhk.com CNAME .

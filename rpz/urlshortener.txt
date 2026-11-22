@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795334340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795359300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 07:59 UTC
-; Version: 2026.1122.0759.51
+; Last modified: 22 Nov 2026 14:55 UTC
+; Version: 2026.1122.1455.24
 ; Syntax: RPZ
-; Number of entries: 19536
+; Number of entries: 19532
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4953,8 +4953,6 @@ linkasd.com CNAME .
 *.linkasd.com CNAME .
 linkatra.com CNAME .
 *.linkatra.com CNAME .
-linkbby.com CNAME .
-*.linkbby.com CNAME .
 linkbee.com CNAME .
 *.linkbee.com CNAME .
 linkbitty.com CNAME .
@@ -15699,8 +15697,6 @@ knpp.online CNAME .
 *.knpp.online CNAME .
 linkburst.online CNAME .
 *.linkburst.online CNAME .
-linkshortner.online CNAME .
-*.linkshortner.online CNAME .
 medusa88.online CNAME .
 *.medusa88.online CNAME .
 megapay.online CNAME .
