@@ -44,6 +44,7 @@ body:
         - Threat Intelligence Feeds medium
         - Threat Intelligence Feeds mini
         - Threat Intelligence Feeds IPs
+        - DNS Rebind Protection
         - DoH/VPN/Tor/Proxy Bypass
         - DoH Bypass
         - DoH Bypass IPs
@@ -58,7 +59,6 @@ body:
         - Native Tracker
         - Referral
         - URL shortener
-        - Rebind Protection
     validations:
       required: true
 
@@ -131,7 +131,9 @@ body:
           required: true
         - label: I have provided sufficient details to justify the need for blocking the domain(s).
           required: true
-        
+         - label: I did not answer truthfully to any of the above checkboxes.
+          required: false
+          
   - type: checkboxes
     id: terms
     attributes:
