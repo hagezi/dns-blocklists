@@ -131,8 +131,6 @@ body:
           required: true
         - label: I have provided sufficient details to justify the need for blocking the domain(s).
           required: true
-        - label: I did not answer truthfully to any of the above checkboxes.
-          required: false
         
   - type: checkboxes
     id: terms
