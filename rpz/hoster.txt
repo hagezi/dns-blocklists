@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795303140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795335780 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 21 Nov 2026 23:19 UTC
-; Version: 2026.1121.2319.21
+; Last modified: 22 Nov 2026 08:23 UTC
+; Version: 2026.1122.0823.15
 ; Syntax: RPZ
-; Number of entries: 2848
+; Number of entries: 2840
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -186,10 +186,6 @@ xp3.biz CNAME .
 *.xp3.biz CNAME .
 blogspot.blog CNAME .
 *.blogspot.blog CNAME .
-blogspot.bom CNAME .
-*.blogspot.bom CNAME .
-blogspot.br CNAME .
-*.blogspot.br CNAME .
 blogspot.com.br CNAME .
 *.blogspot.com.br CNAME .
 encurtador.com.br CNAME .
@@ -1394,8 +1390,6 @@ lnk.do CNAME .
 *.lnk.do CNAME .
 job.ec CNAME .
 *.job.ec CNAME .
-blogspot.edu CNAME .
-*.blogspot.edu CNAME .
 blogspot.com.ee CNAME .
 *.blogspot.com.ee CNAME .
 paste.ee CNAME .
@@ -2368,8 +2362,6 @@ cloudns.nz CNAME .
 *.cloudns.nz CNAME .
 blogspot.co.nz CNAME .
 *.blogspot.co.nz CNAME .
-blogspot.om CNAME .
-*.blogspot.om CNAME .
 azl.one CNAME .
 *.azl.one CNAME .
 trim.one CNAME .
