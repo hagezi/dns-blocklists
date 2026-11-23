@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795391520 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795423800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 23:52 UTC
-; Version: 2026.1122.2352.00
+; Last modified: 23 Nov 2026 08:50 UTC
+; Version: 2026.1123.0850.55
 ; Syntax: RPZ
-; Number of entries: 7114
+; Number of entries: 7104
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1305,8 +1305,6 @@ dns.jstockley.com CNAME .
 *.dns.jstockley.com CNAME .
 dns.juancamos.com CNAME .
 *.dns.juancamos.com CNAME .
-dns.jupitrdns.com CNAME .
-*.dns.jupitrdns.com CNAME .
 sgs02.just-a-web.com CNAME .
 *.sgs02.just-a-web.com CNAME .
 ad.justincounts.com CNAME .
@@ -1409,8 +1407,6 @@ dns.maomaovpn.com CNAME .
 *.dns.maomaovpn.com CNAME .
 doh.maskab.com CNAME .
 *.doh.maskab.com CNAME .
-dns.matthias-prost.com CNAME .
-*.dns.matthias-prost.com CNAME .
 mcttechs.com CNAME .
 *.mcttechs.com CNAME .
 dns.me7878.com CNAME .
@@ -1433,8 +1429,6 @@ mikewaddick.com CNAME .
 *.mikewaddick.com CNAME .
 httpdns.browser.miui.com CNAME .
 *.httpdns.browser.miui.com CNAME .
-dns.miyun1.com CNAME .
-*.dns.miyun1.com CNAME .
 doh.mmmalia.com CNAME .
 *.doh.mmmalia.com CNAME .
 dnstls.mobik.com CNAME .
@@ -1445,8 +1439,6 @@ dns.mochalka.com CNAME .
 *.dns.mochalka.com CNAME .
 dns.moonssif.com CNAME .
 *.dns.moonssif.com CNAME .
-disinformer.mooo.com CNAME .
-*.disinformer.mooo.com CNAME .
 e23a.mooo.com CNAME .
 *.e23a.mooo.com CNAME .
 feellike.mooo.com CNAME .
@@ -1633,6 +1625,8 @@ philqoo.com CNAME .
 *.philqoo.com CNAME .
 doh.centraleu.pi-dns.com CNAME .
 *.doh.centraleu.pi-dns.com CNAME .
+dot.centraleu.pi-dns.com CNAME .
+*.dot.centraleu.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -5217,8 +5211,6 @@ fwgw.orangepipc.mywire.org CNAME .
 *.fwgw.orangepipc.mywire.org CNAME .
 nelsonleung.org CNAME .
 *.nelsonleung.org CNAME .
-dns.neutopia.org CNAME .
-*.dns.neutopia.org CNAME .
 daemonhunt.no-ip.org CNAME .
 *.daemonhunt.no-ip.org CNAME .
 adguard.nocnik.org CNAME .
@@ -6339,8 +6331,6 @@ dns.romain.tech CNAME .
 *.dns.romain.tech CNAME .
 dns.startupstack.tech CNAME .
 *.dns.startupstack.tech CNAME .
-tuskythehusky.tech CNAME .
-*.tuskythehusky.tech CNAME .
 voyage-s01.cloudku.technology CNAME .
 *.voyage-s01.cloudku.technology CNAME .
 voyage-s02.cloudku.technology CNAME .

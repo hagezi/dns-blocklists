@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795389240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795421520 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 23:14 UTC
-; Version: 2026.1122.2314.29
+; Last modified: 23 Nov 2026 08:12 UTC
+; Version: 2026.1123.0812.46
 ; Syntax: RPZ
-; Number of entries: 2548
+; Number of entries: 2544
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -214,8 +214,6 @@ ispot.cc CNAME .
 *.ispot.cc CNAME .
 lihi3.cc CNAME .
 *.lihi3.cc CNAME .
-nut.cc CNAME .
-*.nut.cc CNAME .
 sryze.cc CNAME .
 *.sryze.cc CNAME .
 ssur.cc CNAME .
@@ -312,8 +310,6 @@ wapka.co CNAME .
 *.000webapp.com CNAME .
 000webhost.com CNAME .
 *.000webhost.com CNAME .
-000webhostapp.com CNAME .
-*.000webhostapp.com CNAME .
 00author.com CNAME .
 *.00author.com CNAME .
 00freehost.com CNAME .
@@ -548,6 +544,8 @@ fileurls.com CNAME .
 *.fileurls.com CNAME .
 financecryptoworld.com CNAME .
 *.financecryptoworld.com CNAME .
+firstcloudit.com CNAME .
+*.firstcloudit.com CNAME .
 flazio.com CNAME .
 *.flazio.com CNAME .
 formbuddy.com CNAME .
@@ -596,8 +594,6 @@ godaddysites.com CNAME .
 *.godaddysites.com CNAME .
 gofreeserve.com CNAME .
 *.gofreeserve.com CNAME .
-googletagmanagers.com CNAME .
-*.googletagmanagers.com CNAME .
 gr-site.com CNAME .
 *.gr-site.com CNAME .
 greatnow.com CNAME .

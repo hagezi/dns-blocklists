@@ -9,8 +9,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 22 Nov 2026 11:48 UTC
-! Version: 2026.1122.1148.57
+! Last modified: 23 Nov 2026 02:44 UTC
+! Version: 2026.1123.0244.34
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -49,7 +49,7 @@
 ||casa^$doc,domain=~keys.casa|~nabu.casa
 ||cash^$doc,domain=~cake.cash|~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
-||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~dns36.cc|~eay.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
+||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~dns36.cc|~eay.cc|~ewelink.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
 ||center^$doc,domain=~found.center|~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
@@ -92,7 +92,7 @@
 ||dpdns.org^$doc
 ||eco^$doc,domain=~auk.eco|~elli.eco|~mer.eco|~nura.eco|~play.eco
 ||edu.eu^$doc
-||energy^$doc,domain=~bigdig.energy|~chargee.energy|~eonnext-kraken.energy|~homewizard.energy|~octopus.energy|~oegb-kraken.energy|~planetpod.energy|~shoptopus.energy
+||energy^$doc,domain=~bigdig.energy|~bliq.energy|~chargee.energy|~eonnext-kraken.energy|~homewizard.energy|~mygrid.energy|~octopus.energy|~oegb-kraken.energy|~planetpod.energy|~shoptopus.energy
 ||engineer^$doc
 ||enterprises^$doc
 ||equipment^$doc,domain=~biqu.equipment
@@ -120,7 +120,7 @@
 ||fun^$doc,domain=~cdn.fun|~chinaq.fun|~disasterpr.fun|~enza.fun|~neal.fun|~patterncraft.fun|~strem.fun
 ||fund^$doc
 ||futbol^$doc
-||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~layoffs.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~seized.fyi|~vercel.fyi|~wpt.fyi
+||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~expo.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~layoffs.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~seized.fyi|~vercel.fyi|~wpt.fyi
 ||ga^$doc,domain=~google.ga|~mmo.ga
 ||games^$doc,domain=~crazypanda.games|~embark.games|~eneba.games|~erkul.games|~gxcorner.games|~mycafe.games|~skystone.games
 ||garden^$doc,domain=~file.garden|~radio.garden
@@ -150,7 +150,7 @@
 ||how^$doc,domain=~mond.how|~notrace.how
 ||icu^$doc,domain=~fastdl.icu|~intervals.icu|~lunar.icu|~mon.icu
 ||immo^$doc
-||ink^$doc,domain=~filepress.ink|~ishortn.ink|~mez.ink|~next.ink|~rdl.ink|~shrinkme.ink|~simple.ink|~spaceforce.ink|~sumerian.ink|~work.ink
+||ink^$doc,domain=~filepress.ink|~homey.ink|~ishortn.ink|~mez.ink|~next.ink|~rdl.ink|~shrinkme.ink|~simple.ink|~spaceforce.ink|~sumerian.ink|~work.ink
 ||insure^$doc
 ||international^$doc,domain=~returns.international
 ||irish^$doc
@@ -191,7 +191,7 @@
 ||mov^$doc,domain=~david.mov|~peerflix.mov|~pstream.mov
 ||name^$doc,domain=~chaosfunk.name|~chris.boyle.name|~crt.name|~davidwalsh.name|~hostaan.name|~keenetic.name|~stefvanbuuren.name|~vlo.name
 ||navy^$doc
-||new^$doc,domain=~bolt.new|~doc.new|~drawing.new|~form.new|~git.new|~lecture.new|~postgres.new|~sheet.new|~site.new|~slide.new
+||new^$doc,domain=~bolt.new|~doc.new|~docs.new|~drawing.new|~drawings.new|~form.new|~forms.new|~git.new|~lecture.new|~postgres.new|~sheet.new|~sheets.new|~site.new|~sites.new|~slide.new|~slides.new|~vids.new
 ||ng^$doc,domain=~coupa.ng|~google.com.ng|~origami.ng
 ||ninja^$doc,domain=~cape.ninja|~clash.ninja|~dts.ninja|~flashscore.ninja|~giveaway.ninja|~poe.ninja|~protomedia.ninja|~tgtg.ninja
 ||observer^$doc,domain=~project2025.observer
@@ -213,7 +213,7 @@
 ||pink^$doc
 ||pizza^$doc,domain=~tux.pizza
 ||place^$doc,domain=~gamedev.place
-||plus^$doc,domain=~mstdn.plus|~pahe.plus|~petmed.plus|~rcti.plus|~saepay.plus
+||plus^$doc,domain=~mstdn.plus|~pahe.plus|~petmed.plus|~rcti.plus|~saepay.plus|~vite.plus
 ||poker^$doc
 ||post^$doc,domain=~cypruspost.post|~postnl.post
 ||prof^$doc,domain=~casey.prof

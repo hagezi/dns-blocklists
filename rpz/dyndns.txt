@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795391460 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795423800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 22 Nov 2026 23:51 UTC
-; Version: 2026.1122.2351.34
+; Last modified: 23 Nov 2026 08:50 UTC
+; Version: 2026.1123.0850.26
 ; Syntax: RPZ
-; Number of entries: 3016
+; Number of entries: 2992
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -72,8 +72,6 @@ dynamicdns.biz CNAME .
 *.dynamicdns.biz CNAME .
 dyndns.biz CNAME .
 *.dyndns.biz CNAME .
-edns.biz CNAME .
-*.edns.biz CNAME .
 esmtp.biz CNAME .
 *.esmtp.biz CNAME .
 for-better.biz CNAME .
@@ -110,8 +108,6 @@ ninth.biz CNAME .
 *.ninth.biz CNAME .
 no-ip.biz CNAME .
 *.no-ip.biz CNAME .
-ns01.biz CNAME .
-*.ns01.biz CNAME .
 ns02.biz CNAME .
 *.ns02.biz CNAME .
 onmypc.biz CNAME .
@@ -130,8 +126,6 @@ www1.biz CNAME .
 *.www1.biz CNAME .
 wwwhost.biz CNAME .
 *.wwwhost.biz CNAME .
-xxxy.biz CNAME .
-*.xxxy.biz CNAME .
 ddns.com.br CNAME .
 *.ddns.com.br CNAME .
 winco.com.br CNAME .
@@ -492,8 +486,6 @@ dsmtp.com CNAME .
 *.dsmtp.com CNAME .
 dtdns.com CNAME .
 *.dtdns.com CNAME .
-dumb1.com CNAME .
-*.dumb1.com CNAME .
 dvr-ddns.com CNAME .
 *.dvr-ddns.com CNAME .
 dyn.com CNAME .
@@ -842,8 +834,6 @@ ip-dynamic.com CNAME .
 *.ip-dynamic.com CNAME .
 iprowave.com CNAME .
 *.iprowave.com CNAME .
-ipupdater.com CNAME .
-*.ipupdater.com CNAME .
 is-a-anarchist.com CNAME .
 *.is-a-anarchist.com CNAME .
 is-a-blogger.com CNAME .
@@ -1200,8 +1190,6 @@ point2this.com CNAME .
 *.point2this.com CNAME .
 portfwd.com CNAME .
 *.portfwd.com CNAME .
-portrelay.com CNAME .
-*.portrelay.com CNAME .
 prettyweak.com CNAME .
 *.prettyweak.com CNAME .
 privatedns.com CNAME .
@@ -1312,8 +1300,6 @@ serveusers.com CNAME .
 *.serveusers.com CNAME .
 sexidude.com CNAME .
 *.sexidude.com CNAME .
-shadir.com CNAME .
-*.shadir.com CNAME .
 sharkltd.com CNAME .
 *.sharkltd.com CNAME .
 shekinahphotography.com CNAME .
@@ -1820,8 +1806,6 @@ soon.it CNAME .
 *.soon.it CNAME .
 undo.it CNAME .
 *.undo.it CNAME .
-dip.jp CNAME .
-*.dip.jp CNAME .
 dob.jp CNAME .
 *.dob.jp CNAME .
 gally.jp CNAME .
@@ -1858,8 +1842,6 @@ bine.me CNAME .
 *.bine.me CNAME .
 brasilia.me CNAME .
 *.brasilia.me CNAME .
-changeip.me CNAME .
-*.changeip.me CNAME .
 ddns.me CNAME .
 *.ddns.me CNAME .
 dnsfor.me CNAME .
@@ -2700,8 +2682,6 @@ wifizone.org CNAME .
 *.wifizone.org CNAME .
 xname.org CNAME .
 *.xname.org CNAME .
-dyndns.za.org CNAME .
-*.dyndns.za.org CNAME .
 zapto.org CNAME .
 *.zapto.org CNAME .
 dynme.ovh CNAME .
@@ -2772,8 +2752,6 @@ bakli.ru CNAME .
 *.bakli.ru CNAME .
 bmvl.ru CNAME .
 *.bmvl.ru CNAME .
-coalnet.ru CNAME .
-*.coalnet.ru CNAME .
 corbina.ru CNAME .
 *.corbina.ru CNAME .
 crazedns.ru CNAME .
@@ -2994,8 +2972,6 @@ noip.us CNAME .
 *.noip.us CNAME .
 ns01.us CNAME .
 *.ns01.us CNAME .
-ns02.us CNAME .
-*.ns02.us CNAME .
 onmypc.us CNAME .
 *.onmypc.us CNAME .
 pointto.us CNAME .
