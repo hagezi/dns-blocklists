@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795506720 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795525920 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,13 +9,15 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 07:52 UTC
-; Version: 2026.1124.0752.17
+; Last modified: 24 Nov 2026 13:12 UTC
+; Version: 2026.1124.1312.48
 ; Syntax: RPZ
-; Number of entries: 20652
+; Number of entries: 20660
 ;
 ledger.com.ag CNAME .
 *.ledger.com.ag CNAME .
+algosone.ai CNAME .
+*.algosone.ai CNAME .
 bitcoineer.ai CNAME .
 *.bitcoineer.ai CNAME .
 mindmetric.ai CNAME .
@@ -26,6 +28,8 @@ investir-dans-l-or.site.sitekick.ai CNAME .
 *.investir-dans-l-or.site.sitekick.ai CNAME .
 sparfuchs-vergleich.base44.app CNAME .
 *.sparfuchs-vergleich.base44.app CNAME .
+bitcoinera.app CNAME .
+*.bitcoinera.app CNAME .
 cryptotrader.app CNAME .
 *.cryptotrader.app CNAME .
 spontaneous-bubblegum-6d5740.netlify.app CNAME .
@@ -5058,6 +5062,8 @@ grazapotheke.com CNAME .
 *.grazapotheke.com CNAME .
 greenbird-shop.com CNAME .
 *.greenbird-shop.com CNAME .
+greendax.com CNAME .
+*.greendax.com CNAME .
 greenhousesshop.com CNAME .
 *.greenhousesshop.com CNAME .
 greentuning-de.com CNAME .
@@ -14056,6 +14062,8 @@ gorobo.de CNAME .
 *.gorobo.de CNAME .
 gotrixa.de CNAME .
 *.gotrixa.de CNAME .
+gplate.de CNAME .
+*.gplate.de CNAME .
 gratis-produkttests.de CNAME .
 *.gratis-produkttests.de CNAME .
 gratis-testen-aktionen.de CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795510680 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795528800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling medium - blocks gambling content!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 08:58 UTC
-; Version: 2026.1124.0858.56
+; Last modified: 24 Nov 2026 14:00 UTC
+; Version: 2026.1124.1400.46
 ; Syntax: RPZ
-; Number of entries: 149870
+; Number of entries: 149856
 ;
 789bet.ac CNAME .
 *.789bet.ac CNAME .
@@ -2706,6 +2706,8 @@ bet-andreas.bet CNAME .
 *.bet-andreas.bet CNAME .
 bet-label.bet CNAME .
 *.bet-label.bet CNAME .
+bet-match.bet CNAME .
+*.bet-match.bet CNAME .
 bet-room.bet CNAME .
 *.bet-room.bet CNAME .
 bet1x2.bet CNAME .
@@ -26964,6 +26966,8 @@ superslot-1234.co CNAME .
 *.superslot-1234.co CNAME .
 ta99.co CNAME .
 *.ta99.co CNAME .
+taboapg.co CNAME .
+*.taboapg.co CNAME .
 taikubet.co CNAME .
 *.taikubet.co CNAME .
 taquerianacional.co CNAME .
@@ -27292,8 +27296,6 @@ q6n3.0577bxgc.com CNAME .
 *.1010b1.com CNAME .
 10165jojobet.com CNAME .
 *.10165jojobet.com CNAME .
-10175jojobet.com CNAME .
-*.10175jojobet.com CNAME .
 101casinobetting.com CNAME .
 *.101casinobetting.com CNAME .
 101milanobet.com CNAME .
@@ -36834,8 +36836,6 @@ apwin.com CNAME .
 *.apwin.com CNAME .
 apx-casino.com CNAME .
 *.apx-casino.com CNAME .
-apxmsw.com CNAME .
-*.apxmsw.com CNAME .
 apxpoker.com CNAME .
 *.apxpoker.com CNAME .
 aqcaphatjoxv.com CNAME .
@@ -59856,8 +59856,6 @@ jojobet107822.com CNAME .
 *.jojobet107822.com CNAME .
 jojobet11.com CNAME .
 *.jojobet11.com CNAME .
-jojobet110175.com CNAME .
-*.jojobet110175.com CNAME .
 jojobet11085.com CNAME .
 *.jojobet11085.com CNAME .
 jojobet11345.com CNAME .
@@ -59870,8 +59868,6 @@ jojobet11978.com CNAME .
 *.jojobet11978.com CNAME .
 jojobet12039.com CNAME .
 *.jojobet12039.com CNAME .
-jojobet12085.com CNAME .
-*.jojobet12085.com CNAME .
 jojobet12161.com CNAME .
 *.jojobet12161.com CNAME .
 jojobet12165.com CNAME .
@@ -59904,16 +59900,8 @@ jojobet134.com CNAME .
 *.jojobet134.com CNAME .
 jojobet14.com CNAME .
 *.jojobet14.com CNAME .
-jojobet14035.com CNAME .
-*.jojobet14035.com CNAME .
-jojobet14256.com CNAME .
-*.jojobet14256.com CNAME .
 jojobet15.com CNAME .
 *.jojobet15.com CNAME .
-jojobet15035.com CNAME .
-*.jojobet15035.com CNAME .
-jojobet15135.com CNAME .
-*.jojobet15135.com CNAME .
 jojobet16.com CNAME .
 *.jojobet16.com CNAME .
 jojobet18.com CNAME .
@@ -90238,8 +90226,6 @@ wink-data.com CNAME .
 *.wink-data.com CNAME .
 wink-fc.com CNAME .
 *.wink-fc.com CNAME .
-winkai-alu.com CNAME .
-*.winkai-alu.com CNAME .
 winkart9.com CNAME .
 *.winkart9.com CNAME .
 winkbingo.com CNAME .
