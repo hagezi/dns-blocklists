@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795421520 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795446960 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 08:12 UTC
-; Version: 2026.1123.0812.46
+; Last modified: 23 Nov 2026 15:16 UTC
+; Version: 2026.1123.1516.42
 ; Syntax: RPZ
-; Number of entries: 2544
+; Number of entries: 2546
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1228,6 +1228,8 @@ wavesnetwork.dev CNAME .
 *.wavesnetwork.dev CNAME .
 webwave.dev CNAME .
 *.webwave.dev CNAME .
+elcano-ipfs.workers.dev CNAME .
+*.elcano-ipfs.workers.dev CNAME .
 chat.dj CNAME .
 *.chat.dj CNAME .
 blogspot.dk CNAME .

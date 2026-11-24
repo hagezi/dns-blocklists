@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795420140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795474260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 07:49 UTC
-; Version: 2026.1123.0749.34
+; Last modified: 23 Nov 2026 22:51 UTC
+; Version: 2026.1123.2251.39
 ; Syntax: RPZ
 ; Number of entries: 19160
 ;
@@ -2987,6 +2987,8 @@ t.360scm.com CNAME .
 *.3qzr.com CNAME .
 42jump.com CNAME .
 *.42jump.com CNAME .
+42url.com CNAME .
+*.42url.com CNAME .
 4sharedlink.com CNAME .
 *.4sharedlink.com CNAME .
 4sq.com CNAME .
@@ -5565,6 +5567,8 @@ opent2.com CNAME .
 *.opent2.com CNAME .
 opizo.com CNAME .
 *.opizo.com CNAME .
+url.optidiscover.com CNAME .
+*.url.optidiscover.com CNAME .
 opzai.com CNAME .
 *.opzai.com CNAME .
 oriurl.com CNAME .
@@ -11019,8 +11023,6 @@ proshare.ir CNAME .
 *.proshare.ir CNAME .
 radly.ir CNAME .
 *.radly.ir CNAME .
-razi-link.ir CNAME .
-*.razi-link.ir CNAME .
 rizy.ir CNAME .
 *.rizy.ir CNAME .
 sarmadinst.ir CNAME .
@@ -17701,8 +17703,6 @@ paths.to CNAME .
 *.paths.to CNAME .
 paut.to CNAME .
 *.paut.to CNAME .
-link.peds.to CNAME .
-*.link.peds.to CNAME .
 philips.to CNAME .
 *.philips.to CNAME .
 pjps.to CNAME .
