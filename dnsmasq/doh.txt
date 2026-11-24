@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 23 Nov 2026 23:55 UTC
-# Version: 2026.1123.2355.12
+# Last modified: 24 Nov 2026 09:04 UTC
+# Version: 2026.1124.0904.25
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3551
+# Number of entries: 3556
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -1128,6 +1128,7 @@ local=/dns.echpochmak-club.ru/
 local=/dns.edc-pws.com/
 local=/dns.eddi.net/
 local=/doh.eddi.net/
+local=/dns.edgeburnmedia.com/
 local=/dns.edgeworkssystems.ca/
 local=/doh.edifiels.ru/
 local=/dns.edison42.dev/
@@ -1207,7 +1208,6 @@ local=/sukidayo.eu.org/
 local=/tartanbahn.eu.org/
 local=/v2rich.eu.org/
 local=/yanggan.eu.org/
-local=/vm596152.eurodir.ru/
 local=/exns1.exalto.nu/
 local=/dns.exhome.pl/
 local=/adguard.eximpius.xyz/
@@ -2306,6 +2306,12 @@ local=/dns.pgnhatrang.com/
 local=/dns.phillipjberry.net/
 local=/doh.centraleu.pi-dns.com/
 local=/dot.centraleu.pi-dns.com/
+local=/dot.eastas.pi-dns.com/
+local=/doh.eastau.pi-dns.com/
+local=/dot.eastau.pi-dns.com/
+local=/dot.eastus.pi-dns.com/
+local=/doh.westus.pi-dns.com/
+local=/doh.pi-dns.com/
 local=/adguard.piekacz.pl/
 local=/dns.pierzchlewicz.pl/
 local=/dns.pieterdherde.com/
@@ -2455,7 +2461,6 @@ local=/adblock.renedis.nl/
 local=/dns.reolinks.ru/
 local=/dns.repinger.com/
 local=/dns.repressoh.it/
-local=/wg.req1.fr/
 local=/x.res.wang/
 local=/dns.resoft.org/
 local=/dnspub.restena.lu/

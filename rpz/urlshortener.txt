@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795474260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795506840 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 22:51 UTC
-; Version: 2026.1123.2251.39
+; Last modified: 24 Nov 2026 07:54 UTC
+; Version: 2026.1124.0754.23
 ; Syntax: RPZ
-; Number of entries: 19160
+; Number of entries: 19150
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -2831,8 +2831,6 @@ urlco.co CNAME .
 *.urlco.co CNAME .
 urlio.co CNAME .
 *.urlio.co CNAME .
-urlshort.co CNAME .
-*.urlshort.co CNAME .
 urlty.co CNAME .
 *.urlty.co CNAME .
 urly.co CNAME .
@@ -5975,8 +5973,6 @@ rsmonkey.com CNAME .
 *.rsmonkey.com CNAME .
 rsshort.com CNAME .
 *.rsshort.com CNAME .
-rtedq.com CNAME .
-*.rtedq.com CNAME .
 rtvote.com CNAME .
 *.rtvote.com CNAME .
 rumahlink.com CNAME .
@@ -6977,10 +6973,6 @@ app.url180.com CNAME .
 *.app.url180.com CNAME .
 url2s.com CNAME .
 *.url2s.com CNAME .
-url38x.com CNAME .
-*.url38x.com CNAME .
-url39x.com CNAME .
-*.url39x.com CNAME .
 url50.com CNAME .
 *.url50.com CNAME .
 url56x.com CNAME .
@@ -7013,8 +7005,6 @@ urlcentre.com CNAME .
 *.urlcentre.com CNAME .
 urlcort.com CNAME .
 *.urlcort.com CNAME .
-urlcover.com CNAME .
-*.urlcover.com CNAME .
 urlcrop.com CNAME .
 *.urlcrop.com CNAME .
 urlcut.com CNAME .
@@ -8841,8 +8831,6 @@ ludia.gg CNAME .
 *.ludia.gg CNAME .
 m.gg CNAME .
 *.m.gg CNAME .
-murl.gg CNAME .
-*.murl.gg CNAME .
 naa.gg CNAME .
 *.naa.gg CNAME .
 go.navi.gg CNAME .
@@ -10015,8 +10003,6 @@ kyaa.info CNAME .
 *.kyaa.info CNAME .
 lapaksensa.info CNAME .
 *.lapaksensa.info CNAME .
-ldgr.info CNAME .
-*.ldgr.info CNAME .
 lf8.info CNAME .
 *.lf8.info CNAME .
 lihat.info CNAME .
@@ -10725,6 +10711,8 @@ m.smartsignals.io CNAME .
 *.m.smartsignals.io CNAME .
 snapt.io CNAME .
 *.snapt.io CNAME .
+snipi.io CNAME .
+*.snipi.io CNAME .
 sniply.io CNAME .
 *.sniply.io CNAME .
 socxo.io CNAME .
@@ -15645,6 +15633,8 @@ nanourl.org CNAME .
 *.nanourl.org CNAME .
 netizen303.org CNAME .
 *.netizen303.org CNAME .
+casa.netsons.org CNAME .
+*.casa.netsons.org CNAME .
 ngers.org CNAME .
 *.ngers.org CNAME .
 nimje.org CNAME .

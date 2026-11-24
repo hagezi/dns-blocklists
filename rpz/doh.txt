@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795478100 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795511040 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 23:55 UTC
-; Version: 2026.1123.2355.12
+; Last modified: 24 Nov 2026 09:04 UTC
+; Version: 2026.1124.0904.25
 ; Syntax: RPZ
-; Number of entries: 7102
+; Number of entries: 7112
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1073,6 +1073,8 @@ dns.easyhns.com CNAME .
 *.dns.easyhns.com CNAME .
 dns.edc-pws.com CNAME .
 *.dns.edc-pws.com CNAME .
+dns.edgeburnmedia.com CNAME .
+*.dns.edgeburnmedia.com CNAME .
 dns.efficientdocuments.com CNAME .
 *.dns.efficientdocuments.com CNAME .
 dns.ekinao.com CNAME .
@@ -1627,6 +1629,18 @@ doh.centraleu.pi-dns.com CNAME .
 *.doh.centraleu.pi-dns.com CNAME .
 dot.centraleu.pi-dns.com CNAME .
 *.dot.centraleu.pi-dns.com CNAME .
+doh.pi-dns.com CNAME .
+*.doh.pi-dns.com CNAME .
+dot.eastas.pi-dns.com CNAME .
+*.dot.eastas.pi-dns.com CNAME .
+doh.eastau.pi-dns.com CNAME .
+*.doh.eastau.pi-dns.com CNAME .
+dot.eastau.pi-dns.com CNAME .
+*.dot.eastau.pi-dns.com CNAME .
+dot.eastus.pi-dns.com CNAME .
+*.dot.eastus.pi-dns.com CNAME .
+doh.westus.pi-dns.com CNAME .
+*.doh.westus.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -2771,8 +2785,6 @@ home.r01.fr CNAME .
 *.home.r01.fr CNAME .
 rayneau.fr CNAME .
 *.rayneau.fr CNAME .
-wg.req1.fr CNAME .
-*.wg.req1.fr CNAME .
 dns.sellan.fr CNAME .
 *.dns.sellan.fr CNAME .
 pates.services.sfr.fr.casepp.sfr.fr CNAME .
@@ -5897,8 +5909,6 @@ doh.edifiels.ru CNAME .
 *.doh.edifiels.ru CNAME .
 dns.engineer-lib.ru CNAME .
 *.dns.engineer-lib.ru CNAME .
-vm596152.eurodir.ru CNAME .
-*.vm596152.eurodir.ru CNAME .
 dns.farshmc.ru CNAME .
 *.dns.farshmc.ru CNAME .
 dns.fidbonteam.ru CNAME .
