@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 24 Nov 2026 09:04 UTC
-# Version: 2026.1124.0904.25
+# Last modified: 24 Nov 2026 23:44 UTC
+# Version: 2026.1124.2344.34
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 3556
+# Number of entries: 3562
 #
 local=/ss.0001.xyz/
 local=/ns.00dani.me/
@@ -1670,7 +1670,6 @@ local=/home.jobytan.com/
 local=/adguard.jodatacenter.com/
 local=/dns.joey01245.nl/
 local=/dmjp.joeyl.de/
-local=/adguard.johanliebert.top/
 local=/dns.johndave.me/
 local=/child.joindns4.eu/
 local=/child-noads.joindns4.eu/
@@ -2306,11 +2305,17 @@ local=/dns.pgnhatrang.com/
 local=/dns.phillipjberry.net/
 local=/doh.centraleu.pi-dns.com/
 local=/dot.centraleu.pi-dns.com/
+local=/doh.eastas.pi-dns.com/
 local=/dot.eastas.pi-dns.com/
 local=/doh.eastau.pi-dns.com/
 local=/dot.eastau.pi-dns.com/
+local=/doh.eastus.pi-dns.com/
 local=/dot.eastus.pi-dns.com/
+local=/doh.northeu.pi-dns.com/
+local=/dot.northeu.pi-dns.com/
+local=/doh.westeu.pi-dns.com/
 local=/doh.westus.pi-dns.com/
+local=/dot.westus.pi-dns.com/
 local=/doh.pi-dns.com/
 local=/adguard.piekacz.pl/
 local=/dns.pierzchlewicz.pl/
@@ -2694,6 +2699,7 @@ local=/dns.surobe.com/
 local=/dns.sv-zauner.at/
 local=/dns.svoi.dev/
 local=/vps.swhome.by/
+local=/dns.swin.pro/
 local=/dns.switch.ch/
 local=/dns-cache.switch.ch/
 local=/dns-cache2.switch.ch/

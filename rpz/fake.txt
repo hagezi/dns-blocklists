@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795525920 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795560540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 13:12 UTC
-; Version: 2026.1124.1312.48
+; Last modified: 24 Nov 2026 22:49 UTC
+; Version: 2026.1124.2249.10
 ; Syntax: RPZ
-; Number of entries: 20660
+; Number of entries: 20658
 ;
 ledger.com.ag CNAME .
 *.ledger.com.ag CNAME .
@@ -2498,6 +2498,8 @@ brennholz-brennstoff.com CNAME .
 *.brennholz-brennstoff.com CNAME .
 brennholz-friedrich.com CNAME .
 *.brennholz-friedrich.com CNAME .
+brennholz-haus.com CNAME .
+*.brennholz-haus.com CNAME .
 brennholz-land.com CNAME .
 *.brennholz-land.com CNAME .
 brennholz-pellets.com CNAME .
@@ -4054,8 +4056,6 @@ evo-pharmacy.com CNAME .
 *.evo-pharmacy.com CNAME .
 evoragaming.com CNAME .
 *.evoragaming.com CNAME .
-ewigesleder.com CNAME .
-*.ewigesleder.com CNAME .
 exakubusinessclub.com CNAME .
 *.exakubusinessclub.com CNAME .
 exchangesage.com CNAME .
@@ -4846,8 +4846,6 @@ getrodeosaunas.com CNAME .
 *.getrodeosaunas.com CNAME .
 getsolarcheck.com CNAME .
 *.getsolarcheck.com CNAME .
-vignetten.gettookun.com CNAME .
-*.vignetten.gettookun.com CNAME .
 getvoltbox.com CNAME .
 *.getvoltbox.com CNAME .
 getwellsafely.com CNAME .
@@ -6204,8 +6202,6 @@ kazoomba.com CNAME .
 *.kazoomba.com CNAME .
 kbetake.com CNAME .
 *.kbetake.com CNAME .
-kedejo.com CNAME .
-*.kedejo.com CNAME .
 kedssuomi.com CNAME .
 *.kedssuomi.com CNAME .
 keen--shoes.com CNAME .
@@ -10268,6 +10264,8 @@ thanesar.com CNAME .
 *.thanesar.com CNAME .
 the-bitcoin-bank.com CNAME .
 *.the-bitcoin-bank.com CNAME .
+the-ethereumcode-pro.com CNAME .
+*.the-ethereumcode-pro.com CNAME .
 the-immediateconnect.com CNAME .
 *.the-immediateconnect.com CNAME .
 theautodaily.com CNAME .
@@ -14022,6 +14020,8 @@ goalbo.de CNAME .
 *.goalbo.de CNAME .
 goball.de CNAME .
 *.goball.de CNAME .
+goia-direkt.de CNAME .
+*.goia-direkt.de CNAME .
 golaschuhewebsite.de CNAME .
 *.golaschuhewebsite.de CNAME .
 gold-handel-24.de CNAME .
@@ -20384,8 +20384,6 @@ gtmn.store CNAME .
 *.gtmn.store CNAME .
 guten.store CNAME .
 *.guten.store CNAME .
-haushalts.store CNAME .
-*.haushalts.store CNAME .
 hausundwerkzeuge.store CNAME .
 *.hausundwerkzeuge.store CNAME .
 hazell.store CNAME .

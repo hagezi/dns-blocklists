@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795506840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795560600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 07:54 UTC
-; Version: 2026.1124.0754.23
+; Last modified: 24 Nov 2026 22:50 UTC
+; Version: 2026.1124.2250.59
 ; Syntax: RPZ
-; Number of entries: 19150
+; Number of entries: 19156
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4421,8 +4421,6 @@ gyntekbusiness.com CNAME .
 *.gyntekbusiness.com CNAME .
 h-ref.com CNAME .
 *.h-ref.com CNAME .
-h2mhridayff.com CNAME .
-*.h2mhridayff.com CNAME .
 links.h4stack.com CNAME .
 *.links.h4stack.com CNAME .
 h5bio.com CNAME .
@@ -6787,6 +6785,8 @@ toolaxy.com CNAME .
 *.toolaxy.com CNAME .
 toolbites.com CNAME .
 *.toolbites.com CNAME .
+toolboxdaily.com CNAME .
+*.toolboxdaily.com CNAME .
 toolkingo.com CNAME .
 *.toolkingo.com CNAME .
 toolsfox.com CNAME .
@@ -8643,6 +8643,8 @@ bj88php.fun CNAME .
 *.bj88php.fun CNAME .
 doodsty.fun CNAME .
 *.doodsty.fun CNAME .
+letsconnect.fun CNAME .
+*.letsconnect.fun CNAME .
 short.mypaste.fun CNAME .
 *.short.mypaste.fun CNAME .
 sikilat.fun CNAME .
@@ -8973,6 +8975,8 @@ j.gs CNAME .
 *.j.gs CNAME .
 leica.gs CNAME .
 *.leica.gs CNAME .
+m5.gs CNAME .
+*.m5.gs CNAME .
 mhm.gs CNAME .
 *.mhm.gs CNAME .
 q.gs CNAME .
@@ -16997,6 +17001,8 @@ shlinks.site CNAME .
 *.shlinks.site CNAME .
 shoptapkich.site CNAME .
 *.shoptapkich.site CNAME .
+shortenn.site CNAME .
+*.shortenn.site CNAME .
 shortslinks.site CNAME .
 *.shortslinks.site CNAME .
 shortsurl.site CNAME .

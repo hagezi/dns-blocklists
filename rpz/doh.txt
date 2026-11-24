@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795511040 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795563840 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 09:04 UTC
-; Version: 2026.1124.0904.25
+; Last modified: 24 Nov 2026 23:44 UTC
+; Version: 2026.1124.2344.34
 ; Syntax: RPZ
-; Number of entries: 7112
+; Number of entries: 7124
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1631,16 +1631,28 @@ dot.centraleu.pi-dns.com CNAME .
 *.dot.centraleu.pi-dns.com CNAME .
 doh.pi-dns.com CNAME .
 *.doh.pi-dns.com CNAME .
+doh.eastas.pi-dns.com CNAME .
+*.doh.eastas.pi-dns.com CNAME .
 dot.eastas.pi-dns.com CNAME .
 *.dot.eastas.pi-dns.com CNAME .
 doh.eastau.pi-dns.com CNAME .
 *.doh.eastau.pi-dns.com CNAME .
 dot.eastau.pi-dns.com CNAME .
 *.dot.eastau.pi-dns.com CNAME .
+doh.eastus.pi-dns.com CNAME .
+*.doh.eastus.pi-dns.com CNAME .
 dot.eastus.pi-dns.com CNAME .
 *.dot.eastus.pi-dns.com CNAME .
+doh.northeu.pi-dns.com CNAME .
+*.doh.northeu.pi-dns.com CNAME .
+dot.northeu.pi-dns.com CNAME .
+*.dot.northeu.pi-dns.com CNAME .
+doh.westeu.pi-dns.com CNAME .
+*.doh.westeu.pi-dns.com CNAME .
 doh.westus.pi-dns.com CNAME .
 *.doh.westus.pi-dns.com CNAME .
+dot.westus.pi-dns.com CNAME .
+*.dot.westus.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -5463,6 +5475,8 @@ cdn.refined.pro CNAME .
 *.cdn.refined.pro CNAME .
 adguard.app.sabino.pro CNAME .
 *.adguard.app.sabino.pro CNAME .
+dns.swin.pro CNAME .
+*.dns.swin.pro CNAME .
 doh.xcom.pro CNAME .
 *.doh.xcom.pro CNAME .
 xiaoxie.pro CNAME .
@@ -6413,8 +6427,6 @@ hk.jason666.top CNAME .
 *.hk.jason666.top CNAME .
 jimmyshjj.top CNAME .
 *.jimmyshjj.top CNAME .
-adguard.johanliebert.top CNAME .
-*.adguard.johanliebert.top CNAME .
 ad.kccsl.top CNAME .
 *.ad.kccsl.top CNAME .
 blog.kimiblock.top CNAME .
