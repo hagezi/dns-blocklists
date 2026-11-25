@@ -120,7 +120,7 @@ async function listseek(params) {
 }
 
 function sections(body) {
-  const heads = [...body.matchAll(/^###[ \t]+(.+?)[ \t]*$/gm)];
+  const heads = [...body.matchAll(/^#{1,6}[ \t]+(.+?)[ \t#]*$/gm)];
   return heads.map((m, i) => {
     const end = i + 1 < heads.length ? heads[i + 1].index : body.length;
     return [m[1].trim(), body.slice(m.index + m[0].length, end).trim()];
@@ -175,7 +175,7 @@ function parseIssue(issue) {
   const listField = sec.find(([h]) => /^which blocklist\(s\)/i.test(h))?.[1] ?? "";
   const reported = /^_no response_$/i.test(listField)
     ? []
-    : uniq(listField.split(/,\s*|\n+/).map((s) => s.trim()).filter(Boolean)).slice(0, 30);
+    : uniq(listField.split(/,\s*|\n+/).map((s) => s.trim().replace(/^[-*+][ \t]+(?:\[[ xX]\][ \t]+)?/, "").trim()).filter(Boolean)).slice(0, 30);
   const domains = extract(field ? field[1] : issue.title);
   if (!field && domains.length === 0) return null;
   return { kind, domains, reported };
