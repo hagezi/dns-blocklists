@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795560540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795593180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake - blocks scams, traps, and fake sites!
@@ -9,13 +9,15 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 22:49 UTC
-; Version: 2026.1124.2249.10
+; Last modified: 25 Nov 2026 07:53 UTC
+; Version: 2026.1125.0753.21
 ; Syntax: RPZ
-; Number of entries: 20658
+; Number of entries: 20662
 ;
 ledger.com.ag CNAME .
 *.ledger.com.ag CNAME .
+markt.agency CNAME .
+*.markt.agency CNAME .
 algosone.ai CNAME .
 *.algosone.ai CNAME .
 bitcoineer.ai CNAME .
@@ -1764,8 +1766,6 @@ babygea.com CNAME .
 *.babygea.com CNAME .
 babygluckde.com CNAME .
 *.babygluckde.com CNAME .
-babymodepur.com CNAME .
-*.babymodepur.com CNAME .
 babynippon.com CNAME .
 *.babynippon.com CNAME .
 babyroom-shop.com CNAME .
@@ -2414,6 +2414,8 @@ bois-energie-plus.com CNAME .
 *.bois-energie-plus.com CNAME .
 bokermessershop.com CNAME .
 *.bokermessershop.com CNAME .
+bomiafx.com CNAME .
+*.bomiafx.com CNAME .
 bonnieandbloom.com CNAME .
 *.bonnieandbloom.com CNAME .
 bonsaiexperte.com CNAME .
@@ -7878,6 +7880,8 @@ nflfanaticsstore.com CNAME .
 *.nflfanaticsstore.com CNAME .
 nguebelipharma.com CNAME .
 *.nguebelipharma.com CNAME .
+nhcol.com CNAME .
+*.nhcol.com CNAME .
 nholz.com CNAME .
 *.nholz.com CNAME .
 nicikuscheltiere.com CNAME .

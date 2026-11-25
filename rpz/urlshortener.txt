@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795560600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795593300 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 22:50 UTC
-; Version: 2026.1124.2250.59
+; Last modified: 25 Nov 2026 07:55 UTC
+; Version: 2026.1125.0755.21
 ; Syntax: RPZ
-; Number of entries: 19156
+; Number of entries: 19160
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1101,6 +1101,8 @@ credicard.biz CNAME .
 *.credicard.biz CNAME .
 g02.biz CNAME .
 *.g02.biz CNAME .
+gacora.biz CNAME .
+*.gacora.biz CNAME .
 ibm.biz CNAME .
 *.ibm.biz CNAME .
 jvfnz.biz CNAME .
@@ -9921,6 +9923,8 @@ go.zordo.in CNAME .
 *.2to.info CNAME .
 4extra.info CNAME .
 *.4extra.info CNAME .
+5z8.info CNAME .
+*.5z8.info CNAME .
 7link.info CNAME .
 *.7link.info CNAME .
 aarp.info CNAME .
