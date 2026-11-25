@@ -2,7 +2,7 @@ name: listseek lookup
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
   workflow_dispatch:
     inputs:
       issue:
@@ -14,16 +14,18 @@ permissions: {}
 
 concurrency:
   group: listseek-lookup-${{ github.event.issue.number || inputs.issue }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   lookup:
     if: >-
       github.event_name == 'workflow_dispatch' ||
-      ((github.event.action != 'edited' || github.event.changes.body) &&
+      (github.event.action == 'labeled' &&
+      (github.event.label.name == 'allow' || github.event.label.name == 'deny')) ||
+      ((github.event.action == 'opened' || github.event.changes.body) &&
       (contains(github.event.issue.labels.*.name, 'allow') ||
       contains(github.event.issue.labels.*.name, 'deny') ||
-      contains(github.event.issue.body, '### Which domain(s)')))
+      contains(github.event.issue.body, 'Which domain(s)')))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
