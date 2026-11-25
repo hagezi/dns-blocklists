@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795593300 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795618260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Nov 2026 07:55 UTC
-; Version: 2026.1125.0755.21
+; Last modified: 25 Nov 2026 14:51 UTC
+; Version: 2026.1125.1451.09
 ; Syntax: RPZ
 ; Number of entries: 19160
 ;
@@ -781,6 +781,8 @@ urlcut.at CNAME .
 *.urlcut.at CNAME .
 urlshortener.at CNAME .
 *.urlshortener.at CNAME .
+urlshortner.at CNAME .
+*.urlshortner.at CNAME .
 urlz.at CNAME .
 *.urlz.at CNAME .
 uurl.at CNAME .
@@ -15641,8 +15643,6 @@ nanourl.org CNAME .
 *.nanourl.org CNAME .
 netizen303.org CNAME .
 *.netizen303.org CNAME .
-casa.netsons.org CNAME .
-*.casa.netsons.org CNAME .
 ngers.org CNAME .
 *.ngers.org CNAME .
 nimje.org CNAME .

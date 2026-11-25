@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795563840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795621800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 23:44 UTC
-; Version: 2026.1124.2344.34
+; Last modified: 25 Nov 2026 15:50 UTC
+; Version: 2026.1125.1550.39
 ; Syntax: RPZ
-; Number of entries: 7124
+; Number of entries: 7126
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -313,6 +313,8 @@ dns.nonomi.cc CNAME .
 *.dns.nonomi.cc CNAME .
 doh.plop.cc CNAME .
 *.doh.plop.cc CNAME .
+v.qdev.cc CNAME .
+*.v.qdev.cc CNAME .
 resolve2.r9x.cc CNAME .
 *.resolve2.r9x.cc CNAME .
 dns.redroot.cc CNAME .
@@ -3361,8 +3363,6 @@ ricko.is CNAME .
 *.ricko.is CNAME .
 block.abstergo.it CNAME .
 *.block.abstergo.it CNAME .
-home.bruckmoser.it CNAME .
-*.home.bruckmoser.it CNAME .
 doh.ccb-net.it CNAME .
 *.doh.ccb-net.it CNAME .
 dns.home.daniil.it CNAME .
@@ -3481,6 +3481,8 @@ xins.live CNAME .
 *.xins.live CNAME .
 v2.xx3210766.live CNAME .
 *.v2.xx3210766.live CNAME .
+polisitogel.living CNAME .
+*.polisitogel.living CNAME .
 acomit.lk CNAME .
 *.acomit.lk CNAME .
 cpru.dolbankoinc.lol CNAME .
