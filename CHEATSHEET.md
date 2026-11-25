@@ -6,7 +6,7 @@
   <img src="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/blocklists-cheat-sheet.svg">
 </picture>
 
-A quick, scannable reference for every list in this collection: what it blocks, who it's best suited for, what to watch out for, and the actual file name. Click a list name to jump to its full section in the [README](README.md), except for the two referral lists, which are documented in the [FAQ](FAQ.md#referral) instead.
+A quick, scannable reference for every list in this collection: what it blocks, who it's best suited for, what to watch out for, and the actual file name. Click a list name to jump to its full section in the [README](README.md). The two referral lists are the exception, they're documented in the [FAQ](FAQ.md#referral).
 
 **Related FAQ sections:** [quick setup](FAQ.md#quicksetup) · [can I use more than one list?](FAQ.md#combining) · [which format for my tool](FAQ.md#formats) · [get the download links](FAQ.md#linkgenerator) · [check a single domain or IP](FAQ.md#listlookup) · [glossary of terms](FAQ.md#glossary)
 
@@ -26,7 +26,7 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 
 | If you want... | Use this |
 |:----------------|:---------|
-| The absolute basics, where even Normal is too much | [Light](README.md#light) + [TIF](README.md#tif) (or [TIF Mini](README.md#tifmini) for size) |
+| The absolute basics, where even Normal is too much | [Light](README.md#light) + [TIF](README.md#tif) |
 | Solid protection with no admin available | [Normal](README.md#normal) + [TIF](README.md#tif) |
 | A strong, balanced default (recommended) | [Pro](README.md#pro) + [TIF](README.md#tif) |
 | More aggressive than Pro, admin available | [Pro++](README.md#proplus) + [TIF](README.md#tif) |
@@ -35,7 +35,7 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 | Pro/Pro++/Ultimate-level protection, low-RAM device | [Pro Mini](README.md#promini) / [Pro++ Mini](README.md#proplusmini) / [Ultimate Mini](README.md#ultimatemini) + [TIF Mini](README.md#tifmini) |
 | Stronger native tracker coverage without going all the way to Ultimate | [Pro](README.md#pro)/[Pro++](README.md#proplus) + [TIF](README.md#tif) + the specific [Native Tracker](README.md#native) device lists you need |
 | Zero native device/app tracking, no exceptions | [Ultimate](README.md#ultimate) |
-| A safe network for kids | [Gambling](README.md#gambling) + [Anti Piracy](README.md#piracy) + [Safesearch](README.md#safesearch) + [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) + [Social Networks](README.md#social) + [NSFW](README.md#nsfw) |
+| A safe network for kids | [Gambling](README.md#gambling) + [Anti Piracy](README.md#piracy) + [Safesearch](README.md#safesearch) + [DoH/VPN/Tor/Proxy Bypass Full](README.md#bypass_all) + [Social Networks](README.md#social) + [NSFW](README.md#nsfw) |
 | Locked-down corporate or school network | [Pro++](README.md#proplus) + [Bypass Full](README.md#bypass_all) + [Dynamic DNS](README.md#dyndns) + [Badware Hoster](README.md#hoster) |
 | Threat hunting / reduced attack surface | [TIF](README.md#tif) + [Dynamic DNS](README.md#dyndns) + [Badware Hoster](README.md#hoster) + [Most Abused TLDs](README.md#tlds) + [NRD](README.md#nrd) |
 | Threat hunting with less noise | Same as above, but swap [NRD](README.md#nrd) for [DGA](README.md#nrd) |
@@ -44,7 +44,7 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 > Pick exactly **one** Multi tier. The tiers build on each other, so running two of them together adds nothing, see [FAQ](FAQ.md#combining). The standalone add-ons are the opposite: they're meant to be stacked on top of your tier.
 
 > [!TIP]
-> TIF adds real value at every tier, including Pro++ and Ultimate. See the [Inclusion Matrix](#inclusionmatrix) right below for exactly how much overlap already exists per tier.
+> TIF adds real value at every tier, including Pro++ and Ultimate. The [Inclusion Matrix](#inclusionmatrix) right below shows how much overlap already exists per tier.
 
 > [!TIP]
 > Pair any DNS-level setup with a browser content blocker like [AdGuard](https://adguard.com), [uBlock Origin](https://github.com/uBlockOrigin/), or [Ghostery](https://www.ghostery.com/). DNS blocking can't touch ads served from a service's own domain, see [FAQ](FAQ.md#inappads) and [Recommendation](README.md#recommendation).
@@ -58,7 +58,7 @@ A quick, scannable reference for every list in this collection: what it blocks, 
 
 ## Inclusion Matrix <a name="inclusionmatrix"></a>
 
-Which lists are already included (fully or partially) in each Multi tier, and how much of them. Read this first, it saves you from adding a list your tier already covers. The per-category tables further down then cover every list in detail.
+Which lists are already included (fully or partially) in each Multi tier, and how much of them. Read this first, so you don't add a list your tier already covers. The per-category tables further down cover every list in detail.
 
 | List | Light | Normal | Pro | Pro++ | Ultimate | TIF |
 |:-----|:-----:|:------:|:---:|:-----:|:--------:|:---:|
@@ -83,13 +83,13 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 > - **The three partial steps are relative within a row.** They tell you how the tiers compare to each other, not what share of a list you're getting. Native Tracker is the clearest example: Light and Normal share one baseline, Pro blocks more, Pro++ more again, and only Ultimate is complete.
 > - **Mini variants aren't listed separately.** Each one matches its non-Mini tier's row exactly, just size-optimized, so read Pro Mini off the Pro column.
 > - **Fake is :x: in Light** by design. Light only carries domains from the Top 1M/10M lists, and fake shops or fake streaming sites generally don't rank there, so they never make it in.
-> - **The TIF cells mean overlap, not coverage of the feed.** No Multi tier reaches :white_check_mark: there, not even Ultimate, and Light's overlap is effectively none. Pairing TIF with your tier is worthwhile at every level.
+> - **The TIF cells show overlap with the feed.** No Multi tier reaches :white_check_mark: there, not even Ultimate, and Light's overlap is effectively none. Pairing TIF with your tier is worthwhile at every level.
 > - **The referral row runs the other way around.** There, a higher step on the scale means more referral domains get *blocked*, and even Pro++ and Ultimate only block part of the category. If you'd rather keep all of them working, add the [Referral Allowlist](FAQ.md#referral).
 >
 > Full breakdown in the [FAQ](FAQ.md#whatshouldiuse).
 
 > [!TIP]
-> This matrix works list by list. If your question is about one specific **domain or IP** instead, the [Blocklist Lookup](https://hagezi-mirror.dnsbunker.org/listseek.php) checks it against every published list and shows which ones block it and with which rule, following CNAME chains along the way, see [FAQ](FAQ.md#listlookup).
+> This matrix works list by list. If your question is about one specific **domain or IP**, the [Blocklist Lookup](https://hagezi-mirror.dnsbunker.org/listseek.php) checks it against every published list and shows which ones block it and with which rule, following CNAME chains along the way, see [FAQ](FAQ.md#listlookup).
 
 **[Back to top](#toc)**
 
@@ -116,7 +116,7 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 
 | List | What It Blocks | Best For | Caveats | File Name (Adblock) |
 |:-----|:----------------|:---------|:--------|:---------------------|
-| [Fake](README.md#fake) | Scams, fake shops, fake streaming sites | Anti-phishing baseline | Bundled into most tiers, see [Inclusion Matrix](#inclusionmatrix) | `fake.txt` |
+| [Fake](README.md#fake) | Scams, fake shops, fake streaming sites | Anti-scam baseline | Bundled into most tiers, see [Inclusion Matrix](#inclusionmatrix) | `fake.txt` |
 | [Pop-Up Ads](README.md#popupads) | Pop-up ads | Anti-pop-up baseline | Bundled in with coverage varying by tier, see [Inclusion Matrix](#inclusionmatrix). Large list on its own | `popupads.txt` |
 | [Threat Intelligence Feeds](README.md#tif) | Malware, cryptojacking, scams, spam, phishing, C2 domains | Security-focused setups with enough RAM | Recommended on top of any tier. :warning: Too big for the iOS AdGuard app, needs 2GB RAM in AdGuard Home, RPZ split into 2 files | `tif.txt` |
 | [TIF Medium](README.md#tifmedium) | Same as TIF, trimmed down | Setups that can't handle the full TIF list | Reduced coverage compared with full TIF. :warning: Too big for the iOS AdGuard app, needs 1GB RAM in AdGuard Home | `tif.medium.txt` |
@@ -130,7 +130,7 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 | [DNS Rebind Protection](README.md#dnsrebind) | Local-network rebind attacks | AdGuard, AdGuard Home, and AdGuard DNS users | Whitelist your local hostnames, see [FAQ](FAQ.md#rebind) for the syntax. Other DNS blockers may already have their own rebind protection | `dns-rebind-protection.txt` |
 
 > [!NOTE]
-> **NRD and DGA are alternatives, not a pair.** DGA is the high-entropy subset of NRD, so pick one rather than running both. NRD's five files are non-overlapping day-range bands meant to be stacked: `nrd7` + `nrd14-8` covers 14 days, add `nrd21-15` for 21 days, and so on. DGA's three files are rolling windows that overlap rather than stack, so pick the single one that reaches back as far as you want. Full breakdown in the [FAQ](FAQ.md#listrelationships).
+> **Pick NRD or DGA, not both.** DGA is the high-entropy subset of NRD, so running both adds nothing. NRD's five files are non-overlapping day-range bands meant to be stacked: `nrd7` + `nrd14-8` covers 14 days, add `nrd21-15` for 21 days, and so on. DGA's three files are rolling windows that overlap rather than stack, so pick the single one that reaches back as far as you want. Full breakdown in the [FAQ](FAQ.md#listrelationships).
 
 **[Back to top](#toc)**
 
@@ -173,7 +173,7 @@ Which lists are already included (fully or partially) in each Multi tier, and ho
 | [Referral Allowlist](FAQ.md#referral) | Not a blocklist, keeps affiliate and tracking links working | Pro++ and Ultimate users | The only referral list with a ControlD folder | `whitelist-referral.txt`, `whitelist-referral-native.txt` |
 | [Referral Blocklist](FAQ.md#referral) | Referral and affiliate tracking domains | Advanced users, a browser blocker is the better tool | :warning: Aggressive and opt-in, not recommended for DNS-level use. Breaks search results and newsletter unsubscribe links. No ControlD folder | `blocklist-referral-native.txt` |
 
-See the FAQ's [referral breakdown](FAQ.md#referral) for exactly which domains get blocked at which tier. Note that even Pro++ and Ultimate only block some non-link-tracking referral domains, not the entire referral category.
+The FAQ's [referral breakdown](FAQ.md#referral) shows how referral blocking changes from tier to tier. Even Pro++ and Ultimate only block some non-link-tracking referral domains, not the entire referral category.
 
 **[Back to top](#toc)**
 

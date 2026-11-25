@@ -25,7 +25,7 @@ A practical guide to how these DNS blocklists get built, which version fits your
 
 ## <a name="quicksetup"></a> 1. Quick setup guide
 
-Here's the fast track to getting protection running, no need to read the rest of the FAQ first.
+The fast track to getting protection running. You don't need to read the rest of the FAQ first.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
@@ -36,14 +36,14 @@ Here's the fast track to getting protection running, no need to read the rest of
 > [!TIP]
 > **Want to skip the clicking?** The [Direct Link Generator](#linkgenerator) rolls steps 1 to 4 into a single page: select the app or device you use and it sets the format for you, tick the lists you want, then copy every download link in one go. The steps below still explain what you're actually choosing, so they're worth a read either way.
 
-1. **Figure out what you're running, and which format it needs.** Are you blocking DNS network-wide (Pi-hole, AdGuard Home, TechnitiumDNS, OPNsense) or in the browser (uBlock Origin, AdGuard browser extension)? Network-wide blocking covers every device on your network, a browser blocker only that one browser, and running both is the better setup, see step 5. If you don't have either and don't want to set one up, use one of the [online DNS services](README.md#dnsservices) instead: they have these lists built in, so you just switch on what you want and skip step 4 entirely, and [section 9](#availablelists) shows which service carries which list. Everyone else: check [section 4](#formats) for the format your tool understands (Adblock, DNSMasq, Wildcard, RPZ, and so on). Tools only read their own format, and you'll need to know yours in step 4.
-2. **Pick a version.** The main list comes in five strengths: Light, Normal, Pro, Pro++, and Ultimate. Not sure? Start with [Pro](README.md#pro), it's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.
+1. **Figure out what you're running, and which format it needs.** Are you blocking DNS network-wide (Pi-hole, AdGuard Home, TechnitiumDNS, OPNsense) or in the browser (uBlock Origin, AdGuard browser extension)? Network-wide blocking covers every device on your network, a browser blocker only that one browser. Running both is the better setup (see step 5). If you don't have either and don't want to set one up, use one of the [online DNS services](README.md#dnsservices) instead: they have these lists built in, so you just switch on what you want and skip step 4 entirely. [Section 9](#availablelists) shows which service carries which list. Everyone else: check [section 4](#formats) for the format your tool understands (Adblock, DNSMasq, Wildcard, RPZ, and so on). Tools only read their own format, and you'll need to know yours in step 4.
+2. **Pick a version.** The main list comes in five strengths: Light, Normal, Pro, Pro++, and Ultimate. Not sure? Start with [Pro](README.md#pro). It's the go-to recommendation for solid protection without much breakage. Check [section 2](#whatshouldiuse) if you want a different balance of strictness and risk.
 3. **Pick Threat Intelligence Feeds (TIF) as well.** The [TIF](README.md#tif) list adds protection against malware and phishing and belongs alongside your main list no matter which strength you picked. If your tool struggles with big lists, take its medium or mini version instead.
-4. **Grab the links and subscribe.** Every list has its own section in the [README](README.md#overview), reachable from the overview table or the table of contents. That section ends in a small table with one column per format, so right-click (long-press on mobile) the Link under the format from step 1, copy the link address, and paste it into your tool's blocklist or filter subscription settings. Each list needs its own subscription entry, so do that once for your main list and once for TIF. Or let the [Direct Link Generator](#linkgenerator) put the links together instead, see section 13.
+4. **Grab the links and subscribe.** Every list has its own section in the [README](README.md#overview), reachable from the overview table or the table of contents. That section ends in a small table with one column per format, so right-click (long-press on mobile) the Link under the format from step 1, copy the link address, and paste it into your tool's blocklist or filter subscription settings. Each list needs its own subscription entry, so do that once for your main list and once for TIF. Or let the [Direct Link Generator](#linkgenerator) put the links together instead, see [section 13](#linkgenerator).
 
    **Worked example, Pi-hole in its current version.** Pi-hole reads the Adblock format (step 1), and say you picked Pro plus TIF in steps 2 and 3. In the README, open the Multi PRO section, right-click the Link in the Adblock column, and copy the link address. Then in Pi-hole: log in to the web interface and open **Lists** under Group Management. Paste the URL into the **Address** field, add a comment if you want one, and click the red **Add blocklist** button. The green **Add allowlist** button right next to it is for allowlists, so watch which one you hit. Now do the same with the link from the Threat Intelligence Feeds section, again the Adblock column. Pi-hole also takes both URLs at once if you separate them with a space or a comma, and still files them as two entries. Last step, and the one people forget: open **Tools, Update Gravity** and click **Update**. Until you do, Pi-hole keeps serving the old data and nothing you just added has any effect.
 
-5. **Add a browser content blocker too.** DNS blocking catches most ads, trackers, and malware, but not everything, some ads and scripts come from the same domains as the content you want. A browser content blocker like uBlock Origin or AdGuard closes that gap and works alongside your DNS setup rather than replacing it, see [section 6](#inappads) for why that matters especially inside apps like YouTube or Spotify.
+5. **Add a browser content blocker too.** DNS blocking catches most ads, trackers, and malware, but not everything: some ads and scripts come from the same domains as the content you want. A browser content blocker like uBlock Origin or AdGuard closes that gap and works alongside your DNS setup. [Section 6](#inappads) explains why that matters especially inside apps like YouTube or Spotify.
 6. **Check that it's actually working.** Browse for a few minutes, then open your tool's query log. Blocked entries piling up means the subscription is live. An empty log usually means your devices aren't using that DNS server yet, so the lists never get consulted. Then just browse normally for a day and note anything odd.
 7. **If something breaks, find the responsible domain first.** Breakage comes in two shapes. Either the page doesn't come up at all, which shows as a name-resolution error ("server not found" or similar) rather than a normal error page from the site, or the page loads but doesn't behave right: images and videos stay blank, embedded maps, comments, or players never appear, a login or checkout button does nothing. The second kind is the more common one and it's easy to miss, because the site itself looks like it's working. Either way, your query log shows what got blocked while you were on that page. With partial breakage the culprit is almost never the site you're visiting, so look for whatever else was blocked at that moment.
 8. **Then fix it.** Run that domain through the [Blocklist Lookup](#listlookup) to see which list blocks it and with which rule, and check [section 2](#whatshouldiuse) for known side effects, especially with Pro++ and Ultimate. To get the site working again, add the domain to your tool's allowlist (some tools call it a whitelist). If you think it shouldn't be blocked at all, or you've found something that should be blocked and isn't, see [section 14](#support).
@@ -57,7 +57,7 @@ Here's the fast track to getting protection running, no need to read the rest of
 
 Pick the version that fits how much technical help you have on hand and how much risk of breakage you're okay with. Rule of thumb: the stricter the list, the more protection you get, but also the higher the odds something you actually wanted to use gets blocked by accident.
 
-The "risk of breakage" ratings below are a general guide, not exact error rates. They just show how aggressively each version filters domains, not a precise false-positive percentage.
+The "risk of breakage" ratings below are a rough guide to how aggressively each version filters, not exact false-positive rates.
 
 | Version | Best for | Risk of breakage |
 |:---|:---|:---|
@@ -83,16 +83,16 @@ The "risk of breakage" ratings below are a general guide, not exact error rates.
 
 **Extra lists worth adding, depending on your goals:**
 
-- **Security focus:** combine TIF with the [Dynamic DNS](README.md#dyndns) list (blocks dynamic DNS services often abused for phishing), the [Badware Hoster](README.md#hoster) list (blocks hosting providers whose infrastructure gets abused for malware a lot), the [Most Abused TLDs](README.md#tlds) list (blocks entire top-level domains with bad reputations, like `.top`, `.shop`, or `.gdn`), and either the [NRD](README.md#nrd) lists (broad) or the [DGA](README.md#nrd) lists (narrower, less noise), never both at once, see [section 5](#listrelationships).
-- **Protecting kids:** combine the [Gambling](README.md#gambling), [Anti Piracy](README.md#piracy), [Safesearch](README.md#safesearch), [DoH/VPN/Tor/Proxy Bypass](README.md#bypass), [Social Networks](README.md#social), and [NSFW](README.md#nsfw) lists. Heads up: the Social Networks list only blocks traditional platforms (Facebook, Instagram, TikTok, X, Snapchat), not messaging apps like WhatsApp or streaming platforms like Twitch.
+- **Security focus:** combine TIF with the [Dynamic DNS](README.md#dyndns) list (blocks dynamic DNS services often abused for phishing), the [Badware Hoster](README.md#hoster) list (blocks hosting providers whose infrastructure gets abused for malware a lot), the [Most Abused TLDs](README.md#tlds) list (blocks entire top-level domains with bad reputations, like `.top`, `.shop`, or `.gdn`), and either the [NRD](README.md#nrd) lists (broad) or the [DGA](README.md#nrd) lists (narrower, less noise). Never both at once, see [section 5](#listrelationships).
+- **Protecting kids:** combine the [Gambling](README.md#gambling), [Anti Piracy](README.md#piracy), [Safesearch](README.md#safesearch), [DoH/VPN/Tor/Proxy Bypass Full](README.md#bypass_all), [Social Networks](README.md#social), and [NSFW](README.md#nsfw) lists. Heads up: the Social Networks list only blocks traditional platforms (Facebook, Instagram, TikTok, X, Snapchat), not messaging apps like WhatsApp or streaming platforms like Twitch.
 
 > [!NOTE]
-> **You usually don't need to add the Fake, Pop-Up Ads, or Native Tracker lists separately, they're already baked in, though coverage varies by version:**
-> - The [Fake](README.md#fake) list (scam shops, fake streaming sites, cost traps) isn't included in Light at all. That isn't an oversight: Light is built only from domains that appear on the supported Top 1M/10M lists, and fake shops or fake streaming sites generally don't rank there, so they never make the cut. It's fully included in Normal, Pro, Pro++, Ultimate, and in TIF, TIF medium, and TIF mini.
+> **You usually don't need to add the Fake, Pop-Up Ads, or Native Tracker lists separately.** They're already baked in, though coverage varies by version:
+> - The [Fake](README.md#fake) list (scam shops, fake streaming sites, cost traps) isn't included in Light at all. That's by design: Light is built only from domains that appear on the supported Top 1M/10M lists, and fake shops or fake streaming sites generally don't rank there, so they never make the cut. It's fully included in Normal, Pro, Pro++, Ultimate, and in TIF, TIF medium, and TIF mini.
 > - The [Pop-Up Ads](README.md#popupads) list is only partially covered in Light, Normal, and TIF. It's fully included in Pro, Pro++, and Ultimate.
-> - The [Native Tracker](README.md#native) lists (device and app trackers for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme, and Xiaomi) are integrated at four distinct strengths, not just "partial vs full": Light and Normal share the same baseline, blocking only native trackers that won't break functionality. Pro blocks more than that baseline while still staying out of your way. Pro++ blocks nearly all of them, which can cause some restrictions. Ultimate is the only tier that blocks every native tracker for maximum privacy. Want full native-tracker coverage without moving all the way to Ultimate? Add the specific [device lists](README.md#native) you actually need on top of your current tier instead.
+> - The [Native Tracker](README.md#native) lists (device and app trackers for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme, and Xiaomi) are integrated at four distinct strengths. Light and Normal share the same baseline, blocking only native trackers that won't break functionality. Pro blocks more than that baseline while still staying out of your way. Pro++ blocks nearly all of them, which can cause some restrictions. Ultimate is the only tier that blocks every native tracker for maximum privacy. Want full native-tracker coverage without moving all the way to Ultimate? Add the specific [device lists](README.md#native) you need on top of your current tier instead.
 >
-> <a name="rebind"></a>Two more specialized lists are worth a separate mention, since most setups don't need them: [URL Shortener](README.md#urlshortener) (mainly for high-security setups, since it can break legit short links) and [DNS Rebind Protection](README.md#dnsrebind) (works with AdGuard, AdGuard Home, and AdGuard DNS, stops attackers from resolving external domains to your local network's private IP addresses). Other DNS blockers may already have their own rebind protection built in, check your tool's documentation first. If you do add this list, whitelist your local hostnames, since anything resolving to a local IP gets caught too, for example `@@||fritz.box^` in AdGuard. Only add these two lists if your setup really needs them.
+> <a name="rebind"></a>Two more specialized lists are worth a separate mention, since most setups don't need them: [URL Shortener](README.md#urlshortener) (mainly for high-security setups, since it can break legit short links) and [DNS Rebind Protection](README.md#dnsrebind) (works with AdGuard, AdGuard Home, and AdGuard DNS, stops attackers from resolving external domains to your local network's private IP addresses). Other DNS blockers may already have their own rebind protection built in, so check your tool's documentation first. If you do add this list, whitelist your local hostnames, since anything resolving to a local IP gets caught too, for example `@@||fritz.box^` in AdGuard.
 
 **[Back to top](#table-of-contents)**
 
@@ -102,9 +102,9 @@ The "risk of breakage" ratings below are a general guide, not exact error rates.
 
 Yes for the add-on lists, no for the main tiers.
 
-The five Multi tiers (Light, Normal, Pro, Pro++, Ultimate) build on each other: each one already contains everything the tiers below it block. Subscribing to two of them adds no protection at all, it just makes your tool download, parse, and hold the same domains twice. **Pick exactly one Multi tier.**
+The five Multi tiers (Light, Normal, Pro, Pro++, Ultimate) build on each other: each one already contains everything the tiers below it block. Subscribing to two of them adds no protection at all. It just makes your tool download, parse, and hold the same domains twice. **Pick exactly one Multi tier.**
 
-The same applies to the variants of a single list. Full, medium, and mini versions are alternatives, not building blocks: use Pro *or* Pro Mini, TIF *or* TIF Medium *or* TIF Mini, Gambling *or* Gambling Medium *or* Gambling Mini. Running the full list next to its own mini version is pure overhead, since the mini version contains nothing the full one doesn't, see [section 5](#listrelationships).
+The same applies to the variants of a single list. Full, medium, and mini versions are alternatives: use Pro *or* Pro Mini, TIF *or* TIF Medium *or* TIF Mini, Gambling *or* Gambling Medium *or* Gambling Mini. Running the full list next to its own mini version is pure overhead, since the mini version contains nothing the full one doesn't, see [section 5](#listrelationships).
 
 The standalone add-ons work the other way around. They cover categories the Multi tiers deliberately leave alone, so combining them is exactly how they're meant to be used. A typical setup is one Multi tier plus [TIF](README.md#tif) plus whichever category lists match your goals, see [section 2](#whatshouldiuse) for the usual combinations and the [Cheat Sheet](CHEATSHEET.md#combos) for ready-made ones.
 
@@ -116,9 +116,9 @@ There's one pairing to avoid among the add-ons: [NRD](README.md#nrd) and [DGA](R
 
 ## <a name="formats"></a> 4. Which format should I use for my ad blocker or DNS server?
 
-Most lists come in the same five formats. Just pick the row that matches your ad blocker or DNS server, the rest all contain the same data, just structured differently for that specific tool. A handful of specialty lists ship in fewer or different formats, those are called out right after the table.
+Most lists come in the same five formats. Pick the row that matches your ad blocker or DNS server. A handful of specialty lists ship in fewer or different formats, those are called out right after the table.
 
-There are five formats because different tools read blocklist files differently, the same way a Word document and a plain text file both hold text but aren't interchangeable. A browser-style ad blocker expects the classic filter-rule style shown in the Adblock format, a router package like DNSMasq expects its own short config lines, and a full DNS server expects a format like RPZ that's built into DNS server software itself. For the standard five formats of a given list, the actual domains being blocked are the same; only how they're written down changes. Some specialized lists have format-specific variants or exclusions, as noted below.
+There are five formats because different tools read blocklist files differently, the same way a Word document and a plain text file both hold text but aren't interchangeable. A browser-style ad blocker expects the classic filter-rule style shown in the Adblock format, a router package like DNSMasq expects its own short config lines, and a full DNS server expects a format like RPZ that's built into DNS server software itself. For the standard five formats of a given list, the blocked domains are the same; only how they're written down changes.
 
 | Format | Use it with |
 |:---|:---|
@@ -135,7 +135,7 @@ A few lists don't follow this pattern, and a few come with extra technical requi
 
 **Lists that don't use the five standard formats**
 
-- **Most Abused TLDs** relies on exclusion rules that work differently from tool to tool. It ships as AdGuard, uBlock Origin, Adblock, Wildcard Domains, and RPZ variants, with an aggressive/allowlist pair for the Adblock format, a block/allowlist pair for Wildcard Domains, an aggressive variant for RPZ, and a ControlD folder.
+- **Most Abused TLDs** relies on exclusion rules that work differently from tool to tool. It ships as AdGuard, uBlock Origin, Adblock, Wildcard Asterisk, Wildcard Domains, and RPZ variants, with an aggressive/allowlist pair for the Adblock format, a block/allowlist pair for each of the two Wildcard formats, an aggressive variant for RPZ, and a ControlD folder.
 - **NRD/DGA** lists only come as Adblock and plain domain lists.
 - **DNS Rebind Protection** only works with AdGuard, AdGuard Home, and AdGuard DNS.
 - **DoH IPs** and **TIF IPs** are IP-level lists rather than domain lists.
@@ -154,7 +154,7 @@ Only a limited set of lists exists in them: Light, Normal, Pro, Pro++, Ultimate,
 
 - **Little Snitch Mini has a rule-count limit**, so it can't handle the larger lists. It's offered for Light, Normal, Fake, Pop-Up Ads, Anti Piracy, Social Networks, Dynamic DNS, Badware Hoster, URL Shortener, Safesearch Not Supported, both domain-based Bypass lists (Full and DoH only), Gambling Medium, Gambling Mini, and every Mini tier (Pro Mini, Pro++ Mini, Ultimate Mini, TIF Mini). Not offered for the full Pro, Pro++, Ultimate, TIF, TIF Medium, Gambling, or NSFW lists.
 - **TIF and TIF Medium** are both too big for AdGuard Mobile for iOS. In AdGuard Home (a different product), the full TIF list needs at least 2 GB of RAM and TIF Medium at least 1 GB. The full list's RPZ version is split into two files, and you need both. If even TIF Medium is too much, use **TIF Mini**.
-- **The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists** cover different scopes and aren't interchangeable, see [section 5](#listrelationships). Whichever one you pick, pair it with a firewall rule blocking outbound ports 53 and 853, otherwise devices can still reach unencrypted or TLS-based DNS servers directly.
+- **The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists** cover different scopes, so pick the one that fits, see [section 5](#listrelationships). Whichever one you pick, pair it with a firewall rule blocking outbound ports 53 and 853, otherwise devices can still reach unencrypted or TLS-based DNS servers directly.
 - **DoH IPs and TIF IPs:** if you run AdGuard Home alongside either one, disable IPv6 resolution there, otherwise a device can slip past the block by resolving the same server over IPv6.
 
 **[Back to top](#table-of-contents)**
@@ -163,27 +163,27 @@ Only a limited set of lists exists in them: Light, Normal, Pro, Pro++, Ultimate,
 
 ## <a name="listrelationships"></a> 5. How do mini variants, NRD/DGA, and the bypass lists relate to each other?
 
-A few lists in this collection sound similar or get recommended together, but they aren't interchangeable and aren't always meant to be combined. Here's how they actually relate.
+A few lists in this collection sound similar or get recommended together, but they aren't interchangeable and aren't always meant to be combined. Here's how they relate.
 
-**Mini variants aren't a universal category, each one is a size-optimized cut of exactly one specific list:**
+**Each mini variant is a size-optimized cut of exactly one specific list:**
 
-- [Light](README.md#light) is the size-optimized version of **Normal**, it just isn't named "Normal Mini". Like the other size-optimized cuts, it only carries domains that also appear on the Top 1M/10M lists, which is why the [Fake](README.md#fake) list doesn't survive into it.
+- [Light](README.md#light) is the size-optimized version of **Normal**, just not named "Normal Mini". Like the other size-optimized cuts, it only carries domains that also appear on the Top 1M/10M lists, which is why the [Fake](README.md#fake) list doesn't survive into it.
 - [Pro Mini](README.md#promini), [Pro++ Mini](README.md#proplusmini), and [Ultimate Mini](README.md#ultimatemini) are each a cut of that exact tier only, limited to domains that also appear on the Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, or NetAPI Top 1M/10M lists.
 - [TIF Mini](README.md#tifmini) is a cut of **TIF Medium**, not the full TIF list directly.
 - [Gambling Mini](README.md#gamblingmini) is a cut of **Gambling Medium**, not the full Gambling list directly.
-- Light has no further mini version of its own, it's already the leanest tier in the Multi family.
+- Light has no further mini version of its own. It's already the leanest tier in the Multi family.
 
 > [!TIP]
 > Pick the mini version of the tier you actually want. Grabbing a random "mini" list without matching it to your target tier defeats the purpose, since each one only contains that specific tier's domains, shrunk down.
 
-**[NRD](README.md#nrd) and [DGA](README.md#nrd) are two alternatives, not two ingredients to combine.** DGA domains are already part of the full NRD list, just filtered down to the high-entropy subset likely generated by malware. That overlap only holds for the day ranges you actually load, though: `dga30` reaches back 30 days, so it's only fully covered once you stack the NRD bands out to `nrd35-29`. Pick NRD for broader coverage with more noise, or DGA alone for a narrower, lower-noise subset, not both at once.
+**[NRD](README.md#nrd) and [DGA](README.md#nrd) are alternatives.** DGA domains are already part of the full NRD list, just filtered down to the high-entropy subset likely generated by malware. That overlap only holds for the day ranges you actually load, though: `dga30` reaches back 30 days, so it's only fully covered once you stack the NRD bands out to `nrd35-29`. Pick NRD for broader coverage with more noise, or DGA alone for a narrower, lower-noise subset, not both at once.
 
 **NRD and DGA also split their day ranges differently:**
 
 - The full NRD list is split into five files, each covering a distinct, non-overlapping window: 7 days ago to yesterday, 14 to 8 days ago, 21 to 15 days ago, 28 to 22 days ago, and 35 to 29 days ago. These bands are meant to be stacked: for the last 14 days, combine `nrd7` and `nrd14-8`; for 21 days, add `nrd21-15`, and so on.
 - The DGA list comes as three rolling windows instead: past 7, past 14, and past 30 days. Each one counts back from today rather than covering a separate slice, so `dga30` already contains everything in `dga14` and `dga7`. Pick the single file that matches how far back you want to go instead of combining them.
 
-**The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists build on each other:**
+**The three [DoH/VPN/Tor/Proxy Bypass](README.md#bypass) lists are nested, so you pick one of the first two:**
 
 - [Bypass Full](README.md#bypass_all) covers encrypted DNS servers plus VPN, Tor, and proxy services, the broadest of the three.
 - [DoH only](README.md#bypass_dns) is the narrower encrypted-DNS-only subset.
@@ -199,7 +199,7 @@ Because there's nothing separate to block. DNS filtering works by refusing to re
 
 This isn't a gap in these particular lists. It's a limit of DNS-level filtering in general, and no DNS blocklist can work around it. What does work:
 
-- A **browser content blocker** like [uBlock Origin](https://github.com/uBlockOrigin/), AdGuard, or [Ghostery](https://www.ghostery.com/) filters individual requests and page elements inside the page itself, so it can strip out ads served from the very same domain. That's exactly why the README recommends running one alongside DNS blocking, see [Recommendation](README.md#recommendation).
+- A **browser content blocker** like [uBlock Origin](https://github.com/uBlockOrigin/), AdGuard, or [Ghostery](https://www.ghostery.com/) filters individual requests and page elements inside the page itself, so it can strip out ads served from the very same domain. That's why the README recommends running one alongside DNS blocking, see [Recommendation](README.md#recommendation).
 - On mobile, a **client-side blocker** installed on the device (the AdGuard app, for example) can do the same for app traffic.
 
 What the lists do handle is everything that has a domain of its own: third-party ad and tracking networks, telemetry and analytics endpoints, malware and phishing domains, and the native trackers built into devices and operating systems. Treat DNS blocking as the network-wide baseline and a content blocker as the fine-tuned layer on top, see [section 1](#quicksetup).
@@ -210,7 +210,7 @@ What the lists do handle is everything that has a domain of its own: third-party
 
 ## <a name="referral"></a> 7. How are referral domains handled?
 
-Referral domains are the affiliate and tracking links you often see on deal sites like Slickdeals, in emails, or in search results. Most of them stay unblocked on purpose, since they usually only fire when someone clicks a link, not automatically like ads do. A small number does get blocked from Pro upwards, and the breakdown below shows exactly which.
+Referral domains are the affiliate and tracking links you often see on deal sites like Slickdeals, in emails, or in search results. Most of them stay unblocked on purpose, since they usually only fire when someone clicks a link, not automatically like ads do. A small number does get blocked from Pro upwards, and the breakdown below shows how that changes from tier to tier.
 
 Blocking them would break things like the first result link in a search, and some of these domains double as newsletter unsubscribe links, so blocking them could trap you in unwanted emails instead of freeing you from them.
 
@@ -229,7 +229,7 @@ Here's the breakdown by list version:
 | Wildcard<br>domains | [Download](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt) |
 | ControlD<br>folder | [Download](https://github.com/hagezi/dns-blocklists/blob/main/controld/referral-allow-folder.json) |
 
-Want to actually block referral domains anyway? (**Not recommended.**) Use the lists below. It's better to apply these in a browser content blocker like uBlock Origin instead of network-wide at the DNS level, since DNS-level blocking is a lot harder to fine-tune once it's live. Note that this list doesn't have a ControlD folder, only the Allowlist above does.
+Want to actually block referral domains anyway? (**Not recommended.**) Use the lists below. It's better to apply these in a browser content blocker like uBlock Origin instead of network-wide at the DNS level, since DNS-level blocking is a lot harder to fine-tune once it's live. This list doesn't have a ControlD folder, only the Allowlist above does.
 
 | Format | Link |
 |:---|:---|
@@ -244,7 +244,7 @@ Want to actually block referral domains anyway? (**Not recommended.**) Use the l
 
 Blocking CMPs network-wide breaks a ton of websites and actually takes away your ability to choose what you're consenting to. In practice, blocking a CMP usually just makes the site assume everything's accepted anyway, since it can no longer show you the consent choice in the first place ([see this discussion](https://github.com/hagezi/dns-blocklists/issues/1979#issuecomment-1870498567)).
 
-Deciding whether to block or auto-allow a specific CMP is really a job for content blockers with dedicated filter lists, since those tools can tell which sites should be excluded from blocking a given CMP domain and which shouldn't. Take a look at the exclusion lists used by established cookie filter lists and it becomes pretty obvious why blanket DNS-level blocking just doesn't cut it here, it can't make the nuanced, per-site calls that a proper filter list can.
+Deciding whether to block or auto-allow a specific CMP is a job for content blockers with dedicated filter lists, since those tools can tell which sites should be excluded from blocking a given CMP domain and which shouldn't. One look at the exclusion lists of established cookie filter lists shows why blanket DNS-level blocking can't make those per-site calls.
 
 **[Back to top](#table-of-contents)**
 
@@ -275,14 +275,14 @@ Not every DNS provider offers every list. The services in this matrix let you pi
 
 - :green_circle: Fully available as a native list on that service.
 - :x: Not available.
-- :yellow_circle: Included in Provider's own native lists for that category, no separate list needed.
+- :yellow_circle: Included in the service's own native lists for that category, no separate list needed.
 - :notebook: Available as a separate [ControlD folder](https://github.com/hagezi/dns-blocklists/tree/main/controld).
 
 > [!NOTE]
 > This table answers "can I get it there", not "how much of it do I get", which is why it uses different symbols than the [coverage matrix](CHEATSHEET.md#inclusionmatrix) in the Cheat Sheet. There's no scale here, a list is either offered or it isn't.
 
 > [!NOTE]
-> **"Some other lists" is not a promise of everything.** AdGuard DNS carries a wider selection than the other three services, but not literally every list published here, and its coverage of a category can be partial. The Native Tracker lists are the clearest example: only some of the device lists are offered there, not all of them. The [AdGuard DNS section in the README](README.md#adguarddns) has the current selection.
+> **"Some other lists" is not a promise of everything.** AdGuard DNS carries a wider selection than the other three services, but not literally every list published here, and its coverage of a category can be partial. The Native Tracker lists are the clearest example: only some of the device lists are offered there. The [AdGuard DNS section in the README](README.md#adguarddns) has the current selection.
 
 Service availability, pricing, and plan limits can change. Check each provider's site for current details.
 
@@ -295,7 +295,7 @@ Service availability, pricing, and plan limits can change. Check each provider's
 
 ## <a name="mirrors"></a> 10. How current is the data, and where can I get it?
 
-The lists are rebuilt several times a day. Every source below serves the same lists, they just differ in how many of those builds they actually publish:
+The lists are rebuilt several times a day. Every source below serves the same lists. They only differ in how many of those builds they publish:
 
 - **Repository sources.** [GitHub](https://github.com/hagezi/dns-blocklists) is the reference repository, with GitLab and Codeberg as its full repository mirrors. All three publish one build per day, in sync with each other.
 - **Build mirror.** [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org) is connected directly to the build system and publishes every build as soon as it finishes, which works out to a new version roughly every 4 to 8 hours.
@@ -311,7 +311,7 @@ The lists are rebuilt several times a day. Every source below serves the same li
 > Pick by how fresh you need the data. Once a day is plenty for most setups. If you want every build the moment it exists, use the build mirror at [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org).
 
 > [!NOTE]
-> The GitHub repository occasionally gets compressed and reinitialized to keep its size down. That resets the commit history and invalidates existing forks, worth knowing if you maintain a fork or rely on commit history for tracking changes.
+> The GitHub repository occasionally gets compressed and reinitialized to keep its size down. That resets the commit history and invalidates existing forks, so keep it in mind if you maintain a fork or rely on commit history for tracking changes.
 
 **[Back to top](#table-of-contents)**
 
@@ -323,61 +323,61 @@ These lists aren't copies of upstream blocklists. A source listed in [Sources](h
 
 The published lists are generated from a continuously maintained domain database. That database combines evaluated upstream input with independently collected domains, project-maintained domain sets, tier-specific additions, reviewed network-log findings, and confirmed community reports. This curation helps close gaps in upstream coverage, add domains that matter at DNS level, and balance blocking coverage against compatibility.
 
-This is a high-level overview. It does not document every source, rule, exception, validation method, or tier-specific decision, and the process can evolve as sources, domain data, and compatibility requirements change.
+This is a high-level overview. It doesn't document every source, rule, exception, validation method, or tier-specific decision, and the process can evolve as sources, domain data, and compatibility requirements change.
 
-Here is the general process:
+Here's the general process:
 
 1. **Use established sources as input.**
    The maintained database is continuously informed by established upstream blocklists and privacy or security sources. Wherever possible, the project prefers the native lists maintained by their original projects, since those carry the clearest categorization and the shortest path back to whoever added an entry.
 
-   Broad third-party compilations that have already merged multiple sources are used as well. They're treated as an additional signal rather than as a shortcut for pulling in many lists at once, and entries coming from them go through the same evaluation as everything else.
+   Broad third-party compilations that have already merged multiple sources are used as well. They're treated as an additional signal, and entries coming from them go through the same evaluation as everything else.
 
    Nothing from a source gets included unchanged. Every entry is looked at in context, and depending on its rule type, category, observed use, likely breakage, and target tier, it may be normalized, included in one tier but not another, replaced by project-maintained data, or dropped entirely.
 
    Data on newly registered domains (NRD) and algorithmically generated domains (DGA) feeds into the build as well. Fresh registrations and random-looking machine-generated names are a strong early warning signal, since malicious infrastructure often goes live well before upstream blocklists catch up with it. This data is used to flag suspicious new domains for review, not as a bulk import. The published [NRD and DGA lists](README.md#nrd) are a separate thing you can subscribe to directly, see [section 5](#listrelationships).
 
 2. **Normalize rules that can be used at DNS level.**
-   Upstream filter lists can contain rule types that a DNS resolver cannot apply directly, including URL-specific rules, cosmetic filters, exceptions, regular expressions, and wildcard patterns containing `*`.
+   Upstream filter lists can contain rule types that a DNS resolver can't apply directly, including URL-specific rules, cosmetic filters, exceptions, regular expressions, and wildcard patterns containing `*`.
 
    The database stores concrete domain names, not the original browser-filter patterns. Rules that already identify a concrete domain can be normalized and validated directly. Where a wildcard or regular-expression rule can be interpreted safely at domain level, it may be evaluated against the supported Top 1M and Top 10M domain-ranking datasets to identify matching real domains. The resulting candidates are stored as individual domain names.
 
-   For example, an upstream wildcard rule like `log-*.example.com` isn't stored as-is in the maintained database. Instead, the wildcard portion is checked against the Top 1M/10M ranking datasets to find real, observed subdomains that fit the pattern, for example `log-a2d72.example.com`. Only matching concrete domains that actually show up in that ranking data get added to the maintained database as plain domain entries; the original wildcard pattern itself is never published.
+   For example, an upstream wildcard rule like `log-*.example.com` isn't stored as-is in the maintained database. Instead, the wildcard portion is checked against the Top 1M/10M ranking datasets to find real, observed subdomains that fit the pattern, for example `log-a2d72.example.com`. Only matching concrete domains that show up in that ranking data get added to the maintained database as plain domain entries; the original wildcard pattern itself is never published.
 
-   Rules that depend on URLs, paths, page context, exceptions, or ambiguous pattern logic are not blindly converted into DNS entries. This avoids treating broad browser-filter patterns as equally broad DNS blocks.
+   Rules that depend on URLs, paths, page context, exceptions, or ambiguous pattern logic aren't blindly converted into DNS entries, so a broad browser-filter pattern never turns into an equally broad DNS block.
 
 3. **Add and maintain project data.**
-   Upstream sources are only part of the input. Independently collected domains, project-maintained domain sets, tier-specific additions, reviewed network-log findings, and confirmed community reports are incorporated into the maintained database.
+   Upstream sources are only part of the input. Independently collected domains, project-maintained domain sets, tier-specific additions, reviewed network-log findings, and confirmed community reports go into the maintained database too.
 
-   This work can add DNS-relevant domains absent from upstream lists, close coverage gaps, and account for cases that require different handling at DNS level than in browser-based content blockers.
+   This adds DNS-relevant domains that upstream lists are missing, closes coverage gaps, and handles cases that need different treatment at DNS level than in browser-based content blockers.
 
 4. **Evaluate and categorize domains.**
-   Domains in the database are assessed by category, relevance, and expected compatibility impact. This distinguishes domains suitable for conservative blocking from domains that may affect website, app, or device functionality.
+   Domains in the database are assessed by category, relevance, and expected compatibility impact. This separates domains that are safe for conservative blocking from domains that may affect website, app, or device functionality.
 
-   Appearing in an external source is therefore not sufficient for inclusion. A domain's category, relevance, expected impact, and the intended tier determine whether it belongs in Light, Normal, Pro, Pro++, Ultimate, a separate list, or no published list.
+   Showing up in an external source isn't enough for inclusion. A domain's category, relevance, expected impact, and the intended tier decide whether it belongs in Light, Normal, Pro, Pro++, Ultimate, a separate list, or no published list at all.
 
    NRD and DGA data also help decide where a threat-related domain ends up. Some domains from the [TIF](README.md#tif) pool that show up in that data get picked up and carried into the regular tiers, so they're blocked even without TIF subscribed. That's part of why Normal, Pro, Pro++, and Ultimate already cover some TIF domains while never carrying the full feed, see [section 2](#whatshouldiuse). This happens domain by domain after review. The NRD and DGA lists themselves are never merged into a tier, which is why the [Inclusion Matrix](CHEATSHEET.md#inclusionmatrix) shows them as not included.
 
 5. **Build each tier deliberately.**
-   Light, Normal, Pro, Pro++, and Ultimate use the same maintained database, but they are designed for different trade-offs between blocking coverage and compatibility. They are not simply the same list with arbitrary numbers of entries removed.
+   Light, Normal, Pro, Pro++, and Ultimate use the same maintained database, but each one strikes a different balance between blocking coverage and compatibility. They aren't simply the same list with random chunks of entries removed.
 
    For the main tiers, domains appearing in one or more supported Top 1M or Top 10M ranking datasets are a primary selection signal. These datasets help prioritize domains with broad observed use and keep the lists effective without filling them with large numbers of obscure, inactive, or low-value entries.
 
-   This is a selection principle, not a strict requirement. A domain can still be included where there is a strong reason, for example because it is part of maintained tier-specific data or has been confirmed through review.
+   This is a selection principle, not a strict requirement. A domain can still be included where there's a strong reason, for example because it's part of maintained tier-specific data or has been confirmed through review.
 
-   - **Light** is the smallest and most compatibility-focused tier. It is essentially a size-optimized version of Normal, limited to Normal domains that also appear in the supported Top 1M or Top 10M datasets, and aims to avoid meaningful restrictions.
+   - **Light** is the smallest and most compatibility-focused tier. It's essentially a size-optimized version of Normal, limited to Normal domains that also appear in the supported Top 1M or Top 10M datasets, and aims to avoid meaningful restrictions.
    - **Normal** provides broad everyday blocking with a low risk of restrictions.
-   - **Pro** extends coverage while keeping a balanced approach. It is the recommended default for users who can allowlist a domain if needed.
-   - **Pro++** is the more aggressive sibling of Pro. It adds blocking that can cause some restrictions and is intended for more experienced users who can handle occasional false positives or manual allowlisting.
+   - **Pro** extends coverage while keeping a balanced approach. It's the recommended default for users who can allowlist a domain if needed.
+   - **Pro++** is the more aggressive sibling of Pro. It adds blocking that can cause some restrictions and is meant for more experienced users who can handle occasional false positives or manual allowlisting.
    - **Ultimate** is the most aggressive tier. It intentionally blocks additional domains, including some popular trackers, and can affect website, app, or device functionality.
 
-   Pro Mini, Pro++ Mini, and Ultimate Mini are size-optimized versions of their respective full tiers. They contain only domains from the matching full tier that also appear in the supported Top 1M or Top 10M datasets. Light is already the compact version of Normal and therefore has no separate Mini variant; it is built the same way, which is why categories that rarely rank in those datasets, such as the fake shops and fake streaming sites in the [Fake](README.md#fake) list, don't survive into it.
+   Pro Mini, Pro++ Mini, and Ultimate Mini are size-optimized versions of their respective full tiers. They contain only domains from the matching full tier that also appear in the supported Top 1M or Top 10M datasets. Light is already the compact version of Normal and therefore has no separate Mini variant; it's built the same way, which is why categories that rarely rank in those datasets, such as the fake shops and fake streaming sites in the [Fake](README.md#fake) list, don't survive into it.
 
 6. **Clean up and validate the output.**
-   Before publication, invalid, duplicate, and no-longer-appropriate entries are removed. Domains covered by allowlists or exclusions are omitted from the relevant build output. Issue reports, community feedback, network-log reviews, and ongoing maintenance help identify false positives and coverage gaps.
+   Before publication, invalid, duplicate, and no-longer-appropriate entries are removed. Domains covered by allowlists or exclusions are left out of the relevant build output. Issue reports, community feedback, network-log reviews, and ongoing maintenance help identify false positives and coverage gaps.
 
-The base database currently contains around 45 million domains, including historical data from the supported Top 1M and Top 10M sources going back more than 24 months. This historical data helps identify domains with observed use over time, supports the safe conversion of suitable wildcard and regular-expression rules into concrete domains, and contributes to selecting relevant domains for the final lists. The database's size and composition change as it is maintained.
+The base database currently contains around 45 million domains, including historical data from the supported Top 1M and Top 10M sources going back more than 24 months. This historical data helps identify domains with observed use over time, supports the safe conversion of suitable wildcard and regular-expression rules into concrete domains, and helps pick relevant domains for the final lists. The database's size and composition change as it's maintained.
 
-In short: being listed in [Sources](https://github.com/hagezi/dns-blocklists/blob/main/sources.md) does not mean that a source is copied wholesale into a tier. Upstream lists are important inputs, but the published lists result from ongoing data maintenance, rule normalization, evaluation, categorization, tier-specific selection, cleanup, and validation. Popularity data helps keep the main tiers focused and reasonably sized, while maintained project data and threat data such as NRD and DGA cover gaps that upstream lists and domain rankings alone may miss.
+In short: a source listed in [Sources](https://github.com/hagezi/dns-blocklists/blob/main/sources.md) is an input, not something copied wholesale into a tier. Popularity data keeps the main tiers focused and reasonably sized, while maintained project data and threat data such as NRD and DGA cover gaps that upstream lists and domain rankings alone may miss.
 
 **[Back to top](#table-of-contents)**
 
@@ -391,16 +391,16 @@ Paste in one entry or a whole batch, one per line and up to 50 per query, hit Se
 
 It's subdomain-aware, which is often the interesting part. Look up `region1.app-measurement.com` and the result shows the rule `||app-measurement.com^`, so you can tell the block comes from a wildcard on the parent domain rather than from an entry for that exact hostname.
 
-It also follows CNAME chains, up to 8 hops. A domain that isn't on any list itself still gets flagged if it points at something that is, which is exactly how CNAME cloaking hides trackers behind a harmless looking first-party name, see the [glossary](#gl-c). The result then shows the full chain, so you can see where the block actually comes from. Chains that don't resolve, or hosts hidden behind further server-side redirection, can't be caught this way.
+It also follows CNAME chains, up to 8 hops. A domain that isn't on any list itself still gets flagged if it points at something that is. That's how CNAME cloaking hides trackers behind a harmless looking first-party name, see the [glossary](#gl-c). The result then shows the full chain, so you can see where the block comes from. Chains that don't resolve, or hosts hidden behind further server-side redirection, can't be caught this way.
 
 What it's good for:
 
 - **Something broke.** Your query log gives you the domain, the Lookup tells you which list is responsible. If it's a list you subscribe to, allowlist the domain or drop down to a less aggressive tier, see [section 2](#whatshouldiuse).
 - **Picking or switching tiers.** Check a domain you depend on before you move. If it shows up under Pro++ but not under Pro, you know exactly what you'd be signing up for.
 - **Before you report something.** A report that names the domain, the list, and the rule is much faster to act on, see [section 14](#support).
-- **Checking coverage.** A **Not found** result means no published list currently blocks that domain, which is exactly the case for a "should be blocked but isn't" report. If the domain has no DNS records at all, you also get a note that it may no longer exist, so you know it's dead rather than just unlisted.
+- **Checking coverage.** A **Not found** result means no published list currently blocks that domain, which is what you want to confirm before a "should be blocked but isn't" report. If the domain has no DNS records at all, you also get a note that it may no longer exist, so you know it's dead rather than just unlisted.
 
-The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, see [section 5](#listrelationships) for what those lists cover and tick **Include NRD and DGA lists** for that query.
+The **NRD and DGA lists aren't searched by default.** They're very large and including them slows the search down noticeably, so if you specifically want to know whether a domain is caught as a newly registered or algorithm-generated domain, tick **Include NRD and DGA lists** for that query. [Section 5](#listrelationships) explains what those lists cover.
 
 > [!NOTE]
 > Two things the Lookup can't tell you:
@@ -421,11 +421,11 @@ Pick a source and a format, or just select the app or device you use and it sets
 
 The source is set to the build mirror by default, since that's the freshest one, but you can switch it to jsDelivr, GitHub, GitLab, or Codeberg and the links change accordingly, see [section 10](#mirrors). That also makes it a quick way to move an existing setup from one source to another: tick the same lists, pick the new source, copy the new links, no URL surgery by hand.
 
-What makes it more than a typing shortcut is that it knows how the lists relate to each other, so you don't end up with a set that works against itself:
+It also knows how the lists relate to each other, so you don't end up with a set that works against itself:
 
 - Lists your tier already covers get greyed out. Pick Pro and the [Fake](README.md#fake) list switches off, because Pro already carries it.
 - Where the overlap is only partial it says so instead of hiding the list, for example [Pop-Up Ads](README.md#popupads) on Light or Normal.
-- [NRD and DGA](README.md#nrd) lock each other out, since they're alternatives rather than a pair, see [section 5](#listrelationships).
+- [NRD and DGA](README.md#nrd) lock each other out, since you only want one of them, see [section 5](#listrelationships).
 - The two referral lists do the same, and which of them is on offer depends on your tier, see [section 7](#referral).
 - Picking the full [TIF](README.md#tif) list in RPZ format hands you both of its files, so you can't end up subscribed to half of it.
 - Lists that are unusually large, or powerful enough to cause trouble if you enable them blindly, carry a small badge, so you can see what you're signing up for before you tick it.
@@ -445,7 +445,7 @@ Found a legitimate domain that got blocked, or spotted one that should be blocke
 
 To help get your report resolved quickly, include the exact domain, which list and tier you're using (for example Pro or Ultimate), and, for a false positive, what broke (a specific site, app, or feature) so it can be reproduced and checked. If your tool keeps a query log, a quick look there can confirm the exact domain responsible before you report it, and the [Blocklist Lookup](#listlookup) tells you which lists block it and with which rule.
 
-Got general questions or just want to chat? Head to the [GitHub Discussions](https://github.com/hagezi/dns-blocklists/discussions) page. There's also a public [Matrix support chat](https://matrix.to/#/#hagezi-support:tchncs.de?via=tchncs.de) if you'd rather talk things through directly. Prefer to reach out personally? [support@hagezi.org](mailto:support@hagezi.org) works too.
+Got general questions or just want to chat? Head to the [GitHub Discussions](https://github.com/hagezi/dns-blocklists/discussions) page. There's also a public [Matrix support chat](https://matrix.to/#/#hagezi-support:tchncs.de?via=tchncs.de) if you'd rather talk things through directly.
 
 **[Back to top](#table-of-contents)**
 
@@ -457,7 +457,7 @@ The lists are published under the [GPL-3.0 license](https://www.gnu.org/licenses
 
 The maintainer ("the Provider") publishes the lists as-is, with no warranty of accuracy, completeness, or fitness for any particular purpose, and no guarantee that every malicious domain is caught or that no legitimate domain ever gets blocked by mistake. You use them entirely at your own risk, and the Provider isn't liable for damages from use or misuse, except in cases of willful misconduct, gross negligence, or death/personal injury caused by negligence.
 
-Basically, treat these lists as one layer in a bigger security setup, not a standalone fix. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk.
+Basically, treat these lists as one layer in a bigger security setup. They don't replace firewalls, antivirus or EDR tools, intrusion detection systems, or your own judgment about risk.
 
 A domain being on a list isn't an accusation against whoever runs it. It's a technical filtering decision based on threat data, public rankings, and observed behavior, and any of that can be outdated or wrong. If you operate a domain and think it's listed by mistake, report it and it'll get reviewed, see [section 14](#support).
 
@@ -482,10 +482,10 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | AdBlock-Fast | A lightweight, open-source ad blocker available as a browser extension and mobile app. One of the tools supporting the Adblock format. |
 | Adblock format | One of the formats these lists come in. Looks like classic ad blocker filter rules and works with tools like Pi-hole, AdGuard, AdGuard Home, and uBlock Origin. |
 | adblock-lean | A lightweight ad-blocking script built specifically for OpenWrt routers. It's one of the network-wide DNS blockers this project points to for advanced home-networking setups, and it's also one of the tools behind the "Wildcard (Domains only)" format. |
-| AdGuard / AdGuard Home / AdGuard DNS | Three different things with confusingly similar names. AdGuard is a browser extension or app that only protects that one browser or device. AdGuard Home is a separate DNS server you run yourself, often on something like a Raspberry Pi, protecting every device on your network at once. AdGuard DNS is neither of those, it's a hosted public DNS resolver you can point your devices at without running any server yourself, similar in role to ControlD, RethinkDNS, or DNSwarden. |
+| AdGuard / AdGuard Home / AdGuard DNS | Three different things with confusingly similar names. AdGuard is a browser extension or app that only protects that one browser or device. AdGuard Home is a separate DNS server you run yourself, often on something like a Raspberry Pi, protecting every device on your network at once. AdGuard DNS is neither: it's a hosted public DNS resolver you can point your devices at without running any server yourself, similar in role to ControlD, RethinkDNS, or DNSwarden. |
 | Admin (network admin) | Whoever manages the DNS server or router setup and can manually unblock a domain if a blocklist accidentally breaks something. Some list versions assume you have one on hand, others are built so you don't need one. |
 | AdNauseam | A browser extension built on uBlock Origin that blocks ads and additionally clicks them invisibly, so tracking profiles fill up with noise. Supports the Adblock format. |
-| Allowlist (whitelist) | The opposite of a blocklist. Domains here always get through, even if a blocklist would otherwise catch them. To allowlist or unblock a domain means adding it to this exception list so it is no longer blocked. |
+| Allowlist (whitelist) | The opposite of a blocklist. Domains here always get through, even if a blocklist would otherwise catch them. To allowlist or unblock a domain means adding it to this exception list so it's no longer blocked. |
 
 ### <a name="gl-b"></a>B
 
@@ -505,7 +505,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 | C2 server (command-and-control server) | A server attackers use to remotely control malware already running on infected devices. Threat Intelligence Feeds specifically target the domains these servers rely on. |
 | CAPTCHA | The "prove you're human" challenge some sites show before letting you through. Blocking location and IP trackers can make sites less certain about a visitor, which sometimes triggers extra CAPTCHAs, a known Ultimate side effect, see [section 2](#whatshouldiuse). |
 | Cisco Umbrella Top 1M | A ranking of the top 1 million most-visited domains, published by Cisco. It does double duty here: it's one of the eight ranking sources the build uses, and it's the basis for the roughly 10,000-page set the lists were tested against while they were developed, checking that pages, navigation, images, and videos still work correctly. That was a benchmark run, not something that repeats with every build. |
-| Cloudflare Radar / Netcraft / SpamHaus | Three threat-intelligence sources whose combined data feeds the Most Abused TLDs list: Cloudflare Radar tracks internet traffic and abuse trends, Netcraft specializes in phishing and fraud detection, and SpamHaus maintains reputation blocklists for spam and malware sources. Not to be confused with the "Cloudflare" entry under "Top 1M list": Cloudflare publishes that popularity ranking through Radar too, but it is a separate dataset and isn't used for the TLD list. |
+| Cloudflare Radar / Netcraft / SpamHaus | Three threat-intelligence sources whose combined data feeds the Most Abused TLDs list: Cloudflare Radar tracks internet traffic and abuse trends, Netcraft specializes in phishing and fraud detection, and SpamHaus maintains reputation blocklists for spam and malware sources. Not to be confused with the "Cloudflare" entry under "Top 1M list": Cloudflare publishes that popularity ranking through Radar too, but it's a separate dataset and isn't used for the TLD list. |
 | CMP (Consent Management Platform/Provider) | The tech behind cookie consent pop-ups on websites, letting visitors choose what data a site can collect about them. Common examples include OneTrust, Cookiebot, and Usercentrics. |
 | CNAME cloaking | A trick where a tracker is reached through a harmless looking subdomain of the site you're visiting, which then points on to the tracker's real domain via a CNAME record. It's designed to look first-party so it slips past blocking that only checks the name you actually requested. The Blocklist Lookup follows these chains for you, see [section 12](#listlookup). |
 | ControlD | A free and paid online DNS resolver service offering Light, Normal, Pro, Pro++, Ultimate, and TIF without your own DNS server. Some categories are covered by ControlD's own native lists instead, and a few lists ship as importable ControlD folders, see [section 9](#availablelists). |
@@ -518,13 +518,13 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 
 | Term | What it means |
 |:---|:---|
-| Defense-in-depth | A security strategy that layers multiple independent protections on top of each other, so if one layer fails, the others still catch the problem. These blocklists are meant to be one layer in that kind of setup, not a complete solution on their own, see [section 15](#licensing) and the repository's Disclaimer for how that plays out here. |
-| Denyallow / domain modifier | A rule type in filter lists used to carve out exceptions from a blocking rule. These modifiers have a technical length limit, so you can't cram unlimited exceptions into one rule, that's why exclusion lists sometimes stay short on purpose. |
+| Defense-in-depth | A security strategy that layers multiple independent protections on top of each other, so if one layer fails, the others still catch the problem. These blocklists are meant to be one layer in that kind of setup, see [section 15](#licensing) and the repository's Disclaimer for how that plays out here. |
+| Denyallow / domain modifier | A rule type in filter lists used to carve out exceptions from a blocking rule. These modifiers have a technical length limit, so you can't cram unlimited exceptions into one rule. That's why exclusion lists sometimes stay short on purpose. |
 | DGA (Domain Generation Algorithm) | A technique malware uses to generate large numbers of random-looking domains on the fly, making them harder to block in advance. This project's DGA lists come as three rolling windows (past 7, 14, and 30 days) that overlap rather than stack, so pick one instead of combining them, see [section 5](#listrelationships). The same data is also used inside the build to flag suspicious domains for review, see [section 11](#sources). |
 | Direct Link Generator | A web tool on the build mirror that puts blocklist download links together for you: pick a source and a format, tick the lists you want, copy the finished URLs. It also greys out lists your chosen tier already covers and keeps you from combining lists that rule each other out, see [section 13](#linkgenerator). |
 | Diversion | An ad-blocking and DNS add-on for Asuswrt-Merlin routers. Version 5 or newer reads the DNSMasq format, older versions the legacy Subdomains format. |
 | DNS (Domain Name System) | The system that translates website names, like example.com, into the numeric IP addresses computers use to find each other. Every blocklist works by intercepting these translations for unwanted domains. |
-| DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Available for AdGuard, AdGuard Home, and AdGuard DNS. Some other DNS blockers already have their own version of this built in, worth checking before you add a separate list. |
+| DNS rebind protection | A safeguard against DNS rebinding attacks, where an attacker tricks a public domain into suddenly pointing at a private, local IP address to sneak into your home network. Available for AdGuard, AdGuard Home, and AdGuard DNS. Some other DNS blockers already have their own version of this built in, so check before you add a separate list. |
 | DNS resolver | The server that actually performs the DNS lookup for your device, sometimes also called a recursive resolver. AdGuard DNS, ControlD, RethinkDNS, and DNSwarden are all examples of resolvers that support these blocklists. |
 | DNSCrypt (DNSCloak) | A protocol that authenticates and encrypts DNS traffic between a device and its resolver, distinct from DoH and DoT. DNSCloak and DNSCrypt (the client) are apps that implement it and are among the tools supporting the "Wildcard (Domains only)" format. |
 | DNSMasq | A lightweight, widely used piece of software for DNS and DHCP, often running on routers or small home servers. One of the five formats these lists come in is built specifically for it. |
@@ -588,7 +588,7 @@ This glossary covers unfamiliar terms from this FAQ, the [Cheat Sheet](CHEATSHEE
 
 | Term | What it means |
 |:---|:---|
-| Malware | An umbrella term for malicious software of all kinds, viruses, trojans, spyware, you name it, that infects a device, steals data, or lets someone else control it remotely. |
+| Malware | Malicious software of all kinds (viruses, trojans, spyware, and so on) that infects a device, steals data, or lets someone else control it remotely. |
 | Meta (META) | The company behind Facebook, Instagram, Messenger, and WhatsApp. Ultimate blocks some of its trackers, which limits Facebook and Messenger and affects a few WhatsApp features, see [section 2](#whatshouldiuse). |
 | Metrics | Usage measurements a site or app collects about how its own service is being used, such as page views, load times, or click paths. Related to telemetry and analytics, and blocked from the Light tier upwards. |
 | Mirror (repository mirror / build mirror) | An exact copy of the lists hosted elsewhere, as a backup in case the main source is unreachable. Two kinds exist here: repository mirrors (GitLab, Codeberg) that copy GitHub and publish one build a day, and the build mirror (hagezi-mirror.dnsbunker.org) that hangs off the build system directly and publishes every build, see [section 10](#mirrors). |

@@ -4,9 +4,9 @@
 
 ### Built with :heartbeat: for a safer, cleaner internet. It always looks impossible until someone just goes ahead and does it.
 
-**What this is:** a set of DNS blocklists that block ads, trackers, telemetry, phishing, malware, scams, and other unwanted domains network-wide. They work for any region and with every common DNS server, ad blocker, and content blocker.
+These are DNS blocklists that block ads, trackers, telemetry, phishing, malware, scams, and other unwanted domains network-wide. They work for any region and with every common DNS server, ad blocker, and content blocker.
 
-Like this project? If it's helped you out, drop a :star: (top right) and join the stargazers club! Every star genuinely helps.
+Like this project? If it's helped you out, drop a :star: (top right) and join the stargazers club! Every star helps.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/hagezi/files@latest/assets/images/dark/hagezi-dns-blocklists.svg">
@@ -62,7 +62,7 @@ Like this project? If it's helped you out, drop a :star: (top right) and join th
 
 ### :books: **Multi, cleans up the internet and protects your privacy!** <a name="overview"></a>
 
-This is an all-in-one DNS blocklist that comes in **several versions (light, normal, pro, pro++, and ultimate)**. You can run it standalone, and it works for any region. It blocks ads, trackers, metrics, telemetry, fake sites, phishing, malware, scams, cryptojacking, and other junk. It's built on [various source blocklists](sources.md), but that doesn't mean it's just a pile of lists glued together. Everything here has been optimized and extended so it actually cleans up the internet across the board.
+This is an all-in-one DNS blocklist that comes in **several versions (light, normal, pro, pro++, and ultimate)**. You can run it standalone, and it works for any region. It blocks ads, trackers, metrics, telemetry, fake sites, phishing, malware, scams, cryptojacking, and other junk. It starts from [various source blocklists](sources.md), which are then optimized and extended with my own additions.
 
 Curious about the sources? Check out: [Which sources are used for the lists and how are they compiled?](FAQ.md#sources)
 
@@ -163,7 +163,7 @@ Big broom edition. Cleans up the internet and protects your privacy. Blocks ads,
 
 #### :ledger: **Multi PRO mini (best for browser/mobile ad blockers)** <a name="promini"></a>
 
-A size-optimized version made for DNS or browser blockers, like devices with limited RAM. This only contains domains from the full Pro list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, NetAPI).
+A size-optimized version made for DNS or browser blockers on devices with limited RAM. This only contains domains from the full Pro list that appear on Top 1M/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, NetAPI).
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -260,7 +260,7 @@ This blocklist targets malware, cryptojacking, scams, spam, and phishing. It blo
 > [!WARNING]
 > This list is huge and can eat up a lot of memory depending on your ad blocker. If that's an issue, grab the medium or mini version instead.
 > It's too big for the iOS AdGuard mobile app, and AdGuard Home needs at least 2 GB RAM.
-> The RPZ version had to be split into two files because of its size, you need both.
+> The RPZ version had to be split into two files because of its size. You need both.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ<br>(split) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -379,11 +379,11 @@ Blocks known hosting providers that repeatedly host badware through user-uploade
 Blocks the most abused top-level domains, combining data from Cloudflare Radar, Netcraft, and SpamHaus.
 
 > [!WARNING]
-> This list blocks entire top-level domains (like *.top, *.shop, *.gdn) that have a bad reputation overall. Yes, that means some legit sites get caught in the crossfire too, but it's really effective against spam, scams, phishing, malware, and other garbage. Know what you're signing up for.
+> This list blocks entire top-level domains (like `.top`, `.shop`, `.gdn`) that have a bad reputation overall. Yes, that means some legit sites get caught in the crossfire too, but it's really effective against spam, scams, phishing, malware, and other garbage.
 >
 > Only well-known, reputable domains that show up on the supported top lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop, NetAPI) or are essential for popular apps get considered for exclusion. Illegal domains, including piracy sites, stay blocked no matter what. Anything that doesn't clearly qualify gets reviewed case by case, and if there's no good reason to unblock it, it stays blocked. If you need access to something specific, add it to your personal allowlist.
 >
-> This selective approach exists because AdGuard and uBlock Origin have technical limits on rule length when using denyallow/domain modifiers. Trying to exclude every legit domain would eventually break important rules, so exclusions have to stay limited and carefully picked.
+> Exclusions are kept this selective because AdGuard and uBlock Origin have technical limits on rule length when using denyallow/domain modifiers. Trying to exclude every legit domain would eventually break important rules, so exclusions have to stay limited and carefully picked.
 
 This list doesn't follow the usual five-format pattern, since the exclusion rules work differently from tool to tool.
 
@@ -393,6 +393,7 @@ This list doesn't follow the usual five-format pattern, since the exclusion rule
 | uBlock Origin | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-ublock.txt) | For uBlock Origin and Adblock Plus |
 | Adblock | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | For Pi-hole and TechnitiumDNS. Spam TLDs with no exclusions |
 | Adblock<br>(Aggressive)<br>+ Allowlist | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt)<br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-allow.txt) | For Pi-hole and TechnitiumDNS. Use both together |
+| Wildcard<br>Asterisk<br>+ Allowlist | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds.txt)<br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds-allow.txt) | For tools using the Wildcard Asterisk format. Use both together |
 | Wildcard<br>Domains<br>+ Allowlist | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds-onlydomains.txt)<br>[Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/spam-tlds-allow-onlydomains.txt) | For DNSCrypt. Use both together |
 | RPZ | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz.txt) | Spam TLDs with no exclusions |
 | RPZ<br>(Aggressive) | [Link](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz-aggressive.txt) | All spam TLDs, matching the AdGuard and uBlock Origin versions |
@@ -424,7 +425,7 @@ Blocks common ways to bypass your DNS setup.
 > [!NOTE]
 > To make sure your DNS server is actually the one being used, you'll need to redirect or block standard DNS traffic (TCP/UDP 53) and also block DNS over TLS/QUIC (TCP/UDP 853) outbound.
 
-**This comes as three lists.** The first two are alternatives, pick one; the third is an IP-level companion to the DoH-only list, not to the complete edition:
+**This comes as three lists.** The first two are alternatives, so pick one. The third is an IP-level companion to the DoH-only list, not to the complete edition:
 
 #### :outbox_tray: **Complete edition: encrypted DNS servers, VPN, Tor, proxies** <a name="bypass_all"></a>
 
@@ -514,7 +515,7 @@ A size-optimized version of the Gambling Medium list. Only contains domains that
 Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, and others.
 
 > [!NOTE]
-> This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
+> This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It only targets classic social networking sites.
 
 | Entries | Adblock | DNSMasq | Wildcard<br>Asterisk | Wildcard<br>Domains | RPZ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -571,7 +572,7 @@ Rather not click your way through every list section on this page? The **Direct 
 
 Pick a source and a format, or just select the app or device you use and it sets the format for you. Then pick one Multi tier, tick the add-ons you want, and every matching link shows up at the bottom of the page. Copy them one by one, or grab the whole set with **Copy all links**. The source starts on the build mirror and can be switched to jsDelivr, GitHub, GitLab, or Codeberg, which also makes it an easy way to move an existing setup from one source to another.
 
-It's more than a typing shortcut, because it knows how the lists relate to each other: anything your chosen tier already covers gets greyed out, partial overlaps are spelled out instead of hidden, [NRD and DGA](#nrd) lock each other out, and picking the full [TIF](#tif) list in RPZ format hands you both of its files so you can't end up subscribed to half of it. Lists that are unusually large, or powerful enough to cause trouble if you enable them blindly, carry a small badge as well.
+It also knows how the lists relate to each other. Anything your chosen tier already covers gets greyed out, partial overlaps are spelled out instead of hidden, [NRD and DGA](#nrd) lock each other out, and picking the full [TIF](#tif) list in RPZ format hands you both of its files so you can't end up subscribed to half of it. Lists that are unusually large, or powerful enough to cause trouble if you enable them blindly, carry a small badge as well.
 
 > [!NOTE]
 > It covers the [five standard formats](#formatguide) only, so the legacy Subdomains and Hosts formats aren't in there, and NRD, DGA, and the referral lists only show up in Adblock and Wildcard (Domains) format. [Most Abused TLDs](#tlds), [DNS Rebind Protection](#dnsrebind), the IP lists for [TIF](#tifips) and [DoH](#bypass_ips), and the ControlD folders follow their own naming scheme and are left out entirely, so use the link tables on this page for those. More detail in the [FAQ](FAQ.md#linkgenerator).
@@ -586,7 +587,7 @@ Paste in one entry or a whole batch, one per line and up to 50 per query, hit Se
 
 It's subdomain-aware too: look up `region1.app-measurement.com` and you'll see the match comes from `||app-measurement.com^`, a wildcard on the parent domain, not an entry for that exact hostname. It also follows CNAME chains, up to 8 hops, so a domain that isn't on any list itself still gets flagged if it points at something that is, and the result shows you the full chain.
 
-Handy for hunting down a false positive, comparing what happens to a domain across tiers before you switch, or checking whether something is covered at all before you report it. The **NRD and DGA lists aren't searched by default**, they're very large and slow the search down noticeably, so switch them on only when you need them.
+Handy for hunting down a false positive, comparing what happens to a domain across tiers before you switch, or checking whether something is covered at all before you report it. The **NRD and DGA lists aren't searched by default**. They're very large and slow the search down noticeably, so switch them on only when you need them.
 
 > [!NOTE]
 > The Lookup reads the published lists, not your own setup, and it doesn't judge whether a domain is harmful. Your local allowlist, extra lists from other projects, or a copy that hasn't refreshed yet can all make your network behave differently. More detail in the [FAQ](FAQ.md#listlookup).
@@ -695,7 +696,7 @@ More info on the [project page](https://public-rdns.com).
 
 #### :department_store: **RobinGroppe.de (EU: Germany, threat blocking), free** <a name="robingroppe"></a>
 
-[RobinGroppe.de DNS](https://www.robingroppe.de/serverzeug/dns-server) is a free, privacy-focused DNS service. It doesn't log your queries and protects your connection by blocking malware, phishing, and other online threats using the HaGeZi Threat Intelligence Feeds.
+[RobinGroppe.de DNS](https://www.robingroppe.de/serverzeug/dns-server) is a free, privacy-focused DNS service. It doesn't log your queries and blocks malware, phishing, and other online threats using the HaGeZi Threat Intelligence Feeds.
 
 #### :department_store: **RethinkDNS, free** <a name="rethinkdns"></a>
 
@@ -744,7 +745,7 @@ Built with :heartbeat: for a safer, cleaner internet.
 
 While the lists were being developed, each version was tested against 10,000 websites from the Cisco Umbrella Top 1 million list. I checked whether pages loaded properly, content displayed correctly, navigation worked, images loaded, videos played, and so on. That was a one-off benchmark run rather than something that repeats with every build.
 
-So no, these aren't just random lists stitched together from other sources. They've been optimized and extended to genuinely clean up the internet across every category. Curious how? Check out: [Which sources are used and how are the lists compiled?](FAQ.md#sources)
+Want to know how the sources are combined and optimized? See: [Which sources are used and how are the lists compiled?](FAQ.md#sources)
 
 Here's how each version performed in that run against the same 10,000-page set, which is also cross-referenced through [whotracks.me](https://whotracks.me/websites.html). All pages were opened and fully loaded in batch via Edge with privacy features turned off, and cookies accepted. The numbers are a snapshot from that benchmark, not live figures from the current build.
 
@@ -769,9 +770,7 @@ Wondering how referral domains (affiliate and tracking links) are handled? Here'
 
 #### :dizzy: Support <a name="support"></a>
 
-This project only exists because of a genuinely supportive community. It's free for everyone and stays up to date thanks to ongoing care, updates, and contributions from people who actually want to make things better.
-
-Feedback, ideas, domain reports, false-positive reports, whatever you've got, it's all appreciated. Every bit of help, big or small, makes the internet a little safer and cleaner for everyone.
+This project only exists because of its community. It's free for everyone and stays up to date because people keep sending in feedback, ideas, domain reports, and false-positive reports. Whatever you've got, big or small, it's appreciated.
 
 Before you report a domain, run it through the [Blocklist Lookup](#listlookup). A report that names the exact list and rule is a lot quicker to act on.
 
@@ -783,7 +782,7 @@ See: [Getting help and reporting issues](FAQ.md#support)
 
 ### :floppy_disk: Update Interval/Official Mirrors <a name="mirrors"></a>
 
-The lists are rebuilt several times a day, but not every source publishes every build. There are two kinds of sources here, and the difference is only how often a finished build shows up:
+The lists are rebuilt several times a day, but not every source publishes every build. There are two kinds of sources here, and they only differ in how often a finished build shows up:
 
 - **Repository sources.** GitHub is the reference repository, and GitLab and Codeberg are its full repository mirrors. All three publish one build per day, in sync with each other.
 - **Build mirror.** [hagezi-mirror.dnsbunker.org](https://hagezi-mirror.dnsbunker.org) is connected directly to the build system and publishes every build as soon as it finishes, which works out to a new version roughly every 4 to 8 hours.
