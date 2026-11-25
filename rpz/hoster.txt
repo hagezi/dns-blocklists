@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795619400 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795648380 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Nov 2026 15:10 UTC
-; Version: 2026.1125.1510.43
+; Last modified: 25 Nov 2026 23:13 UTC
+; Version: 2026.1125.2313.04
 ; Syntax: RPZ
-; Number of entries: 2530
+; Number of entries: 2538
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -404,6 +404,8 @@ blogcheese.com CNAME .
 *.blogcheese.com CNAME .
 blogspot.com CNAME .
 *.blogspot.com CNAME .
+bravenet.com CNAME .
+*.bravenet.com CNAME .
 bugs3.com CNAME .
 *.bugs3.com CNAME .
 bulkurlshortener.com CNAME .
@@ -728,6 +730,8 @@ mytempdir.com CNAME .
 *.mytempdir.com CNAME .
 mywebsitetransfer.com CNAME .
 *.mywebsitetransfer.com CNAME .
+nexmicrosystems.com CNAME .
+*.nexmicrosystems.com CNAME .
 qr.nikastic.com CNAME .
 *.qr.nikastic.com CNAME .
 nofeeshost.com CNAME .
@@ -890,6 +894,8 @@ yolasite.com CNAME .
 *.yolasite.com CNAME .
 yourdomain.com CNAME .
 *.yourdomain.com CNAME .
+yourjavascript.com CNAME .
+*.yourjavascript.com CNAME .
 ishg.za.com CNAME .
 *.ishg.za.com CNAME .
 ziddu.com CNAME .
@@ -1510,6 +1516,8 @@ atw.hu CNAME .
 *.atw.hu CNAME .
 blogspot.hu CNAME .
 *.blogspot.hu CNAME .
+pe.hu CNAME .
+*.pe.hu CNAME .
 blogspot.id CNAME .
 *.blogspot.id CNAME .
 blogspot.co.id CNAME .
@@ -2000,6 +2008,8 @@ freakshare.net CNAME .
 *.freakshare.net CNAME .
 freeasphost.net CNAME .
 *.freeasphost.net CNAME .
+getenjoyment.net CNAME .
+*.getenjoyment.net CNAME .
 great-site.net CNAME .
 *.great-site.net CNAME .
 hotshare.net CNAME .
@@ -2198,8 +2208,6 @@ v0r.org CNAME .
 *.v0r.org CNAME .
 website.org CNAME .
 *.website.org CNAME .
-yi.org CNAME .
-*.yi.org CNAME .
 glide.page CNAME .
 *.glide.page CNAME .
 mmm.page CNAME .
