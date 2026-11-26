@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795684200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795708200 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/Tor/Proxy Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 26 Nov 2026 09:10 UTC
-; Version: 2026.1126.0910.57
+; Last modified: 26 Nov 2026 15:50 UTC
+; Version: 2026.1126.1550.34
 ; Syntax: RPZ
-; Number of entries: 33008
+; Number of entries: 33010
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -583,8 +583,6 @@ fancy1.v6.army CNAME .
 *.fancy1.v6.army CNAME .
 selenite.v6.army CNAME .
 *.selenite.v6.army CNAME .
-resolver.arpa CNAME .
-*.resolver.arpa CNAME .
 atomicspike.art CNAME .
 *.atomicspike.art CNAME .
 cdnexpress.art CNAME .
@@ -1009,6 +1007,10 @@ hardmath.buzz CNAME .
 *.hardmath.buzz CNAME .
 latiao.buzz CNAME .
 *.latiao.buzz CNAME .
+cfisd.mathforkids.buzz CNAME .
+*.cfisd.mathforkids.buzz CNAME .
+science.mathforkids.buzz CNAME .
+*.science.mathforkids.buzz CNAME .
 mathprofession.buzz CNAME .
 *.mathprofession.buzz CNAME .
 shadowrocket.buzz CNAME .
@@ -25125,8 +25127,6 @@ leonoir.online CNAME .
 *.leonoir.online CNAME .
 letlab.online CNAME .
 *.letlab.online CNAME .
-ljq6lqx2et2prq.online CNAME .
-*.ljq6lqx2et2prq.online CNAME .
 lz3nwoz.online CNAME .
 *.lz3nwoz.online CNAME .
 dns.mahiro.online CNAME .
@@ -26527,6 +26527,8 @@ kendrickandpetezah.s81.fast-page.org CNAME .
 *.kendrickandpetezah.s81.fast-page.org CNAME .
 fastp.org CNAME .
 *.fastp.org CNAME .
+fastproxy.org CNAME .
+*.fastproxy.org CNAME .
 fcpchurch.org CNAME .
 *.fcpchurch.org CNAME .
 feijiyunvpn.org CNAME .

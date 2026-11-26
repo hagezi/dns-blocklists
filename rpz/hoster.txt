@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795648380 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795705980 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Nov 2026 23:13 UTC
-; Version: 2026.1125.2313.04
+; Last modified: 26 Nov 2026 15:13 UTC
+; Version: 2026.1126.1513.09
 ; Syntax: RPZ
-; Number of entries: 2538
+; Number of entries: 2536
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -66,8 +66,6 @@ on-fleek.app CNAME .
 *.on-fleek.app CNAME .
 pory.app CNAME .
 *.pory.app CNAME .
-softr.app CNAME .
-*.softr.app CNAME .
 staticrun.app CNAME .
 *.staticrun.app CNAME .
 teleporthq.app CNAME .
