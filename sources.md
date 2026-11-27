@@ -4,7 +4,22 @@ These are the external sources currently used as **input** for building the bloc
 
 **None of them is copied over one to one.** Every entry is evaluated in context and then normalized, categorized, assigned to a tier, or dropped, and a lot of what ends up in the published lists comes from the project's own maintained data rather than from any source below. Being listed here means a source informs the build, not that its contents show up in a list. The full explanation is in the FAQ: [Where does the data come from, and how are the lists built?](FAQ.md#sources)
 
-Every source has its own license. For the individual licenses, check the source file or the source repository.
+> [!IMPORTANT]
+> **Licenses and commercial use**
+>
+> Every source has its own license, which you'll find in the source file or its repository.
+>
+> We went through all blocklist sources on this page in good faith and to the best of our knowledge, aiming to use only sources with a license compatible with [GPLv3](LICENSE), the license of this project. We checked the license each source states for itself, not what a source uses internally. For combined lists and aggregators, that means only their own license was checked, not the lists they pull in. Sometimes a license can't be determined at all.
+>
+> Licenses and terms can also change after we've looked at a source. The domain rankings and reputation data aren't blocklists. The build uses them to select and check entries, and they have their own terms of use too.
+>
+> The names of sources and rankings belong to their owners. Being listed here doesn't mean a source is affiliated with this project or endorses it.
+>
+> If you're a company, ISP, VPN or DNS provider, security vendor or other organization, you have to make sure your use case is covered, by the GPLv3 for the lists themselves and by the terms of the upstream sources where they apply. This project can't grant rights to third-party data. The lists come without any warranty, as sections 15 and 16 of the GPLv3 spell out, and nothing here is legal advice.
+>
+> Please don't send permission requests here. The GPLv3 already says what you can do with the lists and what it asks of you in return. Questions about a specific source can only be answered by that source.
+>
+> Reports are welcome, though. If you wrote a list that's used here and its license doesn't fit GPLv3, or you spot a source that doesn't fit, [open an issue](https://github.com/hagezi/dns-blocklists/issues) or email [support@hagezi.org](mailto:support@hagezi.org). We'll check it and remove the source if it really doesn't fit.
 
 The grouping below is a rough guide to what each source mainly contributes. Plenty of them cover more than one category, so the group tells you the main purpose, not the only one.
 
@@ -30,8 +45,6 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt
 https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adback-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/adkeeper-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admeasures-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/bt-contentza-domains.txt
@@ -40,13 +53,10 @@ https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/freecounterst
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/hilltopads-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/istripper-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/kitty-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/macupload-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/propellerads-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/toradvertising-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/unknown-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/videoadex-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/volumedata-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/refs/heads/main/filters/adshield-domains.txt
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
@@ -95,11 +105,9 @@ https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/fil
 https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/chinese-filter.txt
 https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter.txt
 https://codeberg.org/KhodeKiaa/PersianBlocker/raw/branch/main/PersianBlocker.txt
-https://easylist-downloads.adblockplus.org/Liste_AR.txt
 https://easylist-downloads.adblockplus.org/abpindo.txt
 https://easylist-downloads.adblockplus.org/bulgarian_list.txt
 https://easylist-downloads.adblockplus.org/easylistchina.txt
-https://easylist-downloads.adblockplus.org/easylistczechslovak.txt
 https://easylist-downloads.adblockplus.org/easylistdutch.txt
 https://easylist-downloads.adblockplus.org/easylistgermany.txt
 https://easylist-downloads.adblockplus.org/easylistitaly.txt
@@ -111,7 +119,6 @@ https://easylist-downloads.adblockplus.org/indianlist.txt
 https://easylist-downloads.adblockplus.org/israellist.txt
 https://easylist-downloads.adblockplus.org/koreanlist.txt
 https://easylist-downloads.adblockplus.org/latvianlist.txt
-https://easylist-downloads.adblockplus.org/liste_fr.txt
 https://easylist-downloads.adblockplus.org/ruadlist.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_13_Turkish/filter.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt
@@ -219,7 +226,6 @@ https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv
 https://raw.githubusercontent.com/DNSBunker/CTI/refs/heads/main/domains.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt
-https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-*.txt
 https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
 https://raw.githubusercontent.com/Phishing-Database/phishing/refs/heads/master/additions/permanent/domains.list

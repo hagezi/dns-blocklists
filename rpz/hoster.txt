@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795734780 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795767540 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 26 Nov 2026 23:13 UTC
-; Version: 2026.1126.2313.37
+; Last modified: 27 Nov 2026 08:19 UTC
+; Version: 2026.1127.0819.15
 ; Syntax: RPZ
-; Number of entries: 2788
+; Number of entries: 2776
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -174,14 +174,8 @@ noads.biz CNAME .
 *.noads.biz CNAME .
 xp3.biz CNAME .
 *.xp3.biz CNAME .
-blogspot.blog CNAME .
-*.blogspot.blog CNAME .
 fashion.blog CNAME .
 *.fashion.blog CNAME .
-blogspot.bom CNAME .
-*.blogspot.bom CNAME .
-blogspot.br CNAME .
-*.blogspot.br CNAME .
 blogspot.com.br CNAME .
 *.blogspot.com.br CNAME .
 encurtador.com.br CNAME .
@@ -1402,8 +1396,6 @@ lnk.do CNAME .
 *.lnk.do CNAME .
 job.ec CNAME .
 *.job.ec CNAME .
-blogspot.edu CNAME .
-*.blogspot.edu CNAME .
 blogspot.com.ee CNAME .
 *.blogspot.com.ee CNAME .
 paste.ee CNAME .
@@ -1720,8 +1712,6 @@ blogspot.in CNAME .
 *.blogspot.in CNAME .
 cloudns.in CNAME .
 *.cloudns.in CNAME .
-blogspot.co.in CNAME .
-*.blogspot.co.in CNAME .
 esel.in CNAME .
 *.esel.in CNAME .
 gilde.in CNAME .
@@ -2152,8 +2142,6 @@ x10.mx CNAME .
 *.x10.mx CNAME .
 blogspot.my CNAME .
 *.blogspot.my CNAME .
-blogspot.com.my CNAME .
-*.blogspot.com.my CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .
