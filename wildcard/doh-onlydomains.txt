@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 26 Nov 2026 09:10 UTC
-# Version: 2026.1126.0910.26
+# Last modified: 26 Nov 2026 23:53 UTC
+# Version: 2026.1126.2353.23
 # Syntax: Domains (without subdomains)
-# Number of entries: 3562
+# Number of entries: 3587
 #
 ss.0001.xyz
 ns.00dani.me
@@ -71,6 +71,7 @@ dns.354688.xyz
 xjpdns.354688.xyz
 doh.360.cn
 dot.360.cn
+doh.361.best
 adns.3am.la
 dns.3dcapitaltrust.net
 adg.3k.work
@@ -253,10 +254,12 @@ dns-sehat.apigw.online
 ag.apollohct.com
 ds.appl.pk
 doh.dns.apple.com
+mask-api.fe.apple-dns.net
 dns.applewebkit.dev
 doh.appliedprivacy.net
 dot1.appliedprivacy.net
 dns.aquilenet.fr
+dns.arapurayil.com
 doh.archuser.org
 dns.area2.com
 dns-4f92fba5f9.area2.com
@@ -413,6 +416,7 @@ dns.brionesserver.net
 agh.broaddy.com
 service.broe.ru
 dns.brono.cloud
+home.bruckmoser.it
 81.brudnowski.eu
 81xyz.brudnowski.eu
 doh.bt.com
@@ -1111,6 +1115,7 @@ resolver2.dyndnsinternetguide.com
 rafi.dynns.com
 adguard.ekhozie.dynu.net
 ccadguard.dynu.net
+flyloadguard.dynu.net
 quangdo92.dynu.net
 gustamadh.dynv6.net
 dns.dynx.pro
@@ -1202,11 +1207,13 @@ beautifullife.eu.org
 beautifulthings.eu.org
 blackbb.eu.org
 clic.eu.org
+futuredns.eu.org
 r1bnc.eu.org
 sukidayo.eu.org
 tartanbahn.eu.org
 v2rich.eu.org
 yanggan.eu.org
+vm596152.eurodir.ru
 exns1.exalto.nu
 dns.exhome.pl
 adguard.eximpius.xyz
@@ -1215,6 +1222,7 @@ adguard.exium.net
 dns.exonip.de
 dns.extrawdw.net
 ad.exxo.work
+fra1.eyecay.xyz
 dns.f1tech.info
 dns.f4a.fun
 dns.f97.xyz
@@ -1338,6 +1346,7 @@ dns.beta.gandi.net
 dns.garymarek.me
 adguard.gattow.com
 ad.gaukova.ru
+dns.gearworks.app
 adg.geili.me
 dns.geohide.ru
 alyus.geri.vip
@@ -1419,6 +1428,7 @@ secure.hafnova.com
 dns.hahnjo.de
 dns.haka.se
 dns.hakim.one
+dns.hakutakucn.com
 dns.hanahira.dev
 adguard.haneulo.com
 dns.hanmey.de
@@ -1602,6 +1612,7 @@ qlf-doh.inria.fr
 dns.invent.hr
 dns.dugi.io.vn
 dns.cloud.ionutl.ro
+serv0.ingener002.ip-dynamic.org
 kino.ipcon9886546.space
 dns.ipoac.nl
 dns.qiyipic.iqiyi.com
@@ -1690,6 +1701,7 @@ dns.jucker.engineering
 addns.jujuland.net
 dns.jundev.org
 dns.jungle-im.ir
+dns.jupitrdns.com
 sgs02.just-a-web.com
 ad.justincounts.com
 dns.justinnetworkingsolutions.com
@@ -1866,6 +1878,7 @@ dns.mafyuh.io
 mimir.magicaobscura.de
 dns.mahiro.online
 adhome.maige.fun
+dns.mailcastle.in
 dnsserver.mailchan.eu
 dns.maitrekuc.fr
 dns.malhuda.com
@@ -1888,6 +1901,7 @@ doh.maskab.com
 dns.mateo.ovh
 dns.mathewakhil.online
 rasp.matthias-iwer.de
+dns.matthias-prost.com
 dns.maybe.icu
 dns.mayr.ws
 dns.mbrjun.cn
@@ -1930,10 +1944,13 @@ dns.mikopono.nl
 rwkdwpwsyv48.mikopono.nl
 dns.millernetwork.uk
 color.mine.bz
+nl-nod2.mineweb.cc
 aitkcrev.minhduc.pw
+dns.mipauns.com
 guard.miracloud.fr
 netcup.mismat.ch
 httpdns.browser.miui.com
+dns.miyun1.com
 doh.mmmalia.com
 dns.mnet-online.de
 dns.mni.li
@@ -1953,6 +1970,7 @@ dns.mooncheng.top
 dns.moondip.net
 dns.moonssif.com
 dns.moonwx.net
+disinformer.mooo.com
 e23a.mooo.com
 feellike.mooo.com
 helsh0ru5.mooo.com
@@ -2124,6 +2142,7 @@ tlan.aa1.netvolante.jp
 dns.netvpn.net
 cube.neubsi.at
 dns.neubsi.at
+dns.neutopia.org
 doh.nexen.cloud
 doh.luigi.nexific.it
 anycast.nextdns.io
@@ -2281,6 +2300,7 @@ dns.pari.network
 dns.parsly.tech
 dns.pastorov.ru
 wg.pastorov.ru
+doh.gcp.pathofgrace.com
 nas.patrick-antoine.fr
 dns.paxavemedia.com
 vps-ovh.pb2004.pl
@@ -2455,6 +2475,7 @@ dns.rbn.gr
 adguard.rdekuyper.nl
 1.rdnls.ru
 hk.reaticle.com
+adg.rednetline.com
 dns.redroot.cc
 dns.redvau.lt
 cdn.refined.pro
@@ -2464,6 +2485,7 @@ adblock.renedis.nl
 dns.reolinks.ru
 dns.repinger.com
 dns.repressoh.it
+wg.req1.fr
 x.res.wang
 dns.resoft.org
 dnspub.restena.lu
@@ -2500,6 +2522,7 @@ vps.rokian.net
 vps-1a.rokian.net
 vps-1b.rokian.net
 dns.romain.tech
+dns.romareyme.online
 dns.ronc.ru
 vps1.rootax.org
 vps2.rootax.org
@@ -2910,6 +2933,7 @@ solution.w10.life
 dns.w3ctag.org
 bh.wael.name
 dns.wael.name
+dns.wahr.top
 aqua.is.my.waifu.cz
 darkness.is.my.waifu.cz
 megumin.is.my.waifu.cz
@@ -3392,6 +3416,7 @@ myatris.sbs
 mydevpn.eu
 mysolod.xyz
 myv2ray.cn
+n0.eu
 najiakeji.top
 nelsonleung.org
 nickcan.xyz
