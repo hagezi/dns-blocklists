@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795214340 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795818720 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 22:39 UTC
-; Version: 2026.1120.2239.17
+; Last modified: 27 Nov 2026 22:32 UTC
+; Version: 2026.1127.2232.24
 ; Syntax: RPZ
-; Number of entries: 822
+; Number of entries: 824
 ;
 h4g3z1-native-xiaomi.web.app CNAME .
 *.h4g3z1-native-xiaomi.web.app CNAME .
@@ -22,6 +22,8 @@ mistat.xiaomi.com.download.ks-cdn.com CNAME .
 *.mistat.xiaomi.com.download.ks-cdn.com CNAME .
 kuyun.com CNAME .
 *.kuyun.com CNAME .
+ad.xiaomi.com.mgslb.com CNAME .
+*.ad.xiaomi.com.mgslb.com CNAME .
 ad.intl.xiaomi.com.mgslb.com CNAME .
 *.ad.intl.xiaomi.com.mgslb.com CNAME .
 mistat.xiaomi.com.mgslb.com CNAME .

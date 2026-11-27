@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795791060 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795817700 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,8 +8,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Nov 2026 14:51 UTC
-; Version: 2026.1127.1451.26
+; Last modified: 27 Nov 2026 22:15 UTC
+; Version: 2026.1127.2215.30
 ; Syntax: RPZ
 ; Number of entries: 19448
 ;
@@ -5855,6 +5855,8 @@ qr4pro.com CNAME .
 *.qr4pro.com CNAME .
 qraus.com CNAME .
 *.qraus.com CNAME .
+qrbiolink.com CNAME .
+*.qrbiolink.com CNAME .
 qrcaard.com CNAME .
 *.qrcaard.com CNAME .
 qrcin.com CNAME .
@@ -7139,8 +7141,6 @@ urlki.com CNAME .
 *.urlki.com CNAME .
 henslot.urlklik.com CNAME .
 *.henslot.urlklik.com CNAME .
-tahuplay.urlklik.com CNAME .
-*.tahuplay.urlklik.com CNAME .
 tap.urlklik.com CNAME .
 *.tap.urlklik.com CNAME .
 twg.urlklik.com CNAME .
@@ -12647,8 +12647,6 @@ shrtme.link CNAME .
 *.shrtme.link CNAME .
 shrtq.link CNAME .
 *.shrtq.link CNAME .
-sicepat.link CNAME .
-*.sicepat.link CNAME .
 sidji.link CNAME .
 *.sidji.link CNAME .
 siguiente.link CNAME .
@@ -12957,6 +12955,8 @@ pandastyle.live CNAME .
 *.pandastyle.live CNAME .
 pointpay.live CNAME .
 *.pointpay.live CNAME .
+premierbet.live CNAME .
+*.premierbet.live CNAME .
 protogen.live CNAME .
 *.protogen.live CNAME .
 rcsurvey.live CNAME .
@@ -13451,8 +13451,6 @@ bg4.me CNAME .
 *.bg4.me CNAME .
 biohub.me CNAME .
 *.biohub.me CNAME .
-bioqr.me CNAME .
-*.bioqr.me CNAME .
 biourl.me CNAME .
 *.biourl.me CNAME .
 bisakale.me CNAME .
@@ -13703,6 +13701,8 @@ go.id.me CNAME .
 *.go.id.me CNAME .
 idmail.me CNAME .
 *.idmail.me CNAME .
+igit.me CNAME .
+*.igit.me CNAME .
 inds.me CNAME .
 *.inds.me CNAME .
 inpq.me CNAME .

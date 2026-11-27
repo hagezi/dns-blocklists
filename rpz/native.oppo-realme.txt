@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795214280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795818660 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 22:38 UTC
-; Version: 2026.1120.2238.40
+; Last modified: 27 Nov 2026 22:31 UTC
+; Version: 2026.1127.2231.52
 ; Syntax: RPZ
-; Number of entries: 1064
+; Number of entries: 1070
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -632,6 +632,8 @@ adx-op-ru.heytapmobile.com CNAME .
 *.adx-op-ru.heytapmobile.com CNAME .
 adx-op-sg.heytapmobile.com CNAME .
 *.adx-op-sg.heytapmobile.com CNAME .
+adx-u-fr.heytapmobile.com CNAME .
+*.adx-u-fr.heytapmobile.com CNAME .
 adx-u-in.heytapmobile.com CNAME .
 *.adx-u-in.heytapmobile.com CNAME .
 adx-u-ru.heytapmobile.com CNAME .
@@ -690,6 +692,8 @@ browser-api-in.heytapmobile.com CNAME .
 *.browser-api-in.heytapmobile.com CNAME .
 browser-api-my.heytapmobile.com CNAME .
 *.browser-api-my.heytapmobile.com CNAME .
+browser-api-nz.heytapmobile.com CNAME .
+*.browser-api-nz.heytapmobile.com CNAME .
 browser-api-ph.heytapmobile.com CNAME .
 *.browser-api-ph.heytapmobile.com CNAME .
 browser-api-ru.heytapmobile.com CNAME .
@@ -906,6 +910,8 @@ cloudconf-app-vn.heytapmobile.com CNAME .
 *.cloudconf-app-vn.heytapmobile.com CNAME .
 cloudconf-app-za.heytapmobile.com CNAME .
 *.cloudconf-app-za.heytapmobile.com CNAME .
+adx-ads-fr-heytapmobila-c7870.fr-w01.cngw.heytapmobile.com CNAME .
+*.adx-ads-fr-heytapmobila-c7870.fr-w01.cngw.heytapmobile.com CNAME .
 adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com CNAME .
 *.adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com CNAME .
 adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com CNAME .

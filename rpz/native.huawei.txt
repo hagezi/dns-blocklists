@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794598020 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795818480 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 19:27 UTC
-; Version: 2026.1113.1927.19
+; Last modified: 27 Nov 2026 22:28 UTC
+; Version: 2026.1127.2228.26
 ; Syntax: RPZ
-; Number of entries: 296
+; Number of entries: 294
 ;
 h4g3z1-native-huawei.web.app CNAME .
 *.h4g3z1-native-huawei.web.app CNAME .
@@ -148,8 +148,6 @@ grs-dbankcloud-com-dre.region.dbankedge.cn CNAME .
 *.grs-dbankcloud-com-dre.region.dbankedge.cn CNAME .
 grs-dbankcloud-com-drcn.wec.dbankedge.cn CNAME .
 *.grs-dbankcloud-com-drcn.wec.dbankedge.cn CNAME .
-logserver.nzxcloud.cn CNAME .
-*.logserver.nzxcloud.cn CNAME .
 dnkeeper.dbankcloud.com CNAME .
 *.dnkeeper.dbankcloud.com CNAME .
 hisearch-dra.dt.dbankcloud.com CNAME .

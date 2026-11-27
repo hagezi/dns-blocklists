@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795213980 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795818360 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 22:33 UTC
-; Version: 2026.1120.2233.47
+; Last modified: 27 Nov 2026 22:26 UTC
+; Version: 2026.1127.2226.44
 ; Syntax: RPZ
-; Number of entries: 210
+; Number of entries: 198
 ;
 h4g3z1-native-apple.web.app CNAME .
 *.h4g3z1-native-apple.web.app CNAME .
@@ -48,8 +48,6 @@ prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 *.prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 prod-event-relay-weather-api.v.aaplimg.com CNAME .
 *.prod-event-relay-weather-api.v.aaplimg.com CNAME .
-prod-event-relay-web-api.v.aaplimg.com CNAME .
-*.prod-event-relay-web-api.v.aaplimg.com CNAME .
 prod-iwork-events.v.aaplimg.com CNAME .
 *.prod-iwork-events.v.aaplimg.com CNAME .
 prod-news-notification-events.v.aaplimg.com CNAME .
@@ -198,20 +196,10 @@ partiality.itunes-apple.com.akadns.net CNAME .
 *.partiality.itunes-apple.com.akadns.net CNAME .
 searchads.lb-apple.com.akadns.net CNAME .
 *.searchads.lb-apple.com.akadns.net CNAME .
-feedbackws.fe.apple-dns.net CNAME .
-*.feedbackws.fe.apple-dns.net CNAME .
 feedbackws.fe2.apple-dns.net CNAME .
 *.feedbackws.fe2.apple-dns.net CNAME .
 me.apple-dns.net CNAME .
 *.me.apple-dns.net CNAME .
-books-analytics-events.news.apple-dns.net CNAME .
-*.books-analytics-events.news.apple-dns.net CNAME .
-notes-analytics-events.news.apple-dns.net CNAME .
-*.notes-analytics-events.news.apple-dns.net CNAME .
-stocks-analytics-events.news.apple-dns.net CNAME .
-*.stocks-analytics-events.news.apple-dns.net CNAME .
-weather-analytics-events.news.apple-dns.net CNAME .
-*.weather-analytics-events.news.apple-dns.net CNAME .
 experiments.apple.com.edgekey.net CNAME .
 *.experiments.apple.com.edgekey.net CNAME .
 iadsdk.apple.com.edgekey.net CNAME .

@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 20 Nov 2026 22:35 UTC
-# Version: 2026.1120.2235.49
+# Last modified: 27 Nov 2026 22:29 UTC
+# Version: 2026.1127.2229.05
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 553
+# Number of entries: 547
 #
 local=/analytics.us.tiktok.com.bytedance.akadns.net/
 local=/analytics.us.tiktok.com.bytewlb.akadns.net/
@@ -145,6 +145,7 @@ local=/analytics16-normal-useast5.tiktokw.us.edgesuite.net/
 local=/analytics16-normal-useast8.tiktokw.us.edgesuite.net/
 local=/log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com/
 local=/log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com/
+local=/rtlog16-normal-useastred.tiktokv.eu.intern.schreinereistumpf.de/
 local=/abtest-ch.snssdk.com/
 local=/analytics.snssdk.com/
 local=/applog.snssdk.com/
@@ -216,6 +217,7 @@ local=/analytics16-normal.tiktok.com/
 local=/analytics16-normal-alisg.tiktok.com/
 local=/business-api.tiktok.com/
 local=/location.tiktok.com/
+local=/location-i18n.tiktok.com/
 local=/mcs-i18n.tiktok.com/
 local=/mcs-va.tiktok.com/
 local=/p19-tiktok-ads-sg.tiktokcdn.com/
@@ -247,7 +249,6 @@ local=/ad.tiktokv.com/
 local=/ad.tiktokv.eu/
 local=/ad.tiktokv.us/
 local=/ad-format.tiktokv.eu/
-local=/ad-format.tiktokv.us/
 local=/ad-format-i18n.tiktokv.com/
 local=/ad-format-ie.tiktokv.eu/
 local=/ad-format-ru.tiktokv.com/
@@ -274,7 +275,6 @@ local=/location.tiktokv.com/
 local=/location.tiktokv.eu/
 local=/location-i18n.tiktokv.com/
 local=/location-ie.tiktokv.eu/
-local=/location-ru.tiktokv.com/
 local=/location-sg.tiktokv.com/
 local=/location-ttp2.tiktokv.eu/
 local=/location-ttp2.tiktokv.us/
@@ -300,9 +300,6 @@ local=/log-dr16-normal-useast1a.tiktokv.com/
 local=/log-dr16-normal-useast5.tiktokv.us/
 local=/log-dr16-normal-useast8.tiktokv.us/
 local=/log-dr16-normal-useastred.tiktokv.eu/
-local=/log-dr19-normal-no1a.tiktokv.eu/
-local=/log-dr19-normal-useast5.tiktokv.us/
-local=/log-dr19-normal-useast8.tiktokv.us/
 local=/log-i18n.tiktokv.com/
 local=/log-phx.tiktokv.com/
 local=/log-ru.tiktokv.com/
@@ -405,11 +402,9 @@ local=/rtc-logger.tiktokv.com/
 local=/rtc-logger.tiktokv.eu/
 local=/rtc-logger.tiktokv.us/
 local=/rtc-logger-i18n.tiktokv.com/
-local=/rtc-logger-ie.tiktokv.eu/
 local=/rtc-logger-ttp2.tiktokv.eu/
 local=/rtc-logger-ttp2.tiktokv.us/
 local=/rtc-logger-va.tiktokv.com/
-local=/rtc-logger16-normal.tiktokv.com/
 local=/rtc-logger16-normal-alisg.tiktokv.com/
 local=/rtc-logger16-normal-useastred.tiktokv.eu/
 local=/rtlog.tiktokv.com/
@@ -535,7 +530,6 @@ local=/ads-ie.tiktokw.eu/
 local=/ads-ttp2.tiktokw.eu/
 local=/ads-ttp2.tiktokw.us/
 local=/ads16-normal-useastred.tiktokw.eu/
-local=/analytics-exp.tiktokw.eu/
 local=/analytics-exp-ie.tiktokw.eu/
 local=/analytics-exp-ttp2.tiktokw.eu/
 local=/analytics-exp16-normal-useastred.tiktokw.eu/

@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 20 Nov 2026 22:33 UTC
-# Version: 2026.1120.2233.47
+# Last modified: 27 Nov 2026 22:26 UTC
+# Version: 2026.1127.2226.44
 # Syntax: DNSMasq v2.86 or newer
-# Number of entries: 105
+# Number of entries: 99
 #
 local=/cstat.g.aaplimg.com/
 local=/diagassets.g.aaplimg.com/
@@ -21,7 +21,6 @@ local=/prod-event-relay-notes-api.v.aaplimg.com/
 local=/prod-event-relay-sports-api.v.aaplimg.com/
 local=/prod-event-relay-stocks-api.v.aaplimg.com/
 local=/prod-event-relay-weather-api.v.aaplimg.com/
-local=/prod-event-relay-web-api.v.aaplimg.com/
 local=/prod-iwork-events.v.aaplimg.com/
 local=/prod-news-notification-events.v.aaplimg.com/
 local=/securemetrics.v.aaplimg.com/
@@ -89,12 +88,7 @@ local=/weather-analytics-events.apple.com/
 local=/xp.apple.com/
 local=/xp-cdn.apple.com/
 local=/feedbackws.fe.apple-dns.cn/
-local=/feedbackws.fe.apple-dns.net/
 local=/feedbackws.fe2.apple-dns.net/
-local=/books-analytics-events.news.apple-dns.net/
-local=/notes-analytics-events.news.apple-dns.net/
-local=/stocks-analytics-events.news.apple-dns.net/
-local=/weather-analytics-events.news.apple-dns.net/
 local=/me.apple-dns.net/
 local=/cstat.cdn-apple.com/
 local=/securemetrics.apple.com.cn/

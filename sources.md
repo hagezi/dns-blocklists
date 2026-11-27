@@ -71,6 +71,10 @@ https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easypriva
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_mining.txt
 https://raw.githubusercontent.com/kalabic/dns-blocklists-share/refs/heads/main/share/ad-shield.txt
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
+https://raw.githubusercontent.com/sertchan/Stella/refs/heads/main/lists/ads/domains.txt
+https://raw.githubusercontent.com/sertchan/Stella/refs/heads/main/lists/self-hosted-telemetry/domains.txt
+https://raw.githubusercontent.com/sertchan/Stella/refs/heads/main/lists/telemetry/domains.txt
+https://raw.githubusercontent.com/sertchan/Stella/refs/heads/main/lists/tracker/domains.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
@@ -305,7 +309,9 @@ https://raw.githubusercontent.com/omerdduran/turk-adfilter/main/turk-adfilter-ba
 Feeds the NSFW list.
 
 ```
--
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Adult
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Dating
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Shock
 ```
 
 ### Piracy

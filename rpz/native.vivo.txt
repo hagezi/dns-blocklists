@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795214280 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795818660 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 22:38 UTC
-; Version: 2026.1120.2238.10
+; Last modified: 27 Nov 2026 22:31 UTC
+; Version: 2026.1127.2231.25
 ; Syntax: RPZ
-; Number of entries: 604
+; Number of entries: 608
 ;
 h4g3z1-native-vivo.web.app CNAME .
 *.h4g3z1-native-vivo.web.app CNAME .
@@ -234,6 +234,8 @@ eu-errup.vivoglobal.com CNAME .
 *.eu-errup.vivoglobal.com CNAME .
 eu-monitor-stsdk.vivoglobal.com CNAME .
 *.eu-monitor-stsdk.vivoglobal.com CNAME .
+eu-nrt-stsdk.vivoglobal.com CNAME .
+*.eu-nrt-stsdk.vivoglobal.com CNAME .
 eu-onrt-stsdk.vivoglobal.com CNAME .
 *.eu-onrt-stsdk.vivoglobal.com CNAME .
 eu-ort-stsdk.vivoglobal.com CNAME .
@@ -506,6 +508,8 @@ ru-prt-stsdk.vivoglobal.com CNAME .
 *.ru-prt-stsdk.vivoglobal.com CNAME .
 ru-romsp-unifyconfig.vivoglobal.com CNAME .
 *.ru-romsp-unifyconfig.vivoglobal.com CNAME .
+ru-rt-stsdk.vivoglobal.com CNAME .
+*.ru-rt-stsdk.vivoglobal.com CNAME .
 ru-st-exappupgrade.vivoglobal.com CNAME .
 *.ru-st-exappupgrade.vivoglobal.com CNAME .
 ru-st-sl.vivoglobal.com CNAME .
