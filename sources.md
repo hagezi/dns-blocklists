@@ -7,8 +7,7 @@ These are the external sources currently used as **input** for building the bloc
 > [!IMPORTANT]
 > **Licenses and commercial use**
 >
-> Every source has its own license, which you'll find in the source file or its repository.
->
+> Every source has its own license, which you'll find in the source file or its repository.>
 > We went through all blocklist sources on this page in good faith and to the best of our knowledge, aiming to use only sources with a license compatible with [GPLv3](LICENSE), the license of this project. We checked the license each source states for itself, not what a source uses internally. For combined lists and aggregators, that means only their own license was checked, not the lists they pull in. Sometimes a license can't be determined at all.
 >
 > Licenses and terms can also change after we've looked at a source. The domain rankings and reputation data aren't blocklists. The build uses them to select and check entries, and they have their own terms of use too.
@@ -37,7 +36,6 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
-https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/specific.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt
@@ -49,20 +47,16 @@ https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admaven-domai
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/admeasures-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/bt-contentza-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/freecounterstat-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/hilltopads-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/istripper-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/macupload-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/propellerads-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/toradvertising-domains.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/videoadex-domains.txt
 https://raw.githubusercontent.com/LanikSJ/ubo-filters/refs/heads/main/filters/adshield-domains.txt
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Wild_Ads
 https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Wild_Tracking
-https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty-cname.txt
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty.txt
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-ios-specific.txt
 https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains
@@ -75,9 +69,7 @@ https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easypriva
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_general.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_mining.txt
-https://raw.githubusercontent.com/jkrejcha/AdmiraList/master/AdmiraList.txt
 https://raw.githubusercontent.com/kalabic/dns-blocklists-share/refs/heads/main/share/ad-shield.txt
-https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/ads-tracking
 https://raw.githubusercontent.com/realodix/adblockid/main/dist/adblockid.adfl.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
@@ -104,7 +96,6 @@ https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/
 https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt
 https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/chinese-filter.txt
 https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter.txt
-https://codeberg.org/KhodeKiaa/PersianBlocker/raw/branch/main/PersianBlocker.txt
 https://easylist-downloads.adblockplus.org/abpindo.txt
 https://easylist-downloads.adblockplus.org/bulgarian_list.txt
 https://easylist-downloads.adblockplus.org/easylistchina.txt
@@ -131,7 +122,6 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
-https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt
 https://raw.githubusercontent.com/DandelionSprout/Swedish-List-for-Adblock-Plus/refs/heads/main/Swedish%20List%20for%20All-Nordic.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt
@@ -139,13 +129,9 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SerboCroatianLis
 https://raw.githubusercontent.com/DeepSpaceHarbor/Macedonian-adBlock-Filters/refs/heads/master/Filters
 https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/1st_domains.txt
 https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/3rd_domains.txt
-https://raw.githubusercontent.com/Hakame-kun/uBlock-Filters-Indonesia/master/uBlock%20Indo/ubindo.txt
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerAds-Hosts.txt
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerTrackers-Hosts.txt
 https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
 https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
-https://raw.githubusercontent.com/betterwebleon/slovenian-list/refs/heads/master/filters.txt
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers.txt
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty-regional.txt
@@ -163,9 +149,7 @@ https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/ads/ads.txt
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/combined/combined.txt
 https://raw.githubusercontent.com/ukrainianfilters/lists/main/privacy/privacy.txt
-https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
-https://ubo-et.lepik.io/list.txt
 https://www.void.gr/kargig/void-gr-filters.txt
 https://www.zoso.ro/pages/rolist.txt
 https://www.zoso.ro/pages/rolist2.txt
@@ -179,7 +163,6 @@ Feeds the Pop-Up Ads list, which is also bundled into the Multi tiers at varying
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/adguard_popup_filter.txt
 https://codeberg.org/jcoscia/evasive-ads-blocklist/raw/branch/main/adcash.txt
 https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/05_popup.txt
-https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/popads-domains.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers_popup.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_specific_block_popup.txt
 https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty_popup.txt
@@ -221,13 +204,12 @@ https://codeberg.org/xRuffKez/DNSBunker_DNSBL/raw/branch/main/06_phish.txt
 https://gitlab.com/phishdestroy/destroylist/-/raw/main/dns/content_active.txt
 https://gitlab.com/phishdestroy/destroylist/-/raw/main/list.txt
 https://hole.cert.pl/domains/v2/domains.txt
-https://netapi.com/zf-api/f/compromised/domains/live/
+https://netapi.com/api2/?method=compromised&dataset_type=url
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv
 https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv
 https://raw.githubusercontent.com/DNSBunker/CTI/refs/heads/main/domains.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt
-https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed-*.txt
-https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt
+https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/
 https://raw.githubusercontent.com/Phishing-Database/phishing/refs/heads/master/additions/permanent/domains.list
 https://raw.githubusercontent.com/Phishing-Database/phishing/refs/heads/master/additions/permanent/domains.wildcard.list
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
@@ -311,7 +293,6 @@ https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Gambli
 https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/gambling.txt
 https://raw.githubusercontent.com/arfshl/anti-gambling-domains/refs/heads/main/domains.txt
 https://raw.githubusercontent.com/arkynx/blocklists/refs/heads/main/gambling-domains.txt
-https://raw.githubusercontent.com/bet-blocker/bet-blocker/refs/heads/main/blocklist.txt
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/hosts-VN
 https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains
@@ -366,7 +347,7 @@ Not blocklists, but datasets the build uses to decide what belongs in a list.
 | NetAPI | [netapi_top1mln.csv](https://netapi.com/netapi_top1mln.csv) |
 
 > [!NOTE]
-> The NetAPI ranking is published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Credit: [NetAPI Top 1 Million Websites](https://netapi.com/top-1-mln-websites/).
+> NetAPI publishes both its ranking and its compromised domains feed (listed under malware and phishing above) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Credit: [NetAPI Top 1 Million Websites](https://netapi.com/top-1-mln-websites/) and [NetAPI](https://netapi.com/).
 
 The rest of this section isn't linked, since it's reputation data or a one-off benchmark set rather than a plain download:
 
