@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795818600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795856880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's LG webOS Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Nov 2026 22:30 UTC
-; Version: 2026.1127.2230.31
+; Last modified: 28 Nov 2026 09:08 UTC
+; Version: 2026.1128.0908.54
 ; Syntax: RPZ
-; Number of entries: 922
+; Number of entries: 924
 ;
 h4g3z1-native-lgwebos.web.app CNAME .
 *.h4g3z1-native-lgwebos.web.app CNAME .
@@ -560,6 +560,8 @@ lv-ad-lgsmartad-com.aws-prd.net CNAME .
 *.lv-ad-lgsmartad-com.aws-prd.net CNAME .
 lv-info-lgsmartad-com.aws-prd.net CNAME .
 *.lv-info-lgsmartad-com.aws-prd.net CNAME .
+lv-rdx2-lgtvsdp-com.aws-prd.net CNAME .
+*.lv-rdx2-lgtvsdp-com.aws-prd.net CNAME .
 ly-ad-lgsmartad-com.aws-prd.net CNAME .
 *.ly-ad-lgsmartad-com.aws-prd.net CNAME .
 ly-info-lgsmartad-com.aws-prd.net CNAME .
