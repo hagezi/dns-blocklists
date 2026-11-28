@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795856100 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795881060 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 28 Nov 2026 08:55 UTC
-; Version: 2026.1128.0855.47
+; Last modified: 28 Nov 2026 15:51 UTC
+; Version: 2026.1128.1551.05
 ; Syntax: RPZ
-; Number of entries: 3886
+; Number of entries: 3884
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -92,8 +92,6 @@ craftx.biz CNAME .
 *.craftx.biz CNAME .
 d2g.biz CNAME .
 *.d2g.biz CNAME .
-dhcp.biz CNAME .
-*.dhcp.biz CNAME .
 dns53.biz CNAME .
 *.dns53.biz CNAME .
 dyn-access.biz CNAME .
