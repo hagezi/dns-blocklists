@@ -8,10 +8,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 27 Nov 2026 22:02 UTC
-! Version: 2026.1127.2202.57
+! Last modified: 28 Nov 2026 08:57 UTC
+! Version: 2026.1128.0857.19
 ! Syntax: AdGuard
-! Number of latin TLDs: 294 - punycode TLDs: 151
+! Number of latin TLDs: 295 - punycode TLDs: 151
 !
 ||*.actor^
 ||*.africa^$denyallow=nation.africa
@@ -49,6 +49,7 @@
 ||*.cash^$denyallow=cake.cash|doe.cash|redtiger.cash|vitunleija.cash
 ||*.casino^
 ||*.cc^$denyallow=10gen.cc|adguard-vpn.cc|akami-solutions.cc|arduino.cc|clashofmagic.cc|coolkit.cc|coopoo.cc|crcon.cc|datapump.cc|dhilosnetworks.cc|dict.cc|dns36.cc|eay.cc|ewelink.cc|fanbox.cc|fiedler.cc|fito.cc|forestapp.cc|frontrow.cc|godoflove.cc|imgus.cc|is.cc|itead.cc|kktix.cc|libstc.cc|lilygo.cc|lurl.cc|mydaddy.cc|myppt.cc|nssm.cc|postimg.cc|ppt.cc|pravatar.cc|pretendo.cc|ptt.cc|pttweb.cc|rapha.cc|rapidcdn.cc|reurl.cc|road.cc|rutracker.cc|shottr.cc|silca.cc|sneakpeek.cc|theradio.cc|toxicland.cc|ultra.cc|ultracloud.cc|vern.cc|vocus.cc|wallhaven.cc|yipee.cc|yz168.cc|zcyph.cc
+||*.cc.cd^
 ||*.center^$denyallow=found.center|mein-kunden.center|oh.center|priv.center|relaxx.center
 ||*.ceo^
 ||*.cf^$denyallow=google.cf

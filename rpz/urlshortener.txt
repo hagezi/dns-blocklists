@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795817700 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795852680 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's URL Shortener - blocks link shorteners!
@@ -8,10 +8,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Nov 2026 22:15 UTC
-; Version: 2026.1127.2215.30
+; Last modified: 28 Nov 2026 07:58 UTC
+; Version: 2026.1128.0758.55
 ; Syntax: RPZ
-; Number of entries: 19448
+; Number of entries: 19430
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1819,6 +1819,8 @@ keck.center CNAME .
 *.keck.center CNAME .
 uni.cf CNAME .
 *.uni.cf CNAME .
+masuk.cfd CNAME .
+*.masuk.cfd CNAME .
 minggu.cfd CNAME .
 *.minggu.cfd CNAME .
 sgeiruehou.cfd CNAME .
@@ -3655,6 +3657,10 @@ links.casjoe.com CNAME .
 *.links.casjoe.com CNAME .
 caslinks.com CNAME .
 *.caslinks.com CNAME .
+casnest.com CNAME .
+*.casnest.com CNAME .
+casqaro.com CNAME .
+*.casqaro.com CNAME .
 casualient.com CNAME .
 *.casualient.com CNAME .
 catchingtherain.com CNAME .
@@ -4037,8 +4043,6 @@ dssurl.com CNAME .
 *.dssurl.com CNAME .
 dukehealthwiki.com CNAME .
 *.dukehealthwiki.com CNAME .
-dviel.com CNAME .
-*.dviel.com CNAME .
 p.dw.com CNAME .
 *.p.dw.com CNAME .
 dwarfurl.com CNAME .
@@ -4249,8 +4253,6 @@ flbox.com CNAME .
 *.flbox.com CNAME .
 flexjetcareers.com CNAME .
 *.flexjetcareers.com CNAME .
-flextrig.com CNAME .
-*.flextrig.com CNAME .
 flickerlink.com CNAME .
 *.flickerlink.com CNAME .
 flinkio.com CNAME .
@@ -4873,6 +4875,8 @@ laowangso.com CNAME .
 *.laowangso.com CNAME .
 latinhire.com CNAME .
 *.latinhire.com CNAME .
+lckyrll.com CNAME .
+*.lckyrll.com CNAME .
 leakslinks.com CNAME .
 *.leakslinks.com CNAME .
 leitup.com CNAME .
@@ -5633,8 +5637,6 @@ ontwig.com CNAME .
 *.ontwig.com CNAME .
 opent2.com CNAME .
 *.opent2.com CNAME .
-opizo.com CNAME .
-*.opizo.com CNAME .
 url.optidiscover.com CNAME .
 *.url.optidiscover.com CNAME .
 opzai.com CNAME .
@@ -6395,8 +6397,6 @@ shrtlist.com CNAME .
 *.shrtlist.com CNAME .
 shrtlnk.com CNAME .
 *.shrtlnk.com CNAME .
-shrtna.com CNAME .
-*.shrtna.com CNAME .
 shrtso.com CNAME .
 *.shrtso.com CNAME .
 shrturl.com CNAME .
@@ -6787,8 +6787,6 @@ tikybio.com CNAME .
 *.tikybio.com CNAME .
 get.timbbe.com CNAME .
 *.get.timbbe.com CNAME .
-timessquarefacts.com CNAME .
-*.timessquarefacts.com CNAME .
 go.tinder.com CNAME .
 *.go.tinder.com CNAME .
 tinderurl.com CNAME .
@@ -7141,6 +7139,8 @@ urlki.com CNAME .
 *.urlki.com CNAME .
 henslot.urlklik.com CNAME .
 *.henslot.urlklik.com CNAME .
+tahuplay.urlklik.com CNAME .
+*.tahuplay.urlklik.com CNAME .
 tap.urlklik.com CNAME .
 *.tap.urlklik.com CNAME .
 twg.urlklik.com CNAME .
@@ -7371,8 +7371,6 @@ vretive.com CNAME .
 *.vretive.com CNAME .
 vshorturl.com CNAME .
 *.vshorturl.com CNAME .
-vtity.com CNAME .
-*.vtity.com CNAME .
 vuiet.com CNAME .
 *.vuiet.com CNAME .
 vurl.com CNAME .
@@ -7517,8 +7515,6 @@ xr.com CNAME .
 *.xr.com CNAME .
 xtglinks.com CNAME .
 *.xtglinks.com CNAME .
-xxxdwz.com CNAME .
-*.xxxdwz.com CNAME .
 yahbo.com CNAME .
 *.yahbo.com CNAME .
 yalepccsm.com CNAME .
@@ -7649,8 +7645,6 @@ zzlinks.com CNAME .
 *.zzlinks.com CNAME .
 zzlocalsquared.com CNAME .
 *.zzlocalsquared.com CNAME .
-scm.community CNAME .
-*.scm.community CNAME .
 ops.consulting CNAME .
 *.ops.consulting CNAME .
 asc.cool CNAME .
@@ -10981,8 +10975,6 @@ ugp.io CNAME .
 *.ugp.io CNAME .
 umbe.io CNAME .
 *.umbe.io CNAME .
-unelma.io CNAME .
-*.unelma.io CNAME .
 untitledone.io CNAME .
 *.untitledone.io CNAME .
 url1.io CNAME .
@@ -12647,6 +12639,8 @@ shrtme.link CNAME .
 *.shrtme.link CNAME .
 shrtq.link CNAME .
 *.shrtq.link CNAME .
+sicepat.link CNAME .
+*.sicepat.link CNAME .
 sidji.link CNAME .
 *.sidji.link CNAME .
 siguiente.link CNAME .
@@ -13027,8 +13021,6 @@ csj.lol CNAME .
 *.csj.lol CNAME .
 cutt.lol CNAME .
 *.cutt.lol CNAME .
-diato.lol CNAME .
-*.diato.lol CNAME .
 idfk.lol CNAME .
 *.idfk.lol CNAME .
 indahnyaberbagi.lol CNAME .
@@ -13675,8 +13667,6 @@ headlink.me CNAME .
 *.headlink.me CNAME .
 heylink.me CNAME .
 *.heylink.me CNAME .
-hjl.me CNAME .
-*.hjl.me CNAME .
 hl7.me CNAME .
 *.hl7.me CNAME .
 hlaueriksson.me CNAME .
@@ -15617,8 +15607,6 @@ bigwinjiliwin63.online CNAME .
 *.bigwinjiliwin63.online CNAME .
 bolstr.online CNAME .
 *.bolstr.online CNAME .
-dn303.online CNAME .
-*.dn303.online CNAME .
 freegamesjiliwin63.online CNAME .
 *.freegamesjiliwin63.online CNAME .
 jagoan-hosting.online CNAME .
@@ -16043,8 +16031,6 @@ urcode.org CNAME .
 *.urcode.org CNAME .
 url5.org CNAME .
 *.url5.org CNAME .
-urldirect21-1.org CNAME .
-*.urldirect21-1.org CNAME .
 urlex.org CNAME .
 *.urlex.org CNAME .
 urlexpander.org CNAME .
@@ -18049,8 +18035,6 @@ taps.to CNAME .
 *.taps.to CNAME .
 temu.to CNAME .
 *.temu.to CNAME .
-theurl.to CNAME .
-*.theurl.to CNAME .
 thrill.to CNAME .
 *.thrill.to CNAME .
 tnw.to CNAME .
@@ -18605,8 +18589,6 @@ celfam.us CNAME .
 *.celfam.us CNAME .
 clater.us CNAME .
 *.clater.us CNAME .
-clipurl.us CNAME .
-*.clipurl.us CNAME .
 clkon.us CNAME .
 *.clkon.us CNAME .
 clybi.us CNAME .

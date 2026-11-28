@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795767540 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795854000 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster - guards against malicious hosting services!
@@ -11,10 +11,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Nov 2026 08:19 UTC
-; Version: 2026.1127.0819.15
+; Last modified: 28 Nov 2026 08:20 UTC
+; Version: 2026.1128.0820.54
 ; Syntax: RPZ
-; Number of entries: 2776
+; Number of entries: 2786
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1030,6 +1030,8 @@ wuaze.com CNAME .
 *.wuaze.com CNAME .
 wy5532.com CNAME .
 *.wy5532.com CNAME .
+x10host.com CNAME .
+*.x10host.com CNAME .
 xaper.com CNAME .
 *.xaper.com CNAME .
 xooit.com CNAME .
@@ -1780,6 +1782,8 @@ infura-ipfs.io CNAME .
 *.infura-ipfs.io CNAME .
 ipfs.io CNAME .
 *.ipfs.io CNAME .
+loclx.io CNAME .
+*.loclx.io CNAME .
 mdbgo.io CNAME .
 *.mdbgo.io CNAME .
 mylinkinb.io CNAME .
@@ -2020,6 +2024,8 @@ ipns.inbrowser.link CNAME .
 *.ipns.inbrowser.link CNAME .
 nftstorage.link CNAME .
 *.nftstorage.link CNAME .
+pinggy.link CNAME .
+*.pinggy.link CNAME .
 replug.link CNAME .
 *.replug.link CNAME .
 sc.link CNAME .
@@ -2186,6 +2192,8 @@ eu5.net CNAME .
 *.eu5.net CNAME .
 filebin.net CNAME .
 *.filebin.net CNAME .
+flashbuilder.net CNAME .
+*.flashbuilder.net CNAME .
 freakshare.net CNAME .
 *.freakshare.net CNAME .
 freeasphost.net CNAME .
@@ -2552,6 +2560,8 @@ amz.run CNAME .
 *.amz.run CNAME .
 in.run CNAME .
 *.in.run CNAME .
+localhost.run CNAME .
+*.localhost.run CNAME .
 pancake.run CNAME .
 *.pancake.run CNAME .
 plasmic.run CNAME .

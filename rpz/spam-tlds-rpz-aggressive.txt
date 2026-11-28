@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795816920 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795856220 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -12,10 +12,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Nov 2026 22:02 UTC
-; Version: 2026.1127.2202.57
+; Last modified: 28 Nov 2026 08:57 UTC
+; Version: 2026.1128.0857.19
 ; Syntax: RPZ
-; Number of latin TLDs: 294
+; Number of latin TLDs: 295
 ;
 *.actor CNAME .
 *.africa CNAME .
@@ -53,6 +53,7 @@ $TTL 3600
 *.cash CNAME .
 *.casino CNAME .
 *.cc CNAME .
+*.cc.cd CNAME .
 *.center CNAME .
 *.ceo CNAME .
 *.cf CNAME .
